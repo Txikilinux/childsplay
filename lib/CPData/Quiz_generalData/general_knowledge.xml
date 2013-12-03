@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<activities>
+    <metainfo>
+        <target>general_knowledge</target>
+    </metainfo>
+        <activity name="quiz_picture">
+        <cycles>2</cycles>
+        </activity>
+        <activity name="quiz_text" group="quiz">
+        <cycles>4</cycles>
+        </activity>
+        <activity name="quiz_math" group="quiz">
+        <cycles>2</cycles>
+    </activity>
+    <activity name="quiz_text" group="quiz">
+        <cycles>2</cycles>
+        </activity>
+        <activity name="quiz_sayings" group="quiz">
+        <cycles>2</cycles>
+    </activity>
+</activities>    
+
+    

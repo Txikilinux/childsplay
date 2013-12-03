@@ -1,0 +1,31 @@
+# Template conffile for mysql dbases used by BT+
+# This file is named db.dev and doesn't contain passwords
+# as we use the root user without password while developing.
+# For production machines we place a db.conf file in the root
+# directory which contains usernames and passwords for the
+# dbases.
+# The idea is that the DataManager uses db.dev but when a db.conf
+# exists the latter is used.
+# db.conf is never added to git.
+# db.conf must have the same layout as this db.dev file.
+# The layout used is the same as a Python ConfParser file.
+
+[default]
+# production indicates if this is a production machine.
+# Possible values: 0 or 1.
+# If production == 1 then certain parts of the code are disabled.
+production = 0
+# the users dbase
+host_users = localhost
+user_sp_users = root
+user_sp_users_pass = 
+dbasename_users = sp_users
+# the content dbase
+host_content = localhost
+user_btp_content = root
+user_btp_content_pass = 
+dbasename_content = sp_content
+
+
+
+ 

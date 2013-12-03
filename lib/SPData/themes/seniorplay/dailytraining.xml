@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<activities>
+    <metainfo>
+        <target>dailytraining</target>
+    </metainfo>
+        <activity name="quiz_picture">
+            <level>3</level>
+            <cycles>1</cycles>
+        </activity>
+        <activity name="memory_sp">
+            <level>3</level>
+            <cycles>2</cycles>
+        </activity>
+        <activity name="quiz_text">
+            <level>3</level>
+            <cycles>2</cycles>
+        </activity>
+        <activity name="quiz_math">
+            <level>3</level>
+            <cycles>3</cycles>
+        </activity>
+        <activity name="findit_sp">
+            <level>1</level><!-- don't have data for levels greater than 1 in SNP -->
+            <cycles>2</cycles>
+        </activity>
+        <activity name="electro_sp">
+            <level>3</level>
+            <cycles>2</cycles>
+        </activity>
+</activities>    
+
+    

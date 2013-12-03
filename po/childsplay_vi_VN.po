@@ -1,0 +1,1041 @@
+# translation of childsplay_sp_vi_VN.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# stas Zytkiewicz <stas.zytkiewicz@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: childsplay_sp_vi_VN\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-20 11:13+0100\n"
+"PO-Revision-Date: 2008-10-06 14:14+0200\n"
+"Last-Translator: stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../SPHelpText.py:76
+msgid ""
+"\n"
+"\n"
+"Touch the 'Play' button to continue the game."
+msgstr ""
+
+#: ../SPHelpText.py:71
+msgid ""
+"\n"
+"\n"
+"Touch the changed picture."
+msgstr ""
+
+#: ../lib/packid.py:503
+msgid "(max two per word), you can play the last level which is a maze."
+msgstr ""
+
+#: ../SPMenu.py:344
+msgid "A collection of braintrain games for seniors."
+msgstr ""
+
+#: ../lib/memory_sp.py:216
+msgid "Accuracy is more important than speed."
+msgstr ""
+
+#: ../SPMainCore.py:473
+msgid "Activity :"
+msgstr ""
+
+#: ../SPMainCore.py:585
+#, python-format
+msgid "Activity : %s"
+msgstr ""
+
+#: ../lib/dltr.py:377
+msgid "Activity:"
+msgstr ""
+
+#: ../lib/fourrow.py:131
+msgid "All pills, both red and yellow, stack on each other."
+msgstr ""
+
+#: ../SPMenu.py:345
+msgid ""
+"All the games have there own help page, just start a game and hit the stars "
+"on top of the screen to select another difficulty."
+msgstr ""
+
+#: ../SPHelpText.py:142
+msgid "Alphabet"
+msgstr ""
+
+#: ../lib/fallingletters.py:207
+msgid "Alphabet/Keyboardtraining"
+msgstr ""
+
+#: ../lib/spinbottle.py:119 ../lib/synonyms.py:117
+msgid "Already found:"
+msgstr ""
+
+#: ../SPMainCore.py:272
+msgid "An error occurred and BraintrainerPlus was restarted"
+msgstr ""
+
+#: ../lib/quiz_math.py:106
+msgid "Answer the math questions."
+msgstr ""
+
+#: ../lib/quiz_general.py:159 ../lib/quiz_history.py:251
+#: ../lib/quiz_melody.py:111 ../lib/quiz_picture.py:103 ../lib/quiz.py:143
+#: ../lib/quiz_royal.py:117 ../lib/quiz_sayings.py:105 ../lib/quiz_text.py:112
+msgid "Answer the quiz questions."
+msgstr ""
+
+#: ../SPMainCore.py:866
+msgid ""
+"Are sure you want to quit the dailytraining ? All the results will be lost."
+msgstr ""
+
+#: ../lib/puzzle.py:247
+msgid "At the bottom you'll see a image of the complete puzzle."
+msgstr ""
+
+#: ../lib/quiz.py:145
+msgid "At the top of the screen, you will see a general knowledge question."
+msgstr ""
+
+#: ../lib/quiz_royal.py:119
+msgid ""
+"At the top of the screen, you will see a question about a member of Royalty"
+msgstr ""
+
+#: ../lib/quiz_picture.py:105
+msgid "At the top of the screen, you will see a question about a picture."
+msgstr ""
+
+#: ../lib/quiz_general.py:161
+msgid ""
+"At the top of the screen, you will see a question about general knowledge."
+msgstr ""
+
+#: ../lib/quiz_math.py:108
+msgid "At the top of the screen, you will see a question about math problem."
+msgstr ""
+
+#: ../lib/quiz_sayings.py:107
+msgid "At the top of the screen, you will see a question about sayings."
+msgstr ""
+
+#: ../lib/quiz_melody.py:113
+msgid ""
+"At the top of the screen, you will see a question about the song playing."
+msgstr ""
+
+#: ../lib/quiz_history.py:253
+msgid ""
+"At the top of the screen, you will see a question from general knowledge "
+"question from the selected period."
+msgstr ""
+
+#: ../lib/quiz_text.py:114
+msgid "At the top of the screen, you will see a question."
+msgstr ""
+
+#: ../lib/billiard.py:325
+msgid "Balls"
+msgstr ""
+
+#: ../lib/numbers_sp.py:190
+msgid "Begin"
+msgstr ""
+
+#: ../lib/quiz_general.py:162 ../lib/quiz_history.py:254
+#: ../lib/quiz_math.py:109 ../lib/quiz_melody.py:114
+#: ../lib/quiz_picture.py:106 ../lib/quiz.py:146 ../lib/quiz_royal.py:120
+#: ../lib/quiz_sayings.py:108 ../lib/quiz_text.py:115
+msgid ""
+"Below it are a choice of possible answers.\n"
+"Touch the correct answer."
+msgstr ""
+
+#: ../lib/billiard.py:265
+msgid "Billiard"
+msgstr "Bi da"
+
+#: ../lib/billiard.py:251
+msgid "Billiard Game"
+msgstr "Trò chơi bi da"
+
+#: ../SPMainCore.py:809
+msgid "Cancel"
+msgstr ""
+
+#: ../SPHelpText.py:121 ../SPHelpText.py:122
+msgid "Change password"
+msgstr ""
+
+#: ../lib/ichanger.py:323 ../lib/numbers_sp.py:194
+msgid "Cheat"
+msgstr ""
+
+#: ../SPMainCore.py:222
+#, fuzzy, python-format
+msgid "Childsplay_sp - educational activities, using theme:%s"
+msgstr "Childsplay, các trò chơi có tính giáo dục cho trẻ "
+
+#: ../SPgdm.py:73
+msgid "Childsplay_sp login"
+msgstr ""
+
+#: ../lib/pong.py:425
+msgid "Choose the game to play:"
+msgstr ""
+
+#: ../lib/memory_sp.py:207
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr "Trò chơi trí tuệ cổ điển mà bạn phải tìm cặp bài giống nhau."
+
+#: ../lib/soundmemory.py:197
+msgid "Classic memory game where you have to find pairs of sounds."
+msgstr "Trò chơi trí tuệ cổ điển mà bạn phải tìm ra các cặp âm thanh."
+
+#: ../SPMainCore.py:948
+msgid "Close"
+msgstr ""
+
+#: ../lib/fourrow.py:536
+msgid "Congratulations, try again ?"
+msgstr ""
+
+#: ../SPHelpText.py:129
+msgid "Content import"
+msgstr ""
+
+#: ../lib/electro_sp.py:203 ../lib/fallingletters.py:201
+#: ../lib/soundmemory.py:205
+msgid "Correctness is more important than speed"
+msgstr ""
+
+#: ../lib/numbers_sp.py:241
+msgid "Correctness is more important than speed."
+msgstr ""
+
+#: ../SPMainCore.py:1239 ../SPMainCore.py:1412
+#, python-format
+msgid "Current activity : %s"
+msgstr ""
+
+#: ../SPHelpText.py:119
+msgid "Daily training sequence"
+msgstr ""
+
+#: ../SPHelpText.py:53
+msgid "Default group 1"
+msgstr ""
+
+#: ../SPHelpText.py:54
+msgid "Default group 2"
+msgstr ""
+
+#: ../lib/dltr.py:434
+msgid "Details"
+msgstr ""
+
+#: ../SPMainCore.py:808
+msgid "Do you really want to quit ?"
+msgstr "Bạn có thực sự muốn thoát?"
+
+#: ../lib/electro_sp.py:185
+msgid "Electro_sp"
+msgstr ""
+
+#: ../SPMainCore.py:570 ../SPMainCore.py:578
+msgid "Error !"
+msgstr ""
+
+#: ../SPMainCore.py:577
+#, python-format
+msgid ""
+"Error constructing activity\n"
+"%s"
+msgstr ""
+
+#: ../SPMainCore.py:569
+#, python-format
+msgid ""
+"Error importing activity\n"
+"%s"
+msgstr ""
+
+#: ../lib/fallingletters.py:185
+msgid "Fallingletters"
+msgstr "Các ký tự rơi xuống"
+
+#: ../lib/packid.py:722
+#, fuzzy
+msgid "Find all the letters in the right order."
+msgstr "Cố gắng 'ăn' tất cả ký tự trong thứ tự thích hợp. "
+
+#: ../lib/findit_sp.py:212
+msgid "Findit"
+msgstr ""
+
+#: ../lib/findsound.py:118
+msgid "Findsound"
+msgstr "Tìm âm thanh"
+
+#: ../lib/fishtank.py:242
+msgid "Fishtank"
+msgstr ""
+
+#: ../lib/fourrow.py:119
+msgid "Fourrow"
+msgstr ""
+
+#: ../lib/pong.py:400 ../SPHelpText.py:143
+msgid "Fun"
+msgstr ""
+
+#: ../lib/packid.py:516
+msgid "Fun/Alphabet"
+msgstr ""
+
+#: ../lib/billiard.py:290
+msgid "Fun/Miscellaneous"
+msgstr ""
+
+#: ../lib/fishtank.py:263
+msgid "Fun/Mousetraining"
+msgstr ""
+
+#: ../SPHelpText.py:124
+msgid "Gamemanagement"
+msgstr ""
+
+#: ../SPMainCore.py:1016
+#, python-format
+msgid "Generated by %s version %s for the %s activity"
+msgstr ""
+
+#: ../SPHelpText.py:118
+msgid "Groupmanagement"
+msgstr ""
+
+#: ../lib/spinbottle.py:208 ../lib/synonyms.py:154
+msgid "Hit the 'Begin' button to start."
+msgstr ""
+
+#: ../SPMainCore.py:653
+msgid "Hit the 'space' key or a mousebutton to skip the countdown"
+msgstr ""
+
+#: ../lib/pong.py:573
+msgid "Hit the Escape key to stop."
+msgstr ""
+
+#: ../lib/ichanger.py:287
+msgid "Ichanger"
+msgstr ""
+
+#: ../lib/dltr.py:250
+msgid "If you ready to start the next activity, hit the 'start' button."
+msgstr ""
+
+#: ../lib/fallingletters.py:195
+msgid ""
+"In the last two levels the uppercase and lowercase are mixed but you don't "
+"have to match the case only the letter"
+msgstr ""
+
+#: ../lib/pong.py:388
+msgid "In the multiplayer modes, the one who has 11 points wins."
+msgstr ""
+
+#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+msgid "Information"
+msgstr ""
+
+#: ../SPMainCore.py:927
+#, python-format
+msgid "Information about %s"
+msgstr ""
+
+#: ../SPHelpText.py:58
+msgid ""
+"It seems that we cannot use the sound card right now and because this "
+"activity is all about sound, we just quit. This problem can also be caused "
+"by another application which uses the soundcard right now."
+msgstr ""
+
+#: ../SPHelpText.py:139
+msgid "Keyboardtraining"
+msgstr ""
+
+#: ../SPHelpText.py:141
+msgid "Language"
+msgstr ""
+
+#: ../lib/findsound.py:127
+msgid "Listen to the sound and click on the image to which it belongs."
+msgstr "Lắng nghe âm thanh và kích vào ảnh liên quan đến nó."
+
+#: ../SPgdm.py:122
+msgid "Login"
+msgstr ""
+
+#: ../lib/numbers_sp.py:233
+msgid "Look carefully and try to remember their positions on the screen."
+msgstr ""
+
+#: ../lib/puzzle.py:253
+msgid "Look closely at the complete puzzle picture at the bottom."
+msgstr ""
+
+#: ../lib/memory_sp.py:210
+msgid ""
+"Look closely at the pictures, when you have them memorized touch 'START'.\n"
+"The pictures turn over, you must match the pair of cards."
+msgstr ""
+
+#: ../lib/synonyms.py:116
+msgid "Make a word with the letter: "
+msgstr ""
+
+#: ../lib/quiz_math.py:122 ../SPHelpText.py:137
+msgid "Math"
+msgstr ""
+
+#: ../lib/quiz_math.py:97
+msgid "Math Quiz"
+msgstr ""
+
+#: ../lib/quiz_melody.py:102
+msgid "Melody Quiz"
+msgstr ""
+
+#: ../SPHelpText.py:65
+msgid ""
+"Memorize the pictures.\n"
+"\n"
+"One of these pictures will be replaced by a new picture.\n"
+"\n"
+"Touch the 'Start' button to begin the game."
+msgstr ""
+
+#: ../lib/electro_sp.py:209 ../lib/memory_sp.py:198 ../lib/memory_sp.py:222
+#: ../lib/quiz_melody.py:126 ../lib/quiz.py:163 ../lib/quiz_sayings.py:120
+#: ../lib/quiz_text.py:127 ../lib/simon_sp.py:183 ../lib/soundmemory.py:211
+#: ../SPHelpText.py:136
+msgid "Memory"
+msgstr "Trí nhớ"
+
+#: ../lib/simon_sp.py:177
+msgid "Mind the sound sequence as well as the colors sequence."
+msgstr ""
+
+#: ../lib/dltr.py:227 ../lib/findit_sp.py:237 ../lib/findsound.py:139
+#: ../lib/ichanger.py:310 ../lib/numbers_sp.py:247 ../lib/photoalbum.py:200
+#: ../lib/quiz_general.py:174 ../lib/quiz_history.py:266
+#: ../lib/quiz_picture.py:118 ../lib/quiz_royal.py:132
+#: ../lib/spinbottle.py:222 ../lib/synonyms.py:167 ../lib/wipe.py:124
+#: ../SPHelpText.py:144
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../SPHelpText.py:140
+msgid "Mousetraining"
+msgstr ""
+
+#: ../SPMainCore.py:923 ../SPMainCore.py:930
+msgid "Movie"
+msgstr ""
+
+#: ../lib/pong.py:387
+msgid "Multi player - Play against another player."
+msgstr ""
+
+#: ../lib/pong.py:386
+msgid "Multi player against the computer - Try to defeat the computer."
+msgstr ""
+
+#: ../lib/wipe.py:83
+msgid "New"
+msgstr ""
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:867 ../SPMainCore.py:870
+msgid "No"
+msgstr ""
+
+#: ../lib/photoalbum.py:233
+#, python-format
+msgid ""
+"No photo albums found !\n"
+"You should place your pictures inside directories called 'Album_1', "
+"'Album_2' etc\n"
+" Place these directories inside %s"
+msgstr ""
+
+#: ../lib/photoalbum.py:188
+#, fuzzy
+msgid "Number of levels : 1"
+msgstr "Số cấp độ : 3"
+
+#: ../lib/spinbottle.py:210 ../lib/synonyms.py:156
+#, fuzzy
+msgid "Number of levels : 6"
+msgstr "Số cấp độ : 3"
+
+#: ../lib/numbers_sp.py:222
+#, fuzzy
+msgid "Numbers_sp"
+msgstr "Trí nhớ "
+
+#: ../lib/dltr.py:434 ../lib/dltr.py:438 ../SPMainCore.py:570
+#: ../SPMainCore.py:578 ../SPMainCore.py:809 ../SPMainCore.py:814
+#: ../SPMainCore.py:815 ../SPMainCore.py:919 ../SPMainCore.py:1018
+#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+msgid "OK"
+msgstr ""
+
+#: ../lib/synonyms.py:152
+#, python-format
+msgid ""
+"On the next screen you'll find a keyboard, try to make as much words as "
+"possible that begin with the letter '%s'."
+msgstr ""
+
+#: ../lib/spinbottle.py:206
+#, python-format
+msgid ""
+"On the next screen you'll find a keyboard, try to name as much %s as "
+"possible with the same letter."
+msgstr ""
+
+#: ../lib/simon_sp.py:166
+msgid "On the screen are four blocks of different colours."
+msgstr ""
+
+#: ../lib/findit_sp.py:221
+msgid ""
+"On the screen you will see two almost identical pictures.\n"
+"However, there are differences between the images."
+msgstr ""
+
+#: ../lib/spinbottle.py:207 ../lib/synonyms.py:153
+msgid "Only words from the dictionary are allowed."
+msgstr ""
+
+#: ../lib/packid.py:491
+msgid "Packid"
+msgstr ""
+
+#: ../lib/photoalbum.py:178
+msgid "Photoalbum"
+msgstr ""
+
+#: ../lib/quiz_picture.py:94
+msgid "Picture Quiz"
+msgstr ""
+
+#: ../SPHelpText.py:120
+msgid "Picture import"
+msgstr ""
+
+#: ../lib/fourrow.py:538
+msgid "Pity, try again ?"
+msgstr ""
+
+#: ../lib/puzzle.py:245
+msgid "Place the puzzle piece on the right where you think it belongs..."
+msgstr ""
+
+#: ../lib/quiz_history.py:219
+msgid "Please enter your year of birth."
+msgstr ""
+
+#: ../lib/electro_sp.py:240 ../lib/memory_sp.py:283
+msgid "Please, choose a set of cards."
+msgstr ""
+
+#: ../lib/wipe.py:156
+msgid "Please, choose a set of images."
+msgstr ""
+
+#: ../lib/puzzle.py:302
+msgid "Please, choose a set of puzzle images."
+msgstr ""
+
+#: ../lib/pong.py:373
+msgid "Pong"
+msgstr ""
+
+#: ../lib/simon_sp.py:167
+msgid "Press the Start button with your finger."
+msgstr ""
+
+#: ../lib/fourrow.py:145 ../lib/puzzle.py:236 ../lib/puzzle.py:259
+#: ../SPHelpText.py:138
+msgid "Puzzle"
+msgstr ""
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:867
+msgid "Question ?"
+msgstr ""
+
+#: ../SPMainCore.py:809
+msgid "Quit ?"
+msgstr ""
+
+#: ../lib/quiz.py:134
+msgid "Quiz"
+msgstr ""
+
+#: ../lib/quiz_history.py:242
+msgid "Quiz history"
+msgstr ""
+
+#: ../lib/quiz_royal.py:108
+msgid "Quiz royal"
+msgstr ""
+
+#: ../lib/quiz_math.py:111
+msgid ""
+"Remember, the order of operations is multiplication or division and followed "
+"by addition or subtraction."
+msgstr ""
+
+#: ../lib/dltr.py:434 ../SPMainCore.py:1018
+msgid "Results"
+msgstr ""
+
+#: ../SPMainCore.py:1022
+msgid "Save image"
+msgstr ""
+
+#: ../lib/quiz_sayings.py:96
+msgid "Sayings Quiz"
+msgstr ""
+
+#: ../lib/dltr.py:378
+msgid "Score:"
+msgstr ""
+
+#: ../SPHelpText.py:126
+msgid "Select Language"
+msgstr ""
+
+#: ../SPMenu.py:331
+msgid ""
+"Select an activity and click on the button, the activity will be started."
+msgstr ""
+
+#: ../SPMainCore.py:948
+msgid "Set volume level"
+msgstr ""
+
+#: ../SPHelpText.py:127 ../SPHelpText.py:128
+msgid "Settings"
+msgstr ""
+
+#: ../lib/ichanger.py:296
+msgid ""
+"Several images from the past will appear on the screen.\n"
+"Look carefully at them and remember what you see."
+msgstr ""
+
+#: ../lib/simon_sp.py:155
+msgid "Simon_sp"
+msgstr ""
+
+#: ../lib/pong.py:385
+msgid "Single play - Hit the ball against the wall."
+msgstr ""
+
+#: ../lib/soundmemory.py:188
+msgid "Soundmemory"
+msgstr ""
+
+#: ../lib/spinbottle.py:196
+msgid "Spin the bottle"
+msgstr ""
+
+#: ../lib/dltr.py:261 ../lib/ichanger.py:321 ../lib/memory_sp.py:430
+msgid "Start"
+msgstr ""
+
+#: ../lib/spinbottle.py:129 ../lib/synonyms.py:365
+#, fuzzy
+msgid "Starting a new exercise"
+msgstr "Bắt đầu thực hành %s "
+
+#: ../SPMainCore.py:645
+#, python-format
+msgid "Starting level %s"
+msgstr "Bắt đầu thực hành %s "
+
+#: ../SPMainCore.py:829
+msgid "Stopping timers, please wait..."
+msgstr ""
+
+#: ../lib/spinbottle.py:120 ../lib/synonyms.py:118
+msgid "Suggestions:"
+msgstr ""
+
+#: ../lib/synonyms.py:140
+msgid "Synonyms"
+msgstr ""
+
+#: ../lib/quiz_text.py:103
+msgid "Text Quiz"
+msgstr ""
+
+#: ../lib/simon_sp.py:169
+msgid "The  blocks will light up randomly along with sound clues."
+msgstr ""
+
+#: ../lib/packid.py:499
+#, fuzzy
+msgid "The aim of the game:"
+msgstr "Mục đích của trò chơi: "
+
+#: ../lib/billiard.py:273 ../lib/dltr.py:214 ../lib/electro_sp.py:193
+#: ../lib/fallingletters.py:193 ../lib/findit_sp.py:220
+#: ../lib/findsound.py:126 ../lib/fishtank.py:250 ../lib/fourrow.py:127
+#: ../lib/ichanger.py:295 ../lib/memory_sp.py:206 ../lib/numbers_sp.py:230
+#: ../lib/photoalbum.py:186 ../lib/pong.py:381 ../lib/puzzle.py:244
+#: ../lib/quiz_general.py:158 ../lib/quiz_history.py:250
+#: ../lib/quiz_math.py:105 ../lib/quiz_melody.py:110
+#: ../lib/quiz_picture.py:102 ../lib/quiz.py:142 ../lib/quiz_royal.py:116
+#: ../lib/quiz_sayings.py:104 ../lib/quiz_text.py:111 ../lib/simon_sp.py:163
+#: ../lib/soundmemory.py:196 ../lib/spinbottle.py:204 ../lib/synonyms.py:150
+#: ../lib/wipe.py:110
+msgid "The aim of this activity:"
+msgstr "Mục đích của trò chơi: "
+
+#: ../lib/findit_sp.py:225
+msgid "The arrows to the left take you to the previous image."
+msgstr ""
+
+#: ../lib/pong.py:383
+msgid "The classic pong game where you must hit a ball with your bat."
+msgstr ""
+
+#: ../lib/electro_sp.py:244 ../lib/memory_sp.py:287 ../lib/puzzle.py:306
+msgid "The difficulty of the set increases from left to right."
+msgstr ""
+
+#: ../lib/billiard.py:278 ../lib/billiard.py:284
+msgid ""
+"The fewer hits you need to get the ball in the hole, the more points you get."
+msgstr "Bạn cần đánh bóng vào lỗ với 1 ít gậy, bạn sẽ lấy được nhiều điểm hơn."
+
+#: ../lib/electro_sp.py:194
+msgid "The game is to match pairs of pictures"
+msgstr ""
+
+#: ../lib/packid.py:711
+msgid ""
+"The last level is only available when you finish the first three levels "
+"without errors."
+msgstr ""
+
+#: ../lib/billiard.py:277
+msgid "The longer you hold the left button the harder it will hit the ball."
+msgstr "Bạn giữ chuột trái lâu hơn để lấy sức đánh bóng."
+
+#: ../lib/packid.py:723
+msgid "The word to find is: "
+msgstr ""
+
+#: ../lib/numbers_sp.py:234
+msgid "Then push the 'BEGIN' button. The numbers will disappear."
+msgstr ""
+
+#: ../lib/packid.py:501
+msgid "There are thee levels with three words each."
+msgstr ""
+
+#: ../lib/pong.py:384
+msgid "There are three modes to choose from:"
+msgstr ""
+
+#: ../SPMainCore.py:1520
+#, python-format
+msgid ""
+"There was an error in %s. Please check the logs and inform the developers"
+msgstr ""
+
+#: ../SPHelpText.py:46
+#, python-format
+msgid ""
+"There was an error in the database this can be caused by many things but "
+"most of the time it's caused by the fact that your version of the database "
+"doesn't match the version of the program. I will backup your original "
+"database and then replace it with a new one. The original database is now "
+"called sp.db_back and it's placed in %s"
+msgstr ""
+
+#: ../lib/billiard.py:297 ../lib/electro_sp.py:215
+#: ../lib/fallingletters.py:214 ../lib/findit_sp.py:244
+#: ../lib/findsound.py:158 ../lib/fishtank.py:270 ../lib/fourrow.py:234
+#: ../lib/ichanger.py:316 ../lib/memory_sp.py:228 ../lib/numbers_sp.py:257
+#: ../lib/packid.py:523 ../lib/photoalbum.py:206 ../lib/pong.py:406
+#: ../lib/puzzle.py:266 ../lib/quiz_general.py:181 ../lib/quiz_history.py:273
+#: ../lib/quiz_picture.py:124 ../lib/quiz.py:169 ../lib/quiz_royal.py:138
+#: ../lib/simon_sp.py:189 ../lib/soundmemory.py:217 ../lib/spinbottle.py:229
+#: ../lib/synonyms.py:174 ../lib/wipe.py:135
+#, python-format
+msgid "This activity has %s levels"
+msgstr ""
+
+#: ../lib/dltr.py:215
+msgid ""
+"This activity is known as the daily training which is a collection of "
+"activities."
+msgstr ""
+
+#: ../SPMenu.py:330
+msgid "This is the menu used to select an activity."
+msgstr ""
+
+#: ../lib/fourrow.py:133
+msgid "Tip: Try creating multiple winning scenario's."
+msgstr ""
+
+#: ../SPMainCore.py:914
+#, python-format
+msgid "Tip:%s"
+msgstr ""
+
+#: ../lib/quizengine.py:797
+#, python-format
+msgid ""
+"To little questions found in %s for locale '%s', found %s questions should "
+"be at least 10"
+msgstr ""
+
+#: ../lib/fourrow.py:132
+msgid ""
+"To win the game you'll need four red pills lined up after each other "
+"horizontally, vertically or diagonal."
+msgstr ""
+
+#: ../lib/ichanger.py:298
+msgid ""
+"Touch the 'START' button on the right.\n"
+"The images will dissappear and when they return, one will have changed.\n"
+"Touch the picture which has changed."
+msgstr ""
+
+#: ../lib/packid.py:500
+#, fuzzy
+msgid "Try to 'eat' all the letters in the appropriated order."
+msgstr "Cố gắng 'ăn' tất cả ký tự trong thứ tự thích hợp. "
+
+#: ../lib/numbers_sp.py:235
+msgid ""
+"Try to find the numbers, in the correct order and from low to high, by "
+"touching them on the screen."
+msgstr ""
+
+#: ../lib/packid.py:504
+msgid "Try to find the way out while eating the fruits for extra points and"
+msgstr ""
+
+#: ../lib/fourrow.py:128
+msgid "Try to get four in a row in any possible direction."
+msgstr ""
+
+#: ../lib/fishtank.py:251
+msgid "Try to remove the fish by clicking on them with the mouse."
+msgstr ""
+
+#: ../lib/simon_sp.py:164
+msgid "Try to repeat the sequence of sounds played."
+msgstr ""
+
+#: ../lib/fallingletters.py:194
+msgid "Type the falling letters on the keyboard before they hit the ground."
+msgstr "Gõ các ký tự rơi xuống trước khi chúng chạm đất. "
+
+#: ../SPHelpText.py:123
+msgid "Update BrainTrainerPlus"
+msgstr ""
+
+#: ../SPMenu.py:332
+msgid "Use the 'sub menu' buttons for the different activity menus"
+msgstr ""
+
+#: ../SPMenu.py:346
+msgid "Use the menu below to choose between the different game categories"
+msgstr ""
+
+#: ../lib/billiard.py:276
+msgid "Use the right mousebutton to aim and the left button to hit the ball."
+msgstr "Dùng nút chuột phải nhắm và nút chuột trái để đánh bóng."
+
+#: ../lib/pong.py:579
+msgid "Use these keys on your keyboard to control the bat."
+msgstr ""
+
+#: ../SPMainCore.py:460
+#, python-format
+msgid "User: %s"
+msgstr ""
+
+#: ../SPHelpText.py:117
+msgid "Usermanagement"
+msgstr ""
+
+#: ../SPgdm.py:104
+msgid "Username:"
+msgstr ""
+
+#: ../lib/simon_sp.py:170
+msgid ""
+"When the flashing stops you will be prompted to repeat the sequence by "
+"touching the coloured blocks."
+msgstr ""
+
+#: ../lib/packid.py:502
+msgid "When you have finished all the levels, without making to much mistakes"
+msgstr ""
+
+#: ../lib/findit_sp.py:223
+msgid ""
+"When you spot a difference, touch it with your finger.\n"
+"You can click the question mark in the middle of the screen if you need a "
+"hint."
+msgstr ""
+
+#: ../lib/soundmemory.py:199
+msgid ""
+"When you touch the picture you will hear a sound.\n"
+"Match the image with others that make the same sound,to get points."
+msgstr ""
+
+#: ../lib/wipe.py:102
+msgid "Wipe"
+msgstr ""
+
+#: ../lib/wipe.py:112
+msgid "Wipe with your finger on the screen to uncover the picture."
+msgstr ""
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:728 ../SPMainCore.py:729
+#: ../SPMainCore.py:867
+msgid "Yes"
+msgstr ""
+
+#: ../lib/fourrow.py:130
+msgid ""
+"You can vertically drop a red pill in a desired column by pressing that "
+"exact column."
+msgstr ""
+
+#: ../lib/dltr.py:374
+msgid "You have finished the daily training module."
+msgstr ""
+
+#: ../lib/billiard.py:274
+msgid "You have to make the blue ball enter the hole (in level 1)"
+msgstr "Bạn phải đánh quả bóng màu xanh vào lỗ (trong cấp độ 1)"
+
+#: ../SPMainCore.py:723
+msgid "You play very good, do you want to try the next level ?"
+msgstr ""
+
+#: ../lib/electro_sp.py:196
+msgid ""
+"You select the pictures by touching them.\n"
+"As you progress through the star levels more pairs appear to match."
+msgstr ""
+
+#: ../lib/numbers_sp.py:231
+msgid "You will see various numbers scattered around the screen."
+msgstr ""
+
+#: ../lib/billiard.py:584
+msgid "You won!!"
+msgstr "Bạn đã chiến thắng!!"
+
+#: ../lib/dltr.py:376
+msgid "Your average results per group are:"
+msgstr ""
+
+#: ../SPMainCore.py:1028
+#, python-format
+msgid ""
+"Your image is saved at:\n"
+"%s"
+msgstr ""
+
+#: ../lib/dltr.py:375
+msgid "Your results are:"
+msgstr ""
+
+#: ../lib/billiard.py:275
+msgid "and the red ones in levels 2 and 3."
+msgstr "và các quả bóng mà đỏ trong cấp độ 2 và 3."
+
+#: ../lib/spinbottle.py:118
+msgid "beginning with the letter: "
+msgstr ""
+
+#: ../lib/packid.py:505
+msgid "funny sounds :-)"
+msgstr ""
+
+#: ../lib/billiard.py:572 ../lib/billiard.py:585
+msgid "points"
+msgstr "điểm"
+
+#: ../lib/quiz.py:157
+#, python-format
+msgid "question id: %s"
+msgstr ""
+
+#: ../lib/quiz_general.py:134
+#, python-format
+msgid ""
+"xml file %s is missing, this shouldn't happen, contact the %s developers"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Click the buttons in the right order"
+#~ msgstr "Cố gắng 'ăn' tất cả ký tự trong thứ tự thích hợp. "
+
+#, fuzzy
+#~ msgid "Difficulty : 2 - 4 years"
+#~ msgstr "Cấp độ khó : 4-7 tuổi"
+
+#~ msgid "Difficulty : 4-7 years"
+#~ msgstr "Cấp độ khó : 4-7 tuổi"
+
+#~ msgid "Difficulty : 4-8 years"
+#~ msgstr "Cấp độ khó: 4-6 tuổi "
+
+#~ msgid "Exercises"
+#~ msgstr "các bài thực hành"
+
+#, fuzzy
+#~ msgid "Goal of the activity"
+#~ msgstr "Mục đích của trò chơi: "
+
+#~ msgid "Listen to the sound and click on the character to which it belongs."
+#~ msgstr "Lắng nghe âm thanh và kích vào ký tự có liên quan."
+
+#, fuzzy
+#~ msgid "Number of levels : 5"
+#~ msgstr "Số cấp độ : 3"
+
+#~ msgid "Put all the pieces in the correct order."
+#~ msgstr "Cố gắng 'ăn' tất cả ký tự trong thứ tự thích hợp. "
+
+#~ msgid "The aim of this activity"
+#~ msgstr "Mục đích của trò chơi: "
+
+#, fuzzy
+#~ msgid "Type of activity"
+#~ msgstr "Mục đích của trò chơi: "

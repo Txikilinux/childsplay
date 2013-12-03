@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+margin:0;
+background:none repeat scroll 0 0 #FFF7CF;
+border:0;
+outline:0;
+padding:0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+line-height:17px;
+color:#103867;
+}
+#wrapper{
+width:100%;
+height:auto;
+min-height:100%;
+float:left;
+background-image:url("../images/background_childsplay.jpg");
+background-repeat:repeat-x;
+margin: 0 auto -40px;
+}
+#center{
+width:940px;
+margin-left:auto;
+margin-right:auto;
+}
+#header{
+background:url("../images/header_childsplay.png") no-repeat;
+width:940px;
+height:250px;
+float:left;
+}
+#menu{
+width:187px;
+height:auto;
+top:-200px;
+position:relative;
+float:left;
+}
+#header-wrapper{
+width:100%;
+height:250px;
+float:left;
+}
+.menu-item{
+width:187px;
+position:relative;
+color: #CC0000;
+cursor: default;
+font-size: 1.1em;
+font-weight: bold;
+text-align: right;
+}
+
+.divider {
+background-image:url("../images/divider.png");
+width:187px;
+height:7px;
+}
+#download{
+background:url("../images/box_childsplay.png") no-repeat;
+width:215px;
+margin-left:10px;
+float:left;
+}
+.download-logo{
+width:60px;
+height:auto;
+margin-top:75px;
+margin-left:7px;
+float:left;
+}
+#breadcrumbs{
+width:200px;
+height:auto;
+margin-left:20px;
+margin-right:10px;
+margin-top:15px;
+float:left;
+}
+#content{
+width:540px;
+height:auto;
+margin-left:20px;
+margin-right:20px;
+float:left;
+}
+#donate{
+width:135px;
+height:auto;
+margin-top:15px;
+float:left;
+}
+#donate form{
+margin-bottom:10px;
+}
+#donate-text{
+margin-bottom:10px;
+}
+#donate a{
+text-decoration:underline;
+}
+#footer{
+text-align:center;
+width:940px;
+height:40px;
+clear:both;
+}
+a{color:#2121e3;text-decoration:none; font-weight:700;}
+a:active{color:#2121e3;text-decoration:none; font-weight:700;}
+a:hover{color:#b84514;text-decoration:none; font-weight:700;}
+a:active{color:#2121e3;text-decoration:none; font-weight:700;}
+p{margin:5px;}
+
+.wiki-content-table{
+display: table;
+border-collapse: separate;
+border-spacing: 2px;
+border-color: gray;
+}
+.wiki-content-table th{
+border: 1px solid #888;
+padding: 0.3em 0.7em;
+background-color: #EEE;
+}
+.wiki-content-table td{
+border: 1px solid #888;
+padding: 0.3em 0.7em;
+}
+tbody{
+display: table-row-group;
+vertical-align: middle;
+border-color: inherit;
+}
+tr{
+display: table-row;
+vertical-align: inherit;
+border-color: inherit;
+}

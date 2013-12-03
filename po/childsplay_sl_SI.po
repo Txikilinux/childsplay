@@ -1,0 +1,1505 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# , 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: childsplay_sp_latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-20 11:13+0100\n"
+"PO-Revision-Date: 2008-12-31 10:12+0100\n"
+"Last-Translator: Stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
+"Language-Team: Slovenian <r@aufbix.org>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+
+#: ../SPHelpText.py:76
+msgid ""
+"\n"
+"\n"
+"Touch the 'Play' button to continue the game."
+msgstr ""
+
+#: ../SPHelpText.py:71
+msgid ""
+"\n"
+"\n"
+"Touch the changed picture."
+msgstr ""
+
+#: ../lib/packid.py:503
+msgid "(max two per word), you can play the last level which is a maze."
+msgstr "(največ dve na besedo), lahko igrate zadnji nivo, ki je labirint."
+
+#: ../SPMenu.py:344
+msgid "A collection of braintrain games for seniors."
+msgstr ""
+
+#: ../lib/memory_sp.py:216
+#, fuzzy
+msgid "Accuracy is more important than speed."
+msgstr "Pravilnost je bolj pomembna od hitrosti."
+
+#: ../SPMainCore.py:473
+#, fuzzy
+msgid "Activity :"
+msgstr "Dejavnost: %s"
+
+#: ../SPMainCore.py:585
+#, python-format
+msgid "Activity : %s"
+msgstr "Dejavnost: %s"
+
+#: ../lib/dltr.py:377
+#, fuzzy
+msgid "Activity:"
+msgstr "Dejavnost: %s"
+
+#: ../lib/fourrow.py:131
+msgid "All pills, both red and yellow, stack on each other."
+msgstr ""
+
+#: ../SPMenu.py:345
+msgid ""
+"All the games have there own help page, just start a game and hit the stars "
+"on top of the screen to select another difficulty."
+msgstr ""
+
+#: ../SPHelpText.py:142
+msgid "Alphabet"
+msgstr "Abeceda"
+
+#: ../lib/fallingletters.py:207
+msgid "Alphabet/Keyboardtraining"
+msgstr "Vaje za abecedo / tipkovnico"
+
+#: ../lib/spinbottle.py:119 ../lib/synonyms.py:117
+msgid "Already found:"
+msgstr ""
+
+#: ../SPMainCore.py:272
+msgid "An error occurred and BraintrainerPlus was restarted"
+msgstr ""
+
+#: ../lib/quiz_math.py:106
+msgid "Answer the math questions."
+msgstr ""
+
+#: ../lib/quiz_general.py:159 ../lib/quiz_history.py:251
+#: ../lib/quiz_melody.py:111 ../lib/quiz_picture.py:103 ../lib/quiz.py:143
+#: ../lib/quiz_royal.py:117 ../lib/quiz_sayings.py:105 ../lib/quiz_text.py:112
+msgid "Answer the quiz questions."
+msgstr ""
+
+#: ../SPMainCore.py:866
+msgid ""
+"Are sure you want to quit the dailytraining ? All the results will be lost."
+msgstr ""
+
+#: ../lib/puzzle.py:247
+msgid "At the bottom you'll see a image of the complete puzzle."
+msgstr ""
+
+#: ../lib/quiz.py:145
+msgid "At the top of the screen, you will see a general knowledge question."
+msgstr ""
+
+#: ../lib/quiz_royal.py:119
+msgid ""
+"At the top of the screen, you will see a question about a member of Royalty"
+msgstr ""
+
+#: ../lib/quiz_picture.py:105
+msgid "At the top of the screen, you will see a question about a picture."
+msgstr ""
+
+#: ../lib/quiz_general.py:161
+msgid ""
+"At the top of the screen, you will see a question about general knowledge."
+msgstr ""
+
+#: ../lib/quiz_math.py:108
+msgid "At the top of the screen, you will see a question about math problem."
+msgstr ""
+
+#: ../lib/quiz_sayings.py:107
+msgid "At the top of the screen, you will see a question about sayings."
+msgstr ""
+
+#: ../lib/quiz_melody.py:113
+msgid ""
+"At the top of the screen, you will see a question about the song playing."
+msgstr ""
+
+#: ../lib/quiz_history.py:253
+msgid ""
+"At the top of the screen, you will see a question from general knowledge "
+"question from the selected period."
+msgstr ""
+
+#: ../lib/quiz_text.py:114
+msgid "At the top of the screen, you will see a question."
+msgstr ""
+
+#: ../lib/billiard.py:325
+msgid "Balls"
+msgstr "Žoge"
+
+#: ../lib/numbers_sp.py:190
+msgid "Begin"
+msgstr ""
+
+#: ../lib/quiz_general.py:162 ../lib/quiz_history.py:254
+#: ../lib/quiz_math.py:109 ../lib/quiz_melody.py:114
+#: ../lib/quiz_picture.py:106 ../lib/quiz.py:146 ../lib/quiz_royal.py:120
+#: ../lib/quiz_sayings.py:108 ../lib/quiz_text.py:115
+msgid ""
+"Below it are a choice of possible answers.\n"
+"Touch the correct answer."
+msgstr ""
+
+#: ../lib/billiard.py:265
+msgid "Billiard"
+msgstr "Biljard"
+
+#: ../lib/billiard.py:251
+msgid "Billiard Game"
+msgstr "Biljard"
+
+#: ../SPMainCore.py:809
+msgid "Cancel"
+msgstr ""
+
+#: ../SPHelpText.py:121 ../SPHelpText.py:122
+msgid "Change password"
+msgstr ""
+
+#: ../lib/ichanger.py:323 ../lib/numbers_sp.py:194
+msgid "Cheat"
+msgstr ""
+
+#: ../SPMainCore.py:222
+#, fuzzy, python-format
+msgid "Childsplay_sp - educational activities, using theme:%s"
+msgstr "Childsplay_sp - izobraževalne dejavnosti"
+
+#: ../SPgdm.py:73
+msgid "Childsplay_sp login"
+msgstr "Prijava Childsplay_sp"
+
+#: ../lib/pong.py:425
+msgid "Choose the game to play:"
+msgstr "Izberite igro:"
+
+#: ../lib/memory_sp.py:207
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr "Klasična igra spomina, kjer morate najti dve enaki karti."
+
+#: ../lib/soundmemory.py:197
+msgid "Classic memory game where you have to find pairs of sounds."
+msgstr "Klasična igra spomina, kjer morate poiskati dva enaka zvoka."
+
+#: ../SPMainCore.py:948
+msgid "Close"
+msgstr ""
+
+#: ../lib/fourrow.py:536
+msgid "Congratulations, try again ?"
+msgstr ""
+
+#: ../SPHelpText.py:129
+msgid "Content import"
+msgstr ""
+
+#: ../lib/electro_sp.py:203 ../lib/fallingletters.py:201
+#: ../lib/soundmemory.py:205
+msgid "Correctness is more important than speed"
+msgstr "Pravilnost je bolj pomembna od hitrosti."
+
+#: ../lib/numbers_sp.py:241
+#, fuzzy
+msgid "Correctness is more important than speed."
+msgstr "Pravilnost je bolj pomembna od hitrosti."
+
+#: ../SPMainCore.py:1239 ../SPMainCore.py:1412
+#, python-format
+msgid "Current activity : %s"
+msgstr "Trenutna dejavnost: %s"
+
+#: ../SPHelpText.py:119
+msgid "Daily training sequence"
+msgstr ""
+
+#: ../SPHelpText.py:53
+msgid "Default group 1"
+msgstr ""
+
+#: ../SPHelpText.py:54
+msgid "Default group 2"
+msgstr ""
+
+#: ../lib/dltr.py:434
+msgid "Details"
+msgstr ""
+
+#: ../SPMainCore.py:808
+msgid "Do you really want to quit ?"
+msgstr "Res želite zapreti?"
+
+#: ../lib/electro_sp.py:185
+msgid "Electro_sp"
+msgstr ""
+
+#: ../SPMainCore.py:570 ../SPMainCore.py:578
+msgid "Error !"
+msgstr ""
+
+#: ../SPMainCore.py:577
+#, python-format
+msgid ""
+"Error constructing activity\n"
+"%s"
+msgstr ""
+
+#: ../SPMainCore.py:569
+#, python-format
+msgid ""
+"Error importing activity\n"
+"%s"
+msgstr ""
+
+#: ../lib/fallingletters.py:185
+msgid "Fallingletters"
+msgstr "Padajoče črke"
+
+#: ../lib/packid.py:722
+msgid "Find all the letters in the right order."
+msgstr "Poiščite vse črke v pravilnem vrstnem redu. "
+
+#: ../lib/findit_sp.py:212
+msgid "Findit"
+msgstr ""
+
+#: ../lib/findsound.py:118
+msgid "Findsound"
+msgstr "Najdi zvok"
+
+#: ../lib/fishtank.py:242
+msgid "Fishtank"
+msgstr "Fishtank"
+
+#: ../lib/fourrow.py:119
+msgid "Fourrow"
+msgstr ""
+
+#: ../lib/pong.py:400 ../SPHelpText.py:143
+msgid "Fun"
+msgstr "Zabava"
+
+#: ../lib/packid.py:516
+msgid "Fun/Alphabet"
+msgstr "Zabava / Abeceda"
+
+#: ../lib/billiard.py:290
+msgid "Fun/Miscellaneous"
+msgstr "Zabava / Razno"
+
+#: ../lib/fishtank.py:263
+msgid "Fun/Mousetraining"
+msgstr "Zabava / Vaje za miško"
+
+#: ../SPHelpText.py:124
+msgid "Gamemanagement"
+msgstr ""
+
+#: ../SPMainCore.py:1016
+#, fuzzy, python-format
+msgid "Generated by %s version %s for the %s activity"
+msgstr "Ustvarjeno z Childsplay_sp, različica %s za dejavnost %s"
+
+#: ../SPHelpText.py:118
+msgid "Groupmanagement"
+msgstr ""
+
+#: ../lib/spinbottle.py:208 ../lib/synonyms.py:154
+msgid "Hit the 'Begin' button to start."
+msgstr ""
+
+#: ../SPMainCore.py:653
+msgid "Hit the 'space' key or a mousebutton to skip the countdown"
+msgstr "Pritisnite preslednico ali miškin gumb, da preskočite odštevanje"
+
+#: ../lib/pong.py:573
+msgid "Hit the Escape key to stop."
+msgstr ""
+
+#: ../lib/ichanger.py:287
+msgid "Ichanger"
+msgstr ""
+
+#: ../lib/dltr.py:250
+msgid "If you ready to start the next activity, hit the 'start' button."
+msgstr ""
+
+#: ../lib/fallingletters.py:195
+msgid ""
+"In the last two levels the uppercase and lowercase are mixed but you don't "
+"have to match the case only the letter"
+msgstr ""
+"V zadnjih dveh nivojih so med seboj pomešane male in velike črke ampak na "
+"tipkovnici ni treba pritisniti male/velike črke - pomembna je sama črka, ne "
+"velikost."
+
+#: ../lib/pong.py:388
+msgid "In the multiplayer modes, the one who has 11 points wins."
+msgstr "V načinu z več igralci zmaga tisti, ki doseže 11 točk."
+
+#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+msgid "Information"
+msgstr ""
+
+#: ../SPMainCore.py:927
+#, python-format
+msgid "Information about %s"
+msgstr ""
+
+#: ../SPHelpText.py:58
+msgid ""
+"It seems that we cannot use the sound card right now and because this "
+"activity is all about sound, we just quit. This problem can also be caused "
+"by another application which uses the soundcard right now."
+msgstr ""
+"Trenutno uporaba zvočne kartice ni mogoča in ker to opravilo uporablja "
+"zvoke, se ne bo izvedlo. problem je lahko tudi v tem, da zvočno kartico "
+"uporablja drugi program."
+
+#: ../SPHelpText.py:139
+msgid "Keyboardtraining"
+msgstr "Vaje s tipkovnico"
+
+#: ../SPHelpText.py:141
+msgid "Language"
+msgstr "Jezik"
+
+#: ../lib/findsound.py:127
+msgid "Listen to the sound and click on the image to which it belongs."
+msgstr "Poslušajte zvok in kliknite na sliko, ki ji pripada."
+
+#: ../SPgdm.py:122
+msgid "Login"
+msgstr "Prijava"
+
+#: ../lib/numbers_sp.py:233
+msgid "Look carefully and try to remember their positions on the screen."
+msgstr ""
+
+#: ../lib/puzzle.py:253
+msgid "Look closely at the complete puzzle picture at the bottom."
+msgstr ""
+
+#: ../lib/memory_sp.py:210
+msgid ""
+"Look closely at the pictures, when you have them memorized touch 'START'.\n"
+"The pictures turn over, you must match the pair of cards."
+msgstr ""
+
+#: ../lib/synonyms.py:116
+msgid "Make a word with the letter: "
+msgstr ""
+
+#: ../lib/quiz_math.py:122 ../SPHelpText.py:137
+msgid "Math"
+msgstr "Matematika"
+
+#: ../lib/quiz_math.py:97
+#, fuzzy
+msgid "Math Quiz"
+msgstr "Matematika"
+
+#: ../lib/quiz_melody.py:102
+msgid "Melody Quiz"
+msgstr ""
+
+#: ../SPHelpText.py:65
+msgid ""
+"Memorize the pictures.\n"
+"\n"
+"One of these pictures will be replaced by a new picture.\n"
+"\n"
+"Touch the 'Start' button to begin the game."
+msgstr ""
+
+#: ../lib/electro_sp.py:209 ../lib/memory_sp.py:198 ../lib/memory_sp.py:222
+#: ../lib/quiz_melody.py:126 ../lib/quiz.py:163 ../lib/quiz_sayings.py:120
+#: ../lib/quiz_text.py:127 ../lib/simon_sp.py:183 ../lib/soundmemory.py:211
+#: ../SPHelpText.py:136
+msgid "Memory"
+msgstr "Spomin"
+
+#: ../lib/simon_sp.py:177
+msgid "Mind the sound sequence as well as the colors sequence."
+msgstr ""
+
+#: ../lib/dltr.py:227 ../lib/findit_sp.py:237 ../lib/findsound.py:139
+#: ../lib/ichanger.py:310 ../lib/numbers_sp.py:247 ../lib/photoalbum.py:200
+#: ../lib/quiz_general.py:174 ../lib/quiz_history.py:266
+#: ../lib/quiz_picture.py:118 ../lib/quiz_royal.py:132
+#: ../lib/spinbottle.py:222 ../lib/synonyms.py:167 ../lib/wipe.py:124
+#: ../SPHelpText.py:144
+msgid "Miscellaneous"
+msgstr "Razno"
+
+#: ../SPHelpText.py:140
+msgid "Mousetraining"
+msgstr "Vaje z miško"
+
+#: ../SPMainCore.py:923 ../SPMainCore.py:930
+msgid "Movie"
+msgstr ""
+
+#: ../lib/pong.py:387
+msgid "Multi player - Play against another player."
+msgstr "Več igralcev - igrajte prosti drugemu igralcu."
+
+#: ../lib/pong.py:386
+msgid "Multi player against the computer - Try to defeat the computer."
+msgstr "Več igralcev proti računalniku - poskusite premagati računalnik."
+
+#: ../lib/wipe.py:83
+msgid "New"
+msgstr ""
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:867 ../SPMainCore.py:870
+msgid "No"
+msgstr "Ne"
+
+#: ../lib/photoalbum.py:233
+#, python-format
+msgid ""
+"No photo albums found !\n"
+"You should place your pictures inside directories called 'Album_1', "
+"'Album_2' etc\n"
+" Place these directories inside %s"
+msgstr ""
+
+#: ../lib/photoalbum.py:188
+msgid "Number of levels : 1"
+msgstr ""
+
+#: ../lib/spinbottle.py:210 ../lib/synonyms.py:156
+msgid "Number of levels : 6"
+msgstr ""
+
+#: ../lib/numbers_sp.py:222
+#, fuzzy
+msgid "Numbers_sp"
+msgstr "Spomin s številkami"
+
+#: ../lib/dltr.py:434 ../lib/dltr.py:438 ../SPMainCore.py:570
+#: ../SPMainCore.py:578 ../SPMainCore.py:809 ../SPMainCore.py:814
+#: ../SPMainCore.py:815 ../SPMainCore.py:919 ../SPMainCore.py:1018
+#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+msgid "OK"
+msgstr ""
+
+#: ../lib/synonyms.py:152
+#, python-format
+msgid ""
+"On the next screen you'll find a keyboard, try to make as much words as "
+"possible that begin with the letter '%s'."
+msgstr ""
+
+#: ../lib/spinbottle.py:206
+#, python-format
+msgid ""
+"On the next screen you'll find a keyboard, try to name as much %s as "
+"possible with the same letter."
+msgstr ""
+
+#: ../lib/simon_sp.py:166
+msgid "On the screen are four blocks of different colours."
+msgstr ""
+
+#: ../lib/findit_sp.py:221
+msgid ""
+"On the screen you will see two almost identical pictures.\n"
+"However, there are differences between the images."
+msgstr ""
+
+#: ../lib/spinbottle.py:207 ../lib/synonyms.py:153
+msgid "Only words from the dictionary are allowed."
+msgstr ""
+
+#: ../lib/packid.py:491
+msgid "Packid"
+msgstr "Packid"
+
+#: ../lib/photoalbum.py:178
+msgid "Photoalbum"
+msgstr ""
+
+#: ../lib/quiz_picture.py:94
+msgid "Picture Quiz"
+msgstr ""
+
+#: ../SPHelpText.py:120
+msgid "Picture import"
+msgstr ""
+
+#: ../lib/fourrow.py:538
+msgid "Pity, try again ?"
+msgstr ""
+
+#: ../lib/puzzle.py:245
+msgid "Place the puzzle piece on the right where you think it belongs..."
+msgstr ""
+
+#: ../lib/quiz_history.py:219
+msgid "Please enter your year of birth."
+msgstr ""
+
+#: ../lib/electro_sp.py:240 ../lib/memory_sp.py:283
+msgid "Please, choose a set of cards."
+msgstr ""
+
+#: ../lib/wipe.py:156
+msgid "Please, choose a set of images."
+msgstr ""
+
+#: ../lib/puzzle.py:302
+msgid "Please, choose a set of puzzle images."
+msgstr ""
+
+#: ../lib/pong.py:373
+msgid "Pong"
+msgstr "Pong"
+
+#: ../lib/simon_sp.py:167
+msgid "Press the Start button with your finger."
+msgstr ""
+
+#: ../lib/fourrow.py:145 ../lib/puzzle.py:236 ../lib/puzzle.py:259
+#: ../SPHelpText.py:138
+msgid "Puzzle"
+msgstr "Sestavljanka"
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:867
+msgid "Question ?"
+msgstr ""
+
+#: ../SPMainCore.py:809
+#, fuzzy
+msgid "Quit ?"
+msgstr "Zapri"
+
+#: ../lib/quiz.py:134
+#, fuzzy
+msgid "Quiz"
+msgstr "Matematika"
+
+#: ../lib/quiz_history.py:242
+msgid "Quiz history"
+msgstr ""
+
+#: ../lib/quiz_royal.py:108
+msgid "Quiz royal"
+msgstr ""
+
+#: ../lib/quiz_math.py:111
+msgid ""
+"Remember, the order of operations is multiplication or division and followed "
+"by addition or subtraction."
+msgstr ""
+
+#: ../lib/dltr.py:434 ../SPMainCore.py:1018
+msgid "Results"
+msgstr ""
+
+#: ../SPMainCore.py:1022
+msgid "Save image"
+msgstr ""
+
+#: ../lib/quiz_sayings.py:96
+msgid "Sayings Quiz"
+msgstr ""
+
+#: ../lib/dltr.py:378
+msgid "Score:"
+msgstr ""
+
+#: ../SPHelpText.py:126
+#, fuzzy
+msgid "Select Language"
+msgstr "Jezik"
+
+#: ../SPMenu.py:331
+msgid ""
+"Select an activity and click on the button, the activity will be started."
+msgstr "Izberite dejavnost in kliknite gumb, da se aktivnost začne."
+
+#: ../SPMainCore.py:948
+msgid "Set volume level"
+msgstr ""
+
+#: ../SPHelpText.py:127 ../SPHelpText.py:128
+msgid "Settings"
+msgstr ""
+
+#: ../lib/ichanger.py:296
+msgid ""
+"Several images from the past will appear on the screen.\n"
+"Look carefully at them and remember what you see."
+msgstr ""
+
+#: ../lib/simon_sp.py:155
+msgid "Simon_sp"
+msgstr ""
+
+#: ../lib/pong.py:385
+msgid "Single play - Hit the ball against the wall."
+msgstr "En igralec - odbijate žogico ob zid."
+
+#: ../lib/soundmemory.py:188
+msgid "Soundmemory"
+msgstr "Spomin z zvoki"
+
+#: ../lib/spinbottle.py:196
+msgid "Spin the bottle"
+msgstr ""
+
+#: ../lib/dltr.py:261 ../lib/ichanger.py:321 ../lib/memory_sp.py:430
+msgid "Start"
+msgstr ""
+
+#: ../lib/spinbottle.py:129 ../lib/synonyms.py:365
+#, fuzzy
+msgid "Starting a new exercise"
+msgstr "Začetni nivo %s"
+
+#: ../SPMainCore.py:645
+#, python-format
+msgid "Starting level %s"
+msgstr "Začetni nivo %s"
+
+#: ../SPMainCore.py:829
+msgid "Stopping timers, please wait..."
+msgstr "Ustavljam časovnike, prosim, počakajte ..."
+
+#: ../lib/spinbottle.py:120 ../lib/synonyms.py:118
+msgid "Suggestions:"
+msgstr ""
+
+#: ../lib/synonyms.py:140
+msgid "Synonyms"
+msgstr ""
+
+#: ../lib/quiz_text.py:103
+#, fuzzy
+msgid "Text Quiz"
+msgstr "Matematika"
+
+#: ../lib/simon_sp.py:169
+msgid "The  blocks will light up randomly along with sound clues."
+msgstr ""
+
+#: ../lib/packid.py:499
+msgid "The aim of the game:"
+msgstr "Cilj te igre:"
+
+#: ../lib/billiard.py:273 ../lib/dltr.py:214 ../lib/electro_sp.py:193
+#: ../lib/fallingletters.py:193 ../lib/findit_sp.py:220
+#: ../lib/findsound.py:126 ../lib/fishtank.py:250 ../lib/fourrow.py:127
+#: ../lib/ichanger.py:295 ../lib/memory_sp.py:206 ../lib/numbers_sp.py:230
+#: ../lib/photoalbum.py:186 ../lib/pong.py:381 ../lib/puzzle.py:244
+#: ../lib/quiz_general.py:158 ../lib/quiz_history.py:250
+#: ../lib/quiz_math.py:105 ../lib/quiz_melody.py:110
+#: ../lib/quiz_picture.py:102 ../lib/quiz.py:142 ../lib/quiz_royal.py:116
+#: ../lib/quiz_sayings.py:104 ../lib/quiz_text.py:111 ../lib/simon_sp.py:163
+#: ../lib/soundmemory.py:196 ../lib/spinbottle.py:204 ../lib/synonyms.py:150
+#: ../lib/wipe.py:110
+msgid "The aim of this activity:"
+msgstr "Cilj te dejavnosti:"
+
+#: ../lib/findit_sp.py:225
+msgid "The arrows to the left take you to the previous image."
+msgstr ""
+
+#: ../lib/pong.py:383
+msgid "The classic pong game where you must hit a ball with your bat."
+msgstr "Klasična igra pong, kjer morate odbijati žogico z loparjem."
+
+#: ../lib/electro_sp.py:244 ../lib/memory_sp.py:287 ../lib/puzzle.py:306
+msgid "The difficulty of the set increases from left to right."
+msgstr ""
+
+#: ../lib/billiard.py:278 ../lib/billiard.py:284
+msgid ""
+"The fewer hits you need to get the ball in the hole, the more points you get."
+msgstr "Z manj udarci ko spravite žogico v luknjo, več točk dobite."
+
+#: ../lib/electro_sp.py:194
+msgid "The game is to match pairs of pictures"
+msgstr ""
+
+#: ../lib/packid.py:711
+#, fuzzy
+msgid ""
+"The last level is only available when you finish the first three levels "
+"without errors."
+msgstr "Zadnji nivo je na voljo samo, ko končate prve tri brez napak."
+
+#: ../lib/billiard.py:277
+msgid "The longer you hold the left button the harder it will hit the ball."
+msgstr "Dlje ko držite levi gumb, bolj močno boste udarili žogico."
+
+#: ../lib/packid.py:723
+msgid "The word to find is: "
+msgstr "Beseda je:"
+
+#: ../lib/numbers_sp.py:234
+msgid "Then push the 'BEGIN' button. The numbers will disappear."
+msgstr ""
+
+#: ../lib/packid.py:501
+msgid "There are thee levels with three words each."
+msgstr "Obstajajo trije nivoji, vsaj s tremi besedami."
+
+#: ../lib/pong.py:384
+msgid "There are three modes to choose from:"
+msgstr "Izbirate lahko med tremi nivoji:"
+
+#: ../SPMainCore.py:1520
+#, python-format
+msgid ""
+"There was an error in %s. Please check the logs and inform the developers"
+msgstr "Napaka v %s. Preverite dnevnik napak in obvestite razvijalce."
+
+#: ../SPHelpText.py:46
+#, python-format
+msgid ""
+"There was an error in the database this can be caused by many things but "
+"most of the time it's caused by the fact that your version of the database "
+"doesn't match the version of the program. I will backup your original "
+"database and then replace it with a new one. The original database is now "
+"called sp.db_back and it's placed in %s"
+msgstr ""
+"V zbirki podatkov se je pojavila napaka, ki jo lahko povzroči mnogo stvari, "
+"največkrat pa je razlog v tem, da se različica zbirke podatkov ne ujema z "
+"različico programa. Izvirna zbirka podatkov bo varno shranjena in zamenjana "
+"z novo. Izvirna zbirka podatkov se zdaj imenuje sp.db_back in je shranjena v "
+"%s."
+
+#: ../lib/billiard.py:297 ../lib/electro_sp.py:215
+#: ../lib/fallingletters.py:214 ../lib/findit_sp.py:244
+#: ../lib/findsound.py:158 ../lib/fishtank.py:270 ../lib/fourrow.py:234
+#: ../lib/ichanger.py:316 ../lib/memory_sp.py:228 ../lib/numbers_sp.py:257
+#: ../lib/packid.py:523 ../lib/photoalbum.py:206 ../lib/pong.py:406
+#: ../lib/puzzle.py:266 ../lib/quiz_general.py:181 ../lib/quiz_history.py:273
+#: ../lib/quiz_picture.py:124 ../lib/quiz.py:169 ../lib/quiz_royal.py:138
+#: ../lib/simon_sp.py:189 ../lib/soundmemory.py:217 ../lib/spinbottle.py:229
+#: ../lib/synonyms.py:174 ../lib/wipe.py:135
+#, python-format
+msgid "This activity has %s levels"
+msgstr "Ta dejavnost ima %s nivojev"
+
+#: ../lib/dltr.py:215
+msgid ""
+"This activity is known as the daily training which is a collection of "
+"activities."
+msgstr ""
+
+#: ../SPMenu.py:330
+msgid "This is the menu used to select an activity."
+msgstr "Ta meni se uporablja za izbiro dejavnosti."
+
+#: ../lib/fourrow.py:133
+msgid "Tip: Try creating multiple winning scenario's."
+msgstr ""
+
+#: ../SPMainCore.py:914
+#, fuzzy, python-format
+msgid "Tip:%s"
+msgstr "Namig:"
+
+#: ../lib/quizengine.py:797
+#, python-format
+msgid ""
+"To little questions found in %s for locale '%s', found %s questions should "
+"be at least 10"
+msgstr ""
+
+#: ../lib/fourrow.py:132
+msgid ""
+"To win the game you'll need four red pills lined up after each other "
+"horizontally, vertically or diagonal."
+msgstr ""
+
+#: ../lib/ichanger.py:298
+msgid ""
+"Touch the 'START' button on the right.\n"
+"The images will dissappear and when they return, one will have changed.\n"
+"Touch the picture which has changed."
+msgstr ""
+
+#: ../lib/packid.py:500
+msgid "Try to 'eat' all the letters in the appropriated order."
+msgstr "'Pojejte' vse črke v pravilnem vrstnem redu."
+
+#: ../lib/numbers_sp.py:235
+msgid ""
+"Try to find the numbers, in the correct order and from low to high, by "
+"touching them on the screen."
+msgstr ""
+
+#: ../lib/packid.py:504
+msgid "Try to find the way out while eating the fruits for extra points and"
+msgstr "Poskusite najti pot ven tako, da pojeste sadje za dodatne točke in"
+
+#: ../lib/fourrow.py:128
+msgid "Try to get four in a row in any possible direction."
+msgstr ""
+
+#: ../lib/fishtank.py:251
+msgid "Try to remove the fish by clicking on them with the mouse."
+msgstr "Odstranite ribe, tako, da kliknete nanje z miško."
+
+#: ../lib/simon_sp.py:164
+msgid "Try to repeat the sequence of sounds played."
+msgstr ""
+
+#: ../lib/fallingletters.py:194
+msgid "Type the falling letters on the keyboard before they hit the ground."
+msgstr "Pritisnite padajoče črke na tipkovnici preden dosežejo tla."
+
+#: ../SPHelpText.py:123
+msgid "Update BrainTrainerPlus"
+msgstr ""
+
+#: ../SPMenu.py:332
+msgid "Use the 'sub menu' buttons for the different activity menus"
+msgstr ""
+
+#: ../SPMenu.py:346
+msgid "Use the menu below to choose between the different game categories"
+msgstr ""
+
+#: ../lib/billiard.py:276
+msgid "Use the right mousebutton to aim and the left button to hit the ball."
+msgstr "Z desnim gumbom miške ciljate, z levim pa udarite."
+
+#: ../lib/pong.py:579
+msgid "Use these keys on your keyboard to control the bat."
+msgstr "S temi tipkami upravljate z loparjem."
+
+#: ../SPMainCore.py:460
+#, python-format
+msgid "User: %s"
+msgstr "Uporabnik: %s"
+
+#: ../SPHelpText.py:117
+#, fuzzy
+msgid "Usermanagement"
+msgstr "Uporabniško ime:"
+
+#: ../SPgdm.py:104
+msgid "Username:"
+msgstr "Uporabniško ime:"
+
+#: ../lib/simon_sp.py:170
+msgid ""
+"When the flashing stops you will be prompted to repeat the sequence by "
+"touching the coloured blocks."
+msgstr ""
+
+#: ../lib/packid.py:502
+msgid "When you have finished all the levels, without making to much mistakes"
+msgstr "Ko končate vse nivoje brez večjih napak"
+
+#: ../lib/findit_sp.py:223
+msgid ""
+"When you spot a difference, touch it with your finger.\n"
+"You can click the question mark in the middle of the screen if you need a "
+"hint."
+msgstr ""
+
+#: ../lib/soundmemory.py:199
+msgid ""
+"When you touch the picture you will hear a sound.\n"
+"Match the image with others that make the same sound,to get points."
+msgstr ""
+
+#: ../lib/wipe.py:102
+msgid "Wipe"
+msgstr ""
+
+#: ../lib/wipe.py:112
+msgid "Wipe with your finger on the screen to uncover the picture."
+msgstr ""
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:728 ../SPMainCore.py:729
+#: ../SPMainCore.py:867
+msgid "Yes"
+msgstr "Da"
+
+#: ../lib/fourrow.py:130
+msgid ""
+"You can vertically drop a red pill in a desired column by pressing that "
+"exact column."
+msgstr ""
+
+#: ../lib/dltr.py:374
+msgid "You have finished the daily training module."
+msgstr ""
+
+#: ../lib/billiard.py:274
+msgid "You have to make the blue ball enter the hole (in level 1)"
+msgstr "Modro žogico morate spraviti v luknjo (v 1. nivoju)"
+
+#: ../SPMainCore.py:723
+msgid "You play very good, do you want to try the next level ?"
+msgstr ""
+
+#: ../lib/electro_sp.py:196
+msgid ""
+"You select the pictures by touching them.\n"
+"As you progress through the star levels more pairs appear to match."
+msgstr ""
+
+#: ../lib/numbers_sp.py:231
+msgid "You will see various numbers scattered around the screen."
+msgstr ""
+
+#: ../lib/billiard.py:584
+msgid "You won!!"
+msgstr "Zmagali ste!"
+
+#: ../lib/dltr.py:376
+msgid "Your average results per group are:"
+msgstr ""
+
+#: ../SPMainCore.py:1028
+#, python-format
+msgid ""
+"Your image is saved at:\n"
+"%s"
+msgstr ""
+"Vaša slika je shranjena v:\n"
+"%s"
+
+#: ../lib/dltr.py:375
+msgid "Your results are:"
+msgstr ""
+
+#: ../lib/billiard.py:275
+msgid "and the red ones in levels 2 and 3."
+msgstr "in rdeče na stopnji 2 in 3."
+
+#: ../lib/spinbottle.py:118
+msgid "beginning with the letter: "
+msgstr ""
+
+#: ../lib/packid.py:505
+msgid "funny sounds :-)"
+msgstr "smešni zvoki :-)"
+
+#: ../lib/billiard.py:572 ../lib/billiard.py:585
+msgid "points"
+msgstr "točke"
+
+#: ../lib/quiz.py:157
+#, python-format
+msgid "question id: %s"
+msgstr ""
+
+#: ../lib/quiz_general.py:134
+#, python-format
+msgid ""
+"xml file %s is missing, this shouldn't happen, contact the %s developers"
+msgstr ""
+
+#~ msgid "All the data was stored succesfully."
+#~ msgstr "Vsi podatki so bili uspešno shranjeni."
+
+#~ msgid "Aquarium mouse training, difficulty: *"
+#~ msgstr "Vaje za miško, akvarij, težavnost: *"
+
+#~ msgid ""
+#~ "At the start of the game, a photograph of an animal is shown, above the "
+#~ "picture the name of the animal is written."
+#~ msgstr ""
+#~ "na začetku igre se prikaže slika živali, nad njo je izpisano ime živali."
+
+#~ msgid "Billiard, difficulty: **/***"
+#~ msgstr "Biljard, težavnost: **/***"
+
+#~ msgid "Childsplay_sp information"
+#~ msgstr "Informacije Childsplay_sp"
+
+#~ msgid "Childsplay_sp question"
+#~ msgstr "Vprašanje Childsplay_sp"
+
+#~ msgid "Childsplay_sp results diagram"
+#~ msgstr "Diagram rezultatov Childsplay_sp"
+
+#, fuzzy
+#~ msgid "Click the buttons in the right order"
+#~ msgstr "Poiščite vse črke v pravilnem vrstnem redu. "
+
+#~ msgid ""
+#~ "Each part of the screen can also be clicked on to make the animal scream, "
+#~ "his name or initial spoken."
+#~ msgstr ""
+#~ "Vsak del zaslona se lahko tudi klikne in s tem znova sproži, da da žival "
+#~ "glas, ali da se izgovori njena začetnica ali ime."
+
+#~ msgid "Exercises"
+#~ msgstr "Vaje"
+
+#~ msgid ""
+#~ "Failed to get the dbase data, try to run childsplay_sp first to setup the "
+#~ "dbase"
+#~ msgstr ""
+#~ "Ni bilo mogoče pridobiti podatkov iz zbirke podatkov. Poskusite pognati "
+#~ "childsplay_sp, da se vzpostavi zbirka podatkov."
+
+#~ msgid "Find the characters"
+#~ msgstr "Najdi znake"
+
+#~ msgid "Flashcards"
+#~ msgstr "Karte"
+
+#~ msgid "Flashcards, difficulty: *"
+#~ msgstr "Karte, težavnost: *"
+
+#~ msgid ""
+#~ "Give your login name in the box and hit the login button. Alternatively "
+#~ "you can just hit the login button and run Childsplay_sp in anonymous mode."
+#~ msgstr ""
+#~ "Vnesite uporabniško ime in kliknite gumb za prijavo. Lahko pa samo "
+#~ "kliknete gumb za prijavo in poženete Childsplay_sp v anonimnem načinu."
+
+#, fuzzy
+#~ msgid "Goal of the activity"
+#~ msgstr "Cilj te dejavnosti"
+
+#~ msgid ""
+#~ "If the menu consist of more layers, sub menus, you can always get back to "
+#~ "the main menu by using the 'exit' button."
+#~ msgstr ""
+#~ "Če je meni sestavljen iz več podmenijev, se na prejšnji nivo vrnete z "
+#~ "gumbom 'Izhod'."
+
+#~ msgid ""
+#~ "If you start the GUI for the first time there's no username and password "
+#~ "set so you should just hit the 'Login' button.\n"
+#~ " You will get a warning message telling you to set as soon as possible a "
+#~ "username and password.\n"
+#~ "You can set a username and password in the GUI.\n"
+#~ " Go to 'Settings' -> 'Set password'."
+#~ msgstr ""
+#~ "Če program poganjate prvič, uporabniško ime in geslo še nista "
+#~ "nastavljena, zato samo kliknite gumb 'Prijava'.\n"
+#~ "Prikazano bo obvestilo, da čim prej nastavite uporabnipko ime in geslo.\n"
+#~ "nastavite ju lahko preko menija 'Nastavitve' -> 'Nastavi geslo'."
+
+#~ msgid ""
+#~ "In the last level the fish needs to be clicked two times while they try "
+#~ "to escape."
+#~ msgstr ""
+#~ "V zadnjem nivoju morate ribo klikniti dvakrat, ko skušajo pobegniti."
+
+#~ msgid ""
+#~ "In this file you can set a number of options to change the game play."
+#~ msgstr ""
+#~ "V tej datoteki lahko nastavite množico možnosti in s tem spremenite "
+#~ "igralnost."
+
+#~ msgid "Info"
+#~ msgstr "Informacije"
+
+#~ msgid "Keyboard training, difficulty: *"
+#~ msgstr "Vaje s tipkovnico, težavnost: *"
+
+#~ msgid "Listen to the sound and click on the character to which it belongs."
+#~ msgstr "Poslušajte zvok in kliknite na lik, ki mu pripada."
+
+#~ msgid "Lower case characters memory, difficulty: */**"
+#~ msgstr "Spomin z malimi črkami, težavnost: */**"
+
+#~ msgid "LowercaseMemory"
+#~ msgstr "Spomin z malimi črkami"
+
+#~ msgid "Memory, difficulty: */**"
+#~ msgstr "Spomin, težavnost: */**"
+
+#~ msgid "Memory/Alphabet"
+#~ msgstr "Spomin/abeceda"
+
+#~ msgid "Menu"
+#~ msgstr "Meni"
+
+#~ msgid "No data available for this level"
+#~ msgstr "Ni podatkov za to raven"
+
+#~ msgid "Numbers memory, difficulty: */**"
+#~ msgstr "Spomin s številkami, težavnost: */**"
+
+#~ msgid "Ok"
+#~ msgstr "V redu"
+
+#~ msgid "On the left the initial of the animal name is shown."
+#~ msgstr "Na levi je prikazana začetnica živali."
+
+#~ msgid "Packid, difficulty: **/***"
+#~ msgstr "Packid, težavnost: **/***"
+
+#~ msgid "Pause"
+#~ msgstr "Premor"
+
+#~ msgid "Pong classic tennis game, difficulty: *"
+#~ msgstr "Klasična igra tenisa pong, težavnost: *"
+
+#~ msgid "Put all the pieces in the correct order."
+#~ msgstr "Postavite vse dele v pravilnem vrstnem redu."
+
+#~ msgid "Puzzle, difficulty: */**"
+#~ msgstr "Sestavljanka, težavnost: */**"
+
+#~ msgid "Save"
+#~ msgstr "Shrani"
+
+#~ msgid "Scores reached in level %s"
+#~ msgstr "Rezultat, dosežen v nivoju %s"
+
+#~ msgid "Sound association, difficulty: *"
+#~ msgstr "Asociacija zvokov, težavnost: *"
+
+#~ msgid "Sound association, difficulty: */**"
+#~ msgstr "Asociacija zvokov, težavnost: */**"
+
+#~ msgid "Sound memory, difficulty: */**"
+#~ msgstr "Zvočni spomin, težavnost: */**"
+
+#~ msgid "The aim of this activity"
+#~ msgstr "Cilj te dejavnosti"
+
+#~ msgid ""
+#~ "The faster you find all the characters the better your score will be."
+#~ msgstr "Hitreje ko najdete like, boljši rezultat boste imeli."
+
+#~ msgid ""
+#~ "The game has a configuration file called 'pongrc', located in the ."
+#~ "childsplay directory of your homedirectory."
+#~ msgstr ""
+#~ "Igra ima datoteko z nastavitvami 'pongrc', ki se nahaja v mapi childsplay "
+#~ "v vaši domači mapi."
+
+#~ msgid "The table 'activity_options' doesn't exist in the dbase"
+#~ msgstr "Tabela 'activity_options' ne obstaja v tbirki podatkov"
+
+#~ msgid ""
+#~ "Then the animal name is spoken ('the dog'), and the animal makes his cry "
+#~ "('woof' 'cui-cui' etc.)."
+#~ msgstr ""
+#~ "Nato se izgovori ime živali ('pes') in žival da glas (npr. 'hov hov')."
+
+#~ msgid ""
+#~ "There was a problem while replacing the rows in the database.\n"
+#~ "The exception was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Pri zamenjavi vrstic v tabeli se je pojavil problem.\n"
+#~ "Napaka je bila:\n"
+#~ "%s"
+
+#~ msgid "This activity belongs to the category: %s"
+#~ msgstr "Ta dejavnost spada h kategoriji: %s"
+
+#~ msgid ""
+#~ "This database table holds the values used when displaying the results "
+#~ "graph in an activity.\n"
+#~ "The column 'MU-value' holds an integer between 0 and 10 indicating the "
+#~ "average score.(the dark blue line).\n"
+#~ "The column 'SIGMA-value' holds an integer between 0 an 100 indicating the "
+#~ "standard deviation in percentage, probably always 50. (the light blue "
+#~ "box)\n"
+#~ "\n"
+#~ "Click on the row you want to alter and then click on the field you wish "
+#~ "to edit.\n"
+#~ "You cannot edit the 'Activity name' field.\n"
+#~ "Use the 'Save' button to store the changes in the database."
+#~ msgstr ""
+#~ "Tabela zbirke podatkov vsebuje vrednosti, ki se uporabljajo za prikaz "
+#~ "grafa rezultatov v dejavnosti.\n"
+#~ "Stolpec 'MU-value' vsebuje celo število med 0 in 10, ki ponazarja "
+#~ "povprečni rezultat (temno modra črta).\n"
+#~ "Stolpec 'SIGMA-value' vsebuje celo število med 0 in 100, ki ponazarja "
+#~ "standardni odklon v odstotkih, verjetno vedno 50 (svetlo moder okvir).\n"
+#~ "\n"
+#~ "kliknite na vrstico, ki jo želite spremeniti in nato kliknite na polje, "
+#~ "ki ga želite urediti.\n"
+#~ "Uredite lahko polje 'Activity name'.\n"
+#~ "Za shranjevanje uporabite gumb 'Shrani'."
+
+#~ msgid "This is a game to teach the alphabet to very little childrens."
+#~ msgstr "Ta igra je za učenje abecede za zelo majhne otroke."
+
+#, fuzzy
+#~ msgid "Tips"
+#~ msgstr "Namig:"
+
+#, fuzzy
+#~ msgid "Type of activity"
+#~ msgstr "Cilj te dejavnosti"
+
+#~ msgid "Upper case characters memory, difficulty: */**"
+#~ msgstr "Spomin z velikimi črkami, težavnost: */**"
+
+#~ msgid "UppercaseMemory"
+#~ msgstr "Spomin z velikimi črkami"
+
+#~ msgid ""
+#~ "When a letter is hit on the keyboard, a corresponding animal is shown."
+#~ msgstr "Če kliknete črko na tipkovnici, se prikaže odgovarjajoča žival."
+
+#~ msgid ""
+#~ "When you can't find the correct character after a certain period of time "
+#~ "a box will be drawn around it."
+#~ msgstr ""
+#~ "Če ne najdete pravega lika, se bo po določenem času ojrog njega narisal "
+#~ "okvir."
+
+#~ msgid ""
+#~ "You can add your own images by placing them in the following directory: "
+#~ msgstr "Lastna slike lahko dodat etako, da jih postavite v sledečo mapo:"
+
+#~ msgid "You can hit the 'graph' button to see your results per level."
+#~ msgstr "kliknete lahko gumb 'Graf' in pogledate rezultat po nivojih."
+
+#~ msgid ""
+#~ "Your language, %s, is not supported.\n"
+#~ " I will now switch to English"
+#~ msgstr ""
+#~ "Vaš jezik, %s, ni podprt.\n"
+#~ "Preklapljam na angleščino."
+
+#~ msgid ""
+#~ "Your language, %s, is supported but you must install\n"
+#~ " the 'alphabet_sounds_%s' package.\n"
+#~ " Look for it in your GNU/Linux distro or at www.schoolsplay.org.\n"
+#~ " I will now switch to English"
+#~ msgstr ""
+#~ "Vaš jezik, %s, je podprt ampak morate namestiti\n"
+#~ "paket 'alphabet_sounds_%s'.\n"
+#~ "Poiščite ga v vaši distribuciji GNU/Linux ali na spletni strani www."
+#~ "schoolsplay.org.\n"
+#~ "Preklapljam na angleščino."
+
+#~ msgid "badger"
+#~ msgstr "jazbec"
+
+#~ msgid "bear"
+#~ msgstr "medved"
+
+#~ msgid "beaver"
+#~ msgstr "bober"
+
+#~ msgid "bee"
+#~ msgstr "čebela"
+
+#~ msgid "bison"
+#~ msgstr "bizon"
+
+#~ msgid "blackbird"
+#~ msgstr "kos"
+
+#~ msgid "bull"
+#~ msgstr "bik"
+
+#~ msgid "camel"
+#~ msgstr "kamela"
+
+#~ msgid "chimp"
+#~ msgstr "šimpanz"
+
+#~ msgid "cow"
+#~ msgstr "krava"
+
+#~ msgid "crow"
+#~ msgstr "vrana"
+
+#~ msgid "cuckoo"
+#~ msgstr "kukavica"
+
+#~ msgid "deer"
+#~ msgstr "jelen"
+
+#~ msgid "doe"
+#~ msgstr "srna"
+
+#~ msgid "dog"
+#~ msgstr "pes"
+
+#~ msgid "dolphin"
+#~ msgstr "delfin"
+
+#~ msgid "donkey"
+#~ msgstr "osel"
+
+#~ msgid "dromedary"
+#~ msgstr "kamela"
+
+#~ msgid "duck"
+#~ msgstr "raca"
+
+#~ msgid "elephant"
+#~ msgstr "slon"
+
+#~ msgid "ferret"
+#~ msgstr "dihur"
+
+#~ msgid "fly"
+#~ msgstr "muha"
+
+#~ msgid "fox"
+#~ msgstr "lisica"
+
+#~ msgid "frog"
+#~ msgstr "žaba"
+
+#~ msgid "gander"
+#~ msgstr "gosak"
+
+#~ msgid "giraffe"
+#~ msgstr "žirafa"
+
+#~ msgid "goat"
+#~ msgstr "koza"
+
+#~ msgid "gorilla"
+#~ msgstr "gorila"
+
+#~ msgid "grasshopper"
+#~ msgstr "kobilica"
+
+#~ msgid "hen"
+#~ msgstr "kokoš"
+
+#~ msgid "hippopotamus"
+#~ msgstr "povodni konj"
+
+#~ msgid "hornet"
+#~ msgstr "sršen"
+
+#~ msgid "horse"
+#~ msgstr "konj"
+
+#~ msgid "iguana"
+#~ msgstr "leguan"
+
+#~ msgid "kangaroo"
+#~ msgstr "kenguru"
+
+#~ msgid "koala"
+#~ msgstr "koala"
+
+#~ msgid "lark"
+#~ msgstr "škrjanec"
+
+#~ msgid "lion"
+#~ msgstr "lev"
+
+#~ msgid "marmot"
+#~ msgstr "svizec"
+
+#~ msgid "mountaingoat"
+#~ msgstr "kozorog"
+
+#~ msgid "mouse"
+#~ msgstr "miš"
+
+#~ msgid "nandou"
+#~ msgstr "nandu"
+
+#~ msgid "orca"
+#~ msgstr "orka"
+
+#~ msgid "otter"
+#~ msgstr "vidra"
+
+#~ msgid "owl"
+#~ msgstr "sova"
+
+#~ msgid "peacock"
+#~ msgstr "pav"
+
+#~ msgid "penguin"
+#~ msgstr "pengvin"
+
+#~ msgid "pig"
+#~ msgstr "prašič"
+
+#~ msgid "pigeon"
+#~ msgstr "golob"
+
+#~ msgid "quetzal"
+#~ msgstr "quetzal"
+
+#~ msgid "rabbit"
+#~ msgstr "zajec"
+
+#~ msgid "ram"
+#~ msgstr "oven"
+
+#~ msgid "rat"
+#~ msgstr "podgana"
+
+#~ msgid "rooster"
+#~ msgstr "petelin"
+
+#~ msgid "seagull"
+#~ msgstr "galeb"
+
+#~ msgid "tiger"
+#~ msgstr "tiger"
+
+#~ msgid "tucan"
+#~ msgstr "tukan"
+
+#~ msgid "turkey"
+#~ msgstr "puran"
+
+#~ msgid "vulture"
+#~ msgstr "jastreb"
+
+#~ msgid "wallaby"
+#~ msgstr "kenguru"
+
+#~ msgid "wapiti"
+#~ msgstr "vapiti"
+
+#~ msgid "whale"
+#~ msgstr "kit"
+
+#~ msgid "wildboar"
+#~ msgstr "zver"
+
+#~ msgid "wombat"
+#~ msgstr "vombat"
+
+#~ msgid "xanthia"
+#~ msgstr "xantia"
+
+#~ msgid "yak"
+#~ msgstr "jak"
+
+#~ msgid "zebra"
+#~ msgstr "zebra"
+
+#~ msgid "zebu"
+#~ msgstr "zebu"

@@ -1,0 +1,16 @@
+# rc file for the activity
+# Must have one section called 'default'
+# Put all the options in this section.
+# Format must follow the Python ConfigParser format
+
+[DEFAULT]
+# Pause between answers in the quizzes, in milliseconds
+pause = 2500
+
+# Pause between answers when a good answer is given
+pause_good = 5000
+
+
+[seniorplay]
+[braintrainer]
+[childsplay]

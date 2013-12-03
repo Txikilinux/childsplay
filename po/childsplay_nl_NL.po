@@ -1,0 +1,1580 @@
+# translation of childsplay_sp_nl_NL.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# stas Zytkiewicz <stas.zytkiewicz@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: childsplay_sp_nl_NL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-20 11:13+0100\n"
+"PO-Revision-Date: 2010-10-23 09:43+0100\n"
+"Last-Translator: Stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../SPHelpText.py:76
+msgid ""
+"\n"
+"\n"
+"Touch the 'Play' button to continue the game."
+msgstr ""
+"\n"
+"\n"
+"Raak de 'Play' knop aan om verder te gaan met het spel."
+
+#: ../SPHelpText.py:71
+msgid ""
+"\n"
+"\n"
+"Touch the changed picture."
+msgstr ""
+"\n"
+"\n"
+"Raak het veranderde plaatje aan."
+
+#: ../lib/packid.py:503
+msgid "(max two per word), you can play the last level which is a maze."
+msgstr "(max. twee per woord), kun je het laatste level, een doolhof, spelen."
+
+#: ../SPMenu.py:344
+msgid "A collection of braintrain games for seniors."
+msgstr "Een suite geheugen spellen speciaal voor senioren."
+
+#: ../lib/memory_sp.py:216
+#, fuzzy
+msgid "Accuracy is more important than speed."
+msgstr "Juistheid is belangrijker dan snelheid"
+
+#: ../SPMainCore.py:473
+msgid "Activity :"
+msgstr "Activiteit:"
+
+#: ../SPMainCore.py:585
+#, python-format
+msgid "Activity : %s"
+msgstr "Activiteit: %s"
+
+#: ../lib/dltr.py:377
+msgid "Activity:"
+msgstr "Activiteit:"
+
+#: ../lib/fourrow.py:131
+msgid "All pills, both red and yellow, stack on each other."
+msgstr ""
+
+#: ../SPMenu.py:345
+msgid ""
+"All the games have there own help page, just start a game and hit the stars "
+"on top of the screen to select another difficulty."
+msgstr ""
+"Alle spellen hebben een eigen help functie, start een spel en raak de "
+"sterren bovenin aan om een ander niveau te kiezen."
+
+#: ../SPHelpText.py:142
+msgid "Alphabet"
+msgstr "Alfabet"
+
+#: ../lib/fallingletters.py:207
+msgid "Alphabet/Keyboardtraining"
+msgstr "Alfabet/Toetsenboardtraining"
+
+#: ../lib/spinbottle.py:119 ../lib/synonyms.py:117
+msgid "Already found:"
+msgstr "Reeds gevonden:"
+
+#: ../SPMainCore.py:272
+msgid "An error occurred and BraintrainerPlus was restarted"
+msgstr ""
+
+#: ../lib/quiz_math.py:106
+msgid "Answer the math questions."
+msgstr "Beantwoord de reken vragen."
+
+#: ../lib/quiz_general.py:159 ../lib/quiz_history.py:251
+#: ../lib/quiz_melody.py:111 ../lib/quiz_picture.py:103 ../lib/quiz.py:143
+#: ../lib/quiz_royal.py:117 ../lib/quiz_sayings.py:105 ../lib/quiz_text.py:112
+msgid "Answer the quiz questions."
+msgstr "Beantwoord de quiz vragen."
+
+#: ../SPMainCore.py:866
+msgid ""
+"Are sure you want to quit the dailytraining ? All the results will be lost."
+msgstr ""
+"Weet us zeker dat u de dagelijkse training wilt stopppen ? Alle resultaten "
+"zullen verloren gaan."
+
+#: ../lib/puzzle.py:247
+msgid "At the bottom you'll see a image of the complete puzzle."
+msgstr "Onderin ziet u hoe het eruit komt te zien."
+
+#: ../lib/quiz.py:145
+msgid "At the top of the screen, you will see a general knowledge question."
+msgstr "U ziet boven aan het scherm een algemene kennis vraag."
+
+#: ../lib/quiz_royal.py:119
+msgid ""
+"At the top of the screen, you will see a question about a member of Royalty"
+msgstr "U ziet een vraag over een koninklijke figuur of iemand van adel."
+
+#: ../lib/quiz_picture.py:105
+#, fuzzy
+msgid "At the top of the screen, you will see a question about a picture."
+msgstr "U ziet boven aan het scherm een vraag."
+
+#: ../lib/quiz_general.py:161
+#, fuzzy
+msgid ""
+"At the top of the screen, you will see a question about general knowledge."
+msgstr "U ziet een vraag over een koninklijke figuur of iemand van adel."
+
+#: ../lib/quiz_math.py:108
+#, fuzzy
+msgid "At the top of the screen, you will see a question about math problem."
+msgstr "u ziet een reken probleem"
+
+#: ../lib/quiz_sayings.py:107
+#, fuzzy
+msgid "At the top of the screen, you will see a question about sayings."
+msgstr "U ziet boven aan het scherm een vraag."
+
+#: ../lib/quiz_melody.py:113
+#, fuzzy
+msgid ""
+"At the top of the screen, you will see a question about the song playing."
+msgstr "U ziet een vraag over een koninklijke figuur of iemand van adel."
+
+#: ../lib/quiz_history.py:253
+msgid ""
+"At the top of the screen, you will see a question from general knowledge "
+"question from the selected period."
+msgstr "U ziet vraag over een bepaalde periode uit de geschiedenis."
+
+#: ../lib/quiz_text.py:114
+msgid "At the top of the screen, you will see a question."
+msgstr "U ziet boven aan het scherm een vraag."
+
+#: ../lib/billiard.py:325
+msgid "Balls"
+msgstr "Ballen"
+
+#: ../lib/numbers_sp.py:190
+msgid "Begin"
+msgstr ""
+
+#: ../lib/quiz_general.py:162 ../lib/quiz_history.py:254
+#: ../lib/quiz_math.py:109 ../lib/quiz_melody.py:114
+#: ../lib/quiz_picture.py:106 ../lib/quiz.py:146 ../lib/quiz_royal.py:120
+#: ../lib/quiz_sayings.py:108 ../lib/quiz_text.py:115
+msgid ""
+"Below it are a choice of possible answers.\n"
+"Touch the correct answer."
+msgstr ""
+"Onder de vraag staan een aantal mogelijke antwoorden.\n"
+"Raak het juiste antwoord aan."
+
+#: ../lib/billiard.py:265
+msgid "Billiard"
+msgstr "Billiard"
+
+#: ../lib/billiard.py:251
+msgid "Billiard Game"
+msgstr "Billiard spel"
+
+#: ../SPMainCore.py:809
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: ../SPHelpText.py:121 ../SPHelpText.py:122
+msgid "Change password"
+msgstr ""
+
+#: ../lib/ichanger.py:323 ../lib/numbers_sp.py:194
+msgid "Cheat"
+msgstr "Spiek"
+
+#: ../SPMainCore.py:222
+#, python-format
+msgid "Childsplay_sp - educational activities, using theme:%s"
+msgstr "Childsplay_sp - educatieve activiteiten, gebruikt thema: %s"
+
+#: ../SPgdm.py:73
+msgid "Childsplay_sp login"
+msgstr "Childsplay_sp login"
+
+#: ../lib/pong.py:425
+msgid "Choose the game to play:"
+msgstr "Kies welk spel je wilt spelen."
+
+#: ../lib/memory_sp.py:207
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr "Klassiek geheugen spel waar je paren kaarten moet vinden."
+
+#: ../lib/soundmemory.py:197
+msgid "Classic memory game where you have to find pairs of sounds."
+msgstr "Klassiek geheugen spel waar je paren geluiden moet vinden."
+
+#: ../SPMainCore.py:948
+msgid "Close"
+msgstr ""
+
+#: ../lib/fourrow.py:536
+msgid "Congratulations, try again ?"
+msgstr ""
+
+#: ../SPHelpText.py:129
+msgid "Content import"
+msgstr ""
+
+#: ../lib/electro_sp.py:203 ../lib/fallingletters.py:201
+#: ../lib/soundmemory.py:205
+msgid "Correctness is more important than speed"
+msgstr "Juistheid is belangrijker dan snelheid"
+
+#: ../lib/numbers_sp.py:241
+#, fuzzy
+msgid "Correctness is more important than speed."
+msgstr "Juistheid is belangrijker dan snelheid"
+
+#: ../SPMainCore.py:1239 ../SPMainCore.py:1412
+#, python-format
+msgid "Current activity : %s"
+msgstr "Huidige activiteit: %s"
+
+#: ../SPHelpText.py:119
+#, fuzzy
+msgid "Daily training sequence"
+msgstr "Toetsenbord training"
+
+#: ../SPHelpText.py:53
+msgid "Default group 1"
+msgstr ""
+
+#: ../SPHelpText.py:54
+msgid "Default group 2"
+msgstr ""
+
+#: ../lib/dltr.py:434
+msgid "Details"
+msgstr "Details"
+
+#: ../SPMainCore.py:808
+msgid "Do you really want to quit ?"
+msgstr "Wil je echt stoppen ?"
+
+#: ../lib/electro_sp.py:185
+msgid "Electro_sp"
+msgstr "Electro"
+
+#: ../SPMainCore.py:570 ../SPMainCore.py:578
+msgid "Error !"
+msgstr "Fout !"
+
+#: ../SPMainCore.py:577
+#, python-format
+msgid ""
+"Error constructing activity\n"
+"%s"
+msgstr ""
+"Fout bij opbouwen activiteit\n"
+"%s"
+
+#: ../SPMainCore.py:569
+#, python-format
+msgid ""
+"Error importing activity\n"
+"%s"
+msgstr ""
+"Fout bij importeren activiteit\n"
+"%s"
+
+#: ../lib/fallingletters.py:185
+msgid "Fallingletters"
+msgstr "Vallendeletters"
+
+#: ../lib/packid.py:722
+msgid "Find all the letters in the right order."
+msgstr "Vind alle letters in de juiste volgorde."
+
+#: ../lib/findit_sp.py:212
+msgid "Findit"
+msgstr "Findit"
+
+#: ../lib/findsound.py:118
+msgid "Findsound"
+msgstr "Vindgeluid"
+
+#: ../lib/fishtank.py:242
+msgid "Fishtank"
+msgstr "Aquarium"
+
+#: ../lib/fourrow.py:119
+msgid "Fourrow"
+msgstr ""
+
+#: ../lib/pong.py:400 ../SPHelpText.py:143
+msgid "Fun"
+msgstr "Spel"
+
+#: ../lib/packid.py:516
+msgid "Fun/Alphabet"
+msgstr "Spel/Alfabet"
+
+#: ../lib/billiard.py:290
+msgid "Fun/Miscellaneous"
+msgstr "Spel/Diversen"
+
+#: ../lib/fishtank.py:263
+msgid "Fun/Mousetraining"
+msgstr "Spel/Muistraining"
+
+#: ../SPHelpText.py:124
+msgid "Gamemanagement"
+msgstr ""
+
+#: ../SPMainCore.py:1016
+#, fuzzy, python-format
+msgid "Generated by %s version %s for the %s activity"
+msgstr "Gegenereerd door Childsplay_sp versie %s voor de %s activiteit"
+
+#: ../SPHelpText.py:118
+msgid "Groupmanagement"
+msgstr ""
+
+#: ../lib/spinbottle.py:208 ../lib/synonyms.py:154
+msgid "Hit the 'Begin' button to start."
+msgstr "Klik de 'Start' knop om te beginnen."
+
+#: ../SPMainCore.py:653
+msgid "Hit the 'space' key or a mousebutton to skip the countdown"
+msgstr "Gebruik de spatiebalk of een muisknop om het aftellen over te slaan."
+
+#: ../lib/pong.py:573
+msgid "Hit the Escape key to stop."
+msgstr "Klik de Escape toets om te stoppen."
+
+#: ../lib/ichanger.py:287
+msgid "Ichanger"
+msgstr "Museum spel"
+
+#: ../lib/dltr.py:250
+msgid "If you ready to start the next activity, hit the 'start' button."
+msgstr ""
+"Als U klaar bent om de volgende activiteit te starten, klik de 'Start' knop."
+
+#: ../lib/fallingletters.py:195
+msgid ""
+"In the last two levels the uppercase and lowercase are mixed but you don't "
+"have to match the case only the letter"
+msgstr ""
+"In de laatste twee levels zijn grote en kleine letters gemengd maar je kunt "
+"gewoon kleine letters tikken"
+
+#: ../lib/pong.py:388
+msgid "In the multiplayer modes, the one who has 11 points wins."
+msgstr ""
+"In de 'tegenstanders' spellen wint diegene die het eerste 11 punten heeft. "
+
+#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+msgid "Information"
+msgstr "Informatie"
+
+#: ../SPMainCore.py:927
+#, python-format
+msgid "Information about %s"
+msgstr "Informatie over %s"
+
+#: ../SPHelpText.py:58
+msgid ""
+"It seems that we cannot use the sound card right now and because this "
+"activity is all about sound, we just quit. This problem can also be caused "
+"by another application which uses the soundcard right now."
+msgstr ""
+"Het lijkt dat we de geluidskaart niet kunnen gebruiken op dit moment en "
+"omdat deze activiteit alles met geluid te maken heeft stoppen we.Dit "
+"probleem kan ook te maken hebben met een ander programma dat de geluidskaart "
+"gebruikt op dit moment. "
+
+#: ../SPHelpText.py:139
+msgid "Keyboardtraining"
+msgstr "Toetsenbord training"
+
+#: ../SPHelpText.py:141
+msgid "Language"
+msgstr "Taal"
+
+#: ../lib/findsound.py:127
+msgid "Listen to the sound and click on the image to which it belongs."
+msgstr "Luister naar het geluid en klik op het karakter dat er bij hoort. "
+
+#: ../SPgdm.py:122
+msgid "Login"
+msgstr "Login"
+
+#: ../lib/numbers_sp.py:233
+msgid "Look carefully and try to remember their positions on the screen."
+msgstr ""
+
+#: ../lib/puzzle.py:253
+msgid "Look closely at the complete puzzle picture at the bottom."
+msgstr "Kijk goed naar de complete puzzle onder aan het scherm"
+
+#: ../lib/memory_sp.py:210
+#, fuzzy
+msgid ""
+"Look closely at the pictures, when you have them memorized touch 'START'.\n"
+"The pictures turn over, you must match the pair of cards."
+msgstr ""
+"Kijk goed naar de plaatjes en probeer ze te onthouden. Druk dan op 'START'.\n"
+"De plaatjes worden omgedraaid, probeer de paren, die u onthouden had, weer "
+"te vinden door 2 dezelfde plaatjes aan te raken."
+
+#: ../lib/synonyms.py:116
+msgid "Make a word with the letter: "
+msgstr "Maak een woord met de letter:"
+
+#: ../lib/quiz_math.py:122 ../SPHelpText.py:137
+msgid "Math"
+msgstr "Rekenen"
+
+#: ../lib/quiz_math.py:97
+msgid "Math Quiz"
+msgstr "Reken Quiz"
+
+#: ../lib/quiz_melody.py:102
+msgid "Melody Quiz"
+msgstr "Melodie Quiz"
+
+#: ../SPHelpText.py:65
+msgid ""
+"Memorize the pictures.\n"
+"\n"
+"One of these pictures will be replaced by a new picture.\n"
+"\n"
+"Touch the 'Start' button to begin the game."
+msgstr ""
+"Onthoud de plaatjes.\n"
+"\n"
+"Een van de plaatjes zal worden vervangen door een nieuw plaatje.\n"
+"\n"
+"Raak de 'Speel' knop aan om te beginnen"
+
+#: ../lib/electro_sp.py:209 ../lib/memory_sp.py:198 ../lib/memory_sp.py:222
+#: ../lib/quiz_melody.py:126 ../lib/quiz.py:163 ../lib/quiz_sayings.py:120
+#: ../lib/quiz_text.py:127 ../lib/simon_sp.py:183 ../lib/soundmemory.py:211
+#: ../SPHelpText.py:136
+msgid "Memory"
+msgstr "Memory"
+
+#: ../lib/simon_sp.py:177
+msgid "Mind the sound sequence as well as the colors sequence."
+msgstr "Let op de geluiden volgorde maar ook de kleuren volgorde. "
+
+#: ../lib/dltr.py:227 ../lib/findit_sp.py:237 ../lib/findsound.py:139
+#: ../lib/ichanger.py:310 ../lib/numbers_sp.py:247 ../lib/photoalbum.py:200
+#: ../lib/quiz_general.py:174 ../lib/quiz_history.py:266
+#: ../lib/quiz_picture.py:118 ../lib/quiz_royal.py:132
+#: ../lib/spinbottle.py:222 ../lib/synonyms.py:167 ../lib/wipe.py:124
+#: ../SPHelpText.py:144
+msgid "Miscellaneous"
+msgstr "Diversen"
+
+#: ../SPHelpText.py:140
+msgid "Mousetraining"
+msgstr "Muistraining "
+
+#: ../SPMainCore.py:923 ../SPMainCore.py:930
+msgid "Movie"
+msgstr ""
+
+#: ../lib/pong.py:387
+msgid "Multi player - Play against another player."
+msgstr "Spelen tegen elkaar - Speel tegen iemand anders"
+
+#: ../lib/pong.py:386
+msgid "Multi player against the computer - Try to defeat the computer."
+msgstr "Spelen tegen de computer - Probeer de computer te verslaan."
+
+#: ../lib/wipe.py:83
+msgid "New"
+msgstr ""
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:867 ../SPMainCore.py:870
+msgid "No"
+msgstr "Nee"
+
+#: ../lib/photoalbum.py:233
+#, python-format
+msgid ""
+"No photo albums found !\n"
+"You should place your pictures inside directories called 'Album_1', "
+"'Album_2' etc\n"
+" Place these directories inside %s"
+msgstr ""
+"Geen foto albums gevonden !\n"
+"U kunt uw afbeeldingen plaatsen in folders genaamd 'Album_1', 'Album_2' etc\n"
+"Plaats deze folders in %s"
+
+#: ../lib/photoalbum.py:188
+msgid "Number of levels : 1"
+msgstr "Aantal niveau's : 1"
+
+#: ../lib/spinbottle.py:210 ../lib/synonyms.py:156
+msgid "Number of levels : 6"
+msgstr "Aantal niveau's : 6"
+
+#: ../lib/numbers_sp.py:222
+#, fuzzy
+msgid "Numbers_sp"
+msgstr "Nummers"
+
+#: ../lib/dltr.py:434 ../lib/dltr.py:438 ../SPMainCore.py:570
+#: ../SPMainCore.py:578 ../SPMainCore.py:809 ../SPMainCore.py:814
+#: ../SPMainCore.py:815 ../SPMainCore.py:919 ../SPMainCore.py:1018
+#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+msgid "OK"
+msgstr "OK"
+
+#: ../lib/synonyms.py:152
+#, python-format
+msgid ""
+"On the next screen you'll find a keyboard, try to make as much words as "
+"possible that begin with the letter '%s'."
+msgstr ""
+"Op het volgende scherm ziet u een toetsenboard, probeer zoveel mogelijk "
+"woorden te maken met de letter: '%s'."
+
+#: ../lib/spinbottle.py:206
+#, fuzzy, python-format
+msgid ""
+"On the next screen you'll find a keyboard, try to name as much %s as "
+"possible with the same letter."
+msgstr ""
+"Op het volgende scherm ziet u een toetsenboard, probeer zoveel mogelijk "
+"woorden te maken met de letter: '%s'."
+
+#: ../lib/simon_sp.py:166
+msgid "On the screen are four blocks of different colours."
+msgstr "Op het scherm staan 4 knoppen met verschillende kleuren."
+
+#: ../lib/findit_sp.py:221
+msgid ""
+"On the screen you will see two almost identical pictures.\n"
+"However, there are differences between the images."
+msgstr ""
+"Op het scherm ziet u 2 bijna dezelfde plaatjes.\n"
+"Er zitten echter 3 subtiele verschillen verstopt in de plaatjes."
+
+#: ../lib/spinbottle.py:207 ../lib/synonyms.py:153
+msgid "Only words from the dictionary are allowed."
+msgstr "Alleen woorden uit het woordenboek zijn toegestaan."
+
+#: ../lib/packid.py:491
+msgid "Packid"
+msgstr "Packid"
+
+#: ../lib/photoalbum.py:178
+msgid "Photoalbum"
+msgstr "Fotoalbum"
+
+#: ../lib/quiz_picture.py:94
+msgid "Picture Quiz"
+msgstr "Foto Quiz"
+
+#: ../SPHelpText.py:120
+#, fuzzy
+msgid "Picture import"
+msgstr "Foto Quiz"
+
+#: ../lib/fourrow.py:538
+msgid "Pity, try again ?"
+msgstr ""
+
+#: ../lib/puzzle.py:245
+msgid "Place the puzzle piece on the right where you think it belongs..."
+msgstr "Plaats het puzzel stukje op de juiste plek..."
+
+#: ../lib/quiz_history.py:219
+msgid "Please enter your year of birth."
+msgstr "Vul uw geboorte jaar in."
+
+#: ../lib/electro_sp.py:240 ../lib/memory_sp.py:283
+msgid "Please, choose a set of cards."
+msgstr "Selecteer a.u.b. een set kaarten."
+
+#: ../lib/wipe.py:156
+#, fuzzy
+msgid "Please, choose a set of images."
+msgstr "Kies een set van plaatjes waar u mee wilt spelen."
+
+#: ../lib/puzzle.py:302
+msgid "Please, choose a set of puzzle images."
+msgstr "Kies een set van plaatjes waar u mee wilt spelen."
+
+#: ../lib/pong.py:373
+msgid "Pong"
+msgstr "Pong"
+
+#: ../lib/simon_sp.py:167
+msgid "Press the Start button with your finger."
+msgstr "Raak de start knop aan."
+
+#: ../lib/fourrow.py:145 ../lib/puzzle.py:236 ../lib/puzzle.py:259
+#: ../SPHelpText.py:138
+msgid "Puzzle"
+msgstr "Puzzel"
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:867
+msgid "Question ?"
+msgstr "Vraag ?"
+
+#: ../SPMainCore.py:809
+msgid "Quit ?"
+msgstr "Stop ?"
+
+#: ../lib/quiz.py:134
+#, fuzzy
+msgid "Quiz"
+msgstr "Reken Quiz"
+
+#: ../lib/quiz_history.py:242
+msgid "Quiz history"
+msgstr "Geschiedenis Quiz"
+
+#: ../lib/quiz_royal.py:108
+msgid "Quiz royal"
+msgstr "Royal Quiz"
+
+#: ../lib/quiz_math.py:111
+#, fuzzy
+msgid ""
+"Remember, the order of operations is multiplication or division and followed "
+"by addition or subtraction."
+msgstr ""
+"Let op, de volgorde van berekeningen is vermenigvuldigen of delen en dan "
+"optellen of aftrekken."
+
+#: ../lib/dltr.py:434 ../SPMainCore.py:1018
+msgid "Results"
+msgstr "Resultaten"
+
+#: ../SPMainCore.py:1022
+msgid "Save image"
+msgstr "Plaatje opslaan"
+
+#: ../lib/quiz_sayings.py:96
+msgid "Sayings Quiz"
+msgstr "Gezegde Quiz"
+
+#: ../lib/dltr.py:378
+msgid "Score:"
+msgstr "Score:"
+
+#: ../SPHelpText.py:126
+#, fuzzy
+msgid "Select Language"
+msgstr "Taal"
+
+#: ../SPMenu.py:331
+msgid ""
+"Select an activity and click on the button, the activity will be started."
+msgstr ""
+"Selecteer een activiteit en klik op de knop, de activiteit wordt gestart."
+
+#: ../SPMainCore.py:948
+msgid "Set volume level"
+msgstr ""
+
+#: ../SPHelpText.py:127 ../SPHelpText.py:128
+msgid "Settings"
+msgstr ""
+
+#: ../lib/ichanger.py:296
+msgid ""
+"Several images from the past will appear on the screen.\n"
+"Look carefully at them and remember what you see."
+msgstr ""
+"Verschillende plaatjes uit het verleden verschijnen op het scherm.\n"
+"Bekijk ze goed en probeer ze te onthouden."
+
+#: ../lib/simon_sp.py:155
+msgid "Simon_sp"
+msgstr "Simon Says"
+
+#: ../lib/pong.py:385
+msgid "Single play - Hit the ball against the wall."
+msgstr "Enkel spel - Sla de bal tegen de muur."
+
+#: ../lib/soundmemory.py:188
+msgid "Soundmemory"
+msgstr "Geluidsmemory"
+
+#: ../lib/spinbottle.py:196
+msgid "Spin the bottle"
+msgstr ""
+
+#: ../lib/dltr.py:261 ../lib/ichanger.py:321 ../lib/memory_sp.py:430
+msgid "Start"
+msgstr "Start"
+
+#: ../lib/spinbottle.py:129 ../lib/synonyms.py:365
+msgid "Starting a new exercise"
+msgstr "Start een nieuwe acticviteit"
+
+#: ../SPMainCore.py:645
+#, python-format
+msgid "Starting level %s"
+msgstr "Start level %s"
+
+#: ../SPMainCore.py:829
+msgid "Stopping timers, please wait..."
+msgstr "Bezig timers te stoppen, ogenblik..."
+
+#: ../lib/spinbottle.py:120 ../lib/synonyms.py:118
+msgid "Suggestions:"
+msgstr "Suggesties"
+
+#: ../lib/synonyms.py:140
+msgid "Synonyms"
+msgstr "Synoniemen"
+
+#: ../lib/quiz_text.py:103
+msgid "Text Quiz"
+msgstr "Text Quiz"
+
+#: ../lib/simon_sp.py:169
+msgid "The  blocks will light up randomly along with sound clues."
+msgstr "De blokken zullen in een willekeurige volgorde oplichten."
+
+#: ../lib/packid.py:499
+msgid "The aim of the game:"
+msgstr "De bedoeling van het spel:"
+
+#: ../lib/billiard.py:273 ../lib/dltr.py:214 ../lib/electro_sp.py:193
+#: ../lib/fallingletters.py:193 ../lib/findit_sp.py:220
+#: ../lib/findsound.py:126 ../lib/fishtank.py:250 ../lib/fourrow.py:127
+#: ../lib/ichanger.py:295 ../lib/memory_sp.py:206 ../lib/numbers_sp.py:230
+#: ../lib/photoalbum.py:186 ../lib/pong.py:381 ../lib/puzzle.py:244
+#: ../lib/quiz_general.py:158 ../lib/quiz_history.py:250
+#: ../lib/quiz_math.py:105 ../lib/quiz_melody.py:110
+#: ../lib/quiz_picture.py:102 ../lib/quiz.py:142 ../lib/quiz_royal.py:116
+#: ../lib/quiz_sayings.py:104 ../lib/quiz_text.py:111 ../lib/simon_sp.py:163
+#: ../lib/soundmemory.py:196 ../lib/spinbottle.py:204 ../lib/synonyms.py:150
+#: ../lib/wipe.py:110
+msgid "The aim of this activity:"
+msgstr "Het doel van deze activiteit."
+
+#: ../lib/findit_sp.py:225
+msgid "The arrows to the left take you to the previous image."
+msgstr "Raak het linkerpijltje aan om naar het vorige plaatje te gaan."
+
+#: ../lib/pong.py:383
+msgid "The classic pong game where you must hit a ball with your bat."
+msgstr "Het klassieke pong spel waarbij je de bal moet slaan met een bat"
+
+#: ../lib/electro_sp.py:244 ../lib/memory_sp.py:287 ../lib/puzzle.py:306
+msgid "The difficulty of the set increases from left to right."
+msgstr "De moeilijkheidsgraad wordt hoger van links naar rechts."
+
+#: ../lib/billiard.py:278 ../lib/billiard.py:284
+msgid ""
+"The fewer hits you need to get the ball in the hole, the more points you get."
+msgstr "Hoe minder schoten je nodig heb hoe meer punten je krijgt."
+
+#: ../lib/electro_sp.py:194
+msgid "The game is to match pairs of pictures"
+msgstr "Probeer de logische paren te vinden"
+
+#: ../lib/packid.py:711
+msgid ""
+"The last level is only available when you finish the first three levels "
+"without errors."
+msgstr ""
+"het laatste nivo is alleen beschikbaar als je de eerste drie nivo's foutloos "
+"gedaan hebt."
+
+#: ../lib/billiard.py:277
+msgid "The longer you hold the left button the harder it will hit the ball."
+msgstr ""
+"Hoe langer je de linker muisknop ingedrukt houd hoe harder je de bal schiet."
+
+#: ../lib/packid.py:723
+msgid "The word to find is: "
+msgstr "Het woord is: "
+
+#: ../lib/numbers_sp.py:234
+msgid "Then push the 'BEGIN' button. The numbers will disappear."
+msgstr ""
+
+#: ../lib/packid.py:501
+msgid "There are thee levels with three words each."
+msgstr "Er zijn drie levels met ieder drie woorden."
+
+#: ../lib/pong.py:384
+msgid "There are three modes to choose from:"
+msgstr "Er zijn drie levels te kiezen:"
+
+#: ../SPMainCore.py:1520
+#, python-format
+msgid ""
+"There was an error in %s. Please check the logs and inform the developers"
+msgstr ""
+"Er was een fout in %s. Controleer de logs en informeer de ontwikkelaars "
+"alstublieft."
+
+#: ../SPHelpText.py:46
+#, python-format
+msgid ""
+"There was an error in the database this can be caused by many things but "
+"most of the time it's caused by the fact that your version of the database "
+"doesn't match the version of the program. I will backup your original "
+"database and then replace it with a new one. The original database is now "
+"called sp.db_back and it's placed in %s"
+msgstr ""
+"Er was een fout in de database dit kan vele oorzaken hebben maar meestal "
+"wordt het veroorzaakt door een foutieve database versie. Ik zal nu een "
+"backup maken van de originele database en de database vervangen voor een "
+"nieuwe. De originele database is bewaard onder de naam sp_db_back en is "
+"geplaatst in %s"
+
+#: ../lib/billiard.py:297 ../lib/electro_sp.py:215
+#: ../lib/fallingletters.py:214 ../lib/findit_sp.py:244
+#: ../lib/findsound.py:158 ../lib/fishtank.py:270 ../lib/fourrow.py:234
+#: ../lib/ichanger.py:316 ../lib/memory_sp.py:228 ../lib/numbers_sp.py:257
+#: ../lib/packid.py:523 ../lib/photoalbum.py:206 ../lib/pong.py:406
+#: ../lib/puzzle.py:266 ../lib/quiz_general.py:181 ../lib/quiz_history.py:273
+#: ../lib/quiz_picture.py:124 ../lib/quiz.py:169 ../lib/quiz_royal.py:138
+#: ../lib/simon_sp.py:189 ../lib/soundmemory.py:217 ../lib/spinbottle.py:229
+#: ../lib/synonyms.py:174 ../lib/wipe.py:135
+#, python-format
+msgid "This activity has %s levels"
+msgstr "Deze activiteit heeft  %s niveau's"
+
+#: ../lib/dltr.py:215
+msgid ""
+"This activity is known as the daily training which is a collection of "
+"activities."
+msgstr ""
+"Deze activiteit is bekend als de dagelijkse training wat een collectie is "
+"van activiteiten."
+
+#: ../SPMenu.py:330
+msgid "This is the menu used to select an activity."
+msgstr "Dit is het menu om een activiteit te selecteren."
+
+#: ../lib/fourrow.py:133
+msgid "Tip: Try creating multiple winning scenario's."
+msgstr ""
+
+#: ../SPMainCore.py:914
+#, python-format
+msgid "Tip:%s"
+msgstr "Tip: %s"
+
+#: ../lib/quizengine.py:797
+#, fuzzy, python-format
+msgid ""
+"To little questions found in %s for locale '%s', found %s questions should "
+"be at least 10"
+msgstr ""
+"Te weinig vragen gevonden in %s, er zijn %s vragen gevonden terwijl het er "
+"tenminste 10 hadden moeten zijn. "
+
+#: ../lib/fourrow.py:132
+msgid ""
+"To win the game you'll need four red pills lined up after each other "
+"horizontally, vertically or diagonal."
+msgstr ""
+
+#: ../lib/ichanger.py:298
+msgid ""
+"Touch the 'START' button on the right.\n"
+"The images will dissappear and when they return, one will have changed.\n"
+"Touch the picture which has changed."
+msgstr ""
+"Raak de 'START' knop aan.\n"
+"De plaatjes zullen verdwijnen en als ze weer te voorschijn komen, zal er een "
+"verplaatst zijn.\n"
+"Raak het veranderde plaatje aan."
+
+#: ../lib/packid.py:500
+msgid "Try to 'eat' all the letters in the appropriated order."
+msgstr "Probeer al de letters in de juiste volgorde te 'eten'"
+
+#: ../lib/numbers_sp.py:235
+msgid ""
+"Try to find the numbers, in the correct order and from low to high, by "
+"touching them on the screen."
+msgstr ""
+
+#: ../lib/packid.py:504
+msgid "Try to find the way out while eating the fruits for extra points and"
+msgstr ""
+"Probeer de weg naar buiten te vinden, en eet ondertussen het fruit voor "
+"extra punten en"
+
+#: ../lib/fourrow.py:128
+msgid "Try to get four in a row in any possible direction."
+msgstr ""
+
+#: ../lib/fishtank.py:251
+msgid "Try to remove the fish by clicking on them with the mouse."
+msgstr "Probeer de vissen te verwijderen door er op te klikken met de muis."
+
+#: ../lib/simon_sp.py:164
+msgid "Try to repeat the sequence of sounds played."
+msgstr "Probeer het patroon van kleuren & geluiden te herhalen."
+
+#: ../lib/fallingletters.py:194
+msgid "Type the falling letters on the keyboard before they hit the ground."
+msgstr ""
+"Tik de vallende letters op het toetsenbord in voordat ze de grond raken."
+
+#: ../SPHelpText.py:123
+msgid "Update BrainTrainerPlus"
+msgstr ""
+
+#: ../SPMenu.py:332
+msgid "Use the 'sub menu' buttons for the different activity menus"
+msgstr "Gebruik de 'sub menu' knoppen om de verschillende spellen te kiezen."
+
+#: ../SPMenu.py:346
+msgid "Use the menu below to choose between the different game categories"
+msgstr ""
+"Gebruik het menu aan de onderkant om een andere spel categorie te kiezen."
+
+#: ../lib/billiard.py:276
+msgid "Use the right mousebutton to aim and the left button to hit the ball."
+msgstr ""
+"Gebruik de rechter muisknop om te richten en de linker om de bal te schieten."
+
+#: ../lib/pong.py:579
+msgid "Use these keys on your keyboard to control the bat."
+msgstr "Gebruik deze toetsen op het toetsenbord om de bat te bewegen"
+
+#: ../SPMainCore.py:460
+#, python-format
+msgid "User: %s"
+msgstr "Gebruiker: %s"
+
+#: ../SPHelpText.py:117
+#, fuzzy
+msgid "Usermanagement"
+msgstr "Gebruikersnaam:"
+
+#: ../SPgdm.py:104
+msgid "Username:"
+msgstr "Gebruikersnaam:"
+
+#: ../lib/simon_sp.py:170
+msgid ""
+"When the flashing stops you will be prompted to repeat the sequence by "
+"touching the coloured blocks."
+msgstr ""
+"Als het patroon klaar is wordt u gevraagd dit te herhalen door de "
+"desbetreffende kleuren aan te raken."
+
+#: ../lib/packid.py:502
+msgid "When you have finished all the levels, without making to much mistakes"
+msgstr "Als je alle levels gespeeld hebt, zonder al teveel fouten"
+
+#: ../lib/findit_sp.py:223
+msgid ""
+"When you spot a difference, touch it with your finger.\n"
+"You can click the question mark in the middle of the screen if you need a "
+"hint."
+msgstr ""
+"Probeer de verschillen te vinden en raak ze aan.\n"
+"Je kunt de 'vraagteken' knop gebruiken om een hint te krijgen."
+
+#: ../lib/soundmemory.py:199
+msgid ""
+"When you touch the picture you will hear a sound.\n"
+"Match the image with others that make the same sound,to get points."
+msgstr ""
+"Raak de knoppen aan en u hoort een geluid.\n"
+"Probeer de geluiden te vinden die hetzelfde zijn."
+
+#: ../lib/wipe.py:102
+msgid "Wipe"
+msgstr ""
+
+#: ../lib/wipe.py:112
+msgid "Wipe with your finger on the screen to uncover the picture."
+msgstr ""
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:728 ../SPMainCore.py:729
+#: ../SPMainCore.py:867
+msgid "Yes"
+msgstr "Ja"
+
+#: ../lib/fourrow.py:130
+msgid ""
+"You can vertically drop a red pill in a desired column by pressing that "
+"exact column."
+msgstr ""
+
+#: ../lib/dltr.py:374
+msgid "You have finished the daily training module."
+msgstr "Je bent klaar metg de dagelijkse training."
+
+#: ../lib/billiard.py:274
+msgid "You have to make the blue ball enter the hole (in level 1)"
+msgstr "Je moet zorgen dat de blauwe bal in het gat komt (in level 1)"
+
+#: ../SPMainCore.py:723
+msgid "You play very good, do you want to try the next level ?"
+msgstr "Je speelt erg goed, wil je het op een volgend nivo proberen ?"
+
+#: ../lib/electro_sp.py:196
+msgid ""
+"You select the pictures by touching them.\n"
+"As you progress through the star levels more pairs appear to match."
+msgstr ""
+"Selecteer de plaatjes door ze aan te raken.\n"
+"Hoe hoger het niveau dat u kiest hoe meer plaatjes er verschijnen"
+
+#: ../lib/numbers_sp.py:231
+msgid "You will see various numbers scattered around the screen."
+msgstr ""
+
+#: ../lib/billiard.py:584
+msgid "You won!!"
+msgstr "Je wint!!"
+
+#: ../lib/dltr.py:376
+msgid "Your average results per group are:"
+msgstr "Je gemiddelde resultaten per groep zijn:"
+
+#: ../SPMainCore.py:1028
+#, python-format
+msgid ""
+"Your image is saved at:\n"
+"%s"
+msgstr ""
+"Je afbeelding is bewaard in:\n"
+"%s"
+
+#: ../lib/dltr.py:375
+msgid "Your results are:"
+msgstr "Je resultaten zijn:"
+
+#: ../lib/billiard.py:275
+msgid "and the red ones in levels 2 and 3."
+msgstr "en de rode in levels 2 en 3."
+
+#: ../lib/spinbottle.py:118
+#, fuzzy
+msgid "beginning with the letter: "
+msgstr "Maak een woord met de letter:"
+
+#: ../lib/packid.py:505
+msgid "funny sounds :-)"
+msgstr "grappige geluiden :-)"
+
+#: ../lib/billiard.py:572 ../lib/billiard.py:585
+msgid "points"
+msgstr "punten"
+
+#: ../lib/quiz.py:157
+#, python-format
+msgid "question id: %s"
+msgstr "Vraag id: %s"
+
+#: ../lib/quiz_general.py:134
+#, python-format
+msgid ""
+"xml file %s is missing, this shouldn't happen, contact the %s developers"
+msgstr ""
+"xml bestand %s is niet gevonden, dit zou niet moeten gebeuren, neem kontakt "
+"op met de %s ontwikkelaars."
+
+#~ msgid "All the data was stored succesfully."
+#~ msgstr "Alle data is succesvol bewaardt"
+
+#~ msgid "Aquarium mouse training, difficulty: *"
+#~ msgstr "Aquarium muis training, moeilijkheidsgraad: *"
+
+#~ msgid ""
+#~ "At the start of the game, a photograph of an animal is shown, above the "
+#~ "picture the name of the animal is written."
+#~ msgstr ""
+#~ "Bij de start van het progamma wordt een plaatje van een beest getoond, "
+#~ "boven het plaatje is de naam geschreven."
+
+#~ msgid ""
+#~ "At the top of the screen, you will see a picture on the screen with a "
+#~ "related question."
+#~ msgstr ""
+#~ "U ziet een vraag over een foto. Geef antwoord door het juiste antwoord "
+#~ "aan te raken."
+
+#~ msgid "Billiard, difficulty: **/***"
+#~ msgstr "Biljard, moeilijkheidsgraad: **/***"
+
+#~ msgid "Childsplay_sp information"
+#~ msgstr "Childsplay_sp informatie"
+
+#~ msgid "Childsplay_sp question"
+#~ msgstr "Childsplay_sp vraag"
+
+#~ msgid "Childsplay_sp results diagram"
+#~ msgstr "Childsplay_sp resultaten diagram"
+
+#~ msgid "Click image to enlarge"
+#~ msgstr "klik de afbeelding voor vergrooting"
+
+#~ msgid "Click the buttons in the right order"
+#~ msgstr "Klik alle knoppen in de juiste volgorde."
+
+#~ msgid ""
+#~ "Each part of the screen can also be clicked on to make the animal scream, "
+#~ "his name or initial spoken."
+#~ msgstr ""
+#~ "Op elk gedeelte van het scherm kan geklikt worden om het dierengeluid, de "
+#~ "naam of de eerste letter te horen."
+
+#~ msgid "Exercises"
+#~ msgstr "Oefeningen "
+
+#~ msgid ""
+#~ "Failed to get the dbase data, try to run childsplay_sp first to setup the "
+#~ "dbase"
+#~ msgstr ""
+#~ "Het ophalen van de database data is mislukt, probeer Childsplay_sp te "
+#~ "starten om de database op te zetten. "
+
+#~ msgid ""
+#~ "Failed to parse the logfile, please contact the developers.\n"
+#~ "Message was: %s"
+#~ msgstr ""
+#~ "Het doorzoeken van het logfile is mislukt, neem kontant op met de "
+#~ "ontwikkelaars.\n"
+#~ "Bericht was: %s"
+
+#~ msgid "Find the characters"
+#~ msgstr "Vind alle karakters"
+
+#~ msgid "Flashcards"
+#~ msgstr "Flitskaarten"
+
+#~ msgid "Flashcards, difficulty: *"
+#~ msgstr "Flitskaarten, moeilijkheidsgraad: *"
+
+#~ msgid "General knowledge Quiz"
+#~ msgstr "Algemene kennis Quiz"
+
+#~ msgid ""
+#~ "Give your login name in the box and hit the login button. Alternatively "
+#~ "you can just hit the login button and run Childsplay_sp in anonymous mode."
+#~ msgstr ""
+#~ "Geef je login naam in het veld en klik de login knop. Anders kun je de "
+#~ "login knop klikken en Childsplay_sp te starten in de anonieme mode."
+
+#~ msgid "Goal of the activity"
+#~ msgstr "Het doel van deze activiteit"
+
+#~ msgid ""
+#~ "If the menu consist of more layers, sub menus, you can always get back to "
+#~ "the main menu by using the 'exit' button."
+#~ msgstr ""
+#~ "Als het menu uit meerdere lagen bestaat, sub menu's, dan kun je altijd "
+#~ "terug naar het hoofd menu door de 'stop' knop te gebruiken."
+
+#~ msgid ""
+#~ "If you start the GUI for the first time there's no username and password "
+#~ "set so you should just hit the 'Login' button.\n"
+#~ " You will get a warning message telling you to set as soon as possible a "
+#~ "username and password.\n"
+#~ "You can set a username and password in the GUI.\n"
+#~ " Go to 'Settings' -> 'Set password'."
+#~ msgstr ""
+#~ "De eerste keer dat de GUI wordt gestart is er nog geen gebruikersnaam en "
+#~ "wachtwoord gezet dus je kunt gewoon de 'Login' knop klikken.\n"
+#~ "Je zult een waarschuwingsbericht krijgen die je vertelt om zo snel "
+#~ "mogelijk een wachtwoord en gebruikersnaam te zetten.\n"
+#~ "Je kunt een gebruikersnaam en wachtwoord zetten in de GUI.\n"
+#~ "Ga naar 'Instellingen' -> 'Zet wachtwoord'."
+
+#~ msgid ""
+#~ "In the last level the fish needs to be clicked two times while they try "
+#~ "to escape."
+#~ msgstr ""
+#~ "In het laatste niveau moeten de vissen twee keer geklikt worden terwijl "
+#~ "ze proberen te ontsnappen."
+
+#~ msgid ""
+#~ "In this file you can set a number of options to change the game play."
+#~ msgstr "In dit bestand kun je een aantal opties van het spel instellen."
+
+#~ msgid "Info"
+#~ msgstr "Informatie"
+
+#~ msgid "Keyboard training, difficulty: *"
+#~ msgstr "Toetsenbord training, moeilijkheidsgraad: *"
+
+#~ msgid "Listen to the sound and click on the character to which it belongs."
+#~ msgstr "Luister naar het geluid en klik op het karakter dat er bij hoort."
+
+#~ msgid "Long-term"
+#~ msgstr "Lange termijn"
+
+#~ msgid "Lower case characters memory, difficulty: */**"
+#~ msgstr "Kleine letters memory, moeilijkheidsgraad: */**"
+
+#~ msgid "LowercaseMemory"
+#~ msgstr "KleineletterMemory"
+
+#~ msgid "Memory, difficulty: */**"
+#~ msgstr "Memory, moeilijkheidsgraad: */**"
+
+#~ msgid "Memory/Alphabet"
+#~ msgstr "Geheugen/Alfabet"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "No data available for this level"
+#~ msgstr "Geen data gevonden voor dit level"
+
+#~ msgid "Number of levels : 2"
+#~ msgstr "Aantal niveau's : 2"
+
+#~ msgid "Number of levels : 5"
+#~ msgstr "Aantal niveau's : 5"
+
+#~ msgid "Numbers memory, difficulty: */**"
+#~ msgstr "Nummers memory, moeilijkheidsgraad: */**"
+
+#~ msgid "Ok"
+#~ msgstr "OK"
+
+#~ msgid "On the left the initial of the animal name is shown."
+#~ msgstr "Aan de linkerkant wordt de eerste letter van de naam genoemd."
+
+#~ msgid "Packid, difficulty: **/***"
+#~ msgstr "Packid, moeilijkheidsgraad: **/***"
+
+#~ msgid "Pause"
+#~ msgstr "Pauze"
+
+#~ msgid "Percentile scores for level %s"
+#~ msgstr "Percentile scores voor nivo %s"
+
+#~ msgid "Play"
+#~ msgstr "Speel"
+
+#~ msgid "Pong classic tennis game, difficulty: *"
+#~ msgstr "Pong het klasieke tennis spel, moeilijkheidsgraad: *"
+
+#~ msgid "Put all the pieces in the correct order."
+#~ msgstr "Plaats alle stukken in de juiste volgorde."
+
+#~ msgid "Puzzle, difficulty: */**"
+#~ msgstr "Puzzel, moeilijkheidsgraad: */**"
+
+#, fuzzy
+#~ msgid "Puzzles"
+#~ msgstr "Puzzel"
+
+#~ msgid "Request for help"
+#~ msgstr "Verzoek om help"
+
+#~ msgid "Save"
+#~ msgstr "Bewaar"
+
+#~ msgid "Scores reached in level %s"
+#~ msgstr "Scores bereikt in niveau %s"
+
+#~ msgid "Screenshot\n"
+#~ msgstr "Schermafbeelding\n"
+
+#~ msgid "Seniorplay"
+#~ msgstr "Braintrainer"
+
+#~ msgid "Short description\n"
+#~ msgstr "Korte beschrijving\n"
+
+#, fuzzy
+#~ msgid "Short-term"
+#~ msgstr "zeeleeuw"
+
+#~ msgid "Sound association, difficulty: *"
+#~ msgstr "Geluid associatie, moeilijkheidsgraad: *"
+
+#~ msgid "Sound association, difficulty: */**"
+#~ msgstr "Geluid associatie, moeilijkheidsgraad: */**"
+
+#~ msgid "Sound memory, difficulty: */**"
+#~ msgstr "Geluid memory, moeilijkheidsgraad: */**"
+
+#~ msgid "The aim of this activity"
+#~ msgstr "Het doel van deze activiteit"
+
+#~ msgid ""
+#~ "The faster you find all the characters the better your score will be."
+#~ msgstr "Hoe sneller je alle karakters vindt hoe hoger je score."
+
+#~ msgid ""
+#~ "The game has a configuration file called 'pongrc', located in the ."
+#~ "childsplay directory of your homedirectory."
+#~ msgstr ""
+#~ "Het spel heeft een configuratie bestand genaamd 'pongrc', het bevindt "
+#~ "zich in de childsplay map in je home directory."
+
+#~ msgid "The number of stars indicates the difficulty of the set."
+#~ msgstr "De sets verschillen qua niveau van elkaar."
+
+#~ msgid "The table 'activity_options' doesn't exist in the dbase"
+#~ msgstr "De tabel 'activity_options' bestaat niet in de database"
+
+#~ msgid ""
+#~ "Then the animal name is spoken ('the dog'), and the animal makes his cry "
+#~ "('woof' 'cui-cui' etc.)."
+#~ msgstr ""
+#~ "Dan wordt de naam gesproken ('hond') en het beestengeluid gespeeld ('woef "
+#~ "woef' etc)."
+
+#~ msgid ""
+#~ "There was a problem while replacing the rows in the database.\n"
+#~ "The exception was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Er was een probleem met het vervangen van de rijen in de database.\n"
+#~ "De foutmelding was:\n"
+#~ "%s"
+
+#~ msgid "This activity belongs to the category: %s"
+#~ msgstr "Deze activiteit behoort tot de categorie: %s"
+
+#, fuzzy
+#~ msgid "This activity has %s level"
+#~ msgstr "Deze activiteit heeft  %s niveau's"
+
+#~ msgid ""
+#~ "This database table holds the values used when displaying the results "
+#~ "graph in an activity.\n"
+#~ "The column 'MU-value' holds an integer between 0 and 10 indicating the "
+#~ "average score.(the dark blue line).\n"
+#~ "The column 'SIGMA-value' holds an integer between 0 an 100 indicating the "
+#~ "standard deviation in percentage, probably always 50. (the light blue "
+#~ "box)\n"
+#~ "\n"
+#~ "Click on the row you want to alter and then click on the field you wish "
+#~ "to edit.\n"
+#~ "You cannot edit the 'Activity name' field.\n"
+#~ "Use the 'Save' button to store the changes in the database."
+#~ msgstr ""
+#~ "Deze database tabel bevat de waardes die gebruikt worden wanneer de "
+#~ "resultaten grafiek in een activiteit getoond wordt.\n"
+#~ "In de kolom 'MU-value' wordt een integer tussen 0 en 10 gebruikt welke de "
+#~ "gemiddelde score aangeeft. (de donker blauwe lijn).\n"
+#~ "De kolom 'SIGMA-value' bevat een integer tussen 0 en 100 welke de "
+#~ "standaard afwijking aangeeft in een percentage, waarschijnlijk altijd 50. "
+#~ "(de licht blauwe box)\n"
+#~ "\n"
+#~ "Klik op de rij die je wilt veranderen en klik dan op het veld dat je wilt "
+#~ "wijzigen.\n"
+#~ "Je kunt niet het veld 'Activity name' wijzigen.\n"
+#~ "Gebruik de 'Bewaren' knop om de veranderingen in de database op te slaan."
+
+#~ msgid "This is a game to teach the alphabet to very little childrens."
+#~ msgstr "Dit is een spel om het alfabet te leren aan kleine kinderen."
+
+#~ msgid "Tips"
+#~ msgstr "Tips"
+
+#~ msgid "Type of activity"
+#~ msgstr "Type activiteit"
+
+#~ msgid "Upper case characters memory, difficulty: */**"
+#~ msgstr "Hoofdletters memory, moeilijkheidsgraad: */**"
+
+#~ msgid "UppercaseMemory"
+#~ msgstr "Hoofdlettersmemory"
+
+#~ msgid "Warning !"
+#~ msgstr "Waarschuwing !"
+
+#~ msgid ""
+#~ "When a letter is hit on the keyboard, a corresponding animal is shown."
+#~ msgstr ""
+#~ "Wanneer een letter op het keyboard wordt getikt, wordt een "
+#~ "corresponderend dier getoond."
+
+#~ msgid ""
+#~ "When you can't find the correct character after a certain period of time "
+#~ "a box will be drawn around it."
+#~ msgstr ""
+#~ "Als je niet het juiste karakter kunt vinden binnen een bepaalde tijd "
+#~ "wordt er een vierkant omheen getekend."
+
+#~ msgid "XML data file is incorrect, please contact the maintainers."
+#~ msgstr ""
+#~ "XML data bestand is incorrect, nee aub kontakt op met de ontwikkelaars."
+
+#~ msgid "Year of birth"
+#~ msgstr "Geboortejaar"
+
+#~ msgid ""
+#~ "You can add your own images by placing them in the following directory: "
+#~ msgstr ""
+#~ "Je kunt je eigen plaatjes gebruiken door ze in de volgende map te "
+#~ "plaatsen:"
+
+#~ msgid "You can hit the 'graph' button to see your results per level."
+#~ msgstr ""
+#~ "Je kunt de 'grafiek' knop klikken om je resultaten per level te zien."
+
+#~ msgid ""
+#~ "Your language, %s, is not supported.\n"
+#~ " I will now switch to English"
+#~ msgstr ""
+#~ "Je taal, %s, is niet ondersteund.\n"
+#~ "Ik zal nu naar Engels overschakelen."
+
+#~ msgid ""
+#~ "Your language, %s, is supported but you must install\n"
+#~ " the 'alphabet_sounds_%s' package.\n"
+#~ " Look for it in your GNU/Linux distro or at www.schoolsplay.org.\n"
+#~ " I will now switch to English"
+#~ msgstr ""
+#~ "Je taal, %s, wordt ondersteund maar je moet het \n"
+#~ "pakket 'alphabet_sounds_%s' installeren .\n"
+#~ "Zoek het bij je GNU/Linux distributie of bij www.schoolsplay.org.\n"
+#~ "Ik zal nu naar Engels overschakelen."
+
+#~ msgid "badger"
+#~ msgstr "wasbeer"
+
+#~ msgid "bear"
+#~ msgstr "beer"
+
+#~ msgid "beaver"
+#~ msgstr "bever"
+
+#~ msgid "bison"
+#~ msgstr "bizon"
+
+#~ msgid "blackbird"
+#~ msgstr "merel"
+
+#~ msgid "chimp"
+#~ msgstr "chimpansee"
+
+#~ msgid "crow"
+#~ msgstr "kraai"
+
+#~ msgid "cuckoo"
+#~ msgstr "koekoek"
+
+#~ msgid "doe"
+#~ msgstr "ree"
+
+#~ msgid "donkey"
+#~ msgstr "ezel"
+
+#~ msgid "dromedary"
+#~ msgstr "dromedaris"
+
+#~ msgid "elephant"
+#~ msgstr "olifant"
+
+#~ msgid "ferret"
+#~ msgstr "fret"
+
+#~ msgid "filename: %s"
+#~ msgstr "Bestandsnaam: %s"
+
+#~ msgid "fly"
+#~ msgstr "vlieg"
+
+#~ msgid "fox"
+#~ msgstr "vos"
+
+#~ msgid "gander"
+#~ msgstr "gans"
+
+#~ msgid "giraffe"
+#~ msgstr "giraf"
+
+#~ msgid "gorilla"
+#~ msgstr "gorilla"
+
+#~ msgid "hippopotamus"
+#~ msgstr "nijlpaard"
+
+#~ msgid "hornet"
+#~ msgstr "horzel"
+
+#~ msgid "horse"
+#~ msgstr "paard"
+
+#~ msgid "iguana"
+#~ msgstr "leguaan"
+
+#~ msgid "kangaroo"
+#~ msgstr "kangaroe"
+
+#~ msgid "koala"
+#~ msgstr "koala"
+
+#~ msgid "lion"
+#~ msgstr "leeuw"
+
+#~ msgid "mouse"
+#~ msgstr "muis"
+
+#~ msgid "orca"
+#~ msgstr "orka"
+
+#~ msgid "owl"
+#~ msgstr "uil"
+
+#~ msgid "peacock"
+#~ msgstr "pauw"
+
+#~ msgid "quetzal"
+#~ msgstr "quetzal"
+
+#~ msgid "ram"
+#~ msgstr "ram"
+
+#~ msgid "rooster"
+#~ msgstr "haan"
+
+#~ msgid "tiger"
+#~ msgstr "tijger"
+
+#~ msgid "tucan"
+#~ msgstr "toekan"
+
+#~ msgid "turkey"
+#~ msgstr "kalkoen"
+
+#~ msgid "vulture"
+#~ msgstr "gier"
+
+#~ msgid "wallaby"
+#~ msgstr "wallabie"
+
+#~ msgid "wapiti"
+#~ msgstr "wapiti"
+
+#~ msgid "xanthia"
+#~ msgstr "mot"
+
+#~ msgid "yak"
+#~ msgstr "jak"
+
+#~ msgid "zebra"
+#~ msgstr "zebra"
+
+#~ msgid "zebu"
+#~ msgstr "zeboe"

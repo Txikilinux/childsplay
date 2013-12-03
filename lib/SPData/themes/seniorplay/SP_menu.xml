@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootmenu defaultsubmenu="games.png">
+    <!-- When no postion is given the position is calculated from the width of the buttons .
+           Order does matter when you don't set positions. The submenus from top to bottom are placed
+           from left to right. So the top submenu is placed left then the second one etc.  
+            Use 10,540 as the start if you want to set positions. -->
+  <submenu file="games.png" hoverfile="games_active.png">
+    <position>10,550</position>
+    <menuitem enable="True" file="memory.icon.png" hoverfile="memory_ro.icon.png">
+      <activity>memory_sp</activity>
+      <position>20,140</position>
+    </menuitem>
+    <menuitem enable="True" file="soundmemory.icon.png" hoverfile="soundmemory_ro.icon.png">
+      <activity>soundmemory</activity>
+      <position>220,140</position>
+    </menuitem>
+    <menuitem enable="True" file="electro_sp.icon.png" hoverfile="electro_sp_ro.icon.png">
+      <activity>electro_sp</activity>
+      <position>420,140</position>
+    </menuitem>
+    <menuitem enable="True" file="simon_sp.icon.png" hoverfile="simon_sp_ro.icon.png">
+      <activity>simon_sp</activity>
+      <position>620,140</position>
+    </menuitem>
+    <menuitem enable="True" file="ichanger.icon.png" hoverfile="ichanger_ro.icon.png">
+      <activity>ichanger</activity>
+      <position>20,340</position>
+    </menuitem>
+  </submenu>
+  <submenu file="quiz.png" hoverfile="quiz_active.png">
+    <position>200,550 </position>
+    <menuitem enable="True" file="quiz_text.icon.png" hoverfile="quiz_text_ro.icon.png">
+      <activity>quiz_text</activity>
+      <position>20,140</position>
+    </menuitem>
+    <menuitem enable="True" file="quiz_math.icon.png" hoverfile="quiz_math_ro.icon.png">
+      <activity>quiz_math</activity>
+      <position>220,140</position>
+    </menuitem>
+    <menuitem enable="True" file="quiz_history.icon.png" hoverfile="quiz_history_ro.icon.png">
+      <activity>quiz_history</activity>
+      <position>420,140</position>
+    </menuitem>
+    <menuitem enable="True" file="quiz_royal.icon.png" hoverfile="quiz_royal_ro.icon.png">
+      <activity>quiz_royal</activity>
+      <position>620,140</position>
+    </menuitem>
+    <menuitem enable="True" file="quiz_picture.icon.png" hoverfile="quiz_picture_ro.icon.png">
+      <activity>quiz_picture</activity>
+      <position>20,340</position>
+    </menuitem>
+    <menuitem enable="True" file="quiz_melody.icon.png" hoverfile="quiz_melody_ro.icon.png">
+      <activity>quiz_melody</activity>
+      <position>220,340</position>
+    </menuitem>
+    <menuitem enable="True" file="quiz_sayings.icon.png" hoverfile="quiz_sayings_ro.icon.png">
+      <activity>quiz_sayings</activity>
+      <position>420,340</position>
+    </menuitem>
+    <menuitem enable="True" file="quiz_general.icon.png" hoverfile="quiz_general_ro.icon.png">
+      <activity>quiz_general</activity>
+      <position>620,340</position>
+    </menuitem>
+  </submenu>
+  <submenu file="puzzles.png" hoverfile="puzzles_active.png">
+    <position>400,550</position>
+    <menuitem enable="True" file="puzzle.icon.png" hoverfile="puzzle_ro.icon.png">
+      <activity>puzzle</activity>
+      <position>20,140</position>
+    </menuitem>
+    <menuitem enable="True" file="findit_sp.icon.png" hoverfile="findit_sp_ro.icon.png">
+      <activity>findit_sp</activity>
+      <position>220,140</position>
+    </menuitem>
+  </submenu>
+  <submenu file="training.png" hoverfile="training_active.png">
+    <position>600,550</position>
+    <menuitem enable="True" file="fishtank.icon.png" hoverfile="fishtank_ro.icon.png">
+      <activity>fishtank</activity>
+      <position>20,140</position>
+    </menuitem>
+    <menuitem enable="True" file="photoalbum.icon.png" hoverfile="photoalbum_ro.icon.png">
+      <activity>photoalbum</activity>
+      <position>220,140</position>
+    </menuitem>
+    <menuitem enable="True" file="numbers.icon.png" hoverfile="numbers_ro.icon.png">
+      <activity>numbers</activity>
+      <position>420,140</position>
+    </menuitem>
+    <menuitem enable="True" file="dltr.icon.png" hoverfile="dltr_ro.icon.png">
+      <activity>dltr</activity>
+      <position>20,340</position>
+    </menuitem>
+    <menuitem enable="False" file="video.icon.png" hoverfile="">
+      <activity>video</activity>
+      <position>220,340</position>
+    </menuitem>
+    <menuitem enable="True" file="synonyms.icon.png" hoverfile="">
+      <activity>synonyms</activity>
+      <position>620,140</position>
+    </menuitem>
+  <menuitem enable="True" file="wipe.icon.png">
+    <activity>wipe</activity>
+    <position>620,340</position>
+  </menuitem>
+  </submenu>
+
+</rootmenu>

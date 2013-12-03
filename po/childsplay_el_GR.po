@@ -1,0 +1,1684 @@
+# translation of childsplay_sp_el_GR.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Constantine Mousafiris <kvisitor@gnugr.org>, 2012.
+# Yannis Kaskamanidis <ttnfy17@yahoo.gr>, 2007, 2009.
+# stas Zytkiewicz <stas.zytkiewicz@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: childsplay_sp_el_GR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-20 11:13+0100\n"
+"PO-Revision-Date: 2012-08-11 22:18+0200\n"
+"Last-Translator: Constantine Mousafiris <kvisitor@gnugr.org>\n"
+"Language-Team: Ελληνικά <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../SPHelpText.py:76
+msgid ""
+"\n"
+"\n"
+"Touch the 'Play' button to continue the game."
+msgstr ""
+"\n"
+"\n"
+"Ακούμπησε το κουμπί 'Αναπαραγωγή/ Play' για να συνεχίσει το παιγνίδι."
+
+#: ../SPHelpText.py:71
+msgid ""
+"\n"
+"\n"
+"Touch the changed picture."
+msgstr ""
+"\n"
+"\n"
+"Ακούμπησε την αλλαγμένη εικόνα."
+
+#: ../lib/packid.py:503
+msgid "(max two per word), you can play the last level which is a maze."
+msgstr ""
+"(το πολύ δύο για κάθε λέξη), μπορείς να παίξεις το τελευταίο επίπεδο, που "
+"είναι ένας λαβύρινθος."
+
+#: ../SPMenu.py:344
+msgid "A collection of braintrain games for seniors."
+msgstr "Μία συλλογή σπαζοκεφαλιών για μεγάλους."
+
+#: ../lib/memory_sp.py:216
+#, fuzzy
+msgid "Accuracy is more important than speed."
+msgstr "Η ορθότητα είναι σημαντικότερη από την ταχύτητα"
+
+#: ../SPMainCore.py:473
+msgid "Activity :"
+msgstr "Δραστηριότητα:"
+
+#: ../SPMainCore.py:585
+#, python-format
+msgid "Activity : %s"
+msgstr "Δραστηριότητα: %s"
+
+#: ../lib/dltr.py:377
+msgid "Activity:"
+msgstr "Δραστηριότητα:"
+
+#: ../lib/fourrow.py:131
+msgid "All pills, both red and yellow, stack on each other."
+msgstr ""
+
+#: ../SPMenu.py:345
+msgid ""
+"All the games have there own help page, just start a game and hit the stars "
+"on top of the screen to select another difficulty."
+msgstr ""
+"Όλα τα παιγνίδια έχουν την δική τους σελίδα βοήθειας, απλώς άρχισε ένα "
+"παιγνίδι και πάτα τα αστέρια στην κορυφή της οθόνης, για να επιλέξεις ένα "
+"διαφορετικό επίπεδο δυσκολίας."
+
+#: ../SPHelpText.py:142
+msgid "Alphabet"
+msgstr "Αλφάβητο"
+
+#: ../lib/fallingletters.py:207
+msgid "Alphabet/Keyboardtraining"
+msgstr "Αλφάβητο/Εξάσκηση στο πληκτρολόγιο"
+
+#: ../lib/spinbottle.py:119 ../lib/synonyms.py:117
+msgid "Already found:"
+msgstr "Βρέθηκε κι' όλας:"
+
+#: ../SPMainCore.py:272
+msgid "An error occurred and BraintrainerPlus was restarted"
+msgstr ""
+
+#: ../lib/quiz_math.py:106
+msgid "Answer the math questions."
+msgstr "Απάντησε τις ερωτήσεις μαθηματικών."
+
+#: ../lib/quiz_general.py:159 ../lib/quiz_history.py:251
+#: ../lib/quiz_melody.py:111 ../lib/quiz_picture.py:103 ../lib/quiz.py:143
+#: ../lib/quiz_royal.py:117 ../lib/quiz_sayings.py:105 ../lib/quiz_text.py:112
+msgid "Answer the quiz questions."
+msgstr "Απάντησε τις ερωτήσεις του κουίζ."
+
+#: ../SPMainCore.py:866
+msgid ""
+"Are sure you want to quit the dailytraining ? All the results will be lost."
+msgstr ""
+"Είσαι σίγουρος/ ή ότι θέλεις να εγκαταλείψεις την καθημερινή προπόνηση; "
+"Τότε, όλα τα αποτελέσματα θα χαθούν."
+
+#: ../lib/puzzle.py:247
+msgid "At the bottom you'll see a image of the complete puzzle."
+msgstr "Στο κάτω μέρος, θα δεις μία εικόνα με ολόκληρο το παζλ συμπληρωμένο."
+
+#: ../lib/quiz.py:145
+msgid "At the top of the screen, you will see a general knowledge question."
+msgstr "Στο πανω μέρος της οθόνης, θα δεις μία ερώτηση γενικών γνώσεων."
+
+#: ../lib/quiz_royal.py:119
+msgid ""
+"At the top of the screen, you will see a question about a member of Royalty"
+msgstr ""
+"Στο πανω μέρος της οθόνης, θα δεις μια ερώτηση για ένα μέλος της Βασιλικής "
+"οικογένειας"
+
+#: ../lib/quiz_picture.py:105
+#, fuzzy
+msgid "At the top of the screen, you will see a question about a picture."
+msgstr "Στο πανω μέρος της οθόνης, θα δεις μια ερώτηση."
+
+#: ../lib/quiz_general.py:161
+#, fuzzy
+msgid ""
+"At the top of the screen, you will see a question about general knowledge."
+msgstr ""
+"Στο πανω μέρος της οθόνης, θα δεις μια ερώτηση για ένα μέλος της Βασιλικής "
+"οικογένειας"
+
+#: ../lib/quiz_math.py:108
+#, fuzzy
+msgid "At the top of the screen, you will see a question about math problem."
+msgstr "Στο πανω μέρος της οθόνης, θα δεις ένα πρόβλημα μαθηματικών."
+
+#: ../lib/quiz_sayings.py:107
+#, fuzzy
+msgid "At the top of the screen, you will see a question about sayings."
+msgstr "Στο πανω μέρος της οθόνης, θα δεις μια ερώτηση."
+
+#: ../lib/quiz_melody.py:113
+#, fuzzy
+msgid ""
+"At the top of the screen, you will see a question about the song playing."
+msgstr ""
+"Στο πανω μέρος της οθόνης, θα δεις μια ερώτηση για ένα μέλος της Βασιλικής "
+"οικογένειας"
+
+#: ../lib/quiz_history.py:253
+msgid ""
+"At the top of the screen, you will see a question from general knowledge "
+"question from the selected period."
+msgstr ""
+"Στο πανω μέρος της οθόνης, θα δεις μια ερώτηση γενικών γνώσεων από τη "
+"περίοδο που διάλεξες."
+
+#: ../lib/quiz_text.py:114
+msgid "At the top of the screen, you will see a question."
+msgstr "Στο πανω μέρος της οθόνης, θα δεις μια ερώτηση."
+
+#: ../lib/billiard.py:325
+msgid "Balls"
+msgstr "Μπάλες"
+
+#: ../lib/numbers_sp.py:190
+msgid "Begin"
+msgstr ""
+
+#: ../lib/quiz_general.py:162 ../lib/quiz_history.py:254
+#: ../lib/quiz_math.py:109 ../lib/quiz_melody.py:114
+#: ../lib/quiz_picture.py:106 ../lib/quiz.py:146 ../lib/quiz_royal.py:120
+#: ../lib/quiz_sayings.py:108 ../lib/quiz_text.py:115
+msgid ""
+"Below it are a choice of possible answers.\n"
+"Touch the correct answer."
+msgstr ""
+"Παρακάτω, ακολουθεί μια επιλογή με τις πιθανές απαντήσεις.\n"
+"Ακούπησε τη σωστή απάντηση."
+
+#: ../lib/billiard.py:265
+msgid "Billiard"
+msgstr "Μπιλιάρδο"
+
+#: ../lib/billiard.py:251
+msgid "Billiard Game"
+msgstr "Παιχνίδι μπιλιάρδου"
+
+#: ../SPMainCore.py:809
+msgid "Cancel"
+msgstr "Διαγραφή"
+
+#: ../SPHelpText.py:121 ../SPHelpText.py:122
+msgid "Change password"
+msgstr ""
+
+#: ../lib/ichanger.py:323 ../lib/numbers_sp.py:194
+msgid "Cheat"
+msgstr ""
+
+#: ../SPMainCore.py:222
+#, python-format
+msgid "Childsplay_sp - educational activities, using theme:%s"
+msgstr ""
+"Childsplay_sp - εκπαιδευτικές δραστηριότητες, που χρησιμοποιούν το θέμα: %s"
+
+#: ../SPgdm.py:73
+msgid "Childsplay_sp login"
+msgstr "Σύνδεση στο Childsplay_sp"
+
+#: ../lib/pong.py:425
+msgid "Choose the game to play:"
+msgstr "Διάλεξε το παιχνίδι που θέλεις να παίξεις:"
+
+#: ../lib/memory_sp.py:207
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr "Κλασικό παιχνίδι μνήμης, όπου πρέπει να βρεις ζευγάρια καρτών."
+
+#: ../lib/soundmemory.py:197
+msgid "Classic memory game where you have to find pairs of sounds."
+msgstr "Κλασικό παιχνίδι μνήμης όπου πρέπει να βρεις ζευγάρια ήχων."
+
+#: ../SPMainCore.py:948
+msgid "Close"
+msgstr ""
+
+#: ../lib/fourrow.py:536
+msgid "Congratulations, try again ?"
+msgstr ""
+
+#: ../SPHelpText.py:129
+msgid "Content import"
+msgstr ""
+
+#: ../lib/electro_sp.py:203 ../lib/fallingletters.py:201
+#: ../lib/soundmemory.py:205
+msgid "Correctness is more important than speed"
+msgstr "Η ορθότητα είναι σημαντικότερη από την ταχύτητα"
+
+#: ../lib/numbers_sp.py:241
+#, fuzzy
+msgid "Correctness is more important than speed."
+msgstr "Η ορθότητα είναι σημαντικότερη από την ταχύτητα"
+
+#: ../SPMainCore.py:1239 ../SPMainCore.py:1412
+#, python-format
+msgid "Current activity : %s"
+msgstr "Ενεργή δραστηριότητα: %s"
+
+#: ../SPHelpText.py:119
+msgid "Daily training sequence"
+msgstr ""
+
+#: ../SPHelpText.py:53
+msgid "Default group 1"
+msgstr ""
+
+#: ../SPHelpText.py:54
+msgid "Default group 2"
+msgstr ""
+
+#: ../lib/dltr.py:434
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: ../SPMainCore.py:808
+msgid "Do you really want to quit ?"
+msgstr "Θέλεις πραγματικά να κλείσεις το πρόγραμμα;"
+
+#: ../lib/electro_sp.py:185
+msgid "Electro_sp"
+msgstr ""
+
+#: ../SPMainCore.py:570 ../SPMainCore.py:578
+msgid "Error !"
+msgstr "Σφάλμα !"
+
+#: ../SPMainCore.py:577
+#, python-format
+msgid ""
+"Error constructing activity\n"
+"%s"
+msgstr ""
+"Σφάλμα κατά τη δημιουργία της δραστηριότητας\n"
+"%s"
+
+#: ../SPMainCore.py:569
+#, python-format
+msgid ""
+"Error importing activity\n"
+"%s"
+msgstr ""
+"Σφάλμα κατά την εισαγωγή της δραστηριότητας\n"
+"%s"
+
+#: ../lib/fallingletters.py:185
+msgid "Fallingletters"
+msgstr "Γράμματα που πέφτουν"
+
+#: ../lib/packid.py:722
+msgid "Find all the letters in the right order."
+msgstr "Βρες όλες τις λέξεις με τη σωστή σειρά."
+
+#: ../lib/findit_sp.py:212
+msgid "Findit"
+msgstr "Βρέστο"
+
+#: ../lib/findsound.py:118
+msgid "Findsound"
+msgstr "Εύρεση ήχου"
+
+#: ../lib/fishtank.py:242
+msgid "Fishtank"
+msgstr "Ενυδρείο ψαριών"
+
+#: ../lib/fourrow.py:119
+msgid "Fourrow"
+msgstr ""
+
+#: ../lib/pong.py:400 ../SPHelpText.py:143
+msgid "Fun"
+msgstr "Διασκέδαση"
+
+#: ../lib/packid.py:516
+msgid "Fun/Alphabet"
+msgstr "Διασκέδαση/Αλφάβητο"
+
+#: ../lib/billiard.py:290
+msgid "Fun/Miscellaneous"
+msgstr "Διασκέδαση/Διάφορα"
+
+#: ../lib/fishtank.py:263
+msgid "Fun/Mousetraining"
+msgstr "Διασκέδαση/Εξάσκηση στο ποντίκι"
+
+#: ../SPHelpText.py:124
+msgid "Gamemanagement"
+msgstr ""
+
+#: ../SPMainCore.py:1016
+#, fuzzy, python-format
+msgid "Generated by %s version %s for the %s activity"
+msgstr ""
+"Δημιουργήθηκε από την έκδοση %s του Childsplay_sp, για τη %s δραστηριότητα"
+
+#: ../SPHelpText.py:118
+msgid "Groupmanagement"
+msgstr ""
+
+#: ../lib/spinbottle.py:208 ../lib/synonyms.py:154
+msgid "Hit the 'Begin' button to start."
+msgstr "Πάτησε το κουμπί 'Έναρξη' για να ξεκινήσεις."
+
+#: ../SPMainCore.py:653
+msgid "Hit the 'space' key or a mousebutton to skip the countdown"
+msgstr ""
+"Πάτησε το πλήκτρο διαστήματος ή ένα κουμπί του ποντικιού για να σταματήσεις "
+"την αντίστροφη μέτρηση"
+
+#: ../lib/pong.py:573
+msgid "Hit the Escape key to stop."
+msgstr "Πάτησε το κουμπί Έξοδος για να σταματήσεις."
+
+#: ../lib/ichanger.py:287
+msgid "Ichanger"
+msgstr ""
+
+#: ../lib/dltr.py:250
+msgid "If you ready to start the next activity, hit the 'start' button."
+msgstr ""
+"Αν είσαι έτοιμος/ η να ξεκινήσεις την επόμενη δραστηριότητα, τότε πάτησε το "
+"κουμπί 'Έναρξη'"
+
+#: ../lib/fallingletters.py:195
+msgid ""
+"In the last two levels the uppercase and lowercase are mixed but you don't "
+"have to match the case only the letter"
+msgstr ""
+"Στα δύο τελευταία επίπεδα, τα γράμματα που πέφτουν είναι ανακατεμένα, πεζά "
+"και κεφαλαία. Μη λάβεις υπόψη σου τη μορφή, παρά μόνον το σωστό γράμμα. "
+
+#: ../lib/pong.py:388
+msgid "In the multiplayer modes, the one who has 11 points wins."
+msgstr "Στα παιχνίδια με δυο παίχτες, κερδίζει όποιος συγκεντρώσει 11 πόντους."
+
+#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+msgid "Information"
+msgstr "Πληροφορίες"
+
+#: ../SPMainCore.py:927
+#, python-format
+msgid "Information about %s"
+msgstr "Πληροφορίες σχετικά με %s"
+
+#: ../SPHelpText.py:58
+msgid ""
+"It seems that we cannot use the sound card right now and because this "
+"activity is all about sound, we just quit. This problem can also be caused "
+"by another application which uses the soundcard right now."
+msgstr ""
+"Φαίνεται ότι δεν είναι δυνατή η χρήση της κάρτας ήχου αυτή τη στιγμή και, "
+"επειδή αυτή η δραστηριότητα αναφέρεται στους ήχους, η εφαρμογή θα κλείσει. "
+"Είναι πιθανό κάποια άλλη εφαρμογή να χρησιμοποιεί την κάρτα ήχου αυτή τη "
+"στιγμή."
+
+#: ../SPHelpText.py:139
+msgid "Keyboardtraining"
+msgstr "Εξάσκηση στο πληκτρολόγιο"
+
+#: ../SPHelpText.py:141
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: ../lib/findsound.py:127
+msgid "Listen to the sound and click on the image to which it belongs."
+msgstr "Άκουσε τον ήχο και κάνε κλικ στην εικόνα του γράμματος που ανήκει."
+
+#: ../SPgdm.py:122
+msgid "Login"
+msgstr "Σύνδεση"
+
+#: ../lib/numbers_sp.py:233
+msgid "Look carefully and try to remember their positions on the screen."
+msgstr ""
+
+#: ../lib/puzzle.py:253
+msgid "Look closely at the complete puzzle picture at the bottom."
+msgstr ""
+"Κοίτα προσεκτικά την πλήρη εικόνα του συμπληρωμένου παζλ στο κάτω μέρος."
+
+#: ../lib/memory_sp.py:210
+#, fuzzy
+msgid ""
+"Look closely at the pictures, when you have them memorized touch 'START'.\n"
+"The pictures turn over, you must match the pair of cards."
+msgstr ""
+"Κοίτα προσεκτικά τις εικόνες. Όταν θα τις έχεις απομνημονεύσει, πάτησε το "
+"κουμπί 'ΈΝΑΡΞΗ'.\n"
+"Οι εικόνες θα ανακατευθούν. Εσύ πρέπει να ταιριάξεις τις απομνημονευμένες "
+"ίδιες κάρτες."
+
+#: ../lib/synonyms.py:116
+msgid "Make a word with the letter: "
+msgstr "Φτιάξε μια λέξη με το γράμμα:"
+
+#: ../lib/quiz_math.py:122 ../SPHelpText.py:137
+msgid "Math"
+msgstr "Μαθηματικά"
+
+#: ../lib/quiz_math.py:97
+msgid "Math Quiz"
+msgstr "Κουίζ Μαθηματικών"
+
+#: ../lib/quiz_melody.py:102
+msgid "Melody Quiz"
+msgstr "Κουίζ μελωδίας"
+
+#: ../SPHelpText.py:65
+msgid ""
+"Memorize the pictures.\n"
+"\n"
+"One of these pictures will be replaced by a new picture.\n"
+"\n"
+"Touch the 'Start' button to begin the game."
+msgstr ""
+"Απομνημόνευσε τις εικόνες.\n"
+"\n"
+"Μια από αυτές τις εικόνες θα αντικατασταθεί από μια νέα εικόνα.\n"
+"\n"
+"Πάτησε το κουμπί 'Έναρξη' για να αρχίσεις το παιγνίδι."
+
+#: ../lib/electro_sp.py:209 ../lib/memory_sp.py:198 ../lib/memory_sp.py:222
+#: ../lib/quiz_melody.py:126 ../lib/quiz.py:163 ../lib/quiz_sayings.py:120
+#: ../lib/quiz_text.py:127 ../lib/simon_sp.py:183 ../lib/soundmemory.py:211
+#: ../SPHelpText.py:136
+msgid "Memory"
+msgstr "Μνήμη"
+
+#: ../lib/simon_sp.py:177
+msgid "Mind the sound sequence as well as the colors sequence."
+msgstr "Δώσε προσοχή στη σειρά των ήχων, αλλά και στη σειρά των χρωμάτων."
+
+#: ../lib/dltr.py:227 ../lib/findit_sp.py:237 ../lib/findsound.py:139
+#: ../lib/ichanger.py:310 ../lib/numbers_sp.py:247 ../lib/photoalbum.py:200
+#: ../lib/quiz_general.py:174 ../lib/quiz_history.py:266
+#: ../lib/quiz_picture.py:118 ../lib/quiz_royal.py:132
+#: ../lib/spinbottle.py:222 ../lib/synonyms.py:167 ../lib/wipe.py:124
+#: ../SPHelpText.py:144
+msgid "Miscellaneous"
+msgstr "Διάφορα"
+
+#: ../SPHelpText.py:140
+msgid "Mousetraining"
+msgstr "Εξάσκηση στο ποντίκι"
+
+#: ../SPMainCore.py:923 ../SPMainCore.py:930
+msgid "Movie"
+msgstr ""
+
+#: ../lib/pong.py:387
+msgid "Multi player - Play against another player."
+msgstr "Δυο παίκτες - Παιχνίδι με αντίπαλο άλλον παίχτη."
+
+#: ../lib/pong.py:386
+msgid "Multi player against the computer - Try to defeat the computer."
+msgstr ""
+"Παιχνίδι με αντίπαλο τον υπολογιστή - Προσπάθησε να κατατροπώσεις τον "
+"υπολογιστή."
+
+#: ../lib/wipe.py:83
+msgid "New"
+msgstr ""
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:867 ../SPMainCore.py:870
+msgid "No"
+msgstr "Όχι"
+
+#: ../lib/photoalbum.py:233
+#, python-format
+msgid ""
+"No photo albums found !\n"
+"You should place your pictures inside directories called 'Album_1', "
+"'Album_2' etc\n"
+" Place these directories inside %s"
+msgstr ""
+
+#: ../lib/photoalbum.py:188
+msgid "Number of levels : 1"
+msgstr "Αριθμός επιπέδων : 1"
+
+#: ../lib/spinbottle.py:210 ../lib/synonyms.py:156
+msgid "Number of levels : 6"
+msgstr "Αριθμός επιπέδων: 6"
+
+#: ../lib/numbers_sp.py:222
+#, fuzzy
+msgid "Numbers_sp"
+msgstr "Αριθμοί"
+
+#: ../lib/dltr.py:434 ../lib/dltr.py:438 ../SPMainCore.py:570
+#: ../SPMainCore.py:578 ../SPMainCore.py:809 ../SPMainCore.py:814
+#: ../SPMainCore.py:815 ../SPMainCore.py:919 ../SPMainCore.py:1018
+#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+msgid "OK"
+msgstr "Εντάξει"
+
+#: ../lib/synonyms.py:152
+#, python-format
+msgid ""
+"On the next screen you'll find a keyboard, try to make as much words as "
+"possible that begin with the letter '%s'."
+msgstr ""
+"Στην επόμενη οθόνη θα βρεις ένα πληκτρολόγιο. Προσπάθησε να φτιάξεις όσες "
+"περισσότερες λέξεις μπορείς που να αρχίζουν με το γράμμα '%s'."
+
+#: ../lib/spinbottle.py:206
+#, fuzzy, python-format
+msgid ""
+"On the next screen you'll find a keyboard, try to name as much %s as "
+"possible with the same letter."
+msgstr ""
+"Στην επόμενη οθόνη θα βρεις ένα πληκτρολόγιο. Προσπάθησε να φτιάξεις όσες "
+"περισσότερες λέξεις μπορείς που να αρχίζουν με το γράμμα '%s'."
+
+#: ../lib/simon_sp.py:166
+msgid "On the screen are four blocks of different colours."
+msgstr "Στη οθόνη υπάρχουν τέσσερις ομάδες με διαφορετικά χρώματα."
+
+#: ../lib/findit_sp.py:221
+msgid ""
+"On the screen you will see two almost identical pictures.\n"
+"However, there are differences between the images."
+msgstr ""
+"Στη οθόνη θα δεις δύο σχεδόν ίδιες εικόνες.\n"
+"Υπάρχουν, πάντως, διαφορές ανάμεσά τους."
+
+#: ../lib/spinbottle.py:207 ../lib/synonyms.py:153
+msgid "Only words from the dictionary are allowed."
+msgstr "Επιτρέπονται μόνον οι λέξεις από το λεξικό."
+
+#: ../lib/packid.py:491
+msgid "Packid"
+msgstr "Packid"
+
+#: ../lib/photoalbum.py:178
+msgid "Photoalbum"
+msgstr ""
+
+#: ../lib/quiz_picture.py:94
+msgid "Picture Quiz"
+msgstr "Κουίζ με εικόνες"
+
+#: ../SPHelpText.py:120
+#, fuzzy
+msgid "Picture import"
+msgstr "Κουίζ με εικόνες"
+
+#: ../lib/fourrow.py:538
+msgid "Pity, try again ?"
+msgstr ""
+
+#: ../lib/puzzle.py:245
+msgid "Place the puzzle piece on the right where you think it belongs..."
+msgstr "Βάλε το κομμάτι του παζλ εκεί όπου νομίζεις ότι ταιριάζει..."
+
+#: ../lib/quiz_history.py:219
+msgid "Please enter your year of birth."
+msgstr "Παρακαλώ, βάλε την ημερομηνία γέννησής σου."
+
+#: ../lib/electro_sp.py:240 ../lib/memory_sp.py:283
+msgid "Please, choose a set of cards."
+msgstr "ύΠαρακαλώ, διάλεξε ένα σύνολο καρτών."
+
+#: ../lib/wipe.py:156
+#, fuzzy
+msgid "Please, choose a set of images."
+msgstr "Παρακαλώ, διάλεξε ένα σύνολο εικόνων για παζλ."
+
+#: ../lib/puzzle.py:302
+msgid "Please, choose a set of puzzle images."
+msgstr "Παρακαλώ, διάλεξε ένα σύνολο εικόνων για παζλ."
+
+#: ../lib/pong.py:373
+msgid "Pong"
+msgstr "Pong"
+
+#: ../lib/simon_sp.py:167
+msgid "Press the Start button with your finger."
+msgstr "Πάτησε το κουμπί Έναρξη με το δάκτυλό σου."
+
+#: ../lib/fourrow.py:145 ../lib/puzzle.py:236 ../lib/puzzle.py:259
+#: ../SPHelpText.py:138
+msgid "Puzzle"
+msgstr "Παζλ"
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:867
+msgid "Question ?"
+msgstr "Ερώτηση ;"
+
+#: ../SPMainCore.py:809
+msgid "Quit ?"
+msgstr "Έξοδος ;"
+
+#: ../lib/quiz.py:134
+#, fuzzy
+msgid "Quiz"
+msgstr "Κουίζ Μαθηματικών"
+
+#: ../lib/quiz_history.py:242
+msgid "Quiz history"
+msgstr "Κουίζ Ιστορίας"
+
+#: ../lib/quiz_royal.py:108
+msgid "Quiz royal"
+msgstr "Βασιλικό Κουίζ"
+
+#: ../lib/quiz_math.py:111
+#, fuzzy
+msgid ""
+"Remember, the order of operations is multiplication or division and followed "
+"by addition or subtraction."
+msgstr ""
+"Να θυμάσαι, η σειρά των πράξεων είναι: πρώτα πολλαπλασιασμός ή διαίρεση και, "
+"μετά, πρόσθεση ή αφαίρεση."
+
+#: ../lib/dltr.py:434 ../SPMainCore.py:1018
+msgid "Results"
+msgstr "Αποτελέσματα"
+
+#: ../SPMainCore.py:1022
+msgid "Save image"
+msgstr "Αποθήκευση εικόνας"
+
+#: ../lib/quiz_sayings.py:96
+msgid "Sayings Quiz"
+msgstr "Κουίζ με Ρητά"
+
+#: ../lib/dltr.py:378
+msgid "Score:"
+msgstr "Βαθμολογία:"
+
+#: ../SPHelpText.py:126
+#, fuzzy
+msgid "Select Language"
+msgstr "Γλώσσα"
+
+#: ../SPMenu.py:331
+msgid ""
+"Select an activity and click on the button, the activity will be started."
+msgstr "Διάλεξε μια δραστηριότητα, κάνε κλικ στο κουμπί και αυτή θα ξεκινήσει."
+
+#: ../SPMainCore.py:948
+msgid "Set volume level"
+msgstr ""
+
+#: ../SPHelpText.py:127 ../SPHelpText.py:128
+msgid "Settings"
+msgstr ""
+
+#: ../lib/ichanger.py:296
+msgid ""
+"Several images from the past will appear on the screen.\n"
+"Look carefully at them and remember what you see."
+msgstr ""
+"Πολλές εικόνες από το παρελθόν θα εμφανισθούν στην οθόνη.\n"
+"Κοίταξέ τες προσεκτικά και απομνημόνευσε αυτά που βλέπεις."
+
+#: ../lib/simon_sp.py:155
+msgid "Simon_sp"
+msgstr ""
+
+#: ../lib/pong.py:385
+msgid "Single play - Hit the ball against the wall."
+msgstr "Ένας παίχτης - Χτύπα τη μπάλα στον τοίχο."
+
+#: ../lib/soundmemory.py:188
+msgid "Soundmemory"
+msgstr "Παιχνίδι μνήμης με ήχους"
+
+#: ../lib/spinbottle.py:196
+msgid "Spin the bottle"
+msgstr ""
+
+#: ../lib/dltr.py:261 ../lib/ichanger.py:321 ../lib/memory_sp.py:430
+msgid "Start"
+msgstr "Έναρξη"
+
+#: ../lib/spinbottle.py:129 ../lib/synonyms.py:365
+msgid "Starting a new exercise"
+msgstr "Εναρξη μιας νέας δραστηριότητας"
+
+#: ../SPMainCore.py:645
+#, python-format
+msgid "Starting level %s"
+msgstr "Επίπεδο έναρξης %s"
+
+#: ../SPMainCore.py:829
+msgid "Stopping timers, please wait..."
+msgstr "Τερματισμός των χρονόμετρων, παρακαλώ περιμένετε..."
+
+#: ../lib/spinbottle.py:120 ../lib/synonyms.py:118
+msgid "Suggestions:"
+msgstr "Υποδείξεις:"
+
+#: ../lib/synonyms.py:140
+msgid "Synonyms"
+msgstr "Συνώνυμα"
+
+#: ../lib/quiz_text.py:103
+msgid "Text Quiz"
+msgstr "Κουίζ Κειμένου"
+
+#: ../lib/simon_sp.py:169
+msgid "The  blocks will light up randomly along with sound clues."
+msgstr "Κουίζ με Ρητά"
+
+#: ../lib/packid.py:499
+msgid "The aim of the game:"
+msgstr "Σκοπός του παιχνιδιού:"
+
+#: ../lib/billiard.py:273 ../lib/dltr.py:214 ../lib/electro_sp.py:193
+#: ../lib/fallingletters.py:193 ../lib/findit_sp.py:220
+#: ../lib/findsound.py:126 ../lib/fishtank.py:250 ../lib/fourrow.py:127
+#: ../lib/ichanger.py:295 ../lib/memory_sp.py:206 ../lib/numbers_sp.py:230
+#: ../lib/photoalbum.py:186 ../lib/pong.py:381 ../lib/puzzle.py:244
+#: ../lib/quiz_general.py:158 ../lib/quiz_history.py:250
+#: ../lib/quiz_math.py:105 ../lib/quiz_melody.py:110
+#: ../lib/quiz_picture.py:102 ../lib/quiz.py:142 ../lib/quiz_royal.py:116
+#: ../lib/quiz_sayings.py:104 ../lib/quiz_text.py:111 ../lib/simon_sp.py:163
+#: ../lib/soundmemory.py:196 ../lib/spinbottle.py:204 ../lib/synonyms.py:150
+#: ../lib/wipe.py:110
+msgid "The aim of this activity:"
+msgstr "Ο σκοπός αυτής της δραστηριότητας:"
+
+#: ../lib/findit_sp.py:225
+msgid "The arrows to the left take you to the previous image."
+msgstr "Τα βέλη προς τα αριστερά θα σε μεταφέρουν στην προηγούμενη εικόνα."
+
+#: ../lib/pong.py:383
+msgid "The classic pong game where you must hit a ball with your bat."
+msgstr ""
+"Το κλασικό παιχνίδι πιγκ πογκ, στο οποίο πρέπει να χτυπάς τη μπάλα με τη "
+"ρακέτα:"
+
+#: ../lib/electro_sp.py:244 ../lib/memory_sp.py:287 ../lib/puzzle.py:306
+msgid "The difficulty of the set increases from left to right."
+msgstr "Η δυσκολία στο σύνολο αυτό, αυξάνει από τα αριστερά προς τα δεξιά."
+
+#: ../lib/billiard.py:278 ../lib/billiard.py:284
+msgid ""
+"The fewer hits you need to get the ball in the hole, the more points you get."
+msgstr ""
+"Όσο λιγότερα χτυπήματα κάνεις για να βάλεις τη μπάλα στην τρύπα, τόσο "
+"περισσότερους βαθμούς παίρνεις."
+
+#: ../lib/electro_sp.py:194
+msgid "The game is to match pairs of pictures"
+msgstr "Το παιγνίδι συνίσταται στο να ταιριάξεις τα ζευγάρια εικόνων."
+
+#: ../lib/packid.py:711
+msgid ""
+"The last level is only available when you finish the first three levels "
+"without errors."
+msgstr ""
+"Το τελευταίο επίπεδο είναι διαθέσιμο όταν θα έχεις τελειώσει\n"
+"τα τρία πρώτα επίπεδα χωρίς λάθη."
+
+#: ../lib/billiard.py:277
+msgid "The longer you hold the left button the harder it will hit the ball."
+msgstr ""
+"Όσο περισσότερο κρατάς πατημένο το αριστερό πλήκτρο, τόσο δυνατότερα θα "
+"χτυπήσεις τη μπάλα."
+
+#: ../lib/packid.py:723
+msgid "The word to find is: "
+msgstr "Η λέξη που πρέπει να βρες είναι: "
+
+#: ../lib/numbers_sp.py:234
+msgid "Then push the 'BEGIN' button. The numbers will disappear."
+msgstr ""
+
+#: ../lib/packid.py:501
+msgid "There are thee levels with three words each."
+msgstr "Υπάρχουν τρία επίπεδα, με τρεις λέξεις το καθένα."
+
+#: ../lib/pong.py:384
+msgid "There are three modes to choose from:"
+msgstr "Υπάρχουν τρία επίπεδα για να διαλέξεις:"
+
+#: ../SPMainCore.py:1520
+#, python-format
+msgid ""
+"There was an error in %s. Please check the logs and inform the developers"
+msgstr ""
+"Υπήρξε ένα σφάλμα στο %s. Παρακαλώ, έλεγξε το αρχείο καταγραφής και "
+"ενημέρωσε τους δημιουργούς."
+
+#: ../SPHelpText.py:46
+#, python-format
+msgid ""
+"There was an error in the database this can be caused by many things but "
+"most of the time it's caused by the fact that your version of the database "
+"doesn't match the version of the program. I will backup your original "
+"database and then replace it with a new one. The original database is now "
+"called sp.db_back and it's placed in %s"
+msgstr ""
+"Υπήρξε ένα σφάλμα στη βάση δεδομένων, που μπορεί να προκλήθηκε από πολλούς "
+"παράγοντες. Τις περισσότερες φορές οφείλεται στο γεγονός ότι η έκδοση της "
+"βάσης δεδομένων δεν αντιστοιχεί με την έκδοση του προγράμματος. Το πρόγραμμα "
+"θα κρατήσει αυτόματα ένα αντίγραφο ασφαλείας της βάσης δεδομένων και θα την "
+"αντικαταστήσει με μια νέα. Η νέα βάση δεδομένων θα ονομάζεται sp.db_back και "
+"θα βρίσκεται στο %s"
+
+#: ../lib/billiard.py:297 ../lib/electro_sp.py:215
+#: ../lib/fallingletters.py:214 ../lib/findit_sp.py:244
+#: ../lib/findsound.py:158 ../lib/fishtank.py:270 ../lib/fourrow.py:234
+#: ../lib/ichanger.py:316 ../lib/memory_sp.py:228 ../lib/numbers_sp.py:257
+#: ../lib/packid.py:523 ../lib/photoalbum.py:206 ../lib/pong.py:406
+#: ../lib/puzzle.py:266 ../lib/quiz_general.py:181 ../lib/quiz_history.py:273
+#: ../lib/quiz_picture.py:124 ../lib/quiz.py:169 ../lib/quiz_royal.py:138
+#: ../lib/simon_sp.py:189 ../lib/soundmemory.py:217 ../lib/spinbottle.py:229
+#: ../lib/synonyms.py:174 ../lib/wipe.py:135
+#, python-format
+msgid "This activity has %s levels"
+msgstr "Η δραστηριότητα έχει %s επίπεδα"
+
+#: ../lib/dltr.py:215
+msgid ""
+"This activity is known as the daily training which is a collection of "
+"activities."
+msgstr ""
+"Αυτή η δραστηριότητα είναι γνωστή σαν καθημερινή προπόνηση και πρόκειται για "
+"μία συλλογή δραστηριοτήτων."
+
+#: ../SPMenu.py:330
+msgid "This is the menu used to select an activity."
+msgstr "Από αυτό το μενού γίνεται η επιλογή μιας δραστηριότητας."
+
+#: ../lib/fourrow.py:133
+msgid "Tip: Try creating multiple winning scenario's."
+msgstr ""
+
+#: ../SPMainCore.py:914
+#, python-format
+msgid "Tip:%s"
+msgstr "Υπόδειξη:%s"
+
+#: ../lib/quizengine.py:797
+#, python-format
+msgid ""
+"To little questions found in %s for locale '%s', found %s questions should "
+"be at least 10"
+msgstr ""
+
+#: ../lib/fourrow.py:132
+msgid ""
+"To win the game you'll need four red pills lined up after each other "
+"horizontally, vertically or diagonal."
+msgstr ""
+
+#: ../lib/ichanger.py:298
+msgid ""
+"Touch the 'START' button on the right.\n"
+"The images will dissappear and when they return, one will have changed.\n"
+"Touch the picture which has changed."
+msgstr ""
+"Πάτησε το κουμπί 'ΕΝΑΡΞΗ' στα δεξιά.\n"
+"Οι εικόνες θα εξαφανισθούν και όταν επιστρέψουν, μία απο αυτές θα έχει "
+"αλλάξει.\n"
+"Ακούμπησε την εικόνα που έχει αλλάξει."
+
+#: ../lib/packid.py:500
+msgid "Try to 'eat' all the letters in the appropriated order."
+msgstr "Προσπάθησε να \"καταβροχθίσεις\" όλα τα γράμματα με τη σωστή σειρά."
+
+#: ../lib/numbers_sp.py:235
+msgid ""
+"Try to find the numbers, in the correct order and from low to high, by "
+"touching them on the screen."
+msgstr ""
+
+#: ../lib/packid.py:504
+msgid "Try to find the way out while eating the fruits for extra points and"
+msgstr ""
+"Προσπάθησε να βρεις την έξοδο, ενώ καταβροχθίζεις φρούτα για περισσότερους "
+"πόντους"
+
+#: ../lib/fourrow.py:128
+msgid "Try to get four in a row in any possible direction."
+msgstr ""
+
+#: ../lib/fishtank.py:251
+msgid "Try to remove the fish by clicking on them with the mouse."
+msgstr ""
+"Προσπάθησε να αφαιρέσεις κάθε ψάρι που εμφανίζεται, κάνοντας κλικ επάνω του "
+"με το ποντίκι."
+
+#: ../lib/simon_sp.py:164
+msgid "Try to repeat the sequence of sounds played."
+msgstr "Δοκίμασε να επαναλάβεις την σειρά των ήχων που ακούστηκαν."
+
+#: ../lib/fallingletters.py:194
+msgid "Type the falling letters on the keyboard before they hit the ground."
+msgstr ""
+"Πληκτρολόγησε τα γράμματα που πέφτουν, πριν αυτά ακουμπήσουν στο έδαφος."
+
+#: ../SPHelpText.py:123
+msgid "Update BrainTrainerPlus"
+msgstr ""
+
+#: ../SPMenu.py:332
+msgid "Use the 'sub menu' buttons for the different activity menus"
+msgstr ""
+"Χρησιμοποίησε τα κουμπιά 'υπομενού' για τα μενού των διαφόρων δραστηριοτήτων."
+
+#: ../SPMenu.py:346
+msgid "Use the menu below to choose between the different game categories"
+msgstr ""
+"Χρησιμοποίησε το παρακάτω μενού για να διαλέξεις ανάμεσα στις διάφορες "
+"κατηγορίες παιγνιδιών."
+
+#: ../lib/billiard.py:276
+msgid "Use the right mousebutton to aim and the left button to hit the ball."
+msgstr ""
+"Χρησιμοποίησε το δεξί πλήκτρο του ποντικιού για να σημαδέψεις και το "
+"αριστερό για να χτυπήσεις τη μπάλα."
+
+#: ../lib/pong.py:579
+msgid "Use these keys on your keyboard to control the bat."
+msgstr ""
+"Χρησιμοποιήστε αυτά τα πλήκτρα στο πληκτρολόγιό σου, για να ελέγξεις τη "
+"ρακέτα."
+
+#: ../SPMainCore.py:460
+#, python-format
+msgid "User: %s"
+msgstr "Χρήστης: %s"
+
+#: ../SPHelpText.py:117
+#, fuzzy
+msgid "Usermanagement"
+msgstr "Όνομα χρήστη:"
+
+#: ../SPgdm.py:104
+msgid "Username:"
+msgstr "Όνομα χρήστη:"
+
+#: ../lib/simon_sp.py:170
+msgid ""
+"When the flashing stops you will be prompted to repeat the sequence by "
+"touching the coloured blocks."
+msgstr ""
+"Όταν σταματήσει το αναβοσβήσιμο, θα ειδοποιηθείς να επαναλάβεις την ίδια "
+"σειρά, αγγίζοντας τα χρωματιστά μπλόκα."
+
+#: ../lib/packid.py:502
+msgid "When you have finished all the levels, without making to much mistakes"
+msgstr ""
+"Όταν θα έχεις τελειώσει όλα τα επίπεδα, χωρίς να έχεις κάνει πολλά λάθη "
+
+#: ../lib/findit_sp.py:223
+msgid ""
+"When you spot a difference, touch it with your finger.\n"
+"You can click the question mark in the middle of the screen if you need a "
+"hint."
+msgstr ""
+"Όταν βρεις μια διαφορά, άγγιξέ την με το δάκτυλό σου.\n"
+"Μπορείς να κάνεις κλικ στο ερωτηματικό, στη μέση της οθόνης, αν χρειάζεσαι "
+"μία συμβουλή."
+
+#: ../lib/soundmemory.py:199
+msgid ""
+"When you touch the picture you will hear a sound.\n"
+"Match the image with others that make the same sound,to get points."
+msgstr ""
+"Όταν αγγίξεις την εικόνα. θα ακούσεις έναν ήχο.\n"
+"Ταίριαξε την εικόνα με άλλες, που κάνουν τον ίδιο ήχο, για να πάρεις βαθμούς."
+
+#: ../lib/wipe.py:102
+msgid "Wipe"
+msgstr ""
+
+#: ../lib/wipe.py:112
+msgid "Wipe with your finger on the screen to uncover the picture."
+msgstr ""
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:728 ../SPMainCore.py:729
+#: ../SPMainCore.py:867
+msgid "Yes"
+msgstr "Ναι"
+
+#: ../lib/fourrow.py:130
+msgid ""
+"You can vertically drop a red pill in a desired column by pressing that "
+"exact column."
+msgstr ""
+
+#: ../lib/dltr.py:374
+msgid "You have finished the daily training module."
+msgstr "Τελείωσες την ενότητα της καθημερινής προπόνησης."
+
+#: ../lib/billiard.py:274
+msgid "You have to make the blue ball enter the hole (in level 1)"
+msgstr "Πρέπει να βάλεις τη μπλε μπάλα στην τρύπα (Επίπεδο 1)"
+
+#: ../SPMainCore.py:723
+msgid "You play very good, do you want to try the next level ?"
+msgstr "Παίζεις πολύ καλά. Μήπως θέλεις να προσπαθήσεις το επόμενο επίπεδο ;"
+
+#: ../lib/electro_sp.py:196
+msgid ""
+"You select the pictures by touching them.\n"
+"As you progress through the star levels more pairs appear to match."
+msgstr ""
+"Επιλέγεις τις εικόνες ακουμπώντας τες.\n"
+"Καθώς προχωράς με τα επίπεδα των αστεριών, όλο και περισσότερα ζευγάρια θα "
+"φαίνονται να ταιριάζουν."
+
+#: ../lib/numbers_sp.py:231
+msgid "You will see various numbers scattered around the screen."
+msgstr ""
+
+#: ../lib/billiard.py:584
+msgid "You won!!"
+msgstr "Κέρδισες!"
+
+#: ../lib/dltr.py:376
+msgid "Your average results per group are:"
+msgstr "Ο μέσος όρος των αποτελεσμάτων σου, για κάθε ομάδα είναι:"
+
+#: ../SPMainCore.py:1028
+#, python-format
+msgid ""
+"Your image is saved at:\n"
+"%s"
+msgstr ""
+"Η εικόνα σου αποθηκεύτηκε στο:\n"
+"%s"
+
+#: ../lib/dltr.py:375
+msgid "Your results are:"
+msgstr "Τα αποτελέσματά σου είναι:"
+
+#: ../lib/billiard.py:275
+msgid "and the red ones in levels 2 and 3."
+msgstr "και τις κόκκινες στα επίπεδα 2 και 3."
+
+#: ../lib/spinbottle.py:118
+#, fuzzy
+msgid "beginning with the letter: "
+msgstr "Φτιάξε μια λέξη με το γράμμα:"
+
+#: ../lib/packid.py:505
+msgid "funny sounds :-)"
+msgstr "και διασκεδαστικούς ήχους :-)"
+
+#: ../lib/billiard.py:572 ../lib/billiard.py:585
+msgid "points"
+msgstr "βαθμοί"
+
+#: ../lib/quiz.py:157
+#, python-format
+msgid "question id: %s"
+msgstr "Κωδικός ερώτησης: %s"
+
+#: ../lib/quiz_general.py:134
+#, python-format
+msgid ""
+"xml file %s is missing, this shouldn't happen, contact the %s developers"
+msgstr ""
+"Το αρχείο xml %s λείπει. Αυτό δεν θα έπρεπε να συμβαίνει. Ελάτε σε επαφή με "
+"τους %s developers"
+
+#~ msgid "All the data was stored succesfully."
+#~ msgstr "Όλα τα δεδομένα αποθηκεύτηκαν με επιτυχία."
+
+#~ msgid "Aquarium mouse training, difficulty: *"
+#~ msgstr "Εξάσκηση στο ποντίκι με ενυδρείο, δυσκολία: *"
+
+#~ msgid ""
+#~ "At the start of the game, a photograph of an animal is shown, above the "
+#~ "picture the name of the animal is written."
+#~ msgstr ""
+#~ "Με το ξεκίνημα του παιχνιδιού, εμφανίζεται η φωτογραφία ενός ζώου και "
+#~ "κάτω από αυτήν είναι γραμμένο το όνομά του."
+
+#~ msgid ""
+#~ "At the top of the screen, you will see a picture on the screen with a "
+#~ "related question."
+#~ msgstr ""
+#~ "Στο πανω μέρος της οθόνης, θα δεις μια εικόνα στην οθόνη, με μια σχετική "
+#~ "ερώτηση."
+
+#~ msgid "Billiard, difficulty: **/***"
+#~ msgstr "Μπιλιάρδο, δυσκολία: **/***"
+
+#~ msgid "Childsplay_sp information"
+#~ msgstr "Πληροφορίες Childsplay_sp"
+
+#~ msgid "Childsplay_sp question"
+#~ msgstr "Ερώτηση του Childsplay_sp"
+
+#~ msgid "Childsplay_sp results diagram"
+#~ msgstr "Διάγραμμα αποτελεσμάτων του Childsplay_sp"
+
+#~ msgid "Click image to enlarge"
+#~ msgstr "Κάντε κλικ στην εικόνα για να την μεγενθύνετε"
+
+#~ msgid "Click the buttons in the right order"
+#~ msgstr "Κάνε κλικ σε όλα τα κουμπιά με τη σωστή σειρά."
+
+#~ msgid "Current user: %s"
+#~ msgstr "Ενεργός χρήστης: %s"
+
+#~ msgid "Difficulty : 2 - 4 years"
+#~ msgstr "Δυσκολία : 2 - 4 ετών"
+
+#~ msgid "Difficulty : 4-7 years"
+#~ msgstr "Δυσκολία: 4-7 ετών"
+
+#~ msgid "Difficulty : 4-8 years"
+#~ msgstr "Δυσκολία: 4-7 ετών"
+
+#~ msgid ""
+#~ "Each part of the screen can also be clicked on to make the animal scream, "
+#~ "his name or initial spoken."
+#~ msgstr ""
+#~ "Μπορούμε να κάνουμε κλικ σε οποιοδήποτε σημείο της οθόνης για να "
+#~ "ακούσουμε τη φωνή του ζώου, το όνομά του ή το αρχικό του ονόματός του."
+
+#~ msgid "Exercises"
+#~ msgstr "Ασκήσεις"
+
+#~ msgid ""
+#~ "Failed to get the dbase data, try to run childsplay_sp first to setup the "
+#~ "dbase"
+#~ msgstr ""
+#~ "Η εφαρμογή απέτυχε να λάβει δεδομένα από τη βάση. Προσπάθησε να "
+#~ "ξεκινήσεις το Childsplay_sp πρώτα για να δημιουργηθεί η βάση δεδομένων."
+
+#~ msgid ""
+#~ "Failed to parse the logfile, please contact the developers.\n"
+#~ "Message was: %s"
+#~ msgstr ""
+#~ "Αποτυχία συλλογής του αρχείου σύνδεσης logfile. Παρακαλώ, ελάτε σε επαφή "
+#~ "με τους developers.\n"
+#~ "Το μήνυμα ήταν: %s"
+
+#~ msgid "Find the characters"
+#~ msgstr "Βρες τους χαρακτήρες"
+
+#~ msgid "Flashcards"
+#~ msgstr "Κάρτες Flash"
+
+#~ msgid "Flashcards, difficulty: *"
+#~ msgstr "Κάρτες Flash, δυσκολία: *"
+
+#~ msgid "General knowledge Quiz"
+#~ msgstr "Κουίζ γενικών γνώσεων"
+
+#~ msgid ""
+#~ "Give your login name in the box and hit the login button. Alternatively "
+#~ "you can just hit the login button and run Childsplay_sp in anonymous mode."
+#~ msgstr ""
+#~ "Δώσε το όνομα σύνδεσης στο κενό πεδίο και πάτα το κουμπί της σύνδεσης. "
+#~ "Διαφορετικά, μπορείς να πιέσεις το κουμπί της σύνδεσης για να ανοίξεις το "
+#~ "Childsplay_sp σε ανώνυμη λειτουργία."
+
+#~ msgid "Goal of the activity"
+#~ msgstr "Ο σκοπός αυτής της δραστηριότητας"
+
+#~ msgid ""
+#~ "If the menu consist of more layers, sub menus, you can always get back to "
+#~ "the main menu by using the 'exit' button."
+#~ msgstr ""
+#~ "Εάν το μενού αποτελείται από περισσότερα επίπεδα ή υπομενού, μπορείς να "
+#~ "επιστρέψεις στο κεντρικό μενού πατώντας στο κουμπί \"Έξοδος\"."
+
+#~ msgid ""
+#~ "If you start the GUI for the first time there's no username and password "
+#~ "set so you should just hit the 'Login' button.\n"
+#~ " You will get a warning message telling you to set as soon as possible a "
+#~ "username and password.\n"
+#~ "You can set a username and password in the GUI.\n"
+#~ " Go to 'Settings' -> 'Set password'."
+#~ msgstr ""
+#~ "Εάν είναι η πρώτη φορά που ανοίγεις το γραφικό περιβάλλον της εφαρμογής, "
+#~ "τότε δεν υπάρχει όνομα χρήστη ούτε κωδικός πρόσβασης, γι' αυτό πάτα το "
+#~ "κουμπί 'Σύνδεση'.\n"
+#~ "Θα λάβεις ένα μήνυμα που θα σε ειδοποιεί να καθορίσεις όνομα χρήστη και "
+#~ "κωδικό πρόσβασης όσο το δυνατόν γρηγορότερα.\n"
+#~ "Μπορείς να ορίσεις όνομα χρήστη και κωδικό πρόσβασης στο γραφικό "
+#~ "περιβάλλον εργασίας.\n"
+#~ "Πήγαινε στις 'Ρυθμίσεις' > 'Ορισμός κωδικού πρόσβασης'."
+
+#~ msgid ""
+#~ "In the last level the fish needs to be clicked two times while they try "
+#~ "to escape."
+#~ msgstr ""
+#~ "Στο τελευταίο επίπεδο, για να αφαιρεθεί κάθε ψάρι, ενώ προσπαθεί να "
+#~ "ξεφύγει, απαιτείται διπλό κλικ."
+
+#~ msgid ""
+#~ "In this file you can set a number of options to change the game play."
+#~ msgstr ""
+#~ "Σε αυτό το αρχείο μπορείτε να ρυθμίσετε τις επιλογές για να αλλάξετε τον "
+#~ "τρόπο που παίζεται το παιχνίδι."
+
+#~ msgid "Info"
+#~ msgstr "Πληροφορίες"
+
+#~ msgid "Keyboard training, difficulty: *"
+#~ msgstr "Εξάσκηση στο πληκτρολόγιο, δυσκολία: *"
+
+#~ msgid "Listen to the sound and click on the character to which it belongs."
+#~ msgstr "Άκουσε τον ήχο και κάνε κλικ στο γράμμα που ανήκει."
+
+#~ msgid "Lower case characters memory, difficulty: */**"
+#~ msgstr "Παιχνίδι μνήμης με πεζά γράμματα, δυσκολία: */**"
+
+#~ msgid "LowercaseMemory"
+#~ msgstr "Μνημονική τεχνική για τα μικρά γράμματα"
+
+#~ msgid "Memory, difficulty: */**"
+#~ msgstr "Μνήμη, δυσκολία: */**"
+
+#~ msgid "Memory/Alphabet"
+#~ msgstr "Μνήμη/Αλφάβητο"
+
+#~ msgid "Menu"
+#~ msgstr "Μενού"
+
+#~ msgid "No data available for this level"
+#~ msgstr "Δεν υπάρχουν διαθέσιμα δεδομένα για αυτό το επίπεδο"
+
+#, fuzzy
+#~ msgid "Number of levels : 5"
+#~ msgstr "Αριθμός επιπέδων: 3"
+
+#~ msgid "Numbers memory, difficulty: */**"
+#~ msgstr "Αριθμητική μνήμη, δυσκολία: */**"
+
+#~ msgid "Ok"
+#~ msgstr "Εντάξει"
+
+#~ msgid "On the left the initial of the animal name is shown."
+#~ msgstr "Στ' αριστερά εμφανίζεται το αρχικό γράμμα του ονόματος του ζώου."
+
+#~ msgid "Packid, difficulty: **/***"
+#~ msgstr "Πάκμαν, δυσκολία: **/***"
+
+#~ msgid "Pause"
+#~ msgstr "Παύση"
+
+#~ msgid "Percentile scores for level %s"
+#~ msgstr "Ποσοστά για το επίπεδο %s"
+
+#~ msgid "Play"
+#~ msgstr "Παίξε"
+
+#~ msgid "Pong classic tennis game, difficulty: *"
+#~ msgstr "Pong, κλασικό παιχνίδι τένις, δυσκολία: *"
+
+#~ msgid "Put all the pieces in the correct order."
+#~ msgstr "Βάλε όλα τα κομμάτια στη σωστή σειρά."
+
+#~ msgid "Puzzle, difficulty: */**"
+#~ msgstr "Παζλ, δυσκολία: */**"
+
+#~ msgid "Request for help"
+#~ msgstr "Αναζήτηση βοήθειας"
+
+#~ msgid "Save"
+#~ msgstr "Αποθήκευση"
+
+#~ msgid "Scores reached in level %s"
+#~ msgstr "Η βαθμολογία φτάνει μέχρι το επίπεδο %s"
+
+#~ msgid "Screenshot\n"
+#~ msgstr "Στιγμιότυπο οθόνης\n"
+
+#~ msgid "Short description\n"
+#~ msgstr "Σύντομη περιγραφή\n"
+
+#~ msgid "Sound association, difficulty: *"
+#~ msgstr "Συσχέτιση ήχων, δυσκολία: *"
+
+#~ msgid "Sound association, difficulty: */**"
+#~ msgstr "Συσχέτιση ήχων, δυσκολία: */**"
+
+#~ msgid "Sound memory, difficulty: */**"
+#~ msgstr "Ακουστική μνήμη, δυσκολία: */**"
+
+#~ msgid "The aim of this activity"
+#~ msgstr "Ο σκοπός αυτής της δραστηριότητας:"
+
+#~ msgid ""
+#~ "The faster you find all the characters the better your score will be."
+#~ msgstr ""
+#~ "Όσο γρηγορότερα βρεις όλα τα γράμματα, τόσο μεγαλύτερη βαθμολογία θα "
+#~ "πετύχεις."
+
+#~ msgid ""
+#~ "The game has a configuration file called 'pongrc', located in the ."
+#~ "childsplay directory of your homedirectory."
+#~ msgstr ""
+#~ "Το παιχνίδι διαθέτει ένα αρχείο ρυθμίσεων που ονομάζεται 'pongrc', που "
+#~ "βρίσκεται στο φάκελο .childsplay του καταλόγου σας."
+
+#~ msgid "The table 'activity_options' doesn't exist in the dbase"
+#~ msgstr "Ο πίνακας 'επιλογές_δραστηριότητας' δεν υπάρχει στη βάση δεδομένων."
+
+#~ msgid ""
+#~ "Then the animal name is spoken ('the dog'), and the animal makes his cry "
+#~ "('woof' 'cui-cui' etc.)."
+#~ msgstr ""
+#~ "Κατόπιν ακούγεται το όνομα του ζώου ('ο σκύλος'), καθώς και η φωνή του "
+#~ "('γουφ' 'κούι-κούι', κλπ.)."
+
+#~ msgid ""
+#~ "There was a problem while replacing the rows in the database.\n"
+#~ "The exception was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Υπήρξε ένα πρόβλημα κατά την αντικατάσταση των γραμμών στη βάση "
+#~ "δεδομένων.\n"
+#~ "Η εξαίρεση ήταν:\n"
+#~ "%s"
+
+#~ msgid "This activity belongs to the category: %s"
+#~ msgstr "Η δραστηριότητα ανήκει στην κατηγορία: %s"
+
+#~ msgid ""
+#~ "This database table holds the values used when displaying the results "
+#~ "graph in an activity.\n"
+#~ "The column 'MU-value' holds an integer between 0 and 10 indicating the "
+#~ "average score.(the dark blue line).\n"
+#~ "The column 'SIGMA-value' holds an integer between 0 an 100 indicating the "
+#~ "standard deviation in percentage, probably always 50. (the light blue "
+#~ "box)\n"
+#~ "\n"
+#~ "Click on the row you want to alter and then click on the field you wish "
+#~ "to edit.\n"
+#~ "You cannot edit the 'Activity name' field.\n"
+#~ "Use the 'Save' button to store the changes in the database."
+#~ msgstr ""
+#~ "Αυτή η βάση δεδομένων περιέχει τις τιμές που χρησιμοποιούνται όταν "
+#~ "εμφανίζεται το γράφημα των αποτελεσμάτων σε μια δραστηριότητα.\n"
+#~ "Η στήλη 'MU-value' περιέχει έναν ακέραιο αριθμό μεταξύ 0 και 10 που "
+#~ "δείχνει τον μέσο όρο της βαθμολογίας επίδοσης.(η σκούρα μπλε γραμμή).\n"
+#~ "Η στήλη 'SIGMA-value' περιέχει έναν ακέραιο αριθμό μεταξύ 0 και 100 που "
+#~ "δείχνει τη σταθερή απόκλιση σε ποσοστό, πιθανόν να είναι πάντα 50."
+#~ "(ανοιχτό μπλε πεδίο)\n"
+#~ "\n"
+#~ "Κάνε κλικ στη γραμμή που θέλεις να τροποποιήσεις και μετά κάνε κλικ στο "
+#~ "πεδίο που θέλεις να επεξεργαστείς.\n"
+#~ "Δεν μπορείς να επεξεργαστείς το πεδίο 'Όνομα δραστηριότητας'.\n"
+#~ "Πάτησε το κουμπί 'Αποθήκευση' για να αποθηκεύσεις τις αλλαγές στη βάση "
+#~ "δεδομένων."
+
+#~ msgid "This is a game to teach the alphabet to very little childrens."
+#~ msgstr ""
+#~ "Αυτή είναι μια δραστηριότητα εκμάθησης του αλφαβήτου από πολύ μικρά "
+#~ "παιδιά."
+
+#~ msgid "Tips"
+#~ msgstr "Υποδείξεις"
+
+#~ msgid "Type of activity"
+#~ msgstr "Τύπος δραστηριότητας"
+
+#~ msgid "Upper case characters memory, difficulty: */**"
+#~ msgstr "Παιχνίδι μνήμης με κεφαλαία γράμματα, δυσκολία: */**"
+
+#~ msgid "UppercaseMemory"
+#~ msgstr "Μνημονική τεχνική για τα κεφαλαία γράμματα"
+
+#~ msgid "Warning !"
+#~ msgstr "Προειδοποίηση !"
+
+#~ msgid ""
+#~ "When a letter is hit on the keyboard, a corresponding animal is shown."
+#~ msgstr ""
+#~ "Όταν πατάμε ένα γράμμα στο πληκτρολόγιο, εμφανίζεται το αντίστοιχο ζώο."
+
+#~ msgid ""
+#~ "When you can't find the correct character after a certain period of time "
+#~ "a box will be drawn around it."
+#~ msgstr ""
+#~ "Αν δεν βρεις το σωστό γράμμα μετά από ένα ορισμένο χρονικό διάστημα, "
+#~ "σχηματίζεται ένα περίγραμμα γύρω από αυτό."
+
+#~ msgid "XML data file is incorrect, please contact the maintainers."
+#~ msgstr ""
+#~ "Τα δεδομένα XML είναι εσφαλμένα. Παρακαλώ, ελάτε σε επαφή με τους "
+#~ "συντηρητές."
+
+#~ msgid ""
+#~ "You can add your own images by placing them in the following directory: "
+#~ msgstr "Μπορείτε να προσθέσετε τις δικές σας εικόνες τοποθετώντας..."
+
+#~ msgid "You can hit the 'graph' button to see your results per level."
+#~ msgstr ""
+#~ "Μπορείς να δεις τις επιδόσεις σου, κάνοντας κλικ στο εικονίδιο του "
+#~ "γραφήματος."
+
+#~ msgid ""
+#~ "Your language, %s, is not supported.\n"
+#~ " I will now switch to English"
+#~ msgstr ""
+#~ "Η γλώσσα σας, %s, δεν υποστηρίζεται.\n"
+#~ "Θα χρησιμοποιηθεί η αγγλική γλώσσα."
+
+#~ msgid ""
+#~ "Your language, %s, is supported but you must install\n"
+#~ " the 'alphabet_sounds_%s' package.\n"
+#~ " Look for it in your GNU/Linux distro or at www.schoolsplay.org.\n"
+#~ " I will now switch to English"
+#~ msgstr ""
+#~ "Η γλώσσα σας, %s, υποστηρίζεται αλλά θα πρέπει να\n"
+#~ "εγκαταστήσετε το πακέτο 'alphabet_sounds_%s'.\n"
+#~ "Αναζητήστε το στη διανομή GNU/Linux που χρησιμοποιείτε\n"
+#~ "ή στη διεύθυνση www.schoolsplay.org.\n"
+#~ "Θα χρησιμοποιηθεί η αγγλική γλώσσα."
+
+#~ msgid "badger"
+#~ msgstr "ασβός"
+
+#~ msgid "bear"
+#~ msgstr "αρκούδα"
+
+#~ msgid "beaver"
+#~ msgstr "κάστορας"
+
+#~ msgid "bee"
+#~ msgstr "μέλισσα"
+
+#~ msgid "bison"
+#~ msgstr "βίσωνας"
+
+#~ msgid "blackbird"
+#~ msgstr "κοτσύφι"
+
+#~ msgid "bull"
+#~ msgstr "ταύρος"
+
+#~ msgid "camel"
+#~ msgstr "καμήλα"
+
+#~ msgid "chimp"
+#~ msgstr "χιμπαντζής"
+
+#~ msgid "cow"
+#~ msgstr "αγελάδα"
+
+#~ msgid "crow"
+#~ msgstr "κάργα"
+
+#~ msgid "cuckoo"
+#~ msgstr "κούκος"
+
+#~ msgid "deer"
+#~ msgstr "ελάφι"
+
+#~ msgid "doe"
+#~ msgstr "ζαρκάδι"
+
+#~ msgid "dog"
+#~ msgstr "σκύλος"
+
+#~ msgid "dolphin"
+#~ msgstr "δελφίνι"
+
+#~ msgid "donkey"
+#~ msgstr "γαϊδούρι"
+
+#~ msgid "dromedary"
+#~ msgstr "καμήλα"
+
+#~ msgid "duck"
+#~ msgstr "πάπια"
+
+#~ msgid "elephant"
+#~ msgstr "ελέφαντας"
+
+#~ msgid "ferret"
+#~ msgstr "κουνάβι"
+
+#~ msgid "filename: %s"
+#~ msgstr "όνομα αρχείου: %s"
+
+#~ msgid "fly"
+#~ msgstr "μύγα"
+
+#~ msgid "fox"
+#~ msgstr "αλεπού"
+
+#~ msgid "frog"
+#~ msgstr "βάτραχος"
+
+#~ msgid "gander"
+#~ msgstr "χήνα"
+
+#~ msgid "giraffe"
+#~ msgstr "καμηλοπάρδαλη"
+
+#~ msgid "goat"
+#~ msgstr "κατσίκα"
+
+#~ msgid "gorilla"
+#~ msgstr "γορίλας"
+
+#~ msgid "grasshopper"
+#~ msgstr "τριζόνι"
+
+#~ msgid "hen"
+#~ msgstr "κότα"
+
+#~ msgid "hippopotamus"
+#~ msgstr "ιπποπόταμος"
+
+#~ msgid "hornet"
+#~ msgstr "σφήκα"
+
+#~ msgid "horse"
+#~ msgstr "άλογο"
+
+#~ msgid "iguana"
+#~ msgstr "ιγκουάνα"
+
+#~ msgid "kangaroo"
+#~ msgstr "καγκουρό"
+
+#~ msgid "koala"
+#~ msgstr "κοάλα"
+
+#~ msgid "lark"
+#~ msgstr "κορυδαλλός"
+
+#~ msgid "lion"
+#~ msgstr "λιοντάρι"
+
+#~ msgid "marmot"
+#~ msgstr "αρκτόμυς"
+
+#~ msgid "mountaingoat"
+#~ msgstr "αγριοκάτσικο"
+
+#~ msgid "mouse"
+#~ msgstr "ποντίκι"
+
+#~ msgid "nandou"
+#~ msgstr "ναντού"
+
+#~ msgid "orca"
+#~ msgstr "όρκα"
+
+#~ msgid "otter"
+#~ msgstr "φώκια"
+
+#~ msgid "owl"
+#~ msgstr "κουκουβάγια"
+
+#~ msgid "peacock"
+#~ msgstr "παγώνι"
+
+#~ msgid "penguin"
+#~ msgstr "πιγκουϊνος"
+
+#~ msgid "pig"
+#~ msgstr "γουρούνι"
+
+#~ msgid "pigeon"
+#~ msgstr "περιστέρι"
+
+#~ msgid "quetzal"
+#~ msgstr "κετζάλ"
+
+#~ msgid "rabbit"
+#~ msgstr "κουνέλι"
+
+#~ msgid "ram"
+#~ msgstr "κριάρι"
+
+#~ msgid "rat"
+#~ msgstr "αρουραίος"
+
+#~ msgid "rooster"
+#~ msgstr "κόκορας"
+
+#~ msgid "seagull"
+#~ msgstr "γλάρος"
+
+#~ msgid "tiger"
+#~ msgstr "τίγρης"
+
+#~ msgid "tucan"
+#~ msgstr "τουκάν"
+
+#~ msgid "turkey"
+#~ msgstr "γαλοπούλα"
+
+#~ msgid "vulture"
+#~ msgstr "γύπας"
+
+#~ msgid "wallaby"
+#~ msgstr "γουάλαμπι"
+
+#~ msgid "wapiti"
+#~ msgstr "ελάφι"
+
+#~ msgid "whale"
+#~ msgstr "φάλαινα"
+
+#~ msgid "wildboar"
+#~ msgstr "αγριογούρουνο"
+
+#~ msgid "wombat"
+#~ msgstr "φασκωλόμυς"
+
+#~ msgid "xanthia"
+#~ msgstr "πεταλούδα"
+
+#~ msgid "yak"
+#~ msgstr "γιακ"
+
+#~ msgid "zebra"
+#~ msgstr "ζέμπρα"
+
+#~ msgid "zebu"
+#~ msgstr "ζεμπού"

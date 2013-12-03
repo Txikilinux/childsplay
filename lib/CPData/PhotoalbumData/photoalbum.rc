@@ -1,0 +1,25 @@
+# rc file for the activity
+# Must have one section called 'default'
+# Put all the options in this section.
+# Format must follow the Python ConfigParser format
+
+[DEFAULT]
+# scaling will retain aspect ratio.
+thumbsize = (150,150)
+
+# various buttons display settings. 1 means visible, 0 means invisible (but working)
+mainexit_button = 1
+exit_button = 1
+play_stop_button = 1
+
+# slideshow settings
+# Seconds between images
+pause = 5
+
+# Put any theme specific options in the proper sections.
+# Any option missing here will be used from the DEFAULT section
+[seniorplay]
+
+[braintrainer]
+
+[childsplay]

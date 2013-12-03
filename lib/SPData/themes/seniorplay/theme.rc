@@ -1,0 +1,43 @@
+# This file is optional and is used to provide additional configuration options.
+# for the mainmenu and login screen
+# Many stuff related to the menu is habled by the SP_menu.xml file.
+
+[DEFAULT]
+[main]
+# background to use
+background = background.png
+
+# Sections login and menubar are mandatory
+[menubar]
+# image to use for the menubar
+menubartop = menu_bar.png
+menubarbottom = bottom_menubar.png
+# position of the menubar
+# possible values are: top, bottom
+menubar_position = top
+#which kind of buttons to use for the menu
+# possible values, normal or transparent
+menubuttons = transparent
+
+# Names of activities as they are defined in the activities get_name method
+# to EXCLUDE from the menu for every user. None means all acts are included.
+# Use the SQL table users to create user specific menus.
+exclude_modules = 
+
+# Names of the menubar buttons or labels to exclude
+# possible values for the buttons are:
+# dice
+# graph
+# user
+# activity
+exclude_buttons = user,activity,graph
+
+# Which level indicator to use.
+# Possible values are:
+# star
+# dice
+level_indicator = star
+
+[login]
+# image to set as the background image
+background_login = foo.png

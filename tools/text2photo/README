@@ -1,0 +1,13 @@
+Depends on:
+python
+python-tk
+python-imaging-tk
+
+
+For windows:
+python + tkinter:
+http://www.python.org/download/releases/2.6.6/
+imaging-tk (pil)
+http://www.pythonware.com/products/pil/
+
+Mac ?

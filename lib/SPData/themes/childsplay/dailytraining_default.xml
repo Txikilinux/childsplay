@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<activities>
+    <metainfo>
+    <!-- The target must hold the name of the DT target group
+    In this case the target is the default and shouldn't be altered.
+    Any other variants should set a unique name as their target.
+    This name is used for the text on the dt_sequence chooser buttons.
+    -->
+        <target>default</target>
+        <fortune>True</fortune>
+    </metainfo>
+        <activity name="quiz_picture" group="quiz">
+            <level>2</level>
+            <cycles>2</cycles>
+        </activity>
+        <activity name="numbers_sp" group="short-term">
+            <level>2</level>
+            <cycles>1</cycles>
+        </activity>
+        <activity name="memory_sp" group="long-term">
+            <level>2</level>
+            <cycles>1</cycles>
+        </activity>
+        <activity name="quiz_text" group="quiz">
+            <level>2</level>
+            <cycles>2</cycles>
+        </activity>
+        <activity name="quiz_math" group="quiz">
+            <level>2</level>
+            <cycles>2</cycles>
+        </activity>
+        <activity name="findit_sp" group="long-term">
+            <level>1</level>
+            <cycles>1</cycles>
+        </activity>
+        <activity name="electro_sp" group="long-term">
+            <level>2</level>
+            <cycles>1</cycles>
+        </activity>
+        <activity name="simon_sp" group="short-term">
+            <level>2</level>
+            <cycles>1</cycles>
+        </activity>
+        <activity name="ichanger" group="short-term">
+            <level>2</level>
+            <cycles>1</cycles>
+        </activity>
+        <activity name="puzzle" group="long-term">
+            <level>3</level>
+            <cycles>1</cycles>
+        </activity>
+        <activity name="soundmemory" group="long-term">
+            <level>2</level>
+            <cycles>1</cycles>
+        </activity>
+        <activity name="fortune" group="None">
+            <level>0</level>
+            <cycles>1</cycles>
+        </activity>
+</activities>    
+
+    

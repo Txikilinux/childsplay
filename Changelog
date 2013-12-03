@@ -1,0 +1,12 @@
+childsplay(2.5):
+    * Total rewrite
+
+develop (2.2):
+    * Replaced SPWidgets.TextEntry with the code from the 
+    SPVirtkeyboard.TextInput so that it doesn't have a eventloop of it's own.
+    This is needed for the new multiline input widget.
+    * SPSprite: Added support to connect to multiple events.
+    * Added new multiline widget to SPWidgets.
+    * Added a new F1/ticket-create screen for betatesters.
+    
+    

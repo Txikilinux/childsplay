@@ -1,0 +1,24 @@
+# rc file for the activity
+# Must have one section called 'default'
+# Put all the options in this section.
+# Format must follow the Python ConfigParser format
+
+[DEFAULT]
+
+# autolevel_up means that the activity will suggest a level higher
+# when the user are performing better than average
+# Possible values 0 or 1
+autolevel_up = 1
+
+# Value indicates when the level up suggestion is done.
+# In the case of a one level activity a value of 5 means after 5 completed levels.
+autolevel_value = 3
+
+
+# Put any theme specific options in the proper sections.
+# Any option missing here will be used from the DEFAULT section
+[seniorplay]
+
+[braintrainer]
+
+[childsplay]

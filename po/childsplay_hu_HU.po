@@ -1,0 +1,1526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-20 11:13+0100\n"
+"PO-Revision-Date: 2010-02-11 07:25+0100\n"
+"Last-Translator: Stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
+"Language-Team: Hungarian <LL@li.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../SPHelpText.py:76
+msgid ""
+"\n"
+"\n"
+"Touch the 'Play' button to continue the game."
+msgstr ""
+
+#: ../SPHelpText.py:71
+msgid ""
+"\n"
+"\n"
+"Touch the changed picture."
+msgstr ""
+
+#: ../lib/packid.py:503
+msgid "(max two per word), you can play the last level which is a maze."
+msgstr ""
+"(legfeljebb 2 hiba szavanként), akkor játszhatsz ez utolsó szinttel, ami egy "
+"labirintus."
+
+#: ../SPMenu.py:344
+msgid "A collection of braintrain games for seniors."
+msgstr ""
+
+#: ../lib/memory_sp.py:216
+#, fuzzy
+msgid "Accuracy is more important than speed."
+msgstr "A helyesség fontosabb, mint a sebesség"
+
+#: ../SPMainCore.py:473
+#, fuzzy
+msgid "Activity :"
+msgstr "Feladat : %s"
+
+#: ../SPMainCore.py:585
+#, python-format
+msgid "Activity : %s"
+msgstr "Feladat : %s"
+
+#: ../lib/dltr.py:377
+#, fuzzy
+msgid "Activity:"
+msgstr "Feladat : %s"
+
+#: ../lib/fourrow.py:131
+msgid "All pills, both red and yellow, stack on each other."
+msgstr ""
+
+#: ../SPMenu.py:345
+msgid ""
+"All the games have there own help page, just start a game and hit the stars "
+"on top of the screen to select another difficulty."
+msgstr ""
+
+#: ../SPHelpText.py:142
+msgid "Alphabet"
+msgstr "ABC"
+
+#: ../lib/fallingletters.py:207
+msgid "Alphabet/Keyboardtraining"
+msgstr "ABC/Billentyűzet gyakorlás"
+
+#: ../lib/spinbottle.py:119 ../lib/synonyms.py:117
+msgid "Already found:"
+msgstr ""
+
+#: ../SPMainCore.py:272
+msgid "An error occurred and BraintrainerPlus was restarted"
+msgstr ""
+
+#: ../lib/quiz_math.py:106
+msgid "Answer the math questions."
+msgstr ""
+
+#: ../lib/quiz_general.py:159 ../lib/quiz_history.py:251
+#: ../lib/quiz_melody.py:111 ../lib/quiz_picture.py:103 ../lib/quiz.py:143
+#: ../lib/quiz_royal.py:117 ../lib/quiz_sayings.py:105 ../lib/quiz_text.py:112
+msgid "Answer the quiz questions."
+msgstr ""
+
+#: ../SPMainCore.py:866
+msgid ""
+"Are sure you want to quit the dailytraining ? All the results will be lost."
+msgstr ""
+
+#: ../lib/puzzle.py:247
+msgid "At the bottom you'll see a image of the complete puzzle."
+msgstr ""
+
+#: ../lib/quiz.py:145
+msgid "At the top of the screen, you will see a general knowledge question."
+msgstr ""
+
+#: ../lib/quiz_royal.py:119
+msgid ""
+"At the top of the screen, you will see a question about a member of Royalty"
+msgstr ""
+
+#: ../lib/quiz_picture.py:105
+msgid "At the top of the screen, you will see a question about a picture."
+msgstr ""
+
+#: ../lib/quiz_general.py:161
+msgid ""
+"At the top of the screen, you will see a question about general knowledge."
+msgstr ""
+
+#: ../lib/quiz_math.py:108
+msgid "At the top of the screen, you will see a question about math problem."
+msgstr ""
+
+#: ../lib/quiz_sayings.py:107
+msgid "At the top of the screen, you will see a question about sayings."
+msgstr ""
+
+#: ../lib/quiz_melody.py:113
+msgid ""
+"At the top of the screen, you will see a question about the song playing."
+msgstr ""
+
+#: ../lib/quiz_history.py:253
+msgid ""
+"At the top of the screen, you will see a question from general knowledge "
+"question from the selected period."
+msgstr ""
+
+#: ../lib/quiz_text.py:114
+msgid "At the top of the screen, you will see a question."
+msgstr ""
+
+#: ../lib/billiard.py:325
+msgid "Balls"
+msgstr "Golyók"
+
+#: ../lib/numbers_sp.py:190
+msgid "Begin"
+msgstr ""
+
+#: ../lib/quiz_general.py:162 ../lib/quiz_history.py:254
+#: ../lib/quiz_math.py:109 ../lib/quiz_melody.py:114
+#: ../lib/quiz_picture.py:106 ../lib/quiz.py:146 ../lib/quiz_royal.py:120
+#: ../lib/quiz_sayings.py:108 ../lib/quiz_text.py:115
+msgid ""
+"Below it are a choice of possible answers.\n"
+"Touch the correct answer."
+msgstr ""
+
+#: ../lib/billiard.py:265
+msgid "Billiard"
+msgstr "Billiárd"
+
+#: ../lib/billiard.py:251
+msgid "Billiard Game"
+msgstr "Billiárd játék"
+
+#: ../SPMainCore.py:809
+msgid "Cancel"
+msgstr ""
+
+#: ../SPHelpText.py:121 ../SPHelpText.py:122
+msgid "Change password"
+msgstr ""
+
+#: ../lib/ichanger.py:323 ../lib/numbers_sp.py:194
+msgid "Cheat"
+msgstr ""
+
+#: ../SPMainCore.py:222
+#, fuzzy, python-format
+msgid "Childsplay_sp - educational activities, using theme:%s"
+msgstr "Childsplay_sp - oktató  feladatok"
+
+#: ../SPgdm.py:73
+msgid "Childsplay_sp login"
+msgstr "Childsplay_sp bejelentkezés"
+
+#: ../lib/pong.py:425
+msgid "Choose the game to play:"
+msgstr "Válassz egy játékot:"
+
+#: ../lib/memory_sp.py:207
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr "Klasszikus memória játék, ahol a kártyák párját kell megkeresned."
+
+#: ../lib/soundmemory.py:197
+msgid "Classic memory game where you have to find pairs of sounds."
+msgstr "Klasszikus memória játék, ahol a hangok párját kell megtalálni."
+
+#: ../SPMainCore.py:948
+msgid "Close"
+msgstr ""
+
+#: ../lib/fourrow.py:536
+msgid "Congratulations, try again ?"
+msgstr ""
+
+#: ../SPHelpText.py:129
+msgid "Content import"
+msgstr ""
+
+#: ../lib/electro_sp.py:203 ../lib/fallingletters.py:201
+#: ../lib/soundmemory.py:205
+msgid "Correctness is more important than speed"
+msgstr "A helyesség fontosabb, mint a sebesség"
+
+#: ../lib/numbers_sp.py:241
+#, fuzzy
+msgid "Correctness is more important than speed."
+msgstr "A helyesség fontosabb, mint a sebesség"
+
+#: ../SPMainCore.py:1239 ../SPMainCore.py:1412
+#, python-format
+msgid "Current activity : %s"
+msgstr "Aktuális feladat : %s"
+
+#: ../SPHelpText.py:119
+msgid "Daily training sequence"
+msgstr ""
+
+#: ../SPHelpText.py:53
+msgid "Default group 1"
+msgstr ""
+
+#: ../SPHelpText.py:54
+msgid "Default group 2"
+msgstr ""
+
+#: ../lib/dltr.py:434
+msgid "Details"
+msgstr ""
+
+#: ../SPMainCore.py:808
+msgid "Do you really want to quit ?"
+msgstr "Tényleg ki szeretnél lépni?"
+
+#: ../lib/electro_sp.py:185
+msgid "Electro_sp"
+msgstr ""
+
+#: ../SPMainCore.py:570 ../SPMainCore.py:578
+msgid "Error !"
+msgstr ""
+
+#: ../SPMainCore.py:577
+#, python-format
+msgid ""
+"Error constructing activity\n"
+"%s"
+msgstr ""
+
+#: ../SPMainCore.py:569
+#, python-format
+msgid ""
+"Error importing activity\n"
+"%s"
+msgstr ""
+
+#: ../lib/fallingletters.py:185
+msgid "Fallingletters"
+msgstr "PotyogóBetűk"
+
+#: ../lib/packid.py:722
+msgid "Find all the letters in the right order."
+msgstr "Találd meg az összes betűt, a megfelelő sorrendben."
+
+#: ../lib/findit_sp.py:212
+msgid "Findit"
+msgstr ""
+
+#: ../lib/findsound.py:118
+msgid "Findsound"
+msgstr "Hangkereső"
+
+#: ../lib/fishtank.py:242
+msgid "Fishtank"
+msgstr "Akvárium"
+
+#: ../lib/fourrow.py:119
+msgid "Fourrow"
+msgstr ""
+
+#: ../lib/pong.py:400 ../SPHelpText.py:143
+msgid "Fun"
+msgstr "Móka"
+
+#: ../lib/packid.py:516
+msgid "Fun/Alphabet"
+msgstr "Móka/ABC"
+
+#: ../lib/billiard.py:290
+msgid "Fun/Miscellaneous"
+msgstr "Móka/Egyéb"
+
+#: ../lib/fishtank.py:263
+msgid "Fun/Mousetraining"
+msgstr "Móka/Egér gyakorlás"
+
+#: ../SPHelpText.py:124
+msgid "Gamemanagement"
+msgstr ""
+
+#: ../SPMainCore.py:1016
+#, fuzzy, python-format
+msgid "Generated by %s version %s for the %s activity"
+msgstr "Childsplay_sp %s verziója által generálva a %s feladathoz"
+
+#: ../SPHelpText.py:118
+msgid "Groupmanagement"
+msgstr ""
+
+#: ../lib/spinbottle.py:208 ../lib/synonyms.py:154
+msgid "Hit the 'Begin' button to start."
+msgstr ""
+
+#: ../SPMainCore.py:653
+msgid "Hit the 'space' key or a mousebutton to skip the countdown"
+msgstr ""
+"A számlálás átugrásához nyomd meg a 'space'-t, vagy klikkelj az egérrel"
+
+#: ../lib/pong.py:573
+msgid "Hit the Escape key to stop."
+msgstr ""
+
+#: ../lib/ichanger.py:287
+msgid "Ichanger"
+msgstr ""
+
+#: ../lib/dltr.py:250
+msgid "If you ready to start the next activity, hit the 'start' button."
+msgstr ""
+
+#: ../lib/fallingletters.py:195
+msgid ""
+"In the last two levels the uppercase and lowercase are mixed but you don't "
+"have to match the case only the letter"
+msgstr ""
+"Az utolsó két szinten vegyesen jönnek kis- és nagybetűk, de nem kell a "
+"méretükre figyelned."
+
+#: ../lib/pong.py:388
+msgid "In the multiplayer modes, the one who has 11 points wins."
+msgstr "Többjátékos módban az nyer, aki előbb eléri a 11 pontot."
+
+#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+msgid "Information"
+msgstr "Információ"
+
+#: ../SPMainCore.py:927
+#, fuzzy, python-format
+msgid "Information about %s"
+msgstr "Információ"
+
+#: ../SPHelpText.py:58
+msgid ""
+"It seems that we cannot use the sound card right now and because this "
+"activity is all about sound, we just quit. This problem can also be caused "
+"by another application which uses the soundcard right now."
+msgstr ""
+"Úgy tűnik, a hang nem működik. Mivel ez a feladat hangok nélkül értelmét "
+"veszti, ezért most inkább kilépünk belőle. Elképzelhető, hogy éppen egy "
+"másik program teljesen lefoglalta a hangkátyát."
+
+#: ../SPHelpText.py:139
+msgid "Keyboardtraining"
+msgstr "Billentyűzet gyakorlás"
+
+#: ../SPHelpText.py:141
+msgid "Language"
+msgstr "Nyelv"
+
+#: ../lib/findsound.py:127
+msgid "Listen to the sound and click on the image to which it belongs."
+msgstr "Hallgassad meg a hangot, és klikkelj a hozzá tartozó képre."
+
+#: ../SPgdm.py:122
+msgid "Login"
+msgstr "Bejelentkezés"
+
+#: ../lib/numbers_sp.py:233
+msgid "Look carefully and try to remember their positions on the screen."
+msgstr ""
+
+#: ../lib/puzzle.py:253
+msgid "Look closely at the complete puzzle picture at the bottom."
+msgstr ""
+
+#: ../lib/memory_sp.py:210
+msgid ""
+"Look closely at the pictures, when you have them memorized touch 'START'.\n"
+"The pictures turn over, you must match the pair of cards."
+msgstr ""
+
+#: ../lib/synonyms.py:116
+msgid "Make a word with the letter: "
+msgstr ""
+
+#: ../lib/quiz_math.py:122 ../SPHelpText.py:137
+msgid "Math"
+msgstr "Matek"
+
+#: ../lib/quiz_math.py:97
+#, fuzzy
+msgid "Math Quiz"
+msgstr "Matek"
+
+#: ../lib/quiz_melody.py:102
+msgid "Melody Quiz"
+msgstr ""
+
+#: ../SPHelpText.py:65
+msgid ""
+"Memorize the pictures.\n"
+"\n"
+"One of these pictures will be replaced by a new picture.\n"
+"\n"
+"Touch the 'Start' button to begin the game."
+msgstr ""
+
+#: ../lib/electro_sp.py:209 ../lib/memory_sp.py:198 ../lib/memory_sp.py:222
+#: ../lib/quiz_melody.py:126 ../lib/quiz.py:163 ../lib/quiz_sayings.py:120
+#: ../lib/quiz_text.py:127 ../lib/simon_sp.py:183 ../lib/soundmemory.py:211
+#: ../SPHelpText.py:136
+msgid "Memory"
+msgstr "Memória"
+
+#: ../lib/simon_sp.py:177
+msgid "Mind the sound sequence as well as the colors sequence."
+msgstr ""
+
+#: ../lib/dltr.py:227 ../lib/findit_sp.py:237 ../lib/findsound.py:139
+#: ../lib/ichanger.py:310 ../lib/numbers_sp.py:247 ../lib/photoalbum.py:200
+#: ../lib/quiz_general.py:174 ../lib/quiz_history.py:266
+#: ../lib/quiz_picture.py:118 ../lib/quiz_royal.py:132
+#: ../lib/spinbottle.py:222 ../lib/synonyms.py:167 ../lib/wipe.py:124
+#: ../SPHelpText.py:144
+msgid "Miscellaneous"
+msgstr "Egyéb"
+
+#: ../SPHelpText.py:140
+msgid "Mousetraining"
+msgstr "Egér gyakorlás"
+
+#: ../SPMainCore.py:923 ../SPMainCore.py:930
+msgid "Movie"
+msgstr ""
+
+#: ../lib/pong.py:387
+msgid "Multi player - Play against another player."
+msgstr "Többjátékos - játsz egy másik játékossal."
+
+#: ../lib/pong.py:386
+msgid "Multi player against the computer - Try to defeat the computer."
+msgstr "Többjátékos, a gép ellen - Próbáld legyőzni a gépet."
+
+#: ../lib/wipe.py:83
+msgid "New"
+msgstr ""
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:867 ../SPMainCore.py:870
+msgid "No"
+msgstr "Nem"
+
+#: ../lib/photoalbum.py:233
+#, python-format
+msgid ""
+"No photo albums found !\n"
+"You should place your pictures inside directories called 'Album_1', "
+"'Album_2' etc\n"
+" Place these directories inside %s"
+msgstr ""
+
+#: ../lib/photoalbum.py:188
+msgid "Number of levels : 1"
+msgstr ""
+
+#: ../lib/spinbottle.py:210 ../lib/synonyms.py:156
+msgid "Number of levels : 6"
+msgstr ""
+
+#: ../lib/numbers_sp.py:222
+#, fuzzy
+msgid "Numbers_sp"
+msgstr "SzámMemória"
+
+#: ../lib/dltr.py:434 ../lib/dltr.py:438 ../SPMainCore.py:570
+#: ../SPMainCore.py:578 ../SPMainCore.py:809 ../SPMainCore.py:814
+#: ../SPMainCore.py:815 ../SPMainCore.py:919 ../SPMainCore.py:1018
+#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+msgid "OK"
+msgstr ""
+
+#: ../lib/synonyms.py:152
+#, python-format
+msgid ""
+"On the next screen you'll find a keyboard, try to make as much words as "
+"possible that begin with the letter '%s'."
+msgstr ""
+
+#: ../lib/spinbottle.py:206
+#, python-format
+msgid ""
+"On the next screen you'll find a keyboard, try to name as much %s as "
+"possible with the same letter."
+msgstr ""
+
+#: ../lib/simon_sp.py:166
+msgid "On the screen are four blocks of different colours."
+msgstr ""
+
+#: ../lib/findit_sp.py:221
+msgid ""
+"On the screen you will see two almost identical pictures.\n"
+"However, there are differences between the images."
+msgstr ""
+
+#: ../lib/spinbottle.py:207 ../lib/synonyms.py:153
+msgid "Only words from the dictionary are allowed."
+msgstr ""
+
+#: ../lib/packid.py:491
+msgid "Packid"
+msgstr "Pac-Manó"
+
+#: ../lib/photoalbum.py:178
+msgid "Photoalbum"
+msgstr ""
+
+#: ../lib/quiz_picture.py:94
+msgid "Picture Quiz"
+msgstr ""
+
+#: ../SPHelpText.py:120
+msgid "Picture import"
+msgstr ""
+
+#: ../lib/fourrow.py:538
+msgid "Pity, try again ?"
+msgstr ""
+
+#: ../lib/puzzle.py:245
+msgid "Place the puzzle piece on the right where you think it belongs..."
+msgstr ""
+
+#: ../lib/quiz_history.py:219
+msgid "Please enter your year of birth."
+msgstr ""
+
+#: ../lib/electro_sp.py:240 ../lib/memory_sp.py:283
+msgid "Please, choose a set of cards."
+msgstr ""
+
+#: ../lib/wipe.py:156
+msgid "Please, choose a set of images."
+msgstr ""
+
+#: ../lib/puzzle.py:302
+msgid "Please, choose a set of puzzle images."
+msgstr ""
+
+#: ../lib/pong.py:373
+msgid "Pong"
+msgstr "Pong"
+
+#: ../lib/simon_sp.py:167
+msgid "Press the Start button with your finger."
+msgstr ""
+
+#: ../lib/fourrow.py:145 ../lib/puzzle.py:236 ../lib/puzzle.py:259
+#: ../SPHelpText.py:138
+msgid "Puzzle"
+msgstr "Kirakó"
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:867
+msgid "Question ?"
+msgstr ""
+
+#: ../SPMainCore.py:809
+#, fuzzy
+msgid "Quit ?"
+msgstr "Kilép"
+
+#: ../lib/quiz.py:134
+#, fuzzy
+msgid "Quiz"
+msgstr "Matek"
+
+#: ../lib/quiz_history.py:242
+msgid "Quiz history"
+msgstr ""
+
+#: ../lib/quiz_royal.py:108
+msgid "Quiz royal"
+msgstr ""
+
+#: ../lib/quiz_math.py:111
+msgid ""
+"Remember, the order of operations is multiplication or division and followed "
+"by addition or subtraction."
+msgstr ""
+
+#: ../lib/dltr.py:434 ../SPMainCore.py:1018
+msgid "Results"
+msgstr ""
+
+#: ../SPMainCore.py:1022
+msgid "Save image"
+msgstr ""
+
+#: ../lib/quiz_sayings.py:96
+msgid "Sayings Quiz"
+msgstr ""
+
+#: ../lib/dltr.py:378
+msgid "Score:"
+msgstr ""
+
+#: ../SPHelpText.py:126
+#, fuzzy
+msgid "Select Language"
+msgstr "Nyelv"
+
+#: ../SPMenu.py:331
+msgid ""
+"Select an activity and click on the button, the activity will be started."
+msgstr "Válassz ki egy feladatot, nyomd meg a gombot, és a feladat elindul."
+
+#: ../SPMainCore.py:948
+msgid "Set volume level"
+msgstr ""
+
+#: ../SPHelpText.py:127 ../SPHelpText.py:128
+msgid "Settings"
+msgstr ""
+
+#: ../lib/ichanger.py:296
+msgid ""
+"Several images from the past will appear on the screen.\n"
+"Look carefully at them and remember what you see."
+msgstr ""
+
+#: ../lib/simon_sp.py:155
+msgid "Simon_sp"
+msgstr ""
+
+#: ../lib/pong.py:385
+msgid "Single play - Hit the ball against the wall."
+msgstr "Egyszemélyes játék - a labdát a falnak kell ütnöd."
+
+#: ../lib/soundmemory.py:188
+msgid "Soundmemory"
+msgstr "Hangmemória"
+
+#: ../lib/spinbottle.py:196
+msgid "Spin the bottle"
+msgstr ""
+
+#: ../lib/dltr.py:261 ../lib/ichanger.py:321 ../lib/memory_sp.py:430
+msgid "Start"
+msgstr ""
+
+#: ../lib/spinbottle.py:129 ../lib/synonyms.py:365
+#, fuzzy
+msgid "Starting a new exercise"
+msgstr "Következik a(z) %s. szint"
+
+#: ../SPMainCore.py:645
+#, python-format
+msgid "Starting level %s"
+msgstr "Következik a(z) %s. szint"
+
+#: ../SPMainCore.py:829
+msgid "Stopping timers, please wait..."
+msgstr "Számlálókat leállítom, kérlek várj..."
+
+#: ../lib/spinbottle.py:120 ../lib/synonyms.py:118
+msgid "Suggestions:"
+msgstr ""
+
+#: ../lib/synonyms.py:140
+msgid "Synonyms"
+msgstr ""
+
+#: ../lib/quiz_text.py:103
+#, fuzzy
+msgid "Text Quiz"
+msgstr "Matek"
+
+#: ../lib/simon_sp.py:169
+msgid "The  blocks will light up randomly along with sound clues."
+msgstr ""
+
+#: ../lib/packid.py:499
+msgid "The aim of the game:"
+msgstr "A játék célja:"
+
+#: ../lib/billiard.py:273 ../lib/dltr.py:214 ../lib/electro_sp.py:193
+#: ../lib/fallingletters.py:193 ../lib/findit_sp.py:220
+#: ../lib/findsound.py:126 ../lib/fishtank.py:250 ../lib/fourrow.py:127
+#: ../lib/ichanger.py:295 ../lib/memory_sp.py:206 ../lib/numbers_sp.py:230
+#: ../lib/photoalbum.py:186 ../lib/pong.py:381 ../lib/puzzle.py:244
+#: ../lib/quiz_general.py:158 ../lib/quiz_history.py:250
+#: ../lib/quiz_math.py:105 ../lib/quiz_melody.py:110
+#: ../lib/quiz_picture.py:102 ../lib/quiz.py:142 ../lib/quiz_royal.py:116
+#: ../lib/quiz_sayings.py:104 ../lib/quiz_text.py:111 ../lib/simon_sp.py:163
+#: ../lib/soundmemory.py:196 ../lib/spinbottle.py:204 ../lib/synonyms.py:150
+#: ../lib/wipe.py:110
+msgid "The aim of this activity:"
+msgstr "A feladat célja:"
+
+#: ../lib/findit_sp.py:225
+msgid "The arrows to the left take you to the previous image."
+msgstr ""
+
+#: ../lib/pong.py:383
+msgid "The classic pong game where you must hit a ball with your bat."
+msgstr "Klasszikus pong játék, ahol a labdát az ütővel kell ütni."
+
+#: ../lib/electro_sp.py:244 ../lib/memory_sp.py:287 ../lib/puzzle.py:306
+msgid "The difficulty of the set increases from left to right."
+msgstr ""
+
+#: ../lib/billiard.py:278 ../lib/billiard.py:284
+msgid ""
+"The fewer hits you need to get the ball in the hole, the more points you get."
+msgstr ""
+"Minél kevesebb ütésből kerül a golyó a lyukba, annál több pontot kapsz."
+
+#: ../lib/electro_sp.py:194
+msgid "The game is to match pairs of pictures"
+msgstr ""
+
+#: ../lib/packid.py:711
+msgid ""
+"The last level is only available when you finish the first three levels "
+"without errors."
+msgstr ""
+"Az utolsó szint csak akkor elérhető, ha az első három szintet hibátlanul "
+"teljesíted."
+
+#: ../lib/billiard.py:277
+msgid "The longer you hold the left button the harder it will hit the ball."
+msgstr "Minél továb tartod lenyomva a bal gombot, annál erősebb lesz a lökés."
+
+#: ../lib/packid.py:723
+msgid "The word to find is: "
+msgstr "A megkeresendő szó:"
+
+#: ../lib/numbers_sp.py:234
+msgid "Then push the 'BEGIN' button. The numbers will disappear."
+msgstr ""
+
+#: ../lib/packid.py:501
+msgid "There are thee levels with three words each."
+msgstr "Három szint van, mindegyiken három szóval."
+
+#: ../lib/pong.py:384
+msgid "There are three modes to choose from:"
+msgstr "3 módozat van:"
+
+#: ../SPMainCore.py:1520
+#, python-format
+msgid ""
+"There was an error in %s. Please check the logs and inform the developers"
+msgstr ""
+"Hiba történt itt: %s. Ellenőrizd a naplót,  és értesítsd a fejlesztőket"
+
+#: ../SPHelpText.py:46
+#, python-format
+msgid ""
+"There was an error in the database this can be caused by many things but "
+"most of the time it's caused by the fact that your version of the database "
+"doesn't match the version of the program. I will backup your original "
+"database and then replace it with a new one. The original database is now "
+"called sp.db_back and it's placed in %s"
+msgstr ""
+"Hiba történt az adatbázisban. Ennek a leggyakoribb oka az, hogy eltérő a "
+"program és az adatbázis verziója. Elmentem az aktuális adatbázist, és és "
+"lecserélem egy újabbra. Az eredeti adatbázist  sp.db_back néven találhatod "
+"meg itt: %s"
+
+#: ../lib/billiard.py:297 ../lib/electro_sp.py:215
+#: ../lib/fallingletters.py:214 ../lib/findit_sp.py:244
+#: ../lib/findsound.py:158 ../lib/fishtank.py:270 ../lib/fourrow.py:234
+#: ../lib/ichanger.py:316 ../lib/memory_sp.py:228 ../lib/numbers_sp.py:257
+#: ../lib/packid.py:523 ../lib/photoalbum.py:206 ../lib/pong.py:406
+#: ../lib/puzzle.py:266 ../lib/quiz_general.py:181 ../lib/quiz_history.py:273
+#: ../lib/quiz_picture.py:124 ../lib/quiz.py:169 ../lib/quiz_royal.py:138
+#: ../lib/simon_sp.py:189 ../lib/soundmemory.py:217 ../lib/spinbottle.py:229
+#: ../lib/synonyms.py:174 ../lib/wipe.py:135
+#, python-format
+msgid "This activity has %s levels"
+msgstr "Ennek a feladatnak %s szintje van"
+
+#: ../lib/dltr.py:215
+msgid ""
+"This activity is known as the daily training which is a collection of "
+"activities."
+msgstr ""
+
+#: ../SPMenu.py:330
+msgid "This is the menu used to select an activity."
+msgstr "Ez a feladatválasztó menü."
+
+#: ../lib/fourrow.py:133
+msgid "Tip: Try creating multiple winning scenario's."
+msgstr ""
+
+#: ../SPMainCore.py:914
+#, fuzzy, python-format
+msgid "Tip:%s"
+msgstr "Tipp:"
+
+#: ../lib/quizengine.py:797
+#, python-format
+msgid ""
+"To little questions found in %s for locale '%s', found %s questions should "
+"be at least 10"
+msgstr ""
+
+#: ../lib/fourrow.py:132
+msgid ""
+"To win the game you'll need four red pills lined up after each other "
+"horizontally, vertically or diagonal."
+msgstr ""
+
+#: ../lib/ichanger.py:298
+msgid ""
+"Touch the 'START' button on the right.\n"
+"The images will dissappear and when they return, one will have changed.\n"
+"Touch the picture which has changed."
+msgstr ""
+
+#: ../lib/packid.py:500
+msgid "Try to 'eat' all the letters in the appropriated order."
+msgstr "Próbáld 'megenni' a betűket a megfelelő sorrendben."
+
+#: ../lib/numbers_sp.py:235
+msgid ""
+"Try to find the numbers, in the correct order and from low to high, by "
+"touching them on the screen."
+msgstr ""
+
+#: ../lib/packid.py:504
+msgid "Try to find the way out while eating the fruits for extra points and"
+msgstr ""
+"Próbáld megkeresni a kiutat, miközben minél több gyümölcsöt próbálsz megenni "
+"extra pontokért,"
+
+#: ../lib/fourrow.py:128
+msgid "Try to get four in a row in any possible direction."
+msgstr ""
+
+#: ../lib/fishtank.py:251
+msgid "Try to remove the fish by clicking on them with the mouse."
+msgstr "Próbáld kivenni a halat úgy, hogy ráklikkelsz az egérrel."
+
+#: ../lib/simon_sp.py:164
+msgid "Try to repeat the sequence of sounds played."
+msgstr ""
+
+#: ../lib/fallingletters.py:194
+msgid "Type the falling letters on the keyboard before they hit the ground."
+msgstr "Gépeld be a potyogó betűket, mielőtt leesnek a földre."
+
+#: ../SPHelpText.py:123
+msgid "Update BrainTrainerPlus"
+msgstr ""
+
+#: ../SPMenu.py:332
+msgid "Use the 'sub menu' buttons for the different activity menus"
+msgstr ""
+
+#: ../SPMenu.py:346
+msgid "Use the menu below to choose between the different game categories"
+msgstr ""
+
+#: ../lib/billiard.py:276
+msgid "Use the right mousebutton to aim and the left button to hit the ball."
+msgstr "A jobb egérgombbal célozz, a ballal lökheted a golyót."
+
+#: ../lib/pong.py:579
+msgid "Use these keys on your keyboard to control the bat."
+msgstr "Ezekkel a gombokkal irányíthatod a denevért."
+
+#: ../SPMainCore.py:460
+#, python-format
+msgid "User: %s"
+msgstr "Felhasználó: %s"
+
+#: ../SPHelpText.py:117
+#, fuzzy
+msgid "Usermanagement"
+msgstr "Felhasználó:"
+
+#: ../SPgdm.py:104
+msgid "Username:"
+msgstr "Felhasználó:"
+
+#: ../lib/simon_sp.py:170
+msgid ""
+"When the flashing stops you will be prompted to repeat the sequence by "
+"touching the coloured blocks."
+msgstr ""
+
+#: ../lib/packid.py:502
+msgid "When you have finished all the levels, without making to much mistakes"
+msgstr "Ha sikerül az összes szintet sok hiba nélkül befejezni"
+
+#: ../lib/findit_sp.py:223
+msgid ""
+"When you spot a difference, touch it with your finger.\n"
+"You can click the question mark in the middle of the screen if you need a "
+"hint."
+msgstr ""
+
+#: ../lib/soundmemory.py:199
+msgid ""
+"When you touch the picture you will hear a sound.\n"
+"Match the image with others that make the same sound,to get points."
+msgstr ""
+
+#: ../lib/wipe.py:102
+msgid "Wipe"
+msgstr ""
+
+#: ../lib/wipe.py:112
+msgid "Wipe with your finger on the screen to uncover the picture."
+msgstr ""
+
+#: ../SPMainCore.py:724 ../SPMainCore.py:728 ../SPMainCore.py:729
+#: ../SPMainCore.py:867
+msgid "Yes"
+msgstr "Igen"
+
+#: ../lib/fourrow.py:130
+msgid ""
+"You can vertically drop a red pill in a desired column by pressing that "
+"exact column."
+msgstr ""
+
+#: ../lib/dltr.py:374
+msgid "You have finished the daily training module."
+msgstr ""
+
+#: ../lib/billiard.py:274
+msgid "You have to make the blue ball enter the hole (in level 1)"
+msgstr "Az első szinten a kék golyót kell a lyukba löknöd,"
+
+#: ../SPMainCore.py:723
+msgid "You play very good, do you want to try the next level ?"
+msgstr ""
+
+#: ../lib/electro_sp.py:196
+msgid ""
+"You select the pictures by touching them.\n"
+"As you progress through the star levels more pairs appear to match."
+msgstr ""
+
+#: ../lib/numbers_sp.py:231
+msgid "You will see various numbers scattered around the screen."
+msgstr ""
+
+#: ../lib/billiard.py:584
+msgid "You won!!"
+msgstr "Nyertél!!"
+
+#: ../lib/dltr.py:376
+msgid "Your average results per group are:"
+msgstr ""
+
+#: ../SPMainCore.py:1028
+#, python-format
+msgid ""
+"Your image is saved at:\n"
+"%s"
+msgstr ""
+"A képet az alábbi helyre mentettem:\n"
+"%s"
+
+#: ../lib/dltr.py:375
+msgid "Your results are:"
+msgstr ""
+
+#: ../lib/billiard.py:275
+msgid "and the red ones in levels 2 and 3."
+msgstr "és a pirosakat a 2-3. szinten."
+
+#: ../lib/spinbottle.py:118
+msgid "beginning with the letter: "
+msgstr ""
+
+#: ../lib/packid.py:505
+msgid "funny sounds :-)"
+msgstr "és mókás hangokért cserébe :-)"
+
+#: ../lib/billiard.py:572 ../lib/billiard.py:585
+msgid "points"
+msgstr "pontok"
+
+#: ../lib/quiz.py:157
+#, python-format
+msgid "question id: %s"
+msgstr ""
+
+#: ../lib/quiz_general.py:134
+#, python-format
+msgid ""
+"xml file %s is missing, this shouldn't happen, contact the %s developers"
+msgstr ""
+
+#~ msgid "All the data was stored succesfully."
+#~ msgstr "Minden adat sikeresen mentve."
+
+#~ msgid "Aquarium mouse training, difficulty: *"
+#~ msgstr "Akváriumos egér gyakorlat, nehézség: *"
+
+#~ msgid ""
+#~ "At the start of the game, a photograph of an animal is shown, above the "
+#~ "picture the name of the animal is written."
+#~ msgstr ""
+#~ "A játék kezdetén egy állat fényképét fogod látni, a kép fölé pedig oda "
+#~ "van írva az állat neve."
+
+#~ msgid "Billiard, difficulty: **/***"
+#~ msgstr "Billiárd, nehézség: **/***"
+
+#~ msgid "Childsplay_sp information"
+#~ msgstr "Childsplay_sp információ"
+
+#~ msgid "Childsplay_sp question"
+#~ msgstr "Childsplay_sp kérdés"
+
+#~ msgid "Childsplay_sp results diagram"
+#~ msgstr "Childsplay_sp eredmény diagram"
+
+#~ msgid "Click image to enlarge"
+#~ msgstr "Katints a képre a nagyításhoz"
+
+#, fuzzy
+#~ msgid "Click the buttons in the right order"
+#~ msgstr "Találd meg az összes betűt, a megfelelő sorrendben."
+
+#~ msgid ""
+#~ "Each part of the screen can also be clicked on to make the animal scream, "
+#~ "his name or initial spoken."
+#~ msgstr ""
+#~ "A képernyő bármely részére klikkelhetsz, hogy az állat hangját, a nevét, "
+#~ "vagy a kezdőbetűjét halljad."
+
+#~ msgid "Exercises"
+#~ msgstr "Gyakorlatok"
+
+#~ msgid ""
+#~ "Failed to get the dbase data, try to run childsplay_sp first to setup the "
+#~ "dbase"
+#~ msgstr ""
+#~ "Nem sikerült olvasni az adatbázisból, a telepítéséhez próbáld meg előbb "
+#~ "elindítani a childsplay_sp -t."
+
+#~ msgid "Find the characters"
+#~ msgstr "Találd meg a karaktereket"
+
+#~ msgid "Flashcards"
+#~ msgstr "Villámkártyák"
+
+#~ msgid "Flashcards, difficulty: *"
+#~ msgstr "Villám kártyák, nehézség: *"
+
+#~ msgid ""
+#~ "Give your login name in the box and hit the login button. Alternatively "
+#~ "you can just hit the login button and run Childsplay_sp in anonymous mode."
+#~ msgstr ""
+#~ "Add meg a felhasználói nevedet a mezőbe, és nyomd meg a 'Bejelentkezés' "
+#~ "gombot. Ha nem írsz be semmit, a Childsplay_sp névtelenül fog futni."
+
+#~ msgid "Goal of the activity"
+#~ msgstr "A feladat célja"
+
+#~ msgid ""
+#~ "If the menu consist of more layers, sub menus, you can always get back to "
+#~ "the main menu by using the 'exit' button."
+#~ msgstr ""
+#~ "Ha egy menü többszintű, mindig kiléphetsz a főmenübe a 'kilép' gomb "
+#~ "segítségével."
+
+#~ msgid ""
+#~ "If you start the GUI for the first time there's no username and password "
+#~ "set so you should just hit the 'Login' button.\n"
+#~ " You will get a warning message telling you to set as soon as possible a "
+#~ "username and password.\n"
+#~ "You can set a username and password in the GUI.\n"
+#~ " Go to 'Settings' -> 'Set password'."
+#~ msgstr ""
+#~ "Ha most indítod először a grafikus felületet, nincs megadva felhasználó/"
+#~ "jelszó, elég, ha megynyomod a \n"
+#~ " 'bejelentkezés\" gombot. Kapni fogsz egy figyelmeztetést, hogy mielőbb "
+#~ "állítsd be a felhasználónevet, ill.jelszót.\n"
+#~ "A felületen az alábbi helyen tudod beállítani ezeket:\n"
+#~ " 'Beállítások' -> 'Jelszó beállítása'"
+
+#~ msgid ""
+#~ "In the last level the fish needs to be clicked two times while they try "
+#~ "to escape."
+#~ msgstr ""
+#~ "Az legnehezebb fokozaton kétszer kell rájuk klikkelned, miközben "
+#~ "menekülni próbálnak."
+
+#~ msgid ""
+#~ "In this file you can set a number of options to change the game play."
+#~ msgstr ""
+#~ "Ebben az állományban a játék menetére vonatkozó beállításokat "
+#~ "eszközölhetsz."
+
+#~ msgid "Info"
+#~ msgstr "Információ"
+
+#~ msgid "Keyboard training, difficulty: *"
+#~ msgstr "Billentyűzet gyakorlás, nehézség: *"
+
+#~ msgid "Listen to the sound and click on the character to which it belongs."
+#~ msgstr ""
+#~ "Hallgassad meg a hangot, és találd meg a hozzá tartozó karaktereket."
+
+#~ msgid "Lower case characters memory, difficulty: */**"
+#~ msgstr "Kisbetűs memória, nehézség: */**"
+
+#~ msgid "LowercaseMemory"
+#~ msgstr "KisbetűsMemória"
+
+#~ msgid "Memory, difficulty: */**"
+#~ msgstr "Memória, nehézség: */**"
+
+#~ msgid "Memory/Alphabet"
+#~ msgstr "Memória/ABC"
+
+#~ msgid "Menu"
+#~ msgstr "Menü"
+
+#~ msgid "No data available for this level"
+#~ msgstr "Erről a szintről nincs adat"
+
+#~ msgid "Numbers memory, difficulty: */**"
+#~ msgstr "Szám memória, nehézség: */**"
+
+#~ msgid "Ok"
+#~ msgstr "Rendben"
+
+#~ msgid "On the left the initial of the animal name is shown."
+#~ msgstr "A bal oldalon az állat nevének kezdőbetűje található."
+
+#~ msgid "Packid, difficulty: **/***"
+#~ msgstr "Pac-Manó, nehézség: **/***"
+
+#~ msgid "Pause"
+#~ msgstr "Szünet"
+
+#~ msgid "Pong classic tennis game, difficulty: *"
+#~ msgstr "Pong klasszikus tennisz játék, nehézség: *"
+
+#~ msgid "Put all the pieces in the correct order."
+#~ msgstr "Tedd a részeket a megfelelő sorrendbe."
+
+#~ msgid "Puzzle, difficulty: */**"
+#~ msgstr "Kirakó, nehézség: */**"
+
+#~ msgid "Save"
+#~ msgstr "Mentés"
+
+#~ msgid "Scores reached in level %s"
+#~ msgstr "A %s szinten elért eredmények"
+
+#~ msgid "Screenshot\n"
+#~ msgstr "Képernyő kép\n"
+
+#~ msgid "Short description\n"
+#~ msgstr "Rövid leírás\n"
+
+#~ msgid "Sound association, difficulty: *"
+#~ msgstr "Hangfelismerés, nehézség: *"
+
+#~ msgid "Sound association, difficulty: */**"
+#~ msgstr "Hangfelismerés, nehézség: */**"
+
+#~ msgid "Sound memory, difficulty: */**"
+#~ msgstr "Hang memória, nehézség: */**"
+
+#~ msgid "The aim of this activity"
+#~ msgstr "A feladat célja"
+
+#~ msgid ""
+#~ "The faster you find all the characters the better your score will be."
+#~ msgstr ""
+#~ "Minél gyorsabban találod meg a karaktereket, annál több pontot érsz el."
+
+#~ msgid ""
+#~ "The game has a configuration file called 'pongrc', located in the ."
+#~ "childsplay directory of your homedirectory."
+#~ msgstr ""
+#~ "Ennek a játéknak van egy 'pongrc' konfigurációs állománya, a home "
+#~ "könyvtárad .childsplay alkönyvtárában."
+
+#~ msgid "The table 'activity_options' doesn't exist in the dbase"
+#~ msgstr "Az 'activity_options' tábla nem szerepel az adatbázisban"
+
+#~ msgid ""
+#~ "Then the animal name is spoken ('the dog'), and the animal makes his cry "
+#~ "('woof' 'cui-cui' etc.)."
+#~ msgstr ""
+#~ "Ezután elhangzik az állat neve kimondva ('a kutya'), majd az állat kiadja "
+#~ "a hangját ('vau', 'miau', stb.)"
+
+#~ msgid ""
+#~ "There was a problem while replacing the rows in the database.\n"
+#~ "The exception was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Hiba történt az adatbázis sorainak átírásakor.\n"
+#~ "A következő kivétel történt:\n"
+#~ "%s"
+
+#~ msgid "This activity belongs to the category: %s"
+#~ msgstr "Ez a feladat a következő kategóriába tartozik: %s"
+
+#~ msgid ""
+#~ "This database table holds the values used when displaying the results "
+#~ "graph in an activity.\n"
+#~ "The column 'MU-value' holds an integer between 0 and 10 indicating the "
+#~ "average score.(the dark blue line).\n"
+#~ "The column 'SIGMA-value' holds an integer between 0 an 100 indicating the "
+#~ "standard deviation in percentage, probably always 50. (the light blue "
+#~ "box)\n"
+#~ "\n"
+#~ "Click on the row you want to alter and then click on the field you wish "
+#~ "to edit.\n"
+#~ "You cannot edit the 'Activity name' field.\n"
+#~ "Use the 'Save' button to store the changes in the database."
+#~ msgstr ""
+#~ "Ez az adatbázis tábla tartalmazza azokat az értékeket, amik a feladatok "
+#~ "eredmény-grafikononján jelennek meg..\n"
+#~ "Az 'MU-value' oszlopban 0 és 100 közötti egész szám lehet, ami az átlagos "
+#~ "eredményt mutatja (sötétkék vonal).\n"
+#~ "A 'SIGMA-value' oszlopban 0 és 100 közötti egész szám lehet, ami az "
+#~ "eltérést mutatja százalékban, valszínűleg mindig 50 (világoskék doboz).\n"
+#~ "\n"
+#~ "kattints a megváltoztatni kívánt sorra, majd a szerkeszteni kívánt "
+#~ "mezőre..\n"
+#~ "Az 'Activity name' mező nem szerkeszthető .\n"
+#~ "A 'Mentés' gomb segítségével tárolhatod a változtatásokat az adatbézisba."
+
+#~ msgid "This is a game to teach the alphabet to very little childrens."
+#~ msgstr "Ez a játék az ABC-t tanítja megy igen kicsi gyerekeknek."
+
+#~ msgid "Tips"
+#~ msgstr "Tippek"
+
+#~ msgid "Type of activity"
+#~ msgstr "A feladat typusa"
+
+#~ msgid "Upper case characters memory, difficulty: */**"
+#~ msgstr "Nagybetűs memória, nehézség: */**"
+
+#~ msgid "UppercaseMemory"
+#~ msgstr "NagybetűsMemória"
+
+#~ msgid ""
+#~ "When a letter is hit on the keyboard, a corresponding animal is shown."
+#~ msgstr ""
+#~ "Ha leütsz egy betűt a billentyűzeten, a hozzá tartozó állat megjelenik."
+
+#~ msgid ""
+#~ "When you can't find the correct character after a certain period of time "
+#~ "a box will be drawn around it."
+#~ msgstr ""
+#~ "Ha nem sikerül bizonyos időn belül megtalálni a megfelelő karaktert, "
+#~ "bekeretezem."
+
+#~ msgid ""
+#~ "You can add your own images by placing them in the following directory: "
+#~ msgstr "Hozzáadhatsz saját képeket, ha beteszed őket az alábbi könyvtárba:"
+
+#~ msgid "You can hit the 'graph' button to see your results per level."
+#~ msgstr "A 'grafikon' gomb megnyomásával láthatod a szintenkénti eredményed."
+
+#~ msgid ""
+#~ "Your language, %s, is not supported.\n"
+#~ " I will now switch to English"
+#~ msgstr ""
+#~ "A te nyelved (%s) sajnos nem támogatott.\n"
+#~ "Angolra fogok váltani."
+
+#~ msgid ""
+#~ "Your language, %s, is supported but you must install\n"
+#~ " the 'alphabet_sounds_%s' package.\n"
+#~ " Look for it in your GNU/Linux distro or at www.schoolsplay.org.\n"
+#~ " I will now switch to English"
+#~ msgstr ""
+#~ "A nyelved (%s) támogatott, de külön fel kell telepítened\n"
+#~ "az 'alphabet_sounds_%s' csomagot.\n"
+#~ "Keressed a GNU/Linux disztribúciódban, vagy a www.schoolsplay.org "
+#~ "oldalon.\n"
+#~ "Most angolra fogok váltani."
+
+#~ msgid "badger"
+#~ msgstr "borz"
+
+#~ msgid "bear"
+#~ msgstr "medve"
+
+#~ msgid "beaver"
+#~ msgstr "hód"
+
+#~ msgid "bee"
+#~ msgstr "méh"
+
+#~ msgid "bison"
+#~ msgstr "bölény"
+
+#~ msgid "blackbird"
+#~ msgstr "feketerigó"
+
+#~ msgid "bull"
+#~ msgstr "birka"
+
+#~ msgid "camel"
+#~ msgstr "teve"
+
+#~ msgid "chimp"
+#~ msgstr "csimpánz"
+
+#~ msgid "cow"
+#~ msgstr "tehén"
+
+#~ msgid "crow"
+#~ msgstr "holló"
+
+#~ msgid "cuckoo"
+#~ msgstr "kakukk"
+
+#~ msgid "deer"
+#~ msgstr "szarvas"
+
+#~ msgid "doe"
+#~ msgstr "őz"
+
+#~ msgid "dog"
+#~ msgstr "kutya"
+
+#~ msgid "dolphin"
+#~ msgstr "delfin"
+
+#~ msgid "donkey"
+#~ msgstr "majom"
+
+#~ msgid "dromedary"
+#~ msgstr "dromedár"
+
+#~ msgid "duck"
+#~ msgstr "kacsa"
+
+#~ msgid "elephant"
+#~ msgstr "elefánt"
+
+#~ msgid "ferret"
+#~ msgstr "vadűszgörény"
+
+#~ msgid "filename: %s"
+#~ msgstr "állomány neve: %s"
+
+#~ msgid "fly"
+#~ msgstr "légy"
+
+#~ msgid "fox"
+#~ msgstr "róka"
+
+#~ msgid "frog"
+#~ msgstr "béka"
+
+#~ msgid "gander"
+#~ msgstr "gúnár"
+
+#~ msgid "giraffe"
+#~ msgstr "zsiráf"
+
+#~ msgid "goat"
+#~ msgstr "kecske"
+
+#~ msgid "gorilla"
+#~ msgstr "gorilla"
+
+#~ msgid "grasshopper"
+#~ msgstr "szöcske"
+
+#~ msgid "hen"
+#~ msgstr "tyúk"
+
+#~ msgid "hippopotamus"
+#~ msgstr "víziló"
+
+#~ msgid "hornet"
+#~ msgstr "darázs"
+
+#~ msgid "horse"
+#~ msgstr "ló"
+
+#~ msgid "iguana"
+#~ msgstr "leguán"
+
+#~ msgid "kangaroo"
+#~ msgstr "kenguru"
+
+#~ msgid "koala"
+#~ msgstr "koala"
+
+#~ msgid "lark"
+#~ msgstr "pacsirta"
+
+#~ msgid "lion"
+#~ msgstr "oroszlán"
+
+#~ msgid "marmot"
+#~ msgstr "mormota"
+
+#~ msgid "mountaingoat"
+#~ msgstr "hegyi kecske"
+
+#~ msgid "mouse"
+#~ msgstr "egér"
+
+#~ msgid "nandou"
+#~ msgstr "nandu"
+
+#~ msgid "orca"
+#~ msgstr "gyilkos bálna"
+
+#~ msgid "otter"
+#~ msgstr "vidra"
+
+#~ msgid "owl"
+#~ msgstr "bagoly"
+
+#~ msgid "peacock"
+#~ msgstr "páva"
+
+#~ msgid "penguin"
+#~ msgstr "pingvin"
+
+#~ msgid "pig"
+#~ msgstr "malac"
+
+#~ msgid "pigeon"
+#~ msgstr "galamb"
+
+#~ msgid "quetzal"
+#~ msgstr "szuruku"
+
+#~ msgid "rabbit"
+#~ msgstr "nyúl"
+
+#~ msgid "ram"
+#~ msgstr "kos"
+
+#~ msgid "rat"
+#~ msgstr "patkány"
+
+#~ msgid "rooster"
+#~ msgstr "kakas"
+
+#~ msgid "seagull"
+#~ msgstr "sirály"
+
+#~ msgid "tiger"
+#~ msgstr "tigris"
+
+#~ msgid "tucan"
+#~ msgstr "tukán"
+
+#~ msgid "turkey"
+#~ msgstr "pulyka"
+
+#~ msgid "vulture"
+#~ msgstr "keselyű"
+
+#~ msgid "wallaby"
+#~ msgstr "wallaby kenguru"
+
+#~ msgid "wapiti"
+#~ msgstr "szarvas"
+
+#~ msgid "whale"
+#~ msgstr "bálna"
+
+#~ msgid "wildboar"
+#~ msgstr "vaddisznó"
+
+#~ msgid "wombat"
+#~ msgstr "vombat"
+
+#~ msgid "xanthia"
+#~ msgstr "xanthia"
+
+#~ msgid "yak"
+#~ msgstr "jak"
+
+#~ msgid "zebra"
+#~ msgstr "zebra"
+
+#~ msgid "zebu"
+#~ msgstr "zebu"

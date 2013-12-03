@@ -1,0 +1,63 @@
+# This file is mandatory and is used to provide additional configuration 
+# options for the widgets in SPWidgets.
+
+# a default section is mandatory
+[default]
+# normal state: light grey
+button_bg_color = (220, 220, 220)
+button_fg_color = (0,0,0)
+# active state: kobalt light blue
+button_color_hover = (60, 60, 60)
+# when the button is 'selected' the bg color is changed.
+button_selected_color = (0, 0, 0)
+# Which background image to use for the round corner button
+button_background_image_left = but_left_blue.png
+button_background_image_right = but_right_blue.png
+button_background_image_center = but_repeat_blue.png
+# Which hover image to use for the round corner button
+button_hover_background_image_left = basebutton_grey_left.png
+button_hover_background_image_right = basebutton_grey_right.png
+button_hover_background_image_center = basebutton_grey_center.png
+
+
+# SimpleButtonRound
+simplebuttonround_fg_color = (250,250,250)
+
+# label has only one state
+label_bg_color = (220,220,220)
+label_fg_color = (0,0,0)
+
+# dialog
+dialog_bg_color = (220,220,220)
+dialog_fg_color = (30,30,30)
+# the bar that holds the dialog buttons
+dialog_bar_color = (220,220,220)
+dialog_title_bg_color = (40,77,171)
+dialog_title_fg_color = (220,220,220)
+dialog_but_fg_color = (240,240,240)
+dialog_but_bg_color = (40,77,171)
+
+# textview
+textview_bg_color = (250,250,250)
+textview_fg_color = (0,0,0)
+
+# textentry
+textentry_bg_color = (250,250,250)
+textentry_fg_color = (0,0,0)
+textentry_fg_prompt_color = (0,0,0)
+
+# execounter
+execounter_bg_color = (235,235,235)
+execounter_fg_color = (0,0,0)
+
+# starbutton
+starbutton_bg_color = (220,220,220)
+
+# StarButtonsDialog
+starbuttonsdialog_dim_color = (100,149,237)
+starbuttonsdialog_fsize = 32
+starbuttonsdialog_darkenfactor = 200
+
+
+
+

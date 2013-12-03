@@ -1,0 +1,58 @@
+# rc file for the activity
+# Must have one section called 'default'
+# Put all the options in this section.
+# Format must follow the Python ConfigParser format
+
+[DEFAULT]
+
+# number of exercises in each level
+exercises = 4
+
+# how many wrong answers are allowed.(-1 means unlimited)
+wrongs=5
+
+# autolevel_up means that the activity will suggest a level higher
+# when the user are performing better than average
+# Possible values 0 or 1
+autolevel_up = 1
+
+# Value indicates when the level up suggestion is done.
+# After how many correct exercises do we suggest level up.
+autolevel_value = 3
+
+# How many pixels extra around the 'wrong' rect do we still consider correct for each level.
+wrong_rect_offset_1 = 0
+wrong_rect_offset_2 = 0
+wrong_rect_offset_3 = 0
+wrong_rect_offset_4 = 0
+wrong_rect_offset_5 = 0
+wrong_rect_offset_6 = 0
+
+# Do we use visible indicators to show errors
+show_errors = 1
+
+# Put any theme specific options in the proper sections.
+# Any option missing here will be used from the DEFAULT section
+[seniorplay]
+wrong_rect_offset_1 = 100
+wrong_rect_offset_2 = 100
+wrong_rect_offset_3 = 50
+wrong_rect_offset_4 = 50
+wrong_rect_offset_5 = 10
+wrong_rect_offset_6 = 10
+
+[braintrainer]
+# How many pixels extra around the 'wrong' rect do we still consider correct for each level.
+# These are special options only used for the bt theme 
+wrong_rect_offset_1 = 100
+wrong_rect_offset_2 = 100
+wrong_rect_offset_3 = 50
+wrong_rect_offset_4 = 50
+wrong_rect_offset_5 = 10
+wrong_rect_offset_6 = 10
+# Do we use visible indicators to show errors
+show_errors = 0
+# how many wrong answers are allowed. (-1 means unlimited)
+wrongs=-1
+
+[childsplay]

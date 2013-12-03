@@ -1,0 +1,68 @@
+# rc file for the activity
+# Must have one section called 'default'
+# Put all the options in this section.
+# Format must follow the Python ConfigParser format
+
+[DEFAULT]
+# number of questions in each level
+questions = 10
+
+# retry is only used with 4 answers.
+# retry 1 means one chance to pick a correct answer 
+retry = 2
+
+# autolevel_up means that the activity will suggest a level higher
+# when the user are performing better than average
+# Possible values 0 or 1
+autolevel_up = 1
+
+# Value indicates when the level up suggestion is done.
+# In the case of the quiz activity a value of 5 means after 5 correct answers.
+autolevel_value = 5
+
+# Put any theme specific options in the proper sections.
+# Any option missing here will be used from the DEFAULT section
+[seniorplay]
+# THERE NO FREE CONTENT AT THIS MOMENT 
+# number of questions in each level
+questions = 20
+
+# How many questions from each content should be included in one round/level.
+# items are given in a list. For example 2 audio questions => 2_audio
+# So a list could be something like this:
+# 2_audio,4_text,1_sayings,3_pictures etc
+# Beaware that your list must have the same number of items as the number given in 'questions'
+questions_order_nl = 6_pic, 8_text, 2_math, 1_melody, 2_sayings, 1_royal
+questions_order_en = 6_pic, 8_text, 2_math, 4_sayings
+
+dt_questions = 1
+
+[braintrainer]
+# number of questions in each level
+questions = 20
+
+# How many questions from each content should be included in one round/level.
+# items are given in a list. For example 2 audio questions => 2_audio
+# So a list could be something like this:
+# 2_audio,4_text,1_sayings,3_pictures etc
+# Beaware that your list must have the same number of items as the number given in 'questions'
+questions_order_nl = 6_pic, 8_text, 2_math, 1_melody, 2_sayings, 1_royal
+questions_order_en = 6_pic, 8_text, 2_math, 4_sayings
+
+dt_questions=1
+
+[childsplay]
+# THERE NO FREE CONTENT AT THIS MOMENT 
+# number of questions in each level
+questions = 20
+
+# How many questions from each content should be included in one round/level.
+# items are given in a list. For example 2 audio questions => 2_audio
+# So a list could be something like this:
+# 2_audio,4_text,1_sayings,3_pictures etc
+# Beaware that your list must have the same number of items as the number given in 'questions'
+questions_order_nl = 6_pic, 8_text, 2_math, 1_melody, 2_sayings, 1_royal
+questions_order_en = 6_pic, 8_text, 2_math, 4_sayings
+
+dt_questions = 1
+
