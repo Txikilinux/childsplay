@@ -7,7 +7,6 @@ db.dev
 gpl-3.0.txt
 __init__.py
 languageDefinitions.py
-Mail.py
 NormalDistTable.py
 pangofont.py
 SPBasePaths.py
