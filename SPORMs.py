@@ -176,141 +176,142 @@ class act_parent(object):
         self.score = score
 
 class quiz_general(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total_questions=None, total_wrongs=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.total_wrongs = total_wrongs
         self.total_questions = total_questions
 
 class quiz(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total_questions=None, total_wrongs=None):
+        act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.total_wrongs = total_wrongs
         self.total_questions = total_questions
         
 class quiz_text(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total_questions=None, total_wrongs=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.total_wrongs = total_wrongs
         self.total_questions = total_questions
         
 class quiz_melody(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total_questions=None, total_wrongs=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.total_wrongs = total_wrongs
         self.total_questions = total_questions
 
 class quiz_math(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total_questions=None, total_wrongs=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.total_wrongs = total_wrongs
         self.total_questions = total_questions
         
 class quiz_picture(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total_questions=None, total_wrongs=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.total_wrongs = total_wrongs
         self.total_questions = total_questions
         
 class quiz_history(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total_questions=None, total_wrongs=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.total_wrongs = total_wrongs
         self.total_questions = total_questions
         
 class quiz_royal(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total_questions=None, total_wrongs=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.total_wrongs = total_wrongs
         self.total_questions = total_questions
         
 class quiz_sayings(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total_questions=None, total_wrongs=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.total_wrongs = total_wrongs
         self.total_questions = total_questions
         
 class findit_sp(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total_diffs=None,  wrongs=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.wrongs = wrongs
         self.total_diffs = total_diffs
         
 class electro_sp(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, cards=0, knowncards=0):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.cards = cards
         self.knowncards = knowncards
 
 class memory_sp(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, knowncards=None, cards=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.knowncards = knowncards
         self.cards = cards
         
 class simon_sp(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, sounds=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.sounds = sounds
         
 class puzzle(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total_pieces=None, wrongs=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.wrongs = wrongs
         self.total_pieces = total_pieces
         
 class soundmemory(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, sounds=None, knownsounds=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.sounds = sounds
         self.knownsounds = knownsounds
         
 class ichanger(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, wrongs=None, extra=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.wrongs = wrongs
         self.extra = extra 
         
 class fishtank(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, fish=None, clearfish=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.fish = fish
         self.clearfish = clearfish
         
 class photoalbum(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         
 class numbers_sp(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         
 class video(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, movie=None, answer=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.movie = movie
         self.answer = answer
         
 class dltr(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, activity=None, done=None, cycles=None, epoch=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.activity = activity
@@ -319,7 +320,7 @@ class dltr(act_parent):
         self.epoch = epoch
         
 class spinbottle(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total=None, wrong=None, correct=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.total = total
@@ -327,7 +328,7 @@ class spinbottle(act_parent):
         self.correct = correct
 
 class list_game(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, total=None, wrong=None, correct=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.total = total
@@ -335,29 +336,33 @@ class list_game(act_parent):
         self.correct = correct
  
 class story(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         
 class dictionary(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         
 class wipe(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
 
 class fourrow(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None, stonesplayed=0):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
         self.stonesplayed = stonesplayed
 
+class flashcards(act_parent):
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
+                  level=None, score=None):
+        act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
 
 class test_act(act_parent):
-    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,\
+    def __init__(self, user_id=None, timespend=None, start_time=None, end_time=None,
                   level=None, score=None):
         act_parent.__init__(self, user_id, timespend, start_time, end_time, level, score)
 

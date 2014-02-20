@@ -90,8 +90,11 @@
       <activity>TicTacToe</activity>
     </menuitem>
     <menuitem enable="True" file="BlockBreaker.icon.png" hoverfile="BlockBreaker_ro.icon.png">
-        <activity>BlockBreaker</activity>
-  </menuitem>
+      <activity>BlockBreaker</activity>
+    </menuitem>
+    <menuitem enable="True" file="flashcards.icon.png" hoverfile="flashcards_ro.icon.png">
+        <activity>flashcards</activity>
+    </menuitem>
   </submenu>
-
+  
 </rootmenu>
