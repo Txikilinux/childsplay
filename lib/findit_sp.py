@@ -449,9 +449,9 @@ class Activity:
             if self.AreWeDT:
                 self.SPG.tellcore_level_end(level=self.level)
             else:
-                self.SPG.tellcore_level_end(store_db=True, \
-                                    level=min(6, self.level), \
-                                    levelup=levelup)
+                self.SPG.tellcore_level_end(store_db=True,
+                                            level=min(6, self.level),
+                                            levelup=levelup)
         else:
             self.start_exercise()
       

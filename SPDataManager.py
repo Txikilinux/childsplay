@@ -512,6 +512,10 @@ class RowMapper:
     def commit(self):
         """Flush dbase data to disk.
         Returns None on success and True on faillure."""
+        if not self.orm:
+            self.logger.info("No orm, nothing to store")
+            return
+
         self.logger.debug("orm %s commit data to dbase" % self.orm._name)
         if hasattr(self.orm, 'user_id'):
             self.insert('user_id', self.user_id)
@@ -586,7 +590,7 @@ class ServedMapper:
 class BogusMapper:
     """Bogus mapper class used when we are in anonymousmode"""
     def __init__(self):
-        pass
+        self._name = 'Bogusmapper'
     def __str__(self):
         return "BogusMapper"
     def __repr__(self):
@@ -608,8 +612,6 @@ class BogusMapper:
     def delete_row(self, row_id):
         pass
     def get_table_selection(self, args):
-        pass
-    def _get_level_data(self, levelnum=1):
         pass
     def _get_start_time(self):
         return "2000-01-01_00:00:00"

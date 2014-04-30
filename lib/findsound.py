@@ -273,9 +273,9 @@ class Activity:
                     if self.picked_object():
                         # we call the SPGoodies observer to notify the core the level
                         # is ended and we want to store the collected data
-                        self.SPG.tellcore_level_end(store_db=True, \
-                                                next_level=min(6, self.level + 1), \
-                                                levelup=True)
+                        self.SPG.tellcore_level_end(store_db=True,
+                                                    level=min(6, self.level + 1),
+                                                    levelup=True)
                 else:
                     # wrong object hit
                     self.wrongs += 1
