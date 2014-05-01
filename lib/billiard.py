@@ -350,11 +350,16 @@ class Activity:
         returns the score value for the past level.
         return None if no score value is used"""
         m,s = timespend.split(':')
-        seconds = int(m)*60 + int(s)
-        score = max(1,10 *(float(self.n_balls)/self.tries)-(seconds/100.0))
+        seconds = int(m) * 60 + int(s)
+        if self.tries:
+            score = max(1, 10 * (float(self.n_balls) / self.tries) - (seconds / 100.0))
+        else:
+            score = 0
         
         self.logger.debug('total time %s' % seconds)
         self.logger.debug('score %s' % score)
+        if score == 0:
+            return score
         # As this method is called by the core when a level is finished
         # we also use it to store the counters
         self.db_mapper.insert('balls',self.n_balls)
