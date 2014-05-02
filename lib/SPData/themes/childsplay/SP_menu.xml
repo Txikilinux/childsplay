@@ -14,7 +14,7 @@
     <menuitem enable="True" file="ichanger.icon.png" hoverfile="ichanger_ro.icon.png">
       <activity>ichanger</activity>
     </menuitem>
-    <menuitem enable="True" file="billiard.icon.png" hoverfile="billiard_ro.icon.png">
+    <menuitem enable="False" file="billiard.icon.png" hoverfile="billiard_ro.icon.png">
       <activity>billiard</activity>
     </menuitem>
     <menuitem enable="True" file="fallingletters.icon.png" hoverfile="fallingletters_ro.icon.png">

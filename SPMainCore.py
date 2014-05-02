@@ -180,11 +180,11 @@ class MainCoreGui:
         DEFAULTICONPATH = os.path.join(ACTIVITYDATADIR, 'SPData', 'themes', 'childsplay')
         # TODO:change icon files to the ones we would use
         if sys.platform == 'darwin':
-            file = 'logo_bt_180x180.png'
+            file = 'logo_cp_180x180.png'
         elif sys.platform == 'win32':
-            file = 'logo_bt_64x64.png'
+            file = 'logo_cp_64x64.png'
         else:
-            file = 'logo_bt_32x32.xpm'
+            file = 'logo_cp_32x32.xpm'
         if not os.path.exists(os.path.join(ICONPATH, file)):
             icon_path = os.path.join(DEFAULTICONPATH, file)
         else:
@@ -192,7 +192,7 @@ class MainCoreGui:
         try:
             surface = pygame.image.load(icon_path)
         except pygame.error:
-            self.logger.error('Could not load image "%s"\n %s' % (file, pygame.get_error()))
+            self.logger.info('Could not load image "%s"\n %s' % (file, pygame.get_error()))
         else:
             surface.set_colorkey(surface.get_at((0, 0)), RLEACCEL)
             pygame.display.set_icon(surface)
@@ -395,7 +395,7 @@ class MainCoreGui:
             self.logger.exception("Failed to setup the menu")
             raise utils.MyError, info
         # First we parse the menu xml            
-        self.activity._parse_menu(theme_dir, xmlname)
+        self.activity._parse_menu(os.path.join(ACTIVITYDATADIR, 'SPData', 'themes', self.theme), xmlname)
         # now we can build the menu buttons
         if self.COPmode:
             theme_dir = os.path.join('controlpanel_lgpl','lib', 'SPData')

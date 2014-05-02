@@ -18,7 +18,7 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
 # Set the NoGtk constants to True if you don't want to use gtk stuff.
-NoGtk = True
+NoGtk = False
 # Set this to which dbase we use.
 # Currently these are supported: 'sqlite' and 'mysql'
 WHICHDBASE = 'sqlite'
