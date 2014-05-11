@@ -71,10 +71,7 @@ else:
         CPmodule_logger.error("Your version of sqlalchemy is to old, please upgrade to version >= 0.6")
         sys.exit(1)
     CPmodule_logger.debug("using sqlalchemy %s" % sqla.__version__)
-try:
-    import sqlalchemy.exceptions as sqlae
-except ImportError:
-    from sqlalchemy import exc as sqlae
+
 import sqlalchemy.orm as sqlorm
 
 import time
@@ -177,7 +174,7 @@ DEBUG = False
 try:
     #This will setup the dbases and ORMS
     dbm = DbaseMaker(CMD_Options.theme, debug_sql=DEBUG)            
-except (AttributeError, sqlae.SQLAlchemyError, utils.MyError), info:
+except (AttributeError, sqla.exceptions.SQLAlchemyError, utils.MyError), info:
     CPmodule_logger.exception("Failed to start the DBase, %s" % info)
     raise utils.MyError, info
 

@@ -42,10 +42,7 @@ try:
 except ImportError:
     module_logger.exception("No sqlalchemy package found")
     raise MyError
-try:
-    import sqlalchemy.exceptions as sqlae
-except ImportError:
-    from sqlalchemy import exc as sqlae
+
 # attempt to prevent sqlalchemy trhowing recursion limit error
 sys.setrecursionlimit(2000) # 1000 is the default
 

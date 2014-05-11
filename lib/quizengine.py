@@ -486,7 +486,10 @@ class Engine:
             p = os.path.join(self.CPdatadir,'thumbs.png')
         self.good_image = SPSprite(load_image(p))
         
-        self.tryagain_image = SPSprite(load_image(os.path.join(self.my_datadir,'tryagain_%s.png' % self.lang)))
+        p = os.path.join(self.my_datadir,'tryagain_%s.png' % self.lang)
+        if not os.path.exists(p):
+            p = os.path.join(self.my_datadir,'tryagain_en.png')
+        self.tryagain_image = SPSprite(load_image(p))
                 
         iconA=load_image(os.path.join(self.my_datadir,'a.png'))
         iconB=load_image(os.path.join(self.my_datadir,'b.png'))

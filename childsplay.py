@@ -72,7 +72,7 @@ else:
         utils._remove_lock()
         BTPSTART = 'cd .. && ' + BTPSTART
     else:
-        CPmodule_logger.error("No pid for BTP")
+        CPmodule_logger.info("No pid for BTP")
 
 try:
     import sqlalchemy as sqla
@@ -85,10 +85,7 @@ else:
         CPmodule_logger.error("Your version of sqlalchemy is to old, please upgrade to version >= 0.6")
         sys.exit(1)
     CPmodule_logger.debug("using sqlalchemy %s" % sqla.__version__)
-try:
-    import sqlalchemy.exceptions as sqlae
-except ImportError:
-    from sqlalchemy import exc as sqlae
+
 import sqlalchemy.orm as sqlorm
 
 import time
@@ -144,7 +141,11 @@ for f in  XML_FILES_WE_MUST_HAVE:
 # if we want to use an sqlite content dbase we must make sure the default one is in the proper location.
 p = os.path.join(HOMEDIR, CMD_Options.theme, CONTENTDBASE)
 if not os.path.exists(p):
-    shutil.copy(CONTENTDBASE, p)    
+    if os.path.exists(CONTENTDBASE):
+        shutil.copy(CONTENTDBASE, p)
+    else:
+        from SPBasePaths import SHARELIBDATADIR
+        shutil.copy(os.path.join(SHARELIBDATADIR, CONTENTDBASE), p)
                         
 import pygame
 ## set a bigger buffer, seems that on win XP in conjuction with certain hardware
@@ -183,7 +184,7 @@ DEBUG = False
 try:
     #This will setup the dbases and ORMS
     dbm = DbaseMaker(CMD_Options.theme, debug_sql=DEBUG)            
-except (AttributeError, sqlae.SQLAlchemyError, utils.MyError), info:
+except (AttributeError, sqla.exceptions.SQLAlchemyError, utils.MyError), info:
     CPmodule_logger.exception("Failed to start the DBase, %s" % info)
     raise utils.MyError, info
 

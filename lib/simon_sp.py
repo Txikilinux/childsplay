@@ -195,6 +195,8 @@ class Activity:
         """Mandatory method."""
         self.snd_butts = []
         backdir = os.path.join(self.my_datadir,'backgrounds', self.lang)
+        if not os.path.exists(backdir):
+            backdir = os.path.join(self.my_datadir,'backgrounds', 'en')
         yellow_sound = utils.load_sound(os.path.join(self.my_datadir,'1.ogg'))
         red_sound = utils.load_sound(os.path.join(self.my_datadir,'2.ogg'))
         blue_sound = utils.load_sound(os.path.join(self.my_datadir,'3.ogg'))
@@ -235,15 +237,18 @@ class Activity:
         #self.green_but.set_use_current_background(True)
         self.snd_butts.append(self.green_but)
 
-        img = utils.load_image(os.path.join(self.my_datadir,self.lang,'start.png')) 
+        langdatadir = os.path.join(self.my_datadir,self.lang)
+        if not os.path.exists(langdatadir):
+            langdatadir = os.path.join(self.my_datadir, 'en')
+        img = utils.load_image(os.path.join(langdatadir,'start.png'))
         self.start_but = CenterButton(img, (232, 148+self.yTop))
         self.start_but.connect_callback(self._cbf_start_button, MOUSEBUTTONDOWN)
         
-        img = utils.load_image(os.path.join(self.my_datadir,self.lang,'simon.png')) 
+        img = utils.load_image(os.path.join(langdatadir,'simon.png'))
         self.simon_but = CenterButton(img, (232, 148+self.yTop))
-        img = utils.load_image(os.path.join(self.my_datadir,self.lang,'good.png')) 
+        img = utils.load_image(os.path.join(langdatadir,'good.png'))
         self.good_but = CenterButton(img, (232, 148+self.yTop))
-        img = utils.load_image(os.path.join(self.my_datadir,self.lang,'wrong.png')) 
+        img = utils.load_image(os.path.join(langdatadir,'wrong.png'))
         self.wrong_but = CenterButton(img, (232, 148+self.yTop))      
         # lookup hash for the sounds dbase field, see generate_sequence for the
         # number of sounds in each level

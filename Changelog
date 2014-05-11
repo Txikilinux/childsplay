@@ -1,3 +1,9 @@
+childsplay (2.6.3):
+    * Apply patches from Debian.
+
+childsplay(2.6):
+    * Apply FOSS changes from braintrainerplus.
+
 childsplay(2.5):
     * Total rewrite
 

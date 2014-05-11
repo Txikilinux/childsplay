@@ -123,7 +123,7 @@ def set_locale(lang=None):
         if os.environ.has_key('LANGUAGE'):
             languages += os.environ['LANGUAGE'].split(':')
         module_logger.info("Setting seniorplay locale to '%s' modir: %s" % (lang, LOCALEDIR))
-        lang_trans = gettext.translation('seniorplay', \
+        lang_trans = gettext.translation('childsplay', \
             localedir=LOCALEDIR, \
             languages=languages)
         __builtin__.__dict__['_'] = lang_trans.ugettext

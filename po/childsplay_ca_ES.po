@@ -26,6 +26,10 @@ msgid ""
 "\n"
 "Touch the 'Play' button to continue the game."
 msgstr ""
+"\n"
+"\n"
+"Prem el botó 'Play' per a continuar el joc."
+
 
 #: ../SPHelpText.py:71
 msgid ""
@@ -33,6 +37,9 @@ msgid ""
 "\n"
 "Touch the changed picture."
 msgstr ""
+"\n"
+"\n"
+"Toca la imatge modificada."
 
 #: ../lib/packid.py:503
 msgid "(max two per word), you can play the last level which is a maze."
@@ -41,17 +48,15 @@ msgstr ""
 
 #: ../SPMenu.py:344
 msgid "A collection of braintrain games for seniors."
-msgstr ""
+msgstr "Una col·lecció de jocs d'entrenament mental per a majors."
 
 #: ../lib/memory_sp.py:216
-#, fuzzy
 msgid "Accuracy is more important than speed."
-msgstr "La correcció és més important que la velocitat"
+msgstr "La correcció és més important que la velocitat."
 
 #: ../SPMainCore.py:473
-#, fuzzy
 msgid "Activity :"
-msgstr "Activitat : %s"
+msgstr "Activitat :"
 
 #: ../SPMainCore.py:585
 #, python-format
@@ -59,19 +64,20 @@ msgid "Activity : %s"
 msgstr "Activitat : %s"
 
 #: ../lib/dltr.py:377
-#, fuzzy
 msgid "Activity:"
-msgstr "Activitat : %s"
+msgstr "Activitat:"
 
 #: ../lib/fourrow.py:131
 msgid "All pills, both red and yellow, stack on each other."
-msgstr ""
+msgstr "Totes les pindoles, vermelles i grogues, s'apilen unes sobre les altres"
 
 #: ../SPMenu.py:345
 msgid ""
 "All the games have there own help page, just start a game and hit the stars "
 "on top of the screen to select another difficulty."
 msgstr ""
+"Tots els jocs tenen la seua pàgina d'ajuda, inicia el joc i pica als estels "
+"a la part superior de la pantalla per seleccionar un altra dificultat."
 
 #: ../SPHelpText.py:142
 msgid "Alphabet"
@@ -79,75 +85,88 @@ msgstr "Alfabet "
 
 #: ../lib/fallingletters.py:207
 msgid "Alphabet/Keyboardtraining"
-msgstr "Alfabet/ Entrenament al teclat"
+msgstr "Alfabet/Entrenament al teclat"
 
 #: ../lib/spinbottle.py:119 ../lib/synonyms.py:117
 msgid "Already found:"
-msgstr ""
+msgstr "Ja trobat:"
 
 #: ../SPMainCore.py:272
 msgid "An error occurred and BraintrainerPlus was restarted"
-msgstr ""
+msgstr "Ha ocorregut un error i BraintrainerPlus fou reiniciat"
 
 #: ../lib/quiz_math.py:106
 msgid "Answer the math questions."
-msgstr ""
+msgstr "Contesta les qüestions de matemàtiques."
 
 #: ../lib/quiz_general.py:159 ../lib/quiz_history.py:251
 #: ../lib/quiz_melody.py:111 ../lib/quiz_picture.py:103 ../lib/quiz.py:143
 #: ../lib/quiz_royal.py:117 ../lib/quiz_sayings.py:105 ../lib/quiz_text.py:112
 msgid "Answer the quiz questions."
-msgstr ""
+msgstr "Contesta les qüestions de la prova"
 
 #: ../SPMainCore.py:866
 msgid ""
 "Are sure you want to quit the dailytraining ? All the results will be lost."
 msgstr ""
+"Està segur de que vol surtir de l'entrenament diari? Tots els resultats es "
+"perderan."
 
 #: ../lib/puzzle.py:247
 msgid "At the bottom you'll see a image of the complete puzzle."
-msgstr ""
+msgstr "A la part inferior voreu una imatge del trencaclosques complet"
 
 #: ../lib/quiz.py:145
 msgid "At the top of the screen, you will see a general knowledge question."
 msgstr ""
+"A la part superior de la pantalla voreu una qüestió de coneiximents generals."
 
 #: ../lib/quiz_royal.py:119
 msgid ""
 "At the top of the screen, you will see a question about a member of Royalty"
 msgstr ""
+"A la part superior de la pantalla voreu una qüestió sobre un membre de la "
+"reaialesa"
 
 #: ../lib/quiz_picture.py:105
 msgid "At the top of the screen, you will see a question about a picture."
 msgstr ""
+"A la part superior de la pantalla voreu una qüestió sobre una pintura."
 
 #: ../lib/quiz_general.py:161
 msgid ""
 "At the top of the screen, you will see a question about general knowledge."
 msgstr ""
+"A la part superior de la pantalla voreu una qüestió sobre coneiximents generals."
 
 #: ../lib/quiz_math.py:108
 msgid "At the top of the screen, you will see a question about math problem."
 msgstr ""
+"A la part superior de la pantalla voreu una qüestió sobre un problema "
+"matemàtic."
 
 #: ../lib/quiz_sayings.py:107
 msgid "At the top of the screen, you will see a question about sayings."
-msgstr ""
+msgstr "A la part superior de la pantalla voreu una qüestió sobre dites."
 
 #: ../lib/quiz_melody.py:113
 msgid ""
 "At the top of the screen, you will see a question about the song playing."
 msgstr ""
+"A la part superior de la pantalla voreu una qüestió sobre la cançó "
+"que està sonant."
 
 #: ../lib/quiz_history.py:253
 msgid ""
 "At the top of the screen, you will see a question from general knowledge "
 "question from the selected period."
 msgstr ""
+"A la part superior de la pantalla voreu una qüestió de coneiximents "
+"generals del periode sel·leccionat."
 
 #: ../lib/quiz_text.py:114
 msgid "At the top of the screen, you will see a question."
-msgstr ""
+msgstr "A la part superior de la pantalla voreu una qüestió."
 
 #: ../lib/billiard.py:325
 msgid "Balls"
@@ -155,7 +174,7 @@ msgstr "Boles"
 
 #: ../lib/numbers_sp.py:190
 msgid "Begin"
-msgstr ""
+msgstr "Començar"
 
 #: ../lib/quiz_general.py:162 ../lib/quiz_history.py:254
 #: ../lib/quiz_math.py:109 ../lib/quiz_melody.py:114
@@ -165,6 +184,8 @@ msgid ""
 "Below it are a choice of possible answers.\n"
 "Touch the correct answer."
 msgstr ""
+"Sota teniu una selecció de respostes posibles.\n"
+"Toqueu la resposta correcta."
 
 #: ../lib/billiard.py:265
 msgid "Billiard"
@@ -176,24 +197,24 @@ msgstr "Joc de bitllar"
 
 #: ../SPMainCore.py:809
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel·lar"
 
 #: ../SPHelpText.py:121 ../SPHelpText.py:122
 msgid "Change password"
-msgstr ""
+msgstr "Canviar la clau"
 
 #: ../lib/ichanger.py:323 ../lib/numbers_sp.py:194
 msgid "Cheat"
-msgstr ""
+msgstr "Trampes"
 
 #: ../SPMainCore.py:222
-#, fuzzy, python-format
+#, python-format
 msgid "Childsplay_sp - educational activities, using theme:%s"
-msgstr "Childsplay_sp - jocs educatius"
+msgstr "Childsplay_sp - jocs educatius, fent servir el tema:%s"
 
 #: ../SPgdm.py:73
 msgid "Childsplay_sp login"
-msgstr "Usuari  de Childsplay_sp"
+msgstr "Usuari de Childsplay_sp"
 
 #: ../lib/pong.py:425
 msgid "Choose the game to play:"
@@ -209,15 +230,15 @@ msgstr "Clàssic joc de memòria on heu de trobar parelles de sons."
 
 #: ../SPMainCore.py:948
 msgid "Close"
-msgstr ""
+msgstr "Tancar"
 
 #: ../lib/fourrow.py:536
 msgid "Congratulations, try again ?"
-msgstr ""
+msgstr "Felicitats, ¿provem un altra vegada?"
 
 #: ../SPHelpText.py:129
 msgid "Content import"
-msgstr ""
+msgstr "Important contingut"
 
 #: ../lib/electro_sp.py:203 ../lib/fallingletters.py:201
 #: ../lib/soundmemory.py:205
@@ -225,9 +246,8 @@ msgid "Correctness is more important than speed"
 msgstr "La correcció és més important que la velocitat"
 
 #: ../lib/numbers_sp.py:241
-#, fuzzy
 msgid "Correctness is more important than speed."
-msgstr "La correcció és més important que la velocitat"
+msgstr "La correcció és més important que la velocitat."
 
 #: ../SPMainCore.py:1239 ../SPMainCore.py:1412
 #, python-format
@@ -236,19 +256,19 @@ msgstr "Activitat actual: %s"
 
 #: ../SPHelpText.py:119
 msgid "Daily training sequence"
-msgstr ""
+msgstr "Seqüencia d'entrenament diària"
 
 #: ../SPHelpText.py:53
 msgid "Default group 1"
-msgstr ""
+msgstr "Grup per defecte 1"
 
 #: ../SPHelpText.py:54
 msgid "Default group 2"
-msgstr ""
+msgstr "Grup per defecte 2"
 
 #: ../lib/dltr.py:434
 msgid "Details"
-msgstr ""
+msgstr "Detalls"
 
 #: ../SPMainCore.py:808
 msgid "Do you really want to quit ?"
@@ -256,11 +276,11 @@ msgstr "Realment voleu eixir ?"
 
 #: ../lib/electro_sp.py:185
 msgid "Electro_sp"
-msgstr ""
+msgstr "Electro_sp"
 
 #: ../SPMainCore.py:570 ../SPMainCore.py:578
 msgid "Error !"
-msgstr ""
+msgstr "¡Error!"
 
 #: ../SPMainCore.py:577
 #, python-format
@@ -268,6 +288,8 @@ msgid ""
 "Error constructing activity\n"
 "%s"
 msgstr ""
+"Error construïnt l'activitat\n"
+"%s"
 
 #: ../SPMainCore.py:569
 #, python-format
@@ -275,19 +297,20 @@ msgid ""
 "Error importing activity\n"
 "%s"
 msgstr ""
+"Error important l'activitat\n"
+"%s"
 
 #: ../lib/fallingletters.py:185
 msgid "Fallingletters"
-msgstr "Lletres que cauen "
+msgstr "Lletres que cauen"
 
 #: ../lib/packid.py:722
-#, fuzzy
 msgid "Find all the letters in the right order."
-msgstr "Troba totes les lletres en l'ordre correcte. La paraula a trobar és:"
+msgstr "Troba totes les lletres en l'ordre correcte."
 
 #: ../lib/findit_sp.py:212
 msgid "Findit"
-msgstr ""
+msgstr "Troba-ho"
 
 #: ../lib/findsound.py:118
 msgid "Findsound"
@@ -299,7 +322,7 @@ msgstr "Tanc de peixos"
 
 #: ../lib/fourrow.py:119
 msgid "Fourrow"
-msgstr ""
+msgstr "Quatre en ratlla"
 
 #: ../lib/pong.py:400 ../SPHelpText.py:143
 msgid "Fun"
@@ -319,20 +342,20 @@ msgstr "Divertit/Entrenament de ratolí"
 
 #: ../SPHelpText.py:124
 msgid "Gamemanagement"
-msgstr ""
+msgstr "Gestió de jocs"
 
 #: ../SPMainCore.py:1016
-#, fuzzy, python-format
+#, python-format
 msgid "Generated by %s version %s for the %s activity"
 msgstr "Generat per Childsplay_sp versió %s per a l'activitat %s"
 
 #: ../SPHelpText.py:118
 msgid "Groupmanagement"
-msgstr ""
+msgstr "Gestió de grups"
 
 #: ../lib/spinbottle.py:208 ../lib/synonyms.py:154
 msgid "Hit the 'Begin' button to start."
-msgstr ""
+msgstr "Pren el botó 'Begin' per començar."
 
 #: ../SPMainCore.py:653
 msgid "Hit the 'space' key or a mousebutton to skip the countdown"
@@ -341,7 +364,7 @@ msgstr ""
 
 #: ../lib/pong.py:573
 msgid "Hit the Escape key to stop."
-msgstr ""
+msgstr "Premeu la tecla escape per a parar."
 
 #: ../lib/ichanger.py:287
 msgid "Ichanger"
@@ -349,28 +372,29 @@ msgstr ""
 
 #: ../lib/dltr.py:250
 msgid "If you ready to start the next activity, hit the 'start' button."
-msgstr ""
+msgstr "Si esteu preparats per a iniciar la següen activitat doneu-li al "
+"botó 'start'"
 
 #: ../lib/fallingletters.py:195
 msgid ""
 "In the last two levels the uppercase and lowercase are mixed but you don't "
 "have to match the case only the letter"
 msgstr ""
-"Als següents dos nivells les majúscules i les minúscules estan barrejades , "
-"no hi feu cas , sols a les lletres"
+"Als següents dos nivells les majúscules i les minúscules estan barrejades, "
+"no hi feu cas, sols a les lletres"
 
 #: ../lib/pong.py:388
 msgid "In the multiplayer modes, the one who has 11 points wins."
-msgstr "Al mode multijugador , el primer que fa 11 punts guanya."
+msgstr "Al mode multijugador, el primer que fa 11 punts guanya."
 
 #: ../SPMainCore.py:1029 ../SPMainCore.py:1249
 msgid "Information"
-msgstr ""
+msgstr "Informació"
 
 #: ../SPMainCore.py:927
 #, python-format
 msgid "Information about %s"
-msgstr ""
+msgstr "Informació sobre %s"
 
 #: ../SPHelpText.py:58
 msgid ""
@@ -400,34 +424,35 @@ msgstr "Nom d'usuari"
 
 #: ../lib/numbers_sp.py:233
 msgid "Look carefully and try to remember their positions on the screen."
-msgstr ""
+msgstr "Mira amb compte i intenta recordar les posicions en la pantalla"
 
 #: ../lib/puzzle.py:253
 msgid "Look closely at the complete puzzle picture at the bottom."
-msgstr ""
+msgstr "Mira amb atenció la imatge del puzzle complet a la part de baix."
 
 #: ../lib/memory_sp.py:210
 msgid ""
 "Look closely at the pictures, when you have them memorized touch 'START'.\n"
 "The pictures turn over, you must match the pair of cards."
 msgstr ""
+"Mira les imatges amb atenció, quan les tingues memoritzades toca 'START'.\n"
+"Les imatges es donen la volta, tens que emparellar les cartes."
 
 #: ../lib/synonyms.py:116
 msgid "Make a word with the letter: "
-msgstr ""
+msgstr "Fes una paraula amb la lletra: "
 
 #: ../lib/quiz_math.py:122 ../SPHelpText.py:137
 msgid "Math"
 msgstr "Mates"
 
 #: ../lib/quiz_math.py:97
-#, fuzzy
 msgid "Math Quiz"
-msgstr "Mates"
+msgstr "Prova de mates"
 
 #: ../lib/quiz_melody.py:102
 msgid "Melody Quiz"
-msgstr ""
+msgstr "Prova de melodies"
 
 #: ../SPHelpText.py:65
 msgid ""
@@ -437,6 +462,11 @@ msgid ""
 "\n"
 "Touch the 'Start' button to begin the game."
 msgstr ""
+"Memoritza les imatges.\n"
+"\n"
+"Una de les imatges será reemplaçada per una nova imatge.\n"
+"\n"
+"Toca el botó 'Start' per a començar el joc."
 
 #: ../lib/electro_sp.py:209 ../lib/memory_sp.py:198 ../lib/memory_sp.py:222
 #: ../lib/quiz_melody.py:126 ../lib/quiz.py:163 ../lib/quiz_sayings.py:120
@@ -447,7 +477,7 @@ msgstr "Memòria"
 
 #: ../lib/simon_sp.py:177
 msgid "Mind the sound sequence as well as the colors sequence."
-msgstr ""
+msgstr "Fixa't en la seqüencia de sons i colors."
 
 #: ../lib/dltr.py:227 ../lib/findit_sp.py:237 ../lib/findsound.py:139
 #: ../lib/ichanger.py:310 ../lib/numbers_sp.py:247 ../lib/photoalbum.py:200
@@ -464,7 +494,7 @@ msgstr "Entrenament amb el ratolí"
 
 #: ../SPMainCore.py:923 ../SPMainCore.py:930
 msgid "Movie"
-msgstr ""
+msgstr "Perlícula"
 
 #: ../lib/pong.py:387
 msgid "Multi player - Play against another player."
@@ -476,7 +506,7 @@ msgstr "Multijugador contra l'ordinador - Intenta guanyar a la computadora."
 
 #: ../lib/wipe.py:83
 msgid "New"
-msgstr ""
+msgstr "Nou"
 
 #: ../SPMainCore.py:724 ../SPMainCore.py:867 ../SPMainCore.py:870
 msgid "No"
@@ -490,26 +520,29 @@ msgid ""
 "'Album_2' etc\n"
 " Place these directories inside %s"
 msgstr ""
+"No s'ha trobat cap album de fotos!\n"
+"Heu de colocar les fotos dins de directoris anomenats 'Album_1', "
+"'Album_2', etc\n"
+"Coloca aquets directoris dins de %s"
 
 #: ../lib/photoalbum.py:188
 msgid "Number of levels : 1"
-msgstr ""
+msgstr "Número de nivells : 1"
 
 #: ../lib/spinbottle.py:210 ../lib/synonyms.py:156
 msgid "Number of levels : 6"
-msgstr ""
+msgstr "Número de nivells : 6"
 
 #: ../lib/numbers_sp.py:222
-#, fuzzy
 msgid "Numbers_sp"
-msgstr "Memòria de nombres"
+msgstr "Numbers_sp"
 
 #: ../lib/dltr.py:434 ../lib/dltr.py:438 ../SPMainCore.py:570
 #: ../SPMainCore.py:578 ../SPMainCore.py:809 ../SPMainCore.py:814
 #: ../SPMainCore.py:815 ../SPMainCore.py:919 ../SPMainCore.py:1018
 #: ../SPMainCore.py:1029 ../SPMainCore.py:1249
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ../lib/synonyms.py:152
 #, python-format
@@ -517,6 +550,8 @@ msgid ""
 "On the next screen you'll find a keyboard, try to make as much words as "
 "possible that begin with the letter '%s'."
 msgstr ""
+"A la pantalla següent trobareu un teclat, intenta fer tantes paraules com "
+"siga possible que comencen per la lletra '%s'."
 
 #: ../lib/spinbottle.py:206
 #, python-format
@@ -524,20 +559,24 @@ msgid ""
 "On the next screen you'll find a keyboard, try to name as much %s as "
 "possible with the same letter."
 msgstr ""
+"A la pantalla següent trobareu un teclat, intenta anomenar tantes %s com "
+"siga possible amb la mateix lletra."
 
 #: ../lib/simon_sp.py:166
 msgid "On the screen are four blocks of different colours."
-msgstr ""
+msgstr "A la pantalla hi ha quatre blocs de colors diferents."
 
 #: ../lib/findit_sp.py:221
 msgid ""
 "On the screen you will see two almost identical pictures.\n"
 "However, there are differences between the images."
 msgstr ""
+"A la pantalla voreu dos imatges quasi idèntiques.\n"
+"En cualsevol cas, hi diferències entre les imàtges."
 
 #: ../lib/spinbottle.py:207 ../lib/synonyms.py:153
 msgid "Only words from the dictionary are allowed."
-msgstr ""
+msgstr "Només es poden fer servir paraules del diccionari."
 
 #: ../lib/packid.py:491
 msgid "Packid"
@@ -545,39 +584,39 @@ msgstr "Packid"
 
 #: ../lib/photoalbum.py:178
 msgid "Photoalbum"
-msgstr ""
+msgstr "Album de fotos"
 
 #: ../lib/quiz_picture.py:94
 msgid "Picture Quiz"
-msgstr ""
+msgstr "Prova de imatges"
 
 #: ../SPHelpText.py:120
 msgid "Picture import"
-msgstr ""
+msgstr "Importar imatge"
 
 #: ../lib/fourrow.py:538
 msgid "Pity, try again ?"
-msgstr ""
+msgstr "És una pena, intentar-ho un altre cop?"
 
 #: ../lib/puzzle.py:245
 msgid "Place the puzzle piece on the right where you think it belongs..."
-msgstr ""
+msgstr "Col·loca la peça del puzzle de la dreta on penseu que pertany..."
 
 #: ../lib/quiz_history.py:219
 msgid "Please enter your year of birth."
-msgstr ""
+msgstr "Per favor introduixca el seu any de naiximent"
 
 #: ../lib/electro_sp.py:240 ../lib/memory_sp.py:283
 msgid "Please, choose a set of cards."
-msgstr ""
+msgstr "Per favor, trie un conjunt de cartes."
 
 #: ../lib/wipe.py:156
 msgid "Please, choose a set of images."
-msgstr ""
+msgstr "Per favor, trie un conjunt d'imatges."
 
 #: ../lib/puzzle.py:302
 msgid "Please, choose a set of puzzle images."
-msgstr ""
+msgstr "Per favor, trie un conjunt de imatges de puzzle."
 
 #: ../lib/pong.py:373
 msgid "Pong"
@@ -585,7 +624,7 @@ msgstr "Pong"
 
 #: ../lib/simon_sp.py:167
 msgid "Press the Start button with your finger."
-msgstr ""
+msgstr "Premeu el botó Inciar amb el vostre dit."
 
 #: ../lib/fourrow.py:145 ../lib/puzzle.py:236 ../lib/puzzle.py:259
 #: ../SPHelpText.py:138
@@ -594,52 +633,51 @@ msgstr "Trecaclosques"
 
 #: ../SPMainCore.py:724 ../SPMainCore.py:867
 msgid "Question ?"
-msgstr ""
+msgstr "¿Pregunta?"
 
 #: ../SPMainCore.py:809
-#, fuzzy
 msgid "Quit ?"
-msgstr "Eixir"
+msgstr "¿Surtir?"
 
 #: ../lib/quiz.py:134
-#, fuzzy
 msgid "Quiz"
-msgstr "Mates"
+msgstr "Prova"
 
 #: ../lib/quiz_history.py:242
 msgid "Quiz history"
-msgstr ""
+msgstr "Prova d'historia"
 
 #: ../lib/quiz_royal.py:108
 msgid "Quiz royal"
-msgstr ""
+msgstr "Prova reial"
 
 #: ../lib/quiz_math.py:111
 msgid ""
 "Remember, the order of operations is multiplication or division and followed "
 "by addition or subtraction."
 msgstr ""
+"Recorda, el ordre de les operacións és multiplicació o divisió seguit de "
+"suma o resta."
 
 #: ../lib/dltr.py:434 ../SPMainCore.py:1018
 msgid "Results"
-msgstr ""
+msgstr "Resultats"
 
 #: ../SPMainCore.py:1022
 msgid "Save image"
-msgstr ""
+msgstr "Desar imatge"
 
 #: ../lib/quiz_sayings.py:96
 msgid "Sayings Quiz"
-msgstr ""
+msgstr "Prova de dites"
 
 #: ../lib/dltr.py:378
 msgid "Score:"
-msgstr ""
+msgstr "Puntuació:"
 
 #: ../SPHelpText.py:126
-#, fuzzy
 msgid "Select Language"
-msgstr "Llengua"
+msgstr "Sel·leccione llengua"
 
 #: ../SPMenu.py:331
 msgid ""
@@ -648,17 +686,19 @@ msgstr "Seleccioneu una activitat i premeu el botó , la activitat començarà."
 
 #: ../SPMainCore.py:948
 msgid "Set volume level"
-msgstr ""
+msgstr "Ajustar nivell de volum"
 
 #: ../SPHelpText.py:127 ../SPHelpText.py:128
 msgid "Settings"
-msgstr ""
+msgstr "Adjustos"
 
 #: ../lib/ichanger.py:296
 msgid ""
 "Several images from the past will appear on the screen.\n"
 "Look carefully at them and remember what you see."
 msgstr ""
+"Múltiples imatges del pasat apareixeran a la pantalla.\n"
+"Mira-les amb compte i recorda el que veus."
 
 #: ../lib/simon_sp.py:155
 msgid "Simon_sp"
@@ -674,16 +714,15 @@ msgstr "Memòria de sons"
 
 #: ../lib/spinbottle.py:196
 msgid "Spin the bottle"
-msgstr ""
+msgstr "Gira l'ampolla"
 
 #: ../lib/dltr.py:261 ../lib/ichanger.py:321 ../lib/memory_sp.py:430
 msgid "Start"
-msgstr ""
+msgstr "Iniciar"
 
 #: ../lib/spinbottle.py:129 ../lib/synonyms.py:365
-#, fuzzy
 msgid "Starting a new exercise"
-msgstr "Nivell inicial %s"
+msgstr "Iniciant un exercici no"
 
 #: ../SPMainCore.py:645
 #, python-format
@@ -696,20 +735,19 @@ msgstr "Aturant els rellotges, si-us-plau espereu ..."
 
 #: ../lib/spinbottle.py:120 ../lib/synonyms.py:118
 msgid "Suggestions:"
-msgstr ""
+msgstr "Sugerencies:"
 
 #: ../lib/synonyms.py:140
 msgid "Synonyms"
-msgstr ""
+msgstr "Sinònims"
 
 #: ../lib/quiz_text.py:103
-#, fuzzy
 msgid "Text Quiz"
-msgstr "Mates"
+msgstr "Prova de text"
 
 #: ../lib/simon_sp.py:169
 msgid "The  blocks will light up randomly along with sound clues."
-msgstr ""
+msgstr "Els blocs s'il·luminaran aleatòriamente juntament amb pistes sonores."
 
 #: ../lib/packid.py:499
 msgid "The aim of the game:"
@@ -731,7 +769,7 @@ msgstr "L'objectiu de l'activitat :"
 
 #: ../lib/findit_sp.py:225
 msgid "The arrows to the left take you to the previous image."
-msgstr ""
+msgstr "Les fletxes de l'esquerra et porten a l'imatge anterior."
 
 #: ../lib/pong.py:383
 msgid "The classic pong game where you must hit a ball with your bat."
@@ -739,7 +777,7 @@ msgstr "El clàssic joc de Pong on heu de colpejar una bola amb el vostre bat. "
 
 #: ../lib/electro_sp.py:244 ../lib/memory_sp.py:287 ../lib/puzzle.py:306
 msgid "The difficulty of the set increases from left to right."
-msgstr ""
+msgstr "La dificultat del conjunt aumenta d'esquerra a dreta."
 
 #: ../lib/billiard.py:278 ../lib/billiard.py:284
 msgid ""
@@ -749,7 +787,7 @@ msgstr ""
 
 #: ../lib/electro_sp.py:194
 msgid "The game is to match pairs of pictures"
-msgstr ""
+msgstr "El joc és per aparellar imatges."
 
 #: ../lib/packid.py:711
 msgid ""
@@ -765,11 +803,11 @@ msgstr "Quan més temps premeu el botó esquerre més ràpida eixirà la bola."
 
 #: ../lib/packid.py:723
 msgid "The word to find is: "
-msgstr ""
+msgstr "La paraula per a trobar és:"
 
 #: ../lib/numbers_sp.py:234
 msgid "Then push the 'BEGIN' button. The numbers will disappear."
-msgstr ""
+msgstr "Aleshores pulsa el botó 'BEGIN'. Els números desapareixeran."
 
 #: ../lib/packid.py:501
 msgid "There are thee levels with three words each."
@@ -821,6 +859,8 @@ msgid ""
 "This activity is known as the daily training which is a collection of "
 "activities."
 msgstr ""
+"Aquesta activitat es coneguda com el entrenament diari, que és una "
+"col·lecció d'activitats."
 
 #: ../SPMenu.py:330
 msgid "This is the menu used to select an activity."
@@ -828,12 +868,12 @@ msgstr "Aquest és el menú utilitzat per seleccionar una activitat."
 
 #: ../lib/fourrow.py:133
 msgid "Tip: Try creating multiple winning scenario's."
-msgstr ""
+msgstr "Consell: Intenta crear múltiples escenaris de victoria."
 
 #: ../SPMainCore.py:914
-#, fuzzy, python-format
+#, python-format
 msgid "Tip:%s"
-msgstr "Escriviu:"
+msgstr "Consell:"
 
 #: ../lib/quizengine.py:797
 #, python-format
@@ -841,12 +881,16 @@ msgid ""
 "To little questions found in %s for locale '%s', found %s questions should "
 "be at least 10"
 msgstr ""
+"Trobades molt poques questions en %s per al idioma '%s', trobades %s "
+"qüestions deurien de ser al menys 10"
 
 #: ../lib/fourrow.py:132
 msgid ""
 "To win the game you'll need four red pills lined up after each other "
 "horizontally, vertically or diagonal."
 msgstr ""
+"Per a guanyar el joc necesites cuatre pindoles bermelles aliniades "
+"horizontal, vertical o diagonalment."
 
 #: ../lib/ichanger.py:298
 msgid ""
@@ -854,6 +898,9 @@ msgid ""
 "The images will dissappear and when they return, one will have changed.\n"
 "Touch the picture which has changed."
 msgstr ""
+"Toca el botó 'START' de la dreta.\n"
+"Les imatges desapareixeran i quan retornen una haurà canviat.\n"
+"Toca la imatge que ha canviat."
 
 #: ../lib/packid.py:500
 msgid "Try to 'eat' all the letters in the appropriated order."
@@ -864,6 +911,8 @@ msgid ""
 "Try to find the numbers, in the correct order and from low to high, by "
 "touching them on the screen."
 msgstr ""
+"Intenta trobar els números en l'ordre corecte i de menor a major tocant-los "
+"en la pantalla."
 
 #: ../lib/packid.py:504
 msgid "Try to find the way out while eating the fruits for extra points and"
@@ -873,7 +922,7 @@ msgstr ""
 
 #: ../lib/fourrow.py:128
 msgid "Try to get four in a row in any possible direction."
-msgstr ""
+msgstr "Intenta aconseguir cuatre en línea en cualsevol direcció posible."
 
 #: ../lib/fishtank.py:251
 msgid "Try to remove the fish by clicking on them with the mouse."
@@ -881,7 +930,7 @@ msgstr "Intenteu traure el peix prement sobre ell amb el ratolí."
 
 #: ../lib/simon_sp.py:164
 msgid "Try to repeat the sequence of sounds played."
-msgstr ""
+msgstr "Intenta repetir la seqüencia de sons reproduïts."
 
 #: ../lib/fallingletters.py:194
 msgid "Type the falling letters on the keyboard before they hit the ground."
@@ -889,15 +938,17 @@ msgstr "Tecleja les lletres que cauen amb el teclat abans que arriben al sòl."
 
 #: ../SPHelpText.py:123
 msgid "Update BrainTrainerPlus"
-msgstr ""
+msgstr "Actualitzant BrainTrainerPlus"
 
 #: ../SPMenu.py:332
 msgid "Use the 'sub menu' buttons for the different activity menus"
 msgstr ""
+"Fes servir els botons de 'sub menu' per als menus de les diferents "
+"activitats"
 
 #: ../SPMenu.py:346
 msgid "Use the menu below to choose between the different game categories"
-msgstr ""
+msgstr "Fes servir el menu de baix per a triar entre categories de jocs"
 
 #: ../lib/billiard.py:276
 msgid "Use the right mousebutton to aim and the left button to hit the ball."
@@ -915,19 +966,20 @@ msgid "User: %s"
 msgstr "Usuari: %s"
 
 #: ../SPHelpText.py:117
-#, fuzzy
 msgid "Usermanagement"
-msgstr "Nom de l'usuari :"
+msgstr "Gestió d'usuaris"
 
 #: ../SPgdm.py:104
 msgid "Username:"
-msgstr "Nom de l'usuari :"
+msgstr "Nom de l'usuari:"
 
 #: ../lib/simon_sp.py:170
 msgid ""
 "When the flashing stops you will be prompted to repeat the sequence by "
 "touching the coloured blocks."
 msgstr ""
+"Quan el parpelleig s'ature se vos demanarà la repetició de la seqüencia "
+"tocant els blocs de colors."
 
 #: ../lib/packid.py:502
 msgid "When you have finished all the levels, without making to much mistakes"
@@ -939,20 +991,24 @@ msgid ""
 "You can click the question mark in the middle of the screen if you need a "
 "hint."
 msgstr ""
+"Quan trobeu una diferència, toqueu-la amb el dit.\n"
+"Podeu picar a l'interrogant del mig de la pantalla si necesiteu una pista."
 
 #: ../lib/soundmemory.py:199
 msgid ""
 "When you touch the picture you will hear a sound.\n"
 "Match the image with others that make the same sound,to get points."
 msgstr ""
+"Quan toqueu la imatge sentireu un só.\n"
+"Emparella la imatge amb altres que fan el mateix só per obtindre punts."
 
 #: ../lib/wipe.py:102
 msgid "Wipe"
-msgstr ""
+msgstr "Neteja"
 
 #: ../lib/wipe.py:112
 msgid "Wipe with your finger on the screen to uncover the picture."
-msgstr ""
+msgstr "Neteja amb el dit en la pantalla per a mostrar la imatge."
 
 #: ../SPMainCore.py:724 ../SPMainCore.py:728 ../SPMainCore.py:729
 #: ../SPMainCore.py:867
@@ -964,10 +1020,12 @@ msgid ""
 "You can vertically drop a red pill in a desired column by pressing that "
 "exact column."
 msgstr ""
+"Pots deixar caure una pindola bermella en una columna pulsant a eixa mateixa "
+"columna."
 
 #: ../lib/dltr.py:374
 msgid "You have finished the daily training module."
-msgstr ""
+msgstr "Heu acabat el módul d'entrenament diari."
 
 #: ../lib/billiard.py:274
 msgid "You have to make the blue ball enter the hole (in level 1)"
@@ -975,25 +1033,27 @@ msgstr "Heu de posar la bola blava al forat ( al nivell 1)"
 
 #: ../SPMainCore.py:723
 msgid "You play very good, do you want to try the next level ?"
-msgstr ""
+msgstr "Jugues molt bé, ¿vols provar el següent nivell?"
 
 #: ../lib/electro_sp.py:196
 msgid ""
 "You select the pictures by touching them.\n"
 "As you progress through the star levels more pairs appear to match."
 msgstr ""
+"Sel·lecciona les imatges tocant-les.\n"
+"Mentre progresses als nivells d'estels mes parelles semblen coincidir."
 
 #: ../lib/numbers_sp.py:231
 msgid "You will see various numbers scattered around the screen."
-msgstr ""
+msgstr "Veurás varios números repartitis per la pantalla."
 
 #: ../lib/billiard.py:584
 msgid "You won!!"
-msgstr "Heu guanyat !!"
+msgstr "¡¡Heu guanyat!!"
 
 #: ../lib/dltr.py:376
 msgid "Your average results per group are:"
-msgstr ""
+msgstr "La teua mitjana de resultats per grups és:"
 
 #: ../SPMainCore.py:1028
 #, python-format
@@ -1001,12 +1061,12 @@ msgid ""
 "Your image is saved at:\n"
 "%s"
 msgstr ""
-"La vostra imatge ha estat desada a :\n"
+"La vostra imatge ha estat desada a:\n"
 "%s"
 
 #: ../lib/dltr.py:375
 msgid "Your results are:"
-msgstr ""
+msgstr "Els vostres resultats són:"
 
 #: ../lib/billiard.py:275
 msgid "and the red ones in levels 2 and 3."
@@ -1014,7 +1074,7 @@ msgstr "i la vermella al nivells 2 i 3"
 
 #: ../lib/spinbottle.py:118
 msgid "beginning with the letter: "
-msgstr ""
+msgstr "començant per la lletra: "
 
 #: ../lib/packid.py:505
 msgid "funny sounds :-)"
@@ -1027,13 +1087,15 @@ msgstr "punts"
 #: ../lib/quiz.py:157
 #, python-format
 msgid "question id: %s"
-msgstr ""
+msgstr "identifcador de qüestió: %s"
 
 #: ../lib/quiz_general.py:134
 #, python-format
 msgid ""
 "xml file %s is missing, this shouldn't happen, contact the %s developers"
 msgstr ""
+"el fitxer xml %s està desaparegut, no hauria de pasar, contacteu als "
+"desenvolupadors de %s"
 
 #~ msgid "All the data was stored succesfully."
 #~ msgstr "Totes les dades han estat emmagatzemades amb exit."
