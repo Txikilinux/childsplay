@@ -1,4 +1,4 @@
-Fri Oct 25 12:52:45 2013
+Sun May 11 10:04:15 2014
 ============================ uk =================================
 Result of compiling childsplay.po uk into childsplay.mo:
 output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.
@@ -34,7 +34,7 @@ Result of compiling childsplay.po pt into childsplay.mo:
 output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.
 ============================ ca =================================
 Result of compiling childsplay.po ca into childsplay.mo:
-output: 72 translated messages, 16 fuzzy translations, 122 untranslated messages.
+output: 208 translated messages, 2 untranslated messages.
 ============================ nl =================================
 Result of compiling childsplay.po nl into childsplay.mo:
 output: 161 translated messages, 20 fuzzy translations, 29 untranslated messages.
@@ -52,7 +52,7 @@ Result of compiling childsplay.po eo into childsplay.mo:
 output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.
 ============================ es =================================
 Result of compiling childsplay.po es into childsplay.mo:
-output: 74 translated messages, 15 fuzzy translations, 121 untranslated messages.
+output: 206 translated messages, 4 untranslated messages.
 ============================ sv =================================
 Result of compiling childsplay.po sv into childsplay.mo:
 output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.

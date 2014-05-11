@@ -96,6 +96,8 @@ except Exception,info:
 else:
     print "Done.\n"
 
+os.system("gpg -b --use-agent %s.tgz" % distdir)
+
 #print "Create a Windows compatible zipfile..."
 #try:
 #    execString = 'zip -rq %s.zip ./%s' % (distdir, distdir)
