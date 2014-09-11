@@ -331,13 +331,14 @@ class Activity:
         _("Select an activity and click on the button, the activity will be started."),
         _("Use the 'sub menu' buttons for the different activity menus"),
         " ",
-        "Developers: Stas Zytkiewicz, Rene Dohmen, Chris van Bael",
-        "Artwork and support: Formatics.nl, Qiosq.com, Wysiwich.be",
-        "Beta testers: Wladek & Marek",
-        "Feedback: Yvonne",
+        "Developers: Stas Zytkiewicz, Chris van Bael",
+        "Artwork and support: Formatics.nl, BraintrainerPlus.com, Wysiwich.be",
         " ",
         "This program is free software; you can redistribute it and/or modify it under the terms of version 3 of the GNU General Public License as published by the Free Software Foundation.",
-        "A copy of this license should be included in the file GPL-3.", 
+        "A copy of this license should be included in the file GPL-3.",
+        " ",
+        "We tried to make sure we don't include artwork or sounds that might be copyrighted by someone else but if you are the copyright holder of something inside Childsplay please let us know at info@childsplay.mobi and we remove it."
+        " ",
         "Version: %s" % Version.version
         ]
         if self.theme_rc['theme'] == 'braintrainer':
