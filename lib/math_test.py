@@ -122,7 +122,10 @@ class Activity:
         """Mandatory method."""
         pass
         
-    
+    def stop_game(self):
+        """Example on how to stop a activity"""
+        self.SPG.tellcore_level_end(level=self.level)
+
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
@@ -145,7 +148,8 @@ class Activity:
             y = 10
         else:
             y = 110
-
+        self.level = level
+        self.dbmapper = dbmapper
         # Remove these four lines
         text = "Template activity for " + self.get_helptitle()
         surf = utils.char2surf(text,24,RED)
