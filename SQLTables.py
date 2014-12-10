@@ -184,6 +184,7 @@ class SqlTables:
         
         # LEAVE THESE COMMENTS IN HERE, THE CreateTemplate SCRIPT NEEDS THEM.
         # @splitpoint@
+        self.math_test = Table('math_test',metadata)
         self.flashcards = Table('flashcards',metadata)
         self.BlockBreaker = Table('BlockBreaker',metadata)
         self.TicTacToe = Table('TicTacToe',metadata)
@@ -305,7 +306,9 @@ class SqlTables:
                         ,\
                         self.TicTacToe,\
                         self.BlockBreaker,\
-                        self.flashcards]
+                        self.flashcards,\
+                        self.math_test]
+
 
 
 

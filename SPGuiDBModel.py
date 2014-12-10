@@ -59,12 +59,7 @@ DEBUG = False
 import SQLTables
 from SPConstants import DBASEPATH
 import utils
-
-try:
-    import sqlalchemy.exceptions as sqlae
-except ImportError:
-    from sqlalchemy import exc as sqlae
-
+import sqlalchemy.exc as sqlae
 import sqlalchemy.orm as sqlorm
 # get a datamanager
 def get_datamanager():

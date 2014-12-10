@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Copyright (c) 2008-2013 Stas Zykiewicz <stas.zytkiewicz@gmail.com>
+# Copyright (c) 2008 Stas Zykiewicz <stas.zytkiewicz@gmail.com>
 #
 #           CreateTemplate.py
 # This program is free software; you can redistribute it and/or

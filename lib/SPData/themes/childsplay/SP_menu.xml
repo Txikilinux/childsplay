@@ -77,24 +77,15 @@
     <menuitem enable="True" file="fishtank.icon.png" hoverfile="fishtank_ro.icon.png">
       <activity>fishtank</activity>
     </menuitem>
-    <menuitem enable="False" file="photoalbum.icon.png" hoverfile="photoalbum_ro.icon.png">
-      <activity>photoalbum</activity>
-    </menuitem>
-    <menuitem enable="False" file="dltr.icon.png" hoverfile="dltr_ro.icon.png">
-      <activity>dltr</activity>
-    </menuitem>
-    <menuitem enable="False" file="wipe.icon.png" hoverfile="wipe_ro.icon.png">
-      <activity>wipe</activity>
-    </menuitem>
     <menuitem enable="True" file="TicTacToe.icon.png" hoverfile="TicTacToe_ro.icon.png">
       <activity>TicTacToe</activity>
     </menuitem>
     <menuitem enable="True" file="BlockBreaker.icon.png" hoverfile="BlockBreaker_ro.icon.png">
       <activity>BlockBreaker</activity>
     </menuitem>
-    <menuitem enable="True" file="flashcards.icon.png" hoverfile="flashcards_ro.icon.png">
-        <activity>flashcards</activity>
-    </menuitem>
+    <menuitem enable="True" file="math_test.icon.png" hoverfile="math_test.icon.png" >
+    <activity>math_test</activity>
+  </menuitem>
   </submenu>
-  
+
 </rootmenu>
