@@ -158,16 +158,12 @@ pygame.init()
 LANG = utils.set_locale(lang=CMD_Options.lang)
 
 # display a splash for 3 seconds
-text0 = _('Childsplay is sponsored by www.BraintrainerPlus.com')
-text1 = _('Childsplay is Loading...')
 start_splash = time.time()
 screen = pygame.display.set_mode((700, 200), pygame.NOFRAME)
 background = pygame.Surface(screen.get_size())
-backgroundimage = utils.load_image('lib/SPData/themes/childsplay/splash_background.png')
+backgroundimage = utils.load_image('lib/SPData/themes/childsplay/cp-btp-splash.png')
 background.blit(backgroundimage, (0, 0))
 screen.blit(background, (0, 0))
-screen.blit(pygame.font.Font(None, 32).render(text0, 1, (20, 20, 20)), (10, 10))
-screen.blit(pygame.font.Font(None, 32).render(text1, 1, (30, 30, 30)), (10, 100))
 pygame.display.update()
 
 
