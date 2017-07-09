@@ -1157,6 +1157,6 @@ class OrderedDict(dict, MutableMapping):
 #    WEAREPRODUCTION = int(rc_hash['default']['production'])
 #except KeyError:
 #    WEAREPRODUCTION = '0'
-WEAREPRODUCTION = '0'
+WEAREPRODUCTION = '1'
 
     

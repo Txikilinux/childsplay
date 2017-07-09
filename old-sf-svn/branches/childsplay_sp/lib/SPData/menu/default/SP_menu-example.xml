@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootmenu file="background.png" ocw="bgstrip.png">
+    <submenu file="memory.icon.png">
+        <position>10,10</position>
+        <menuitem file="memory.icon.png">
+            <activity>memory</activity>
+            <position>10,100</position>
+        </menuitem>
+        <menuitem file="soundmemory.icon.png">
+            <activity>memorynumbers</activity>
+            <position>100,100</position>
+        </menuitem>
+    </submenu>
+    <submenu file="memorylower.icon.png">
+        <position>140,10</position>
+        <menuitem file="memorylower.icon.png">
+            <activity>memorylower</activity>
+            <position>200,100</position>
+        </menuitem>
+        <menuitem file="memoryupper.icon.png">
+            <activity>memoryupper</activity>
+            <position>300,100</position>
+        </menuitem>
+        </submenu>
+</rootmenu>

@@ -1,0 +1,18 @@
+Photo albums must be named like this :
+Album_1
+Album_2
+etc
+
+If you want to add language specific content you should put them
+in albums that are named like this:
+nl_Album_1
+nl_Album_2
+etc.
+
+The lookup is as follows:
+%s_Album_* % language
+Album_*
+*_Album_*
+*Album*
+
+The albums should only contain mages in the  common formats like jpg,png etc

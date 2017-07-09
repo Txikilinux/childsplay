@@ -1,0 +1,391 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-05 08:53+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../SPCoreButtons.py:46 ../gui/SPCommonWidgets.py:52
+msgid "Quit"
+msgstr ""
+
+#: ../SPCoreButtons.py:47
+msgid "Info"
+msgstr ""
+
+#: ../SPCoreButtons.py:48
+msgid "Pause"
+msgstr ""
+
+#: ../gui/SPMainGui.py:69
+msgid "S&et password"
+msgstr ""
+
+#: ../gui/SPMainGui.py:70
+msgid "Set a password for this program"
+msgstr ""
+
+#: ../gui/SPMainGui.py:71
+msgid "&Settings"
+msgstr ""
+
+#: ../gui/SPMainGui.py:75
+msgid "&About"
+msgstr ""
+
+#: ../gui/SPMainGui.py:76
+msgid "Information about schoolsplay"
+msgstr ""
+
+#: ../gui/SPMainGui.py:78
+msgid "&Quick help"
+msgstr ""
+
+#: ../gui/SPMainGui.py:79
+msgid "Short help text"
+msgstr ""
+
+#: ../gui/SPMainGui.py:137
+msgid "Schoolsplay admin"
+msgstr ""
+
+#: ../gui/SPNBP1.py:68
+msgid "Users to include"
+msgstr ""
+
+#: ../gui/SPNBP1.py:71
+msgid ""
+"Please select which user, or all users, you want to include.\n"
+"Select 'ALL' to select all the items."
+msgstr ""
+
+#: ../gui/SPNBP1.py:82
+msgid "Activities to include"
+msgstr ""
+
+#: ../gui/SPNBP1.py:85
+msgid ""
+"Please select which activity, or all activities, you want to include.\n"
+"Select 'ALL' to select all the items."
+msgstr ""
+
+#: ../gui/SPNBP1.py:120
+msgid "Generate report"
+msgstr ""
+
+#: ../gui/SPNBP1.py:143
+msgid "The report was succesfull generated"
+msgstr ""
+
+#: ../gui/SPNBP2.py:67
+msgid "Delete row"
+msgstr ""
+
+#: ../gui/SPNBP2.py:68
+msgid ""
+"Delete all the selected rows\n"
+"Be aware that there is no way to revert your changes."
+msgstr ""
+
+#: ../gui/SPNBP2.py:69
+msgid "Add row"
+msgstr ""
+
+#: ../gui/SPNBP2.py:70
+msgid "Save table"
+msgstr ""
+
+#: ../gui/SPNBP2.py:71
+msgid ""
+"Save the table to the database.\n"
+"Be aware that there is no way to revert your changes."
+msgstr ""
+
+#: ../gui/SPNBP2.py:105
+msgid "Choose a table from the list"
+msgstr ""
+
+#: ../gui/SPNBP2.py:106 ../gui/SPNoteBook.py:52
+msgid "SQL Tables"
+msgstr ""
+
+#: ../gui/SPNBP2.py:110
+msgid "Enter the table name or use the 'browse' button to find a table"
+msgstr ""
+
+#: ../gui/SPNBP2.py:111
+msgid "Table name:"
+msgstr ""
+
+#: ../gui/SPNBP2.py:113
+msgid "Browse"
+msgstr ""
+
+#: ../gui/SPNBP2.py:114
+msgid ""
+"Use this to choose a table.\n"
+"You should use the 'display table' button to actual display the table you've "
+"choosen."
+msgstr ""
+
+#: ../gui/SPNBP2.py:115
+msgid "Display table"
+msgstr ""
+
+#: ../gui/SPNBP2.py:207
+#, python-format
+msgid "The table '%s' doesn't exist in the dbase"
+msgstr ""
+
+#: ../gui/SPNBP2.py:220
+msgid "You don't have a valid table selected"
+msgstr ""
+
+#: ../gui/SPNBP2.py:226
+msgid ""
+"You haven't selected a row.\n"
+"Select a row by clicking on the row labels on the right.\n"
+"Select multiple rows by holding down the 'Ctrl' or the 'Shift' button"
+msgstr ""
+
+#: ../gui/SPNBP2.py:235
+msgid ""
+"You can't add rows to this table.\n"
+"This table is used by the schoolsplay activities and you can only delete "
+"rows."
+msgstr ""
+
+#: ../gui/SPNBP2.py:246
+#, python-format
+msgid ""
+"There was a problem while replacing the rows in the database.\n"
+"The exception was:\n"
+"%s"
+msgstr ""
+
+#: ../gui/SPCommonWidgets.py:25
+msgid "Schoolsplay error"
+msgstr ""
+
+#: ../gui/SPCommonWidgets.py:31 ../gui/SPCommonWidgets.py:37
+#: ../SPocwWidgets.py:195
+msgid "Schoolsplay information"
+msgstr ""
+
+#: ../gui/SPCommonWidgets.py:53
+msgid "This will quit the program"
+msgstr ""
+
+#: ../gui/SPCommonWidgets.py:60
+msgid "Help"
+msgstr ""
+
+#: ../gui/SPCommonWidgets.py:62
+msgid "This will bring up a short help message"
+msgstr ""
+
+#: ../gui/SPNoteBook.py:51
+msgid "Reports"
+msgstr ""
+
+#: ../gui/SPNoteBook.py:53
+msgid "Activities"
+msgstr ""
+
+#: ../gui/SPCheckPass.py:53
+msgid ""
+"Give your schoolsplay administrator username and password.\n"
+"If you haven't set one yet just hit 'Login'"
+msgstr ""
+
+#: ../gui/SPCheckPass.py:57
+msgid "Username:"
+msgstr ""
+
+#: ../gui/SPCheckPass.py:61
+msgid "Password:"
+msgstr ""
+
+#: ../gui/SPCheckPass.py:66 ../SPgdm.py:105
+msgid "Login"
+msgstr ""
+
+#: ../gui/SPCheckPass.py:67
+msgid "Cancel"
+msgstr ""
+
+#: ../gui/SPCheckPass.py:110
+msgid ""
+"There's no username or password set for this application.\n"
+"Please set a password by as soon as the application has started.\n"
+msgstr ""
+
+#: ../gui/SPCheckPass.py:118
+msgid "Username and password don't match"
+msgstr ""
+
+#: ../SPocwWidgets.py:159
+msgid "Yes"
+msgstr ""
+
+#: ../SPocwWidgets.py:163
+msgid "No"
+msgstr ""
+
+#: ../SPocwWidgets.py:169
+msgid "Schoolsplay question"
+msgstr ""
+
+#: ../SPocwWidgets.py:170
+msgid "Do you really want to quit ?"
+msgstr ""
+
+#: ../SPocwWidgets.py:189
+msgid "Ok"
+msgstr ""
+
+#: ../SPMainCore.py:110
+msgid "Schoolsplay - educational activities"
+msgstr ""
+
+#: ../SPMainCore.py:189
+#, python-format
+msgid "Current user: %s"
+msgstr ""
+
+#: ../SPMainCore.py:191 ../SPMainCore.py:244 ../SPMainCore.py:477
+#, python-format
+msgid "Current activity : %s"
+msgstr ""
+
+#: ../SPMainCore.py:274
+#, python-format
+msgid "Starting level %s"
+msgstr ""
+
+#: ../SPHelpText.py:27
+msgid ""
+"If you start the GUI for the first time there's no username and password set "
+"so you should just hit the 'Login' button.\n"
+" You will get a warning message telling you to set as soon as possible a "
+"username and password.\n"
+"You can set a username ans password in the GUI.\n"
+" Go to 'Settings' -> 'Set password'."
+msgstr ""
+
+#: ../SPHelpText.py:34
+msgid ""
+"Failed to get the dbase data, try to run schoolsplay first to setup the dbase"
+msgstr ""
+
+#: ../SPHelpText.py:38
+msgid ""
+"Give your login name in the box and hit the login button. Alternatively you "
+"can just hit the login button and run Schoolsplay in anonymous mode."
+msgstr ""
+
+#: ../SPHelpText.py:44
+msgid ""
+"It seems that we cannot use the sound card right now and because this "
+"activity is all about sound, we just quit. This problem can also be caused "
+"by another application which uses the soundcard right now."
+msgstr ""
+
+#: ../lib/fishtank.py:191
+msgid "Fishtank"
+msgstr ""
+
+#: ../lib/fishtank.py:199 ../lib/memory.py:162 ../lib/memoryupper.py:164
+#: ../lib/memorylower.py:164 ../lib/memorynumbers.py:164
+msgid "The aim of this activity:"
+msgstr ""
+
+#: ../lib/fishtank.py:200
+msgid "Try to remove the fish by clicking on them by the mouse."
+msgstr ""
+
+#: ../lib/fishtank.py:201
+msgid ""
+"In the last level the fish needs to be cliked two times while they trying to "
+"escape."
+msgstr ""
+
+#: ../lib/fishtank.py:203
+msgid "Difficulty : 3-5 years"
+msgstr ""
+
+#: ../lib/memory.py:154
+msgid "Memory"
+msgstr ""
+
+#: ../lib/memory.py:164 ../lib/memoryupper.py:166 ../lib/memorylower.py:166
+#: ../lib/memorynumbers.py:166
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr ""
+
+#: ../lib/memory.py:165 ../lib/memoryupper.py:167 ../lib/memorylower.py:167
+#: ../lib/memorynumbers.py:167
+msgid "You can hit the 'graph' button to see your results per level."
+msgstr ""
+
+#: ../lib/memory.py:167 ../lib/memoryupper.py:169 ../lib/memorylower.py:169
+#: ../lib/memorynumbers.py:169
+msgid "Difficulty : 4-6 years"
+msgstr ""
+
+#: ../lib/CR_math_add1.py:83
+msgid "Math add #1"
+msgstr ""
+
+#: ../lib/CR_math_add1.py:91 ../lib/CP_find_char_sound.py:163
+msgid "The aim of this activity."
+msgstr ""
+
+#: ../lib/CR_math_add1.py:93
+msgid "Difficulty :  years"
+msgstr ""
+
+#: ../lib/memoryupper.py:155
+msgid "UppercaseMemory"
+msgstr ""
+
+#: ../lib/memorylower.py:155
+msgid "LowercaseMemory"
+msgstr ""
+
+#: ../lib/memorynumbers.py:155
+msgid "NumbersMemory"
+msgstr ""
+
+#: ../lib/CP_find_char_sound.py:155
+msgid "Find the characters"
+msgstr ""
+
+#: ../lib/CP_find_char_sound.py:164
+msgid "Listen to the sound and click on the character to which it belongs."
+msgstr ""
+
+#: ../lib/CP_find_char_sound.py:165
+msgid ""
+"When you can't find the correct character after a certain period of time the "
+"characters will change color and a box will be drawn around it."
+msgstr ""
+
+#: ../lib/CP_find_char_sound.py:166
+msgid "The faster you find all the characters the better your score will be."
+msgstr ""
+
+#: ../lib/CP_find_char_sound.py:168
+msgid "Difficulty : 4-7 years"
+msgstr ""

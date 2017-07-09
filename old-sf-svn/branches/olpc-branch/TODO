@@ -1,0 +1,16 @@
+# TODO list
+# pre 0.69 release
+
+    Add support to the GUI to set configuration options for the activities.
+    (no real option, alter options table) --done
+    
+    Make activities except config options.
+    
+    Add support to the GUI for setting password.
+    
+    Add "export dbase data" support to the GUI.
+    
+    Add "norm" line to the graph. (see the mailinglist for more info) --wip
+   
+    Make sure setup.py creates missing directories
+    

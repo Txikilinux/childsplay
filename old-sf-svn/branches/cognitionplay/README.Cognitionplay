@@ -1,0 +1,13 @@
+Cognitionplay is a variation on the standard childsplay_sp
+package.
+It has different images and background and tries to be a bit
+less 'childish' then childsplay_sp.
+It displays less activities in the menu than childsplay and 
+it is intended to be used in a hospital that treats patients
+with mental deceases.
+
+Cognitionplay packs all the activities from childsplay, it only
+had an different menu so if you want to add activities you just
+edit the menu file.
+Contact the mailinglist if you need help to extent the menu.
+

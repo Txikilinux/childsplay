@@ -1,0 +1,36 @@
+The menu layout is controlled by a xml file called SP_menu.xml
+located in the themes directory. 
+eg. /SPData/themes/seniorplay/SP_menu.xml
+Any images except the menuicons must be located in the same directory 
+as the xml file.
+
+The format is as follows:
+The first element is called 'rootmenu'.
+<rootmenu defaultsubmenu="Short-term" file="background.png" 
+            menubarbottom="bottom_menubar.png" menubartop="menu_bar.png">
+
+It has four attributes;
+defaultsubmenu - the submenu element that acts as the default submenu to display
+The name must be the same as the attribute 'name' in the element 'submenu'
+file - filename for the background image.
+menubarbottom - filename for the bottom menubar image
+menubartop - filename for the top menubar image
+
+Each submenu  has a entry:
+Be aware that you don't change the position values unless you know why you 
+want to change them.
+
+ <submenu name="Short-term">
+    <position>10,540</position>
+
+Each activity also has an entry:
+The image for the icon must be placed inside the directory 'menuicons'
+You must make sure the position value is correct.
+    <menuitem file="memory.icon.png">
+      <activity>memory</activity>
+      <position>40,140</position>
+    </menuitem>
+
+
+
+

@@ -1,0 +1,73 @@
+Random notes about the new theme support
+All paths are relative to the SVN tree
+
+There are three kind of themes; base themes, gui themes and schoolsplay themes.
+Themes are stored in lib/SPData under a theme name.
+eg lib/SPData/base/themes/default.rc # default base theme
+eg lib/SPData/themes/seniorplay # schoolsplay theme
+eg lib/SPData/gui/themes/default # gui theme
+
+-------- schoolsplay theme ----------------
+
+Handles the style of anything that's not a SPWidget object
+
+Any new theme must be added to the SUPPORTEDTHEMES constant in SPConstants.py
+
+Themes only have to provide stuff that differ from the standard theme.
+For stuff that's missing the default stuff is used.  
+
+Themes are used as commandline options.
+eg seniorplay.py will be a simple starter script with one line.
+'python <path to cp>/childsplay.py --theme seniorplay'
+
+Themes are stored in lib/SPData/themes/ under a theme name.
+eg lib/SPData/themes/seniorplay
+
+Themes should control as much as possible when it comes to the 
+layout and appearance of the app.
+eg seniorplay will have the control menu bar at the top of the screen and
+uses a login screen with names buttons iso icon buttons.
+
+The menu is not controlled by themes but will be controlled by a dbase table.
+(See file: Notes.menu TODO: make this file)
+
+Themes might include a file called 'theme.rc' which holds various configuration
+options for the theme.
+The file must use the format understood by the Python ConfigParser.
+TODO: add section stuff
+TODO: update this section when theme is implemented
+exclude - a comma separated list with activities to exclude from the menu.
+exclude_buttons - a comma separated list with buttons to exclude.
+(Perhaps more in the future) 
+Themes might also provide replacement images for the default ones.
+These images must be named the same as the default images. 
+
+
+(obsolete ?)
+Theme stuff should be added to CP core modules by checking the commandline
+option 'theme'.
+eg (taken from SPCoreButtons)
+if theme == 'mpt':
+    self.logger.debug("mpt theme doesn't use dice")
+    return 
+Or by checking the commandline options object 'theme_rc' which is added by the
+SPOptionParser after parsing the (optional) file theme.rc.
+When there's no such file or the parsing fails it would be set to None.
+
+---------------- Gui theme ------------------------
+
+Handles the style of anything that's a SPWidget object
+
+Themes are stored in lib/SPData/gui/themes/ under a theme name.
+eg lib/SPData/gui/themes/seniorplay
+
+Themes must include a file called 'theme.rc' which holds various configuration
+options for the widgets colors.
+
+The file must use the format understood by the Python ConfigParser.
+It must provide one section called 'default'.
+
+
+
+
+

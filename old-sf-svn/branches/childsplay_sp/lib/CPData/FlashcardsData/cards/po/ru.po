@@ -1,0 +1,230 @@
+﻿
+# This is a 'po' file to be used by pyassetml-creator.
+# I've added the po header from pygettext.
+# Please also fill in the fields in the header if you do any
+# translation work.
+
+# After translating save/rename this file as
+# (for example) 'nl.po' or 'de.po' only do 'pt_BR.po' instead of
+# 'pt.po' if it REALLY nessecary for the translation.
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2003 StasZ
+# FIRST AUTHOR <assetml@linux.isbeter.nl>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Eugene Burmistrow <burmistrow@gmail.com>\n"
+"Language-Team: <assetml@linux.isbeter.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pyassetmlcreator.py from ../../Projects/childsplay-dev/lib/objectslib/names/en/ \n"
+
+msgid "nandou"
+msgstr "страус нанду"
+
+msgid "beaver"
+msgstr "бобер"
+
+msgid "dromedary"
+msgstr "дромедар"
+
+msgid "giraffe"
+msgstr "жираф"
+
+msgid "grasshopper"
+msgstr "сверчок"
+
+msgid "ram"
+msgstr "баран"
+
+msgid "rat"
+msgstr "крыса"
+
+msgid "cow"
+msgstr "корова"
+
+msgid "pigeon"
+msgstr "голубь"
+
+msgid "mouse"
+msgstr "мышь"
+
+msgid "gander"
+msgstr "гусь"
+
+msgid "quetzal"
+msgstr "лирохвост"
+
+msgid "cuckoo"
+msgstr "кукушка"
+
+msgid "doe"
+msgstr "косуля"
+
+msgid "dog"
+msgstr "собака"
+
+msgid "dolphin"
+msgstr "дельфин"
+
+msgid "wombat"
+msgstr "вомбат"
+
+msgid "kangaroo"
+msgstr "кенгуру"
+
+msgid "peacock"
+msgstr "павлин"
+
+msgid "gorilla"
+msgstr "горила"
+
+msgid "bear"
+msgstr "медведь"
+
+msgid "hornet"
+msgstr "оса"
+
+msgid "mountain_goat"
+msgstr "горный козел"
+
+msgid "vulture"
+msgstr "гриф"
+
+msgid "elephant"
+msgstr "слон"
+
+msgid "badger"
+msgstr "барсук"
+
+msgid "donkey"
+msgstr "осел"
+
+msgid "tiger"
+msgstr "тигр"
+
+msgid "wapiti"
+msgstr "олень"
+
+msgid "chimp"
+msgstr "шимпанзе"
+
+msgid "turkey"
+msgstr "индюк"
+
+msgid "fly"
+msgstr "муха
+
+msgid "fox"
+msgstr "лиса"
+
+msgid "hippopotamus"
+msgstr "гиппопотам"
+
+msgid "deer"
+msgstr "олень"
+
+msgid "yack"
+msgstr "як"
+
+msgid "rabbit"
+msgstr "кролик"
+
+msgid "marmot"
+msgstr "ондатра"
+
+msgid "rooster"
+msgstr "петух"
+
+msgid "hen"
+msgstr "курица"
+
+msgid "whale"
+msgstr "кит"
+
+msgid "wildboar"
+msgstr "дикий кабан"
+
+msgid "ferret"
+msgstr "соболь"
+
+msgid "camel"
+msgstr "верблюд"
+
+msgid "goat"
+msgstr "козел"
+
+msgid "zebu"
+msgstr "зебу"
+
+msgid "frog"
+msgstr "лягушка"
+
+msgid "bull"
+msgstr "бык"
+
+msgid "bee"
+msgstr "пчела"
+
+msgid "duck"
+msgstr "утка"
+
+msgid "horse"
+msgstr "лошадь"
+
+msgid "zebra"
+msgstr "зебра"
+
+msgid "xanthia"
+msgstr "кзантия"
+
+msgid "pig"
+msgstr "свинья"
+
+msgid "seagull"
+msgstr "чайка"
+
+msgid "lark"
+msgstr "соловей"
+
+msgid "owl"
+msgstr "сова"
+
+msgid "bison"
+msgstr "бизон"
+
+msgid "orca"
+msgstr "касатка"
+
+msgid "blackbird"
+msgstr "чернушка"
+
+msgid "koala"
+msgstr "коала"
+
+msgid "crow"
+msgstr "ворона"
+
+msgid "iguana"
+msgstr "игуана
+
+msgid "penguin"
+msgstr "пингвин"
+
+msgid "wallabi"
+msgstr "олень"
+
+msgid "lion"
+msgstr "лев"
+
+msgid "otter"
+msgstr "отер"
+
+msgid "tucan"
+msgstr "тукан"
+

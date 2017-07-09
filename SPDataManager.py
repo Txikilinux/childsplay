@@ -109,15 +109,15 @@ class DataManager:
         self.ContentSession = sqlorm.sessionmaker(bind=self.content_engine)
         # query which language we should use.
         orm, session = self.get_orm('spconf', 'user')
-        row = session.query(orm).filter_by(activity_name = 'language_select')\
-                                    .filter_by(key = 'locale').first()
+        row = session.query(orm).filter_by(activity_name = u'language_select')\
+                                    .filter_by(key = u'locale').first()
         if not row:
             language = self.cmd_options.lang
             if not language:
                 language = self.cmd_options.default_language
-            row = orm(activity_name='language_select', key='locale', value=language, comment='locale used by the core')
+            row = orm(activity_name='language_select', key=u'locale', value=language, comment=u'locale used by the core')
             session.add(row)
-            row = orm(activity_name='language_select', key='lang', value=language[:2], comment='language code used by the core')
+            row = orm(activity_name='language_select', key=u'lang', value=language[:2], comment=u'language code used by the core')
             session.add(row)
             session.commit()
             session.close()
@@ -205,17 +205,17 @@ class DataManager:
         session.close()
         # check for mandatory DT sequences
         orm, session = self.get_orm('dt_sequence', 'user')
-        query = session.query(orm).filter_by(target = 'demo').all()
+        query = session.query(orm).filter_by(target = u'demo').all()
         if len(query) != len(DEMO_DT):
             self.logger.info("demo dt target differs from hardcoded sequence, replacing it")
             session.query(orm).filter(orm.target == 'demo').delete()
             session.commit()
             for row in DEMO_DT:
                 session.add(orm(**row))
-        query = session.query(orm).filter_by(target = 'default').all()
+        query = session.query(orm).filter_by(target = u'default').all()
         if not query:
             self.logger.info("default dt target missing, adding a hardcoded sequence.")
-            session.query(orm).filter(orm.target == 'default').delete()
+            session.query(orm).filter(orm.target == u'default').delete()
             session.commit()
             for row in DEFAULT_DT:
                 session.add(orm(**row))
@@ -225,17 +225,17 @@ class DataManager:
         if not val or val != 'yes':
             # we also set two DT sequences once, user can remove them
             orm, session = self.get_orm('dt_sequence', 'user')
-            query = session.query(orm).filter_by(target = 'Easy').all()
+            query = session.query(orm).filter_by(target = u'Easy').all()
             if not query:
                 self.logger.info("First time Easy dt target missing, adding a hardcoded sequence.")
-                session.query(orm).filter(orm.target == 'Easy').delete()
+                session.query(orm).filter(orm.target == u'Easy').delete()
                 session.commit()
                 for row in EASY_DT:
                     session.add(orm(**row))
-            query = session.query(orm).filter_by(target = 'Hard').all()
+            query = session.query(orm).filter_by(target = u'Hard').all()
             if not query:
                 self.logger.info("First time Hard dt target missing, adding a hardcoded sequence.")
-                session.query(orm).filter(orm.target == 'Hard').delete()
+                session.query(orm).filter(orm.target == u'Hard').delete()
                 session.commit()
                 for row in HARD_DT:
                     session.add(orm(**row))

@@ -111,8 +111,9 @@ class GDMEscapeKeyException(Exception):
     pass
     
 class MainCoreGui:
-    def __init__(self, resolution=(800, 600), dbmaker=None, options=None, \
-                 fullscr=None, mainscr=None, error=False,session_id=None):
+    def __init__(self, resolution=(800, 600), dbmaker=None, options=None,
+                 fullscr=None, mainscr=None, error=False,session_id=None,
+                 start_splash=0):
         """The main SP core.
         The idea is that we have a menubar and a activity area.
         The menu bar is the place for "our" gui widgets.
@@ -199,7 +200,11 @@ class MainCoreGui:
         
         # Thread lock, must be used by activities to be able to block everything.
         self.lock = threading.Lock() 
-        
+
+        while start_splash + 3 > time.time():
+            time.sleep(0.1)
+
+
         # setup main screen
         if self.cmd_options.fullscreen:
             if mainscr:

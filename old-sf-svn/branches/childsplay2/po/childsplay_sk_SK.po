@@ -1,0 +1,1204 @@
+# CHILDSPLAY SLOVAK TRANSLATION.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# René <watag@centrum.sk>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Childsplay 1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-26 10:38+0200\n"
+"PO-Revision-Date: 2010-04-22 14:29+0100\n"
+"Last-Translator: Stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
+"Language-Team: René <watag@centrum.sk>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Slovak\n"
+"X-Poedit-Country: SLOVAKIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../SPHelpText.py:72
+msgid ""
+"\n"
+"\n"
+"Touch the 'Play' button to continue the game."
+msgstr ""
+
+#: ../SPHelpText.py:67
+msgid ""
+"\n"
+"\n"
+"Touch the changed picture."
+msgstr ""
+
+#: ../SPMenu.py:308
+msgid "A collection of braintrain games for seniors."
+msgstr ""
+
+#: ../SPMainCore.py:348
+#, fuzzy
+msgid "Activity :"
+msgstr "Činnosť: %s"
+
+#: ../SPMainCore.py:440
+#, python-format
+msgid "Activity : %s"
+msgstr "Činnosť: %s"
+
+#: ../gui/AdminGui.py:280
+msgid "All the data was stored succesfully."
+msgstr "Všetky dáta boli úspešne uložené"
+
+#: ../SPMenu.py:310
+msgid ""
+"All the games have there own help page, just start a game and hit the stars "
+"on top of the screen to select another difficulty."
+msgstr ""
+
+#: ../SPHelpText.py:120
+msgid "Alphabet"
+msgstr "Písmeno"
+
+#: ../lib/quiz_math.py:103
+msgid "Answer the math questions."
+msgstr ""
+
+#: ../lib/quiz_melody.py:108 ../lib/quiz_text.py:109 ../lib/quiz_royal.py:114
+#: ../lib/quiz_history.py:235 ../lib/quiz_picture.py:100
+msgid "Answer the quiz questions."
+msgstr ""
+
+#: ../SPMainCore.py:676 ../SPMainCore.py:750
+msgid ""
+"Are sure you want to quit the dailytraining ? All the results will be lost."
+msgstr ""
+
+#: ../lib/puzzle.py:226
+msgid "At the bottom you'll see a image of the complete puzzle."
+msgstr ""
+
+#: ../lib/quiz_melody.py:110 ../lib/quiz_text.py:111
+msgid "At the top of the screen, you will see a general knowledge question."
+msgstr ""
+
+#: ../lib/quiz_math.py:105
+msgid "At the top of the screen, you will see a math problem."
+msgstr ""
+
+#: ../lib/quiz_picture.py:102
+msgid ""
+"At the top of the screen, you will see a picture on the screen with a "
+"related question."
+msgstr ""
+
+#: ../lib/quiz_royal.py:116
+msgid ""
+"At the top of the screen, you will see a question about a member of Royalty"
+msgstr ""
+
+#: ../lib/quiz_history.py:237
+msgid ""
+"At the top of the screen, you will see a question from general knowledge "
+"question from the selected period."
+msgstr ""
+
+#: ../lib/quiz_melody.py:111 ../lib/quiz_text.py:112 ../lib/quiz_royal.py:117
+#: ../lib/quiz_history.py:238 ../lib/quiz_math.py:106
+#: ../lib/quiz_picture.py:103
+msgid ""
+"Below it are a choice of possible answers.\n"
+"Touch the correct answer."
+msgstr ""
+
+#: ../SPWidgets.py:826 ../SPWidgets.py:838 ../SPMainCore.py:629
+msgid "Cancel"
+msgstr ""
+
+#: ../lib/ichanger.py:316
+msgid "Cheat"
+msgstr ""
+
+#: ../SPMainCore.py:229
+#, fuzzy, python-format
+msgid "Childsplay_sp - educational activities, using theme:%s"
+msgstr "Childsplay_sp - vzdelávacie aktivity"
+
+#: ../SPgdm.py:73
+msgid "Childsplay_sp login"
+msgstr "Childsplay_sp prihlásenie"
+
+#: ../lib/memory_sp.py:188
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr "Clasické pexeso, kde musíte nájsť dvojice kariet."
+
+#: ../lib/soundmemory.py:190
+msgid "Classic memory game where you have to find pairs of sounds."
+msgstr "Nájdi rovnaké zvuky"
+
+#: ../lib/numbers.py:211
+#, fuzzy
+msgid "Click the buttons in the right order"
+msgstr "Nájdi všetky písmená v správnom poradí."
+
+#: ../lib/soundmemory.py:198 ../lib/memory_sp.py:196 ../lib/electro_sp.py:200
+msgid "Correctness is more important than speed"
+msgstr "Správne riešenie je dôležitejšie ako rýchlosť"
+
+#: ../SPMainCore.py:963 ../SPMainCore.py:1120
+#, python-format
+msgid "Current activity : %s"
+msgstr "Aktuálna činnosť  : %s"
+
+#: ../SPMainCore.py:628
+msgid "Do you really want to quit ?"
+msgstr "Naozaj chceš ukončiť program?"
+
+#: ../lib/electro_sp.py:182
+msgid "Electro_sp"
+msgstr ""
+
+#: ../SPMainCore.py:424 ../SPMainCore.py:432
+msgid "Error !"
+msgstr ""
+
+#: ../SPMainCore.py:431
+#, python-format
+msgid ""
+"Error constructing activity\n"
+"%s"
+msgstr ""
+
+#: ../SPMainCore.py:423
+#, python-format
+msgid ""
+"Error importing activity\n"
+"%s"
+msgstr ""
+
+#: ../SPWidgets.py:1294
+msgid "Exercises"
+msgstr "Cvičenie"
+
+#: ../lib/findit_sp.py:203
+msgid "Findit"
+msgstr ""
+
+#: ../lib/fishtank.py:218
+msgid "Fishtank"
+msgstr "Fishtank"
+
+#: ../SPHelpText.py:121
+msgid "Fun"
+msgstr "Zábava"
+
+#: ../lib/fishtank.py:240
+msgid "Fun/Mousetraining"
+msgstr "Zábava / Trénovanie práce s myšou"
+
+#: ../SPMainCore.py:782
+#, python-format
+msgid "Generated by Childsplay_sp version %s for the %s activity"
+msgstr "Vygenerované programom Childsplay_sp version %s for the %s činnosť"
+
+#: ../SPMainCore.py:495
+msgid "Hit the 'space' key or a mousebutton to skip the countdown"
+msgstr "Stlač 'space' klávesnicu alebo tlačidlom myši preskoč odpočítavanie"
+
+#: ../lib/ichanger.py:280
+msgid "Ichanger"
+msgstr ""
+
+#: ../lib/fishtank.py:228
+msgid ""
+"In the last level the fish needs to be clicked two times while they try to "
+"escape."
+msgstr ""
+"V poslednom leveli ryby musíš na ryby klikol dvakrát, zatiaľ čo oni sa "
+"snažia uniknúť."
+
+#: ../SPMainCore.py:795 ../SPMainCore.py:972
+msgid "Information"
+msgstr "Informácie"
+
+#: ../SPMainCore.py:724
+#, fuzzy, python-format
+msgid "Information about %s"
+msgstr "Informácie"
+
+#: ../SPHelpText.py:54
+msgid ""
+"It seems that we cannot use the sound card right now and because this "
+"activity is all about sound, we just quit. This problem can also be caused "
+"by another application which uses the soundcard right now."
+msgstr ""
+"Zdá sa, že nemôžeme použiť zvukovú kartu. Tento problém môže byť spôsobený "
+"inou aplikáciou ktorá používa zvukovú kartu práve teraz."
+
+#: ../SPHelpText.py:117
+msgid "Keyboardtraining"
+msgstr "Klávesy - tréning"
+
+#: ../SPHelpText.py:119
+msgid "Language"
+msgstr "Jazyk"
+
+#: ../SPgdm.py:122
+msgid "Login"
+msgstr "Prihlásenie"
+
+#: ../lib/puzzle.py:232
+msgid "Look closely at the complete puzzle picture at the bottom."
+msgstr ""
+
+#: ../lib/memory_sp.py:190
+msgid ""
+"Look closely at the pictures when you have them memorized touch 'START'.\n"
+"The pictures turn around, you must match the memorized repeated cards."
+msgstr ""
+
+#: ../SPHelpText.py:115 ../lib/quiz_math.py:119
+msgid "Math"
+msgstr "Matika"
+
+#: ../lib/quiz_math.py:94
+#, fuzzy
+msgid "Math Quiz"
+msgstr "Matika"
+
+#: ../lib/quiz_melody.py:99
+msgid "Melody Quiz"
+msgstr ""
+
+#: ../SPHelpText.py:61
+msgid ""
+"Memorize the pictures.\n"
+"\n"
+"One of these pictures will be replaced by a new picture.\n"
+"\n"
+"Touch the 'Start' button to begin the game."
+msgstr ""
+
+#: ../SPHelpText.py:114 ../lib/quiz_melody.py:125 ../lib/quiz_text.py:124
+#: ../lib/soundmemory.py:204 ../lib/memory_sp.py:179 ../lib/memory_sp.py:202
+#: ../lib/electro_sp.py:206 ../lib/simon_sp.py:150
+msgid "Memory"
+msgstr "Pamäť"
+
+#: ../lib/simon_sp.py:144
+msgid "Mind the sound sequence as well as the colors sequence."
+msgstr ""
+
+#: ../SPHelpText.py:122 ../lib/ichanger.py:303 ../lib/findit_sp.py:228
+#: ../lib/quiz_royal.py:129 ../lib/quiz_history.py:250
+#: ../lib/quiz_picture.py:115 ../lib/numbers.py:223
+msgid "Miscellaneous"
+msgstr "Rôzny"
+
+#: ../SPHelpText.py:118
+msgid "Mousetraining"
+msgstr "Myš - tréning"
+
+#: ../SPMainCore.py:558 ../SPMainCore.py:677 ../SPMainCore.py:680
+#: ../SPMainCore.py:751 ../SPMainCore.py:754
+msgid "No"
+msgstr "NIE"
+
+#: ../SPWidgets.py:1195
+msgid "No data available for this level"
+msgstr "Dáta nedostupné pre tento level"
+
+#: ../lib/quiz_melody.py:113
+msgid "Number of levels : 6"
+msgstr ""
+
+#: ../lib/numbers.py:202
+#, fuzzy
+msgid "Numbers"
+msgstr "Čísla - pamäť"
+
+#: ../SPWidgets.py:826 ../SPMainCore.py:369 ../SPMainCore.py:424
+#: ../SPMainCore.py:432 ../SPMainCore.py:629 ../SPMainCore.py:634
+#: ../SPMainCore.py:635 ../SPMainCore.py:724 ../SPMainCore.py:784
+#: ../SPMainCore.py:795 ../SPMainCore.py:972
+msgid "OK"
+msgstr ""
+
+#: ../lib/simon_sp.py:133
+msgid "On the screen are four blocks of different colours."
+msgstr ""
+
+#: ../lib/findit_sp.py:212
+msgid ""
+"On the screen you will see two almost identical pictures.\n"
+"However, there are differences between the images."
+msgstr ""
+
+#: ../SPWidgets.py:1227
+#, python-format
+msgid "Percentile scores for level %s"
+msgstr ""
+
+#: ../lib/quiz_picture.py:91
+msgid "Picture Quiz"
+msgstr ""
+
+#: ../lib/puzzle.py:224
+msgid "Place the puzzle piece on the right where you think it belongs..."
+msgstr ""
+
+#: ../lib/ichanger.py:314
+msgid "Play"
+msgstr ""
+
+#: ../lib/quiz_history.py:202
+msgid "Please enter your year of birth."
+msgstr ""
+
+#: ../lib/memory_sp.py:258
+msgid "Please, choose a set of cards."
+msgstr ""
+
+#: ../lib/puzzle.py:281
+msgid "Please, choose a set of puzzle images."
+msgstr ""
+
+#: ../lib/simon_sp.py:134
+msgid "Press the Start button with your finger."
+msgstr ""
+
+#: ../SPHelpText.py:116 ../lib/puzzle.py:215 ../lib/puzzle.py:238
+msgid "Puzzle"
+msgstr "Puzzle"
+
+#: ../SPMainCore.py:558 ../SPMainCore.py:677 ../SPMainCore.py:751
+msgid "Question ?"
+msgstr ""
+
+#: ../SPMainCore.py:629
+#, fuzzy
+msgid "Quit ?"
+msgstr "Ukončíť"
+
+#: ../lib/quiz_history.py:226
+msgid "Quiz history"
+msgstr ""
+
+#: ../lib/quiz_royal.py:105
+msgid "Quiz royal"
+msgstr ""
+
+#: ../lib/quiz_math.py:108
+msgid ""
+"Remember, the order of operations is multiplication or division and then "
+"addition or subtraction."
+msgstr ""
+
+#: ../SPMainCore.py:369
+msgid "Request for help"
+msgstr ""
+
+#: ../SPMainCore.py:784
+msgid "Results"
+msgstr ""
+
+#: ../SPMainCore.py:784 ../SPMainCore.py:788
+msgid "Save image"
+msgstr ""
+
+#: ../SPMenu.py:295
+msgid ""
+"Select an activity and click on the button, the activity will be started."
+msgstr "Vyber činnosť, klikni na tlačidlo"
+
+#: ../SPMenu.py:286
+msgid "Seniorplay"
+msgstr ""
+
+#: ../lib/ichanger.py:289
+msgid ""
+"Several images from the past will appear on the screen.\n"
+"Look carefully at them and remember what you see."
+msgstr ""
+
+#: ../lib/simon_sp.py:122
+msgid "Simon_sp"
+msgstr ""
+
+#: ../lib/soundmemory.py:181
+msgid "Soundmemory"
+msgstr "Zapametanie si zvuku"
+
+#: ../lib/memory_sp.py:386
+msgid "Start"
+msgstr ""
+
+#: ../SPMainCore.py:487
+#, python-format
+msgid "Starting level %s"
+msgstr "Predvolená úroveň %s"
+
+#: ../SPMainCore.py:649
+msgid "Stopping timers, please wait..."
+msgstr "Zastavenie časovača, prosím čakajte..."
+
+#: ../lib/quiz_text.py:100
+#, fuzzy
+msgid "Text Quiz"
+msgstr "Matika"
+
+#: ../lib/simon_sp.py:136
+msgid "The  blocks will light up randomly along with sound clues."
+msgstr ""
+
+#: ../lib/quiz_melody.py:107 ../lib/ichanger.py:288 ../lib/quiz_text.py:108
+#: ../lib/findit_sp.py:211 ../lib/fishtank.py:226 ../lib/soundmemory.py:189
+#: ../lib/memory_sp.py:187 ../lib/quiz_royal.py:113 ../lib/quiz_history.py:234
+#: ../lib/electro_sp.py:190 ../lib/quiz_math.py:102 ../lib/quiz_picture.py:99
+#: ../lib/numbers.py:210 ../lib/simon_sp.py:130 ../lib/puzzle.py:223
+msgid "The aim of this activity:"
+msgstr "Cieľom tejto aktivity:"
+
+#: ../lib/findit_sp.py:216
+msgid "The arrows to the left take you to the previous image."
+msgstr ""
+
+#: ../lib/memory_sp.py:262 ../lib/puzzle.py:285
+msgid "The difficulty of the set increases from left to right."
+msgstr ""
+
+#: ../lib/electro_sp.py:191
+msgid "The game is to match pairs of pictures"
+msgstr ""
+
+#: ../gui/AdminGui.py:201
+msgid "The table 'activity_options' doesn't exist in the dbase"
+msgstr "Tabuľka \"voľba činnosti\" nie je vytvorená"
+
+#: ../gui/AdminGui.py:278
+#, python-format
+msgid ""
+"There was a problem while replacing the rows in the database.\n"
+"The exception was:\n"
+"%s"
+msgstr ""
+"Došlo k problému pri nahradení riadkov v databáze. \n"
+"Výnimka: \n"
+"%s"
+
+#: ../SPMainCore.py:1234
+#, python-format
+msgid ""
+"There was an error in %s. Please check the logs and inform the developers"
+msgstr "Vznikla chyba v% s. Skontrolujte prosím Vaše prihlásenie "
+
+#: ../SPHelpText.py:46
+#, python-format
+msgid ""
+"There was an error in the database this can be caused by many things but "
+"most of the time it's caused by the fact that your version of the database "
+"doesn't match the version of the program. I will backup your original "
+"database and then replace it with a new one. The original database is now "
+"called sp.db_back and it's placed in %s"
+msgstr ""
+"Vznikla chyba v databáze, pravdepodobne vaša verzia databázy nezodpovedá "
+"verziu programu. Budem zálohovať vašu pôvodnú databázu a potom ju nahradím. "
+"Pôvodná databáza je teraz nazývaná sp.db_back a je umiestnená v% s"
+
+#: ../lib/ichanger.py:309 ../lib/findit_sp.py:235 ../lib/fishtank.py:247
+#: ../lib/soundmemory.py:210 ../lib/memory_sp.py:209 ../lib/quiz_royal.py:135
+#: ../lib/quiz_history.py:257 ../lib/electro_sp.py:212
+#: ../lib/quiz_picture.py:121 ../lib/numbers.py:230 ../lib/simon_sp.py:156
+#: ../lib/puzzle.py:245
+#, python-format
+msgid "This activity has %s levels"
+msgstr "Táto činnosť má level % s"
+
+#: ../SPMenu.py:294
+msgid "This is the menu used to select an activity."
+msgstr "Ponuka výberu činnosti"
+
+#: ../SPMainCore.py:716
+#, fuzzy, python-format
+msgid "Tip:%s"
+msgstr "Tip:"
+
+#: ../lib/quizengine.py:371
+#, python-format
+msgid ""
+"To little questions found in %s, found %s questions should be at least 10"
+msgstr ""
+
+#: ../lib/ichanger.py:291
+msgid ""
+"Touch the 'START' button on the right.\n"
+"The images will dissappear and when they return, one will have changed.\n"
+"Touch the picture which has changed."
+msgstr ""
+
+#: ../lib/fishtank.py:227
+msgid "Try to remove the fish by clicking on them with the mouse."
+msgstr "Pokúste sa odstrániť ryby kliknutím na ne myšou."
+
+#: ../lib/simon_sp.py:131
+msgid "Try to repeat the sequence of sounds played."
+msgstr ""
+
+#: ../SPMenu.py:296
+msgid "Use the 'sub menu' buttons for the different activity menus"
+msgstr ""
+
+#: ../SPMenu.py:312
+msgid "Use the menu below to choose between the different game categories"
+msgstr ""
+
+#: ../SPMainCore.py:335
+#, python-format
+msgid "User: %s"
+msgstr "Užívateľ: %s"
+
+#: ../SPgdm.py:104
+msgid "Username:"
+msgstr "Meno Používateľa"
+
+#: ../lib/simon_sp.py:137
+msgid ""
+"When the flashing stops you will be prompted to repeat the sequence by "
+"touching the coloured blocks."
+msgstr ""
+
+#: ../lib/findit_sp.py:214
+msgid ""
+"When you spot a difference, touch it with your finger.\n"
+"You can click the question mark in the middle of the screen if you need a "
+"hint."
+msgstr ""
+
+#: ../lib/soundmemory.py:192
+msgid ""
+"When you touch the picture you will hear a sound.\n"
+"Match the image with others that make the same sound,to get points."
+msgstr ""
+
+#: ../virtnumpad.py:235
+msgid "Year of birth"
+msgstr ""
+
+#: ../SPMainCore.py:558 ../SPMainCore.py:561 ../SPMainCore.py:677
+#: ../SPMainCore.py:751
+msgid "Yes"
+msgstr "ÁNO"
+
+#: ../SPMainCore.py:557
+msgid "You play very good, do you want to try the next level ?"
+msgstr ""
+
+#: ../lib/electro_sp.py:193
+msgid ""
+"You select the pictures by touching them.\n"
+"As you progress through the star levels more pairs appear to match."
+msgstr ""
+
+#: ../SPMainCore.py:794
+#, python-format
+msgid ""
+"Your image is saved at:\n"
+"%s"
+msgstr ""
+"Váš obrázok ból uložený v:\n"
+"%s"
+
+#~ msgid "(max two per word), you can play the last level which is a maze."
+#~ msgstr ""
+#~ "(Max dve na každé slovo), potom  môžete hrať poslednú úroveň - bludisko."
+
+#, fuzzy
+#~ msgid "Activity:"
+#~ msgstr "Činnosť: %s"
+
+#~ msgid "Alphabet/Keyboardtraining"
+#~ msgstr "Abeceda / Tréning klávesnice"
+
+#~ msgid "Aquarium mouse training, difficulty: *"
+#~ msgstr "Aquarium mouse training, obtiažnosť: *"
+
+#~ msgid ""
+#~ "At the start of the game, a photograph of an animal is shown, above the "
+#~ "picture the name of the animal is written."
+#~ msgstr "Na začiatku hry je nad fotografiou napísané meno zvieratka."
+
+#~ msgid "Balls"
+#~ msgstr "Loptičky"
+
+#~ msgid "Billiard"
+#~ msgstr "Biliard"
+
+#~ msgid "Billiard Game"
+#~ msgstr "Hra Biliard"
+
+#~ msgid "Billiard, difficulty: **/***"
+#~ msgstr "Billiard, obtiažnosť: **/***"
+
+#~ msgid "Childsplay_sp information"
+#~ msgstr "Childsplay_sp informácia"
+
+#~ msgid "Childsplay_sp question"
+#~ msgstr "Childsplay_sp otázka"
+
+#~ msgid "Childsplay_sp results diagram"
+#~ msgstr "Childsplay_sp diagram výsledkov"
+
+#~ msgid "Choose the game to play:"
+#~ msgstr "Vyber si hru:"
+
+#~ msgid "Click image to enlarge"
+#~ msgstr "Klikni na obrázok pre zvýraznenie."
+
+#~ msgid ""
+#~ "Each part of the screen can also be clicked on to make the animal scream, "
+#~ "his name or initial spoken."
+#~ msgstr "Klikni, aby si počul zvuk."
+
+#~ msgid ""
+#~ "Failed to get the dbase data, try to run childsplay_sp first to setup the "
+#~ "dbase"
+#~ msgstr ""
+#~ "Nepodarilo sa získať dáta dBASE, skúste najprv spustiť childsplay_sp pre "
+#~ "nastavenia dBASE"
+
+#~ msgid "Fallingletters"
+#~ msgstr "Padajúce písmenká"
+
+#~ msgid "Find all the letters in the right order."
+#~ msgstr "Nájdi všetky písmená v správnom poradí."
+
+#~ msgid "Find the characters"
+#~ msgstr "Najdi znaky"
+
+#~ msgid "Findsound"
+#~ msgstr "Nájdi zvuk"
+
+#~ msgid "Flashcards"
+#~ msgstr "Flashcards"
+
+#~ msgid "Flashcards, difficulty: *"
+#~ msgstr "Flashcards, obtiažnosť: *"
+
+#~ msgid "Fun/Alphabet"
+#~ msgstr "Zábava / Abeceda"
+
+#~ msgid "Fun/Miscellaneous"
+#~ msgstr "Zábava / Rôzne"
+
+#~ msgid ""
+#~ "Give your login name in the box and hit the login button. Alternatively "
+#~ "you can just hit the login button and run Childsplay_sp in anonymous mode."
+#~ msgstr ""
+#~ "Napíšte svoje prihlasovacie meno do poľa a kliknite na tlačidlo "
+#~ "prihlásiť. Prípadne môžete stlačit tlačidlo prihlásiť a spustiť "
+#~ "Childsplay_sp v anonymnom režime."
+
+#~ msgid "Goal of the activity"
+#~ msgstr "Výsledok činnosti"
+
+#~ msgid ""
+#~ "If the menu consist of more layers, sub menus, you can always get back to "
+#~ "the main menu by using the 'exit' button."
+#~ msgstr "Vždy môžeš použiť tlačidlo \"exit\"."
+
+#~ msgid ""
+#~ "If you start the GUI for the first time there's no username and password "
+#~ "set so you should just hit the 'Login' button.\n"
+#~ " You will get a warning message telling you to set as soon as possible a "
+#~ "username and password.\n"
+#~ "You can set a username and password in the GUI.\n"
+#~ " Go to 'Settings' -> 'Set password'."
+#~ msgstr ""
+#~ "Ak spustíte GUI prvýkrát neexistuje užívateľské meno a heslo, stlačte "
+#~ "'Prihlásiť' tlačidlo. \n"
+#~ " Dostanete upozornenie na nastavenie užívateľského mena a hesla. \n"
+#~ "Môžete nastaviť užívateľské meno a heslo v GUI. \n"
+#~ " Choď na 'Nastavenia' -> 'Nastaviť heslo'."
+
+#~ msgid ""
+#~ "In the last two levels the uppercase and lowercase are mixed but you "
+#~ "don't have to match the case only the letter"
+#~ msgstr "V posledných dvoch úrovniach veľké a malé sú zmiešané"
+
+#~ msgid "In the multiplayer modes, the one who has 11 points wins."
+#~ msgstr "pri viacerých hráčoch vyhrávaš 11 bodov."
+
+#~ msgid ""
+#~ "In this file you can set a number of options to change the game play."
+#~ msgstr "V tomto súbore si môžete nastaviť rad možností, ako zmeniť hru."
+
+#~ msgid "Info"
+#~ msgstr "Informácie"
+
+#~ msgid "Keyboard training, difficulty: *"
+#~ msgstr "Tréning klávesov, obtiažnosť: *"
+
+#~ msgid "Listen to the sound and click on the character to which it belongs."
+#~ msgstr "Vypočujte si zvuk a kliknite na znak, ku ktorému patrí."
+
+#~ msgid "Listen to the sound and click on the image to which it belongs."
+#~ msgstr "Vypočujte si zvuk a kliknite na obrázok, do ktorému patrí."
+
+#~ msgid "Lower case characters memory, difficulty: */**"
+#~ msgstr "Malé písmené, obtiažnosť: */**"
+
+#~ msgid "LowercaseMemory"
+#~ msgstr "Malé písmené - pamäť"
+
+#~ msgid "Memory, difficulty: */**"
+#~ msgstr "Pamäť, obtiažnosť: */**"
+
+#~ msgid "Memory/Alphabet"
+#~ msgstr "Abeceda - pamäť"
+
+#~ msgid "Menu"
+#~ msgstr "Ponuka"
+
+#~ msgid "Multi player - Play against another player."
+#~ msgstr "Hráč proti druhému hráčovi"
+
+#~ msgid "Multi player against the computer - Try to defeat the computer."
+#~ msgstr "Hráč proti počítaču"
+
+#~ msgid "Numbers memory, difficulty: */**"
+#~ msgstr "Zapamätanie číslic, obtiažnosť: */**"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "On the left the initial of the animal name is shown."
+#~ msgstr "Na ľavej strane pôvodné zvieraťa meno je uvedené."
+
+#~ msgid "Packid"
+#~ msgstr "Packid"
+
+#~ msgid "Packid, difficulty: **/***"
+#~ msgstr "Packid, obtiažnosť: **/***"
+
+#~ msgid "Pause"
+#~ msgstr "Pauza"
+
+#~ msgid "Pong"
+#~ msgstr "Pong"
+
+#~ msgid "Pong classic tennis game, difficulty: *"
+#~ msgstr "Pong classic tennis game,obtiažnosť: *"
+
+#~ msgid "Put all the pieces in the correct order."
+#~ msgstr "Zoraďte všetky kúsky v správnom poradí."
+
+#~ msgid "Puzzle, difficulty: */**"
+#~ msgstr "Puzzle, obtiažnosť: */**"
+
+#~ msgid "Save"
+#~ msgstr "Uložiť"
+
+#~ msgid "Scores reached in level %s"
+#~ msgstr "Scóre dosiahnuté v leveli %s"
+
+#~ msgid "Screenshot\n"
+#~ msgstr "Ukážka \n"
+
+#~ msgid "Short description\n"
+#~ msgstr "Stručný popis \n"
+
+#~ msgid "Single play - Hit the ball against the wall."
+#~ msgstr "Jeden hráč - trafiť loptu proti múru."
+
+#~ msgid "Sound association, difficulty: *"
+#~ msgstr "asociácie zvuku, obtiažnosť: *"
+
+#~ msgid "Sound association, difficulty: */**"
+#~ msgstr "asociácie zvuku, obtiažnosť: */**"
+
+#~ msgid "Sound memory, difficulty: */**"
+#~ msgstr "Zvuková pamäť, obtiažnosť: */**"
+
+#, fuzzy
+#~ msgid "Starting a new exercise"
+#~ msgstr "Predvolená úroveň %s"
+
+#~ msgid "The aim of the game:"
+#~ msgstr "Cieľom hry:"
+
+#~ msgid "The aim of this activity"
+#~ msgstr "Cieľom tejto činnosti"
+
+#~ msgid "The classic pong game where you must hit a ball with your bat."
+#~ msgstr "pong je hra, kde musíte zasiahnuť loptu s pálkou."
+
+#~ msgid ""
+#~ "The faster you find all the characters the better your score will be."
+#~ msgstr "Čím rýchlejšie nájdete všetky znaky, tým lepšie vaše skóre bude."
+
+#~ msgid ""
+#~ "The fewer hits you need to get the ball in the hole, the more points you "
+#~ "get."
+#~ msgstr ""
+#~ "Čím menej zásahov na dopravenie loptičky do otvoru, tým viac bodov "
+#~ "získate."
+
+#~ msgid ""
+#~ "The game has a configuration file called 'pongrc', located in the ."
+#~ "childsplay directory of your homedirectory."
+#~ msgstr ""
+#~ "Hra má konfiguračný súbor s názvom 'pongrc',  nachádza sa v. Childsplay "
+#~ "adresári."
+
+#~ msgid ""
+#~ "The last level is only available when you finish the first three levels "
+#~ "without errors."
+#~ msgstr ""
+#~ "Posledná úroveň je k dispozícii len po ukončení prvých troch úrovní bez "
+#~ "chýb."
+
+#~ msgid "The longer you hold the left button the harder it will hit the ball."
+#~ msgstr ""
+#~ "Čím dlhšie budete držať ľavé tlačidlo, tým ťažšie bude trafiť loptu."
+
+#~ msgid "The word to find is: "
+#~ msgstr "Nájdi slovo:"
+
+#~ msgid ""
+#~ "Then the animal name is spoken ('the dog'), and the animal makes his cry "
+#~ "('woof' 'cui-cui' etc.)."
+#~ msgstr "Vysloví meno zvieratka, zvuk aký vydáva."
+
+#~ msgid "There are thee levels with three words each."
+#~ msgstr "Tri úrovne. V každej tri slová."
+
+#~ msgid "There are three modes to choose from:"
+#~ msgstr "K dispozícii sú tri režimy, z ktorých si môžete vybrať:"
+
+#~ msgid "This activity belongs to the category: %s"
+#~ msgstr "Táto činnosť patrí do kategórie: %s"
+
+#~ msgid ""
+#~ "This database table holds the values used when displaying the results "
+#~ "graph in an activity.\n"
+#~ "The column 'MU-value' holds an integer between 0 and 10 indicating the "
+#~ "average score.(the dark blue line).\n"
+#~ "The column 'SIGMA-value' holds an integer between 0 an 100 indicating the "
+#~ "standard deviation in percentage, probably always 50. (the light blue "
+#~ "box)\n"
+#~ "\n"
+#~ "Click on the row you want to alter and then click on the field you wish "
+#~ "to edit.\n"
+#~ "You cannot edit the 'Activity name' field.\n"
+#~ "Use the 'Save' button to store the changes in the database."
+#~ msgstr ""
+#~ "Táto databázová tabuľka uchová hodnoty zobrazujúce výsledky grafu "
+#~ "činnosti.\n"
+#~ "Kolónka \" MU- hodnota' uchová celok medzi 0 a 10 indikuje priemer "
+#~ "bodovania.( tmavomodrá línia).\n"
+#~ "Kolónka' SIGMA- hodnota' uchová celok medzi 0 100 indikuje smerodajnú "
+#~ "odchýlku v percentuálnom podiele, pravdepodobne vždy 50. ( bledomodrá "
+#~ "oblasť)\n"
+#~ "\n"
+#~ "Klikni na rad, ktorý chcete zmeniť a potom klikni na pole, ktoré si "
+#~ "prajete redigovať.\n"
+#~ "Nemôžete editovať  ' činnosť meno\" pole.\n"
+#~ "Používajte  ' uložiť' tlačidlo pre uchovanie zmien v databáze dát."
+
+#~ msgid "This is a game to teach the alphabet to very little childrens."
+#~ msgstr "Táto hra slúži na učenie abecedy"
+
+#~ msgid "Tips"
+#~ msgstr "Tipy"
+
+#~ msgid "Try to 'eat' all the letters in the appropriated order."
+#~ msgstr "Snažte sa 'jesť' všetky písmená po poradí"
+
+#~ msgid "Try to find the way out while eating the fruits for extra points and"
+#~ msgstr ""
+#~ "Skúste nájsť cestu von, zatiaľ čopre extra body získate za zjedenie "
+#~ "ovocia."
+
+#~ msgid "Type of activity"
+#~ msgstr "Typ aktivity"
+
+#~ msgid "Type the falling letters on the keyboard before they hit the ground."
+#~ msgstr "Stlač správne písmeno na klávesnici skôr ako dopadne."
+
+#~ msgid "Upper case characters memory, difficulty: */**"
+#~ msgstr "Veľké písmená, obtiažnosť: */**"
+
+#~ msgid "UppercaseMemory"
+#~ msgstr "Veľké písmená  - pamäť"
+
+#~ msgid ""
+#~ "Use the right mousebutton to aim and the left button to hit the ball."
+#~ msgstr ""
+#~ "Použitepravé tlačidlo myši na zamierenie a ľavým tlačidlom zasiahnite "
+#~ "loptu."
+
+#~ msgid "Use these keys on your keyboard to control the bat."
+#~ msgstr "Použite tieto tlačidlá na klávesnici pre ovládanie vkladu."
+
+#~ msgid ""
+#~ "When a letter is hit on the keyboard, a corresponding animal is shown."
+#~ msgstr "Stlač písmeno, zodpovedujúce zviera bude zobrazené"
+
+#~ msgid ""
+#~ "When you can't find the correct character after a certain period of time "
+#~ "a box will be drawn around it."
+#~ msgstr ""
+#~ "Keď nemôžete nájsť správny znak po určitej dobe box bude zvýraznený."
+
+#~ msgid ""
+#~ "When you have finished all the levels, without making to much mistakes"
+#~ msgstr "Dokonči všetky úrovne, sprav čo najmenej chýb."
+
+#~ msgid ""
+#~ "You can add your own images by placing them in the following directory: "
+#~ msgstr ""
+#~ "Môžete pridať svoj vlastný obrázok, umistnenín do nasledujúceho adresára:"
+
+#~ msgid "You can hit the 'graph' button to see your results per level."
+#~ msgstr "Môžete stlačíť  'graf' - zobrazíte vaše výsledky v danom levelii."
+
+#~ msgid "You have to make the blue ball enter the hole (in level 1)"
+#~ msgstr "Musíte modré gule dostať do otvoru (level 1)"
+
+#~ msgid "You won!!"
+#~ msgstr "Vyhrávaš !!"
+
+#~ msgid ""
+#~ "Your language, %s, is not supported.\n"
+#~ " I will now switch to English"
+#~ msgstr ""
+#~ "Your language, %s, is not supported.\n"
+#~ " I will now switch to English"
+
+#~ msgid ""
+#~ "Your language, %s, is supported but you must install\n"
+#~ " the 'alphabet_sounds_%s' package.\n"
+#~ " Look for it in your GNU/Linux distro or at www.schoolsplay.org.\n"
+#~ " I will now switch to English"
+#~ msgstr ""
+#~ "Your language, %s, is supported but you must install\n"
+#~ " the 'alphabet_sounds_%s' package.\n"
+#~ " Look for it in your GNU/Linux distro or at www.schoolsplay.org.\n"
+#~ " I will now switch to English"
+
+#~ msgid "and the red ones in levels 2 and 3."
+#~ msgstr ".. a červené v leveli 2 a 3."
+
+#~ msgid "badger"
+#~ msgstr "Jazvec"
+
+#~ msgid "bear"
+#~ msgstr "medveď"
+
+#~ msgid "beaver"
+#~ msgstr "bobor"
+
+#~ msgid "bee"
+#~ msgstr "včela"
+
+#~ msgid "bison"
+#~ msgstr "bizón"
+
+#~ msgid "blackbird"
+#~ msgstr "drozd"
+
+#~ msgid "bull"
+#~ msgstr "býk"
+
+#~ msgid "camel"
+#~ msgstr "ťava"
+
+#~ msgid "chimp"
+#~ msgstr "šimpanz"
+
+#~ msgid "cow"
+#~ msgstr "krava"
+
+#~ msgid "crow"
+#~ msgstr "vrana"
+
+#~ msgid "cuckoo"
+#~ msgstr "kukučka"
+
+#~ msgid "deer"
+#~ msgstr "jeleň"
+
+#~ msgid "doe"
+#~ msgstr "srna"
+
+#~ msgid "dog"
+#~ msgstr "pes"
+
+#~ msgid "dolphin"
+#~ msgstr "Delfín"
+
+#~ msgid "donkey"
+#~ msgstr "somár"
+
+#~ msgid "dromedary"
+#~ msgstr "dromedár"
+
+#~ msgid "duck"
+#~ msgstr "kačica"
+
+#~ msgid "elephant"
+#~ msgstr "slon"
+
+#~ msgid "ferret"
+#~ msgstr "fretka"
+
+#~ msgid "filename: %s"
+#~ msgstr "Meno súboru: %s"
+
+#~ msgid "fly"
+#~ msgstr "mucha"
+
+#~ msgid "fox"
+#~ msgstr "líška"
+
+#~ msgid "frog"
+#~ msgstr "žaba"
+
+#~ msgid "funny sounds :-)"
+#~ msgstr "zábavné zvuky :-)"
+
+#~ msgid "gander"
+#~ msgstr "gunár"
+
+#~ msgid "giraffe"
+#~ msgstr "žirafa"
+
+#~ msgid "goat"
+#~ msgstr "koza"
+
+#~ msgid "gorilla"
+#~ msgstr "gorila"
+
+#~ msgid "grasshopper"
+#~ msgstr "kobylka"
+
+#~ msgid "hen"
+#~ msgstr "sliepka"
+
+#~ msgid "hippopotamus"
+#~ msgstr "hroch"
+
+#~ msgid "hornet"
+#~ msgstr "sršeň"
+
+#~ msgid "horse"
+#~ msgstr "kôň"
+
+#~ msgid "iguana"
+#~ msgstr "iguana"
+
+#~ msgid "kangaroo"
+#~ msgstr "kengura"
+
+#~ msgid "koala"
+#~ msgstr "koala"
+
+#~ msgid "lark"
+#~ msgstr "škovránok"
+
+#~ msgid "lion"
+#~ msgstr "lev"
+
+#~ msgid "marmot"
+#~ msgstr "svišť"
+
+#~ msgid "mountaingoat"
+#~ msgstr "mountaingoat"
+
+#~ msgid "mouse"
+#~ msgstr "myš"
+
+#~ msgid "nandou"
+#~ msgstr "nandou"
+
+#~ msgid "orca"
+#~ msgstr "orca"
+
+#~ msgid "otter"
+#~ msgstr "vydra"
+
+#~ msgid "owl"
+#~ msgstr "sova"
+
+#~ msgid "peacock"
+#~ msgstr "páv"
+
+#~ msgid "penguin"
+#~ msgstr "tučniak"
+
+#~ msgid "pig"
+#~ msgstr "prasa"
+
+#~ msgid "pigeon"
+#~ msgstr "holub"
+
+#~ msgid "points"
+#~ msgstr "body"
+
+#~ msgid "quetzal"
+#~ msgstr "quetzal"
+
+#~ msgid "rabbit"
+#~ msgstr "králik"
+
+#~ msgid "ram"
+#~ msgstr "baran"
+
+#~ msgid "rat"
+#~ msgstr "potkan"
+
+#~ msgid "rooster"
+#~ msgstr "kohút"
+
+#~ msgid "seagull"
+#~ msgstr "čajka"
+
+#~ msgid "tiger"
+#~ msgstr "tiger"
+
+#~ msgid "tucan"
+#~ msgstr "tukan"
+
+#~ msgid "turkey"
+#~ msgstr "moriak"
+
+#~ msgid "vulture"
+#~ msgstr "sup"
+
+#~ msgid "wallaby"
+#~ msgstr "klokan"
+
+#~ msgid "wapiti"
+#~ msgstr "jeleň"
+
+#~ msgid "whale"
+#~ msgstr "veľryba"
+
+#~ msgid "wildboar"
+#~ msgstr "wildboar"
+
+#~ msgid "wombat"
+#~ msgstr "wombaty"
+
+#~ msgid "xanthia"
+#~ msgstr "xanthia"
+
+#~ msgid "yak"
+#~ msgstr "jak"
+
+#~ msgid "zebra"
+#~ msgstr "zebra"
+
+#~ msgid "zebu"
+#~ msgstr "zebu"

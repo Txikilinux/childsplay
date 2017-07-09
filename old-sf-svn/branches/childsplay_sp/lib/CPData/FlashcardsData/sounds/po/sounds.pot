@@ -1,0 +1,215 @@
+
+# This is a 'po' file to be used by pyassetml-creator.
+# I've added the po header from pygettext.
+# Please also fill in the fields in the header if you do any
+# translation work.
+
+# After translating save/rename this file as
+# (for example) 'nl.po' or 'de.po' only do 'pt_BR.po' instead of
+# 'pt.po' if it REALLY nessecary for the translation.
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2003 StasZ
+# FIRST AUTHOR <assetml@linux.isbeter.nl>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: <assetml@linux.isbeter.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pyassetml-creator.py \n"
+
+msgid "donkey"
+msgstr ""
+
+msgid "dolphin"
+msgstr ""
+
+msgid "dog"
+msgstr ""
+
+msgid "crow"
+msgstr ""
+
+msgid "chimp"
+msgstr ""
+
+msgid "bear"
+msgstr ""
+
+msgid "badger"
+msgstr ""
+
+msgid "bison"
+msgstr ""
+
+msgid "bee"
+msgstr ""
+
+msgid "rooster"
+msgstr ""
+
+msgid "lark"
+msgstr ""
+
+msgid "orc"
+msgstr ""
+
+msgid "ram"
+msgstr ""
+
+msgid "whale"
+msgstr ""
+
+msgid "pig"
+msgstr ""
+
+msgid "duck"
+msgstr ""
+
+msgid "caribou"
+msgstr ""
+
+msgid "beaver"
+msgstr ""
+
+msgid "doe"
+msgstr ""
+
+msgid "xanthia"
+msgstr ""
+
+msgid "wombat"
+msgstr ""
+
+msgid "wolf"
+msgstr ""
+
+msgid "vulture"
+msgstr ""
+
+msgid "turkey"
+msgstr ""
+
+msgid "toucan"
+msgstr ""
+
+msgid "tiger"
+msgstr ""
+
+msgid "squirrel"
+msgstr ""
+
+msgid "sheep"
+msgstr ""
+
+msgid "seagull"
+msgstr ""
+
+msgid "rattlesnake"
+msgstr ""
+
+msgid "rabbit"
+msgstr ""
+
+msgid "quetzal"
+msgstr ""
+
+msgid "puppy"
+msgstr ""
+
+msgid "penguin"
+msgstr ""
+
+msgid "owl"
+msgstr ""
+
+msgid "otter"
+msgstr ""
+
+msgid "nandou"
+msgstr ""
+
+msgid "mouse"
+msgstr ""
+
+msgid "lion"
+msgstr ""
+
+msgid "koala"
+msgstr ""
+
+msgid "iguana"
+msgstr ""
+
+msgid "hyena"
+msgstr ""
+
+msgid "horse"
+msgstr ""
+
+msgid "hornet"
+msgstr ""
+
+msgid "hippopotamus"
+msgstr ""
+
+msgid "hen"
+msgstr ""
+
+msgid "grizzly"
+msgstr ""
+
+msgid "grasshopper"
+msgstr ""
+
+msgid "gorilla"
+msgstr ""
+
+msgid "goat"
+msgstr ""
+
+msgid "giraffe"
+msgstr ""
+
+msgid "gander"
+msgstr ""
+
+msgid "frog"
+msgstr ""
+
+msgid "fox"
+msgstr ""
+
+msgid "fly"
+msgstr ""
+
+msgid "ferret"
+msgstr ""
+
+msgid "elephant1"
+msgstr ""
+
+msgid "dromedary"
+msgstr ""
+
+msgid "cow"
+msgstr ""
+
+msgid "chamois"
+msgstr ""
+
+msgid "bull"
+msgstr ""
+
+msgid "cuckoo"
+msgstr ""
+
+msgid "zebra"
+msgstr ""
+

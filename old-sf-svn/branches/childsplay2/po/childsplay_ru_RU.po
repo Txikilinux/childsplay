@@ -1,0 +1,839 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Childsplay 2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-26 10:38+0200\n"
+"PO-Revision-Date: 2010-10-18 11:08+0100\n"
+"Last-Translator: Stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
+"Language-Team: InPrIn TGPU <iai@tspu.edu.ru>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: ../SPHelpText.py:72
+msgid ""
+"\n"
+"\n"
+"Touch the 'Play' button to continue the game."
+msgstr ""
+"\n"
+"\n"
+"Коснитесь кнопки  'Play', чтобы продолжить игру."
+
+#: ../SPHelpText.py:67
+msgid ""
+"\n"
+"\n"
+"Touch the changed picture."
+msgstr ""
+"\n"
+"\n"
+"Коснитесь изменившейся картинки."
+
+#: ../SPMenu.py:308
+msgid "A collection of braintrain games for seniors."
+msgstr "Коллекция игр для тренировки мозга для пожилых."
+
+#: ../SPMainCore.py:348
+msgid "Activity :"
+msgstr "Деятельность :"
+
+#: ../SPMainCore.py:440
+#, python-format
+msgid "Activity : %s"
+msgstr "Деятельность : %s"
+
+#: ../gui/AdminGui.py:280
+msgid "All the data was stored succesfully."
+msgstr ""
+
+#: ../SPMenu.py:310
+msgid ""
+"All the games have there own help page, just start a game and hit the stars "
+"on top of the screen to select another difficulty."
+msgstr ""
+"У всех игр есть своя справочная страница, просто начните игру и кликните на "
+"звездах в верхней части экрана, чтобы выбрать другой уровень сложности."
+
+#: ../SPHelpText.py:120
+msgid "Alphabet"
+msgstr "Алфавит"
+
+#: ../lib/quiz_math.py:103
+#, fuzzy
+msgid "Answer the math questions."
+msgstr "Ответьте на вопросы викторины."
+
+#: ../lib/quiz_melody.py:108 ../lib/quiz_text.py:109 ../lib/quiz_royal.py:114
+#: ../lib/quiz_history.py:235 ../lib/quiz_picture.py:100
+msgid "Answer the quiz questions."
+msgstr "Ответьте на вопросы викторины."
+
+#: ../SPMainCore.py:676 ../SPMainCore.py:750
+msgid ""
+"Are sure you want to quit the dailytraining ? All the results will be lost."
+msgstr ""
+"Вы правда хотите прекратить дневную тренировку? Результаты не сохраняются."
+
+#: ../lib/puzzle.py:226
+msgid "At the bottom you'll see a image of the complete puzzle."
+msgstr "Внизу вы увидите, как выглядит собранный пазл."
+
+#: ../lib/quiz_melody.py:110 ../lib/quiz_text.py:111
+msgid "At the top of the screen, you will see a general knowledge question."
+msgstr "В верхней части экрана вы увидите вопрос на проверку кругозора."
+
+#: ../lib/quiz_math.py:105
+msgid "At the top of the screen, you will see a math problem."
+msgstr "В верхней части экрана вы увидите математическое уравнение."
+
+#: ../lib/quiz_picture.py:102
+msgid ""
+"At the top of the screen, you will see a picture on the screen with a "
+"related question."
+msgstr ""
+"В верхней части экрана вы увидите на экране картинку со связанным вопросом."
+
+#: ../lib/quiz_royal.py:116
+msgid ""
+"At the top of the screen, you will see a question about a member of Royalty"
+msgstr "В верхней части экрана вы увидите вопрос о члене королевской семьи"
+
+#: ../lib/quiz_history.py:237
+msgid ""
+"At the top of the screen, you will see a question from general knowledge "
+"question from the selected period."
+msgstr ""
+"В верхней части экрана вы увидите вопрос, развивающий вопрос на кругозор за "
+"выбранный период."
+
+#: ../lib/quiz_melody.py:111 ../lib/quiz_text.py:112 ../lib/quiz_royal.py:117
+#: ../lib/quiz_history.py:238 ../lib/quiz_math.py:106
+#: ../lib/quiz_picture.py:103
+msgid ""
+"Below it are a choice of possible answers.\n"
+"Touch the correct answer."
+msgstr ""
+"Ниже варианты возможных ответов.\n"
+"Коснитесь правильного ответа."
+
+#: ../SPWidgets.py:826 ../SPWidgets.py:838 ../SPMainCore.py:629
+msgid "Cancel"
+msgstr "Отменить"
+
+#: ../lib/ichanger.py:316
+msgid "Cheat"
+msgstr "Подсказка"
+
+#: ../SPMainCore.py:229
+#, python-format
+msgid "Childsplay_sp - educational activities, using theme:%s"
+msgstr "Childsplay_sp - образовательная деятельность, используется тема:%s"
+
+#: ../SPgdm.py:73
+msgid "Childsplay_sp login"
+msgstr "Childsplay_sp логин"
+
+#: ../lib/memory_sp.py:188
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr "Классическая игра на запоминание, в которой надо найти пары карт."
+
+#: ../lib/soundmemory.py:190
+msgid "Classic memory game where you have to find pairs of sounds."
+msgstr "Классическая игра на запоминание, в которой надо найти пары звуков."
+
+#: ../lib/numbers.py:211
+#, fuzzy
+msgid "Click the buttons in the right order"
+msgstr "Найди все буквы в правильном порядке."
+
+#: ../lib/soundmemory.py:198 ../lib/memory_sp.py:196 ../lib/electro_sp.py:200
+msgid "Correctness is more important than speed"
+msgstr "Правильность важнее скорости"
+
+#: ../SPMainCore.py:963 ../SPMainCore.py:1120
+#, python-format
+msgid "Current activity : %s"
+msgstr "Текущая активность : %s"
+
+#: ../SPMainCore.py:628
+msgid "Do you really want to quit ?"
+msgstr "Вы правда хотите завершить ?"
+
+#: ../lib/electro_sp.py:182
+msgid "Electro_sp"
+msgstr "Electro_sp"
+
+#: ../SPMainCore.py:424 ../SPMainCore.py:432
+msgid "Error !"
+msgstr "Ошибка !"
+
+#: ../SPMainCore.py:431
+#, python-format
+msgid ""
+"Error constructing activity\n"
+"%s"
+msgstr ""
+"Ошибка создания деятельности\n"
+"%s"
+
+#: ../SPMainCore.py:423
+#, python-format
+msgid ""
+"Error importing activity\n"
+"%s"
+msgstr ""
+"Ошибка импорта деятельности\n"
+"%s"
+
+#: ../SPWidgets.py:1294
+msgid "Exercises"
+msgstr "Упражнения"
+
+#: ../lib/findit_sp.py:203
+msgid "Findit"
+msgstr "НайдиИх"
+
+#: ../lib/fishtank.py:218
+msgid "Fishtank"
+msgstr "РыбнаяБочка"
+
+#: ../SPHelpText.py:121
+msgid "Fun"
+msgstr "Прикол"
+
+#: ../lib/fishtank.py:240
+msgid "Fun/Mousetraining"
+msgstr "Прикол/Работа с мышкой"
+
+#: ../SPMainCore.py:782
+#, python-format
+msgid "Generated by Childsplay_sp version %s for the %s activity"
+msgstr "Сгенерировано Childsplay_sp версия %s для активности %s"
+
+#: ../SPMainCore.py:495
+msgid "Hit the 'space' key or a mousebutton to skip the countdown"
+msgstr "Нажмите 'пробел' или кнопку мыши, чтобы пропустить отсчет"
+
+#: ../lib/ichanger.py:280
+msgid "Ichanger"
+msgstr "Ichanger"
+
+#: ../lib/fishtank.py:228
+msgid ""
+"In the last level the fish needs to be clicked two times while they try to "
+"escape."
+msgstr ""
+"На последнем уровне кликайте на рыбке два раза, когда она хочет сорваться."
+
+#: ../SPMainCore.py:795 ../SPMainCore.py:972
+msgid "Information"
+msgstr "Информация"
+
+#: ../SPMainCore.py:724
+#, python-format
+msgid "Information about %s"
+msgstr "Информация о %s"
+
+#: ../SPHelpText.py:54
+msgid ""
+"It seems that we cannot use the sound card right now and because this "
+"activity is all about sound, we just quit. This problem can also be caused "
+"by another application which uses the soundcard right now."
+msgstr ""
+"Видимо, мы не сможем подключить звуковую карту прямо сейчас, и поэтому "
+"выйдем из программы. Проблема может быть и в другом приложении, которое в "
+"данный момент использует звуковую карту."
+
+#: ../SPHelpText.py:117
+msgid "Keyboardtraining"
+msgstr "Работа с клавиатурой"
+
+#: ../SPHelpText.py:119
+msgid "Language"
+msgstr "Язык"
+
+#: ../SPgdm.py:122
+msgid "Login"
+msgstr "Логин"
+
+#: ../lib/puzzle.py:232
+msgid "Look closely at the complete puzzle picture at the bottom."
+msgstr "Внимательно посмотри на собранный пазл внизу."
+
+#: ../lib/memory_sp.py:190
+msgid ""
+"Look closely at the pictures when you have them memorized touch 'START'.\n"
+"The pictures turn around, you must match the memorized repeated cards."
+msgstr ""
+"Внимательно посмотри на картинки, коснись кнопки 'Старт', когда запомнишь "
+"их.\n"
+"Картинки перевернутся рубашкой вверх, ты должен найти парные картинки."
+
+#: ../SPHelpText.py:115 ../lib/quiz_math.py:119
+msgid "Math"
+msgstr "Математический"
+
+#: ../lib/quiz_math.py:94
+msgid "Math Quiz"
+msgstr "Математическая викторина"
+
+#: ../lib/quiz_melody.py:99
+msgid "Melody Quiz"
+msgstr "Музыкальная викторина"
+
+#: ../SPHelpText.py:61
+msgid ""
+"Memorize the pictures.\n"
+"\n"
+"One of these pictures will be replaced by a new picture.\n"
+"\n"
+"Touch the 'Start' button to begin the game."
+msgstr ""
+"Вспомни картинки.\n"
+"\n"
+"Одна из картинок будет заменена новой.\n"
+"\n"
+"Коснись кнопки 'Старт', чтобы начать игру."
+
+#: ../SPHelpText.py:114 ../lib/quiz_melody.py:125 ../lib/quiz_text.py:124
+#: ../lib/soundmemory.py:204 ../lib/memory_sp.py:179 ../lib/memory_sp.py:202
+#: ../lib/electro_sp.py:206 ../lib/simon_sp.py:150
+msgid "Memory"
+msgstr "Память"
+
+#: ../lib/simon_sp.py:144
+msgid "Mind the sound sequence as well as the colors sequence."
+msgstr "Запомни порядок звуков как порядок цветов."
+
+#: ../SPHelpText.py:122 ../lib/ichanger.py:303 ../lib/findit_sp.py:228
+#: ../lib/quiz_royal.py:129 ../lib/quiz_history.py:250
+#: ../lib/quiz_picture.py:115 ../lib/numbers.py:223
+msgid "Miscellaneous"
+msgstr "Разное"
+
+#: ../SPHelpText.py:118
+msgid "Mousetraining"
+msgstr "Работа с мышью"
+
+#: ../SPMainCore.py:558 ../SPMainCore.py:677 ../SPMainCore.py:680
+#: ../SPMainCore.py:751 ../SPMainCore.py:754
+msgid "No"
+msgstr "Нет"
+
+#: ../SPWidgets.py:1195
+msgid "No data available for this level"
+msgstr "Нет доступных данных для этого уровня"
+
+#: ../lib/quiz_melody.py:113
+msgid "Number of levels : 6"
+msgstr "Число уровней : 6"
+
+#: ../lib/numbers.py:202
+msgid "Numbers"
+msgstr "Числа"
+
+#: ../SPWidgets.py:826 ../SPMainCore.py:369 ../SPMainCore.py:424
+#: ../SPMainCore.py:432 ../SPMainCore.py:629 ../SPMainCore.py:634
+#: ../SPMainCore.py:635 ../SPMainCore.py:724 ../SPMainCore.py:784
+#: ../SPMainCore.py:795 ../SPMainCore.py:972
+msgid "OK"
+msgstr "OK"
+
+#: ../lib/simon_sp.py:133
+msgid "On the screen are four blocks of different colours."
+msgstr "На экране 4 блока разных цветов."
+
+#: ../lib/findit_sp.py:212
+msgid ""
+"On the screen you will see two almost identical pictures.\n"
+"However, there are differences between the images."
+msgstr ""
+"Ты увидишь на экране две почти одинаковых картинки.\n"
+"На самом деле они разные."
+
+#: ../SPWidgets.py:1227
+#, python-format
+msgid "Percentile scores for level %s"
+msgstr "Распределение очков для уровня %s"
+
+#: ../lib/quiz_picture.py:91
+msgid "Picture Quiz"
+msgstr "Угадай картинку"
+
+#: ../lib/puzzle.py:224
+msgid "Place the puzzle piece on the right where you think it belongs..."
+msgstr "Положите деталь пазла направо, куда считаете нужным... "
+
+#: ../lib/ichanger.py:314
+msgid "Play"
+msgstr "Играть"
+
+#: ../lib/quiz_history.py:202
+msgid "Please enter your year of birth."
+msgstr ""
+
+#: ../lib/memory_sp.py:258
+msgid "Please, choose a set of cards."
+msgstr "Пожалуйста, выберите набор карт."
+
+#: ../lib/puzzle.py:281
+msgid "Please, choose a set of puzzle images."
+msgstr "Пожалуйста, выберите набор картинок для пазла."
+
+#: ../lib/simon_sp.py:134
+msgid "Press the Start button with your finger."
+msgstr "Нажмите пальцем кнопку Старт."
+
+#: ../SPHelpText.py:116 ../lib/puzzle.py:215 ../lib/puzzle.py:238
+msgid "Puzzle"
+msgstr "Пазл"
+
+#: ../SPMainCore.py:558 ../SPMainCore.py:677 ../SPMainCore.py:751
+msgid "Question ?"
+msgstr "Вопрос ?"
+
+#: ../SPMainCore.py:629
+msgid "Quit ?"
+msgstr "Завершить ?"
+
+#: ../lib/quiz_history.py:226
+msgid "Quiz history"
+msgstr "История викторин"
+
+#: ../lib/quiz_royal.py:105
+msgid "Quiz royal"
+msgstr "Королевская викторина"
+
+#: ../lib/quiz_math.py:108
+msgid ""
+"Remember, the order of operations is multiplication or division and then "
+"addition or subtraction."
+msgstr ""
+
+#: ../SPMainCore.py:369
+msgid "Request for help"
+msgstr ""
+
+#: ../SPMainCore.py:784
+msgid "Results"
+msgstr "Результаты"
+
+#: ../SPMainCore.py:784 ../SPMainCore.py:788
+msgid "Save image"
+msgstr "Сохранить картинку"
+
+#: ../SPMenu.py:295
+msgid ""
+"Select an activity and click on the button, the activity will be started."
+msgstr "Выбери активность и кликни на кнопке, чтобы активность началась."
+
+#: ../SPMenu.py:286
+msgid "Seniorplay"
+msgstr "Играютпожилые"
+
+#: ../lib/ichanger.py:289
+msgid ""
+"Several images from the past will appear on the screen.\n"
+"Look carefully at them and remember what you see."
+msgstr ""
+"Несколько картинок из прошлого появятся на экране.\n"
+"внимательно посмотри на них и запомни."
+
+#: ../lib/simon_sp.py:122
+msgid "Simon_sp"
+msgstr "Simon_sp"
+
+#: ../lib/soundmemory.py:181
+msgid "Soundmemory"
+msgstr "Помнюзвук"
+
+#: ../lib/memory_sp.py:386
+msgid "Start"
+msgstr "Начать"
+
+#: ../SPMainCore.py:487
+#, python-format
+msgid "Starting level %s"
+msgstr "Начальный уровень %s"
+
+#: ../SPMainCore.py:649
+msgid "Stopping timers, please wait..."
+msgstr "Остановка таймеров, подождите маленько..."
+
+#: ../lib/quiz_text.py:100
+#, fuzzy
+msgid "Text Quiz"
+msgstr "Математическая викторина"
+
+#: ../lib/simon_sp.py:136
+msgid "The  blocks will light up randomly along with sound clues."
+msgstr ""
+"Блоки будут светиться как попало одновременно со звуковыми подсказками."
+
+#: ../lib/quiz_melody.py:107 ../lib/ichanger.py:288 ../lib/quiz_text.py:108
+#: ../lib/findit_sp.py:211 ../lib/fishtank.py:226 ../lib/soundmemory.py:189
+#: ../lib/memory_sp.py:187 ../lib/quiz_royal.py:113 ../lib/quiz_history.py:234
+#: ../lib/electro_sp.py:190 ../lib/quiz_math.py:102 ../lib/quiz_picture.py:99
+#: ../lib/numbers.py:210 ../lib/simon_sp.py:130 ../lib/puzzle.py:223
+msgid "The aim of this activity:"
+msgstr "Цель деятельности:"
+
+#: ../lib/findit_sp.py:216
+msgid "The arrows to the left take you to the previous image."
+msgstr "Стрелки налево вернут вас к предыдущему рисунку."
+
+#: ../lib/memory_sp.py:262 ../lib/puzzle.py:285
+msgid "The difficulty of the set increases from left to right."
+msgstr "Сложность наборов возрастает слева направо."
+
+#: ../lib/electro_sp.py:191
+msgid "The game is to match pairs of pictures"
+msgstr "Игра по нахождению парных картинок"
+
+#: ../gui/AdminGui.py:201
+msgid "The table 'activity_options' doesn't exist in the dbase"
+msgstr ""
+
+#: ../gui/AdminGui.py:278
+#, python-format
+msgid ""
+"There was a problem while replacing the rows in the database.\n"
+"The exception was:\n"
+"%s"
+msgstr ""
+
+#: ../SPMainCore.py:1234
+#, python-format
+msgid ""
+"There was an error in %s. Please check the logs and inform the developers"
+msgstr ""
+"Произошла ошибка в %s. Проверьте журнал событий и сообщите разработчикам"
+
+#: ../SPHelpText.py:46
+#, python-format
+msgid ""
+"There was an error in the database this can be caused by many things but "
+"most of the time it's caused by the fact that your version of the database "
+"doesn't match the version of the program. I will backup your original "
+"database and then replace it with a new one. The original database is now "
+"called sp.db_back and it's placed in %s"
+msgstr ""
+"Произошла ошибка в базе данных, которая обычно вызвана несоответствием "
+"версий базы данных и программы. Я сохраню копию текущей базы данных и потом "
+"заменю ее новой. Исходная база данных называется sp.db_back и находится в %s"
+
+#: ../lib/ichanger.py:309 ../lib/findit_sp.py:235 ../lib/fishtank.py:247
+#: ../lib/soundmemory.py:210 ../lib/memory_sp.py:209 ../lib/quiz_royal.py:135
+#: ../lib/quiz_history.py:257 ../lib/electro_sp.py:212
+#: ../lib/quiz_picture.py:121 ../lib/numbers.py:230 ../lib/simon_sp.py:156
+#: ../lib/puzzle.py:245
+#, python-format
+msgid "This activity has %s levels"
+msgstr "Активность имеет %s уровней"
+
+#: ../SPMenu.py:294
+msgid "This is the menu used to select an activity."
+msgstr "Это меню для выбора активности."
+
+#: ../SPMainCore.py:716
+#, python-format
+msgid "Tip:%s"
+msgstr "Подсказка:%s"
+
+#: ../lib/quizengine.py:371
+#, python-format
+msgid ""
+"To little questions found in %s, found %s questions should be at least 10"
+msgstr ""
+"Слишком мало вопросов найдено в %s, найденных %s вопросов должно быть не "
+"меньше десяти"
+
+#: ../lib/ichanger.py:291
+msgid ""
+"Touch the 'START' button on the right.\n"
+"The images will dissappear and when they return, one will have changed.\n"
+"Touch the picture which has changed."
+msgstr ""
+"Коснись кнопки 'Старт' справа.\n"
+"Картинки исчезнут и когда они снова появятся, одна поменяется.\n"
+"Коснись картинки, которая изменилась."
+
+#: ../lib/fishtank.py:227
+msgid "Try to remove the fish by clicking on them with the mouse."
+msgstr "Попробуй отцепить рыбок, кликая по ним мышкой"
+
+#: ../lib/simon_sp.py:131
+msgid "Try to repeat the sequence of sounds played."
+msgstr "Попробуй повторить звуки в том же порядке."
+
+#: ../SPMenu.py:296
+msgid "Use the 'sub menu' buttons for the different activity menus"
+msgstr "Открывай меню следующей активности кнопками 'подменю'"
+
+#: ../SPMenu.py:312
+msgid "Use the menu below to choose between the different game categories"
+msgstr "Выберите другие категории игр с помощью этого меню"
+
+#: ../SPMainCore.py:335
+#, python-format
+msgid "User: %s"
+msgstr "Пользователь: %s"
+
+#: ../SPgdm.py:104
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: ../lib/simon_sp.py:137
+msgid ""
+"When the flashing stops you will be prompted to repeat the sequence by "
+"touching the coloured blocks."
+msgstr ""
+"Когда мигать перестанет, тебя попросят повторить последовательность, касаясь "
+"раскрашенных блоков."
+
+#: ../lib/findit_sp.py:214
+msgid ""
+"When you spot a difference, touch it with your finger.\n"
+"You can click the question mark in the middle of the screen if you need a "
+"hint."
+msgstr ""
+"Когда заметишь разницу, коснись ее пальцем.\n"
+"Можешь кликнуть на знаке вопроса в середине экрана если нужна подсказка."
+
+#: ../lib/soundmemory.py:192
+msgid ""
+"When you touch the picture you will hear a sound.\n"
+"Match the image with others that make the same sound,to get points."
+msgstr ""
+"Звук раздается, когда ты касаешься картинки.\n"
+"Найди для картинки пару, которая звучит так же, чтобы набрать баллы."
+
+#: ../virtnumpad.py:235
+msgid "Year of birth"
+msgstr ""
+
+#: ../SPMainCore.py:558 ../SPMainCore.py:561 ../SPMainCore.py:677
+#: ../SPMainCore.py:751
+msgid "Yes"
+msgstr "Да"
+
+#: ../SPMainCore.py:557
+msgid "You play very good, do you want to try the next level ?"
+msgstr "Ты играешь очень хорошо, хочешь перейти на следующий уровнеь?"
+
+#: ../lib/electro_sp.py:193
+msgid ""
+"You select the pictures by touching them.\n"
+"As you progress through the star levels more pairs appear to match."
+msgstr ""
+"Ты выбираешь картинки, когда касаешься их.\n"
+"Новые пары появляются, когда ты проходишь уровни по звездам."
+
+#: ../SPMainCore.py:794
+#, python-format
+msgid ""
+"Your image is saved at:\n"
+"%s"
+msgstr ""
+"Картинка сохранена в:\n"
+"%s"
+
+#~ msgid "(max two per word), you can play the last level which is a maze."
+#~ msgstr ""
+#~ "(максимум два для слово), вы можете играть на последнем уровне (лабиринт)"
+
+#, fuzzy
+#~ msgid "Activity:"
+#~ msgstr "Деятельность :"
+
+#~ msgid "Alphabet/Keyboardtraining"
+#~ msgstr "Алфавит/Клавиатурная тренировка"
+
+#~ msgid "Already found:"
+#~ msgstr "Уже найдено:"
+
+#, fuzzy
+#~ msgid "At the top of the screen, you will see a question."
+#~ msgstr "В верхней части экрана вы увидите вопрос на проверку кругозора."
+
+#~ msgid "Balls"
+#~ msgstr "Очки"
+
+#~ msgid "Billiard"
+#~ msgstr "Бильярд"
+
+#~ msgid "Billiard Game"
+#~ msgstr "Игра Бильярд"
+
+#~ msgid ""
+#~ "Failed to parse the logfile, please contact the developers.\n"
+#~ "Message was: %s"
+#~ msgstr ""
+#~ "Не удалось прочесть файл журнала, пожалуйста, свяжитесь с "
+#~ "разработчиками.\n"
+#~ "Текст сообщения: %s"
+
+#~ msgid "Fallingletters"
+#~ msgstr "Падающиебуквы"
+
+#~ msgid "Find all the letters in the right order."
+#~ msgstr "Найди все буквы в правильном порядке."
+
+#~ msgid "Fun/Alphabet"
+#~ msgstr "Прикол/Алфавит"
+
+#~ msgid "Fun/Miscellaneous"
+#~ msgstr "Прикол/Разное"
+
+#~ msgid "General knowledge Quiz"
+#~ msgstr "Викторина на кругозор"
+
+#~ msgid "Hit the 'Begin' button to start."
+#~ msgstr "Кликните кнопку 'Begin', чтобы начать"
+
+#~ msgid "If you ready to start the next activity, hit the 'start' button."
+#~ msgstr "Если ты готов начать следующую активность, кликни кнопку 'start'."
+
+#~ msgid ""
+#~ "In the last two levels the uppercase and lowercase are mixed but you "
+#~ "don't have to match the case only the letter"
+#~ msgstr ""
+#~ "На последних двух уровнях верхний и нижний регистр перемешаны, не обращай "
+#~ "на это внимания."
+
+#, fuzzy
+#~ msgid "Make a word with the letter: "
+#~ msgstr "Составь слово с буквой: %s"
+
+#~ msgid ""
+#~ "No photo albums found !\n"
+#~ "You should place your pictures inside directories called 'Album_1', "
+#~ "'Album_2' etc\n"
+#~ " Place these directories inside %s"
+#~ msgstr ""
+#~ "Фотоальбомы на найдены !\n"
+#~ "Картинки должны лежать в каталогах 'Album_1', 'Album_2' и т.д.\n"
+#~ "Помести каталоги в %s"
+
+#~ msgid "Number of levels : 1"
+#~ msgstr "Число уровней : 1"
+
+#~ msgid "Number of levels : 5"
+#~ msgstr "Число уровней : 5"
+
+#~ msgid ""
+#~ "On the next screen you'll find a keyboard, try to make as much words as "
+#~ "possible that begin with the letter '%s'."
+#~ msgstr ""
+#~ "На следующем экране ты увидишь клавиатуру, попробуй набрать как можно "
+#~ "больше слов, которые начинаются с буквы '%s'."
+
+#~ msgid "Only words from the dictionary are allowed."
+#~ msgstr "Допустимы только слова из словаря."
+
+#~ msgid "Packid"
+#~ msgstr "Packid"
+
+#~ msgid "Photoalbum"
+#~ msgstr "Фотоальбом"
+
+#~ msgid "Pong"
+#~ msgstr "Пинг-понг"
+
+#, fuzzy
+#~ msgid "Starting a new exercise"
+#~ msgstr "Начальный уровень %s"
+
+#~ msgid "Suggestions:"
+#~ msgstr "Подсказки:"
+
+#~ msgid "Synonyms"
+#~ msgstr "Синонимы"
+
+#~ msgid "The aim of the game:"
+#~ msgstr "Цель игры:"
+
+#~ msgid ""
+#~ "The fewer hits you need to get the ball in the hole, the more points you "
+#~ "get."
+#~ msgstr ""
+#~ "Чем меньше ударов затрачено на то, чтобы загнать шар в лунку, тем больше "
+#~ "очков."
+
+#~ msgid ""
+#~ "The last level is only available when you finish the first three levels "
+#~ "without errors."
+#~ msgstr ""
+#~ "Последний уровень будет доступен только когда ты закончишь первые три "
+#~ "уровня без ошибок."
+
+#~ msgid "The longer you hold the left button the harder it will hit the ball."
+#~ msgstr "Чем дольше держишь левую кнопку нажатой, тем сильнее удар по мячу."
+
+#~ msgid "The word to find is: "
+#~ msgstr "Нужно найти слово:"
+
+#~ msgid "There are thee levels with three words each."
+#~ msgstr "Есть три уровня, в каждом по три слова."
+
+#~ msgid ""
+#~ "This activity is known as the daily training which is a collection of "
+#~ "activities."
+#~ msgstr ""
+#~ "Эта деятельность называется дневная тренировка, она включает набор "
+#~ "деятельностей."
+
+#~ msgid "Try to 'eat' all the letters in the appropriated order."
+#~ msgstr "Попробуй 'съесть' все буквы в правильном порядке."
+
+#~ msgid "Try to find the way out while eating the fruits for extra points and"
+#~ msgstr ""
+#~ "Попробуй выбраться наружу, набирая очки при помощи поедания фруктов и"
+
+#~ msgid "Type the falling letters on the keyboard before they hit the ground."
+#~ msgstr "Набери падающую букву на клавиатуре до того как она упадет"
+
+#~ msgid ""
+#~ "Use the right mousebutton to aim and the left button to hit the ball."
+#~ msgstr "Направляйте шар правой кнопкой мыши и бейте по мячу левой."
+
+#~ msgid "Warning !"
+#~ msgstr "Внимание!"
+
+#~ msgid ""
+#~ "When you have finished all the levels, without making to much mistakes"
+#~ msgstr "Когда вы пройдете все уровни, не сделав много ошибок"
+
+#~ msgid "XML data file is incorrect, please contact the maintainers."
+#~ msgstr "Файл данных XML некорректный, свяжитесь с поддержкой."
+
+#~ msgid "You have to make the blue ball enter the hole (in level 1)"
+#~ msgstr "Надо загнать синий шар в лунку (на уровне 1)"
+
+#~ msgid "You won!!"
+#~ msgstr "Победа!"
+
+#~ msgid "and the red ones in levels 2 and 3."
+#~ msgstr "и красные на уровнях 2 и 3."
+
+#~ msgid "funny sounds :-)"
+#~ msgstr "забавные звуки :-)"
+
+#~ msgid "points"
+#~ msgstr "очки"
+
+#~ msgid "question id: %s"
+#~ msgstr "идентификатор вопроса: %s"
+
+#~ msgid ""
+#~ "xml file %s is missing, this shouldn't happen, contact the %s developers"
+#~ msgstr "файл xml %s не найден, это ошибка, обратитесь к разработчикам %s"

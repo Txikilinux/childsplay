@@ -1,0 +1,5 @@
+Packagers must be aware that the activities expect the python path 
+set to '.'.
+The activities lives in /lib but do 'from utils import *' iso
+'from childsplay.utils import *'.
+The default starter script alters the python path by inserting '.'.

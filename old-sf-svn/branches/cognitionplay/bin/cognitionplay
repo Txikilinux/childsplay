@@ -1,0 +1,156 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Copyright (c) 2006-2009 Stas Zykiewicz <stas.zytkiewicz@gmail.com>
+#
+#           cognitionplay
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of version 3 of the GNU General Public License
+# as published by the Free Software Foundation.  A copy of this license should
+# be included in the file GPL-3.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Library General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+
+# ignore warnings as it isn't usefull for the user to see them.
+import warnings
+warnings.simplefilter("ignore")
+
+# Enable special streams redirection useful on win32 when run from an exe
+# because on win32 the output and error streams are send into a black hole.
+WIN32REDIRECT = False
+import childsplay_sp.utils as utils
+import sys,os
+
+# first parse commandline options
+from childsplay_sp.SPOptionParser import OParser
+# if this doesn't bail out the options are correct and we continue with schoolsplay
+op = OParser()
+# this will return a class object with the options as attributes  
+CMD_Options = op.get_options()
+# set the theme to cognitionplay
+CMD_Options.theme = 'cognitionplay'
+
+if sys.platform == 'win32' and WIN32REDIRECT:
+    try:
+        import childsplay_sp.out as out
+    except ImportError:
+        print "Failed to import out.py, no redirection of streams"
+    else:
+        print >> sys.stderr,"Redirect sys.stderr to %s\sp_stderr.log" % out.logpath
+        print "Redirect sys.stdout to %s\sp_stdout.log" % out.logpath
+        
+
+# make sure we don't run as root user, that's a bad habit and we refuse to do it.
+if sys.platform == 'linux2' and os.environ['USER'] == 'root':
+    print "\n=============== IMPORTANT READ THIS =============================="
+    print "You running this program as the 'root' user, why?"
+    print "You should only run programs as 'root' if you want to do system management."
+    print "You risk the integrity of your system by running programs as root."
+    print "Childsplay will not run as the 'root' user and will now quit.\n"
+    sys.exit(1)
+
+# check if we have the gtk stuff
+try:
+    import pygtk
+    #this is needed for py2exe
+    if sys.platform == 'win32':
+        pass
+    else:
+        #not win32, ensure version 2.0 of pygtk is imported
+        pygtk.require('2.0')
+    import gtk
+except ImportError,info:
+    CPmodule_logger.critical("Childsplay_sp depends on GTK and the Python bindings PyGTK. See the website for more information")
+    import pygame
+    pygame.init()
+    import childsplay_sp.ocempgui.widgets as ocw
+    import childsplay_sp.ocempgui.widgets.Constants as ocwc
+    from childsplay_sp.SPocwWidgets import InfoDialog
+    re = ocw.Renderer()
+    screen = pygame.display.set_mode((800,600))
+    re.set_screen(screen)
+    d = InfoDialog(re,["Error:%s\n\nThis GUI depends on GTK and the Python bindings PyGTK.\n See the website for more information" % info],\
+                                fnsize=18)
+    d.run()
+    sys.exit(1)
+
+import childsplay_sp.SPLogging as SPLogging
+SPLogging.set_level(CMD_Options.loglevel)
+SPLogging.start()
+#create logger, configuration of logger was done above
+import logging
+CPmodule_logger = logging.getLogger("schoolsplay")
+CPmodule_logger.debug("Created schoolsplay loggers")
+
+if CMD_Options.loglevel == 'debug':
+    from childsplay_sp.SPConstants import *
+    CPmodule_logger.debug("Paths defined in SPConstants:")
+    for v in ['ACTIVITYDATADIR', 'ALPHABETDIR', 'BASEDIR',\
+               'DBASEPATH', 'HOMEDIR', 'HOMEIMAGES', 'HOME_DIR_NAME',\
+               'LOCALEDIR', 'LOCKFILE', 'OCWBASEDIR','PYTHONCPDIR']:
+        CPmodule_logger.debug("%s > %s" % (v, eval(v)))
+
+# this will return the tuple (lang,rtl=bool)
+LANG = utils.set_locale(lang=CMD_Options.lang)
+
+if CMD_Options.admingui:
+    # This will not return
+    try:
+        import childsplay_sp.gui.AdminGui as AdminGui
+        AdminGui.main()
+    except Exception,info:
+        print "GUI raised an exception"
+        print info
+        sys.exit(1)
+    else:
+        print "break"
+        sys.exit(0)
+        
+if not utils._set_lock():
+    sys.exit(1)
+    
+import childsplay_sp.SPMainCore as SPMainCore
+import childsplay_sp.SPgdm as SPgdm
+
+# start the maincore, we only return here on an exit
+CPmodule_logger.debug("Start logging")
+CPmodule_logger.debug("commandline options: %s" % CMD_Options)
+CPmodule_logger.debug("SPMainCore running from: %s" % SPMainCore)
+
+abort = 0 
+while not abort:
+    try:
+        # there's no support for other resolutions then 800x600
+        mcgui = SPMainCore.MainCoreGui(resolution=(800,600),\
+                                        options=CMD_Options,\
+                                        language=LANG)
+    except SPMainCore.MainEscapeKeyException:
+        if CMD_Options.no_login:
+            # we have no login screen so we exit
+            abort = 1
+        else:
+            CPmodule_logger.info("clean exit, restarting....")
+    except (SPMainCore.GDMEscapeKeyException, SPgdm.GDMEscapeKeyException):
+        CPmodule_logger.info("clean exit, stopping...")
+        abort = 1
+    except SystemExit,status:
+        if str(status) == '0':
+            CPmodule_logger.info("clean exit, stopping....")
+            abort = 1
+        else:
+            CPmodule_logger.info("not a clean exit, stopping...")
+            abort = 1
+    except Exception,status:        
+        CPmodule_logger.exception("unhandled exception in toplevel, traceback follows:")
+        abort = 1
+
+CPmodule_logger.info("Childsplay stopped.")
+    
+

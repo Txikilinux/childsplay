@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+    <question id="1" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">Where did The Flowerpot Men want to go in 1967?</question_text>
+        <answer audio="">San Francisco</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Memphis</wrong_answer1>
+        <wrong_answer2 audio="">Woodstock</wrong_answer2>
+        <wrong_answer3 audio="">New York</wrong_answer3>
+    </question>
+    <question id="2" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">James Bond was searching for what kind of airplane in 'Thunderball'?</question_text>
+        <answer audio="">Vulkan</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">B-52</wrong_answer1>
+        <wrong_answer2 audio="">Piper Cub</wrong_answer2>
+        <wrong_answer3 audio="">707</wrong_answer3>
+    </question>
+    <question id="3" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">Who wrote "don't count your chickens before they are hatched"?</question_text>
+        <answer audio="">Aesop</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Chaucer</wrong_answer1>
+        <wrong_answer2 audio="">Ben  Franklin</wrong_answer2>
+        <wrong_answer3 audio="">Shakespeare</wrong_answer3>
+    </question>
+    <question id="4" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">Which kind of animal did Florence Nightingale often carry around in her pocket?</question_text>
+        <answer audio="">Owl</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Snake</wrong_answer1>
+        <wrong_answer2 audio="">Puppy</wrong_answer2>
+        <wrong_answer3 audio="">Kitten</wrong_answer3>
+    </question>
+    <question id="5" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">'Goodbye Farewell and Amen' was the final episode of which TV series?</question_text>
+        <answer audio="">MASH</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">The Muppet Show</wrong_answer1>
+        <wrong_answer2 audio="">Friends</wrong_answer2>
+        <wrong_answer3 audio="">Dallas</wrong_answer3>
+    </question>
+    <question id="6" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">In which film do the words "I love you" save the planet earth?</question_text>
+        <answer audio="">The 5th Element</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Independence Day</wrong_answer1>
+        <wrong_answer2 audio="">Mars Attacks</wrong_answer2>
+        <wrong_answer3 audio="">The Day After Tomorrow</wrong_answer3>
+    </question>
+    <question id="7" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">What is the name of the man servant in 'Around the world in 80 days'?</question_text>
+        <answer audio="">Pas Partout</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Machu Picchu</wrong_answer1>
+        <wrong_answer2 audio="">Giles</wrong_answer2>
+        <wrong_answer3 audio="">Cato</wrong_answer3>
+    </question>
+    <question id="8" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">In which book is there an inn called Admiral Benbow?</question_text>
+        <answer audio="">Treasure Island</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Peter Pan</wrong_answer1>
+        <wrong_answer2 audio="">Gulliver?s Travels</wrong_answer2>
+        <wrong_answer3 audio="">Lord of the Rings</wrong_answer3>
+    </question>
+    <question id="9" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">Which actor appeared in the Cranberries music video Ridiculous Thought?</question_text>
+        <answer audio="">Elijah Wood</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">George Clooney</wrong_answer1>
+        <wrong_answer2 audio="">Donald Sutherland</wrong_answer2>
+        <wrong_answer3 audio="">Bruce Willis</wrong_answer3>
+    </question>
+    <question id="10" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">How many earths would fit inside the sun?</question_text>
+        <answer audio="">circa 1,000,000</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">circa 100,000</wrong_answer1>
+        <wrong_answer2 audio="">circa 10,000</wrong_answer2>
+        <wrong_answer3 audio="">circa 100</wrong_answer3>
+    </question>
+    <question id="11" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">What does a nidoligist study?</question_text>
+        <answer audio="">Bird Nests</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Caves</wrong_answer1>
+        <wrong_answer2 audio="">Clouds</wrong_answer2>
+        <wrong_answer3 audio="">Waves</wrong_answer3>
+    </question>
+    <question id="12" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">What is the more usual name for Roentgen Rays?</question_text>
+        <answer audio="">X Rays</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Magnetic Resonance</wrong_answer1>
+        <wrong_answer2 audio="">Ultraviolet Rays</wrong_answer2>
+        <wrong_answer3 audio="">Gamma Rays</wrong_answer3>
+    </question>
+    <question id="13" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">A 'Miller' is a move in which sport?</question_text>
+        <answer audio="">Trampolining</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Chess</wrong_answer1>
+        <wrong_answer2 audio="">Diving</wrong_answer2>
+        <wrong_answer3 audio="">Ice Hockey</wrong_answer3>
+    </question>
+    <question id="14" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">Festfolk was the original name for which group?</question_text>
+        <answer audio="">ABBA</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Simon and Garfunkel</wrong_answer1>
+        <wrong_answer2 audio="">Motorhead</wrong_answer2>
+        <wrong_answer3 audio="">The Beach Boys</wrong_answer3>
+    </question>
+    <question id="15" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">Hypermetropic people are what?</question_text>
+        <answer audio="">far sighted</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">moody</wrong_answer1>
+        <wrong_answer2 audio="">underfed</wrong_answer2>
+        <wrong_answer3 audio="">obese</wrong_answer3>
+    </question>
+    <question id="16" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">Fredrick Sanger invented which life saver?</question_text>
+        <answer audio="">Insulin</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Aspirin</wrong_answer1>
+        <wrong_answer2 audio="">Inflatable Life Raft</wrong_answer2>
+        <wrong_answer3 audio="">Safety Pin</wrong_answer3>
+    </question>
+    <question id="17" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">Which NHL hockey team has won the most Stanley Cups?</question_text>
+        <answer audio="">Montreal Canadiens</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">New York Rangers</wrong_answer1>
+        <wrong_answer2 audio="">Boston Bruins</wrong_answer2>
+        <wrong_answer3 audio="">Toronto Maple Leafs</wrong_answer3>
+    </question>
+    <question id="18" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">Herodotus is known as the father of what?</question_text>
+        <answer audio="">History</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Music</wrong_answer1>
+        <wrong_answer2 audio="">Theatre</wrong_answer2>
+        <wrong_answer3 audio="">Medicine</wrong_answer3>
+    </question>
+    <question id="19" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">The title of which Pink Floyd album is also a chapter in 'The Wind In The Willows'?</question_text>
+        <answer audio="">The piper at the gates of dawn</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Animals</wrong_answer1>
+        <wrong_answer2 audio="">Meddle</wrong_answer2>
+        <wrong_answer3 audio="">Wish you were here</wrong_answer3>
+    </question>
+    <question id="20" type="text">
+        <difficulty>1</difficulty>
+        <question_text audio="">Anemophobia is the fear of what?</question_text>
+        <answer audio="">Wind</answer>
+        <data></data>
+        <group></group>
+        <wrong_answer1 audio="">Fire</wrong_answer1>
+        <wrong_answer2 audio="">The Dark</wrong_answer2>
+        <wrong_answer3 audio="">Spiders</wrong_answer3>
+    </question>
+</questions>

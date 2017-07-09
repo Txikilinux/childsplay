@@ -1,0 +1,408 @@
+# -*- coding: utf-8 -*-
+
+# Copyright (c) 2006-2010 Stas Zykiewicz <stas.zytkiewicz@gmail.com>
+#
+#           SPSpriteGui.py
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of version 3 of the GNU General Public License
+# as published by the Free Software Foundation.  A copy of this license should
+# be included in the file GPL-3.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Library General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+
+# Misc SPSpriteUtils widgets
+
+import logging
+import os
+import glob
+import pygame
+from pygame.constants import *
+import types
+from SPConstants import *
+from SPSpriteUtils import SPSprite
+from SPWidgets import *
+from childsplay_sp import pangofont as PFont
+import utils
+module_logger = logging.getLogger("schoolsplay.SPSPriteGui")
+
+LOCALE_RTL = utils.get_locale()[1]
+if LOCALE_RTL:
+    ALIGN_RIGHT = True
+    ALIGN_LEFT = False
+else:
+    ALIGN_LEFT = True
+    ALIGN_RIGHT = False
+
+#class QuitButton(ImgButton):
+#    def __init__(self, theme, pos, cbf):
+#        bname = 'core_quit_button.png'
+#        p = os.path.join(THEMESPATH, theme, bname)
+#        if not os.path.exists(p):
+#            p = os.path.join(DEFAULTTHEMESPATH, bname)
+#        ImgButton.__init__(self, p, pos, name='Quit')
+#        self.connect_callback(cbf, MOUSEBUTTONDOWN, 'Quit')
+#    
+#class InfoButton(ImgButton):
+#    def __init__(self, theme, pos, cbf):
+#        bname = 'core_info_button.png'
+#        p = os.path.join(THEMESPATH, theme,bname )
+#        if not os.path.exists(p):
+#            p = os.path.join(DEFAULTTHEMESPATH, bname)
+#        ImgButton.__init__(self, p, pos, name='Info')
+#        self.connect_callback(cbf, MOUSEBUTTONDOWN, 'Info')
+#
+#class ChartButton(ImgButton):
+#    def __init__(self, theme, pos, cbf):
+#        bname = 'core_chart_button.png'
+#        p = os.path.join(THEMESPATH, theme, bname)
+#        if not os.path.exists(p):
+#            p = os.path.join(DEFAULTTHEMESPATH, bname)
+#        ImgButton.__init__(self, p, pos, name='Chart')
+#        self.connect_callback(cbf, MOUSEBUTTONDOWN, 'Chart')
+#    
+#class DiceButtons:
+#    def __init__(self, theme, y, actives, cbf, usebutton=True):
+#        self.logger = logging.getLogger("schoolsplay.SPSpriteGui.DiceButtons")
+#        self.actives = actives
+#        self._setup(theme, y, actives, cbf, usebutton=True)
+#        
+#    def _setup(self, theme, y, actives, cbf, usebutton=True):
+#        bname = 'dice-1.png'
+#        p = os.path.join(THEMESPATH, theme, bname)
+#        if not os.path.exists(p):
+#            p = DEFAULTTHEMESPATH
+#        else:
+#            p = os.path.join(THEMESPATH, theme)
+#        dicelist = glob.glob(os.path.join(p, 'dice*.png'))
+#        self._butdict = {}
+#        self._current_but = None
+#        self.UseDice = usebutton
+#        count = 1
+#        try:
+#            dicelist.sort()
+#            for diceimg in dicelist:
+#                but = ImgButton(diceimg, (CORE_BUTTONS_XCOORDS[-3], y+8), name='Dice')
+#                but.connect_callback(cbf, MOUSEBUTTONDOWN, count)
+#                self._butdict[count] = but
+#                count += 1
+#        except StandardError, info:
+#            self.logger.exception("Can't load dice images for buttons: %s" % info)
+#            self.logger.error('Disable the dice')
+#            self._current_but = self._butdict[1]
+#            self.UseDice = False
+#                
+#    def next_level(self, level):
+#        self.logger.debug("level %s called" % level)
+#        if not self.UseDice:
+#            self.logger.debug("theme doesn't use dice")
+#            return 
+#        if self._current_but:
+#            self._current_but.erase_sprite()
+#            self.actives.remove(self._current_but)
+#        self._current_but = self._butdict[level]
+#        self.actives.add(self._current_but)
+#        self._current_but.enable(True)
+#        self._current_but.display_sprite()
+#        return
+#            
+#    def enable(self, enable):
+#        self.logger.debug("enable called with: %s" % enable)
+#        if not self.UseDice:
+#            self.logger.debug("theme doesn't use dice")
+#            return 
+#        self._current_but.enable(enable)
+#    
+#    def erase(self):
+#        self.logger.debug("erase called")
+#        self._current_but.erase.sprite()
+#    def show(self):
+#        self.logger.debug("display called")
+#        self._current_but.display.sprite()
+#
+#class StarButton(DiceButtons):
+#    """Special level indicator for the level indicator used by the braintrainer version.
+#    This uses a special dialog, SPWidgets.StarButtonsDialog.
+#    It derived the DiceButtons class so that the changes to the core are minimal."""
+#    def __init__(self, y, actives, cbf, usebutton=True, theme='seniorplay'):
+#        self.logger = logging.getLogger("schoolsplay.SPSpriteGui.StarButton")
+#        # TODO: pass maxlevel to  SPWidgets.StarButtonsDialog ?
+#        self.maxlevels = 6
+#        self.cbf = cbf
+#        self._current_but = None
+#        self.cbf = cbf
+#        self.UseDice = usebutton
+#        if not theme:
+#            theme = THEME['theme']
+#        DiceButtons.__init__(self, theme, y, actives, cbf, usebutton=True)
+#    
+#    def _setup(self, theme, y, actives, cbf, usebutton=True):
+#        self.imgstar0 = utils.load_image(os.path.join(THEMESPATH, theme,'star0.png'), alpha=1)
+#        self.imgstar1 = utils.load_image(os.path.join(THEMESPATH, theme,'star1.png'), alpha=1)
+#        self.rectstar = self.imgstar0.get_rect()
+#        self.image = pygame.Surface((self.rectstar.w * self.maxlevels, self.rectstar.h))
+#        self.y = y
+#        self._set_level(1)
+#        
+#    def next_level(self, level):
+#        self.logger.debug("level %s called" % level)
+#        if not self.UseDice:
+#            self.logger.debug("theme doesn't use dice")
+#            return 
+#        self._set_level(result)
+#    
+#    def _start_dlg(self,sprite, event, data):
+#        sbd = StarButtonsDialog('seniorplay')
+#        sbd.set_level(data[0])
+#        sbd.run()
+#        result = sbd.get_result()[0]
+#        if result:
+#            self._set_level(result)
+#            self.cbf(sprite, event, result)
+#
+#    def _set_level(self, level):
+#        if self._current_but:
+#            self.actives.remove(self._current_but)
+#        x = 0
+#        for i in range(0, level):
+#            self.image.blit(self.imgstar1, (x, 0))
+#            x += self.rectstar.w
+#        for i in range(level, self.maxlevels):
+#            self.image.blit(self.imgstar0, (x, 0))
+#            x += self.rectstar.w
+#        self._current_but = ImgButton(self.image, (CORE_BUTTONS_XCOORDS[1], self.y+8), name='Star')
+#        self._current_but.connect_callback(self._start_dlg, MOUSEBUTTONDOWN, level)
+#        self.actives.add(self._current_but)
+#        self._current_but.enable(True)
+#        self._current_but.display_sprite()
+#        
+#        
+#class MenuBar:
+#    def __init__(self, rect, actives, cbf, dice_cbf):
+#        theme = THEME['theme']
+#        self.infobutton = InfoButton(theme, (CORE_BUTTONS_XCOORDS[0], rect.top+8), cbf)
+#        self.quitbutton = QuitButton(theme, (CORE_BUTTONS_XCOORDS[-1], rect.top+8), cbf)
+#        self.chartbutton = ChartButton(theme, (CORE_BUTTONS_XCOORDS[-2], rect.top+8), cbf)
+#        self.dicebuttons = DiceButtons(theme, rect.top, actives, dice_cbf)# position is set by the object
+#        
+#        
+#    def get_infobutton(self):
+#        return self.infobutton
+#    def get_quitbutton(self):
+#        return self.quitbutton
+#    def get_chartbutton(self):
+#        return self.chartbutton
+#    def get_dicebuttons(self):
+#        return self.dicebuttons
+#
+#class Graph(Widget):
+#    """provides a SDL surface with a graph plotted onto.
+#    The surface will be, x*y, 502x302 and will hold up to 20 values.
+#    This can only be used to display scores from schoolsplay.
+#    """
+#    def __init__(self, data, level, headertext='', norm=None):
+#        """@data must be a list with tuples (score,date).
+#        @norm is a tuple containing the mu and sigma value.
+#        """   
+#        # dates are stored like this: 07-09-09_10:44:27
+#        # the data list is a list with tuples like (mu,sigma,date)
+#        self.logger = logging.getLogger("schoolsplay.SPocwWidgets.Graph")
+#        # main surf is 500x300 the graph is a surf of 470x270.
+#        # 20 for the text bottom and left and 10 for a top and right offset
+#        gs = pygame.Surface((470, 270))# surf for the graph
+#        gs.fill((230, 230, 230))
+#        self.s = pygame.Surface((500, 400))# main surf
+#        self.s.fill((200, 200, 200))
+#        if not data:
+#            ts = utils.char2surf(_("No data available for this level"), P_TTFSIZE + 8, ttf=P_TTF, split=35)
+#            y = 100
+#            for s in ts:
+#                self.s.blit(s, (20, y))
+#                y += s.get_height()
+#            return
+#        # border around the surf
+#        pygame.draw.rect(self.s, (100, 100, 100), self.s.get_rect().inflate(-1, -1), 2)
+#        
+#        # draw mu line and sigma deviation as a transparent box.
+#        if norm:
+#            mu, sigma = norm
+#            # line
+#            pygame.draw.line(gs, DARK_BLUE, (0, mu * 27), (470, mu * 27), 3)
+#            # deviation box, transparent blue
+#            # the sigma value is the percentage of the mu value
+#            top_y = mu + (mu / 100.0 * sigma)
+#            bottom_y = mu - (mu / 100.0 * sigma)
+#            darken = pygame.Surface((470, int((top_y-bottom_y) * 27)))
+#            darken.fill(BLUE)
+#            darken_factor = 64
+#            darken.set_alpha(darken_factor)
+#            gs.blit(darken, (0, 270-top_y * 27))
+#            
+#        # draw y-axes graph lines, initial y offset is 30 pixels to leave room for text.
+#        i = 10
+#        for y in range(0, 270, 27):
+#            pygame.draw.line(gs, (0, 0, 0), (0, y), (470, y), 1)
+#            ts = utils.char2surf(str(i), P_TTFSIZE-2, ttf=P_TTF, bold=True)
+#            i -= 1
+#            self.s.blit(ts, (4, y + 35))
+#        ts0 = utils.char2surf(headertext, P_TTFSIZE-2, ttf=P_TTF, bold=True)
+#        ts1 = utils.char2surf(_("Scores reached in level %s") % level, P_TTFSIZE, ttf=P_TTF)
+#        self.s.blit(ts0, (10, 2))
+#        self.s.blit(ts1, (20, 20))
+#        
+#        # Draw x-axes data
+#        # determine the size of the x graph steps. This depends on the number of data items.
+#        # as we fill the x axe. Y step is always the same as the y axe values are always 0-10.
+#        # The maximum is 470 items, one pixel per data item.
+#        x_step = 470 / len(data)
+#        dotslist = []
+#        # draw dots and x-axes lines
+#        for x in range(0, 471-x_step, x_step):
+#            pygame.draw.line(gs, (0, 0, 0), (x, 270), (x, 0), 1)
+#            try:
+#                item = data.pop(0)
+#                #print item
+#                y = int(item[1] * 27)
+#                #print "y position",y
+#                date = item[0]
+#                #print "date",date
+#            except (IndexError, TypeError):
+#                self.logger.exception("Troubles in the datalist, this shouldn't happen\n I try to continue but expect weird results :-)\n Traceback follows:")
+#                continue
+#            else:
+#                pygame.draw.circle(gs, DARK_BLUE, (x + 4, 270-y + 4), 4, 0)
+#                dotslist.append((x, 270-y))
+#                # blit date, rotated 90 degrees clockwise
+#                ts = utils.char2surf(date, P_TTFSIZE-5, ttf=P_TTF)
+#                # rotate 90 degrees
+#                v_ts = pygame.transform.rotate(ts, 270)
+#                self.s.blit(v_ts, (x + 20, 320))
+#        # connect the dots if there are more then one
+#        if len(dotslist) > 1:
+#            pygame.draw.lines(gs, BLUE, 0, dotslist, 2)
+#        pygame.draw.rect(gs, (0, 0, 0), gs.get_rect().inflate(-1, -1), 2)
+#        # finally blit the two surfaces
+#        self.s.blit(gs, (20, 40))
+#        SPSprite.__init__(self, self.s)
+#    
+#    def _calculate_position(self, pos):
+#        new_pos = pos# finish this
+#        return new_pos
+#    
+#    def get_surface(self):
+#        return self.image
+
+
+
+
+if __name__ == '__main__':
+    
+    import __builtin__
+    __builtin__.__dict__['_'] = lambda x:x
+    
+    import SPLogging
+    SPLogging.set_level('debug')
+    SPLogging.start()
+    
+    import pygame
+    from pygame.constants import *
+    pygame.init()
+    
+    THEME = Init('default')
+    
+    from SPSpriteUtils import SPInit
+    
+    
+    
+    # needed for load_image function
+    scr = pygame.display.set_mode((800, 600))
+    scr.fill(MEDIUMORCHID2)
+    pygame.display.flip()
+    back = scr.convert()
+    def cbf(sprite, event, data):
+        print 'cb called with sprite %s, event %s and data %s' % (sprite, event, data)
+        print 'sprite name: %s' % sprite.get_name()
+    
+    def dice_cbf(sprite, event, data):
+        print 'cb called with sprite %s, event %s and data %s' % (sprite, event, data)
+        global dicebuttons
+        b = dicebuttons.next_level(data[0] + 1)
+    
+    def star_cbf(sprite, event, data):
+        print 'cb called with sprite %s, event %s and data %s' % (sprite, event, data)
+        print data
+        
+    
+    bl = []
+    actives = SPInit(scr, back)
+    
+    # dates are like this 07-09-09_10:44:27
+    # we ditch the second part
+#    data = [('07-09-09_10:44', 3.899), \
+#        ('07-09-09_11:44', 4.867), \
+#        ('07-09-09_12:44', 5.34), \
+#        ('07-09-09_13:44', 6.36), \
+#        ('07-09-09_14:44', 6.5), \
+#        ('07-09-09_15:44', 6.5), \
+#        ('07-09-10_10:44', 5.90), \
+#        ('07-09-10_10:34', 4.896), \
+#        ('07-09-10_10:20', 3.20)]
+#    s = Graph(data, 1, norm=(5, 50), headertext='Generated by Childsplay_sp 0.7 for the foobar activity')
+#    dlg = Dialog(s, (100, 100), buttons=["OK"], title='Results')
+#    dlg.run()
+#    dlg.erase_sprite()
+    
+#    sbd = StarButtonsDialog('seniorplay', (100, 300), cbf)
+#    sbd.set_level(1)
+#    dlg = sbd.get_dlg()
+#    dlg.run()
+
+    r = pygame.Rect(0, 0, 800, 100)
+    menubar = MenuBar(r, actives, cbf, dice_cbf)
+    bl = []
+    b = menubar.get_infobutton()
+    bl.append(b)
+    b = menubar.get_quitbutton()
+    bl.append(b)
+    b = menubar.get_chartbutton()
+    bl.append(b)
+    
+    actives.add(bl)
+    
+    for s in actives:
+        s.display_sprite()
+        
+    dicebuttons = menubar.get_dicebuttons()
+    dicebuttons.next_level(1)
+    
+    starbutton = StarButton(200, actives, star_cbf)
+    
+    runloop = 1 
+    while runloop:
+        pygame.time.wait(100)
+        pygame.event.pump()
+        events = pygame.event.get()
+        for event in events:
+            if event.type is KEYDOWN:
+                if event.key == K_ESCAPE:
+                    runloop = 0
+                elif event.key == K_F1:
+                    but = dicebuttons._current_but
+                    but.enable(False)
+                    print "button disabled"
+                elif event.key == K_F2:
+                    but = dicebuttons._current_but
+                    but.enable(True)
+                    print "button enabled"
+            else:
+                actives.update(event)
+    
+
+    
+    

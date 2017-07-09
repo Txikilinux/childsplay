@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="790.74982"
+   height="1032.9763"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   inkscape:export-filename="/home/stas/SVN-WORK/schoolsplay/branches/seniorplay2.1/lib/CPData/SynonymsData/seniorplay/background.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="background.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3639"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3661"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#bbc7f6"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.58009267"
+     inkscape:cx="501.92112"
+     inkscape:cy="317.36486"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1079"
+     inkscape:window-height="628"
+     inkscape:window-x="372"
+     inkscape:window-y="74"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(434.82021,1.3007134)">
+    <rect
+       style="fill:#4857f1;fill-opacity:1;stroke:#000000;stroke-width:6.58740187;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2832"
+       width="237.54219"
+       height="364.43204"
+       x="102.07655"
+       y="555.19196"
+       inkscape:export-filename="/home/stas/SVN-WORK/schoolsplay/branches/seniorplay2.1/lib/CPData/SynonymsData/seniorplay/background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#4857f1;fill-opacity:1;stroke:#000000;stroke-width:3.72628164;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2834"
+       width="502.15631"
+       height="193.99823"
+       x="-412.5545"
+       y="554.73419"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/stas/SVN-WORK/schoolsplay/branches/seniorplay2.1/lib/CPData/SynonymsData/seniorplay/background.png" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:4.09608078;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3629"
+       width="775.9035"
+       height="485.90393"
+       x="-422.02194"
+       y="543.72369"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/stas/SVN-WORK/schoolsplay/branches/seniorplay2.1/lib/CPData/SynonymsData/seniorplay/background.png" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:4.0539999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3629-1"
+       width="775.94556"
+       height="475.94559"
+       x="-432.79321"
+       y="0.72628653"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/stas/SVN-WORK/schoolsplay/branches/seniorplay2.1/lib/CPData/SynonymsData/seniorplay/beginbackground.png" />
+    <rect
+       style="fill:#4857f1;fill-opacity:1;stroke:#000000;stroke-width:4.91805601;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2834-0"
+       width="575.08197"
+       height="295.08194"
+       x="-344.43277"
+       y="38.296501"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/stas/SVN-WORK/schoolsplay/branches/seniorplay2.1/lib/CPData/SynonymsData/seniorplay/beginbackground.png" />
+  </g>
+</svg>

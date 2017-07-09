@@ -1,0 +1,23 @@
+The version of ocempgui in this directory is a fork of the 0.2.8 release.
+It's forked to be able to add pango font rendering instead of the 
+normal pygame font rendering.
+This is done to be able to provide proper locale support like RTL
+shaping and the display of all kinds of non-latin charcters.
+
+Important changes are done in the widgets.String module which now
+depends on the pangofont module in the CP package.
+Another change to make the dialog pixelperfect is done in the 
+DefaultEngine.draw_caption method.
+The themes directory is moved into the ocempgui/widgets dir.
+Finally all the imports are changed as we now package ocempgui in 
+the childsplay_sp package.
+For details, see the diffs.
+
+The way to use the new pango is very simple.
+ocempgui assumes pango rendering when the caller doesn't set a font
+to use or provides a font name without an .ttf extension.
+
+Contact Stas.zytkiewicz@gmail.com for more info. 
+
+Changes:
+Applied the 0.2.9 changes.

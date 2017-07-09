@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootmenu file="background.png" ocw="bgstrip.png">
+  <submenu file="cr_numbers.icon.png">
+    <position>10,10</position>
+    <menuitem file="row1.icon.png">
+      <activity>row1</activity>
+      <position>1,1</position>
+      <tooltip>Fibonacci sequence (5)</tooltip>
+    <menuitem file="row2.icon.png">
+        <activity>row2</activity>
+        <position>1,2</position>
+        <tooltip>Fibonacci sequence (6)</tooltip>
+  </menuitem>
+    </menuitem>
+    <menuitem file="stack1.icon.png">
+      <activity>stack1</activity>
+      <position>2,1</position>
+      <tooltip>Find the 6 missing numbers</tooltip>
+    </menuitem>
+    <menuitem file="stack2.icon.png">
+      <activity>stack2</activity>
+      <position>2,2</position>
+      <tooltip>Find the 10 missing numbers</tooltip>
+    </menuitem>
+    <menuitem file="stack3.icon.png">
+      <activity>stack3</activity>
+      <position>2,3</position>
+      <tooltip>Find the 15 missing numbers</tooltip>
+    </menuitem>
+  </submenu>
+</rootmenu>

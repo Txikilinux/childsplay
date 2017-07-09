@@ -1,0 +1,10 @@
+To start schoolsplay start a xterm; cd into this directory and type:
+python schoolsplay [Enter]
+
+Schoolsplay runs from sources so there's no need to install it.
+
+Be sure that the dependencies are met.
+Dependencies:
+Python >= 2.4
+PyGTK >= 2.6
+Sqlalchemy >= 0.3

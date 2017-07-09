@@ -1,0 +1,17 @@
+Menu icons must be in png format with a alpha channel.
+
+The menu icons can be localized by adding them in the same directory structure
+as the default icons but with a root directory named after the langauge code
+of the locale. eg For Dutch 'nl'.
+
+The default directory tree looks like this:
+ menuicons/...
+ menuicons/submenu/...
+
+So for Dutch we would have the following:
+ menuicons/nl/...
+ menuicons/nl/submenu/...
+
+Beware that the menu code doesn't check for the existence of the localized
+icons. You must make sure all the icons that are mentioned in the  menu xml
+file are present.

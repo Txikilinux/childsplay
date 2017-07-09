@@ -1,0 +1,60 @@
+Instructions for installation on Mac OSX
+----------------------------------------
+
+* Install Python 2.4.4 (later versions may work)
+  http://www.pythonmac.org/packages/py24-fat/dmg/python-2.4.4-macosx2006-10-18.dmg
+
+* Install PyGame 1.8.0 pre1 (later versions may work, also 1.7.1)
+  http://www.pythonmac.org/packages/py24-fat/mpkg/pygame-1.8.0pre-py2.4-macosx10.4.zip
+  
+* Install Numeric (NumPy may work also)
+  http://www.pythonmac.org/packages/py24-fat/mpkg/Numeric-24.2-py2.4-macosx10.4.zip
+  http://www.pythonmac.org/packages/py24-fat/dmg/numpy-1.0.1-py2.4-macosx10.4-2006-12-12.dmg
+
+* Install PyObjc
+  http://pyobjc.sourceforge.net/software/pyobjc-1.4-python2.4-macosx10.4.dmg
+
+* Install as sudo OcempGui 0.2.6 (later version may be necessary)
+  http://downloads.sourceforge.net/ocemp/OcempGUI-0.2.6.tar.gz
+  Make sure the file Constants.py in Lib\site-packages\ocempgui\widgets is adapted correct!
+  The last line should be something like:
+->DEFAULTDATADIR = "c:\Python24\share\ocempgui"
+  If not, delete the file and install OCempGui again.
+
+* Install PySqLite 2.0.7
+  http://initd.org/pub/software/pysqlite/releases/2.0/2.0.7/pysqlite-2.0.7.tar.gz
+  Take version 2.0.7 because that one is compatible with the SQLite installed by default in OS 10.4.  If you want a later version, you'll need to update SQLite also.
+  Do python setup.py build
+  Do sudo python setup.py install
+
+* Install as sudo SQLAlchemy 0.3.4 (later versions may work)
+  http://prdownloads.sourceforge.net/sqlalchemy/SQLAlchemy-0.3.4.tar.gz
+  But make sure it is not installed as an egg!!!
+  To do this, add to the setup.cfg of SQLAlchemy the following lines:
+  [easy_install]
+  zip_ok = 0
+
+* Install Schoolsplay (to for example C:\schoolsplay)
+  http://sourceforge.net/project/showfiles.php?group_id=181294
+  Download the zipfile, run "python setup.py install"
+
+* Congratulations, now you can run Schoolsplay from sources on Mac ;-)
+  To be able to make an application and an disk image you need to do the rest below.
+
+
+Instructions for building an application on Mac OSX
+---------------------------------------------------
+
+* Install setuptools 0.6c5
+  http://cheeseshop.python.org/pypi/setuptools/
+  $ curl -O http://peak.telecommunity.com/dist/ez_setup.py
+  $ sudo python ez_setup.py -U setuptools
+
+* Install Py2App (later versions may work)
+  $ sudo easy_install -U py2app
+
+* Now copy generic.iss, make_db.py, setup.py from 
+  http://schoolsplay.svn.sourceforge.net/viewvc/schoolsplay/windows/
+  to the directory where you installed schoolsplay
+  Now run python setup.py py2app
+  You should end up with an application package

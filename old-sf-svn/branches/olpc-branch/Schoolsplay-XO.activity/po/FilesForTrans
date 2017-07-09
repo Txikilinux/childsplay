@@ -1,0 +1,34 @@
+## These files contains i18n strings
+## Use: xgettext -f ./FilesForTrans -p /tmp
+## The message.po will be located in /tmp
+## Now do: msgmerge ./po/nl/gvr.po /tmp/messages.po > /tmp/new_nl.po
+## compile the .po to mo (place the .po after editing in ./po/nl/)
+## msgfmt ./po/nl/gvr.po -o ./locale/nl/LC_MESSAGES/gvr.mo 
+## Or just use UpdatePofiles :-)
+
+../SPCoreButtons.py
+../gui/SPMainGui.py
+../gui/SPNBP1.py
+../gui/SPCRBuilder.py
+../gui/SPNBP2.py
+../gui/SPNBP3.py
+../gui/SPCommonWidgets.py
+../gui/SPReporter.py
+../gui/SPNoteBook.py
+../gui/SPGuiDBModel.py
+../gui/SPCheckPass.py
+../SPocwWidgets.py
+../SPMainCore.py
+../SPgdm.py
+../SPDataManager.py
+../SPOptionParser.py
+../SPHelpText.py
+
+# activities
+../lib/fishtank.py
+../lib/memory.py
+../lib/CR_math_add1.py
+../lib/memoryupper.py
+../lib/memorylower.py
+../lib/memorynumbers.py
+../lib/CP_find_char_sound.py

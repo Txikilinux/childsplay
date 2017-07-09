@@ -1,0 +1,14 @@
+Schoolsplay uses the file SPBasePaths.py to get the various 
+directory paths.
+When you want to run schoolsplay from another location you
+have to edit the paths defined in SPBasePaths.py.
+
+Schoolsplay supports the OLPC XO laptop.
+As a result there are some 'sugar' imports which are of course 
+not available on a 'normal' system.
+To prevent error messages a fake sugar module is provided.
+It's recommended to keep this small module in the package
+as future releases could depent on it's presents.  
+
+For more info please contact Stas Zytkiewicz at 
+stas.zytkiewicz@gmail.com

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootmenu file="background.png" ocw="162,166,205">
+    <menuitem file="memory.icon.png">
+        <activity>memory</activity>
+        <position>40,40</position>
+    </menuitem>
+    <menuitem file="memorylower.icon.png">
+        <activity>memorylower</activity>
+        <position>160,40</position>
+    </menuitem>
+    <menuitem file="memoryupper.icon.png">
+        <activity>memoryupper</activity>
+        <position>280,40</position>
+    </menuitem>
+    <menuitem file="memorynumbers.icon.png">
+        <activity>memorynumbers</activity>
+        <position>400,40</position>
+    </menuitem>
+    <menuitem file="soundmemory.icon.png">
+    <activity>soundmemory</activity>
+    <position>520,40</position>
+  </menuitem>
+    <menuitem file="find_char_sound.icon.png">
+        <activity>find_char_sound</activity>
+        <position>40,130</position>
+    </menuitem>
+    <menuitem file="fallingletters.icon.png">
+        <activity>fallingletters</activity>
+        <position>160,130</position>
+    </menuitem>
+    <menuitem file="fishtank.icon.png">
+        <activity>fishtank</activity>
+        <position>40,220</position>
+    </menuitem>
+</rootmenu>

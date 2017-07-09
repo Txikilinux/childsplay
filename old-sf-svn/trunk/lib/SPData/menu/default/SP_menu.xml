@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootmenu file="background.png" ocw="bgstrip.png">
+  <submenu file="cr_numbers.icon.png">
+    <position>10,10</position>
+    <menuitem file="row1.icon.png">
+      <activity>act_row1</activity>
+      <position>2,1</position>
+      <tooltip>Fibonacci sequence (5)</tooltip>
+      <menuitem file="row2.icon.png">
+        <activity>act_row2</activity>
+        <position>2,2</position>
+        <tooltip>Fibonacci sequence (6)</tooltip>
+      </menuitem>
+    </menuitem>
+    <menuitem file="stack1.icon.png">
+      <activity>act_stack1</activity>
+      <position>3,1</position>
+      <tooltip>Find the 6 missing numbers</tooltip>
+    </menuitem>
+    <menuitem file="stack2.icon.png">
+      <activity>act_stack2</activity>
+      <position>3,2</position>
+      <tooltip>Find the 10 missing numbers</tooltip>
+    </menuitem>
+    <menuitem file="stack3.icon.png">
+      <activity>act_stack3</activity>
+      <position>3,3</position>
+      <tooltip>Find the 15 missing numbers</tooltip>
+    </menuitem>
+    <menuitem file="multitables.icon.png">
+      <activity>act_multitables</activity>
+      <position>1,4</position>
+      <tooltip>Multiplication tables (1-10)</tooltip>
+    </menuitem>
+    <menuitem file="act_add_1.icon.png">
+      <activity>act_add_1</activity>
+      <position>1,1</position>
+      <tooltip>act_add_1</tooltip>
+    </menuitem>
+    <menuitem file="act_sub_1.icon.png">
+      <activity>act_sub_1</activity>
+      <position>1,2</position>
+      <tooltip>act_sub_1</tooltip>
+    </menuitem>
+    <menuitem file="act_div_1.icon.png">
+      <activity>act_div_1</activity>
+      <position>1,3</position>
+      <tooltip>act_div_1</tooltip>
+    </menuitem>
+  </submenu>
+  <submenu file="cr_letters.icon.png">
+    <position>10,10</position>
+    <menuitem file="letterflash1.icon.png">
+      <activity>act_letterflash1</activity>
+      <position>1,1</position>
+      <tooltip>letterflash1</tooltip>
+    </menuitem>
+  </submenu>
+</rootmenu>

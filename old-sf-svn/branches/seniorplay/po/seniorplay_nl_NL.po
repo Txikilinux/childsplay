@@ -1,0 +1,671 @@
+#
+# seniorplay Language File
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: seniorplay 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-09 14:54+0200\n"
+"PO-Revision-Date: 2010-07-09 14:55+0100\n"
+"Last-Translator: Rene Dohmen <acidjunk@gmail.com>\n"
+"Language-Team: nl_NL <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: generate_pot.py\n"
+
+#: ../SPHelpText.py:72
+msgid ""
+"\n"
+"\n"
+"Touch the 'Play' button to continue the game."
+msgstr ""
+"\n"
+"\n"
+"Raak de 'Speel' knop aan om verder te gaan met het spel."
+
+#: ../SPHelpText.py:67
+msgid ""
+"\n"
+"\n"
+"Touch the changed picture."
+msgstr ""
+"\n"
+"\n"
+"Raak het veranderde plaatje aan."
+
+#: ../SPMenu.py:289
+msgid "A collection of braintrain games for seniors."
+msgstr "Een suite geheugen spellen speciaal voor senioren."
+
+#: ../SPMainCore.py:325
+msgid "Activity :"
+msgstr "Spel:"
+
+#: ../SPMainCore.py:407
+#, python-format
+msgid "Activity : %s"
+msgstr "Spel: %s"
+
+#: ../gui/AdminGui.py:280
+msgid "All the data was stored succesfully."
+msgstr "Alle gegevens zijn opgeslagen."
+
+#: ../SPMenu.py:291
+msgid "All the games have there own help page, just start a game and hit the stars on top of the screen to select another difficulty."
+msgstr "Alle spellen hebben een eigen help functie, start een spel en raak de sterren bovenin aan om een ander niveau te kiezen."
+
+#: ../SPHelpText.py:120
+msgid "Alphabet"
+msgstr "Alfabet"
+
+#: ../lib/quiz_melody.py:104
+#: ../lib/quiz_text.py:140
+#: ../lib/quiz_royal.py:110
+#: ../lib/quiz_history.py:225
+#: ../lib/quiz_math.py:99
+#: ../lib/quiz_picture.py:119
+msgid "Answer the quiz questions."
+msgstr "Beantwoord de quiz vragen."
+
+#: ../lib/puzzle.py:225
+msgid "At the bottom you'll see a image of the complete puzzle."
+msgstr "Onderin ziet u hoe het eruit komt te zien."
+
+#: ../lib/quiz_melody.py:106
+#: ../lib/quiz_text.py:142
+msgid "At the top of the screen, you will see a general knowledge question."
+msgstr "U ziet boven aan het scherm een algemene kennis vraag."
+
+#: ../lib/quiz_math.py:101
+msgid "At the top of the screen, you will see a math problem."
+msgstr "U ziet een reken probleem."
+
+#: ../lib/quiz_picture.py:121
+msgid "At the top of the screen, you will see a picture on the screen with a related question."
+msgstr "U ziet een vraag over een foto."
+
+#: ../lib/quiz_royal.py:112
+msgid "At the top of the screen, you will see a question about a member of Royalty"
+msgstr "U ziet een vraag over een koninklijke figuur of iemand van adel."
+
+#: ../lib/quiz_history.py:227
+msgid "At the top of the screen, you will see a question from general knowledge question from the selected period."
+msgstr "U ziet een vraag over een bepaalde periode uit de geschiedenis."
+
+#: ../lib/quiz_melody.py:107
+#: ../lib/quiz_text.py:143
+#: ../lib/quiz_royal.py:113
+#: ../lib/quiz_history.py:228
+#: ../lib/quiz_math.py:102
+#: ../lib/quiz_picture.py:122
+msgid ""
+"Below it are a choice of possible answers.\n"
+"Touch the correct answer."
+msgstr ""
+"Onder de vraag staan een aantal mogelijke antwoorden.\n"
+"Raak het juiste antwoord aan."
+
+#: ../SPWidgets.py:755
+#: ../SPWidgets.py:767
+#: ../SPMainCore.py:568
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: ../lib/ichanger.py:307
+msgid "Cheat"
+msgstr "Spiek"
+
+#: ../SPMainCore.py:209
+#, python-format
+msgid "Childsplay_sp - educational activities, using theme:%s"
+msgstr "Childsplay - educatieve activiteiten, thema %s in gebruik."
+
+#: ../SPgdm.py:73
+msgid "Childsplay_sp login"
+msgstr "Inloggen voor braintraining"
+
+#: ../lib/memory_sp.py:188
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr "Klassiek memory spel waarbij 2 dezelfde plaatjes gevonden moeten worden."
+
+#: ../lib/soundmemory.py:190
+msgid "Classic memory game where you have to find pairs of sounds."
+msgstr "Klassiek memory spel waarbij de plaatjes zijn vervangen door geluiden."
+
+#: ../lib/soundmemory.py:198
+#: ../lib/memory_sp.py:196
+#: ../lib/electro_sp.py:194
+msgid "Correctness is more important than speed"
+msgstr "Nauwkeurigheid is belangrijker dan snelheid."
+
+#: ../SPMainCore.py:854
+#: ../SPMainCore.py:1008
+#, python-format
+msgid "Current activity : %s"
+msgstr "Huidig spel: %s"
+
+#: ../SPMainCore.py:567
+msgid "Do you really want to quit ?"
+msgstr "Wilt u echt stoppen?"
+
+#: ../lib/electro_sp.py:176
+msgid "Electro_sp"
+msgstr "Electro"
+
+#: ../SPMainCore.py:392
+#: ../SPMainCore.py:400
+msgid "Error !"
+msgstr "Fout !"
+
+#: ../SPMainCore.py:399
+#, python-format
+msgid ""
+"Error constructing activity\n"
+"%s"
+msgstr ""
+"Fout bij opbouwen activiteit\n"
+"%s"
+
+#: ../SPMainCore.py:391
+#, python-format
+msgid ""
+"Error importing activity\n"
+"%s"
+msgstr ""
+"Fout bij importeren activiteit\n"
+"%s"
+
+#: ../SPWidgets.py:1219
+msgid "Exercises"
+msgstr "Oefeningen"
+
+#: ../lib/findit_sp.py:199
+msgid "Findit"
+msgstr "Findit"
+
+#: ../lib/fishtank.py:218
+msgid "Fishtank"
+msgstr "Aquarium spel"
+
+#: ../SPHelpText.py:121
+msgid "Fun"
+msgstr "Plezier"
+
+#: ../lib/fishtank.py:240
+msgid "Fun/Mousetraining"
+msgstr "Behendigheidstraining"
+
+#: ../lib/quiz_text.py:131
+msgid "General knowledge Quiz"
+msgstr "Algemene kennis Quiz"
+
+#: ../SPMainCore.py:697
+#, python-format
+msgid "Generated by Childsplay_sp version %s for the %s activity"
+msgstr "Gegenereerd door Childsplay_sp versie %s voor het spel %s"
+
+#: ../SPMainCore.py:452
+msgid "Hit the 'space' key or a mousebutton to skip the countdown"
+msgstr "Druk 'spatie' of klik om het aftellen over te slaan"
+
+#: ../lib/ichanger.py:272
+msgid "Ichanger"
+msgstr "Museum spel"
+
+#: ../lib/fishtank.py:228
+msgid "In the last level the fish needs to be clicked two times while they try to escape."
+msgstr "Op het hoogste niveau moeten de vissen 2 keer worden aangeraakt."
+
+#: ../SPMainCore.py:710
+#: ../SPMainCore.py:863
+msgid "Information"
+msgstr "Informatie"
+
+#: ../SPMainCore.py:651
+#, python-format
+msgid "Information about %s"
+msgstr "Informatie over %s"
+
+#: ../SPHelpText.py:54
+msgid "It seems that we cannot use the sound card right now and because this activity is all about sound, we just quit. This problem can also be caused by another application which uses the soundcard right now."
+msgstr "Het lijkt erop dat de geluidskaart op dit moment niet gebruikt kan worden en omdat dit spel niet speelbaar is zonder geluid, stopt dit spel nu. Dit probleem zo ook veroorzaakt kunnen worden door een andere applicatie die de geluidskaart op dit moment in gebruik heeft."
+
+#: ../SPHelpText.py:117
+msgid "Keyboardtraining"
+msgstr "Keyboardtraining"
+
+#: ../SPHelpText.py:119
+msgid "Language"
+msgstr "Taal"
+
+#: ../SPgdm.py:122
+msgid "Login"
+msgstr "Login"
+
+#: ../lib/puzzle.py:231
+msgid "Look closely at the complete puzzle picture at the bottom."
+msgstr "Kijk goed naar de complete puzzel onder aan het scherm."
+
+#: ../lib/memory_sp.py:190
+msgid ""
+"Look closely at the pictures when you have them memorized touch 'START'.\n"
+"The pictures turn around, you must match the memorized repeated cards."
+msgstr ""
+"Kijk goed naar de plaatjes en probeer ze te onthouden. Druk dan op 'Start'.\n"
+"De plaatjes worden vervolgens omgedraaid.\n"
+"Probeer dan de paren, die u onthouden heeft, weer te vinden door 2 dezelfde plaatjes aan te raken."
+
+#: ../SPHelpText.py:115
+#: ../lib/quiz_math.py:114
+msgid "Math"
+msgstr "Reken"
+
+#: ../lib/quiz_math.py:90
+msgid "Math Quiz"
+msgstr "Reken Quiz"
+
+#: ../lib/quiz_melody.py:95
+msgid "Melody Quiz"
+msgstr "Melodie Quiz"
+
+#: ../SPHelpText.py:61
+msgid ""
+"Memorize the pictures.\n"
+"\n"
+"One of these pictures will be replaced by a new picture.\n"
+"\n"
+"Touch the 'Start' button to begin the game."
+msgstr ""
+"Onthoud de plaatjes.\n"
+"\n"
+"Een van de plaatjes zal worden vervangen door een nieuw plaatje.\n"
+"\n"
+"Raak de 'Speel' knop aan om te beginnen."
+
+#: ../SPHelpText.py:114
+#: ../lib/quiz_melody.py:121
+#: ../lib/quiz_text.py:160
+#: ../lib/soundmemory.py:204
+#: ../lib/memory_sp.py:179
+#: ../lib/memory_sp.py:202
+#: ../lib/electro_sp.py:200
+#: ../lib/simon_sp.py:146
+msgid "Memory"
+msgstr "Memory"
+
+#: ../lib/simon_sp.py:140
+msgid "Mind the sound sequence as well as the colors sequence."
+msgstr "Let op de geluiden maar ook op de volgorde van de kleuren. "
+
+#: ../SPHelpText.py:122
+#: ../lib/ichanger.py:295
+#: ../lib/findit_sp.py:224
+#: ../lib/quiz_royal.py:125
+#: ../lib/quiz_history.py:240
+#: ../lib/quiz_picture.py:134
+#: ../lib/photoalbum.py:184
+#: ../lib/numbers.py:218
+msgid "Miscellaneous"
+msgstr "Overige"
+
+#: ../SPHelpText.py:118
+msgid "Mousetraining"
+msgstr "Muistraining"
+
+#: ../SPMainCore.py:515
+msgid "No"
+msgstr "Nee"
+
+#: ../SPWidgets.py:1120
+msgid "No data available for this level"
+msgstr "Geen data beschikbaar voor dit niveau"
+
+#: ../lib/photoalbum.py:202
+#, python-format
+msgid ""
+"No photo albums found !\n"
+"You should place your pictures inside directories called 'Album_1', 'Album_2' etc\n"
+" Place these directories inside %s"
+msgstr ""
+"Geen foto albums gevonden !\n"
+"U kunt uw afbeeldingen plaatsen in folders genaamd 'Album_1', 'Album_2' etc\n"
+"Plaats deze folders in %s"
+
+#: ../lib/photoalbum.py:172
+msgid "Number of levels : 1"
+msgstr "Aantal niveaus : 1"
+
+#: ../lib/quiz_melody.py:109
+msgid "Number of levels : 6"
+msgstr "Aantal niveaus : 6"
+
+#: ../lib/numbers.py:197
+msgid "Numbers"
+msgstr "Nummer spel"
+
+#: ../SPWidgets.py:755
+#: ../SPMainCore.py:392
+#: ../SPMainCore.py:400
+#: ../SPMainCore.py:568
+#: ../SPMainCore.py:573
+#: ../SPMainCore.py:574
+#: ../SPMainCore.py:651
+#: ../SPMainCore.py:699
+#: ../SPMainCore.py:710
+#: ../SPMainCore.py:863
+msgid "OK"
+msgstr "OK"
+
+#: ../lib/simon_sp.py:129
+msgid "On the screen are four blocks of different colours."
+msgstr "Op het scherm staan 4 knoppen met verschillende kleuren."
+
+#: ../lib/findit_sp.py:208
+msgid ""
+"On the screen you will see two almost identical pictures.\n"
+"However, there are differences between the images."
+msgstr ""
+"Op het scherm ziet u 2 bijna dezelfde plaatjes.\n"
+"Er zitten echter 3 subtiele verschillen verstopt in de plaatjes."
+
+#: ../lib/photoalbum.py:162
+msgid "Photoalbum"
+msgstr "Fotoalbum"
+
+#: ../lib/quiz_picture.py:110
+msgid "Picture Quiz"
+msgstr "Foto Quiz"
+
+#: ../lib/puzzle.py:223
+msgid "Place the puzzle piece on the right where you think it belongs..."
+msgstr "Plaats het puzzel stukje op de juiste plek."
+
+#: ../lib/ichanger.py:306
+msgid "Play"
+msgstr "Speel"
+
+#: ../lib/memory_sp.py:243
+msgid "Please, choose a set of cards."
+msgstr "Selecteer a.u.b. een set kaarten."
+
+#: ../lib/puzzle.py:276
+msgid "Please, choose a set of puzzle images."
+msgstr "Kies een set van plaatjes waar u mee wilt spelen."
+
+#: ../lib/simon_sp.py:130
+msgid "Press the Start button with your finger."
+msgstr "Raak de start knop aan."
+
+#: ../SPHelpText.py:116
+#: ../lib/puzzle.py:214
+#: ../lib/puzzle.py:237
+msgid "Puzzle"
+msgstr "Puzzel"
+
+#: ../SPMainCore.py:515
+msgid "Question ?"
+msgstr "Vraag ?"
+
+#: ../SPMainCore.py:568
+msgid "Quit ?"
+msgstr "Stoppen ?"
+
+#: ../lib/quiz_history.py:216
+msgid "Quiz history"
+msgstr "Geschiedenis Quiz"
+
+#: ../lib/quiz_royal.py:101
+msgid "Quiz royal"
+msgstr "Royal Quiz"
+
+#: ../SPMainCore.py:699
+msgid "Results"
+msgstr "Resultaten"
+
+#: ../SPMainCore.py:699
+#: ../SPMainCore.py:703
+msgid "Save image"
+msgstr "Plaatje opslaan"
+
+#: ../SPWidgets.py:1152
+#, python-format
+msgid "Scores reached in level %s"
+msgstr "Score op niveau %s"
+
+#: ../SPMenu.py:276
+msgid "Select an activity and click on the button, the activity will be started."
+msgstr "Selecteer een spel en raak het icoon aan; het spel wordt gestart."
+
+#: ../SPMenu.py:267
+msgid "Seniorplay"
+msgstr "Braintrainer"
+
+#: ../lib/ichanger.py:281
+msgid ""
+"Several images from the past will appear on the screen.\n"
+"Look carefully at them and remember what you see."
+msgstr ""
+"Verschillende plaatjes uit het verleden verschijnen op het scherm.\n"
+"Bekijk ze goed en probeer ze te onthouden."
+
+#: ../lib/simon_sp.py:118
+msgid "Simon_sp"
+msgstr "Simon Says"
+
+#: ../lib/soundmemory.py:181
+msgid "Soundmemory"
+msgstr "Geluiden memory"
+
+#: ../lib/memory_sp.py:363
+msgid "Start"
+msgstr "Start"
+
+#: ../SPMainCore.py:444
+#, python-format
+msgid "Starting level %s"
+msgstr "Niveau %s wordt gestart"
+
+#: ../SPMainCore.py:588
+msgid "Stopping timers, please wait..."
+msgstr "Timers worden gestopt, even geduld a.u.b."
+
+#: ../lib/simon_sp.py:132
+msgid "The  blocks will light up randomly along with sound clues."
+msgstr "De blokken zullen in een willekeurige volgorde oplichten."
+
+#: ../lib/quiz_melody.py:103
+#: ../lib/ichanger.py:280
+#: ../lib/quiz_text.py:139
+#: ../lib/findit_sp.py:207
+#: ../lib/fishtank.py:226
+#: ../lib/soundmemory.py:189
+#: ../lib/memory_sp.py:187
+#: ../lib/quiz_royal.py:109
+#: ../lib/quiz_history.py:224
+#: ../lib/electro_sp.py:184
+#: ../lib/quiz_math.py:98
+#: ../lib/quiz_picture.py:118
+#: ../lib/photoalbum.py:170
+#: ../lib/numbers.py:205
+#: ../lib/simon_sp.py:126
+#: ../lib/puzzle.py:222
+msgid "The aim of this activity:"
+msgstr "Het doel van dit spel:"
+
+#: ../lib/findit_sp.py:212
+msgid "The arrows to the left take you to the previous image."
+msgstr "Raak het linkerpijltje aan om naar het vorige plaatje te gaan."
+
+#: ../lib/memory_sp.py:246
+#: ../lib/puzzle.py:279
+msgid "The difficulty of the set increases from left to right."
+msgstr "De iconen aan de rechterkant zijn moeilijker."
+
+#: ../lib/electro_sp.py:185
+msgid "The game is to match pairs of pictures"
+msgstr "Probeer de logische paren te vinden."
+
+#: ../gui/AdminGui.py:201
+msgid "The table 'activity_options' doesn't exist in the dbase"
+msgstr "De tavel 'activity_options' is niet te vinden in de database."
+
+#: ../gui/AdminGui.py:278
+#, python-format
+msgid ""
+"There was a problem while replacing the rows in the database.\n"
+"The exception was:\n"
+"%s"
+msgstr ""
+"Er was een probleem met verplaatsen van de rijen in de database.\n"
+"De foutcode is:\n"
+"%s"
+
+#: ../SPMainCore.py:1113
+#, python-format
+msgid "There was an error in %s. Please check the logs and inform the developers"
+msgstr "Er was een fout in %s. Bekijk de logs en breng de developers op de hoogte"
+
+#: ../SPHelpText.py:46
+#, python-format
+msgid "There was an error in the database this can be caused by many things but most of the time it's caused by the fact that your version of the database doesn't match the version of the program. I will backup your original database and then replace it with a new one. The original database is now called sp.db_back and it's placed in %s"
+msgstr "Er was een fout in de database dit kan veroorzaakt zijn door verschillende dingen maar meestal wordt dit veroorzaakt door het feit dat uw versie van de database niet overeenkomt met de versie van het programma. Er wordt een backup gemaakt van van de orginele database, de huidge wordt dan vervangen door een nieuwe. De originele databse is bewaard onder de naam sp.db_back in %s"
+
+#: ../lib/ichanger.py:301
+#: ../lib/quiz_text.py:166
+#: ../lib/findit_sp.py:231
+#: ../lib/fishtank.py:247
+#: ../lib/soundmemory.py:210
+#: ../lib/memory_sp.py:209
+#: ../lib/quiz_royal.py:131
+#: ../lib/quiz_history.py:247
+#: ../lib/electro_sp.py:206
+#: ../lib/quiz_picture.py:141
+#: ../lib/photoalbum.py:191
+#: ../lib/numbers.py:225
+#: ../lib/simon_sp.py:152
+#: ../lib/puzzle.py:244
+#, python-format
+msgid "This activity has %s levels"
+msgstr "Het spel heeft %s niveaus."
+
+#: ../SPMenu.py:275
+msgid "This is the menu used to select an activity."
+msgstr "Dit is het menu dat gebruikt wordt om een spel te starten."
+
+#: ../SPMainCore.py:643
+#, python-format
+msgid "Tip:%s"
+msgstr "Tip: %s"
+
+#: ../lib/ichanger.py:283
+msgid ""
+"Touch the 'START' button on the right.\n"
+"The images will dissappear and when they return, one will have changed.\n"
+"Touch the picture which has changed."
+msgstr ""
+"Raak de 'Speel' knop aan.\n"
+"De plaatjes zullen verdwijnen en als ze weer te voorschijn komen, zal er 1 veranderd zijn.\n"
+"Raak het veranderde plaatje aan."
+
+#: ../lib/fishtank.py:227
+msgid "Try to remove the fish by clicking on them with the mouse."
+msgstr "Verwijder de vissen door ze aan te raken."
+
+#: ../lib/simon_sp.py:127
+msgid "Try to repeat the sequence of sounds played."
+msgstr "Probeer het patroon van kleuren en geluiden te herhalen."
+
+#: ../SPMenu.py:277
+msgid "Use the 'sub menu' buttons for the different activity menus"
+msgstr "Gebruik de 'sub menu' knoppen om de verschillende spellen te kiezen."
+
+#: ../SPMenu.py:293
+msgid "Use the menu below to choose between the different game categories"
+msgstr "Gebruik het menu aan de onderkant om een andere spel categorie te kiezen."
+
+#: ../SPMainCore.py:312
+#, python-format
+msgid "User: %s"
+msgstr "Gebruiker: %s"
+
+#: ../SPgdm.py:104
+msgid "Username:"
+msgstr "Inlog naam:"
+
+#: ../lib/simon_sp.py:133
+msgid "When the flashing stops you will be prompted to repeat the sequence by touching the coloured blocks."
+msgstr "Als het patroon klaar is wordt u gevraagd dit te herhalen door de desbetreffende kleuren aan te raken."
+
+#: ../lib/findit_sp.py:210
+msgid ""
+"When you spot a difference, touch it with your finger.\n"
+"You can click the question mark in the middle of the screen if you need a hint."
+msgstr ""
+"Probeer de verschillen te vinden en raak ze aan.\n"
+"Je kunt de 'vraagteken' knop gebruiken om een hint te krijgen."
+
+#: ../lib/soundmemory.py:192
+msgid ""
+"When you touch the picture you will hear a sound.\n"
+"Match the image with others that make the same sound,to get points."
+msgstr ""
+"Raak de knoppen aan en u hoort een geluid.\n"
+"Probeer de geluiden te vinden die hetzelfde zijn."
+
+#: ../virtnumpad.py:235
+msgid "Year of birth"
+msgstr "Geboortejaar"
+
+#: ../SPMainCore.py:515
+#: ../SPMainCore.py:519
+msgid "Yes"
+msgstr "Ja"
+
+#: ../SPMainCore.py:514
+msgid "You play very good, do you want to try the next level ?"
+msgstr "U speelt erg goed, wilt u een volgend niveau proberen ?"
+
+#: ../lib/electro_sp.py:187
+msgid ""
+"You select the pictures by touching them.\n"
+"As you progress through the star levels more pairs appear to match."
+msgstr ""
+"Selecteer de plaatjes door ze aan te raken.\n"
+"Hoe hoger het niveau dat u kiest hoe meer plaatjes er verschijnen."
+
+#: ../SPMainCore.py:709
+#, python-format
+msgid ""
+"Your image is saved at:\n"
+"%s"
+msgstr ""
+"Uw afbeelding is bewaard in:\n"
+"%s"
+
+#: ../lib/quiz_text.py:154
+#, python-format
+msgid "question id: %s"
+msgstr "Vraag id: %s"
+
+#~ msgid "Daily training"
+#~ msgstr "Dagelijkse training"
+#~ msgid "Long-term"
+#~ msgstr "Lange termijn"
+#~ msgid "Number of levels : 2"
+#~ msgstr "Aantal niveaus : 2"
+#~ msgid "Number of levels : 4"
+#~ msgstr "Aantal niveaus : 4"
+#~ msgid "Number of levels : 5"
+#~ msgstr "Aantal niveaus : 5"
+#~ msgid "Puzzles"
+#~ msgstr "Puzzels"
+#~ msgid "Short-term"
+#~ msgstr "Korte termijn"
+#~ msgid "Text Quiz"
+#~ msgstr "Text Quiz"
+#~ msgid "The number of stars indicates the difficulty of the set."
+#~ msgstr "De sets verschillen qua niveau van elkaar."
+#~ msgid "This activity has %s level"
+#~ msgstr "Het spel heeft %s niveau's"
+

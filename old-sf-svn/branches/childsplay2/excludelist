@@ -1,0 +1,9 @@
+po/FilesForTrans
+po/Po2Mo.log
+po/Po2Mo.py
+po/UpdatePofile.sh
+./eric4project
+./ropeproject
+lib/CPData/Quizcontent
+SPData-nonfree
+artwork

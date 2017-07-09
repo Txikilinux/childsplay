@@ -1,0 +1,16 @@
+Childsplay_sp is under construction.
+
+Things that will redesigned are:
+Menu - will no longer be defined in a XML file but in a SQL table
+and the menu will be constructed at run time.
+This gives us the possibility to create custom menus for each
+user.
+
+login screen - Will become a screen with buttons with names or icons.
+The current 'give name' will stay as a commandline option.
+
+The SPMainCore module - will become more theme aware as we want to make
+the various versions like cognitionplay, seniorplay and others to be
+themes and not seperate packages.
+
+Maybe more, contact stas.zytkiewicz@gmail.com for more info.

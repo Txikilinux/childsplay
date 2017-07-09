@@ -1,0 +1,833 @@
+# Frenach language file foir BT+.
+# This file is distributed under the same license as the PACKAGE package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-25 15:55+0200\n"
+"PO-Revision-Date: 2010-09-23 07:43+0100\n"
+"Last-Translator: Stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
+"Language-Team: fr_FR <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../SPHelpText.py:72
+msgid ""
+"\n"
+"\n"
+"Touch the 'Play' button to continue the game."
+msgstr ""
+"\n"
+"\n"
+"Touchez vous  le bouton 'Jouer' pour continuer le jeu."
+
+#: ../SPHelpText.py:67
+msgid ""
+"\n"
+"\n"
+"Touch the changed picture."
+msgstr ""
+"\n"
+"\n"
+"Touchez vous l'image modifiée."
+
+#: ../SPMenu.py:308
+msgid "A collection of braintrain games for seniors."
+msgstr "Une collection de jeux  pour l'entraînement cérébral pour les aînés."
+
+#: ../SPMainCore.py:348
+msgid "Activity :"
+msgstr "Activité :"
+
+#: ../SPMainCore.py:432
+#, python-format
+msgid "Activity : %s"
+msgstr "Activité :%s"
+
+#: ../SPMenu.py:310
+msgid ""
+"All the games have there own help page, just start a game and hit the stars "
+"on top of the screen to select another difficulty."
+msgstr ""
+"Tous les jeux ont leur propre page d'assistance. Vous commencez le jeu et "
+"puis vous touchez les étoiles en haut de la page afin de choisir un autre "
+"niveau de difficulté."
+
+#: ../SPHelpText.py:120
+msgid "Alphabet"
+msgstr "L'Alphabet"
+
+#: ../lib/spinbottle.py:119 ../lib/synonyms.py:117
+msgid "Already found:"
+msgstr "Déjà trouvé:"
+
+#: ../lib/quiz_math.py:103
+#, fuzzy
+msgid "Answer the math questions."
+msgstr "Répondez vous aux questions de quiz."
+
+#: ../lib/quiz_melody.py:108 ../lib/quiz_text.py:109 ../lib/quiz_royal.py:114
+#: ../lib/quiz_history.py:230 ../lib/quiz_picture.py:116
+msgid "Answer the quiz questions."
+msgstr "Répondez vous aux questions de quiz."
+
+#: ../lib/story.py:86
+msgid "Answers:"
+msgstr "Les réponses:"
+
+#: ../SPMainCore.py:672 ../SPMainCore.py:746
+msgid ""
+"Are sure you want to quit the dailytraining ? All the results will be lost."
+msgstr ""
+"Est-ce que vous êtes sur que vous voulez quitter? Tous les résultats seront "
+"perdus."
+
+#: ../lib/puzzle.py:226
+msgid "At the bottom you'll see a image of the complete puzzle."
+msgstr "En bas de page, on voit l'image du casse-tête achevé."
+
+#: ../lib/quiz_melody.py:110 ../lib/quiz_text.py:111
+msgid "At the top of the screen, you will see a general knowledge question."
+msgstr "En haut de page, on voit une question de culture générale."
+
+#: ../lib/quiz_math.py:105
+msgid "At the top of the screen, you will see a math problem."
+msgstr "En haut de page, on voit une question de mathématique."
+
+#: ../lib/quiz_picture.py:118
+msgid ""
+"At the top of the screen, you will see a picture on the screen with a "
+"related question."
+msgstr "En haut de page, on voit une image avec une question liée."
+
+#: ../lib/quiz_royal.py:116
+msgid ""
+"At the top of the screen, you will see a question about a member of Royalty"
+msgstr ""
+"En haut de page, on voit une question des membres d'une famille royale."
+
+#: ../lib/quiz_history.py:232
+msgid ""
+"At the top of the screen, you will see a question from general knowledge "
+"question from the selected period."
+msgstr ""
+"En haut de page, on voit une question de culture générale de la période "
+"choisi."
+
+#: ../lib/quiz_melody.py:111 ../lib/quiz_text.py:112 ../lib/quiz_royal.py:117
+#: ../lib/quiz_history.py:233 ../lib/quiz_math.py:106
+#: ../lib/quiz_picture.py:119
+msgid ""
+"Below it are a choice of possible answers.\n"
+"Touch the correct answer."
+msgstr ""
+"Au-dessous il y a un choix de réponses possibles.\n"
+"Touchez vous la réponse correcte. "
+
+#: ../SPWidgets.py:829 ../SPWidgets.py:841 ../SPMainCore.py:625
+msgid "Cancel"
+msgstr "Annulez"
+
+#: ../lib/ichanger.py:315 ../languageDefinitions.py:23
+msgid "Cheat"
+msgstr "Trichez"
+
+#: ../SPMainCore.py:229
+#, python-format
+msgid "Childsplay_sp - educational activities, using theme:%s"
+msgstr "Childsplay_sp - des activités educatives, du thème:%s"
+
+#: ../SPgdm.py:73
+msgid "Childsplay_sp login"
+msgstr "Childsplay_sp s'identifier"
+
+#: ../lib/memory_sp.py:188
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr "Jeu de memoire classique où vous devez trouver des paires de cartes."
+
+#: ../lib/soundmemory.py:190
+msgid "Classic memory game where you have to find pairs of sounds."
+msgstr "Jeu de memoire classique où vous devez trouver des paires de sons."
+
+#: ../languageDefinitions.py:32
+msgid "Continue movie"
+msgstr ""
+
+#: ../lib/soundmemory.py:198 ../lib/memory_sp.py:196 ../lib/electro_sp.py:200
+msgid "Correctness is more important than speed"
+msgstr "La conformité est plus importante que la vitesse."
+
+#: ../SPMainCore.py:962 ../SPMainCore.py:1131
+#, python-format
+msgid "Current activity : %s"
+msgstr "Activité actuelle : %s"
+
+#: ../languageDefinitions.py:29
+msgid "Did you enjoy this?"
+msgstr ""
+
+#: ../SPMainCore.py:624
+msgid "Do you really want to quit ?"
+msgstr "Voulez vous vraiment déconnecté?"
+
+#: ../lib/electro_sp.py:182
+msgid "Electro_sp"
+msgstr "Electro_sp"
+
+#: ../SPMainCore.py:416 ../SPMainCore.py:424
+msgid "Error !"
+msgstr "Erreur!"
+
+#: ../SPMainCore.py:423
+#, python-format
+msgid ""
+"Error constructing activity\n"
+"%s"
+msgstr ""
+"Erreur en construisant l'activité \n"
+"%s"
+
+#: ../SPMainCore.py:415
+#, python-format
+msgid ""
+"Error importing activity\n"
+"%s"
+msgstr ""
+"Erreur d'importation de l'activité \n"
+"%s"
+
+#: ../SPWidgets.py:1307
+msgid "Exercises"
+msgstr "Les exercises"
+
+#: ../SPMainCore.py:1254
+#, python-format
+msgid "Failed to make screenshot %s"
+msgstr "C'était impossible de faire une copie d'écran %s"
+
+#: ../seniorplay.py:148
+#, python-format
+msgid ""
+"Failed to parse the logfile, please contact the developers.\n"
+"Message was: %s"
+msgstr ""
+
+#: ../SPMainCore.py:1262
+#, python-format
+msgid "Failed to send the email. Error: %s"
+msgstr "On ne peut pas envoyer le courrier électronique. Erreur: %s"
+
+#: ../lib/findit_sp.py:200
+msgid "Findit"
+msgstr "Trouvez-le"
+
+#: ../lib/fishtank.py:218
+msgid "Fishtank"
+msgstr "Aquarium"
+
+#: ../SPHelpText.py:121
+msgid "Fun"
+msgstr "Amusement"
+
+#: ../lib/fishtank.py:240
+msgid "Fun/Mousetraining"
+msgstr "Amusement / la formation de souris"
+
+#: ../SPMainCore.py:778
+#, python-format
+msgid "Generated by Childsplay_sp version %s for the %s activity"
+msgstr "Créé par Childsplay_sp version %s pour l'activité de %s"
+
+#: ../languageDefinitions.py:22
+msgid "Good!"
+msgstr ""
+
+#: ../lib/spinbottle.py:207 ../lib/synonyms.py:154
+msgid "Hit the 'Begin' button to start."
+msgstr "Touchez vous  le bouton 'Commence' pour commencer."
+
+#: ../SPMainCore.py:487
+msgid "Hit the 'space' key or a mousebutton to skip the countdown"
+msgstr ""
+"Touchez la barre d'espacement ou le souris afin de sauter la compte à rebours"
+
+#: ../lib/ichanger.py:279
+msgid "Ichanger"
+msgstr "Ichanger"
+
+#: ../lib/fishtank.py:228
+msgid ""
+"In the last level the fish needs to be clicked two times while they try to "
+"escape."
+msgstr ""
+"Au dernier niveau on doit cliquer sur les poissons deux fois pendant qu'ils "
+"essaient de s'échapper."
+
+#: ../SPMainCore.py:791 ../SPMainCore.py:971
+msgid "Information"
+msgstr "Information"
+
+#: ../SPMainCore.py:720
+#, python-format
+msgid "Information about %s"
+msgstr "Information quant à %s"
+
+#: ../SPHelpText.py:54
+msgid ""
+"It seems that we cannot use the sound card right now and because this "
+"activity is all about sound, we just quit. This problem can also be caused "
+"by another application which uses the soundcard right now."
+msgstr ""
+"Il semble qu'on ne peut pas utiliser la carte de son actuellement. Ce jeu a "
+"besoin de son et donc on va juste quitter. Ce problème peut être provoqué "
+"par le fait que la carte du son est en cours d'utilisation par une autre "
+"application."
+
+#: ../SPHelpText.py:117
+msgid "Keyboardtraining"
+msgstr "La formation du clavier"
+
+#: ../SPHelpText.py:119
+msgid "Language"
+msgstr "Langue"
+
+#: ../SPgdm.py:122
+msgid "Login"
+msgstr "Identifiant"
+
+#: ../lib/puzzle.py:232
+msgid "Look closely at the complete puzzle picture at the bottom."
+msgstr "Regardez vous de près l'image du casse-tête achevé en bas de page."
+
+#: ../lib/memory_sp.py:190
+msgid ""
+"Look closely at the pictures when you have them memorized touch 'START'.\n"
+"The pictures turn around, you must match the memorized repeated cards."
+msgstr ""
+"Regardez vous de près les images et quand vouz les avez mémorisées, touchez "
+"'Commence'. \n"
+"Les images se retournent, vous devez choisir les cartes mémorisées qui "
+"correspondent."
+
+#: ../lib/synonyms.py:116
+msgid "Make a word with the letter: "
+msgstr "Faisez un mot qui commence avec la lettre:"
+
+#: ../SPHelpText.py:115 ../lib/quiz_math.py:118
+msgid "Math"
+msgstr "Math"
+
+#: ../lib/quiz_text.py:100 ../lib/quiz_math.py:94
+msgid "Math Quiz"
+msgstr "Quiz de mathématiques"
+
+#: ../lib/quiz_melody.py:99
+msgid "Melody Quiz"
+msgstr "Quiz de son"
+
+#: ../SPHelpText.py:61
+msgid ""
+"Memorize the pictures.\n"
+"\n"
+"One of these pictures will be replaced by a new picture.\n"
+"\n"
+"Touch the 'Start' button to begin the game."
+msgstr ""
+"Mémorisez vous les images.\n"
+"\n"
+"Une de ces images sera remplacé par une image nouvelle.\n"
+"\n"
+"Touchez vous 'Commence' pour commencer le jeu."
+
+#: ../SPHelpText.py:114 ../lib/quiz_melody.py:125 ../lib/quiz_text.py:124
+#: ../lib/soundmemory.py:204 ../lib/memory_sp.py:179 ../lib/memory_sp.py:202
+#: ../lib/electro_sp.py:206 ../lib/simon_sp.py:150
+#: ../languageDefinitions.py:34
+msgid "Memory"
+msgstr "Memoire"
+
+#: ../lib/simon_sp.py:144
+msgid "Mind the sound sequence as well as the colors sequence."
+msgstr ""
+"Faites attention à la séquence des sons aussi que à la séquence des couleurs."
+
+#: ../SPHelpText.py:122 ../lib/ichanger.py:302 ../lib/findit_sp.py:225
+#: ../lib/quiz_royal.py:129 ../lib/quiz_history.py:245
+#: ../lib/quiz_picture.py:131 ../lib/photoalbum.py:183 ../lib/numbers.py:223
+#: ../lib/story.py:214 ../lib/video.py:167 ../lib/spinbottle.py:221
+#: ../lib/synonyms.py:167
+msgid "Miscellaneous"
+msgstr "Divers"
+
+#: ../SPHelpText.py:118
+msgid "Mousetraining"
+msgstr "La formation de souris."
+
+#: ../languageDefinitions.py:35
+msgid "New Games"
+msgstr ""
+
+#: ../languageDefinitions.py:27
+#, fuzzy
+msgid "New question"
+msgstr "Question?"
+
+#: ../languageDefinitions.py:26
+msgid "New word"
+msgstr ""
+
+#: ../languageDefinitions.py:33
+msgid "Next movie"
+msgstr ""
+
+#: ../SPMainCore.py:554 ../SPMainCore.py:673 ../SPMainCore.py:676
+#: ../SPMainCore.py:747 ../SPMainCore.py:750 ../languageDefinitions.py:31
+msgid "No"
+msgstr "Non"
+
+#: ../SPWidgets.py:1208
+msgid "No data available for this level"
+msgstr "Il n'y a pas de données pour ce niveau"
+
+#: ../lib/photoalbum.py:208
+#, python-format
+msgid ""
+"No photo albums found !\n"
+"You should place your pictures inside directories called 'Album_1', "
+"'Album_2' etc\n"
+" Place these directories inside %s"
+msgstr ""
+"On n'a pas trouvé l'album de photos !\n"
+"Vous devez mettre vos images dans les répertoires qui s'appellent 'Album_1', "
+"'Album_2' etc\n"
+" Mettez vous ces répertoires dans %s"
+
+#: ../lib/photoalbum.py:171 ../lib/video.py:155
+msgid "Number of levels : 1"
+msgstr "Nombre de niveaux : 1"
+
+#: ../lib/quiz_melody.py:113 ../lib/spinbottle.py:209 ../lib/synonyms.py:156
+msgid "Number of levels : 6"
+msgstr "Nombre de niveaux : 6"
+
+#: ../lib/numbers.py:202
+msgid "Numbers"
+msgstr "Nombres"
+
+#: ../SPWidgets.py:829 ../SPMainCore.py:416 ../SPMainCore.py:424
+#: ../SPMainCore.py:625 ../SPMainCore.py:630 ../SPMainCore.py:631
+#: ../SPMainCore.py:720 ../SPMainCore.py:780 ../SPMainCore.py:791
+#: ../SPMainCore.py:971 ../seniorplay.py:149
+msgid "OK"
+msgstr "D'accord"
+
+#: ../lib/story.py:201
+msgid ""
+"On the next screen you will see a short text, read it and try to remember as "
+"much as possible."
+msgstr ""
+"Sur le prochain écran, il y a un petit texte - lisez le et essayez de se "
+"rappeler de autant que possible."
+
+#: ../lib/synonyms.py:152
+#, python-format
+msgid ""
+"On the next screen you'll find a keyboard, try to make as much words as "
+"possible that begin with the letter '%s'."
+msgstr ""
+"Sur le prochain écran, il y a un clavier. Essayez d'écrire autant de mots "
+"possibles qui commence avec la lettre '%s'."
+
+#: ../lib/spinbottle.py:205
+#, python-format
+msgid ""
+"On the next screen you'll find a keyboard, try to name as much %s as "
+"possible with the same letter."
+msgstr ""
+"Sur le prochain écran, il y a un clavier. Essayez de trouver le plus de %s "
+"possible avec la même lettre."
+
+#: ../lib/simon_sp.py:133
+msgid "On the screen are four blocks of different colours."
+msgstr "Sur l'écran, il y a quatre blocs de couleurs différentes."
+
+#: ../lib/findit_sp.py:209
+msgid ""
+"On the screen you will see two almost identical pictures.\n"
+"However, there are differences between the images."
+msgstr ""
+"Sur l'écran, il y a deux images presque identique. \n"
+"Cependant, il y a des différences entre les deux images."
+
+#: ../lib/spinbottle.py:206 ../lib/synonyms.py:153
+msgid "Only words from the dictionary are allowed."
+msgstr "On ne peut qu'utiliser les mots qui sont dans le dictionnaire."
+
+#: ../languageDefinitions.py:28
+msgid "Other category"
+msgstr ""
+
+#: ../SPWidgets.py:1240
+#, python-format
+msgid "Percentile scores for level %s"
+msgstr "Les résultats percentile pour niveau %s"
+
+#: ../lib/photoalbum.py:161
+msgid "Photoalbum"
+msgstr "Album de photos"
+
+#: ../lib/quiz_picture.py:107
+msgid "Picture Quiz"
+msgstr "Quiz d'image"
+
+#: ../lib/puzzle.py:224
+msgid "Place the puzzle piece on the right where you think it belongs..."
+msgstr "Mettez vous la pièce à droite où vous pensez que ça doit être..."
+
+#: ../lib/ichanger.py:313
+msgid "Play"
+msgstr "Jouez"
+
+#: ../SPMainCore.py:1257
+msgid ""
+"Please give a short description or ticket number and hit [Enter] (max 50 "
+"characters)"
+msgstr ""
+"Donnez une petite description ou le numéro de billet svp et appuyez sur "
+"[Enter] (max 50 characters)"
+
+#: ../lib/memory_sp.py:258
+msgid "Please, choose a set of cards."
+msgstr "S'il vous plaît, choissisez vous un jeu de cartes."
+
+#: ../lib/puzzle.py:277
+msgid "Please, choose a set of puzzle images."
+msgstr "S'il vous plaît, choissisez vous un lot d'images du casse-tête."
+
+#: ../lib/simon_sp.py:134
+msgid "Press the Start button with your finger."
+msgstr "Touchez vous le bouton 'Commence' avec votre doigt."
+
+#: ../SPHelpText.py:116 ../lib/puzzle.py:215 ../lib/puzzle.py:238
+#: ../languageDefinitions.py:36
+msgid "Puzzle"
+msgstr "Le casse-tête"
+
+#: ../SPMainCore.py:554 ../SPMainCore.py:673 ../SPMainCore.py:747
+msgid "Question ?"
+msgstr "Question?"
+
+#: ../SPMainCore.py:625
+msgid "Quit ?"
+msgstr "Quittez?"
+
+#: ../languageDefinitions.py:37
+#, fuzzy
+msgid "Quiz"
+msgstr "Quiz de mathématiques"
+
+#: ../lib/quiz_history.py:221
+msgid "Quiz history"
+msgstr "Quiz d'histoire"
+
+#: ../lib/quiz_royal.py:105
+msgid "Quiz royal"
+msgstr "Quiz des membres d'une famille royale"
+
+#: ../SPMainCore.py:780
+msgid "Results"
+msgstr "Résultats"
+
+#: ../SPMainCore.py:780 ../SPMainCore.py:784
+msgid "Save image"
+msgstr "Enregistrez l'image"
+
+#: ../SPMenu.py:295
+msgid ""
+"Select an activity and click on the button, the activity will be started."
+msgstr ""
+"Choissisez vous une activité, touchez le bouton et le jeu va commencer."
+
+#: ../SPMenu.py:286
+msgid "Seniorplay"
+msgstr "Jeu pour les aînés."
+
+#: ../lib/ichanger.py:288
+msgid ""
+"Several images from the past will appear on the screen.\n"
+"Look carefully at them and remember what you see."
+msgstr ""
+"Plusiers images de la passée vont paraître sur l'écran.\n"
+"Regardez les de près et mémorisez vous ce que vous voyez."
+
+#: ../lib/simon_sp.py:122
+msgid "Simon_sp"
+msgstr "Simon_sp"
+
+#: ../lib/soundmemory.py:181
+msgid "Soundmemory"
+msgstr "Mémoire de son"
+
+#: ../lib/spinbottle.py:195
+msgid "Spin the bottle"
+msgstr "Le jeu de la bouteille"
+
+#: ../lib/memory_sp.py:383 ../languageDefinitions.py:24
+msgid "Start"
+msgstr "Commencez"
+
+#: ../lib/spinbottle.py:129 ../lib/synonyms.py:346
+msgid "Starting a new exercise"
+msgstr "On commence un nouveau exercise"
+
+#: ../SPMainCore.py:479
+#, python-format
+msgid "Starting level %s"
+msgstr "Niveau de commencement %s"
+
+#: ../SPMainCore.py:645
+msgid "Stopping timers, please wait..."
+msgstr "On arrête les minuteurs, attendez s'il vous plaît..."
+
+#: ../lib/story.py:191
+msgid "Story"
+msgstr "L'histoire"
+
+#: ../lib/story.py:87 ../lib/spinbottle.py:120 ../lib/synonyms.py:118
+msgid "Suggestions:"
+msgstr "Les suggestions:"
+
+#: ../lib/synonyms.py:140
+msgid "Synonyms"
+msgstr "Les synonymes"
+
+#: ../lib/simon_sp.py:136
+msgid "The  blocks will light up randomly along with sound clues."
+msgstr "Les blocs vont illuminer au hasard avec les indices de son."
+
+#: ../lib/quiz_melody.py:107 ../lib/ichanger.py:287 ../lib/quiz_text.py:108
+#: ../lib/findit_sp.py:208 ../lib/fishtank.py:226 ../lib/soundmemory.py:189
+#: ../lib/memory_sp.py:187 ../lib/quiz_royal.py:113 ../lib/quiz_history.py:229
+#: ../lib/electro_sp.py:190 ../lib/quiz_math.py:102 ../lib/quiz_picture.py:115
+#: ../lib/photoalbum.py:169 ../lib/numbers.py:210 ../lib/simon_sp.py:130
+#: ../lib/puzzle.py:223 ../lib/story.py:199 ../lib/video.py:153
+#: ../lib/spinbottle.py:203 ../lib/synonyms.py:150
+msgid "The aim of this activity:"
+msgstr "Le but de cette activité:"
+
+#: ../lib/findit_sp.py:213
+msgid "The arrows to the left take you to the previous image."
+msgstr "Les flèches à gauche vous permettez de retourner à l'image précédente."
+
+#: ../lib/memory_sp.py:261 ../lib/puzzle.py:280
+msgid "The difficulty of the set increases from left to right."
+msgstr "Le niveau de difficulté du jeu augmente de gauche à droite."
+
+#: ../lib/electro_sp.py:191
+msgid "The game is to match pairs of pictures"
+msgstr "Le but de ce jeu est de trouver des paires d'images."
+
+#: ../SPMainCore.py:1238
+#, python-format
+msgid ""
+"There was an error in %s. Please check the logs and inform the developers"
+msgstr ""
+"Il y a eu un erreur en %s. S'il vous plaît, vérifiez le journal de bord et "
+"informez les programmeurs."
+
+#: ../SPHelpText.py:46
+#, python-format
+msgid ""
+"There was an error in the database this can be caused by many things but "
+"most of the time it's caused by the fact that your version of the database "
+"doesn't match the version of the program. I will backup your original "
+"database and then replace it with a new one. The original database is now "
+"called sp.db_back and it's placed in %s"
+msgstr ""
+"Il y a eu un erreur dans la base de données. Le raison pour cet erreur peut "
+"être provoqués par beaucoup de choses mais pour la plupart c'est  provoqué "
+"par le fait que votre version de la base de données ne correspond pas à la "
+"version du programme. Je vais faire une sauvegarde de votre base de données "
+"originale et la remplacer avec une nouvelle version. La base de données "
+"originale s'appelle sp.db_back maintenant et on peut le trouver en %s"
+
+#: ../lib/ichanger.py:308 ../lib/findit_sp.py:232 ../lib/fishtank.py:247
+#: ../lib/soundmemory.py:210 ../lib/memory_sp.py:209 ../lib/quiz_royal.py:135
+#: ../lib/quiz_history.py:252 ../lib/electro_sp.py:212
+#: ../lib/quiz_picture.py:137 ../lib/photoalbum.py:190 ../lib/numbers.py:230
+#: ../lib/simon_sp.py:156 ../lib/puzzle.py:245 ../lib/video.py:174
+#: ../lib/spinbottle.py:228 ../lib/synonyms.py:174
+#, python-format
+msgid "This activity has %s levels"
+msgstr "Cette activité a %s niveaux"
+
+#: ../SPMenu.py:294
+msgid "This is the menu used to select an activity."
+msgstr "Vous utilisez ce menu pour choisir une activité."
+
+#: ../SPMainCore.py:712
+#, python-format
+msgid "Tip:%s"
+msgstr "Conseil:%s"
+
+#: ../lib/quizengine.py:351
+#, python-format
+msgid ""
+"To little questions found in %s, found %s questions should be at least 10"
+msgstr ""
+"On n'a pas trouvé assez de questions en %s, on a trouvé %s. C'est nécessaire "
+"qu'il y a au moins 10 questions."
+
+#: ../lib/ichanger.py:290
+msgid ""
+"Touch the 'START' button on the right.\n"
+"The images will dissappear and when they return, one will have changed.\n"
+"Touch the picture which has changed."
+msgstr ""
+"Touchez le bouton 'Commence' à droite.\n"
+"Les images vont disparaître et quand ils retournent, une des images sera "
+"modifiée.\n"
+"Touchez l'image qui a changé."
+
+#: ../languageDefinitions.py:38
+#, fuzzy
+msgid "Training"
+msgstr "La formation de souris."
+
+#: ../languageDefinitions.py:25
+msgid "Try again!"
+msgstr ""
+
+#: ../lib/fishtank.py:227
+msgid "Try to remove the fish by clicking on them with the mouse."
+msgstr "Essayez d'enlever les poissons en les cliquant avec la souris."
+
+#: ../lib/simon_sp.py:131
+msgid "Try to repeat the sequence of sounds played."
+msgstr "Essayez de répéter la séquence des sons."
+
+#: ../SPMenu.py:296
+msgid "Use the 'sub menu' buttons for the different activity menus"
+msgstr ""
+"Utilisez les boutons 'sous-menu' pour les menus d'activités différents."
+
+#: ../SPMenu.py:311
+msgid "Use the menu below to choose between the different game categories"
+msgstr ""
+"Vous utilisez le menu du dessous pour choisir entre les catégories "
+"différentes de jeux."
+
+#: ../SPMainCore.py:335
+#, python-format
+msgid "User: %s"
+msgstr "Utilisateur/trice: %s"
+
+#: ../SPgdm.py:104
+msgid "Username:"
+msgstr "Identifiant: "
+
+#: ../lib/video.py:145
+msgid "Video"
+msgstr "La vidéo"
+
+#: ../seniorplay.py:149
+msgid "Warning !"
+msgstr "Avertissement!"
+
+#: ../lib/simon_sp.py:137
+msgid ""
+"When the flashing stops you will be prompted to repeat the sequence by "
+"touching the coloured blocks."
+msgstr ""
+"Quand les blocs arrêtent de clignoter, vous deves répeter la séquence en "
+"touchant les blocs colorés."
+
+#: ../lib/story.py:202
+msgid ""
+"When you finished reading the text hit the 'Begin' button and answer the "
+"questions."
+msgstr ""
+"Quand vous avez fini la lecture du texte, touchez Vous le bouton 'Commence' "
+"et répondez aux questions."
+
+#: ../lib/findit_sp.py:211
+msgid ""
+"When you spot a difference, touch it with your finger.\n"
+"You can click the question mark in the middle of the screen if you need a "
+"hint."
+msgstr ""
+"Quand vous repérez une difference, touchez la avec votre doigt.\n"
+"Vous pouvez cliquer sur le point d'interrogation au milieu de l'écran si "
+"vous avez besoin d'une indice. "
+
+#: ../lib/soundmemory.py:192
+msgid ""
+"When you touch the picture you will hear a sound.\n"
+"Match the image with others that make the same sound,to get points."
+msgstr ""
+"Quand vous touchez l'image vous allez entendre un son. \n"
+"Trouvez l'autre image qui correspond au même son pour gagner des points."
+
+#: ../SPMainCore.py:554 ../SPMainCore.py:557 ../SPMainCore.py:673
+#: ../SPMainCore.py:747 ../languageDefinitions.py:30
+msgid "Yes"
+msgstr "Oui"
+
+#: ../SPMainCore.py:553
+msgid "You play very good, do you want to try the next level ?"
+msgstr "Vous jouez très bien, avez vous envie d'essayer le niveau prochain?"
+
+#: ../lib/electro_sp.py:193
+msgid ""
+"You select the pictures by touching them.\n"
+"As you progress through the star levels more pairs appear to match."
+msgstr ""
+"Vous choissisez les images en les touchant.\n"
+"Comme vous progressez par les niveaux de difficulté, plus de paires vont "
+"apparaître."
+
+#: ../SPMainCore.py:1284
+msgid "Your email will be send, please wait....."
+msgstr "On envoie votre courrier électronique, attendez s'il vous plaît..."
+
+#: ../SPMainCore.py:790
+#, python-format
+msgid ""
+"Your image is saved at:\n"
+"%s"
+msgstr ""
+"Votre image est enregistré à:\n"
+"%s"
+
+#: ../lib/spinbottle.py:118
+msgid "beginning with the letter: "
+msgstr "Commencant avec la lettre:"
+
+#~ msgid "All the data was stored succesfully."
+#~ msgstr "On a enregistré toutes les données avec succès."
+
+#~ msgid "General knowledge Quiz"
+#~ msgstr "Quiz de culture générale"
+
+#~ msgid "Scores reached in level %s"
+#~ msgstr "Les points gagnés en niveau %s "
+
+#~ msgid "The table 'activity_options' doesn't exist in the dbase"
+#~ msgstr "Le tableau 'activité­_options' n'existe pas dans la base de données"
+
+#~ msgid ""
+#~ "There was a problem while replacing the rows in the database.\n"
+#~ "The exception was:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Il y a eu un problème en remplacant les rangées dans la base de données.\n"
+#~ "L'exception était:\n"
+#~ "%s"
+
+#~ msgid "Year of birth"
+#~ msgstr "Année de naissance"
+
+#~ msgid "question id: %s"
+#~ msgstr "Identifiant question: %s"

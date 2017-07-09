@@ -1,0 +1,23 @@
+# provides various options for the childsplay core modules.
+
+# a default section is mandatory
+[DEFAULT]
+
+# Pause between levels in secs.
+# This is only used when no sound is given.
+level_change_pause = 3
+
+# Image to display, leave empty for no image.
+level_change_image = reload.png
+
+# Sound to play, leave empty for no sound.
+level_change_sound = reload.ogg
+
+[childsplay]
+
+[seniorplay]
+
+[braintrainer]
+level_change_sound =
+level_change_pause = 1
+level_change_image =

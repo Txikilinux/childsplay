@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootmenu defaultsubmenu="games.png" file="background.png" menubarbottom="bottom_menubar.png" menubartop="menu_bar.png">
+  <submenu file="games.png" hoverfile="games_active.png">
+    <position>10,540</position>
+    <menuitem file="memory.icon.png" hoverfile="memory_ro.icon.png" enable="True">
+      <activity>memory_sp</activity>
+      <position>20,140</position>
+    </menuitem>
+    <menuitem file="soundmemory.icon.png" hoverfile="soundmemory_ro.icon.png" enable="True">
+      <activity>soundmemory</activity>
+      <position>220,140</position>
+    </menuitem>
+    <menuitem file="electro_sp.icon.png" hoverfile="electro_sp_ro.icon.png" enable="True">
+      <activity>electro_sp</activity>
+      <position>420,140</position>
+    </menuitem>
+    <menuitem file="simon_sp.icon.png" hoverfile="simon_sp_ro.icon.png" enable="True">
+      <activity>simon_sp</activity>
+      <position>620,140</position>
+    </menuitem>
+    <menuitem file="ichanger.icon.png" hoverfile="ichanger_ro.icon.png" enable="True">
+      <activity>ichanger</activity>
+      <position>20,340</position>
+    </menuitem>
+  </submenu>
+  <submenu file="quiz.png" hoverfile="quiz_active.png">
+    <position>210,540</position>
+    <menuitem file="quiz_text.icon.png" hoverfile="quiz_text_ro.icon.png" enable="True">
+      <activity>quiz_text</activity>
+      <position>20,140</position>
+    </menuitem>
+    <menuitem file="quiz_math.icon.png" hoverfile="quiz_math_ro.icon.png" enable="True">
+      <activity>quiz_math</activity>
+      <position>220,140</position>
+    </menuitem>
+    <menuitem file="quiz_history.icon.png" hoverfile="quiz_history_ro.icon.png" enable="True">
+      <activity>quiz_history</activity>
+      <position>420,140</position>
+    </menuitem>
+    <menuitem file="quiz_royal.icon.png" hoverfile="quiz_royal_ro.icon.png" enable="True">
+      <activity>quiz_royal</activity>
+      <position>620,140</position>
+    </menuitem>
+    <menuitem file="quiz_picture.icon.png" hoverfile="quiz_picture_ro.icon.png" enable="True">
+      <activity>quiz_picture</activity>
+      <position>20,340</position>
+    </menuitem>
+    <menuitem file="quiz_melody.icon.png" hoverfile="quiz_melody_ro.icon.png" enable="False">
+      <activity>quiz_melody</activity>
+      <position>220,340</position>
+    </menuitem>
+  </submenu>
+  <submenu file="puzzles.png" hoverfile="puzzles_active.png">
+    <position>410,540</position>
+    <menuitem file="puzzle.icon.png" hoverfile="puzzle_ro.icon.png" enable="True">
+      <activity>puzzle</activity>
+      <position>20,140</position>
+    </menuitem>
+    <menuitem file="findit_sp.icon.png" hoverfile="findit_sp_ro.icon.png" enable="True">
+      <activity>findit_sp</activity>
+      <position>220,140</position>
+    </menuitem>
+  </submenu>
+  <submenu file="training.png" hoverfile="training_active.png">
+    <position>610,540</position>
+    <menuitem file="fishtank.icon.png" hoverfile="" enable="True">
+      <activity>fishtank</activity>
+      <position>20,140</position>
+    </menuitem>
+    <menuitem file="photoalbum.icon.png" hoverfile="" enable="True">
+      <activity>photoalbum</activity>
+      <position>220,140</position>
+    </menuitem>
+    <menuitem file="numbers.icon.png" enable="True">
+      <activity>numbers</activity>
+      <position>420,140</position>
+    </menuitem>
+  </submenu>
+</rootmenu>

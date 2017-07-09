@@ -1,0 +1,8 @@
+[Activity]
+name = Schoolsplay
+activity_version = 1
+service_name = schoolsplay.org.SchoolsplayActivity
+icon = activity-schoolsplay-xo
+class = start_activity.SchoolsplayActivity
+#exec = sugar-activity SchoolsplayActivity.SchoolsplayActivity
+show_launcher = yes

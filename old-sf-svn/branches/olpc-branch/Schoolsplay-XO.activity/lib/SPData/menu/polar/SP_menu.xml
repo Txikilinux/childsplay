@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootmenu file="background.png" ocw="menubar.png">
+    <menuitem file="memory.icon.png">
+        <activity>memory</activity>
+        <position>40,40</position>
+    </menuitem>
+    <menuitem file="memorylower.icon.png">
+        <activity>memorylower</activity>
+        <position>160,40</position>
+    </menuitem>
+    <menuitem file="memoryupper.icon.png">
+        <activity>memoryupper</activity>
+        <position>280,40</position>
+    </menuitem>
+    <menuitem file="memorynumbers.icon.png">
+        <activity>memorynumbers</activity>
+        <position>400,40</position>
+    </menuitem>
+</rootmenu>

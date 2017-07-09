@@ -1,0 +1,8 @@
+BUGS:
+
+
+The graph doesn't display the vertical labels properly.
+This is due to the fact that the graph is drawn on a pixmap
+and the labels are widgets in a table.
+Aligning is almost impossible.
+

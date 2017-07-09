@@ -1,0 +1,178 @@
+Instructions for installation on Windows
+----------------------------------------
+
+In short:
+* Install all dependencies:
+  Python, SQLAlchemy, PySQLite, PyGame, numpy, GTK, PyCairo, PyGObject, PyGTK
+
+* Download & unzip Childsplay, Cognitionplay or Schoolsplay
+
+* Copy appropriate "Windows" dir from SVN to unzipped package
+
+* Install Childsplay or Cognitionplay or Schoolsplay
+  You cannot install Childsplay and Cognitionplay at the same time!
+  They can be installed in seperate directories, but SPCore will be installed in your Python packages dir
+  SPCore also contains the name "Childsplay" or "Cognitionplay"!
+
+* Rename the dir "locale" to "locales" (GTK problem in combo with Py2Exe)
+
+* Install language sound files
+
+* Run!
+
+
+
+In long:
+
+Needed for the Schoolsplay backend:
+-----------------------------------
+
+* Install Python 2.4.4 (later versions may work)
+  http://www.python.org/ftp/python/2.4.4/python-2.4.4.msi
+
+* Install SQLAlchemy 0.4 (later versions may work)
+  http://prdownloads.sourceforge.net/sqlalchemy/SQLAlchemy-0.4.8.tar.gz
+  But make sure it is not installed as an egg!!!
+  To do this, add to the setup.cfg of SQLAlchemy the following lines:
+  [easy_install]
+  zip_ok = 0
+
+* If you are not using Python2.5, you have to install PySQLite
+  http://initd.org/pub/software/pysqlite/releases/2.3/2.3.5/pysqlite-2.3.5.win32-py2.4.exe
+
+* Install GTK 2.10.11 Runtime Environment (later versions may work)
+  http://gladewin32.sourceforge.net/modules/news/
+
+* Install PyCairo 1.2 (later versions may work)
+  http://ftp.gnome.org/pub/GNOME/binaries/win32/pycairo/
+
+* Install PyGObject 2.12 (later versions may work)
+  http://ftp.gnome.org/pub/GNOME/binaries/win32/pygobject/
+
+* Install PyGtk 2.10 (later versions may work)
+  http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/
+
+* Install NumPy 1.2.1 (later versions may work)
+  http://sourceforge.net/project/showfiles.php?group_id=1369&package_id=175103
+
+
+For the PyGame version (Childsplay & Cognitionplay):
+----------------------------------------------------
+  
+* Install PyGame 1.8.1 (later versions may work)
+  http://www.pygame.org/ftp/pygame-1.8.1release.win32-py2.4.msi
+
+* Install Numpy which is needed by PyGame (OcempGui
+  http://downloads.sourceforge.net/numpy/numpy-1.2.1-win32-superpack-python2.4.exe
+
+Install Childsplay itself:
+--------------------------
+
+* Install Childsplay
+  http://sourceforge.net/project/showfiles.php?group_id=181294&package_id=247356
+  Unzip the zip file and change setup.py, line 65 to
+  PREFIX = 'C:\Childsplay_sp' (for example)
+
+* Add the Windows directory to the unzipped package:
+  http://schoolsplay.svn.sourceforge.net/viewvc/schoolsplay/branches/childsplay_sp/windows/
+  Especially SPBasePaths.py is needed!
+
+* Run "python setup.py install" in a command prompt on the path
+
+* Rename C:\Childsplay_sp\share\locale to C:\Childsplay_sp\share\locales
+  This is needed because SPBasePaths.py points to it.
+  And the root cause is because both GTK and Childsplay_sp want to write the same files to the same dir when running py2exe
+
+* Install appropriate (or all) language sound files from
+  http://sourceforge.net/project/showfiles.php?group_id=181294&package_id=230927
+  to C:\Childsplay_sp\share\sp_alphabetsounds\
+
+* Congratulations, now you can execute Childsplay_sp from sources on Windows ;-)
+
+
+Install Cognitionplay itself:
+-----------------------------
+
+* Install Cognitionplay
+  http://sourceforge.net/project/showfiles.php?group_id=181294&package_id=252775
+  Unzip the zip file and change setup.py, line 65 to
+  PREFIX = 'C:\Cognitionplay' (for example)
+
+* Add the Windows directory to the unzipped package:
+  http://schoolsplay.svn.sourceforge.net/viewvc/schoolsplay/branches/cognitionplay/windows/
+  Especially SPBasePaths.py is needed!
+
+* Run "python setup.py install" in a command prompt on the path
+
+* Rename C:\Cognitionplay\share\locale to C:\Cognitionplay\share\locales
+  This is needed because SPBasePaths.py points to it.
+  And the root cause is because both GTK and Cognitionplay want to write the same files to the same dir when running py2exe
+
+* Install appropriate (or all) language sound files from
+  http://sourceforge.net/project/showfiles.php?group_id=181294&package_id=230927
+  to C:\Cognitionplay\share\sp_alphabetsounds\
+
+* Congratulations, now you can execute Cognitionplay from sources on Windows ;-)
+
+* Be reminded that you cannot run Childsplay and Cognitionplay from sources at the same time!
+
+
+Install SchoolsPlay itself:
+---------------------------
+
+* Install Schoolsplay
+
+
+
+
+
+Common instructions for building a .exe on Windows:
+---------------------------------------------------
+
+* Add the systemvariable PYTHONPATH to your system environment.
+  It should point of course to your python installation, example: C:\Python24
+
+* Install Py2Exe 0.6.6 (later versions may work)
+  http://downloads.sourceforge.net/py2exe/py2exe-0.6.6.win32-py2.4.exe
+
+  When you build an exe and it fails, Py2Exe writes a log file.
+  Unfortunately it does an append to this log file iso writing a new file.
+  Since this file can become quite big, best is to write a new file.
+  In the  ...Python24\Lib\site-packages\py2exe\boot_common.py change line 53 from
+  self._file = open(fname, 'a') to
+  self._file = open(fname, 'w')
+
+* Install InnoSetup and extra languages
+  http://www.jrsoftware.org/isinfo.php
+  At the moment the installation path of InnoSetup (c:\Program\InnoSetup) is hardcoded in setup.py
+  Normally this is C:\Program Files\InnoSetup, if that is the case, change line 185 from
+  "cmd = "C:\Programs\Innose~1\Compil32.exe /cc " + setupfile" to
+  "cmd = "C:\Progra~1\Innose~1\Compil32.exe /cc " + setupfile"
+
+
+Instructions for building Childsplay.exe on Windows:
+----------------------------------------------------
+
+* Copy generic.iss, setup.py from 
+  http://schoolsplay.svn.sourceforge.net/viewvc/schoolsplay/branches/childsplay_sp/windows/
+  to the directory where you installed Childsplay (C:\Childsplay_sp)
+  Now run python setup.py py2exe
+  You should end up with a childsplay.exe in C:\Childsplay_sp\dist\
+  and an installer in C:\Childsplay_sp\dist\installer\
+
+
+Instructions for building Cognitionplay.exe on Windows:
+-------------------------------------------------------
+
+* Copy generic.iss, setup.py from 
+  http://schoolsplay.svn.sourceforge.net/viewvc/schoolsplay/branches/cognitionplay/windows/
+  to the directory where you installed Cognitionplay (C:\Cognitionplay)
+  Now run python setup.py py2exe
+  You should end up with a cognitionplay.exe in C:\Cognitionplay\dist\
+  and an installer in C:\Cognitionplay\dist\installer\
+
+
+Instructions for building Schoolsplay.exe on Windows
+----------------------------------------------------
+
+* Copy ....

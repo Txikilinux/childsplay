@@ -1,0 +1,416 @@
+# Translation of Schoolsplay_es_CL.po to Spanish
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Jorge Torres <jorgewt@hotmail.com>, 2007.
+#
+#
+msgid	""
+msgstr	"Project-Id-Version: schoolsplay_es_CL.po\n"
+	"Report-Msgid-Bugs-To: \n"
+	"POT-Creation-Date: 2007-05-05 08:53+0200\n"
+	"PO-Revision-Date: 2007-05-05 08:16+0100\n"
+	"Last-Translator: Jorge Torres <jorgewt@hotmail.com>\n"
+	"Language-Team: Español <jt@li.org>\n"
+	"MIME-Version: 1.0\n"
+	"Content-Type: text/plain; charset=UTF-8\n"
+	"Content-Transfer-Encoding: 8bit\n"
+
+#: ../SPCoreButtons.py:46 ../gui/SPCommonWidgets.py:52
+msgid	"Quit"
+msgstr	"Salir"
+
+#: ../SPCoreButtons.py:47
+msgid	"Info"
+msgstr	"Información"
+
+#: ../SPCoreButtons.py:48
+msgid	"Pause"
+msgstr	"Pausa"
+
+#: ../SPHelpText.py:27
+msgid	"If you start the GUI for the first time there's no username and "
+	"password set so you should just hit the 'Login' button.\n"
+	" You will get a warning message telling you to set as soon as "
+	"possible a username and password.\n"
+	"You can set a username ans password in the GUI.\n"
+	" Go to 'Settings' -> 'Set password'."
+msgstr	"Si usted empieza el GUI por primera vez y no hay nombre de usuario y "
+	"contraseña usted pulse el botón de la 'Entrada'.\n"
+	"Usted obtendrá un mensaje de advertencia en que lo mas pronto "
+	"posible entre un nombre de usuario y contraseña.\n"
+	"Usted puede poner un nombre de usuario y contraseña en el interfaz "
+	"gráfica.\n"
+	"Hace clic en 'Setting' -> 'Set password'"
+
+#: ../SPHelpText.py:34
+msgid	"Failed to get the dbase data, try to run schoolsplay first to setup "
+	"the dbase"
+msgstr	"Falló de obtener los base de datos, primero intenta correr "
+	"schoolsplay para arreglar el base de datos"
+
+#: ../SPHelpText.py:38
+msgid	"Give your login name in the box and hit the login button. "
+	"Alternatively you can just hit the login button and run Schoolsplay "
+	"in anonymous mode."
+msgstr	"Dé su nombre de usario en la caja y pulse el botón de entrada. "
+	"Alternativamente usted puede pulsar el botón de la entrada y corre "
+	"Schoolsplay en el modo anónimo"
+
+#: ../SPHelpText.py:44
+msgid	"It seems that we cannot use the sound card right now and because "
+	"this activity is all about sound, we just quit. This problem can "
+	"also be caused by another application which uses the soundcard right "
+	"now."
+msgstr	"Parece que nosotros no podemos utilizar la tarjeta de sonido en este "
+	"momento y porque esta actividad es todo acerca de sonido, nosotros "
+	"acabamos de dejar. Este problema puede ser causado también por otra "
+	"aplicación que utiliza la tarjeta de sonido en este momento."
+
+#: ../SPMainCore.py:110
+msgid	"Schoolsplay - educational activities"
+msgstr	"Schoolsplay - actividades educativas"
+
+#: ../SPMainCore.py:189
+#, python-format
+msgid	"Current user: %s"
+msgstr	"Usario actual: %s"
+
+#: ../SPMainCore.py:191 ../SPMainCore.py:244 ../SPMainCore.py:477
+#, python-format
+msgid	"Current activity : %s"
+msgstr	"Actividad actual : %s"
+
+#: ../SPMainCore.py:274
+#, python-format
+msgid	"Starting level %s"
+msgstr	"El nivel de comienzo %s"
+
+#: ../SPgdm.py:105 ../gui/SPCheckPass.py:66
+msgid	"Login"
+msgstr	"Usario"
+
+#: ../SPocwWidgets.py:159
+msgid	"Yes"
+msgstr	"Sí"
+
+#: ../SPocwWidgets.py:163
+msgid	"No"
+msgstr	"No"
+
+#: ../SPocwWidgets.py:169
+msgid	"Schoolsplay question"
+msgstr	"Schoolsplay preguta"
+
+#: ../SPocwWidgets.py:170
+msgid	"Do you really want to quit ?"
+msgstr	"Seguro que deseas salir ?"
+
+#: ../SPocwWidgets.py:189
+msgid	"Ok"
+msgstr	"Aceptar"
+
+#: ../SPocwWidgets.py:195 ../gui/SPCommonWidgets.py:31
+#: ../gui/SPCommonWidgets.py:37
+msgid	"Schoolsplay information"
+msgstr	"Schoolsplay información"
+
+#: ../gui/SPCheckPass.py:53
+msgid	"Give your schoolsplay administrator username and password.\n"
+	"If you haven't set one yet just hit 'Login'"
+msgstr	"Dé su nombre de usuario de administrador de schoolsplay y "
+	"contraseña.\n"
+	"Si usted no ha puesto uno pulse 'Entrada'"
+
+#: ../gui/SPCheckPass.py:57
+msgid	"Username:"
+msgstr	"Usario:"
+
+#: ../gui/SPCheckPass.py:61
+msgid	"Password:"
+msgstr	"Contraseña"
+
+#: ../gui/SPCheckPass.py:67
+msgid	"Cancel"
+msgstr	"Cancelar"
+
+#: ../gui/SPCheckPass.py:110
+msgid	"There's no username or password set for this application.\n"
+	"Please set a password by as soon as the application has started.\n"
+msgstr	"Esta aplicación no tiene nombre de usuario ni contraseña.\n"
+	"Por favor ponga una contraseña cuando la aplicación ha empezado.\n"
+
+#: ../gui/SPCheckPass.py:118
+msgid	"Username and password don't match"
+msgstr	"Nombre de usario y contraseña no son igual"
+
+#: ../gui/SPCommonWidgets.py:25
+msgid	"Schoolsplay error"
+msgstr	"Schoolsplay error"
+
+#: ../gui/SPCommonWidgets.py:53
+msgid	"This will quit the program"
+msgstr	"Esto dejará el programa"
+
+#: ../gui/SPCommonWidgets.py:60
+msgid	"Help"
+msgstr	"Ayuda"
+
+#: ../gui/SPCommonWidgets.py:62
+msgid	"This will bring up a short help message"
+msgstr	"Esto traerá un mensaje de ayuda corto"
+
+#: ../gui/SPMainGui.py:69
+msgid	"S&et password"
+msgstr	"???? contraseña"
+
+#: ../gui/SPMainGui.py:70
+msgid	"Set a password for this program"
+msgstr	"Ponga una contraseña para este programa"
+
+#: ../gui/SPMainGui.py:71
+msgid	"&Settings"
+msgstr	"&Configuración"
+
+#: ../gui/SPMainGui.py:75
+msgid	"&About"
+msgstr	"&Acerca"
+
+#: ../gui/SPMainGui.py:76
+msgid	"Information about schoolsplay"
+msgstr	"Información sobre schoolsplay"
+
+#: ../gui/SPMainGui.py:78
+msgid	"&Quick help"
+msgstr	"&Ayuda rapida"
+
+#: ../gui/SPMainGui.py:79
+msgid	"Short help text"
+msgstr	"Texto corto de ayuda"
+
+#: ../gui/SPMainGui.py:137
+msgid	"Schoolsplay admin"
+msgstr	"Schoolsplay administración"
+
+#: ../gui/SPNBP1.py:68
+msgid	"Users to include"
+msgstr	"Usarios para incluir"
+
+#: ../gui/SPNBP1.py:71
+msgid	"Please select which user, or all users, you want to include.\n"
+	"Select 'ALL' to select all the items."
+msgstr	"Por favor escoja a cuál usuario, o todos los usuarios, usted quiere "
+	"incluir.\n"
+	"Escoja 'TODO' para escoger todos los artículos."
+
+#: ../gui/SPNBP1.py:82
+msgid	"Activities to include"
+msgstr	"Actividades para incluir"
+
+#: ../gui/SPNBP1.py:85
+msgid	"Please select which activity, or all activities, you want to "
+	"include.\n"
+	"Select 'ALL' to select all the items."
+msgstr	"Por favor escoja cuál actividad, o todas las actividades, que usted "
+	"quiere incluir.\n"
+	"Escoja 'TODO' para escoger todos los artículos."
+
+#: ../gui/SPNBP1.py:120
+msgid	"Generate report"
+msgstr	"Generar el informe"
+
+#: ../gui/SPNBP1.py:143
+msgid	"The report was succesfull generated"
+msgstr	"El informe fue engendrado"
+
+#: ../gui/SPNBP2.py:67
+msgid	"Delete row"
+msgstr	"Borre la fila"
+
+#: ../gui/SPNBP2.py:68
+msgid	"Delete all the selected rows\n"
+	"Be aware that there is no way to revert your changes."
+msgstr	"Borre todas las filas escogidas\n"
+	"Esté enterado que no hay manera de volver sus cambios."
+
+#: ../gui/SPNBP2.py:69
+msgid	"Add row"
+msgstr	"Agregue la fila"
+
+#: ../gui/SPNBP2.py:70
+msgid	"Save table"
+msgstr	"Guardar tabla"
+
+#: ../gui/SPNBP2.py:71
+msgid	"Save the table to the database.\n"
+	"Be aware that there is no way to revert your changes."
+msgstr	"Salve la tabla a la base de datos.\n"
+	"Esté enterado que no hay manera de volver sus cambios."
+
+#: ../gui/SPNBP2.py:105
+msgid	"Choose a table from the list"
+msgstr	"Elige una tabla de la lista"
+
+#: ../gui/SPNBP2.py:106 ../gui/SPNoteBook.py:52
+msgid	"SQL Tables"
+msgstr	"SQL tablero"
+
+#: ../gui/SPNBP2.py:110
+msgid	"Enter the table name or use the 'browse' button to find a table"
+msgstr	"Introduce el nombre de la tabla o utilice el botón 'hojea' para "
+	"encontrar una tabla"
+
+#: ../gui/SPNBP2.py:111
+msgid	"Table name:"
+msgstr	"Nombre de tabla"
+
+#: ../gui/SPNBP2.py:113
+msgid	"Browse"
+msgstr	"Hojea"
+
+#: ../gui/SPNBP2.py:114
+msgid	"Use this to choose a table.\n"
+	"You should use the 'display table' button to actual display the "
+	"table you've choosen."
+msgstr	"Usa esto para elegir una tabla.\n"
+	"Usted debe utilizar el botón de 'despliegue la tabla' para ver el "
+	"verdadero tablero que usted ha escogido."
+
+#: ../gui/SPNBP2.py:115
+msgid	"Display table"
+msgstr	"Muestra tablero"
+
+#: ../gui/SPNBP2.py:207
+#, python-format
+msgid	"The table '%s' doesn't exist in the dbase"
+msgstr	"La tabla '%s' no existe en el base de datos"
+
+#: ../gui/SPNBP2.py:220
+msgid	"You don't have a valid table selected"
+msgstr	"Usted no tiene una tabla válida escogida"
+
+#: ../gui/SPNBP2.py:226
+msgid	"You haven't selected a row.\n"
+	"Select a row by clicking on the row labels on the right.\n"
+	"Select multiple rows by holding down the 'Ctrl' or the 'Shift' button"
+msgstr	"Usted no a escogido una fila.\n"
+	"Escoja una fila haciendo clic en las etiquetas de la fila en el "
+	"derecho.\n"
+	"Escoja múltiples filas sugetando el botón de 'Ctrl' o el botón de "
+	"'mayúsculas'"
+
+#: ../gui/SPNBP2.py:235
+msgid	"You can't add rows to this table.\n"
+	"This table is used by the schoolsplay activities and you can only "
+	"delete rows."
+msgstr	"Usted no puede agregar filas a esta tabla.\n"
+	"Esta mesa es utilizada por las actividades de schoolsplay y usted "
+	"puede sólo borrar las filas. "
+
+#: ../gui/SPNBP2.py:246
+#, python-format
+msgid	"There was a problem while replacing the rows in the database.\n"
+	"The exception was:\n"
+	"%s"
+msgstr	"Había un problema al reemplazar las filas en la base de datos.\n"
+	"La excepción fue:\n"
+	"%s"
+
+#: ../gui/SPNoteBook.py:51
+msgid	"Reports"
+msgstr	"Informes"
+
+#: ../gui/SPNoteBook.py:53
+msgid	"Activities"
+msgstr	"Actividades"
+
+#: ../lib/CP_find_char_sound.py:155
+msgid	"Find the characters"
+msgstr	"Encuentre los caracteres"
+
+#: ../lib/CP_find_char_sound.py:163 ../lib/CR_math_add1.py:91
+msgid	"The aim of this activity."
+msgstr	"El objetivo de esta actividad."
+
+#: ../lib/CP_find_char_sound.py:164
+msgid	"Listen to the sound and click on the character to which it belongs."
+msgstr	"Escuche el sonido y pulse en el carácter a quien le pertenezca"
+
+#: ../lib/CP_find_char_sound.py:165
+msgid	"When you can't find the correct character after a certain period of "
+	"time the characters will change color and a box will be drawn around "
+	"it."
+msgstr	"Cuándo usted no puede encontrar el carácter correcto después de un "
+	"cierto tiempo los caracteres cambiarán de color y una caja se "
+	"dibujará alrededor."
+
+#: ../lib/CP_find_char_sound.py:166
+msgid	"The faster you find all the characters the better your score will be."
+msgstr	"Lo más rápido que usted encuentra todos los caracteres el mejor su "
+	"puntuación será"
+
+#: ../lib/CP_find_char_sound.py:168
+msgid	"Difficulty : 4-7 years"
+msgstr	"Dificultad : 4-7 años"
+
+#: ../lib/CR_math_add1.py:83
+msgid	"Math add #1"
+msgstr	"Matemáticas agregue #1"
+
+#: ../lib/CR_math_add1.py:93
+msgid	"Difficulty :  years"
+msgstr	"Dificultad : años"
+
+#: ../lib/fishtank.py:191
+msgid	"Fishtank"
+msgstr	"Pecera"
+
+#: ../lib/fishtank.py:199 ../lib/memory.py:162 ../lib/memorylower.py:164
+#: ../lib/memorynumbers.py:164 ../lib/memoryupper.py:164
+msgid	"The aim of this activity:"
+msgstr	"El objetivo de esta actividad:"
+
+#: ../lib/fishtank.py:200
+msgid	"Try to remove the fish by clicking on them by the mouse."
+msgstr	"Intenta quitar el pez haciendo clic en ellos usando el ratón"
+
+#: ../lib/fishtank.py:201
+msgid	"In the last level the fish needs to be cliked two times while they "
+	"trying to escape."
+msgstr	"En el último nivel el pez nesecita ser pulsado dos veces mientras "
+	"ellos tratan de escapar"
+
+#: ../lib/fishtank.py:203
+msgid	"Difficulty : 3-5 years"
+msgstr	"Dificultad : 3-5 años"
+
+#: ../lib/memory.py:154
+msgid	"Memory"
+msgstr	"Memoria"
+
+#: ../lib/memory.py:164 ../lib/memorylower.py:166 ../lib/memorynumbers.py:166
+#: ../lib/memoryupper.py:166
+msgid	"Classic memory game where you have to find pairs of cards."
+msgstr	"Juego clásico de memoria donde usted tiene que encontrar los pares "
+	"de tarjetas"
+
+#: ../lib/memory.py:165 ../lib/memorylower.py:167 ../lib/memorynumbers.py:167
+#: ../lib/memoryupper.py:167
+msgid	"You can hit the 'graph' button to see your results per level."
+msgstr	"Puedes pulsar el botón 'gráfico' para ver los resultados por nivel"
+
+#: ../lib/memory.py:167 ../lib/memorylower.py:169 ../lib/memorynumbers.py:169
+#: ../lib/memoryupper.py:169
+msgid	"Difficulty : 4-6 years"
+msgstr	"Dificultad : 4-6 años"
+
+#: ../lib/memorylower.py:155
+msgid	"LowercaseMemory"
+msgstr	"MinúsculoMemoria"
+
+#: ../lib/memorynumbers.py:155
+msgid	"NumbersMemory"
+msgstr	"NúmerosMemoria"
+
+#: ../lib/memoryupper.py:155
+msgid	"UppercaseMemory"
+msgstr	"MayúsculaMemoria"

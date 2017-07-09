@@ -1,0 +1,19 @@
+To install childsplay do as root, "python setup.py install" from inside
+the source tarball.
+
+When you must install the dependencies mentioned below
+always first try to install them from your distibution.
+
+Childsplay depends on:
+Python 2.6 or higher - www.python.org
+pygtk 2.15 or higher - www.pygtk.org
+python-numpy http://numpy.scipy.org/
+SQLAlchemy - www.sqlalchemy.org
+
+PyGame 1.7 or higher - www.pygame.org
+
+SDL libraries: SDL1.2 SDL-image1.2, SDL-ttf2.0,SDL-mixer1.2
+Libogg0
+
+See the file README for additional info
+ 

@@ -1,0 +1,40 @@
+Here's which graphics we need, or need updating, for the new childsplay 2.0.
+
+There no release yet but everything lives in SVN branch 'childsplay2'.
+Just contact me if you want existing pictures and I email them to you.
+
+---------- Activities ----------------
+Memory:
+The memory game has four difficulty levels within each level.
+Difficulty 1 has pictures that are easy to remember and are totally different from each other like a car a cow etc. (We have these)
+Difficulty 2 has pictures that are less easy to remember for example and look somewhat the
+same like animals that are drawn is a similar fashion. (we have these)
+Difficulty 3 has pictures that more difficult like letters.
+Difficulty 4 has abstract pictures in similar colors and which looks very much alike.
+
+---------------------------------------
+Electro:
+The new 'electro' game is a game where one has to find the two pictures that are associated like a light bulb and a lamp etc. These images must be named 001A.png and 001B.png, 002A.png, 002B.png etc.
+We have these from gcompris but they are not correctly associated and not some pictures are a bit ugly.
+
+---------------------------------------
+Findit:
+The new 'findit' activity is an activity where one has to find differences between two 
+similar images.
+I have a few example images.
+The differences are stored as coordinates in a csv file.
+I'm developing a graphic tool to mark the difference square with the mouse.
+
+-----------------------------------------
+PhotoAlbum:
+Add a bunch of pictures which would be nice for kids to look at.
+The whole purpose of this act is that users can put their own pictures inside albums but as an example
+we need some free pictures.
+
+
+Finish me
+
+
+
+
+

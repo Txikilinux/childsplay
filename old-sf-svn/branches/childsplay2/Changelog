@@ -1,0 +1,332 @@
+Childsplay (2.0)
+    * Bugfix release.
+    * Removed two fishes from the level 6 fishtank background.
+    * Merged code from the seniorplay2.0 project.
+
+Childsplay (1.5)
+    * New release.
+    * Added Lithuanian alphabetsounds.and Slovenian 
+      flashcard soundfiles. (see alphabetsounds packages)
+    * Apllied patches from Kolotov Alexander: 2902137, 2901933, 2901840
+    * Fixed bugs in packid reported by Evgeniy Shabalin:
+        when alhabetsounds files are in upper case
+        when packid hangs for some Russian words
+    * Fixed bug in findsound activity with displaying error when no sound
+      mixer is available
+    * Fixed core bug. Bug: #2898872
+    * Added extra check when importing activities.
+    
+Childsplay (1.4)
+    * Bugfix release.
+    * Added no_text patch. Bug: #2651311
+    * Fixed bug in memory activity. Bug: #2813459
+ 
+Childsplay (1.3)
+    * Bugfix release.
+    * More fixes to the setup.py install script to prevent a crash when
+    installing on Ubuntu 9.04.
+    See: https://lists.ubuntu.com/archives/ubuntu-devel/2009-February/027439.html
+    * Windows.exe: Fixed a bug in the English and Spanish alphabeth sounds.
+
+Childsplay (1.2)
+    * Bugfix release.
+    * Fixed the setup.py install script to prevent a crash when
+    installing on Ubuntu 9.04.
+    See: https://lists.ubuntu.com/archives/ubuntu-devel/2009-February/027439.html
+
+Childsplay (1.1)
+  * Bugfix release.
+  * Rmoved the develop_menu option as it could lead to a crash.
+  * Updated German language support.
+
+Childsplay (1.0)
+    * New release.
+    * Fixed bugs in Packid and puzzle activities.
+    * Changes the way Pong handles the game choices, it now
+      uses only one level.
+    * The text in the 321 countdown is split in two lines when it's to long.
+    * The 'stopping timer' text is split in two lines when it's to long.
+    * Updated Catalan flashcard sounds.
+    * Updated translations: French,Catalan,Dutch,German.
+    * Fixed mispelled files and names, yack into yak.
+    * Added better locale support, it's now possible to use regional differences
+      in the language like: 'en_GB' instead of 'en'.
+    * Fallingletters: Added support for alphabetsounds when the correct letter
+      is typed.
+    * Added en_GB alphabetsounds package.
+    * Fixed bugs in the sqlalchemy abstraction code.
+    * Fixed small bugs related to display issues when running in non-english
+      locales.
+    * Fallingletters: Fixed bug in the execounter. (Thanks to Enrique)
+    * SF Bug tracker Fixes: 2475110 Sound association doesn't use localized sounds
+                            2474652 Too long messages
+                            2445527 Packid: letters aren't properly erased
+                            2474622 Only second letter is voiced in Packid
+                            2474615 packid/pacman name
+                            2475101 PackId crash
+                            2475101 PackId crash
+                            2475109 Accented letters not properly shown in Packid
+                            2478912 Pacman doesn't show 'our special' chars
+    * Fixed display bug in packid when running in Arabic locale. (Thanks to Enrique)
+    * Fixed bug in find_char_sound: activity doesn't show non-ASCII characters on
+       upper case. (Thanks to Enrique)
+    * Flashcards: Fixed bug when the locale is supported in the pofile but not in the
+       soundfiles.
+    * Flashcards: Fixed a bug that prevented the use of localized soundfiles.
+    * Findsound: Added two more levels. (Thanks to Chris)
+    * Normalized the volume of all the ogg files.
+    * Removed Hypertext from the release as it's not used (yet?)
+    * Removed unused commandline options.
+
+Childsplay(0.99)
+    * New release.
+    * Changed the name of the main script from childsplay_sp into childsplay
+    * Reorder the items in the menu.
+    * Changed the quit and info button images in the bottom bar
+      to be the same as the login screen.
+    * Added new activity: Flashcards, rewrite of the old childsplay lfc plugin.
+    * Fixed bug in the hex unicode conversion of the alphabetsounds in some
+      activities.
+    * soundmemory: added a way to stop sound play when the activity is
+      terminated.
+    * Changed the way the fonts are rendered. We now use pango which is way
+      better for localized text as well as RTL languages like Arabic and Hebrew.
+      For non localized text or seperate characters the pygame font can still
+      be used.
+    * Added a fork of ocempgui into the codebase to let ocempgui use
+      pango rendering alongside the standard pygame font rendering.
+      As a result childsplay_sp no longer depends on ocempgui to be installed.
+    * Made all text strings pango rendered strings.
+    * Added more help text: tips, number of levels and type of activity.
+    * Added a bit of eyecandy to the login screen.
+    * Fixed bug: 2218830: pressing space while on activity goes back to menu.
+    * Fixed the problem with the tooltips that were displayed outside the window
+    * Added a custom entry widget for the login screen.
+      This entry widget is RTL aware.
+    * Changed the setup.py install script so that it restores any localized
+      file names from the Flashcards activity.
+    * Fixed bug in the way conversions from string into unicode is handled in
+      the loading of alphabetsounds.
+    * Added text formatting to the infodialog.
+
+Childsplay(0.79)
+    * Bugfix release.
+    * XML menu file corruption fixed.
+    * Removed old debug code.
+
+Childsplay_sp (0.7.8)
+    * Fixed bug [ 2132393 ] error in billiard game level 3
+    * Fixed bug [ 2126290 ] not localized string
+    * Added default buttons from feature request
+      [ 1840939 ] Make defaults in message dialogs
+    * Implemented feature request: [ 2126483 ] mouse over possible ?
+    * Reverted the inclusion of sqlalchemy, we now depend on it being installed.
+    * Reverted the start_childsplay_sp.py design, we now start CP from a python
+       script in a location outside the python module tree.
+    * Fixed some bugs in the lock file routines.
+    * Added two new activities:
+      - Packid -  A pacman game were you have to pick letters of a word.
+      - Pong - The classic tennis game, including a computer opponent.
+      * Removed background in soundmemory.
+
+Childsplay_sp (0.7.7)
+    * Added three new activities:
+      Puzzle - place image pieces in the correct order
+      Billiards -  shoot a ball (indirect) into the hole
+      findsound - find the correct image belonging to the sound
+    * Added sqlalchemy version 0.3 to the package so there's
+      no need to depend on sqlalchemy being installed.
+    * Added INSTALL file with some install info.
+    * Fixed minor issues in SPSpriteUtils and added some more exception
+      catches in menu and dbase modules.
+    * Implemented feature request:
+      [ 2023478 ] close window event and exit button
+    * Redesigned the way the core SP libs import stuff. This is needed as we now
+      package sqlalchemy.
+    * Renamed the childsplay_sp starter script to start_childsplay_sp to prevent
+      namespace pollution. This is done as we now include the starter script inside
+      the libs tree and the setupscript creates a Bash starter to start childsplay_sp.
+
+Childsplay_sp (0.7.6.2)
+    * Added Polish language support.
+    * Fixed minor bug in the way an exit is handled.
+    * Added message when the app exits indicating that we are stopping.
+    * Added "no-exit-question' command line option to prevent additional dialogs when
+      the user wants to quit.
+
+Childsplay_sp (0.7.6)
+    * Fixed bug: [ 1840551 ] Without soundcar it "still" report the error on exit
+    * Fixed bug: [ 1852181 ] ESC Key crashes in kioskmode
+    * Added new activity called 'soundmemory'
+    * Core now shows a dialog when an activity throws an exception.
+    * Removed age indications from the activities.
+    * Added images more suitable for adults to cognitionplay memory.
+    * Replaced old wxPython based admin GUI with a simple GTK based GUI.
+       [ schoolsplay-Feature Requests-1847814 ] admin-gui for simple norm-line config
+       This means that childsplay_sp no longers depends on wxPython but on GTK.
+    * Implemented the following requests:
+        [ schoolsplay-Feature Requests-1847819 ] Other images in Cognitionplay Memory
+        [ schoolsplay-Feature Requests-1852184 ] Addition to Memory helptext
+        [ schoolsplay-Feature Requests-1840939 ] Make defaults in message dialogs (partially, see tracker)
+        [ schoolsplay-Feature Requests-1848422 ] Bigger mouse cursor
+    * Added a lock to prevent multiple instances.
+    * Disconnect the 'Enter' signal from the login screen as it results in bug.
+    * Replaced all the images in the meory activity with images from openclipart.org.
+
+Childsplay (0.7.5)
+    * Updated Spanish, Catalan, German, Greek, French and Dutch language support.
+    * Added a dialog in case an activity that depends on sound can't use the
+      soundcard.
+    * Localized strings in the graph dialog.
+    * Fixed bug #1837458  "execounter remains visible after ending activity"
+
+Childsplay_sp (0.7.4)
+    * Developers release.
+    * Small bugs and typos fixed.
+    * Added new activity, fallingletters.
+    * Fixed bugs in SPSpriteUtils related to the erase and display of sprites.
+    * Added exercise counter object.
+    * Fixed various display issues related to pygame 'screen clipping'.
+    * Added check for unkown loglevels.
+    * Fixed bug #1806910  '"Current activity : %s" not translated'
+    * Fixed problem with clashing file paths when cognitionplay and childsplay_sp
+      are installed together.
+    * Added Norwegian Bokmal language support.
+    * Released special variant called cognitionplay.
+    * Removed the dimmimg in the 321 countdown and replaced it with a static screen
+      dimmer and added the first line from the activity's help text.
+      It's also possible to skip the countdown by hitting space or a mousebutton.
+    * In the find_char_sound activity made level 3 display sorted letters.
+    * Renamed CP_find_char_sound into find_char_sound.
+    * Added locking to all user events. (Meaning everything blocks when a user
+      hits on of the menubar buttons)
+    * Added support to install cognitionplay and childsplay_sp on the same system.
+    * Fixed bug related to the font size used in certain dialogs.
+    * find_char_sound activity: Added color change to the charcters that 'timed out'.
+
+Childsplay_sp (0.7.3)
+    *Bugfix release.
+    * Fixed some text that would display vertical in a dialog.
+
+Childsplay_sp (0.7.2)
+    * Bugfix release.
+    * Enabled proper data collecting in find_char_sound activity.
+    * Added support for old adding columns to a existing database.
+    * Fixed font display for non-ascii characters like Greek, Russian etc.
+    * Made the language packs compatible with childsplay_sp.
+    * Fixed help text from the find_char_sound activity.
+    * Prevent the removal of the Alpabeth sounds when installing a new version.
+    * Added extra checks to prevent that an older dbase crashes SP.
+    * Fixed bug in the graph "first data item isn't shown".
+    * Added locking of all activity threads when a dialog is shown.
+
+Childsplay_sp (0.7.1)
+    *Bugfix release.
+    * Fixed wrong removal code in the setup.py install script.
+    * Fixed a bug in the exception handling when loading a windowmanager icon.
+
+Childsplay_sp (0.7)
+    * New release.
+    * Changed name from schoolsplay to childsplay_sp.
+    * Setup.py will look for old schoolsplay files and modules and remove them.
+    * Fixed minor bugs and typos.
+    * Added 'Gaussian data display' to the graphimage.
+      For an explanantion see the schoolsplay wiki.
+    * Added "fullscreen" commandline option.
+    * Added a icon for the windowmanager.
+    * Added support for a "adminmode" which enables certain posibilities.
+    * Added "graph image saving to disk" in adminmode.
+    * Fixed bug #1782456 "Some strings not localized"
+    * Added Greek and French language support.
+    * Added support to run from sources to make it easier to develop new
+      activities.
+    * Added better exception handling when an activity raises an exception
+      by adding info dialogs.
+    * Extra activity exception checks in the maincore.
+    * Added '3d shading' to the images used in find_char_sound activity.
+
+schoolsplay (0.6.9.3)
+    * Bugfix release.
+    * Removed SVN conflict string from SPMainGui which caused the install
+      script to crash.
+
+schoolsplay (0.6.9.2)
+    * Minor release.
+    * Added German language support.
+    * Fixed the stringsize problem when the login button is localized.
+    * Changed the "version" display stringsize.
+
+schoolsplay (0.6.9.1)
+    * Bugfix release.
+    * Fixed bug: #1761451, "progress report always the same (Taken from the list)"
+
+schoolsplay (0.69)
+    * New release.
+    * Finalized language support.
+    * Added uninstall option to the setup script.
+    * Added support for "alphabetsounds". ("alphabetsounds" packages are collections
+      of localized soundfiles)
+    * Added support for activity config options.
+    * Added support for a 'norm' line in the graph image.
+    * Added a 'activityconfig' dbase table to hold activity configuration options.
+    * Fixed a few localization errors.
+    * Made the graph image pixel perfect.
+      (The score values weren't drawn at the correct positions)
+    * Fixed a bug in the setup.py script. The old localization files weren't properly
+      removed.
+    * Changed license to GPLv3.
+
+schoolsplay (0.6.8)
+    * developers release
+    * Added language support: Dutch, Spanish and Catalan
+    * Changed the setup script to suite the needs of packagers.
+
+schoolsplay (0.66):
+    * New release.
+    * Added new CP (childsplay) activity called find_char_sound.
+
+schoolsplay (0.65):
+    * Developer release.
+    * Moved childsplay activities data into the CPData directory
+    * classroom data placed in CRData.
+    * Added the findsound activity from childsplay and added dbase support.
+    * Added a new method to be called by the core on activities called "post_next_level"
+      and it's called after 'next_level' and the 3212 countdown.
+    * Fixed a bug in the threaded timer which could lead to a unstopable thread.
+
+schoolsplay (0.6)
+    * New release.
+    * Changed the darkening stuff before a level starts.
+      It now starts after the level is setup by the activity.
+      This also fixes the bug which would display a next not existing level.
+    * Rewritten the sql stuff to make it easier to use.
+    * Added a wxPython based GUI.
+    * Fixed a lot of bugs.
+    * Fixed paths in the setup.py install script.
+    * Added reporting prototype.
+    * SP now uses his own (free) TTF font.
+
+schoolsplay (0.5)
+    * New release.
+    * Added new background image for the default theme.
+    * Fixed a bug in the multilevel menus.
+    * Added a 'polar' theme that uses a image for the menubar that is the
+      bottom half of the background picture.
+    * Added support for kioskmode with a virtual keyboard widget.
+    * (memory) Added score calculation.
+    * Added support for the score data.
+    * Added transparanty to the ocempgui dialogs.
+    * Fixed some bugs related to hitting the escape key.
+    * Added a 'birtdate' column to the users sql table.
+    * Fixed SPDatamager so that we don't crash due to sqlalchemey bugs when run
+      on python >= 2.5.
+    * Added a 'one_match' method to the sprite group to let only one sprite
+      react to events.
+    * Added options to use when developing activities.
+    * Added a new activity called fishtank.
+    * Added a pauze between levels, the screen slowly darkens and a countdown
+      is started.
+
+schoolsplay (0.4)
+    * Initial developers release.
+

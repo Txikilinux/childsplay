@@ -1,0 +1,846 @@
+# translation of childsplay_sp_nb_NO.po to
+# Childsplay Norwegian Bokmål translation.
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Childsplay package.
+#
+# Tor Harald Thorland <linux@strigen.com>, 2007.
+# stas Zytkiewicz <stas.zytkiewicz@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: childsplay_sp_nb_NO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-26 10:38+0200\n"
+"PO-Revision-Date: 2008-10-06 14:14+0200\n"
+"Last-Translator: stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../SPHelpText.py:72
+msgid ""
+"\n"
+"\n"
+"Touch the 'Play' button to continue the game."
+msgstr ""
+
+#: ../SPHelpText.py:67
+msgid ""
+"\n"
+"\n"
+"Touch the changed picture."
+msgstr ""
+
+#: ../SPMenu.py:308
+msgid "A collection of braintrain games for seniors."
+msgstr ""
+
+#: ../SPMainCore.py:348
+#, fuzzy
+msgid "Activity :"
+msgstr "Aktivitet: %s"
+
+#: ../SPMainCore.py:440
+#, fuzzy, python-format
+msgid "Activity : %s"
+msgstr "Aktivitet: %s"
+
+#: ../gui/AdminGui.py:280
+msgid "All the data was stored succesfully."
+msgstr "Alle data ble lagret"
+
+#: ../SPMenu.py:310
+msgid ""
+"All the games have there own help page, just start a game and hit the stars "
+"on top of the screen to select another difficulty."
+msgstr ""
+
+#: ../SPHelpText.py:120
+msgid "Alphabet"
+msgstr ""
+
+#: ../lib/quiz_math.py:103
+msgid "Answer the math questions."
+msgstr ""
+
+#: ../lib/quiz_melody.py:108 ../lib/quiz_text.py:109 ../lib/quiz_royal.py:114
+#: ../lib/quiz_history.py:235 ../lib/quiz_picture.py:100
+msgid "Answer the quiz questions."
+msgstr ""
+
+#: ../SPMainCore.py:676 ../SPMainCore.py:750
+msgid ""
+"Are sure you want to quit the dailytraining ? All the results will be lost."
+msgstr ""
+
+#: ../lib/puzzle.py:226
+msgid "At the bottom you'll see a image of the complete puzzle."
+msgstr ""
+
+#: ../lib/quiz_melody.py:110 ../lib/quiz_text.py:111
+msgid "At the top of the screen, you will see a general knowledge question."
+msgstr ""
+
+#: ../lib/quiz_math.py:105
+msgid "At the top of the screen, you will see a math problem."
+msgstr ""
+
+#: ../lib/quiz_picture.py:102
+msgid ""
+"At the top of the screen, you will see a picture on the screen with a "
+"related question."
+msgstr ""
+
+#: ../lib/quiz_royal.py:116
+msgid ""
+"At the top of the screen, you will see a question about a member of Royalty"
+msgstr ""
+
+#: ../lib/quiz_history.py:237
+msgid ""
+"At the top of the screen, you will see a question from general knowledge "
+"question from the selected period."
+msgstr ""
+
+#: ../lib/quiz_melody.py:111 ../lib/quiz_text.py:112 ../lib/quiz_royal.py:117
+#: ../lib/quiz_history.py:238 ../lib/quiz_math.py:106
+#: ../lib/quiz_picture.py:103
+msgid ""
+"Below it are a choice of possible answers.\n"
+"Touch the correct answer."
+msgstr ""
+
+#: ../SPWidgets.py:826 ../SPWidgets.py:838 ../SPMainCore.py:629
+msgid "Cancel"
+msgstr ""
+
+#: ../lib/ichanger.py:316
+msgid "Cheat"
+msgstr ""
+
+#: ../SPMainCore.py:229
+#, fuzzy, python-format
+msgid "Childsplay_sp - educational activities, using theme:%s"
+msgstr "Childsplay_sp - lærende aktiviteter"
+
+#: ../SPgdm.py:73
+msgid "Childsplay_sp login"
+msgstr "Childsplay_sp innlogging"
+
+#: ../lib/memory_sp.py:188
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr "Klassisk hukommelses spill hvor du skal finne 2 like kort."
+
+#: ../lib/soundmemory.py:190
+msgid "Classic memory game where you have to find pairs of sounds."
+msgstr "Klassisk hukommelses spill hvor du skal finne 2 like kort."
+
+#: ../lib/numbers.py:211
+#, fuzzy
+msgid "Click the buttons in the right order"
+msgstr "Legg alle bitene i riktig rekkefølge."
+
+#: ../lib/soundmemory.py:198 ../lib/memory_sp.py:196 ../lib/electro_sp.py:200
+#, fuzzy
+msgid "Correctness is more important than speed"
+msgstr "Tips: Korrekt svar er viktigere en hurtighet"
+
+#: ../SPMainCore.py:963 ../SPMainCore.py:1120
+#, python-format
+msgid "Current activity : %s"
+msgstr "Aktivitet: %s"
+
+#: ../SPMainCore.py:628
+msgid "Do you really want to quit ?"
+msgstr "Vil du avslutte?"
+
+#: ../lib/electro_sp.py:182
+msgid "Electro_sp"
+msgstr ""
+
+#: ../SPMainCore.py:424 ../SPMainCore.py:432
+msgid "Error !"
+msgstr ""
+
+#: ../SPMainCore.py:431
+#, python-format
+msgid ""
+"Error constructing activity\n"
+"%s"
+msgstr ""
+
+#: ../SPMainCore.py:423
+#, python-format
+msgid ""
+"Error importing activity\n"
+"%s"
+msgstr ""
+
+#: ../SPWidgets.py:1294
+msgid "Exercises"
+msgstr "Øvelser"
+
+#: ../lib/findit_sp.py:203
+msgid "Findit"
+msgstr ""
+
+#: ../lib/fishtank.py:218
+msgid "Fishtank"
+msgstr "Akvarium"
+
+#: ../SPHelpText.py:121
+msgid "Fun"
+msgstr ""
+
+#: ../lib/fishtank.py:240
+msgid "Fun/Mousetraining"
+msgstr ""
+
+#: ../SPMainCore.py:782
+#, python-format
+msgid "Generated by Childsplay_sp version %s for the %s activity"
+msgstr "Opprettet av Childsplay_sp versjon %s for %s aktiviteten"
+
+#: ../SPMainCore.py:495
+msgid "Hit the 'space' key or a mousebutton to skip the countdown"
+msgstr ""
+"Trykk \"mellomrom\" tasten eller en knapp på musen for å stoppe nedtellingen"
+
+#: ../lib/ichanger.py:280
+msgid "Ichanger"
+msgstr ""
+
+#: ../lib/fishtank.py:228
+#, fuzzy
+msgid ""
+"In the last level the fish needs to be clicked two times while they try to "
+"escape."
+msgstr "I siste nivå må fiskene klikkes på 2 ganger mens de prøver å rømme."
+
+#: ../SPMainCore.py:795 ../SPMainCore.py:972
+msgid "Information"
+msgstr ""
+
+#: ../SPMainCore.py:724
+#, python-format
+msgid "Information about %s"
+msgstr ""
+
+#: ../SPHelpText.py:54
+msgid ""
+"It seems that we cannot use the sound card right now and because this "
+"activity is all about sound, we just quit. This problem can also be caused "
+"by another application which uses the soundcard right now."
+msgstr ""
+"Det ser ut til at vi ikke kan bruke lydkortet akkurat nå, og siden denne "
+"aktiviteten er basert på lyder avslutter vi. Dette problemet kan oppstå når "
+"et annet program bruker lydkortet."
+
+#: ../SPHelpText.py:117
+msgid "Keyboardtraining"
+msgstr ""
+
+#: ../SPHelpText.py:119
+msgid "Language"
+msgstr ""
+
+#: ../SPgdm.py:122
+msgid "Login"
+msgstr "Logg inn"
+
+#: ../lib/puzzle.py:232
+msgid "Look closely at the complete puzzle picture at the bottom."
+msgstr ""
+
+#: ../lib/memory_sp.py:190
+msgid ""
+"Look closely at the pictures when you have them memorized touch 'START'.\n"
+"The pictures turn around, you must match the memorized repeated cards."
+msgstr ""
+
+#: ../SPHelpText.py:115 ../lib/quiz_math.py:119
+msgid "Math"
+msgstr ""
+
+#: ../lib/quiz_math.py:94
+msgid "Math Quiz"
+msgstr ""
+
+#: ../lib/quiz_melody.py:99
+msgid "Melody Quiz"
+msgstr ""
+
+#: ../SPHelpText.py:61
+msgid ""
+"Memorize the pictures.\n"
+"\n"
+"One of these pictures will be replaced by a new picture.\n"
+"\n"
+"Touch the 'Start' button to begin the game."
+msgstr ""
+
+#: ../SPHelpText.py:114 ../lib/quiz_melody.py:125 ../lib/quiz_text.py:124
+#: ../lib/soundmemory.py:204 ../lib/memory_sp.py:179 ../lib/memory_sp.py:202
+#: ../lib/electro_sp.py:206 ../lib/simon_sp.py:150
+msgid "Memory"
+msgstr "Hukommelse"
+
+#: ../lib/simon_sp.py:144
+msgid "Mind the sound sequence as well as the colors sequence."
+msgstr ""
+
+#: ../SPHelpText.py:122 ../lib/ichanger.py:303 ../lib/findit_sp.py:228
+#: ../lib/quiz_royal.py:129 ../lib/quiz_history.py:250
+#: ../lib/quiz_picture.py:115 ../lib/numbers.py:223
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../SPHelpText.py:118
+msgid "Mousetraining"
+msgstr ""
+
+#: ../SPMainCore.py:558 ../SPMainCore.py:677 ../SPMainCore.py:680
+#: ../SPMainCore.py:751 ../SPMainCore.py:754
+msgid "No"
+msgstr "Nei"
+
+#: ../SPWidgets.py:1195
+msgid "No data available for this level"
+msgstr "Ingen data tilgjengelig for dette nivået"
+
+#: ../lib/quiz_melody.py:113
+#, fuzzy
+msgid "Number of levels : 6"
+msgstr "Antall nivåer: 3"
+
+#: ../lib/numbers.py:202
+#, fuzzy
+msgid "Numbers"
+msgstr "Hukommelse - Nummer"
+
+#: ../SPWidgets.py:826 ../SPMainCore.py:369 ../SPMainCore.py:424
+#: ../SPMainCore.py:432 ../SPMainCore.py:629 ../SPMainCore.py:634
+#: ../SPMainCore.py:635 ../SPMainCore.py:724 ../SPMainCore.py:784
+#: ../SPMainCore.py:795 ../SPMainCore.py:972
+msgid "OK"
+msgstr ""
+
+#: ../lib/simon_sp.py:133
+msgid "On the screen are four blocks of different colours."
+msgstr ""
+
+#: ../lib/findit_sp.py:212
+msgid ""
+"On the screen you will see two almost identical pictures.\n"
+"However, there are differences between the images."
+msgstr ""
+
+#: ../SPWidgets.py:1227
+#, python-format
+msgid "Percentile scores for level %s"
+msgstr ""
+
+#: ../lib/quiz_picture.py:91
+msgid "Picture Quiz"
+msgstr ""
+
+#: ../lib/puzzle.py:224
+msgid "Place the puzzle piece on the right where you think it belongs..."
+msgstr ""
+
+#: ../lib/ichanger.py:314
+msgid "Play"
+msgstr ""
+
+#: ../lib/quiz_history.py:202
+msgid "Please enter your year of birth."
+msgstr ""
+
+#: ../lib/memory_sp.py:258
+msgid "Please, choose a set of cards."
+msgstr ""
+
+#: ../lib/puzzle.py:281
+msgid "Please, choose a set of puzzle images."
+msgstr ""
+
+#: ../lib/simon_sp.py:134
+msgid "Press the Start button with your finger."
+msgstr ""
+
+#: ../SPHelpText.py:116 ../lib/puzzle.py:215 ../lib/puzzle.py:238
+msgid "Puzzle"
+msgstr "Puslespill"
+
+#: ../SPMainCore.py:558 ../SPMainCore.py:677 ../SPMainCore.py:751
+msgid "Question ?"
+msgstr ""
+
+#: ../SPMainCore.py:629
+#, fuzzy
+msgid "Quit ?"
+msgstr "Avslutt "
+
+#: ../lib/quiz_history.py:226
+msgid "Quiz history"
+msgstr ""
+
+#: ../lib/quiz_royal.py:105
+msgid "Quiz royal"
+msgstr ""
+
+#: ../lib/quiz_math.py:108
+msgid ""
+"Remember, the order of operations is multiplication or division and then "
+"addition or subtraction."
+msgstr ""
+
+#: ../SPMainCore.py:369
+msgid "Request for help"
+msgstr ""
+
+#: ../SPMainCore.py:784
+msgid "Results"
+msgstr ""
+
+#: ../SPMainCore.py:784 ../SPMainCore.py:788
+msgid "Save image"
+msgstr ""
+
+#: ../SPMenu.py:295
+msgid ""
+"Select an activity and click on the button, the activity will be started."
+msgstr "Velg en aktivitet og klikk på knappen, aktiviteten vil da bli startet."
+
+#: ../SPMenu.py:286
+msgid "Seniorplay"
+msgstr ""
+
+#: ../lib/ichanger.py:289
+msgid ""
+"Several images from the past will appear on the screen.\n"
+"Look carefully at them and remember what you see."
+msgstr ""
+
+#: ../lib/simon_sp.py:122
+msgid "Simon_sp"
+msgstr ""
+
+#: ../lib/soundmemory.py:181
+msgid "Soundmemory"
+msgstr "Gjenkjen lyden"
+
+#: ../lib/memory_sp.py:386
+msgid "Start"
+msgstr ""
+
+#: ../SPMainCore.py:487
+#, python-format
+msgid "Starting level %s"
+msgstr "Starter nivå %s"
+
+#: ../SPMainCore.py:649
+msgid "Stopping timers, please wait..."
+msgstr ""
+
+#: ../lib/quiz_text.py:100
+msgid "Text Quiz"
+msgstr ""
+
+#: ../lib/simon_sp.py:136
+msgid "The  blocks will light up randomly along with sound clues."
+msgstr ""
+
+#: ../lib/quiz_melody.py:107 ../lib/ichanger.py:288 ../lib/quiz_text.py:108
+#: ../lib/findit_sp.py:211 ../lib/fishtank.py:226 ../lib/soundmemory.py:189
+#: ../lib/memory_sp.py:187 ../lib/quiz_royal.py:113 ../lib/quiz_history.py:234
+#: ../lib/electro_sp.py:190 ../lib/quiz_math.py:102 ../lib/quiz_picture.py:99
+#: ../lib/numbers.py:210 ../lib/simon_sp.py:130 ../lib/puzzle.py:223
+msgid "The aim of this activity:"
+msgstr "Målet med denne aktiviteten:"
+
+#: ../lib/findit_sp.py:216
+msgid "The arrows to the left take you to the previous image."
+msgstr ""
+
+#: ../lib/memory_sp.py:262 ../lib/puzzle.py:285
+msgid "The difficulty of the set increases from left to right."
+msgstr ""
+
+#: ../lib/electro_sp.py:191
+msgid "The game is to match pairs of pictures"
+msgstr ""
+
+#: ../gui/AdminGui.py:201
+msgid "The table 'activity_options' doesn't exist in the dbase"
+msgstr "Tabellen 'activity_options' eksisterer ikke i databasen"
+
+#: ../gui/AdminGui.py:278
+#, python-format
+msgid ""
+"There was a problem while replacing the rows in the database.\n"
+"The exception was:\n"
+"%s"
+msgstr ""
+"Det oppstod en feil under overskrivning av radene i databasen.\n"
+"Feilen var:\n"
+"%s"
+
+#: ../SPMainCore.py:1234
+#, python-format
+msgid ""
+"There was an error in %s. Please check the logs and inform the developers"
+msgstr ""
+"En feil ble oppdaget i %s. Vennligst sjekk log filene og informer utviklerne"
+
+#: ../SPHelpText.py:46
+#, python-format
+msgid ""
+"There was an error in the database this can be caused by many things but "
+"most of the time it's caused by the fact that your version of the database "
+"doesn't match the version of the program. I will backup your original "
+"database and then replace it with a new one. The original database is now "
+"called sp.db_back and it's placed in %s"
+msgstr ""
+"Det var en feil i databasen. Dette kan skje av mange grunner, men den mest "
+"vanlige er at din versjon av databasen ikke er den samme som versjonen av "
+"programmet. Programmet vil nå ta en sikkerhetskopi av din database og "
+"erstatte den med en ny. Den originale databasen blir nå kalt sp.db_back og "
+"blir lagret i %s"
+
+#: ../lib/ichanger.py:309 ../lib/findit_sp.py:235 ../lib/fishtank.py:247
+#: ../lib/soundmemory.py:210 ../lib/memory_sp.py:209 ../lib/quiz_royal.py:135
+#: ../lib/quiz_history.py:257 ../lib/electro_sp.py:212
+#: ../lib/quiz_picture.py:121 ../lib/numbers.py:230 ../lib/simon_sp.py:156
+#: ../lib/puzzle.py:245
+#, python-format
+msgid "This activity has %s levels"
+msgstr ""
+
+#: ../SPMenu.py:294
+msgid "This is the menu used to select an activity."
+msgstr "Dette er menyen for å velge en aktivitet."
+
+#: ../SPMainCore.py:716
+#, python-format
+msgid "Tip:%s"
+msgstr ""
+
+#: ../lib/quizengine.py:371
+#, python-format
+msgid ""
+"To little questions found in %s, found %s questions should be at least 10"
+msgstr ""
+
+#: ../lib/ichanger.py:291
+msgid ""
+"Touch the 'START' button on the right.\n"
+"The images will dissappear and when they return, one will have changed.\n"
+"Touch the picture which has changed."
+msgstr ""
+
+#: ../lib/fishtank.py:227
+#, fuzzy
+msgid "Try to remove the fish by clicking on them with the mouse."
+msgstr "Prøv å fjerne fiskene ved å klikke på dem med musen."
+
+#: ../lib/simon_sp.py:131
+msgid "Try to repeat the sequence of sounds played."
+msgstr ""
+
+#: ../SPMenu.py:296
+msgid "Use the 'sub menu' buttons for the different activity menus"
+msgstr ""
+
+#: ../SPMenu.py:312
+msgid "Use the menu below to choose between the different game categories"
+msgstr ""
+
+#: ../SPMainCore.py:335
+#, python-format
+msgid "User: %s"
+msgstr ""
+
+#: ../SPgdm.py:104
+msgid "Username:"
+msgstr "Brukernavn:"
+
+#: ../lib/simon_sp.py:137
+msgid ""
+"When the flashing stops you will be prompted to repeat the sequence by "
+"touching the coloured blocks."
+msgstr ""
+
+#: ../lib/findit_sp.py:214
+msgid ""
+"When you spot a difference, touch it with your finger.\n"
+"You can click the question mark in the middle of the screen if you need a "
+"hint."
+msgstr ""
+
+#: ../lib/soundmemory.py:192
+msgid ""
+"When you touch the picture you will hear a sound.\n"
+"Match the image with others that make the same sound,to get points."
+msgstr ""
+
+#: ../virtnumpad.py:235
+msgid "Year of birth"
+msgstr ""
+
+#: ../SPMainCore.py:558 ../SPMainCore.py:561 ../SPMainCore.py:677
+#: ../SPMainCore.py:751
+msgid "Yes"
+msgstr "Ja"
+
+#: ../SPMainCore.py:557
+msgid "You play very good, do you want to try the next level ?"
+msgstr ""
+
+#: ../lib/electro_sp.py:193
+msgid ""
+"You select the pictures by touching them.\n"
+"As you progress through the star levels more pairs appear to match."
+msgstr ""
+
+#: ../SPMainCore.py:794
+#, python-format
+msgid ""
+"Your image is saved at:\n"
+"%s"
+msgstr ""
+"Ditt bilde er lagret i:\n"
+"%s"
+
+#, fuzzy
+#~ msgid "Activity:"
+#~ msgstr "Aktivitet: %s"
+
+#~ msgid "Balls"
+#~ msgstr "Kuler"
+
+#~ msgid "Billiard"
+#~ msgstr "Biljard"
+
+#~ msgid "Billiard Game"
+#~ msgstr "Biljard Spill"
+
+#~ msgid "Childsplay_sp information"
+#~ msgstr "Childsplay_sp informasjon"
+
+#~ msgid "Childsplay_sp question"
+#~ msgstr "Childsplay_sp spørsmål"
+
+#~ msgid "Childsplay_sp results diagram"
+#~ msgstr "Childsplay_sp resultat diagram"
+
+#~ msgid "Current user: %s"
+#~ msgstr "Bruker:%s"
+
+#, fuzzy
+#~ msgid "Difficulty : 2 - 4 years"
+#~ msgstr "Vanskelighetsgrad : 4-7 år"
+
+#~ msgid "Difficulty : 4-7 years"
+#~ msgstr "Vanskelighetsgrad : 4-7 år"
+
+#~ msgid "Difficulty : 4-8 years"
+#~ msgstr "Vanskelighetsgrad : 4-8 år"
+
+#~ msgid ""
+#~ "Failed to get the dbase data, try to run childsplay_sp first to setup the "
+#~ "dbase"
+#~ msgstr ""
+#~ "Klarte ikke å hente dbase data, prøv å kjøre childsplay_sp først for å "
+#~ "sette opp dbase"
+
+#~ msgid "Fallingletters"
+#~ msgstr "Dalende bokstaver"
+
+#, fuzzy
+#~ msgid "Find all the letters in the right order."
+#~ msgstr "Legg alle bitene i riktig rekkefølge."
+
+#~ msgid "Find the characters"
+#~ msgstr "Gjennkjenn tegnene"
+
+#~ msgid "Findsound"
+#~ msgstr "Avslutnigs melodi"
+
+#~ msgid ""
+#~ "Give your login name in the box and hit the login button. Alternatively "
+#~ "you can just hit the login button and run Childsplay_sp in anonymous mode."
+#~ msgstr ""
+#~ "Skriv inn ditt innloggings navn og trykk på Logg inn knappen.Du kan også "
+#~ "trykke logg inn knappen direkte får å starte Childsplay_sp i anonym modus."
+
+#, fuzzy
+#~ msgid "Goal of the activity"
+#~ msgstr "Målet med denne aktiviteten"
+
+#~ msgid ""
+#~ "If the menu consist of more layers, sub menus, you can always get back to "
+#~ "the main menu by using the 'exit' button."
+#~ msgstr ""
+#~ "Hvis menyen har flere nivåer kan du gå tilbake til hovedmenyen ved å "
+#~ "bruke 'exit' knappen."
+
+#~ msgid ""
+#~ "If you start the GUI for the first time there's no username and password "
+#~ "set so you should just hit the 'Login' button.\n"
+#~ " You will get a warning message telling you to set as soon as possible a "
+#~ "username and password.\n"
+#~ "You can set a username and password in the GUI.\n"
+#~ " Go to 'Settings' -> 'Set password'."
+#~ msgstr ""
+#~ "Hvis dette er første gang du starter det grafiske grensesnittet er det "
+#~ "ikke oppgitt noe brukernavn eller passord, så du klikker bare 'Logg inn' "
+#~ "knappen.\n"
+#~ "Du vil få en advarsel som ber deg å opprette dette så fort som mulig.\n"
+#~ "Du kan sette brukernavn og passord i det grafiske grensesnittet.\n"
+#~ "Gå til 'Oppsett' -> ' Sett passord'."
+
+#~ msgid ""
+#~ "In the last two levels the uppercase and lowercase are mixed but you "
+#~ "don't have to match the case only the letter"
+#~ msgstr ""
+#~ "I de to siste nivåene er det en blanding av små og store bokstaver. "
+#~ "Poenget er å finne rett bokstav, og du trenger ikke å skrive de som små "
+#~ "eller store."
+
+#~ msgid "Info"
+#~ msgstr "Informasjon"
+
+#~ msgid "Listen to the sound and click on the character to which it belongs."
+#~ msgstr "Lytt til lydene og klikk på tilhørende bokstav."
+
+#~ msgid "Listen to the sound and click on the image to which it belongs."
+#~ msgstr "Lytt til lydene og klikk på tilhørende bilde."
+
+#~ msgid "LowercaseMemory"
+#~ msgstr "Hukommelse - Små bokstaver"
+
+#, fuzzy
+#~ msgid "Number of levels : 1"
+#~ msgstr "Antall nivåer: 3"
+
+#, fuzzy
+#~ msgid "Number of levels : 5"
+#~ msgstr "Antall nivåer: 3"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Pause"
+#~ msgstr "Pause"
+
+#~ msgid "Put all the pieces in the correct order."
+#~ msgstr "Legg alle bitene i riktig rekkefølge."
+
+#~ msgid "Save"
+#~ msgstr "Lagre"
+
+#~ msgid "Scores reached in level %s"
+#~ msgstr "Poengsum i nivå %s"
+
+#, fuzzy
+#~ msgid "Starting a new exercise"
+#~ msgstr "Starter nivå %s"
+
+#, fuzzy
+#~ msgid "The aim of the game:"
+#~ msgstr "Målet med denne aktiviteten:"
+
+#~ msgid "The aim of this activity"
+#~ msgstr "Målet med denne aktiviteten"
+
+#~ msgid ""
+#~ "The faster you find all the characters the better your score will be."
+#~ msgstr "Jo fortere du finner alle bokstavene, jo høyere blir din poengsum."
+
+#~ msgid ""
+#~ "The fewer hits you need to get the ball in the hole, the more points you "
+#~ "get."
+#~ msgstr ""
+#~ "Desto færre støt du trenger for å få kulen ned i hullet, desto flere "
+#~ "poeng får du."
+
+#~ msgid "The longer you hold the left button the harder it will hit the ball."
+#~ msgstr "Desto lenger knappen holdes nede desto hardere støtes kulen"
+
+#~ msgid ""
+#~ "This database table holds the values used when displaying the results "
+#~ "graph in an activity.\n"
+#~ "The column 'MU-value' holds an integer between 0 and 10 indicating the "
+#~ "average score.(the dark blue line).\n"
+#~ "The column 'SIGMA-value' holds an integer between 0 an 100 indicating the "
+#~ "standard deviation in percentage, probably always 50. (the light blue "
+#~ "box)\n"
+#~ "\n"
+#~ "Click on the row you want to alter and then click on the field you wish "
+#~ "to edit.\n"
+#~ "You cannot edit the 'Activity name' field.\n"
+#~ "Use the 'Save' button to store the changes in the database."
+#~ msgstr ""
+#~ "Denne database tabellen inneholder data som blir brukt når resultatene "
+#~ "for en aktivitet blir vist.\n"
+#~ "Kolonnen 'MU-value' inneholder et heltall mellom 0 og 10 som indikerer "
+#~ "gjennomsnitts poengsum. (den mørkeblå linjen).\n"
+#~ "Kolonnen 'SIGMA-value inneholder et heltall mellom 0 og 100 som indikerer "
+#~ "standard avvik i prosent, mest sansynlig 50. (den lyseblå boksen)\n"
+#~ "\n"
+#~ "Klikk på en rad som du vil forandre og videre feltet du vil redigere.\n"
+#~ "Du kan ikke redigere feltet 'Activity name'.\n"
+#~ "Bruk 'Lagre' knappen for å lagre forandringen til databasen."
+
+#, fuzzy
+#~ msgid "Try to 'eat' all the letters in the appropriated order."
+#~ msgstr "Legg alle bitene i riktig rekkefølge."
+
+#, fuzzy
+#~ msgid "Type of activity"
+#~ msgstr "Målet med denne aktiviteten"
+
+#~ msgid "Type the falling letters on the keyboard before they hit the ground."
+#~ msgstr "Trykk på bokstavene før de treffer bakken."
+
+#~ msgid "UppercaseMemory"
+#~ msgstr "Hukommelse - Store bokstaver"
+
+#~ msgid ""
+#~ "Use the right mousebutton to aim and the left button to hit the ball."
+#~ msgstr ""
+#~ "Sikte med den høyre museknappen og bruk venstre kanpp til å støte kulen."
+
+#, fuzzy
+#~ msgid ""
+#~ "When you can't find the correct character after a certain period of time "
+#~ "a box will be drawn around it."
+#~ msgstr ""
+#~ "Hvis du ikke finner den rette bokstaven innen en gitt tid vil det bli "
+#~ "tegnet en boks rundt den."
+
+#~ msgid "You can hit the 'graph' button to see your results per level."
+#~ msgstr "Du kan trykke på 'graph' knappen for å se ditt resultat pr nivå."
+
+#~ msgid "You have to make the blue ball enter the hole (in level 1)"
+#~ msgstr "Målet i level 1 er å få den blå ballen ned i hullet"
+
+#~ msgid "You won!!"
+#~ msgstr "Du vant!!"
+
+#~ msgid "and the red ones in levels 2 and 3."
+#~ msgstr "samt de røde i nivå 2 og 3"
+
+#, fuzzy
+#~ msgid "beaver"
+#~ msgstr "Lagre"
+
+#, fuzzy
+#~ msgid "mouse"
+#~ msgstr "Pause"
+
+#~ msgid "points"
+#~ msgstr "poeng"

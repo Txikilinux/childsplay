@@ -319,7 +319,10 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return "BrainTrainerPlus"
+        if self.SPG.get_theme() == 'braintrainerplus':
+            return "BrainTrainerPlus"
+        else:
+            return "Childsplay"
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -332,7 +335,7 @@ class Activity:
         _("Use the 'sub menu' buttons for the different activity menus"),
         " ",
         "Developers: Stas Zytkiewicz, Chris van Bael",
-        "Artwork and support: Formatics.nl, BraintrainerPlus.com, Wysiwich.be",
+        "Artwork and support: BraintrainerPlus.com",
         " ",
         "This program is free software; you can redistribute it and/or modify it under the terms of version 3 of the GNU General Public License as published by the Free Software Foundation.",
         "A copy of this license should be included in the file GPL-3.",
@@ -377,10 +380,11 @@ class Activity:
         This will start first level"""
         self.logger.debug("starting")
         self.scoredisplay = self.SPG.get_scoredisplay()
-                
+
     def pre_level(self, level):
         """Mandatory method"""
-        pass    
+        pass
+
     def next_level(self, level):
         """Mandatory method.
         Return True if there levels left.

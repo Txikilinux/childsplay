@@ -1,0 +1,420 @@
+# translation of schoolsplay_ca_ES.po to catalan
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Carles Ferrando Garcia <carles.ferrando@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: schoolsplay_ca_ES\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-02 13:57+0200\n"
+"PO-Revision-Date: 2007-05-05 08:15+0100\n"
+"Last-Translator: Stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
+"Language-Team: catalan <ca@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../SPCoreButtons.py:46
+#: ../gui/SPCommonWidgets.py:52
+msgid "Quit"
+msgstr "Eixir"
+
+#: ../SPCoreButtons.py:47
+msgid "Info"
+msgstr "Informació"
+
+#: ../SPCoreButtons.py:48
+msgid "Pause"
+msgstr "Aturada"
+
+#: ../SPHelpText.py:27
+msgid ""
+"If you start the GUI for the first time there's no username and password set so you should just hit the 'Login' button.\n"
+" You will get a warning message telling you to set as soon as possible a username and password.\n"
+"You can set a username ans password in the GUI.\n"
+" Go to 'Settings' -> 'Set password'."
+msgstr ""
+"Si executeu el programa per primera vegada en mode gràfic , no hi haurà usuari ni contrasenya, per tant heu de prémer el botó 'Usuari'.\n"
+"Tindreu un missatge d'alerta dient-vos que creeu l'usuari i la contrasenya quant abans millor.\n"
+"Podeu crear l'usuari i la contrasenya en mode gràfic si aneu a :\n"
+"'Canvis' -> 'Posar contrasenya'."
+
+#: ../SPHelpText.py:34
+msgid "Failed to get the dbase data, try to run schoolsplay first to setup the dbase"
+msgstr "Errada al anar a la base de dades, proveu d'executar schoolsplay primer per crear la base de dades"
+
+#: ../SPHelpText.py:38
+msgid "Give your login name in the box and hit the login button. Alternatively you can just hit the login button and run Schoolsplay in anonymous mode."
+msgstr "Poseu el vostre nom d'usuari a la caixa i premeu el botó d'usuari. Alternativament podeu prémer el botó d'usuari i executar Schoolsplay de forma anònima."
+
+#: ../SPHelpText.py:44
+msgid "It seems that we cannot use the sound card right now and because this activity is all about sound, we just quit. This problem can also be caused by another application which uses the soundcard right now."
+msgstr "Sembla que no podeu utilitzar la tarja de so ara i com aquesta activitat utilitza tota l'estona sons , cal que ajusteu la tarja. Aquest problema està probablement causat per una altra aplicació que empra la tarja de so ara."
+
+#: ../SPMainCore.py:110
+msgid "Schoolsplay - educational activities"
+msgstr "Schoolsplay - jocs educatius"
+
+#: ../SPMainCore.py:189
+#, python-format
+msgid "Current user: %s"
+msgstr "Usuari actual : %s"
+
+#: ../SPMainCore.py:191
+#: ../SPMainCore.py:244
+#: ../SPMainCore.py:477
+#, python-format
+msgid "Current activity : %s"
+msgstr "Activitat actual : %s"
+
+#: ../SPMainCore.py:274
+#, python-format
+msgid "Starting level %s"
+msgstr "Nivell inicial %s"
+
+#: ../SPgdm.py:105
+#: ../gui/SPCheckPass.py:66
+msgid "Login"
+msgstr "Usuari"
+
+#: ../SPocwWidgets.py:159
+msgid "Yes"
+msgstr "Sí"
+
+#: ../SPocwWidgets.py:163
+msgid "No"
+msgstr "No"
+
+#: ../SPocwWidgets.py:169
+msgid "Schoolsplay question"
+msgstr "Pregunta de Schoolsplay"
+
+#: ../SPocwWidgets.py:170
+msgid "Do you really want to quit ?"
+msgstr "Realment voleu eixir ?"
+
+#: ../SPocwWidgets.py:189
+msgid "Ok"
+msgstr "D'acord"
+
+#: ../SPocwWidgets.py:195
+#: ../gui/SPCommonWidgets.py:31
+#: ../gui/SPCommonWidgets.py:37
+msgid "Schoolsplay information"
+msgstr "Informació de Schoolsplay"
+
+#: ../gui/SPCheckPass.py:53
+msgid ""
+"Give your schoolsplay administrator username and password.\n"
+"If you haven't set one yet just hit 'Login'"
+msgstr ""
+"Poseu el vostre nom d'usuari administrador de Schoolsplay i la vostra contrasenya.\n"
+"En haver fet això podreu prémer 'Usuari'"
+
+#: ../gui/SPCheckPass.py:57
+msgid "Username:"
+msgstr "Usuari :"
+
+#: ../gui/SPCheckPass.py:61
+msgid "Password:"
+msgstr "Contrasenya :"
+
+#: ../gui/SPCheckPass.py:67
+msgid "Cancel"
+msgstr "Cancel·leu"
+
+#: ../gui/SPCheckPass.py:110
+msgid ""
+"There's no username or password set for this application.\n"
+"Please set a password by as soon as the application has started.\n"
+msgstr ""
+"No hi ha usuari o contrasenya per a aquest programari.\n"
+"Si-us-plau poseu la contrasenya el més ràpid posible en engegar el programari.\n"
+
+#: ../gui/SPCheckPass.py:118
+msgid "Username and password don't match"
+msgstr "Usuari i/o contrasenya no coincideixen."
+
+#: ../gui/SPCommonWidgets.py:25
+msgid "Schoolsplay error"
+msgstr "Errada a Schoolsplay"
+
+#: ../gui/SPCommonWidgets.py:53
+msgid "This will quit the program"
+msgstr "Eixireu del programa"
+
+#: ../gui/SPCommonWidgets.py:60
+msgid "Help"
+msgstr "Ajuda"
+
+#: ../gui/SPCommonWidgets.py:62
+msgid "This will bring up a short help message"
+msgstr "Se us mostrarà un breu missatge d'ajuda"
+
+#: ../gui/SPMainGui.py:69
+msgid "S&et password"
+msgstr "Poseu la contrasenya"
+
+#: ../gui/SPMainGui.py:70
+msgid "Set a password for this program"
+msgstr "Poseu una contrasenya per a aquest programa"
+
+#: ../gui/SPMainGui.py:71
+msgid "&Settings"
+msgstr "&Ajusts"
+
+#: ../gui/SPMainGui.py:75
+msgid "&About"
+msgstr "&Aproximadament"
+
+#: ../gui/SPMainGui.py:76
+msgid "Information about schoolsplay"
+msgstr "Informació sobre Schoolsplay"
+
+#: ../gui/SPMainGui.py:78
+msgid "&Quick help"
+msgstr "&Ajuda ràpida"
+
+#: ../gui/SPMainGui.py:79
+msgid "Short help text"
+msgstr "Text d'ajuda breu"
+
+#: ../gui/SPMainGui.py:137
+msgid "Schoolsplay admin"
+msgstr "Administrador de Schoolsplay"
+
+#: ../gui/SPNBP1.py:68
+msgid "Users to include"
+msgstr "Usuaris a incloure"
+
+#: ../gui/SPNBP1.py:71
+msgid ""
+"Please select which user, or all users, you want to include.\n"
+"Select 'ALL' to select all the items."
+msgstr ""
+"Si-us-plau seleccioneu quin usuari o usuaris , voleu incloure.\n"
+"Seleccioneu 'TOTS' per seleccionar tots els usuaris."
+
+#: ../gui/SPNBP1.py:82
+msgid "Activities to include"
+msgstr "Activitats a incloure"
+
+#: ../gui/SPNBP1.py:85
+msgid ""
+"Please select which activity, or all activities, you want to include.\n"
+"Select 'ALL' to select all the items."
+msgstr ""
+"Si-us-plau seleccioneu quina activitat o activitats , voleu incloure.\n"
+"Seleccioneu 'TOTES' per seleccionar totes les activitats."
+
+#: ../gui/SPNBP1.py:120
+msgid "Generate report"
+msgstr "Generació d'un informe"
+
+#: ../gui/SPNBP1.py:143
+msgid "The report was succesfull generated"
+msgstr "L'informe ha estat generat satisfactòriament"
+
+#: ../gui/SPNBP2.py:67
+msgid "Delete row"
+msgstr "Esborreu la fila"
+
+#: ../gui/SPNBP2.py:68
+msgid ""
+"Delete all the selected rows\n"
+"Be aware that there is no way to revert your changes."
+msgstr ""
+"Esborreu totes les files seleccionades\n"
+"Tingueu en compte que no podreu desfer els canvis."
+
+#: ../gui/SPNBP2.py:69
+msgid "Add row"
+msgstr "Afegir fila"
+
+#: ../gui/SPNBP2.py:70
+msgid "Save table"
+msgstr "Desar la taula"
+
+#: ../gui/SPNBP2.py:71
+msgid ""
+"Save the table to the database.\n"
+"Be aware that there is no way to revert your changes."
+msgstr ""
+"Anomeneu i deseu la taula a la base de dades.\n"
+"Tingueu en compte que aquest canvi no és pot desfer."
+
+#: ../gui/SPNBP2.py:105
+msgid "Choose a table from the list"
+msgstr "Escull una taula de la llista"
+
+#: ../gui/SPNBP2.py:106
+#: ../gui/SPNoteBook.py:52
+msgid "SQL Tables"
+msgstr "Taules SQL"
+
+#: ../gui/SPNBP2.py:110
+msgid "Enter the table name or use the 'browse' button to find a table"
+msgstr "Entreu el nom de la taula o empreu el botó navegador per buscar la taula"
+
+#: ../gui/SPNBP2.py:111
+msgid "Table name:"
+msgstr "Nom de la taula:"
+
+#: ../gui/SPNBP2.py:113
+msgid "Browse"
+msgstr "Navegueu"
+
+#: ../gui/SPNBP2.py:114
+msgid ""
+"Use this to choose a table.\n"
+"You should use the 'display table' button to actual display the table you've choosen."
+msgstr ""
+"Utilitzeu això per escollir la taula.\n"
+"Cal que empreu el botó 'Informació de la taula' per actualitzar la informació de la taula que heu escollit."
+
+#: ../gui/SPNBP2.py:115
+msgid "Display table"
+msgstr "Taula de resultats"
+
+#: ../gui/SPNBP2.py:207
+#, python-format
+msgid "The table '%s' doesn't exist in the dbase"
+msgstr "La taula '%s' no existeix a la base de dades"
+
+#: ../gui/SPNBP2.py:220
+msgid "You don't have a valid table selected"
+msgstr "No heu seleccionat una taula vàlida"
+
+#: ../gui/SPNBP2.py:226
+msgid ""
+"You haven't selected a row.\n"
+"Select a row by clicking on the row labels on the right.\n"
+"Select multiple rows by holding down the 'Ctrl' or the 'Shift' button"
+msgstr ""
+"No heu seleccionat una fila.\n"
+"Seleccioneu una fila prement sobre les etiquetes de les files amb la dreta.\n"
+"Seleccioneu múltiples files mantenint premuts els botons 'Control' o 'Alternar'"
+
+#: ../gui/SPNBP2.py:235
+msgid ""
+"You can't add rows to this table.\n"
+"This table is used by the schoolsplay activities and you can only delete rows."
+msgstr ""
+"No podeu afegir files a aquesta taula.\n"
+"Aquesta és utilitzada per  activitats de Schoolsplay i sols podeu esborrar files."
+
+#: ../gui/SPNBP2.py:246
+#, python-format
+msgid ""
+"There was a problem while replacing the rows in the database.\n"
+"The exception was:\n"
+"%s"
+msgstr ""
+"Hi ha hagut un problema mentres es reemplaçava una fila a la bases de dades.\n"
+"L'excepció ha estat : \n"
+"%s"
+
+#: ../gui/SPNoteBook.py:51
+msgid "Reports"
+msgstr "Informes"
+
+#: ../gui/SPNoteBook.py:53
+msgid "Activities"
+msgstr "Activitats"
+
+#: ../lib/CP_find_char_sound.py:155
+msgid "Find the characters"
+msgstr "Trobeu els caràcters"
+
+#: ../lib/CP_find_char_sound.py:163
+#: ../lib/CR_math_add1.py:91
+msgid "The aim of this activity."
+msgstr "L'objectiu de l'activitat"
+
+#: ../lib/CP_find_char_sound.py:164
+msgid "Listen to the sound and click on the character to which it belongs."
+msgstr "Escolteu el so i premeu sobre el caràcter al qual pertany."
+
+#: ../lib/CP_find_char_sound.py:165
+msgid "When you can't find the correct character after a certain period of time the characters will change color and a box will be drawn around it."
+msgstr "Quan no pugueu trobar el caràcter correcte després d'un cert periode d temps, els caràcters canviaran de color i una caixa es dibuixarà al voltant d'ells."
+
+#: ../lib/CP_find_char_sound.py:166
+msgid "The faster you find all the characters the better your score will be."
+msgstr "Quan més ràpid trobeu els caràcters més puntuació tindreu."
+
+#: ../lib/CP_find_char_sound.py:168
+msgid "Difficulty : 4-7 years"
+msgstr "Dificultat : 4-7 anys"
+
+#: ../lib/CR_math_add1.py:83
+msgid "Math add #1"
+msgstr "Afegit matemàtic #1"
+
+#: ../lib/CR_math_add1.py:93
+msgid "Difficulty :  years"
+msgstr "Dificultat : anys"
+
+#: ../lib/fishtank.py:191
+msgid "Fishtank"
+msgstr "Tanc de peixos"
+
+#: ../lib/fishtank.py:199
+#: ../lib/memory.py:162
+#: ../lib/memorylower.py:164
+#: ../lib/memorynumbers.py:164
+#: ../lib/memoryupper.py:164
+msgid "The aim of this activity:"
+msgstr "L'objectiu de l'activitat :"
+
+#: ../lib/fishtank.py:200
+msgid "Try to remove the fish by clicking on them by the mouse."
+msgstr "Intenteu treure el peix prement sobre ell amb el ratolí."
+
+#: ../lib/fishtank.py:201
+msgid "In the last level the fish needs to be cliked two times while they trying to escape."
+msgstr "Al darrer nivell heu de prémer dues vegades el peix mentres intenta escapar."
+
+#: ../lib/fishtank.py:203
+msgid "Difficulty : 3-5 years"
+msgstr "Dificultat : 3-5 anys"
+
+#: ../lib/memory.py:154
+msgid "Memory"
+msgstr "Memòria"
+
+#: ../lib/memory.py:164
+#: ../lib/memorylower.py:166
+#: ../lib/memorynumbers.py:166
+#: ../lib/memoryupper.py:166
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr "Clàssic joc de memòria on heu de trobar parelles de cartes"
+
+#: ../lib/memory.py:165
+#: ../lib/memorylower.py:167
+#: ../lib/memorynumbers.py:167
+#: ../lib/memoryupper.py:167
+msgid "You can hit the 'graph' button to see your results per level."
+msgstr "Podeu prémer el botó de gràfics per veure els resultats per nivells."
+
+#: ../lib/memory.py:167
+#: ../lib/memorylower.py:169
+#: ../lib/memorynumbers.py:169
+#: ../lib/memoryupper.py:169
+msgid "Difficulty : 4-6 years"
+msgstr "Dificultat : 4-6 anys"
+
+#: ../lib/memorylower.py:155
+msgid "LowercaseMemory"
+msgstr "Memòria menuda"
+
+#: ../lib/memorynumbers.py:155
+msgid "NumbersMemory"
+msgstr "Memòria de nombres"
+
+#: ../lib/memoryupper.py:155
+msgid "UppercaseMemory"
+msgstr "Memòria gran"
+

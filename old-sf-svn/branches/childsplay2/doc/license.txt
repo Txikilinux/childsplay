@@ -1,0 +1,45 @@
+Schoolsplay is free software and licensed under the GPL version 3. See below for an explanation of what "free software" means and see the file called GPL-3 included in this package.
+That being said, we, the developers of Schoolsplay, are also human and it's in the human nature to want to get compliments.  So if you like Schoolsplay, we like you to do a few things:
+
+    1) Feed us!
+    
+    No, not with money that's point 3, but with compliments: send us an email at schoolsplay@gmail.com saying how much you like it.  You may include electronic postcards, scans of drawings made by your children, ...  That will keep us extra motivated to make new releases.
+    
+    2) Promote us!
+    
+    Tell all parents and teachers you know about Schoolsplay. Write about it on your blog or on your website but talk about it.
+
+    3) Donate to Oxfam!
+    
+    We, and perhaps you too, live in the rich part of the world.  We have everything we need.  There are millions of people out there who don't.  Help them with a small donation to Oxfam (http://www.oxfam.com/).
+    
+You can always download the latest full version of Schoolsplay, free of charge, at http://www.schoolsplay.org
+Bugs, support requests and feature requests may always be send to schoolsplay@gmail.com or use the dedicated trackers on the Schoolsplay project page at http://sourceforge.net/projects/schoolsplay.
+
+
+What is Free Software?
+
+Free in Free Software is referring to freedom, not price.
+In particular, four freedoms define Free Software:
+
+    0) The freedom to run the program, for any purpose.
+
+    Placing restrictions on the use of Free Software, such as time ("30 days trial period", "license expires January 1st, 2004") purpose ("permission granted for research and non-commercial use") or geographic area ("must not be used in country X") makes a program non-free.
+
+    1) The freedom to study how the program works, and adapt it to your needs.
+
+    Placing legal or practical restrictions on the comprehension or modification of a program, such as mandatory purchase of special licenses, signing of a Non-Disclosure-Agreement (NDA) or - for programming languages that have multiple forms or representation - making the preferred human way of comprehending and editing a program ("source code") inaccessible also makes it proprietary (non-free). Without the freedom to modify a program, people will remain at the mercy of a single vendor.
+
+    2) The freedom to redistribute copies so you can help your neighbor.
+
+    Software can be copied/distributed at virtually no cost. If you are not allowed to give a program to a person in need, that makes a program non-free. This can be done for a charge, if you so choose.
+
+    3) The freedom to improve the program, and release your improvements to the public, so that the whole community benefits. 
+   
+    Not everyone is an equally good programmer in all fields. Some people don't know how to program at all. This freedom allows those who do not have the time or skills to solve a problem to indirectly access the freedom to modify. This can be done for a charge.
+
+These freedoms are rights, not obligations, although respecting these freedoms for society may at times oblige the individual. Any person can choose to not make use of them, but may also choose to make use of all of them.
+In particular, it should be understood that Free Software does not exclude commercial use.
+If a program fails to allow commercial use and commercial distribution, it is not Free Software.
+Indeed a growing number of companies base their business model completely or at least partially on Free Software, including some of the largest proprietary software vendors.
+Free Software makes it legal to provide help and assistance, it does not make it mandatory.

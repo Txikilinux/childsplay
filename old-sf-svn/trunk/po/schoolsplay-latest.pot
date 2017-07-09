@@ -1,0 +1,408 @@
+#
+# schoolsplay Language File
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: schoolsplay 0.8\n"
+"POT-Creation-Date: 2010-01-06 11:13:02.809719\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: utf-8\n"
+"Generated-By: generate_pot.py\n"
+
+#. file 'SPMainCore.py', line 373
+msgid "This activity is finished"
+msgstr ""
+
+#. file 'SPMenu.py', line 127
+msgid "This is the menu used to select an activity."
+msgstr ""
+
+#. file 'SPMenu.py', line 128
+msgid "Select an activity and click on the button, the activity will be started."
+msgstr ""
+
+#. file 'SPMenu.py', line 129
+msgid "If the menu consist of more layers, sub menus, you can always get back to the main menu by using the 'exit' button."
+msgstr ""
+
+#. file 'SPMenu.py', line 130
+msgid "Activities have four levels and you can use the dice button to get to a next level."
+msgstr ""
+
+#. file 'SPMenu.py', line 131
+msgid "You can't cycle through the levels using the dice button, at the last level you must use the stop button to get back to the menu."
+msgstr ""
+
+#. file 'SPHelpText.py', line 34
+msgid ""
+"If you start the GUI for the first time there's no username and password set so you should just hit the 'Login' button.\n"
+" You will get a warning message telling you to set as soon as possible a username and password.\n"
+"You can set a username and password in the GUI.\n"
+" Go to 'Settings' -> 'Set password'."
+msgstr ""
+
+#. file 'SPHelpText.py', line 37
+msgid "Failed to get the dbase data, try to run childsplay_sp first to setup the dbase"
+msgstr ""
+
+#. file 'SPHelpText.py', line 43
+msgid "Give your login name in the box and hit the login button. Alternatively you can just hit the login button and run Schoolsplay in anonymous mode."
+msgstr ""
+
+#. file 'SPHelpText.py', line 61
+msgid ""
+"This database table holds the values used when displaying the results graph in an activity.\n"
+"The column 'MU-value' holds an integer between 0 and 10 indicating the average score.(the dark blue line).\n"
+"The column 'SIGMA-value' holds an integer between 0 an 100 indicating the standard deviation in percentage, probably always 50. (the light blue box)\n"
+"\n"
+"Click on the row you want to alter and then click on the field you wish to edit.\n"
+"You cannot edit the 'Activity name' field.\n"
+"Use the 'Save' button to store the changes in the database."
+msgstr ""
+
+#. file 'SPHelpText.py', line 65
+msgid "You don't have the alphabet sound package installed for your language or the locale '%s' isn't supported yet. See the www.schoolsplay.org for additional downloads or how to provide support for your language"
+msgstr ""
+
+#. file 'SPHelpText.py', line 67
+msgid "You don't have the pygame sound modules installed. This activity needs sound so it can't be used."
+msgstr ""
+
+#. file 'SPHelpText.py', line 68
+msgid "There's are not enough images and/or sounds available, found only %s items"
+msgstr ""
+
+#. file 'SPWidgets.py', line 306
+msgid "Start"
+msgstr ""
+
+#. file 'SPWidgets.py', line 310
+msgid "Stop"
+msgstr ""
+
+#. file 'SPWidgets.py', line 315
+msgid "Reset"
+msgstr ""
+
+#. file 'gui/AdminGui.py', line 180
+msgid "The table 'activity_options' doesn't exist in the dbase"
+msgstr ""
+
+#. file 'gui/AdminGui.py', line 257
+msgid ""
+"There was a problem while replacing the rows in the database.\n"
+"The exception was:\n"
+"%s"
+msgstr ""
+
+#. file 'gui/AdminGui.py', line 259
+msgid "All the data was stored succesfully."
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Schoolsplay"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Help"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "User:"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Activity name: "
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Anonymous"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "None"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Activity icon: "
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Next level"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Shows the scores "
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Quit"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Really quit?"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "<b>Do you really want to quit ?</b>"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "login"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Password:"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Username:"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Get help about the login"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Login with an username or anonymous"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Quit Schoolsplay"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+#. file 'pixmaps/sp_cr.glade', line ?
+#. file 'pixmaps/sp_cr.glade', line ?
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "label"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+#. file 'lib/CRData/StackData/stack1.glade', line ?
+msgid "window1"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "<b>Numbersrange</b>"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "<b>Timer</b>"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "<b>Exercises</b>"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "<b>1/1</b>"
+msgstr ""
+
+#. file 'pixmaps/sp_cr.glade', line ?
+msgid "Check your solution."
+msgstr ""
+
+#. file 'lib/act_multitables.py', line 160
+msgid "When you are ready to start the exam, click on me."
+msgstr ""
+
+#. file 'lib/act_multitables.py', line 289
+msgid "Multitables"
+msgstr ""
+
+#. file 'lib/act_multitables.py', line 297
+#. file 'lib/act_row1.py', line 234
+#. file 'lib/act_stack1.py', line 311
+#. file 'lib/act_div_1.py', line 77
+#. file 'lib/act_stack2.py', line 296
+#. file 'lib/act_letterflash1.py', line 218
+#. file 'lib/act_add_1.py', line 201
+#. file 'lib/act_stack3.py', line 295
+#. file 'lib/act_sub_1.py', line 79
+msgid "The aim of this activity:"
+msgstr ""
+
+#. file 'lib/act_multitables.py', line 298
+msgid "Level 1 is the level where the child must finish all the tables in a certain amount of time. When the times set in level one are low enough they will show up in green and level two will be available which is a 'exam' where the child must finish 50 exercises within a certain time."
+msgstr ""
+
+#. file 'lib/act_multitables.py', line 300
+#. file 'lib/act_row1.py', line 239
+#. file 'lib/act_stack1.py', line 317
+#. file 'lib/act_stack2.py', line 304
+#. file 'lib/act_add_1.py', line 205
+#. file 'lib/act_stack3.py', line 303
+#. file 'lib/act_sub_1.py', line 83
+msgid "Author: Stas Zytkiewicz"
+msgstr ""
+
+#. file 'lib/act_multitables.py', line 305
+msgid "Repeat the same table a number of times and the time to finish it will get better."
+msgstr ""
+
+#. file 'lib/act_multitables.py', line 311
+#. file 'lib/act_row2.py', line 249
+#. file 'lib/act_row1.py', line 251
+#. file 'lib/act_stack2.py', line 316
+#. file 'lib/act_add_1.py', line 217
+#. file 'lib/act_stack3.py', line 315
+msgid "Math"
+msgstr ""
+
+#. file 'lib/act_multitables.py', line 317
+#. file 'lib/act_row2.py', line 255
+#. file 'lib/act_row1.py', line 257
+#. file 'lib/act_stack1.py', line 307
+#. file 'lib/act_stack2.py', line 322
+#. file 'lib/act_letterflash1.py', line 240
+#. file 'lib/act_add_1.py', line 223
+#. file 'lib/act_stack3.py', line 321
+msgid "This activity has %s levels"
+msgstr ""
+
+#. file 'lib/act_row2.py', line 233
+msgid "Row2"
+msgstr ""
+
+#. file 'lib/act_row1.py', line 224
+msgid "Fibonacci numbers"
+msgstr ""
+
+#. file 'lib/act_row1.py', line 235
+msgid "Solve the Fibonacci sequence."
+msgstr ""
+
+#. file 'lib/act_row1.py', line 237
+msgid "Fibonacci numbers are a sequence of numbers where, after two starting values, each number is the sum of the two preceding numbers"
+msgstr ""
+
+#. file 'lib/act_stack1.py', line 294
+msgid "NumbersStack 6"
+msgstr ""
+
+#. file 'lib/act_stack1.py', line 312
+#. file 'lib/act_stack2.py', line 297
+#. file 'lib/act_stack3.py', line 296
+msgid "Find and add all the numbers from the bottom up."
+msgstr ""
+
+#. file 'lib/act_stack1.py', line 314
+#. file 'lib/act_stack2.py', line 299
+#. file 'lib/act_stack3.py', line 298
+msgid "Add the numbers in the first two fields and put the solution in the field above these two fields."
+msgstr ""
+
+#. file 'lib/act_stack1.py', line 315
+#. file 'lib/act_stack2.py', line 300
+#. file 'lib/act_stack3.py', line 299
+msgid "Click the 'thumbs' button to check your work."
+msgstr ""
+
+#. file 'lib/act_div_1.py', line 65
+msgid "Divide numbers"
+msgstr ""
+
+#. file 'lib/act_div_1.py', line 78
+msgid "Divide the numbers."
+msgstr ""
+
+#. file 'lib/act_div_1.py', line 79
+#. file 'lib/act_add_1.py', line 203
+#. file 'lib/act_sub_1.py', line 81
+msgid "Empty solutions are considered wrong solutions."
+msgstr ""
+
+#. file 'lib/act_div_1.py', line 81
+msgid "Author : Stas Zytkiewicz"
+msgstr ""
+
+#. file 'lib/act_stack2.py', line 288
+msgid "NumbersStack 15"
+msgstr ""
+
+#. file 'lib/act_stack2.py', line 302
+msgid "Difficulty : 7-12 years"
+msgstr ""
+
+#. file 'lib/act_letterflash1.py', line 210
+msgid "Letterflash 1"
+msgstr ""
+
+#. file 'lib/act_letterflash1.py', line 219
+msgid ""
+msgstr ""
+
+#. file 'lib/act_letterflash1.py', line 221
+msgid "Difficulty :  years"
+msgstr ""
+
+#. file 'lib/act_letterflash1.py', line 234
+msgid "Alphabeth"
+msgstr ""
+
+#. file 'lib/act_add_1.py', line 182
+msgid "This level is finished"
+msgstr ""
+
+#. file 'lib/act_add_1.py', line 189
+msgid "Add numbers"
+msgstr ""
+
+#. file 'lib/act_add_1.py', line 202
+msgid "Add the numbers."
+msgstr ""
+
+#. file 'lib/act_stack3.py', line 287
+msgid "NumbersStack 10"
+msgstr ""
+
+#. file 'lib/act_stack3.py', line 301
+msgid "Difficulty : 7-10 years"
+msgstr ""
+
+#. file 'lib/act_sub_1.py', line 71
+msgid "Subtract numbers"
+msgstr ""
+
+#. file 'lib/act_sub_1.py', line 80
+msgid "Subtract the numbers."
+msgstr ""
+
+#. file 'lib/CRData/MultitablesData/multitables.glade', line ?
+#. file 'lib/CRData/MultitablesData/multitables.glade', line ?
+#. file 'lib/CRData/MultitablesData/multitables.glade', line ?
+#. file 'lib/CRData/MultitablesData/multitables.glade', line ?
+#. file 'lib/CRData/MultitablesData/multitables.glade', line ?
+#. file 'lib/CRData/MultitablesData/multitables.glade', line ?
+#. file 'lib/CRData/MultitablesData/multitables.glade', line ?
+#. file 'lib/CRData/MultitablesData/multitables.glade', line ?
+#. file 'lib/CRData/MultitablesData/multitables.glade', line ?
+#. file 'lib/CRData/MultitablesData/multitables.glade', line ?
+msgid "<big>0:00</big>"
+msgstr ""
+
+#. file 'lib/CRData/MultitablesData/multitables.glade', line ?
+msgid "<big>Pick a table</big>"
+msgstr ""
+
+#. file 'lib/CRData/StackData/stack1.glade', line ?
+msgid "window2"
+msgstr ""
+
+#. file 'lib/CRData/Row1Data/row1.glade', line ?
+#. file 'lib/CRData/Row1Data/row1.glade', line ?
+#. file 'lib/CRData/Row1Data/row1.glade', line ?
+#. file 'lib/CRData/Row1Data/row1.glade', line ?
+#. file 'lib/CRData/Row1Data/row1.glade', line ?
+#. file 'lib/CRData/Row1Data/row1.glade', line ?
+#. file 'lib/CRData/Row1Data/row1.glade', line ?
+#. file 'lib/CRData/Row1Data/row1.glade', line ?
+#. file 'lib/CRData/Row1Data/row1.glade', line ?
+msgid "<big>+</big>"
+msgstr ""
+

@@ -1,0 +1,6 @@
+The *.coords files are created with the checkborder_pygame.py tool from
+the activity_dev dir and are needed to determine the coordinates for
+the green/red images from DT.
+
+When you change the menu_bar.png image for the menu you MUST rerun the tool 
+to generate a proper coords file.

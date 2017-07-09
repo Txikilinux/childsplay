@@ -1,0 +1,33 @@
+TODO
+
+> - Icon is generic python icon.
+I will look into it.
+
+Problem of 'ALTER TABLE' which is not available in sqla.
+ALTER TABLE would be needed in case we want to extend a activities
+table after release.
+There's a few possibilities, make a 'migrate' script to migrate old
+data to a new table.
+Or see the sqla DLL class;
+(Pasted part of the docs)
+class sqlalchemy.schema.DDL(statement, on=None, context=None, bind=None)¶
+
+    Bases: object
+
+    A literal DDL statement.
+
+    Specifies literal SQL DDL to be executed by the database. DDL objects can be attached to Tables or MetaData instances, conditionally executing SQL as part of the DDL lifecycle of those schema items. Basic templating support allows a single DDL instance to handle repetitive tasks for multiple tables.
+
+    Examples:
+
+    tbl = Table('users', metadata, Column('uid', Integer)) # ...
+    DDL('DROP TRIGGER users_trigger').execute_at('before-create', tbl)
+
+    spow = DDL('ALTER TABLE %(table)s SET secretpowers TRUE', on='somedb')
+    spow.execute_at('after-create', tbl)
+
+    drop_spow = DDL('ALTER TABLE users SET secretpowers FALSE')
+    connection.execute(drop_spow)
+
+
+

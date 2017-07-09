@@ -1,0 +1,9 @@
+There are two versions of the schoolsplay code base.
+'schoolsplay' which can be found in the SVN "olpc-branc" module
+and 'childsplay_sp' found in the "childsplay_sp" module.
+The "cognitionplay" module is just a themed childsplay_sp version.
+
+Beware that the sources can't be installed with the setup.py scripts.
+These scripts are meant to be used from within a release package.
+Contact stas.zytkiewicz@gmail.com if you want to install form
+sources. (I assume you know why you want to do that :-)

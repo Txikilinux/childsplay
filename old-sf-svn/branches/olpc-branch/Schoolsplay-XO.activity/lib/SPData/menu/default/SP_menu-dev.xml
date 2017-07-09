@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootmenu file="background.png" ocw="bgstrip.png">
+    <menuitem file="develop.icon.png">
+        <activity>fishtank</activity>
+        <position>40,40</position>
+    </menuitem>
+</rootmenu>

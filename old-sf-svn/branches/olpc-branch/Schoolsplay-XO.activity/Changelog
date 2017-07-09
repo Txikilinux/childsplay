@@ -1,0 +1,72 @@
+schoolsplay (0.70)
+    * New release.
+    * Fixed the sql table creation to be compatible with sqlalchemy versions
+      >= 0.4.
+    * Made the stack activities numbersrange aware.
+    * Add support for menubuttons positions.
+    * Fixed bug in the dice button callback which lead to a crash when the user
+      hit the dice after level 4. 
+    * Fixed lot of typo's in the text strings.
+    * Changed button images.
+      
+schoolsplay (0.69)
+    * New release.
+    * Added uninstall option to the setup script.
+    * Added support for "alphabetsounds". ("alphabetsounds" packages are collections
+      of localized soundfiles)
+    * Added support for activity config options.
+
+schoolsplay (0.6.8)
+    * developers release
+    * Added language support: Dutch, Spanish and Catalan
+    * Changed the setup script to suite the needs of packagers.
+
+schoolsplay (0.66):
+    * New release.
+    * Added new CP (childsplay) activity called find_char_sound.
+
+schoolsplay (0.65):
+    * Developer release.
+    * Moved childsplay activities data into the CPData directory
+    * classroom data placed in CRData.
+    * Added the findsound activity from childsplay and added dbase support.
+    * Added a new method to be called by the core on activities called "post_next_level"
+      and it's called after 'next_level' and the 3212 countdown.
+    * Fixed a bug in the threaded timer which could lead to a unstopable thread.
+    
+schoolsplay (0.6)
+    * New release.
+    * Changed the darkening stuff before a level starts.
+      It now starts after the level is setup by the activity.
+      This also fixes the bug which would display a next not existing level.
+    * Rewritten the sql stuff to make it easier to use.
+    * Added a wxPython based GUI.
+    * Fixed a lot of bugs.
+    * Fixed paths in the setup.py install script.
+    * Added reporting prototype.
+    * SP now uses his own (free) TTF font.
+
+schoolsplay (0.5)
+    * New release.
+    * Added new background image for the default theme.
+    * Fixed a bug in the multilevel menus. 
+    * Added a 'polar' theme that uses a image for the menubar that is the 
+      bottom half of the background picture.  
+    * Added support for kioskmode with a virtual keyboard widget.
+    * (memory) Added score calculation.
+    * Added support for the score data.
+    * Added transparanty to the ocempgui dialogs.
+    * Fixed some bugs related to hitting the escape key.
+    * Added a 'birtdate' column to the users sql table.
+    * Fixed SPDatamager so that we don't crash due to sqlalchemey bugs when run 
+      on python >= 2.5. 
+    * Added a 'one_match' method to the sprite group to let only one sprite
+      react to events.
+    * Added options to use when developing activities.
+    * Added a new activity called fishtank.
+    * Added a pauze between levels, the screen slowly darkens and a countdown
+      is started.
+
+schoolsplay (0.4)
+    * Initial developers release.
+    

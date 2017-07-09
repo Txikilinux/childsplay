@@ -1,0 +1,967 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CHILDSPLAY_SP 0.76.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-26 10:38+0200\n"
+"PO-Revision-Date: 2008-12-04 15:28+0200\n"
+"Last-Translator: Cristina <cristina@fastcharity.ro>\n"
+"Language-Team: ROMANIAN <p_b_richardson@yahoo.co.uk>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+
+#: ../SPHelpText.py:72
+msgid ""
+"\n"
+"\n"
+"Touch the 'Play' button to continue the game."
+msgstr ""
+
+#: ../SPHelpText.py:67
+msgid ""
+"\n"
+"\n"
+"Touch the changed picture."
+msgstr ""
+
+#: ../SPMenu.py:308
+msgid "A collection of braintrain games for seniors."
+msgstr ""
+
+#: ../SPMainCore.py:348
+#, fuzzy
+msgid "Activity :"
+msgstr "Activitate curentă: %s"
+
+#: ../SPMainCore.py:440
+#, fuzzy, python-format
+msgid "Activity : %s"
+msgstr "Activitate curentă: %s"
+
+#: ../gui/AdminGui.py:280
+msgid "All the data was stored succesfully."
+msgstr "Toate datele au fost stocate cu succes."
+
+#: ../SPMenu.py:310
+msgid ""
+"All the games have there own help page, just start a game and hit the stars "
+"on top of the screen to select another difficulty."
+msgstr ""
+
+#: ../SPHelpText.py:120
+msgid "Alphabet"
+msgstr ""
+
+#: ../lib/quiz_math.py:103
+msgid "Answer the math questions."
+msgstr ""
+
+#: ../lib/quiz_melody.py:108 ../lib/quiz_text.py:109 ../lib/quiz_royal.py:114
+#: ../lib/quiz_history.py:235 ../lib/quiz_picture.py:100
+msgid "Answer the quiz questions."
+msgstr ""
+
+#: ../SPMainCore.py:676 ../SPMainCore.py:750
+msgid ""
+"Are sure you want to quit the dailytraining ? All the results will be lost."
+msgstr ""
+
+#: ../lib/puzzle.py:226
+msgid "At the bottom you'll see a image of the complete puzzle."
+msgstr ""
+
+#: ../lib/quiz_melody.py:110 ../lib/quiz_text.py:111
+msgid "At the top of the screen, you will see a general knowledge question."
+msgstr ""
+
+#: ../lib/quiz_math.py:105
+msgid "At the top of the screen, you will see a math problem."
+msgstr ""
+
+#: ../lib/quiz_picture.py:102
+msgid ""
+"At the top of the screen, you will see a picture on the screen with a "
+"related question."
+msgstr ""
+
+#: ../lib/quiz_royal.py:116
+msgid ""
+"At the top of the screen, you will see a question about a member of Royalty"
+msgstr ""
+
+#: ../lib/quiz_history.py:237
+msgid ""
+"At the top of the screen, you will see a question from general knowledge "
+"question from the selected period."
+msgstr ""
+
+#: ../lib/quiz_melody.py:111 ../lib/quiz_text.py:112 ../lib/quiz_royal.py:117
+#: ../lib/quiz_history.py:238 ../lib/quiz_math.py:106
+#: ../lib/quiz_picture.py:103
+msgid ""
+"Below it are a choice of possible answers.\n"
+"Touch the correct answer."
+msgstr ""
+
+#: ../SPWidgets.py:826 ../SPWidgets.py:838 ../SPMainCore.py:629
+msgid "Cancel"
+msgstr ""
+
+#: ../lib/ichanger.py:316
+msgid "Cheat"
+msgstr ""
+
+#: ../SPMainCore.py:229
+#, fuzzy, python-format
+msgid "Childsplay_sp - educational activities, using theme:%s"
+msgstr "Childsplay_sp - activităţi educaţionale"
+
+#: ../SPgdm.py:73
+msgid "Childsplay_sp login"
+msgstr "Înregistrare Childsplay_sp"
+
+#: ../lib/memory_sp.py:188
+msgid "Classic memory game where you have to find pairs of cards."
+msgstr "Joc clasic de memorie unde trebuie să găseşti perechi de cărţi."
+
+#: ../lib/soundmemory.py:190
+msgid "Classic memory game where you have to find pairs of sounds."
+msgstr "Joc clasic de memorie unde trebuie să găseşti perechi de sunete. "
+
+#: ../lib/numbers.py:211
+#, fuzzy
+msgid "Click the buttons in the right order"
+msgstr "Găseşte toate literele în ordinea corectă. Cuvântul de găsit este:"
+
+#: ../lib/soundmemory.py:198 ../lib/memory_sp.py:196 ../lib/electro_sp.py:200
+#, fuzzy
+msgid "Correctness is more important than speed"
+msgstr "Pont: Corectitudinea este mai importantă decât viteza"
+
+#: ../SPMainCore.py:963 ../SPMainCore.py:1120
+#, python-format
+msgid "Current activity : %s"
+msgstr "Activitate curentă: %s"
+
+#: ../SPMainCore.py:628
+msgid "Do you really want to quit ?"
+msgstr "Vrei să renunţi?"
+
+#: ../lib/electro_sp.py:182
+msgid "Electro_sp"
+msgstr ""
+
+#: ../SPMainCore.py:424 ../SPMainCore.py:432
+msgid "Error !"
+msgstr ""
+
+#: ../SPMainCore.py:431
+#, python-format
+msgid ""
+"Error constructing activity\n"
+"%s"
+msgstr ""
+
+#: ../SPMainCore.py:423
+#, python-format
+msgid ""
+"Error importing activity\n"
+"%s"
+msgstr ""
+
+#: ../SPWidgets.py:1294
+msgid "Exercises"
+msgstr "Exerciţii"
+
+#: ../lib/findit_sp.py:203
+msgid "Findit"
+msgstr ""
+
+#: ../lib/fishtank.py:218
+msgid "Fishtank"
+msgstr "Bazinul cu peşti"
+
+#: ../SPHelpText.py:121
+msgid "Fun"
+msgstr ""
+
+#: ../lib/fishtank.py:240
+msgid "Fun/Mousetraining"
+msgstr ""
+
+#: ../SPMainCore.py:782
+#, python-format
+msgid "Generated by Childsplay_sp version %s for the %s activity"
+msgstr "Generat de versiunea Childsplay_sp %s pentru activitatea %s"
+
+#: ../SPMainCore.py:495
+msgid "Hit the 'space' key or a mousebutton to skip the countdown"
+msgstr ""
+"Apasă pe tasta 'spaţiu' sau pe mouse pentru a sări peste numărătoarea "
+"inversă "
+
+#: ../lib/ichanger.py:280
+msgid "Ichanger"
+msgstr ""
+
+#: ../lib/fishtank.py:228
+#, fuzzy
+msgid ""
+"In the last level the fish needs to be clicked two times while they try to "
+"escape."
+msgstr ""
+"La ultimul nivel trebuie să apeşi de două ori cu mouse-ul pe peşti în timp "
+"ce ei încearcă să scape."
+
+#: ../SPMainCore.py:795 ../SPMainCore.py:972
+msgid "Information"
+msgstr ""
+
+#: ../SPMainCore.py:724
+#, python-format
+msgid "Information about %s"
+msgstr ""
+
+#: ../SPHelpText.py:54
+msgid ""
+"It seems that we cannot use the sound card right now and because this "
+"activity is all about sound, we just quit. This problem can also be caused "
+"by another application which uses the soundcard right now."
+msgstr ""
+"Se pare că nu putem utiliza placa de sunet acum şi pentru că această "
+"activitate depinde de sunet, vom renunţa. Această problemă poate fi cauzată "
+"de o altă aplicaţie care foloseşte acum placa de sunet. "
+
+#: ../SPHelpText.py:117
+#, fuzzy
+msgid "Keyboardtraining"
+msgstr "Antrenament cu tastatura, dificultate:  *"
+
+#: ../SPHelpText.py:119
+msgid "Language"
+msgstr ""
+
+#: ../SPgdm.py:122
+msgid "Login"
+msgstr "Înregistrare"
+
+#: ../lib/puzzle.py:232
+msgid "Look closely at the complete puzzle picture at the bottom."
+msgstr ""
+
+#: ../lib/memory_sp.py:190
+msgid ""
+"Look closely at the pictures when you have them memorized touch 'START'.\n"
+"The pictures turn around, you must match the memorized repeated cards."
+msgstr ""
+
+#: ../SPHelpText.py:115 ../lib/quiz_math.py:119
+msgid "Math"
+msgstr ""
+
+#: ../lib/quiz_math.py:94
+msgid "Math Quiz"
+msgstr ""
+
+#: ../lib/quiz_melody.py:99
+msgid "Melody Quiz"
+msgstr ""
+
+#: ../SPHelpText.py:61
+msgid ""
+"Memorize the pictures.\n"
+"\n"
+"One of these pictures will be replaced by a new picture.\n"
+"\n"
+"Touch the 'Start' button to begin the game."
+msgstr ""
+
+#: ../SPHelpText.py:114 ../lib/quiz_melody.py:125 ../lib/quiz_text.py:124
+#: ../lib/soundmemory.py:204 ../lib/memory_sp.py:179 ../lib/memory_sp.py:202
+#: ../lib/electro_sp.py:206 ../lib/simon_sp.py:150
+msgid "Memory"
+msgstr "Memorie"
+
+#: ../lib/simon_sp.py:144
+msgid "Mind the sound sequence as well as the colors sequence."
+msgstr ""
+
+#: ../SPHelpText.py:122 ../lib/ichanger.py:303 ../lib/findit_sp.py:228
+#: ../lib/quiz_royal.py:129 ../lib/quiz_history.py:250
+#: ../lib/quiz_picture.py:115 ../lib/numbers.py:223
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../SPHelpText.py:118
+msgid "Mousetraining"
+msgstr ""
+
+#: ../SPMainCore.py:558 ../SPMainCore.py:677 ../SPMainCore.py:680
+#: ../SPMainCore.py:751 ../SPMainCore.py:754
+msgid "No"
+msgstr "Nu"
+
+#: ../SPWidgets.py:1195
+msgid "No data available for this level"
+msgstr "Nicio dată valabilă pentru acest nivel"
+
+#: ../lib/quiz_melody.py:113
+#, fuzzy
+msgid "Number of levels : 6"
+msgstr "Număr de niveluri : 3"
+
+#: ../lib/numbers.py:202
+#, fuzzy
+msgid "Numbers"
+msgstr "Numere Memorie"
+
+#: ../SPWidgets.py:826 ../SPMainCore.py:369 ../SPMainCore.py:424
+#: ../SPMainCore.py:432 ../SPMainCore.py:629 ../SPMainCore.py:634
+#: ../SPMainCore.py:635 ../SPMainCore.py:724 ../SPMainCore.py:784
+#: ../SPMainCore.py:795 ../SPMainCore.py:972
+msgid "OK"
+msgstr ""
+
+#: ../lib/simon_sp.py:133
+msgid "On the screen are four blocks of different colours."
+msgstr ""
+
+#: ../lib/findit_sp.py:212
+msgid ""
+"On the screen you will see two almost identical pictures.\n"
+"However, there are differences between the images."
+msgstr ""
+
+#: ../SPWidgets.py:1227
+#, python-format
+msgid "Percentile scores for level %s"
+msgstr ""
+
+#: ../lib/quiz_picture.py:91
+msgid "Picture Quiz"
+msgstr ""
+
+#: ../lib/puzzle.py:224
+msgid "Place the puzzle piece on the right where you think it belongs..."
+msgstr ""
+
+#: ../lib/ichanger.py:314
+msgid "Play"
+msgstr ""
+
+#: ../lib/quiz_history.py:202
+msgid "Please enter your year of birth."
+msgstr ""
+
+#: ../lib/memory_sp.py:258
+msgid "Please, choose a set of cards."
+msgstr ""
+
+#: ../lib/puzzle.py:281
+msgid "Please, choose a set of puzzle images."
+msgstr ""
+
+#: ../lib/simon_sp.py:134
+msgid "Press the Start button with your finger."
+msgstr ""
+
+#: ../SPHelpText.py:116 ../lib/puzzle.py:215 ../lib/puzzle.py:238
+msgid "Puzzle"
+msgstr "Puzzle"
+
+#: ../SPMainCore.py:558 ../SPMainCore.py:677 ../SPMainCore.py:751
+msgid "Question ?"
+msgstr ""
+
+#: ../SPMainCore.py:629
+#, fuzzy
+msgid "Quit ?"
+msgstr "Renunţă"
+
+#: ../lib/quiz_history.py:226
+msgid "Quiz history"
+msgstr ""
+
+#: ../lib/quiz_royal.py:105
+msgid "Quiz royal"
+msgstr ""
+
+#: ../lib/quiz_math.py:108
+msgid ""
+"Remember, the order of operations is multiplication or division and then "
+"addition or subtraction."
+msgstr ""
+
+#: ../SPMainCore.py:369
+msgid "Request for help"
+msgstr ""
+
+#: ../SPMainCore.py:784
+msgid "Results"
+msgstr ""
+
+#: ../SPMainCore.py:784 ../SPMainCore.py:788
+msgid "Save image"
+msgstr ""
+
+#: ../SPMenu.py:295
+msgid ""
+"Select an activity and click on the button, the activity will be started."
+msgstr "Selectează o activitate şi apasă pe buton, activitatea va începe."
+
+#: ../SPMenu.py:286
+msgid "Seniorplay"
+msgstr ""
+
+#: ../lib/ichanger.py:289
+msgid ""
+"Several images from the past will appear on the screen.\n"
+"Look carefully at them and remember what you see."
+msgstr ""
+
+#: ../lib/simon_sp.py:122
+msgid "Simon_sp"
+msgstr ""
+
+#: ../lib/soundmemory.py:181
+msgid "Soundmemory"
+msgstr "Sunet memorie"
+
+#: ../lib/memory_sp.py:386
+msgid "Start"
+msgstr ""
+
+#: ../SPMainCore.py:487
+#, python-format
+msgid "Starting level %s"
+msgstr "Nivel iniţial %s"
+
+#: ../SPMainCore.py:649
+msgid "Stopping timers, please wait..."
+msgstr ""
+
+#: ../lib/quiz_text.py:100
+msgid "Text Quiz"
+msgstr ""
+
+#: ../lib/simon_sp.py:136
+msgid "The  blocks will light up randomly along with sound clues."
+msgstr ""
+
+#: ../lib/quiz_melody.py:107 ../lib/ichanger.py:288 ../lib/quiz_text.py:108
+#: ../lib/findit_sp.py:211 ../lib/fishtank.py:226 ../lib/soundmemory.py:189
+#: ../lib/memory_sp.py:187 ../lib/quiz_royal.py:113 ../lib/quiz_history.py:234
+#: ../lib/electro_sp.py:190 ../lib/quiz_math.py:102 ../lib/quiz_picture.py:99
+#: ../lib/numbers.py:210 ../lib/simon_sp.py:130 ../lib/puzzle.py:223
+msgid "The aim of this activity:"
+msgstr "Obiectivul activităţii:"
+
+#: ../lib/findit_sp.py:216
+msgid "The arrows to the left take you to the previous image."
+msgstr ""
+
+#: ../lib/memory_sp.py:262 ../lib/puzzle.py:285
+msgid "The difficulty of the set increases from left to right."
+msgstr ""
+
+#: ../lib/electro_sp.py:191
+msgid "The game is to match pairs of pictures"
+msgstr ""
+
+#: ../gui/AdminGui.py:201
+msgid "The table 'activity_options' doesn't exist in the dbase"
+msgstr "Tabelul 'activitate_opţiuni' nu există în baza de date"
+
+#: ../gui/AdminGui.py:278
+#, python-format
+msgid ""
+"There was a problem while replacing the rows in the database.\n"
+"The exception was:\n"
+"%s"
+msgstr ""
+"S-a înregistrat o problemă în timp ce s-au înlocuit rândurile în baza da "
+"date.\n"
+"Excepţia a fost: \n"
+"%s"
+
+#: ../SPMainCore.py:1234
+#, python-format
+msgid ""
+"There was an error in %s. Please check the logs and inform the developers"
+msgstr ""
+"Este o eroare la %s. Vă rog să verificaţi log-urile şi să informaţi "
+"producătorii"
+
+#: ../SPHelpText.py:46
+#, python-format
+msgid ""
+"There was an error in the database this can be caused by many things but "
+"most of the time it's caused by the fact that your version of the database "
+"doesn't match the version of the program. I will backup your original "
+"database and then replace it with a new one. The original database is now "
+"called sp.db_back and it's placed in %s"
+msgstr ""
+"Este o eroare în baza de date care poate fi cauzată de multe lucruri , dar "
+"de cele mai multe ori este cauzată de faptul că versiunea ta a bazei de date "
+"nu este compatibilă cu versiunea programului. Voi stoca data ta de baze "
+"originală şi o voi înlocui cu una nouă. Baza de date originală este acum "
+"denumită sp.db_back şi este plasată în %s "
+
+#: ../lib/ichanger.py:309 ../lib/findit_sp.py:235 ../lib/fishtank.py:247
+#: ../lib/soundmemory.py:210 ../lib/memory_sp.py:209 ../lib/quiz_royal.py:135
+#: ../lib/quiz_history.py:257 ../lib/electro_sp.py:212
+#: ../lib/quiz_picture.py:121 ../lib/numbers.py:230 ../lib/simon_sp.py:156
+#: ../lib/puzzle.py:245
+#, fuzzy, python-format
+msgid "This activity has %s levels"
+msgstr "Această activitate are numai 4 niveluri"
+
+#: ../SPMenu.py:294
+msgid "This is the menu used to select an activity."
+msgstr "Acesta este meniul utilizat pentru selectarea unei activităţi."
+
+#: ../SPMainCore.py:716
+#, python-format
+msgid "Tip:%s"
+msgstr ""
+
+#: ../lib/quizengine.py:371
+#, python-format
+msgid ""
+"To little questions found in %s, found %s questions should be at least 10"
+msgstr ""
+
+#: ../lib/ichanger.py:291
+msgid ""
+"Touch the 'START' button on the right.\n"
+"The images will dissappear and when they return, one will have changed.\n"
+"Touch the picture which has changed."
+msgstr ""
+
+#: ../lib/fishtank.py:227
+#, fuzzy
+msgid "Try to remove the fish by clicking on them with the mouse."
+msgstr "Încearcă să scoţi peştii apăsând cu mouse-ul pe ei. "
+
+#: ../lib/simon_sp.py:131
+msgid "Try to repeat the sequence of sounds played."
+msgstr ""
+
+#: ../SPMenu.py:296
+msgid "Use the 'sub menu' buttons for the different activity menus"
+msgstr ""
+
+#: ../SPMenu.py:312
+msgid "Use the menu below to choose between the different game categories"
+msgstr ""
+
+#: ../SPMainCore.py:335
+#, python-format
+msgid "User: %s"
+msgstr ""
+
+#: ../SPgdm.py:104
+msgid "Username:"
+msgstr "Nume utilizator:"
+
+#: ../lib/simon_sp.py:137
+msgid ""
+"When the flashing stops you will be prompted to repeat the sequence by "
+"touching the coloured blocks."
+msgstr ""
+
+#: ../lib/findit_sp.py:214
+msgid ""
+"When you spot a difference, touch it with your finger.\n"
+"You can click the question mark in the middle of the screen if you need a "
+"hint."
+msgstr ""
+
+#: ../lib/soundmemory.py:192
+msgid ""
+"When you touch the picture you will hear a sound.\n"
+"Match the image with others that make the same sound,to get points."
+msgstr ""
+
+#: ../virtnumpad.py:235
+msgid "Year of birth"
+msgstr ""
+
+#: ../SPMainCore.py:558 ../SPMainCore.py:561 ../SPMainCore.py:677
+#: ../SPMainCore.py:751
+msgid "Yes"
+msgstr "Da"
+
+#: ../SPMainCore.py:557
+msgid "You play very good, do you want to try the next level ?"
+msgstr ""
+
+#: ../lib/electro_sp.py:193
+msgid ""
+"You select the pictures by touching them.\n"
+"As you progress through the star levels more pairs appear to match."
+msgstr ""
+
+#: ../SPMainCore.py:794
+#, python-format
+msgid ""
+"Your image is saved at:\n"
+"%s"
+msgstr ""
+"Imaginea ta este salvată la:\n"
+"%s"
+
+#~ msgid "(max two per word), you can play the last level which is a maze."
+#~ msgstr ""
+#~ "(max două pe cuvânt), poţi juca ultimul nivel care este un labirint."
+
+#, fuzzy
+#~ msgid "Activity:"
+#~ msgstr "Activitate curentă: %s"
+
+#~ msgid "Aquarium mouse training, difficulty: *"
+#~ msgstr "Antrenament cu mouse pe acvariu, dificultate:  *"
+
+#~ msgid "Balls"
+#~ msgstr "Mingi"
+
+#~ msgid "Billiard"
+#~ msgstr "Biliard"
+
+#~ msgid "Billiard Game"
+#~ msgstr "Joc de biliard"
+
+#~ msgid "Billiard, difficulty: **/***"
+#~ msgstr "Biliard, dificultate:  **/***"
+
+#~ msgid "Childsplay_sp information"
+#~ msgstr "Informaţii despre childsplay_sp"
+
+#~ msgid "Childsplay_sp question"
+#~ msgstr "Childsplay_sp întrebare"
+
+#~ msgid "Childsplay_sp results diagram"
+#~ msgstr "Diagrama cu rezultate Childsplay_sp"
+
+#~ msgid "Choose the game to play:"
+#~ msgstr "Alege jocul:"
+
+#~ msgid "Current user: %s"
+#~ msgstr "Utilizator curent: %s"
+
+#~ msgid "Difficulty : 4-7 years"
+#~ msgstr "Dificultate : 4-7 ani"
+
+#~ msgid "Difficulty : 4-8 years"
+#~ msgstr "Dificultate : 4-8 ani"
+
+#~ msgid ""
+#~ "Failed to get the dbase data, try to run childsplay_sp first to setup the "
+#~ "dbase"
+#~ msgstr ""
+#~ "Eşuare în a obţine baza de date, încearcă să accesezi childsplay_sp "
+#~ "pentru a înregistra baza d"
+
+#~ msgid "Fallingletters"
+#~ msgstr "Litere căzătoare"
+
+#, fuzzy
+#~ msgid "Find all the letters in the right order."
+#~ msgstr "Găseşte toate literele în ordinea corectă. Cuvântul de găsit este:"
+
+#~ msgid "Find the characters"
+#~ msgstr "Găseşte caracterele"
+
+#~ msgid "Findsound"
+#~ msgstr "Găseşte sunetul"
+
+#, fuzzy
+#~ msgid "Flashcards, difficulty: *"
+#~ msgstr "Biliard, dificultate:  **/***"
+
+#~ msgid ""
+#~ "Give your login name in the box and hit the login button. Alternatively "
+#~ "you can just hit the login button and run Childsplay_sp in anonymous mode."
+#~ msgstr ""
+#~ "Scrie în pătrăţel numele de înregistrare şi apasă pe buton. Alternativ "
+#~ "poţi apăsa direct butonul de înregistrare şi poţi intra pe Childsplay_sp "
+#~ "într-un mod anonim."
+
+#, fuzzy
+#~ msgid "Goal of the activity"
+#~ msgstr "Obiectivul activităţii:"
+
+#~ msgid ""
+#~ "If the menu consist of more layers, sub menus, you can always get back to "
+#~ "the main menu by using the 'exit' button."
+#~ msgstr ""
+#~ "Dacă meniul constă în mai multe părţi, submeniuri, te poţi întoarce mereu "
+#~ "la meniul principal utilizând butonul 'ieşire'."
+
+#~ msgid ""
+#~ "If you start the GUI for the first time there's no username and password "
+#~ "set so you should just hit the 'Login' button.\n"
+#~ " You will get a warning message telling you to set as soon as possible a "
+#~ "username and password.\n"
+#~ "You can set a username and password in the GUI.\n"
+#~ " Go to 'Settings' -> 'Set password'."
+#~ msgstr ""
+#~ "Dacă începi pentru prima dată GUI nu există niciun nume de utilizator şi "
+#~ "parolă setate, aşa încât trebuie să apeşi butonul \"Înregistrează-te\".\n"
+#~ "Vei primi un mesaj de avertizare care te anunţă să introduci un nume de "
+#~ "utilizator şi parolă, dacă este posibil.\n"
+#~ "Poţi introduce un nume de utilizator şi parola în GUI.\n"
+#~ "Du-te la \"Settings\" -> \"Introducere parolă\".   "
+
+#~ msgid ""
+#~ "In the last two levels the uppercase and lowercase are mixed but you "
+#~ "don't have to match the case only the letter"
+#~ msgstr ""
+#~ "În ultimele două niveluri literele mari cu cele mici sunt amestecate, dar "
+#~ "nu trebuie decât să alegi litera  "
+
+#~ msgid "In the multiplayer modes, the one who has 11 points wins."
+#~ msgstr "În jocurile interindividuale, cel care are 11 puncte câştigă."
+
+#~ msgid ""
+#~ "In this file you can set a number of options to change the game play."
+#~ msgstr ""
+#~ "În acest fişier poţi seta un număr de opţiuni pentru a schimba modul de "
+#~ "joc."
+
+#~ msgid "Info"
+#~ msgstr "Informaţii"
+
+#~ msgid "Keyboard training, difficulty: *"
+#~ msgstr "Antrenament cu tastatura, dificultate:  *"
+
+#~ msgid "Listen to the sound and click on the character to which it belongs."
+#~ msgstr "Ascultă sunetul şi apasă pe caracterul căruia îi aparţine."
+
+#, fuzzy
+#~ msgid "Listen to the sound and click on the image to which it belongs."
+#~ msgstr "Ascultă sunetul şi apasă pe caracterul căruia îi aparţine"
+
+#~ msgid "Lower case characters memory, difficulty: */**"
+#~ msgstr "Memoria de litere mici, dificultate:  */**"
+
+#~ msgid "LowercaseMemory"
+#~ msgstr "Literă mică Memorie"
+
+#~ msgid "Memory, difficulty: */**"
+#~ msgstr "Memorie, dificultate:  */**"
+
+#~ msgid "Multi player - Play against another player."
+#~ msgstr "Mai mulţi jucători - Joacă împotriva altui jucător."
+
+#~ msgid "Multi player against the computer - Try to defeat the computer."
+#~ msgstr ""
+#~ "Mai mulţi jucători versus calculator - Încearcă să învingi calculatorul."
+
+#, fuzzy
+#~ msgid "Number of levels : 1"
+#~ msgstr "Număr de niveluri : 3"
+
+#, fuzzy
+#~ msgid "Number of levels : 5"
+#~ msgstr "Număr de niveluri : 3"
+
+#~ msgid "Numbers memory, difficulty: */**"
+#~ msgstr "Memoria numerelor, dificultate:  */**"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Packid"
+#~ msgstr "Packid"
+
+#~ msgid "Packid, difficulty: **/***"
+#~ msgstr "Packid, dificultate:  **/***"
+
+#~ msgid "Pause"
+#~ msgstr "Pauză"
+
+#~ msgid "Pong"
+#~ msgstr "Pong"
+
+#~ msgid "Pong classic tennis game, difficulty: *"
+#~ msgstr "Pong joc clasic de tenis, dificultate:   *"
+
+#~ msgid "Put all the pieces in the correct order."
+#~ msgstr "Pune toate piesele în ordinea corectă."
+
+#~ msgid "Puzzle, difficulty: */**"
+#~ msgstr "Puzzle, dificultate:  */**"
+
+#~ msgid "Save"
+#~ msgstr "Salvează"
+
+#~ msgid "Scores reached in level %s"
+#~ msgstr "Scorurile atinse la nivelul %s"
+
+#~ msgid "Single play - Hit the ball against the wall."
+#~ msgstr "Joc individual - Loveşte mingea de perete."
+
+#~ msgid "Sound association, difficulty: *"
+#~ msgstr "Asocierea de sunete, dificultate:  *"
+
+#~ msgid "Sound association, difficulty: */**"
+#~ msgstr "Asocierea de sunete: dificultate:  */**"
+
+#~ msgid "Sound memory, difficulty: */**"
+#~ msgstr "Memoria de sunete, dificultate:  */**"
+
+#, fuzzy
+#~ msgid "Starting a new exercise"
+#~ msgstr "Nivel iniţial %s"
+
+#~ msgid "The aim of the game:"
+#~ msgstr "Obiectivul jocului:"
+
+#, fuzzy
+#~ msgid "The aim of this activity"
+#~ msgstr "Obiectivul activităţii:"
+
+#~ msgid "The classic pong game where you must hit a ball with your bat."
+#~ msgstr "Jocul clasic pong unde trebuie să loveşti o minge cu bastonul."
+
+#~ msgid ""
+#~ "The faster you find all the characters the better your score will be."
+#~ msgstr ""
+#~ "Cu cât găseşti mai repede caracterele cu atât vei obţine un punctaj mai "
+#~ "bun."
+
+#~ msgid ""
+#~ "The fewer hits you need to get the ball in the hole, the more points you "
+#~ "get."
+#~ msgstr ""
+#~ "Cu cât loveşti mai puţin mingea ca să intre în gaură cu atât vei lua mai "
+#~ "multe puncte."
+
+#~ msgid ""
+#~ "The game has a configuration file called 'pongrc', located in the ."
+#~ "childsplay directory of your homedirectory."
+#~ msgstr ""
+#~ "Jocul are un dosar de configuraţie denumit 'pongrc', localizat în "
+#~ "fişierul .childsplay din baza ta."
+
+#~ msgid "The longer you hold the left button the harder it will hit the ball."
+#~ msgstr ""
+#~ "Cu cât ţii mai tare pe butonul din dreapta cu atât va fi mai greu să "
+#~ "loveşti mingea."
+
+#~ msgid "There are thee levels with three words each."
+#~ msgstr "Sunt trei niveluri cu trei cuvinte fiecare."
+
+#~ msgid "There are three modes to choose from:"
+#~ msgstr "Sunt trei niveluri dintre care să alegi:"
+
+#~ msgid ""
+#~ "This database table holds the values used when displaying the results "
+#~ "graph in an activity.\n"
+#~ "The column 'MU-value' holds an integer between 0 and 10 indicating the "
+#~ "average score.(the dark blue line).\n"
+#~ "The column 'SIGMA-value' holds an integer between 0 an 100 indicating the "
+#~ "standard deviation in percentage, probably always 50. (the light blue "
+#~ "box)\n"
+#~ "\n"
+#~ "Click on the row you want to alter and then click on the field you wish "
+#~ "to edit.\n"
+#~ "You cannot edit the 'Activity name' field.\n"
+#~ "Use the 'Save' button to store the changes in the database."
+#~ msgstr ""
+#~ "Acest tabel cu baza de date reţine valorile când afişează graficul cu "
+#~ "rezultate într-o activitate.\n"
+#~ "Coloana \"valoarea - MU\" deţine o unitate de la 0 la 10 indicând scorul "
+#~ "general. (linia de culoare albastru închis).\n"
+#~ "Coloana \"Valoarea - SIGMA\" deţine o unitate de la 0 la 100 indicând "
+#~ "deviaţia standard în procentaj, probabil mereu 50. (pătratul de culare "
+#~ "albastru deschis)\n"
+#~ "\n"
+#~ "Apasă pe rândul dorit pentru a modifica şi apoi apasă pe câmpul pe care "
+#~ "doreşti să editezi.\n"
+#~ "Nu poţi edita câmpul intitulat \"Denumire activitate\".\n"
+#~ "Utilizează butonul \"Salvează\" pentru a stoca schimbările din baza de "
+#~ "date."
+
+#~ msgid "Try to 'eat' all the letters in the appropriated order."
+#~ msgstr "Încearcă să 'manânci' toate literele in ordinea adecvată."
+
+#~ msgid "Try to find the way out while eating the fruits for extra points and"
+#~ msgstr ""
+#~ "Încearcă să găseşti ieşirea în timp ce mănânci fructele pentru puncte "
+#~ "extra şi"
+
+#, fuzzy
+#~ msgid "Type of activity"
+#~ msgstr "Obiectivul activităţii:"
+
+#~ msgid "Type the falling letters on the keyboard before they hit the ground."
+#~ msgstr "Tipăreşte literele căzătoare pe tastă înainte să atingă solul."
+
+#~ msgid "Upper case characters memory, difficulty: */**"
+#~ msgstr "Memoria de litere mari, dificultate:  */**"
+
+#~ msgid "UppercaseMemory"
+#~ msgstr "Literă mare Memorie"
+
+#~ msgid ""
+#~ "Use the right mousebutton to aim and the left button to hit the ball."
+#~ msgstr ""
+#~ "Foloseşte butonul din dreapta de pe mouse ca să ţinteşti şi butonul din "
+#~ "stânga ca să loveşti mingea. "
+
+#~ msgid "Use these keys on your keyboard to control the bat."
+#~ msgstr "Foloseşte aceste taste pentru a controla bastonul."
+
+#, fuzzy
+#~ msgid ""
+#~ "When you can't find the correct character after a certain period of time "
+#~ "a box will be drawn around it."
+#~ msgstr ""
+#~ "Când nu poţi găsi caracterul corect după a anumită perioadă de timp un "
+#~ "pătrat va fi desenat în jurul lui. "
+
+#~ msgid ""
+#~ "When you have finished all the levels, without making to much mistakes"
+#~ msgstr "Când ai terminat toate nivelurile, fără a face prea multe greşeli"
+
+#~ msgid "You can hit the 'graph' button to see your results per level."
+#~ msgstr ""
+#~ "Poţi să apeşi pe butonul 'grafic' să vizualizezi rezultatele tale per "
+#~ "nivel."
+
+#~ msgid "You have to make the blue ball enter the hole (in level 1)"
+#~ msgstr "Mingea albastră trebuie să intre în gaură (la nivel 1)"
+
+#~ msgid "You won!!"
+#~ msgstr "Ai câştigat!!"
+
+#~ msgid "and the red ones in levels 2 and 3."
+#~ msgstr "şi cele roşii la nivelurile 2 şi 3."
+
+#, fuzzy
+#~ msgid "beaver"
+#~ msgstr "Salvează"
+
+#, fuzzy
+#~ msgid "blackbird"
+#~ msgstr "Packid"
+
+#~ msgid "funny sounds :-)"
+#~ msgstr "sunete amuzante :-)"
+
+#, fuzzy
+#~ msgid "mouse"
+#~ msgstr "Pauză"
+
+#~ msgid "points"
+#~ msgstr "puncte"

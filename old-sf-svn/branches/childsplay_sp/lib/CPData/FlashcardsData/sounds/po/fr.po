@@ -1,0 +1,215 @@
+
+# This is a 'po' file to be used by pyassetml-creator.
+# I've added the po header from pygettext.
+# Please also fill in the fields in the header if you do any
+# translation work.
+
+# After translating save/rename this file as
+# (for example) 'nl.po' or 'de.po' only do 'pt_BR.po' instead of
+# 'pt.po' if it REALLY nessecary for the translation.
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2003 StasZ
+# FIRST AUTHOR <assetml@linux.isbeter.nl>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: <assetml@linux.isbeter.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pyassetml-creator.py \n"
+
+msgid "donkey"
+msgstr "ane"
+
+msgid "dolphin"
+msgstr "dauphin"
+
+msgid "dog"
+msgstr "chien"
+
+msgid "crow"
+msgstr "corbeau"
+
+msgid "chimp"
+msgstr "singe"
+
+msgid "bear"
+msgstr "ours"
+
+msgid "badger"
+msgstr "blaireau"
+
+msgid "bison"
+msgstr "bison"
+
+msgid "bee"
+msgstr "abeille"
+
+msgid "rooster"
+msgstr "coq"
+
+msgid "lark"
+msgstr "alouette"
+
+msgid "orc"
+msgstr "orque"
+
+msgid "ram"
+msgstr "belier"
+
+msgid "whale"
+msgstr "baleine"
+
+msgid "pig"
+msgstr "cochon"
+
+msgid "duck"
+msgstr "canard"
+
+msgid "caribou"
+msgstr "caribou"
+
+msgid "beaver"
+msgstr "castor"
+
+msgid "doe"
+msgstr "biche"
+
+msgid "xanthia"
+msgstr "xanthia"
+
+msgid "wombat"
+msgstr "wombat"
+
+msgid "wolf"
+msgstr "loup"
+
+msgid "vulture"
+msgstr "vautour"
+
+msgid "turkey"
+msgstr "dinde"
+
+msgid "toucan"
+msgstr "toucan"
+
+msgid "tiger"
+msgstr "tigre"
+
+msgid "squirrel"
+msgstr "ecureuil"
+
+msgid "sheep"
+msgstr "mouton"
+
+msgid "seagull"
+msgstr "mouette"
+
+msgid "rattlesnake"
+msgstr "serpent a sonnette"
+
+msgid "rabbit"
+msgstr "lapin"
+
+msgid "quetzal"
+msgstr "quetzal"
+
+msgid "puppy"
+msgstr "chiot"
+
+msgid "penguin"
+msgstr "pingouin"
+
+msgid "owl"
+msgstr "hibou"
+
+msgid "otter"
+msgstr "otarie"
+
+msgid "nandou"
+msgstr "nandou"
+
+msgid "mouse"
+msgstr "souris"
+
+msgid "lion"
+msgstr "lion"
+
+msgid "koala"
+msgstr "koala"
+
+msgid "iguana"
+msgstr "iguane"
+
+msgid "hyena"
+msgstr "hyene"
+
+msgid "horse"
+msgstr "cheval"
+
+msgid "hornet"
+msgstr "frelon"
+
+msgid "hippopotamus"
+msgstr "hippopotame"
+
+msgid "hen"
+msgstr "poule"
+
+msgid "grizzly"
+msgstr "grizzly"
+
+msgid "grasshopper"
+msgstr "sauterelle"
+
+msgid "gorilla"
+msgstr "gorille"
+
+msgid "goat"
+msgstr "chevre"
+
+msgid "giraffe"
+msgstr "girafe"
+
+msgid "gander"
+msgstr "jar"
+
+msgid "frog"
+msgstr "grenouille"
+
+msgid "fox"
+msgstr "renard"
+
+msgid "fly"
+msgstr "mouche"
+
+msgid "ferret"
+msgstr "furet"
+
+msgid "elephant"
+msgstr "elephant"
+
+msgid "dromedary"
+msgstr "dromadaire"
+
+msgid "cow"
+msgstr "vache"
+
+msgid "chamois"
+msgstr "chamois"
+
+msgid "bull"
+msgstr "taureau"
+
+msgid "cuckoo"
+msgstr "coucou"
+
+msgid "zebra"
+msgstr "zebre"
+

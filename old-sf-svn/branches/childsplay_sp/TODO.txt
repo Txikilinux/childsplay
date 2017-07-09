@@ -1,0 +1,13 @@
+
+For CGP we need a different named SQLTables module 
+This is needed when CGP and CP differ in the activities.
+
+Do like Chris suggested:
+Chris: In the alphabet sounds activity, you do first the numbers
+ on a row, then the numbers random on the screen and
+ then the letters.
+I would do the numbers like you do and then the letters 
+either alphabetically or layed out like the used keyboard.
+And then random on the screen
+Going from 10 characters to 26 is a big step
+
