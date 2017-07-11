@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Childsplay 2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-20 11:13+0100\n"
+"POT-Creation-Date: 2017-07-09 11:38+0200\n"
 "PO-Revision-Date: 2010-10-18 11:08+0100\n"
 "Last-Translator: Stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
 "Language-Team: InPrIn TGPU <iai@tspu.edu.ru>\n"
-"Language: \n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,7 +43,7 @@ msgid "(max two per word), you can play the last level which is a maze."
 msgstr ""
 "(максимум два для слово), вы можете играть на последнем уровне (лабиринт)"
 
-#: ../SPMenu.py:344
+#: ../SPMenu.py:348
 msgid "A collection of braintrain games for seniors."
 msgstr "Коллекция игр для тренировки мозга для пожилых."
 
@@ -52,11 +52,11 @@ msgstr "Коллекция игр для тренировки мозга для 
 msgid "Accuracy is more important than speed."
 msgstr "Правильность важнее скорости"
 
-#: ../SPMainCore.py:473
+#: ../SPMainCore.py:478
 msgid "Activity :"
 msgstr "Деятельность :"
 
-#: ../SPMainCore.py:585
+#: ../SPMainCore.py:590
 #, python-format
 msgid "Activity : %s"
 msgstr "Деятельность : %s"
@@ -70,7 +70,7 @@ msgstr "Деятельность :"
 msgid "All pills, both red and yellow, stack on each other."
 msgstr ""
 
-#: ../SPMenu.py:345
+#: ../SPMenu.py:349
 msgid ""
 "All the games have there own help page, just start a game and hit the stars "
 "on top of the screen to select another difficulty."
@@ -90,7 +90,7 @@ msgstr "Алфавит/Клавиатурная тренировка"
 msgid "Already found:"
 msgstr "Уже найдено:"
 
-#: ../SPMainCore.py:272
+#: ../SPMainCore.py:277
 msgid "An error occurred and BraintrainerPlus was restarted"
 msgstr ""
 
@@ -105,7 +105,7 @@ msgstr "Ответьте на вопросы викторины."
 msgid "Answer the quiz questions."
 msgstr "Ответьте на вопросы викторины."
 
-#: ../SPMainCore.py:866
+#: ../SPMainCore.py:871
 msgid ""
 "Are sure you want to quit the dailytraining ? All the results will be lost."
 msgstr ""
@@ -164,7 +164,7 @@ msgstr ""
 msgid "At the top of the screen, you will see a question."
 msgstr "В верхней части экрана вы увидите вопрос на проверку кругозора."
 
-#: ../lib/billiard.py:325
+#: ../lib/billiard.py:345
 msgid "Balls"
 msgstr "Очки"
 
@@ -173,9 +173,9 @@ msgid "Begin"
 msgstr ""
 
 #: ../lib/quiz_general.py:162 ../lib/quiz_history.py:254
-#: ../lib/quiz_math.py:109 ../lib/quiz_melody.py:114
-#: ../lib/quiz_picture.py:106 ../lib/quiz.py:146 ../lib/quiz_royal.py:120
-#: ../lib/quiz_sayings.py:108 ../lib/quiz_text.py:115
+#: ../lib/quiz_math.py:109 ../lib/quiz_melody.py:114 ../lib/quiz_picture.py:106
+#: ../lib/quiz.py:146 ../lib/quiz_royal.py:120 ../lib/quiz_sayings.py:108
+#: ../lib/quiz_text.py:115
 msgid ""
 "Below it are a choice of possible answers.\n"
 "Touch the correct answer."
@@ -183,15 +183,15 @@ msgstr ""
 "Ниже варианты возможных ответов.\n"
 "Коснитесь правильного ответа."
 
-#: ../lib/billiard.py:265
+#: ../lib/billiard.py:287
 msgid "Billiard"
 msgstr "Бильярд"
 
-#: ../lib/billiard.py:251
+#: ../lib/billiard.py:273
 msgid "Billiard Game"
 msgstr "Игра Бильярд"
 
-#: ../SPMainCore.py:809
+#: ../SPMainCore.py:814
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -203,7 +203,7 @@ msgstr ""
 msgid "Cheat"
 msgstr "Подсказка"
 
-#: ../SPMainCore.py:222
+#: ../SPMainCore.py:227
 #, python-format
 msgid "Childsplay_sp - educational activities, using theme:%s"
 msgstr "Childsplay_sp - образовательная деятельность, используется тема:%s"
@@ -224,7 +224,7 @@ msgstr "Классическая игра на запоминание, в кот
 msgid "Classic memory game where you have to find pairs of sounds."
 msgstr "Классическая игра на запоминание, в которой надо найти пары звуков."
 
-#: ../SPMainCore.py:948
+#: ../SPMainCore.py:953
 msgid "Close"
 msgstr ""
 
@@ -246,7 +246,7 @@ msgstr "Правильность важнее скорости"
 msgid "Correctness is more important than speed."
 msgstr "Правильность важнее скорости"
 
-#: ../SPMainCore.py:1239 ../SPMainCore.py:1412
+#: ../SPMainCore.py:1244 ../SPMainCore.py:1417
 #, python-format
 msgid "Current activity : %s"
 msgstr "Текущая активность : %s"
@@ -267,7 +267,7 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
-#: ../SPMainCore.py:808
+#: ../SPMainCore.py:813
 msgid "Do you really want to quit ?"
 msgstr "Вы правда хотите завершить ?"
 
@@ -275,11 +275,11 @@ msgstr "Вы правда хотите завершить ?"
 msgid "Electro_sp"
 msgstr "Electro_sp"
 
-#: ../SPMainCore.py:570 ../SPMainCore.py:578
+#: ../SPMainCore.py:575 ../SPMainCore.py:583
 msgid "Error !"
 msgstr "Ошибка !"
 
-#: ../SPMainCore.py:577
+#: ../SPMainCore.py:582
 #, python-format
 msgid ""
 "Error constructing activity\n"
@@ -288,7 +288,7 @@ msgstr ""
 "Ошибка создания деятельности\n"
 "%s"
 
-#: ../SPMainCore.py:569
+#: ../SPMainCore.py:574
 #, python-format
 msgid ""
 "Error importing activity\n"
@@ -329,7 +329,7 @@ msgstr "Прикол"
 msgid "Fun/Alphabet"
 msgstr "Прикол/Алфавит"
 
-#: ../lib/billiard.py:290
+#: ../lib/billiard.py:312
 msgid "Fun/Miscellaneous"
 msgstr "Прикол/Разное"
 
@@ -341,7 +341,7 @@ msgstr "Прикол/Работа с мышкой"
 msgid "Gamemanagement"
 msgstr ""
 
-#: ../SPMainCore.py:1016
+#: ../SPMainCore.py:1021
 #, fuzzy, python-format
 msgid "Generated by %s version %s for the %s activity"
 msgstr "Сгенерировано Childsplay_sp версия %s для активности %s"
@@ -354,7 +354,7 @@ msgstr ""
 msgid "Hit the 'Begin' button to start."
 msgstr "Кликните кнопку 'Begin', чтобы начать"
 
-#: ../SPMainCore.py:653
+#: ../SPMainCore.py:658
 msgid "Hit the 'space' key or a mousebutton to skip the countdown"
 msgstr "Нажмите 'пробел' или кнопку мыши, чтобы пропустить отсчет"
 
@@ -382,11 +382,11 @@ msgstr ""
 msgid "In the multiplayer modes, the one who has 11 points wins."
 msgstr ""
 
-#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+#: ../SPMainCore.py:1034 ../SPMainCore.py:1254
 msgid "Information"
 msgstr "Информация"
 
-#: ../SPMainCore.py:927
+#: ../SPMainCore.py:932
 #, python-format
 msgid "Information about %s"
 msgstr "Информация о %s"
@@ -480,9 +480,8 @@ msgstr "Запомни порядок звуков как порядок цве�
 #: ../lib/dltr.py:227 ../lib/findit_sp.py:237 ../lib/findsound.py:139
 #: ../lib/ichanger.py:310 ../lib/numbers_sp.py:247 ../lib/photoalbum.py:200
 #: ../lib/quiz_general.py:174 ../lib/quiz_history.py:266
-#: ../lib/quiz_picture.py:118 ../lib/quiz_royal.py:132
-#: ../lib/spinbottle.py:222 ../lib/synonyms.py:167 ../lib/wipe.py:124
-#: ../SPHelpText.py:144
+#: ../lib/quiz_picture.py:118 ../lib/quiz_royal.py:132 ../lib/spinbottle.py:222
+#: ../lib/synonyms.py:167 ../lib/wipe.py:124 ../SPHelpText.py:144
 msgid "Miscellaneous"
 msgstr "Разное"
 
@@ -490,7 +489,7 @@ msgstr "Разное"
 msgid "Mousetraining"
 msgstr "Работа с мышью"
 
-#: ../SPMainCore.py:923 ../SPMainCore.py:930
+#: ../SPMainCore.py:928 ../SPMainCore.py:935
 msgid "Movie"
 msgstr ""
 
@@ -506,7 +505,7 @@ msgstr ""
 msgid "New"
 msgstr ""
 
-#: ../SPMainCore.py:724 ../SPMainCore.py:867 ../SPMainCore.py:870
+#: ../SPMainCore.py:729 ../SPMainCore.py:872 ../SPMainCore.py:875
 msgid "No"
 msgstr "Нет"
 
@@ -535,10 +534,10 @@ msgstr "Число уровней : 6"
 msgid "Numbers_sp"
 msgstr "Числа"
 
-#: ../lib/dltr.py:434 ../lib/dltr.py:438 ../SPMainCore.py:570
-#: ../SPMainCore.py:578 ../SPMainCore.py:809 ../SPMainCore.py:814
-#: ../SPMainCore.py:815 ../SPMainCore.py:919 ../SPMainCore.py:1018
-#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+#: ../lib/dltr.py:434 ../lib/dltr.py:438 ../SPMainCore.py:575
+#: ../SPMainCore.py:583 ../SPMainCore.py:814 ../SPMainCore.py:819
+#: ../SPMainCore.py:820 ../SPMainCore.py:924 ../SPMainCore.py:1023
+#: ../SPMainCore.py:1034 ../SPMainCore.py:1254
 msgid "OK"
 msgstr "OK"
 
@@ -631,11 +630,11 @@ msgstr "Нажмите пальцем кнопку Старт."
 msgid "Puzzle"
 msgstr "Пазл"
 
-#: ../SPMainCore.py:724 ../SPMainCore.py:867
+#: ../SPMainCore.py:729 ../SPMainCore.py:872
 msgid "Question ?"
 msgstr "Вопрос ?"
 
-#: ../SPMainCore.py:809
+#: ../SPMainCore.py:814
 msgid "Quit ?"
 msgstr "Завершить ?"
 
@@ -658,11 +657,11 @@ msgid ""
 "by addition or subtraction."
 msgstr ""
 
-#: ../lib/dltr.py:434 ../SPMainCore.py:1018
+#: ../lib/dltr.py:434 ../SPMainCore.py:1023
 msgid "Results"
 msgstr "Результаты"
 
-#: ../SPMainCore.py:1022
+#: ../SPMainCore.py:1027
 msgid "Save image"
 msgstr "Сохранить картинку"
 
@@ -679,12 +678,12 @@ msgstr ""
 msgid "Select Language"
 msgstr "Язык"
 
-#: ../SPMenu.py:331
+#: ../SPMenu.py:334
 msgid ""
 "Select an activity and click on the button, the activity will be started."
 msgstr "Выбери активность и кликни на кнопке, чтобы активность началась."
 
-#: ../SPMainCore.py:948
+#: ../SPMainCore.py:953
 msgid "Set volume level"
 msgstr ""
 
@@ -725,12 +724,12 @@ msgstr "Начать"
 msgid "Starting a new exercise"
 msgstr "Начальный уровень %s"
 
-#: ../SPMainCore.py:645
+#: ../SPMainCore.py:650
 #, python-format
 msgid "Starting level %s"
 msgstr "Начальный уровень %s"
 
-#: ../SPMainCore.py:829
+#: ../SPMainCore.py:834
 msgid "Stopping timers, please wait..."
 msgstr "Остановка таймеров, подождите маленько..."
 
@@ -756,13 +755,12 @@ msgstr ""
 msgid "The aim of the game:"
 msgstr "Цель игры:"
 
-#: ../lib/billiard.py:273 ../lib/dltr.py:214 ../lib/electro_sp.py:193
-#: ../lib/fallingletters.py:193 ../lib/findit_sp.py:220
-#: ../lib/findsound.py:126 ../lib/fishtank.py:250 ../lib/fourrow.py:127
-#: ../lib/ichanger.py:295 ../lib/memory_sp.py:206 ../lib/numbers_sp.py:230
-#: ../lib/photoalbum.py:186 ../lib/pong.py:381 ../lib/puzzle.py:244
-#: ../lib/quiz_general.py:158 ../lib/quiz_history.py:250
-#: ../lib/quiz_math.py:105 ../lib/quiz_melody.py:110
+#: ../lib/billiard.py:295 ../lib/dltr.py:214 ../lib/electro_sp.py:193
+#: ../lib/fallingletters.py:193 ../lib/findit_sp.py:220 ../lib/findsound.py:126
+#: ../lib/fishtank.py:250 ../lib/fourrow.py:127 ../lib/ichanger.py:295
+#: ../lib/memory_sp.py:206 ../lib/numbers_sp.py:230 ../lib/photoalbum.py:186
+#: ../lib/pong.py:381 ../lib/puzzle.py:244 ../lib/quiz_general.py:158
+#: ../lib/quiz_history.py:250 ../lib/quiz_math.py:105 ../lib/quiz_melody.py:110
 #: ../lib/quiz_picture.py:102 ../lib/quiz.py:142 ../lib/quiz_royal.py:116
 #: ../lib/quiz_sayings.py:104 ../lib/quiz_text.py:111 ../lib/simon_sp.py:163
 #: ../lib/soundmemory.py:196 ../lib/spinbottle.py:204 ../lib/synonyms.py:150
@@ -782,7 +780,7 @@ msgstr ""
 msgid "The difficulty of the set increases from left to right."
 msgstr "Сложность наборов возрастает слева направо."
 
-#: ../lib/billiard.py:278 ../lib/billiard.py:284
+#: ../lib/billiard.py:300 ../lib/billiard.py:306
 msgid ""
 "The fewer hits you need to get the ball in the hole, the more points you get."
 msgstr ""
@@ -801,7 +799,7 @@ msgstr ""
 "Последний уровень будет доступен только когда ты закончишь первые три уровня "
 "без ошибок."
 
-#: ../lib/billiard.py:277
+#: ../lib/billiard.py:299
 msgid "The longer you hold the left button the harder it will hit the ball."
 msgstr "Чем дольше держишь левую кнопку нажатой, тем сильнее удар по мячу."
 
@@ -821,7 +819,7 @@ msgstr "Есть три уровня, в каждом по три слова."
 msgid "There are three modes to choose from:"
 msgstr ""
 
-#: ../SPMainCore.py:1520
+#: ../SPMainCore.py:1525
 #, python-format
 msgid ""
 "There was an error in %s. Please check the logs and inform the developers"
@@ -841,15 +839,14 @@ msgstr ""
 "версий базы данных и программы. Я сохраню копию текущей базы данных и потом "
 "заменю ее новой. Исходная база данных называется sp.db_back и находится в %s"
 
-#: ../lib/billiard.py:297 ../lib/electro_sp.py:215
-#: ../lib/fallingletters.py:214 ../lib/findit_sp.py:244
-#: ../lib/findsound.py:158 ../lib/fishtank.py:270 ../lib/fourrow.py:234
-#: ../lib/ichanger.py:316 ../lib/memory_sp.py:228 ../lib/numbers_sp.py:257
-#: ../lib/packid.py:523 ../lib/photoalbum.py:206 ../lib/pong.py:406
-#: ../lib/puzzle.py:266 ../lib/quiz_general.py:181 ../lib/quiz_history.py:273
-#: ../lib/quiz_picture.py:124 ../lib/quiz.py:169 ../lib/quiz_royal.py:138
-#: ../lib/simon_sp.py:189 ../lib/soundmemory.py:217 ../lib/spinbottle.py:229
-#: ../lib/synonyms.py:174 ../lib/wipe.py:135
+#: ../lib/billiard.py:319 ../lib/electro_sp.py:215 ../lib/fallingletters.py:214
+#: ../lib/findit_sp.py:244 ../lib/findsound.py:158 ../lib/fishtank.py:270
+#: ../lib/fourrow.py:234 ../lib/ichanger.py:316 ../lib/memory_sp.py:228
+#: ../lib/numbers_sp.py:257 ../lib/packid.py:523 ../lib/photoalbum.py:206
+#: ../lib/pong.py:406 ../lib/puzzle.py:266 ../lib/quiz_general.py:181
+#: ../lib/quiz_history.py:273 ../lib/quiz_picture.py:124 ../lib/quiz.py:169
+#: ../lib/quiz_royal.py:138 ../lib/simon_sp.py:189 ../lib/soundmemory.py:217
+#: ../lib/spinbottle.py:229 ../lib/synonyms.py:174 ../lib/wipe.py:135
 #, python-format
 msgid "This activity has %s levels"
 msgstr "Активность имеет %s уровней"
@@ -862,7 +859,7 @@ msgstr ""
 "Эта деятельность называется дневная тренировка, она включает набор "
 "деятельностей."
 
-#: ../SPMenu.py:330
+#: ../SPMenu.py:333
 msgid "This is the menu used to select an activity."
 msgstr "Это меню для выбора активности."
 
@@ -870,12 +867,12 @@ msgstr "Это меню для выбора активности."
 msgid "Tip: Try creating multiple winning scenario's."
 msgstr ""
 
-#: ../SPMainCore.py:914
+#: ../SPMainCore.py:919
 #, python-format
 msgid "Tip:%s"
 msgstr "Подсказка:%s"
 
-#: ../lib/quizengine.py:797
+#: ../lib/quizengine.py:800
 #, fuzzy, python-format
 msgid ""
 "To little questions found in %s for locale '%s', found %s questions should "
@@ -934,15 +931,15 @@ msgstr "Набери падающую букву на клавиатуре до 
 msgid "Update BrainTrainerPlus"
 msgstr ""
 
-#: ../SPMenu.py:332
+#: ../SPMenu.py:335
 msgid "Use the 'sub menu' buttons for the different activity menus"
 msgstr "Открывай меню следующей активности кнопками 'подменю'"
 
-#: ../SPMenu.py:346
+#: ../SPMenu.py:350
 msgid "Use the menu below to choose between the different game categories"
 msgstr "Выберите другие категории игр с помощью этого меню"
 
-#: ../lib/billiard.py:276
+#: ../lib/billiard.py:298
 msgid "Use the right mousebutton to aim and the left button to hit the ball."
 msgstr "Направляйте шар правой кнопкой мыши и бейте по мячу левой."
 
@@ -950,7 +947,7 @@ msgstr "Направляйте шар правой кнопкой мыши и б
 msgid "Use these keys on your keyboard to control the bat."
 msgstr ""
 
-#: ../SPMainCore.py:460
+#: ../SPMainCore.py:465
 #, python-format
 msgid "User: %s"
 msgstr "Пользователь: %s"
@@ -1001,8 +998,8 @@ msgstr ""
 msgid "Wipe with your finger on the screen to uncover the picture."
 msgstr ""
 
-#: ../SPMainCore.py:724 ../SPMainCore.py:728 ../SPMainCore.py:729
-#: ../SPMainCore.py:867
+#: ../SPMainCore.py:729 ../SPMainCore.py:733 ../SPMainCore.py:734
+#: ../SPMainCore.py:872
 msgid "Yes"
 msgstr "Да"
 
@@ -1016,11 +1013,11 @@ msgstr ""
 msgid "You have finished the daily training module."
 msgstr ""
 
-#: ../lib/billiard.py:274
+#: ../lib/billiard.py:296
 msgid "You have to make the blue ball enter the hole (in level 1)"
 msgstr "Надо загнать синий шар в лунку (на уровне 1)"
 
-#: ../SPMainCore.py:723
+#: ../SPMainCore.py:728
 msgid "You play very good, do you want to try the next level ?"
 msgstr "Ты играешь очень хорошо, хочешь перейти на следующий уровнеь?"
 
@@ -1036,7 +1033,7 @@ msgstr ""
 msgid "You will see various numbers scattered around the screen."
 msgstr ""
 
-#: ../lib/billiard.py:584
+#: ../lib/billiard.py:617
 msgid "You won!!"
 msgstr "Победа!"
 
@@ -1044,7 +1041,7 @@ msgstr "Победа!"
 msgid "Your average results per group are:"
 msgstr ""
 
-#: ../SPMainCore.py:1028
+#: ../SPMainCore.py:1033
 #, python-format
 msgid ""
 "Your image is saved at:\n"
@@ -1057,7 +1054,7 @@ msgstr ""
 msgid "Your results are:"
 msgstr ""
 
-#: ../lib/billiard.py:275
+#: ../lib/billiard.py:297
 msgid "and the red ones in levels 2 and 3."
 msgstr "и красные на уровнях 2 и 3."
 
@@ -1070,7 +1067,7 @@ msgstr "Составь слово с буквой: %s"
 msgid "funny sounds :-)"
 msgstr "забавные звуки :-)"
 
-#: ../lib/billiard.py:572 ../lib/billiard.py:585
+#: ../lib/billiard.py:604 ../lib/billiard.py:618
 msgid "points"
 msgstr "очки"
 

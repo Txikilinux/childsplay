@@ -1,67 +1,24 @@
-Sun May 11 10:04:15 2014
-============================ uk =================================
-Result of compiling childsplay.po uk into childsplay.mo:
-output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.
-============================ pt_BR =================================
-Result of compiling childsplay.po pt_BR into childsplay.mo:
-output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.
-============================ ru =================================
-Result of compiling childsplay.po ru into childsplay.mo:
-output: 137 translated messages, 24 fuzzy translations, 49 untranslated messages.
-============================ ar =================================
-Result of compiling childsplay.po ar into childsplay.mo:
-output: 70 translated messages, 16 fuzzy translations, 124 untranslated messages.
-============================ sl =================================
-Result of compiling childsplay.po sl into childsplay.mo:
-output: 73 translated messages, 16 fuzzy translations, 121 untranslated messages.
-============================ vi =================================
-Result of compiling childsplay.po vi into childsplay.mo:
-output: 19 translated messages, 8 fuzzy translations, 183 untranslated messages.
-============================ sk =================================
-Result of compiling childsplay.po sk into childsplay.mo:
-output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.
-============================ de =================================
-Result of compiling childsplay.po de into childsplay.mo:
-output: 75 translated messages, 18 fuzzy translations, 117 untranslated messages.
-============================ el =================================
-Result of compiling childsplay.po el into childsplay.mo:
-output: 155 translated messages, 18 fuzzy translations, 37 untranslated messages.
-============================ nb =================================
-Result of compiling childsplay.po nb into childsplay.mo:
-output: 37 translated messages, 18 fuzzy translations, 155 untranslated messages.
-============================ pt =================================
-Result of compiling childsplay.po pt into childsplay.mo:
-output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.
-============================ ca =================================
-Result of compiling childsplay.po ca into childsplay.mo:
-output: 208 translated messages, 2 untranslated messages.
-============================ nl =================================
-Result of compiling childsplay.po nl into childsplay.mo:
-output: 161 translated messages, 20 fuzzy translations, 29 untranslated messages.
-============================ cs =================================
-Result of compiling childsplay.po cs into childsplay.mo:
-output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.
-============================ ro =================================
-Result of compiling childsplay.po ro into childsplay.mo:
-output: 53 translated messages, 20 fuzzy translations, 137 untranslated messages.
-============================ fr =================================
-Result of compiling childsplay.po fr into childsplay.mo:
-output: 75 translated messages, 18 fuzzy translations, 117 untranslated messages.
-============================ eo =================================
-Result of compiling childsplay.po eo into childsplay.mo:
-output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.
-============================ es =================================
-Result of compiling childsplay.po es into childsplay.mo:
-output: 206 translated messages, 4 untranslated messages.
-============================ sv =================================
-Result of compiling childsplay.po sv into childsplay.mo:
-output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.
-============================ it =================================
-Result of compiling childsplay.po it into childsplay.mo:
-output: 70 translated messages, 17 fuzzy translations, 123 untranslated messages.
-============================ pl =================================
-Result of compiling childsplay.po pl into childsplay.mo:
-output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.
-============================ hu =================================
-Result of compiling childsplay.po hu into childsplay.mo:
-output: 75 translated messages, 16 fuzzy translations, 119 untranslated messages.
+<ul>
+     <li> <a href="pofiles/childsplay_ar_SA.po">ar</a></li>
+     <li> <a href="pofiles/childsplay_ca_ES.po">ca</a></li>
+     <li> <a href="pofiles/childsplay_cs_CZ.po">cs</a></li>
+     <li> <a href="pofiles/childsplay_de_DE.po">de</a></li>
+     <li> <a href="pofiles/childsplay_el_GR.po">el</a></li>
+     <li> <a href="pofiles/childsplay_eo_EO.po">eo</a></li>
+     <li> <a href="pofiles/childsplay_es_ES.po">es</a></li>
+     <li> <a href="pofiles/childsplay_fr_FR.po">fr</a></li>
+     <li> <a href="pofiles/childsplay_hu_HU.po">hu</a></li>
+     <li> <a href="pofiles/childsplay_it_IT.po">it</a></li>
+     <li> <a href="pofiles/childsplay_nb_NO.po">nb</a></li>
+     <li> <a href="pofiles/childsplay_nl_NL.po">nl</a></li>
+     <li> <a href="pofiles/childsplay_pl_PL.po">pl</a></li>
+     <li> <a href="pofiles/childsplay_pt_BR.po">pt_BR</a></li>
+     <li> <a href="pofiles/childsplay_pt_PT.po">pt</a></li>
+     <li> <a href="pofiles/childsplay_ro_RO.po">ro</a></li>
+     <li> <a href="pofiles/childsplay_ru_RU.po">ru</a></li>
+     <li> <a href="pofiles/childsplay_sk_SK.po">sk</a></li>
+     <li> <a href="pofiles/childsplay_sl_SI.po">sl</a></li>
+     <li> <a href="pofiles/childsplay_sv_SE.po">sv</a></li>
+     <li> <a href="pofiles/childsplay_uk_UA.po">uk</a></li>
+     <li> <a href="pofiles/childsplay_vi_VN.po">vi</a></li>
+</li>

@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Childsplay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-20 11:13+0100\n"
-"PO-Revision-Date: 2017-07-01 12:11-0300\n"
+"POT-Creation-Date: 2017-07-09 11:41+0200\n"
+"PO-Revision-Date: 2017-07-09 11:47+0200\n"
 "Last-Translator: Stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
-"Language-Team: Danie von Weissenfluh <danielvonweissenfluh@gmail.com>, Eduardo Mozart de Oliveira <eduardomozart182@gmail.com>\n"
+"Language-Team: Danie von Weissenfluh <danielvonweissenfluh@gmail.com>, "
+"Eduardo Mozart de Oliveira <eduardomozart182@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: ../SPHelpText.py:76
 msgid ""
@@ -43,7 +44,7 @@ msgstr ""
 "(no máximo dois por palavra), você pode jogar o último nível que é um "
 "labirinto."
 
-#: ../SPMenu.py:344
+#: ../SPMenu.py:348
 msgid "A collection of braintrain games for seniors."
 msgstr "Uma coleção de jogos de lógica para experientes."
 
@@ -51,11 +52,11 @@ msgstr "Uma coleção de jogos de lógica para experientes."
 msgid "Accuracy is more important than speed."
 msgstr "Precisão é mais importante que a velocidade."
 
-#: ../SPMainCore.py:473
+#: ../SPMainCore.py:478
 msgid "Activity :"
 msgstr "Atividade :"
 
-#: ../SPMainCore.py:585
+#: ../SPMainCore.py:590
 #, python-format
 msgid "Activity : %s"
 msgstr "Atividade : %s"
@@ -69,7 +70,7 @@ msgid "All pills, both red and yellow, stack on each other."
 msgstr ""
 "Todas as pílulas, ambas vermelhas e amarelas, empilham uma sobre a outra."
 
-#: ../SPMenu.py:345
+#: ../SPMenu.py:349
 msgid ""
 "All the games have there own help page, just start a game and hit the stars "
 "on top of the screen to select another difficulty."
@@ -89,7 +90,7 @@ msgstr "Alfabeto/Exercício com teclado"
 msgid "Already found:"
 msgstr "Já encontrado:"
 
-#: ../SPMainCore.py:272
+#: ../SPMainCore.py:277
 msgid "An error occurred and BraintrainerPlus was restarted"
 msgstr "Ocorreu um erro e o BraintrainerPlus foi reiniciado"
 
@@ -103,7 +104,7 @@ msgstr "Responda as questões de matemática."
 msgid "Answer the quiz questions."
 msgstr "Resposta as questões do quiz."
 
-#: ../SPMainCore.py:866
+#: ../SPMainCore.py:871
 msgid ""
 "Are sure you want to quit the dailytraining ? All the results will be lost."
 msgstr ""
@@ -158,7 +159,7 @@ msgstr ""
 msgid "At the top of the screen, you will see a question."
 msgstr "No topo da tela, você encontrará uma questão."
 
-#: ../lib/billiard.py:325
+#: ../lib/billiard.py:345
 msgid "Balls"
 msgstr "Bolas"
 
@@ -177,15 +178,15 @@ msgstr ""
 "Abaixo há escolhas de possíveis respostas\n"
 "Toque a resposta correta."
 
-#: ../lib/billiard.py:265
+#: ../lib/billiard.py:287
 msgid "Billiard"
 msgstr "Bilhar"
 
-#: ../lib/billiard.py:251
+#: ../lib/billiard.py:273
 msgid "Billiard Game"
 msgstr "Jogo de bilhar"
 
-#: ../SPMainCore.py:809
+#: ../SPMainCore.py:814
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -197,7 +198,7 @@ msgstr "Alterar senha"
 msgid "Cheat"
 msgstr "Trapacear"
 
-#: ../SPMainCore.py:222
+#: ../SPMainCore.py:227
 #, python-format
 msgid "Childsplay_sp - educational activities, using theme:%s"
 msgstr "Childsplay_sp - atividades educacionais, usando tema: %s"
@@ -218,7 +219,7 @@ msgstr "Jogo clássico de memória onde você tem que encontrar os pares."
 msgid "Classic memory game where you have to find pairs of sounds."
 msgstr "Jogo clássico de memória onde você tem que encontrar os pares de sons."
 
-#: ../SPMainCore.py:948
+#: ../SPMainCore.py:953
 msgid "Close"
 msgstr "Fechar"
 
@@ -239,7 +240,7 @@ msgstr "Acertar é mais importante que a velocidade"
 msgid "Correctness is more important than speed."
 msgstr "Acertar é mais importante que a velocidade."
 
-#: ../SPMainCore.py:1239 ../SPMainCore.py:1412
+#: ../SPMainCore.py:1244 ../SPMainCore.py:1417
 #, python-format
 msgid "Current activity : %s"
 msgstr "Atividade atual : %s"
@@ -260,7 +261,7 @@ msgstr "Grupo padrão 2"
 msgid "Details"
 msgstr "Detalhes"
 
-#: ../SPMainCore.py:808
+#: ../SPMainCore.py:813
 msgid "Do you really want to quit ?"
 msgstr "Você quer realmente sair ?"
 
@@ -268,11 +269,11 @@ msgstr "Você quer realmente sair ?"
 msgid "Electro_sp"
 msgstr "Electro_sp"
 
-#: ../SPMainCore.py:570 ../SPMainCore.py:578
+#: ../SPMainCore.py:575 ../SPMainCore.py:583
 msgid "Error !"
 msgstr "Erro !"
 
-#: ../SPMainCore.py:577
+#: ../SPMainCore.py:582
 #, python-format
 msgid ""
 "Error constructing activity\n"
@@ -281,7 +282,7 @@ msgstr ""
 "Erro construindo atividade\n"
 "%s"
 
-#: ../SPMainCore.py:569
+#: ../SPMainCore.py:574
 #, python-format
 msgid ""
 "Error importing activity\n"
@@ -322,7 +323,7 @@ msgstr "Diversão"
 msgid "Fun/Alphabet"
 msgstr "Diversão/Alfabeto"
 
-#: ../lib/billiard.py:290
+#: ../lib/billiard.py:312
 msgid "Fun/Miscellaneous"
 msgstr "Diversão/Diversos"
 
@@ -334,7 +335,7 @@ msgstr "Diversão/Exercício com mouse"
 msgid "Gamemanagement"
 msgstr "Gerenciamento do jogo"
 
-#: ../SPMainCore.py:1016
+#: ../SPMainCore.py:1021
 #, python-format
 msgid "Generated by %s version %s for the %s activity"
 msgstr "Gerado por %s versão %s para a atividade %s"
@@ -347,7 +348,7 @@ msgstr "Gerenciamento de grupo"
 msgid "Hit the 'Begin' button to start."
 msgstr "Aperte o botão 'Começar' para iniciar."
 
-#: ../SPMainCore.py:653
+#: ../SPMainCore.py:658
 msgid "Hit the 'space' key or a mousebutton to skip the countdown"
 msgstr ""
 "Aperte a tecla 'espaço' ou o botão do mouse para pular a contagem regressiva"
@@ -378,11 +379,11 @@ msgstr ""
 msgid "In the multiplayer modes, the one who has 11 points wins."
 msgstr "No modo multiplayer, aquele que tem 11 pontos ganha."
 
-#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+#: ../SPMainCore.py:1034 ../SPMainCore.py:1254
 msgid "Information"
 msgstr "Informação"
 
-#: ../SPMainCore.py:927
+#: ../SPMainCore.py:932
 #, python-format
 msgid "Information about %s"
 msgstr "Informação sobre %s"
@@ -484,7 +485,7 @@ msgstr "Diversos"
 msgid "Mousetraining"
 msgstr "Exercício com mouse"
 
-#: ../SPMainCore.py:923 ../SPMainCore.py:930
+#: ../SPMainCore.py:928 ../SPMainCore.py:935
 msgid "Movie"
 msgstr "Filme"
 
@@ -500,7 +501,7 @@ msgstr "Múltiplos jogadores contra o computador - Tente derrotar o computador."
 msgid "New"
 msgstr "Novo"
 
-#: ../SPMainCore.py:724 ../SPMainCore.py:867 ../SPMainCore.py:870
+#: ../SPMainCore.py:729 ../SPMainCore.py:872 ../SPMainCore.py:875
 msgid "No"
 msgstr "Não"
 
@@ -529,10 +530,10 @@ msgstr "Número de níveis : 6"
 msgid "Numbers_sp"
 msgstr "Numbers_sp"
 
-#: ../lib/dltr.py:434 ../lib/dltr.py:438 ../SPMainCore.py:570
-#: ../SPMainCore.py:578 ../SPMainCore.py:809 ../SPMainCore.py:814
-#: ../SPMainCore.py:815 ../SPMainCore.py:919 ../SPMainCore.py:1018
-#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+#: ../lib/dltr.py:434 ../lib/dltr.py:438 ../SPMainCore.py:575
+#: ../SPMainCore.py:583 ../SPMainCore.py:814 ../SPMainCore.py:819
+#: ../SPMainCore.py:820 ../SPMainCore.py:924 ../SPMainCore.py:1023
+#: ../SPMainCore.py:1034 ../SPMainCore.py:1254
 msgid "OK"
 msgstr "OK"
 
@@ -624,11 +625,11 @@ msgstr "Pressione o botão Iniciar com seu dedo."
 msgid "Puzzle"
 msgstr "Quebra cabeça"
 
-#: ../SPMainCore.py:724 ../SPMainCore.py:867
+#: ../SPMainCore.py:729 ../SPMainCore.py:872
 msgid "Question ?"
 msgstr "Pergunta ?"
 
-#: ../SPMainCore.py:809
+#: ../SPMainCore.py:814
 msgid "Quit ?"
 msgstr "Sair ?"
 
@@ -652,11 +653,11 @@ msgstr ""
 "Lembre-se, a ordem de operações é multiplicação ou divisão seguida de adição "
 "ou subtração."
 
-#: ../lib/dltr.py:434 ../SPMainCore.py:1018
+#: ../lib/dltr.py:434 ../SPMainCore.py:1023
 msgid "Results"
 msgstr "Resultados"
 
-#: ../SPMainCore.py:1022
+#: ../SPMainCore.py:1027
 msgid "Save image"
 msgstr "Salvar imagem"
 
@@ -672,12 +673,12 @@ msgstr "Pontuação:"
 msgid "Select Language"
 msgstr "Selecionar idioma"
 
-#: ../SPMenu.py:331
+#: ../SPMenu.py:334
 msgid ""
 "Select an activity and click on the button, the activity will be started."
 msgstr "Escolha uma atividade e clique no botão, a atividade será iniciada."
 
-#: ../SPMainCore.py:948
+#: ../SPMainCore.py:953
 msgid "Set volume level"
 msgstr "Configurar nível de volume"
 
@@ -717,12 +718,12 @@ msgstr "Iniciar"
 msgid "Starting a new exercise"
 msgstr "Iniciando um novo exercício"
 
-#: ../SPMainCore.py:645
+#: ../SPMainCore.py:650
 #, python-format
 msgid "Starting level %s"
 msgstr "Iniciando nível %s"
 
-#: ../SPMainCore.py:829
+#: ../SPMainCore.py:834
 msgid "Stopping timers, please wait..."
 msgstr "Tempo de contagem, por favor espere..."
 
@@ -746,7 +747,7 @@ msgstr "Os blocos acenderão aleatoriamente em conjunto com sinais sonoros."
 msgid "The aim of the game:"
 msgstr "O objetivo do jogo:"
 
-#: ../lib/billiard.py:273 ../lib/dltr.py:214 ../lib/electro_sp.py:193
+#: ../lib/billiard.py:295 ../lib/dltr.py:214 ../lib/electro_sp.py:193
 #: ../lib/fallingletters.py:193 ../lib/findit_sp.py:220 ../lib/findsound.py:126
 #: ../lib/fishtank.py:250 ../lib/fourrow.py:127 ../lib/ichanger.py:295
 #: ../lib/memory_sp.py:206 ../lib/numbers_sp.py:230 ../lib/photoalbum.py:186
@@ -771,7 +772,7 @@ msgstr "O jogo clássico pong onde você deve acertar uma bola com o taco."
 msgid "The difficulty of the set increases from left to right."
 msgstr "A dificuldade do conjunto aumenta da esquerda para a direita."
 
-#: ../lib/billiard.py:278 ../lib/billiard.py:284
+#: ../lib/billiard.py:300 ../lib/billiard.py:306
 msgid ""
 "The fewer hits you need to get the ball in the hole, the more points you get."
 msgstr ""
@@ -790,7 +791,7 @@ msgstr ""
 "O último nível é liberado somente quando você termina os três primeiros "
 "níveis sem erros."
 
-#: ../lib/billiard.py:277
+#: ../lib/billiard.py:299
 msgid "The longer you hold the left button the harder it will hit the ball."
 msgstr "Quanto mais você segura o botão esquerdo mais forte irá bater na bola."
 
@@ -810,7 +811,7 @@ msgstr "Existem três níveis, com três palavras cada."
 msgid "There are three modes to choose from:"
 msgstr "Existem três modos para escolher:"
 
-#: ../SPMainCore.py:1520
+#: ../SPMainCore.py:1525
 #, python-format
 msgid ""
 "There was an error in %s. Please check the logs and inform the developers"
@@ -833,7 +834,7 @@ msgstr ""
 "dados original e, em seguida, substitua-o por um novo. O banco de dados "
 "original se chama agora a sp.db_back e é colocado em %s"
 
-#: ../lib/billiard.py:297 ../lib/electro_sp.py:215 ../lib/fallingletters.py:214
+#: ../lib/billiard.py:319 ../lib/electro_sp.py:215 ../lib/fallingletters.py:214
 #: ../lib/findit_sp.py:244 ../lib/findsound.py:158 ../lib/fishtank.py:270
 #: ../lib/fourrow.py:234 ../lib/ichanger.py:316 ../lib/memory_sp.py:228
 #: ../lib/numbers_sp.py:257 ../lib/packid.py:523 ../lib/photoalbum.py:206
@@ -853,7 +854,7 @@ msgstr ""
 "A atividade é conhecida como treinamento diário que é uma coleção de "
 "atividades."
 
-#: ../SPMenu.py:330
+#: ../SPMenu.py:333
 msgid "This is the menu used to select an activity."
 msgstr "Este é o menu para selecionar uma atividade."
 
@@ -861,12 +862,12 @@ msgstr "Este é o menu para selecionar uma atividade."
 msgid "Tip: Try creating multiple winning scenario's."
 msgstr "Dica: Tente vencer de maneiras diferentes."
 
-#: ../SPMainCore.py:914
+#: ../SPMainCore.py:919
 #, python-format
 msgid "Tip:%s"
 msgstr "Dica:%s"
 
-#: ../lib/quizengine.py:797
+#: ../lib/quizengine.py:800
 #, python-format
 msgid ""
 "To little questions found in %s for locale '%s', found %s questions should "
@@ -927,15 +928,15 @@ msgstr "Digite as letras caindo no teclado antes que toquem no solo."
 msgid "Update BrainTrainerPlus"
 msgstr "Atualizar BrainTrainerPlus"
 
-#: ../SPMenu.py:332
+#: ../SPMenu.py:335
 msgid "Use the 'sub menu' buttons for the different activity menus"
 msgstr "Use os botões de 'sub menu' para diferentes menus de atividade"
 
-#: ../SPMenu.py:346
+#: ../SPMenu.py:350
 msgid "Use the menu below to choose between the different game categories"
 msgstr "Use o menu abaixo para escolher entre diferentes categorias de jogos"
 
-#: ../lib/billiard.py:276
+#: ../lib/billiard.py:298
 msgid "Use the right mousebutton to aim and the left button to hit the ball."
 msgstr "Use o botão direito para mirar e o botão esquerdo para acertar a bola."
 
@@ -943,7 +944,7 @@ msgstr "Use o botão direito para mirar e o botão esquerdo para acertar a bola.
 msgid "Use these keys on your keyboard to control the bat."
 msgstr "Utilize estas teclas do teclado para controlar o taco."
 
-#: ../SPMainCore.py:460
+#: ../SPMainCore.py:465
 #, python-format
 msgid "User: %s"
 msgstr "Usuário: %s"
@@ -994,8 +995,8 @@ msgstr "Arraste"
 msgid "Wipe with your finger on the screen to uncover the picture."
 msgstr "Arraste com seu dedo na tela para revelar a imagem."
 
-#: ../SPMainCore.py:724 ../SPMainCore.py:728 ../SPMainCore.py:729
-#: ../SPMainCore.py:867
+#: ../SPMainCore.py:729 ../SPMainCore.py:733 ../SPMainCore.py:734
+#: ../SPMainCore.py:872
 msgid "Yes"
 msgstr "Sim"
 
@@ -1011,11 +1012,11 @@ msgstr ""
 msgid "You have finished the daily training module."
 msgstr "Você terminou o módulo de treinamento diário."
 
-#: ../lib/billiard.py:274
+#: ../lib/billiard.py:296
 msgid "You have to make the blue ball enter the hole (in level 1)"
 msgstr "Você tem que fazer a bola azul entrar no buraco (no nível 1)"
 
-#: ../SPMainCore.py:723
+#: ../SPMainCore.py:728
 msgid "You play very good, do you want to try the next level ?"
 msgstr "Você jogou muito bem, você quer tentar o próximo nível ?"
 
@@ -1032,7 +1033,7 @@ msgstr ""
 msgid "You will see various numbers scattered around the screen."
 msgstr "Você verá vários números espalhados pela tela."
 
-#: ../lib/billiard.py:584
+#: ../lib/billiard.py:617
 msgid "You won!!"
 msgstr "Você ganhou!!"
 
@@ -1040,7 +1041,7 @@ msgstr "Você ganhou!!"
 msgid "Your average results per group are:"
 msgstr "Seus resultados médios por grupo são:"
 
-#: ../SPMainCore.py:1028
+#: ../SPMainCore.py:1033
 #, python-format
 msgid ""
 "Your image is saved at:\n"
@@ -1053,7 +1054,7 @@ msgstr ""
 msgid "Your results are:"
 msgstr "Seus resultados são:"
 
-#: ../lib/billiard.py:275
+#: ../lib/billiard.py:297
 msgid "and the red ones in levels 2 and 3."
 msgstr "e o vermelho nos níveis 2 e 3."
 
@@ -1065,7 +1066,7 @@ msgstr "começando com a letra: "
 msgid "funny sounds :-)"
 msgstr "sons engraçados :-)"
 
-#: ../lib/billiard.py:572 ../lib/billiard.py:585
+#: ../lib/billiard.py:604 ../lib/billiard.py:618
 msgid "points"
 msgstr "pontos"
 

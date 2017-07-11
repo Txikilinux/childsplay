@@ -18,9 +18,8 @@ print "modir =",MODIR
 log = []
 
 lines = [time.asctime()+'\n']
-tablehead = "||~ Language ||~ Pofile ||~ Maintainer ||~ Translated % ||~ Fuzzy % ||~Untranslated % ||~ Total||\n"
-statlines = []
-statdict = {}
+htmllines = []
+li_line = '     <li> <a href="pofiles/%s">%s</a></li>\n'
 
 if len(sys.argv) == 2:
     print "Only generating %s" % sys.argv[1]
@@ -64,49 +63,19 @@ for pofile in files:
         out = subprocess.Popen(cmd, shell=True, stderr=subprocess.PIPE).communicate()[1] 
         line ="output: %s" % out
         lines.append(line)
-        # parse the line to extract stats
-        line = line[8:]
-        trans = int(line.split('translated')[0].strip())
-        if line.find('fuzzy') != -1:
-            fuzzy = int(line.split('fuzzy')[0].split(',')[1].strip())
-        else:
-            fuzzy = 0
-        if line.find('untranslated') != -1:
-            untrans = int(line.split('untranslated')[0].rsplit(',',1)[1].strip())
-        else:
-            untrans = 0
-        total = trans + fuzzy + untrans
-        perc = total / 100.0
-        if int(trans/perc) < 80:
-            stats = "|| %s || %s || %s || ##FF0000|%s## ||\n" % \
-                (total, int(fuzzy/perc), int(untrans/perc), int(trans/perc))
-        elif 79 < int(trans/perc) < 100:
-            stats = "|| %s || %s || %s || ###A10000|%s## ||\n" % \
-                (total, int(fuzzy/perc), int(untrans/perc), int(trans/perc))
-        else:
-            stats = "|| %s || %s || %s || %s ||\n" % \
-                (total, int(fuzzy/perc), int(untrans/perc), int(trans/perc))
-        statdict[langname0] = (stats)
+        # parse the line to create html list
+        htmllines.append(li_line % (os.path.basename(pofile), langname0))
+htmllines.sort()
+htmllines.insert(0, '<ul>\n')
+htmllines.append('</li>\n')
         
-f = open('Po2Mo.log','w')        
+f = open('Po2Mo.log', 'w')
 f.writelines(lines)
 f.close()
 
-## now we generate the wikidot translations table.
-#f = open('transtable_0.txt','r')
-#lines = f.readlines()
-#f.close()
-#
-#for line in lines:
-#    lang, table = line.split(',')
-#    statlines.append((lang, "||%s" % lang + table[:-1] + statdict[lang]))
-#statlines.sort()
-#lines = ["||~ Language ||~ Pofile ||~ Maintainer ||~ Total||~ Fuzzy % ||~ Untranslated % ||~ Translated % ||\n"]
-#for line in statlines:
-#    lines.append(line[1])
-#    
-f = open('StatsTable','w')        
-f.writelines(lines)
+# now we generate html translations table.
+f = open('StatsTable','w')
+f.writelines(htmllines)
 f.close()
 
    

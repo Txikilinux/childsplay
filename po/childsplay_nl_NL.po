@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: childsplay_sp_nl_NL\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27 08:34+0200\n"
+"POT-Creation-Date: 2017-07-09 11:38+0200\n"
 "PO-Revision-Date: 2015-04-30 16:56+0200\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
@@ -47,7 +47,7 @@ msgid "(max two per word), you can play the last level which is a maze."
 msgstr ""
 "(maximum twee per woord), kun je het laatste niveau, een doolhof, spelen."
 
-#: ../SPMenu.py:344
+#: ../SPMenu.py:348
 msgid "A collection of braintrain games for seniors."
 msgstr "Een aantal spelen voor senioren waarmee het brein geoefend wordt."
 
@@ -55,11 +55,11 @@ msgstr "Een aantal spelen voor senioren waarmee het brein geoefend wordt."
 msgid "Accuracy is more important than speed."
 msgstr "Nauwkeurigheid is belangrijker dan snelheid."
 
-#: ../SPMainCore.py:473
+#: ../SPMainCore.py:478
 msgid "Activity :"
 msgstr "Activiteit:"
 
-#: ../SPMainCore.py:585
+#: ../SPMainCore.py:590
 #, python-format
 msgid "Activity : %s"
 msgstr "Activiteit: %s"
@@ -72,7 +72,7 @@ msgstr "Activiteit:"
 msgid "All pills, both red and yellow, stack on each other."
 msgstr "Alle schijven, zowel de rode als de gele, worden op elkaar gestapeld."
 
-#: ../SPMenu.py:345
+#: ../SPMenu.py:349
 msgid ""
 "All the games have there own help page, just start a game and hit the stars "
 "on top of the screen to select another difficulty."
@@ -92,7 +92,7 @@ msgstr "Alfabet/Toetsenbordtraining"
 msgid "Already found:"
 msgstr "Reeds gevonden:"
 
-#: ../SPMainCore.py:272
+#: ../SPMainCore.py:277
 msgid "An error occurred and BraintrainerPlus was restarted"
 msgstr "Er trad een fout op en BreintrainerPlus werd opnieuw gestart"
 
@@ -106,7 +106,7 @@ msgstr "Beantwoord de rekenvragen."
 msgid "Answer the quiz questions."
 msgstr "Beantwoord de quizvragen."
 
-#: ../SPMainCore.py:866
+#: ../SPMainCore.py:871
 msgid ""
 "Are sure you want to quit the dailytraining ? All the results will be lost."
 msgstr ""
@@ -161,7 +161,7 @@ msgstr ""
 msgid "At the top of the screen, you will see a question."
 msgstr "Bovenaan het scherm zul je een vraag zien."
 
-#: ../lib/billiard.py:325
+#: ../lib/billiard.py:345
 msgid "Balls"
 msgstr "Ballen"
 
@@ -170,9 +170,9 @@ msgid "Begin"
 msgstr "Beginnen"
 
 #: ../lib/quiz_general.py:162 ../lib/quiz_history.py:254
-#: ../lib/quiz_math.py:109 ../lib/quiz_melody.py:114
-#: ../lib/quiz_picture.py:106 ../lib/quiz.py:146 ../lib/quiz_royal.py:120
-#: ../lib/quiz_sayings.py:108 ../lib/quiz_text.py:115
+#: ../lib/quiz_math.py:109 ../lib/quiz_melody.py:114 ../lib/quiz_picture.py:106
+#: ../lib/quiz.py:146 ../lib/quiz_royal.py:120 ../lib/quiz_sayings.py:108
+#: ../lib/quiz_text.py:115
 msgid ""
 "Below it are a choice of possible answers.\n"
 "Touch the correct answer."
@@ -180,15 +180,15 @@ msgstr ""
 "Daaronder staan een aantal mogelijke antwoorden.\n"
 "Raak het juiste antwoord aan."
 
-#: ../lib/billiard.py:265
+#: ../lib/billiard.py:287
 msgid "Billiard"
 msgstr "Biljart"
 
-#: ../lib/billiard.py:251
+#: ../lib/billiard.py:273
 msgid "Billiard Game"
 msgstr "Biljartspel"
 
-#: ../SPMainCore.py:809
+#: ../SPMainCore.py:814
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -200,7 +200,7 @@ msgstr "Wachtwoord wijzigen"
 msgid "Cheat"
 msgstr "Spieken"
 
-#: ../SPMainCore.py:222
+#: ../SPMainCore.py:227
 #, python-format
 msgid "Childsplay_sp - educational activities, using theme:%s"
 msgstr "Childsplay - educatieve activiteiten met als thema: %s"
@@ -223,7 +223,7 @@ msgid "Classic memory game where you have to find pairs of sounds."
 msgstr ""
 "Klassiek geheugenspel waarbij je geluiden moet zoeken die een paar vormen."
 
-#: ../SPMainCore.py:948
+#: ../SPMainCore.py:953
 msgid "Close"
 msgstr "Afsluiten"
 
@@ -244,7 +244,7 @@ msgstr "Juistheid is belangrijker dan snelheid"
 msgid "Correctness is more important than speed."
 msgstr "Juistheid is belangrijker dan snelheid."
 
-#: ../SPMainCore.py:1239 ../SPMainCore.py:1412
+#: ../SPMainCore.py:1244 ../SPMainCore.py:1417
 #, python-format
 msgid "Current activity : %s"
 msgstr "Huidige activiteit: %s"
@@ -265,7 +265,7 @@ msgstr "Standaardgroep 2"
 msgid "Details"
 msgstr "Details"
 
-#: ../SPMainCore.py:808
+#: ../SPMainCore.py:813
 msgid "Do you really want to quit ?"
 msgstr "Wil je echt stoppen?"
 
@@ -273,11 +273,11 @@ msgstr "Wil je echt stoppen?"
 msgid "Electro_sp"
 msgstr "Electro"
 
-#: ../SPMainCore.py:570 ../SPMainCore.py:578
+#: ../SPMainCore.py:575 ../SPMainCore.py:583
 msgid "Error !"
 msgstr "Fout!"
 
-#: ../SPMainCore.py:577
+#: ../SPMainCore.py:582
 #, python-format
 msgid ""
 "Error constructing activity\n"
@@ -286,7 +286,7 @@ msgstr ""
 "Fout bij opbouwen activiteit\n"
 "%s"
 
-#: ../SPMainCore.py:569
+#: ../SPMainCore.py:574
 #, python-format
 msgid ""
 "Error importing activity\n"
@@ -327,7 +327,7 @@ msgstr "Vermaak"
 msgid "Fun/Alphabet"
 msgstr "Vermaak/Alfabet"
 
-#: ../lib/billiard.py:290
+#: ../lib/billiard.py:312
 msgid "Fun/Miscellaneous"
 msgstr "Vermaak/Diversen"
 
@@ -339,7 +339,7 @@ msgstr "Vermaak/Muistraining"
 msgid "Gamemanagement"
 msgstr "Spelbeheer"
 
-#: ../SPMainCore.py:1016
+#: ../SPMainCore.py:1021
 #, python-format
 msgid "Generated by %s version %s for the %s activity"
 msgstr "Gegenereerd door %s versie %s voor de activiteit %s"
@@ -352,7 +352,7 @@ msgstr "Groepsbeheer"
 msgid "Hit the 'Begin' button to start."
 msgstr "Gebruik de knop Beginnen om te starten."
 
-#: ../SPMainCore.py:653
+#: ../SPMainCore.py:658
 msgid "Hit the 'space' key or a mousebutton to skip the countdown"
 msgstr "Gebruik de spatiebalk of een muisknop om het aftellen over te slaan"
 
@@ -383,11 +383,11 @@ msgid "In the multiplayer modes, the one who has 11 points wins."
 msgstr ""
 "In de modus met twee spelers wint diegene die het eerst 11 punten behaalt."
 
-#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+#: ../SPMainCore.py:1034 ../SPMainCore.py:1254
 msgid "Information"
 msgstr "Informatie"
 
-#: ../SPMainCore.py:927
+#: ../SPMainCore.py:932
 #, python-format
 msgid "Information about %s"
 msgstr "Informatie over %s"
@@ -478,9 +478,8 @@ msgstr "Let zowel op de volgorde van geluiden als op de volgorde van kleuren."
 #: ../lib/dltr.py:227 ../lib/findit_sp.py:237 ../lib/findsound.py:139
 #: ../lib/ichanger.py:310 ../lib/numbers_sp.py:247 ../lib/photoalbum.py:200
 #: ../lib/quiz_general.py:174 ../lib/quiz_history.py:266
-#: ../lib/quiz_picture.py:118 ../lib/quiz_royal.py:132
-#: ../lib/spinbottle.py:222 ../lib/synonyms.py:167 ../lib/wipe.py:124
-#: ../SPHelpText.py:144
+#: ../lib/quiz_picture.py:118 ../lib/quiz_royal.py:132 ../lib/spinbottle.py:222
+#: ../lib/synonyms.py:167 ../lib/wipe.py:124 ../SPHelpText.py:144
 msgid "Miscellaneous"
 msgstr "Diversen"
 
@@ -488,7 +487,7 @@ msgstr "Diversen"
 msgid "Mousetraining"
 msgstr "Muistraining "
 
-#: ../SPMainCore.py:923 ../SPMainCore.py:930
+#: ../SPMainCore.py:928 ../SPMainCore.py:935
 msgid "Movie"
 msgstr "Film"
 
@@ -504,7 +503,7 @@ msgstr "Tegen de computer spelen - Probeer de computer te verslaan."
 msgid "New"
 msgstr "Nieuw"
 
-#: ../SPMainCore.py:724 ../SPMainCore.py:867 ../SPMainCore.py:870
+#: ../SPMainCore.py:729 ../SPMainCore.py:872 ../SPMainCore.py:875
 msgid "No"
 msgstr "Nee"
 
@@ -532,10 +531,10 @@ msgstr "Aantal niveaus: 6"
 msgid "Numbers_sp"
 msgstr "Getallen"
 
-#: ../lib/dltr.py:434 ../lib/dltr.py:438 ../SPMainCore.py:570
-#: ../SPMainCore.py:578 ../SPMainCore.py:809 ../SPMainCore.py:814
-#: ../SPMainCore.py:815 ../SPMainCore.py:919 ../SPMainCore.py:1018
-#: ../SPMainCore.py:1029 ../SPMainCore.py:1249
+#: ../lib/dltr.py:434 ../lib/dltr.py:438 ../SPMainCore.py:575
+#: ../SPMainCore.py:583 ../SPMainCore.py:814 ../SPMainCore.py:819
+#: ../SPMainCore.py:820 ../SPMainCore.py:924 ../SPMainCore.py:1023
+#: ../SPMainCore.py:1034 ../SPMainCore.py:1254
 msgid "OK"
 msgstr "OK"
 
@@ -626,11 +625,11 @@ msgstr "Raak de knop Start aan."
 msgid "Puzzle"
 msgstr "Puzzel"
 
-#: ../SPMainCore.py:724 ../SPMainCore.py:867
+#: ../SPMainCore.py:729 ../SPMainCore.py:872
 msgid "Question ?"
 msgstr "Vraag?"
 
-#: ../SPMainCore.py:809
+#: ../SPMainCore.py:814
 msgid "Quit ?"
 msgstr "Stoppen?"
 
@@ -654,11 +653,11 @@ msgstr ""
 "Let op, de volgorde van de bewerkingen is vermenigvuldigen of delen en dan "
 "optellen of aftrekken."
 
-#: ../lib/dltr.py:434 ../SPMainCore.py:1018
+#: ../lib/dltr.py:434 ../SPMainCore.py:1023
 msgid "Results"
 msgstr "Resultaten"
 
-#: ../SPMainCore.py:1022
+#: ../SPMainCore.py:1027
 msgid "Save image"
 msgstr "Plaatje opslaan"
 
@@ -674,13 +673,13 @@ msgstr "Score:"
 msgid "Select Language"
 msgstr "Kies een taal"
 
-#: ../SPMenu.py:331
+#: ../SPMenu.py:334
 msgid ""
 "Select an activity and click on the button, the activity will be started."
 msgstr ""
 "Kies een activiteit en klik op de knop. De activiteit wordt dan gestart."
 
-#: ../SPMainCore.py:948
+#: ../SPMainCore.py:953
 msgid "Set volume level"
 msgstr "Stel het geluidsvolume in"
 
@@ -720,12 +719,12 @@ msgstr "Start"
 msgid "Starting a new exercise"
 msgstr "Een nieuwe oefening wordt opgestart"
 
-#: ../SPMainCore.py:645
+#: ../SPMainCore.py:650
 #, python-format
 msgid "Starting level %s"
 msgstr "Niveau %s wordt opgestart"
 
-#: ../SPMainCore.py:829
+#: ../SPMainCore.py:834
 msgid "Stopping timers, please wait..."
 msgstr "Bezig timers te stoppen. Een ogenblik..."
 
@@ -751,13 +750,12 @@ msgstr ""
 msgid "The aim of the game:"
 msgstr "De bedoeling van het spel:"
 
-#: ../lib/billiard.py:273 ../lib/dltr.py:214 ../lib/electro_sp.py:193
-#: ../lib/fallingletters.py:193 ../lib/findit_sp.py:220
-#: ../lib/findsound.py:126 ../lib/fishtank.py:250 ../lib/fourrow.py:127
-#: ../lib/ichanger.py:295 ../lib/memory_sp.py:206 ../lib/numbers_sp.py:230
-#: ../lib/photoalbum.py:186 ../lib/pong.py:381 ../lib/puzzle.py:244
-#: ../lib/quiz_general.py:158 ../lib/quiz_history.py:250
-#: ../lib/quiz_math.py:105 ../lib/quiz_melody.py:110
+#: ../lib/billiard.py:295 ../lib/dltr.py:214 ../lib/electro_sp.py:193
+#: ../lib/fallingletters.py:193 ../lib/findit_sp.py:220 ../lib/findsound.py:126
+#: ../lib/fishtank.py:250 ../lib/fourrow.py:127 ../lib/ichanger.py:295
+#: ../lib/memory_sp.py:206 ../lib/numbers_sp.py:230 ../lib/photoalbum.py:186
+#: ../lib/pong.py:381 ../lib/puzzle.py:244 ../lib/quiz_general.py:158
+#: ../lib/quiz_history.py:250 ../lib/quiz_math.py:105 ../lib/quiz_melody.py:110
 #: ../lib/quiz_picture.py:102 ../lib/quiz.py:142 ../lib/quiz_royal.py:116
 #: ../lib/quiz_sayings.py:104 ../lib/quiz_text.py:111 ../lib/simon_sp.py:163
 #: ../lib/soundmemory.py:196 ../lib/spinbottle.py:204 ../lib/synonyms.py:150
@@ -777,7 +775,7 @@ msgstr "Het klassieke pongspel waarbij je een bal moet slaan met een knuppel."
 msgid "The difficulty of the set increases from left to right."
 msgstr "De moeilijkheidsgraad van de partij neemt toe van links naar rechts."
 
-#: ../lib/billiard.py:278 ../lib/billiard.py:284
+#: ../lib/billiard.py:300 ../lib/billiard.py:306
 msgid ""
 "The fewer hits you need to get the ball in the hole, the more points you get."
 msgstr ""
@@ -796,7 +794,7 @@ msgstr ""
 "Het laatste niveau is alleen beschikbaar als je de eerste drie niveaus "
 "foutloos gedaan hebt."
 
-#: ../lib/billiard.py:277
+#: ../lib/billiard.py:299
 msgid "The longer you hold the left button the harder it will hit the ball."
 msgstr ""
 "Hoe langer je de linker muisknop ingedrukt houdt, hoe harder je de bal raakt."
@@ -817,7 +815,7 @@ msgstr "Er zijn drie niveaus met elk drie woorden."
 msgid "There are three modes to choose from:"
 msgstr "Er zijn drie manieren waaruit je kunt kiezen:"
 
-#: ../SPMainCore.py:1520
+#: ../SPMainCore.py:1525
 #, python-format
 msgid ""
 "There was an error in %s. Please check the logs and inform the developers"
@@ -839,15 +837,14 @@ msgstr ""
 "databank en ze dan vervangen door een nieuwe. De originele databank werd "
 "bewaard onder de naam sp_db_back en werd geplaatst in %s"
 
-#: ../lib/billiard.py:297 ../lib/electro_sp.py:215
-#: ../lib/fallingletters.py:214 ../lib/findit_sp.py:244
-#: ../lib/findsound.py:158 ../lib/fishtank.py:270 ../lib/fourrow.py:234
-#: ../lib/ichanger.py:316 ../lib/memory_sp.py:228 ../lib/numbers_sp.py:257
-#: ../lib/packid.py:523 ../lib/photoalbum.py:206 ../lib/pong.py:406
-#: ../lib/puzzle.py:266 ../lib/quiz_general.py:181 ../lib/quiz_history.py:273
-#: ../lib/quiz_picture.py:124 ../lib/quiz.py:169 ../lib/quiz_royal.py:138
-#: ../lib/simon_sp.py:189 ../lib/soundmemory.py:217 ../lib/spinbottle.py:229
-#: ../lib/synonyms.py:174 ../lib/wipe.py:135
+#: ../lib/billiard.py:319 ../lib/electro_sp.py:215 ../lib/fallingletters.py:214
+#: ../lib/findit_sp.py:244 ../lib/findsound.py:158 ../lib/fishtank.py:270
+#: ../lib/fourrow.py:234 ../lib/ichanger.py:316 ../lib/memory_sp.py:228
+#: ../lib/numbers_sp.py:257 ../lib/packid.py:523 ../lib/photoalbum.py:206
+#: ../lib/pong.py:406 ../lib/puzzle.py:266 ../lib/quiz_general.py:181
+#: ../lib/quiz_history.py:273 ../lib/quiz_picture.py:124 ../lib/quiz.py:169
+#: ../lib/quiz_royal.py:138 ../lib/simon_sp.py:189 ../lib/soundmemory.py:217
+#: ../lib/spinbottle.py:229 ../lib/synonyms.py:174 ../lib/wipe.py:135
 #, python-format
 msgid "This activity has %s levels"
 msgstr "Deze activiteit heeft %s niveaus"
@@ -860,7 +857,7 @@ msgstr ""
 "Deze activiteit staat bekend als de dagelijkse training en omvat een aantal "
 "activiteiten."
 
-#: ../SPMenu.py:330
+#: ../SPMenu.py:333
 msgid "This is the menu used to select an activity."
 msgstr "Met dit menu kies je een activiteit."
 
@@ -868,12 +865,12 @@ msgstr "Met dit menu kies je een activiteit."
 msgid "Tip: Try creating multiple winning scenario's."
 msgstr "Tip: tracht verschillende succesvolle scenario's te creëren."
 
-#: ../SPMainCore.py:914
+#: ../SPMainCore.py:919
 #, python-format
 msgid "Tip:%s"
 msgstr "Tip: %s"
 
-#: ../lib/quizengine.py:797
+#: ../lib/quizengine.py:800
 #, python-format
 msgid ""
 "To little questions found in %s for locale '%s', found %s questions should "
@@ -939,17 +936,17 @@ msgstr "Tik de vallende letters in op het toetsenbord voor ze de grond raken."
 msgid "Update BrainTrainerPlus"
 msgstr "BreinTrainerPlus bijwerken"
 
-#: ../SPMenu.py:332
+#: ../SPMenu.py:335
 msgid "Use the 'sub menu' buttons for the different activity menus"
 msgstr ""
 "Gebruik de knoppen van het „submenu” om naar de menu's van de verschillende "
 "activiteiten te gaan."
 
-#: ../SPMenu.py:346
+#: ../SPMenu.py:350
 msgid "Use the menu below to choose between the different game categories"
 msgstr "Gebruik het menu onderaan om een ander soort spel te kiezen"
 
-#: ../lib/billiard.py:276
+#: ../lib/billiard.py:298
 msgid "Use the right mousebutton to aim and the left button to hit the ball."
 msgstr ""
 "Gebruik de rechter muisknop om te richten en de linker om de bal te spelen."
@@ -958,7 +955,7 @@ msgstr ""
 msgid "Use these keys on your keyboard to control the bat."
 msgstr "Gebruik deze toetsen op het toetsenbord om de knuppel te bedienen."
 
-#: ../SPMainCore.py:460
+#: ../SPMainCore.py:465
 #, python-format
 msgid "User: %s"
 msgstr "Gebruiker: %s"
@@ -1009,8 +1006,8 @@ msgstr "Wissen"
 msgid "Wipe with your finger on the screen to uncover the picture."
 msgstr "Veeg met je vinger over het scherm om het plaatje zichtbaar te maken."
 
-#: ../SPMainCore.py:724 ../SPMainCore.py:728 ../SPMainCore.py:729
-#: ../SPMainCore.py:867
+#: ../SPMainCore.py:729 ../SPMainCore.py:733 ../SPMainCore.py:734
+#: ../SPMainCore.py:872
 msgid "Yes"
 msgstr "Ja"
 
@@ -1026,11 +1023,11 @@ msgstr ""
 msgid "You have finished the daily training module."
 msgstr "Je bent klaar met de dagelijkse training."
 
-#: ../lib/billiard.py:274
+#: ../lib/billiard.py:296
 msgid "You have to make the blue ball enter the hole (in level 1)"
 msgstr "Je moet zorgen dat de blauwe bal in het gat komt (in niveau 1)"
 
-#: ../SPMainCore.py:723
+#: ../SPMainCore.py:728
 msgid "You play very good, do you want to try the next level ?"
 msgstr "Je speelt erg goed. Wil je het op een volgend niveau proberen?"
 
@@ -1046,7 +1043,7 @@ msgstr ""
 msgid "You will see various numbers scattered around the screen."
 msgstr "Verspreid over het scherm zul je verschillende getallen zien."
 
-#: ../lib/billiard.py:584
+#: ../lib/billiard.py:617
 msgid "You won!!"
 msgstr "Je wint!!"
 
@@ -1054,7 +1051,7 @@ msgstr "Je wint!!"
 msgid "Your average results per group are:"
 msgstr "Je gemiddelde resultaten per groep zijn:"
 
-#: ../SPMainCore.py:1028
+#: ../SPMainCore.py:1033
 #, python-format
 msgid ""
 "Your image is saved at:\n"
@@ -1067,7 +1064,7 @@ msgstr ""
 msgid "Your results are:"
 msgstr "Je resultaten zijn:"
 
-#: ../lib/billiard.py:275
+#: ../lib/billiard.py:297
 msgid "and the red ones in levels 2 and 3."
 msgstr "en de rode in niveaus 2 en 3."
 
@@ -1079,7 +1076,7 @@ msgstr "die beginnen met de letter:"
 msgid "funny sounds :-)"
 msgstr "grappige geluiden :-)"
 
-#: ../lib/billiard.py:572 ../lib/billiard.py:585
+#: ../lib/billiard.py:604 ../lib/billiard.py:618
 msgid "points"
 msgstr "punten"
 
