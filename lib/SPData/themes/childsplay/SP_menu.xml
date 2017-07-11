@@ -83,9 +83,6 @@
     <menuitem enable="True" file="BlockBreaker.icon.png" hoverfile="BlockBreaker_ro.icon.png">
       <activity>BlockBreaker</activity>
     </menuitem>
-    <menuitem enable="True" file="math_test.icon.png" hoverfile="math_test.icon.png" >
-    <activity>math_test</activity>
-  </menuitem>
   </submenu>
 
 </rootmenu>

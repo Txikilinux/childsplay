@@ -150,6 +150,7 @@ class OParser(OptionParser):
         config = ConfigParser.ConfigParser()
         print config
         rc = os.path.join(ACTIVITYDATADIR, 'SPData', 'themes', self.options.theme, 'theme.rc')
+        print os.path.exists(rc)
         print("DEBUG: parsing rc file %s" % rc)
         config.read(rc)
         #print config.items('menubar')
