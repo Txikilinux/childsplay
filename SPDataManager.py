@@ -107,31 +107,32 @@ class DataManager:
         self.orms_content_db, self.orms_userdb = dbm.get_orms()
         self.UserSession = sqlorm.sessionmaker(bind=self.user_engine)
         self.ContentSession = sqlorm.sessionmaker(bind=self.content_engine)
-        # query which language we should use.
-        orm, session = self.get_orm('spconf', 'user')
-        row = session.query(orm).filter_by(activity_name = u'language_select')\
-                                    .filter_by(key = u'locale').first()
-        if not row:
-            language = self.cmd_options.lang
-            if not language:
-                language = self.cmd_options.default_language
-            row = orm(activity_name='language_select', key=u'locale', value=language, comment=u'locale used by the core')
-            session.add(row)
-            row = orm(activity_name='language_select', key=u'lang', value=language[:2], comment=u'language code used by the core')
-            session.add(row)
-            session.commit()
-            session.close()
-            language = set_locale(language)
-        elif not self.cmd_options.lang:
-            language = set_locale(row.value)
-        else:
-            language = self.cmd_options.lang
-            if not language:
-                language = self.cmd_options.default_language
-            language = set_locale(language)    
-        self.language = language
-        self.SPG.localesetting = language
+        # # query which language we should use.
+        # orm, session = self.get_orm('spconf', 'user')
+        # row = session.query(orm).filter_by(activity_name = u'language_select')\
+        #                             .filter_by(key = u'locale').first()
+        # if not row:
+        #     language = self.cmd_options.lang
+        #     if not language:
+        #         language = self.cmd_options.default_language
+        #     row = orm(activity_name='language_select', key=u'locale', value=language, comment=u'locale used by the core')
+        #     session.add(row)
+        #     row = orm(activity_name='language_select', key=u'lang', value=language[:2], comment=u'language code used by the core')
+        #     session.add(row)
+        #     session.commit()
+        #     session.close()
+        #     language = set_locale(language)
+        # elif not self.cmd_options.lang:
+        #     language = set_locale(row.value)
+        # else:
+        #     language = self.cmd_options.lang
+        #     if not language:
+        #         language = self.cmd_options.default_language
+        #     language = set_locale(language)
+        # self.language = language
+        # self.SPG.localesetting = language
         self._check_tables_uptodate()
+        self.langauge = self.SPG.localesetting
         # query to get all availabe cids, used to check served_content
         orm, session = self.get_orm('game_available_content', 'content')
         query = session.query(orm)

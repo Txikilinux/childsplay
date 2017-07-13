@@ -234,7 +234,7 @@ class Activity:
         """Mandatory method."""
         self.GoodSound=utils.load_sound(os.path.join(self.CPdatadir, 'good.ogg'))
         self.WrongSound=utils.load_sound(os.path.join(self.CPdatadir, 'wrong.ogg'))
-        self.ThumbsUp = SPSpriteUtils.MySprite(utils.load_image(os.path.join(self.CPdatadir, 'thumbsup.png')))
+        self.ThumbsUp = SPSpriteUtils.MySprite(utils.load_image(os.path.join(self.CPdatadir, 'thumbs.png')))
         self.HintBut = ImgButton(os.path.join(self.MyDatadir, 'hint.png'), (370, 200),name='hint')
         self.wrongImg = SPSpriteUtils.MySprite(utils.load_image(os.path.join(self.MyDatadir, 'incorrect.png')))
         self.prevnextBut = TransPrevNextButton((370, 260), \

@@ -252,7 +252,7 @@ class Activity:
         else:
             self.blit_pos_y = 110
         self.SPG.tellcore_set_dice_minimal_level(2)
-        self.ThumbsUp = SPSpriteUtils.MySprite(utils.load_image(os.path.join(self.CPdatadir, 'thumbsup.png')))
+        self.ThumbsUp = SPSpriteUtils.MySprite(utils.load_image(os.path.join(self.CPdatadir, 'thumbs.png')))
         self.good = utils.load_music(os.path.join(self.CPdatadir, 'good1.ogg'))
         self.wrong = utils.load_music(os.path.join(self.CPdatadir, 'wrong1.ogg'))
         self.score = 0
