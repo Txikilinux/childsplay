@@ -39,6 +39,9 @@ if os.path.exists('%s.tgz' % distdir):
 if os.path.exists('%s.zip' % distdir):
     print "Removing %s.zip" % distdir
     os.system('rm %s.zip' % distdir)
+if os.path.exists('%s.tgz.sig' % distdir):
+    print "Removing %s.tgz.sig" % distdir
+    os.system('rm %s.tgz.sig' % distdir)
 
 print "Looking for pyc files and remove them"
 os.system('find ./ -name "*.pyc" -exec rm -v {} \;')
