@@ -19,6 +19,8 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
 # make tarball!
+import glob
+
 from SPVersion import version
 import os,sys
 
@@ -28,6 +30,9 @@ if ans != 'y':
 
 distdir = 'childsplay-%s' % version
 print "looking for old packages"
+if os.path.exists(distdir):
+    print "Removing %s" % distdir
+    os.system('rm -rf %s' % distdir)
 if os.path.exists('%s.tgz' % distdir):
     print "Removing %s.tgz" % distdir
     os.system('rm %s.tgz' % distdir)
@@ -38,11 +43,6 @@ if os.path.exists('%s.zip' % distdir):
 print "Looking for pyc files and remove them"
 os.system('find ./ -name "*.pyc" -exec rm -v {} \;')
 
-def cleanup(*args):
-    """Used by os.path.walk to traverse the tree and remove CVS dirs"""
-    if os.path.split(args[1])[1] == ".svn":
-        print "Removed: ",args[1]
-        os.system('rm -rf %s' % args[1])
 
 filelist = open('filelist', 'r')
 folderlist = open('folderlist', 'r')
@@ -68,8 +68,13 @@ for folder in myFolders:
     os.system('mkdir -vp %s/%s' % (distdir, folder))
     os.system('cp -r %s %s' % (folder, distdir))
 
-# removing the svn stuff
-os.path.walk('%s' % distdir,cleanup,None)
+# add alphabet sounds
+os.system('mkdir -vp %s/%s' % (distdir, 'alphabet-sounds'))
+for folder in glob.glob('alphabet-sounds/*-*_*'):
+    print "copying", folder
+    lang = folder.split('_', 1)[1]
+    os.system('cp -r %s %s' % (os.path.join(folder, 'AlphabetSounds', lang),
+                               os.path.join(distdir, 'alphabet-sounds', lang)))
 
 # remove the files mentioned in the exclude list
 for item in myExclude:

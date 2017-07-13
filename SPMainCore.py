@@ -113,7 +113,7 @@ class GDMEscapeKeyException(Exception):
 class MainCoreGui:
     def __init__(self, resolution=(800, 600), dbmaker=None, options=None,
                  fullscr=None, mainscr=None, error=False,session_id=None,
-                 start_splash=0, language='en_US'):
+                 start_splash=0, language='en'):
         """The main SP core.
         The idea is that we have a menubar and a activity area.
         The menu bar is the place for "our" gui widgets.

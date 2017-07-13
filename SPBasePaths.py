@@ -12,6 +12,6 @@ except ImportError:
 DOCDIR = 'doc/childsplay_sp'
 BASEDIR = os.getcwd()
 SHARELIBDATADIR = os.path.join(BASEDIR, 'lib')
-ALPHABETDIR = os.path.join(BASEDIR,'alphabetsounds')
+ALPHABETDIR = os.path.join(BASEDIR,'alphabet-sounds')
 LOCALEDIR = os.path.join(BASEDIR, 'locale')
 WWWDIR = 'www/backend'

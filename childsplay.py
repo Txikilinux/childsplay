@@ -224,7 +224,8 @@ while not abort:
         mcgui = SPMainCore.MainCoreGui(resolution=(800, 600),
                                         options=CMD_Options, dbmaker = dbm,
                                         mainscr=mainscreen, error=tellcore_error,
-                                        session_id=session_id, start_splash=start_splash)
+                                        session_id=session_id, start_splash=start_splash,
+                                       language=LANG)
         mainscreen = mcgui.get_mainscreen()
         mcgui.start()
     except SPMainCore.MainEscapeKeyException:
