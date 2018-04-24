@@ -1,5 +1,5 @@
 #version stuff
 
 # seniorplay version
-version = '3.0'
+version = '3.1'
 

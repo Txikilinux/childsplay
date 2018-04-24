@@ -1,6 +1,5 @@
 birthday.py
 BorgSingleton.py
-cairoimage.py
 Changelog
 childsplay.py
 db.dev
@@ -8,7 +7,6 @@ gpl-3.0.txt
 __init__.py
 languageDefinitions.py
 NormalDistTable.py
-pangofont.py
 SPBasePaths.py
 SPColors.py
 SPConstants.py
