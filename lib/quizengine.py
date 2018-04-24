@@ -835,8 +835,7 @@ class Engine:
             self._notify_obs(self.maxresult)
     
     def _next_question(self):
-        # This uses pygame font rendering iso pango like the rest of this app.
-        # The bigger pango fonts are not so nice.
+
         # There's a chance that these fonts are not rendered properly in non-western
         # languages.
         if self.quiz == 'math':

@@ -1,3 +1,0 @@
-LANGUAGE='gl'
-VERSION="0.9.1"
-

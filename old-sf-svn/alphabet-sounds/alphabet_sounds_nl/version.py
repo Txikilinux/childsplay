@@ -1,3 +1,0 @@
-LANGUAGE='nl'
-VERSION="0.9.1"
-

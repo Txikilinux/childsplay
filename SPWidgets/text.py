@@ -140,10 +140,6 @@ class TextView(Widget):
             for line in txt:
                 if not line.strip('\n'):
                     line = ' '
-                if shade:
-                    s = utils.shadefade(line, fsize, amount=shade, bold=bold, fcol=fgcol, shadecol=DARKGREY)
-                    ll.append(s)
-                else:
                     s = utils.char2surf(line, fsize, fgcol, bold=bold)
                     ll.append(s)
                 if s.get_rect().w > w:

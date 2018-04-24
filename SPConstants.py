@@ -18,7 +18,7 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
 # Set the NoGtk constants to True if you don't want to use gtk stuff.
-NoGtk = False
+NoGtk = True
 # Set this to which dbase we use.
 # Currently these are supported: 'sqlite' and 'mysql'
 WHICHDBASE = 'sqlite'
@@ -139,10 +139,6 @@ TTFBOLD = os.path.join(ACTIVITYDATADIR, 'SPData', 'base','DejaVuSansCondensed-Bo
 if os.path.exists(TTF):
     # default size for DejaVuSansCondensed
     TTFSIZE = 12
-
-# These are for the pango fonts
-P_TTFSIZE = 11
-P_TTF = 'arial' #'bookman'
 
 #[6, 94, 182, 270, 358, 446, 534, 622, 710]
 CORE_BUTTONS_XCOORDS = range(6, 800, 91)

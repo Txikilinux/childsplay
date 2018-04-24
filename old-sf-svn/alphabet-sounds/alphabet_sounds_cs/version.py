@@ -1,3 +1,0 @@
-LANGUAGE='cs'
-VERSION="0.9.1"
-

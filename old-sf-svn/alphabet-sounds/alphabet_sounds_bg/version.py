@@ -1,3 +1,0 @@
-LANGUAGE='bg'
-VERSION="0.9.1"
-
