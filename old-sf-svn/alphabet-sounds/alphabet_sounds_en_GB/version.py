@@ -1,3 +1,0 @@
-LANGUAGE='en_GB'
-VERSION="0.9.1"
-

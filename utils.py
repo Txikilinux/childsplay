@@ -28,8 +28,7 @@ import fnmatch
 import locale
 import logging
 import os
-if not NoGtk:
-    import pangofont
+
 import pygame
 import shutil
 import time
@@ -46,11 +45,6 @@ CAMFOUND = None
 if CAMFOUND:
     import opencv.adaptors as adaptors
 module_logger = logging.getLogger("childsplay.utils")
-
-if NoGtk:
-    module_logger.warning("NoGtk is set, not using GTK pango font rendering some non-latin characters might be missing.")
-
-
 UT_DEBUG = 0
 
 class StopGameException(Exception):
@@ -445,7 +439,6 @@ def load_image(file, transparent=0, theme='childsplay'):
 def char2surf(char, fsize, fcol=None, ttf='arial', bold=False, antialias=True, split=0):
     """Renders a character and returns the surface.
     char must be a string. Returns the surface.
-    This now uses pango to render the fonts.
     @ttf must be a fontname installed on the system
     When you supply a name ending on '.ttf' a truetype font path is assumed and
     the pygame font renderer is used. 
@@ -469,12 +462,7 @@ def char2surf(char, fsize, fcol=None, ttf='arial', bold=False, antialias=True, s
             if not txt: continue
             s = font.render(line, True, fcol)
             items.append(s)
-    else:
-        font = pangofont.PangoFont(family=ttf, size=fsize, bold=bold)
-        font.set_bold(bold)
-        for line in txt:
-            s = font.render(line, True, fcol, None)
-            items.append(s)
+
     if split:
         return items
     else:
@@ -953,36 +941,6 @@ def sleep(ms):
     done."""
     pygame.time.delay(ms)
     pygame.event.clear()
-
-def shadefade(textstring, textsize, amount,bold=False, \
-              fcol=(200, 200, 200), shadecol=(255, 255, 255)):
-    """Render @textstring onto a surface with a 3d dropshadow-like effect.
-    Returns a SDL surface.
-    Originally written by Brendan Becker, http://clickass.org/
-    """
-    if PLATFORM == 'win32':
-        textsize -= 16
-    
-    font = pangofont.PangoFont(None, textsize, bold=bold)
-    # determine the size of the text surface so that we can center it later on
-    basetext = font.render(unicode(textstring), 1, fcol, None)
-    width, height = basetext.get_size()
-    displaysurface = pygame.Surface((width, height), SRCALPHA, 32)
-    tempsurface = pygame.Surface((width + amount, height+amount), SRCALPHA, 32)
-    
-    for i in range(amount):
-        camt = amount-i
-        r = shadecol[0] / camt
-        g = shadecol[1] / camt
-        b = shadecol[2] / camt
-        if r < 0:  r = 0
-        if g < 0:  g = 0
-        if b < 0:  b = 0
-        text = font.render(unicode(textstring), 1, (r, g, b), None)
-        tempsurface.blit(text, (camt, camt))
-    tempsurface.blit(basetext, (0, 0))
-    displaysurface.blit(tempsurface, (0, 0))
-    return displaysurface
 
 def _set_lock(timeout=10):
     """Set a lock file to prevent starting multiple instances of childsplay_sp.

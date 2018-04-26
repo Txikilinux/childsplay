@@ -134,18 +134,14 @@ class TextView(Widget):
             self.image = render_textrect(txt, fsize, TTF, rect, fgcol, \
                               bgcol, justification=0, bold=bold, \
                               autofit=autofit, border=border)
-        elif type(txt) is types.ListType:
+        elif txt and type(txt) is types.ListType:
             ll = []
             w = 0
             for line in txt:
                 if not line.strip('\n'):
                     line = ' '
-                if shade:
-                    s = utils.shadefade(line, fsize, amount=shade, bold=bold, fcol=fgcol, shadecol=DARKGREY)
-                    ll.append(s)
-                else:
-                    s = utils.char2surf(line, fsize, fgcol, bold=bold)
-                    ll.append(s)
+                s = utils.char2surf(line, fsize, fgcol, bold=bold)
+                ll.append(s)
                 if s.get_rect().w > w:
                     w = s.get_rect().w
                 

@@ -1,3 +1,0 @@
-LANGUAGE='el'
-VERSION="0.9"
-

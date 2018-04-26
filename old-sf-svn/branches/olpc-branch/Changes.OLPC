@@ -1,3 +1,0 @@
-Removed special loggers as sugar defines its own.
-Put everything inside one directory and refactor all modules acoordingly.
-Added sugar specific modules and files to start SP from sugar
