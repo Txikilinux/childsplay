@@ -45,7 +45,6 @@ CAMFOUND = None
 if CAMFOUND:
     import opencv.adaptors as adaptors
 module_logger = logging.getLogger("childsplay.utils")
-F
 UT_DEBUG = 0
 
 class StopGameException(Exception):

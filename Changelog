@@ -1,3 +1,7 @@
+childssplay (3.2):
+    * Fixed #53755 childsplay: No module named pangofont
+
+
 childsplay (2.6.3):
     * Apply patches from Debian.
 
