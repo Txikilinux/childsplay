@@ -1,6 +1,8 @@
 childssplay (3.2):
+    * Fixed #53734 childsplay: Depends on unmaintained pygtk
     * Fixed #53755 childsplay: No module named pangofont
-
+    * Fixed #53756 childsplay: includes non-free arial.ttf font
+    * Fixed #53757 childsplay: only low resolution desktop icon available
 
 childsplay (2.6.3):
     * Apply patches from Debian.
