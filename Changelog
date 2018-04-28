@@ -1,4 +1,9 @@
-childssplay (3.2):
+childsplay (3.3):
+    * Fixed #53772 childsplay: 1+1 =2 quiz not working
+    * Fixed #53771 childsplay: backgroundimage / splashimage is hardcoded
+    * Fixed #53768 childsplay: PyGame QUIT event not working
+
+childsplay (3.2):
     * Fixed #53734 childsplay: Depends on unmaintained pygtk
     * Fixed #53755 childsplay: No module named pangofont
     * Fixed #53756 childsplay: includes non-free arial.ttf font

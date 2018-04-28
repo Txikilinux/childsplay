@@ -1492,6 +1492,9 @@ class MainCoreGui:
             pygame.event.pump()
             events = pygame.event.get()
             for event in events:
+                if event.type is QUIT:
+                    self.run_event_loop = False
+                    raise EscapeKeyException
                 if event.type == KEYDOWN:
                     if event.key is K_ESCAPE or event.type is QUIT:
                         self.run_event_loop = False

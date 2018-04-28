@@ -557,14 +557,17 @@ class Engine:
             name = 'picture'
         else:
             name = self.quiz
-        if self.lang == 'en':
-            p = os.path.join(self.SPG.get_libdir_path(),'SPData', 'themes',\
-                                        self.theme,'menuicons', \
-                                    'quiz_%s.icon.png' % name)
-        else:
-            p = os.path.join(self.SPG.get_libdir_path(),'SPData', 'themes',\
-                                        self.theme,'menuicons', self.lang, \
-                                    'quiz_%s.icon.png' % name)
+        # if self.lang == 'en':
+        #     p = os.path.join(self.SPG.get_libdir_path(),'SPData', 'themes',\
+        #                                 self.theme,'menuicons', \
+        #                             'quiz_%s.icon.png' % name)
+        # else:
+        #     p = os.path.join(self.SPG.get_libdir_path(),'SPData', 'themes',\
+        #                                 self.theme,'menuicons', self.lang, \
+        #                             'quiz_%s.icon.png' % name)
+        p = os.path.join(self.SPG.get_libdir_path(), 'SPData', 'themes',
+                                                self.theme,'menuicons',
+                                             'quiz_%s.icon.png' % name)
         self.logger.debug("loading logo %s" % p)
         try:
             self.logo_sprite = SPSprite(load_image(p))

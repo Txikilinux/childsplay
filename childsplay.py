@@ -20,6 +20,8 @@
 
 import sys, os, shlex, glob,shutil
 
+from SPBasePaths import SHARELIBDATADIR
+
 if len(sys.argv) > 2:
     if sys.argv[1] == '--plainversion':
         from SPVersion import version
@@ -144,7 +146,6 @@ if not os.path.exists(p):
     if os.path.exists(CONTENTDBASE):
         shutil.copy(CONTENTDBASE, p)
     else:
-        from SPBasePaths import SHARELIBDATADIR
         shutil.copy(os.path.join(SHARELIBDATADIR, CONTENTDBASE), p)
                         
 import pygame
@@ -161,7 +162,8 @@ LANG = utils.set_locale(lang=CMD_Options.lang)
 start_splash = time.time()
 screen = pygame.display.set_mode((700, 200), pygame.NOFRAME)
 background = pygame.Surface(screen.get_size())
-backgroundimage = utils.load_image('lib/SPData/themes/childsplay/cp-btp-splash.png')
+p = os.path.join(SHARELIBDATADIR, 'SPData/themes/childsplay/cp-btp-splash.png')
+backgroundimage = utils.load_image(p)
 background.blit(backgroundimage, (0, 0))
 screen.blit(background, (0, 0))
 pygame.display.update()
