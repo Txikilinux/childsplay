@@ -17,7 +17,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
-import __builtin__
+import builtins
 import imp
 import sys
 from SPConstants import *
@@ -34,9 +34,9 @@ import shutil
 import time
 import datetime
 import types
-import ConfigParser
+import configparser
 import math
-from collections import MutableMapping
+from collections.abc import MutableMapping
 from pygame.constants import *
 from pygame import surfarray
 import textwrap
@@ -105,23 +105,23 @@ def set_locale(lang=None):
                 # FIX locale.py LANGUAGE parsing bug, the fix was added on the
                 # upstream CVS on the 1.28.4.2 revision of 'locale.py', It
                 # should be included on Python 2.4.2.
-                if os.environ.has_key('LANGUAGE'):
+                if os.environ.__contains__('LANGUAGE'):
                     lang = os.environ['LANGUAGE'].split(':')[0]
                 else:
                     lang, enc = locale.getdefaultlocale()
                     lang = "%s.%s" % (lang, enc.lower())
-            except ValueError, info:
+            except ( ValueError, info ):
                 module_logger.error(info)
                 lang = 'en'
         languages = [lang]
-        if os.environ.has_key('LANGUAGE'):
+        if os.environ.__contains__('LANGUAGE'):
             languages += os.environ['LANGUAGE'].split(':')
         module_logger.info("Setting seniorplay locale to '%s' modir: %s" % (lang, LOCALEDIR))
         lang_trans = gettext.translation('childsplay', \
             localedir=LOCALEDIR, \
             languages=languages)
         __builtin__.__dict__['_'] = lang_trans.ugettext
-    except Exception, info:
+    except ( Exception, info ):
         txt = ""
         if lang and lang.split('@')[0].split('.')[0].split('_')[0] != 'en':
             txt = "Cannot set language to '%s' \n switching to English" % lang
@@ -158,7 +158,7 @@ def get_locale():
         # This is a fix for systems that set LANGUAGE to ''.
         if lang == '':
             lang = locale.getdefaultlocale()[0].split('_')[0]
-    except Exception, info:
+    except ( Exception, info ):
         module_logger.error("%s, %s" % (info, "Switching to English"))
         lang = 'en'
     if lang == 'C' or lang.lower() == 'posix':
@@ -181,7 +181,7 @@ def read_rcfile(path):
         return {}
     try:
         config.read(path)
-    except Exception, info:
+    except ( Exception, info ):
         module_logger.error("Failed to parse rc file: %s" % info)
         return {}
     hash = {}
@@ -318,7 +318,7 @@ def speak_letter(letter, loc='en'):
     Return True on succes and False on failure"""
     try:
         load_alphabetsound(letter.lower(), loc).play()
-    except Exception, info:
+    except ( Exception, info ):
         module_logger.error("error while trying to play alphabet sounds: %s" % info)
         return False
     else:
@@ -363,7 +363,7 @@ def load_music(file):
 
     return playmusic
     
-def aspect_scale(img,(bx,by)):
+def aspect_scale(img,bx,by):
     """ Scales 'img' to fit into box bx/by.
      This method will retain the original image's aspect ratio """
     ix,iy = img.get_size()
@@ -483,14 +483,14 @@ def text2surf(word, fsize, fcol=None, ttf=None, sizel=None, bold=False, antialia
         try:
             font = pangofont.PangoFont(family=ttf, size=fsize)
             font.set_bold(bold)
-        except Exception, info:
+        except ( Exception, info ):
             module_logger.error('%s. Using standard pygame font' % info)
             font = pygame.font.Font(None, fsize)
             s = font.render(word, True, fcol)
         else:
             try:
                 s = font.render(word, True, fcol, None)# none means trasparent
-            except Exception, info:
+            except ( Exception, info ):
                 module_logger.exception("Failed to render SDL font: %s" % info)
                 return
     if sizel:
@@ -676,9 +676,9 @@ def import_module(filename, globals=None, locals=None, fromlist=None):
         fp, pathname, description = imp.find_module(name, [path])
         return imp.load_module(name, fp, pathname, description)
         if fp: fp.close()
-    except (StandardError, MyError), info:
+    except (( StandardError, MyError ), info ):
         module_logger.exception("Import of %s failed" % filename)
-        raise MyError, info
+        raise ( MyError, info )
         if fp: fp.close()
     
 def txtfmt(text, split):
@@ -729,7 +729,7 @@ class ScaleImages:
                 self.scaled_card = self._scale_if_needed(self.stdCard)
                 self.TargetSize.inflate_ip(-border, -border)# reduce the size of the rect, so the images are smaller
                     # then the card (compensate for border)
-            except StandardError, info:
+            except ( StandardError, info ):
                 self.logger.exception("Failed to scale stdCardObj:%s, %s" % (stdCardObj, info))
                 self.stdCard = None
         else:

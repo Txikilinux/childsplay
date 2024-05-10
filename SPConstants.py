@@ -100,8 +100,8 @@ else:
     else:
         try:
             HOMEDIR = os.path.join(os.environ['HOME'], HOME_DIR_NAME)
-        except KeyError, info:
-            print info
+        except ( KeyError, info ):
+            print ( info )
             HOMEDIR = os.path.abspath(sys.path[0])
 
 # Create a schoolsplay directory and subdirectories.
@@ -122,9 +122,9 @@ TEMPDIR = os.path.join(HOMEDIR, 'tmp')
 if os.path.exists(TEMPDIR):
     shutil.rmtree(TEMPDIR)
 os.makedirs(TEMPDIR)
-os.chmod(TEMPDIR, 0777)
+os.chmod(TEMPDIR, 0o777)
 os.makedirs(os.path.join(TEMPDIR, 'birthday'))
-os.chmod(os.path.join(TEMPDIR, 'birthday'), 0777)
+os.chmod(os.path.join(TEMPDIR, 'birthday'), 0o777)
 
 BASEPATH = os.getcwd()
 # lockfile path used to set a lock to prevent multiple instances of childsplay

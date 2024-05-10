@@ -5,7 +5,7 @@ import os, sys
 try:
     import IamBinary
 except ImportError:
-    print "No binary"
+    print ( "No binary" )
     BASEDIR = sys.path[0]
     os.chdir(BASEDIR)
 

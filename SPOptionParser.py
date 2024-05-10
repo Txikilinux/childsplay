@@ -24,7 +24,7 @@ import sys, os
 from SPConstants import SUPPORTEDTHEMES, ACTIVITYDATADIR
 from SPVersion import optversion
 from optparse import OptionParser
-import ConfigParser
+import configparser
 import logging
 
 class OParser(OptionParser):
@@ -129,14 +129,18 @@ class OParser(OptionParser):
             self.options.theme = 'childsplay'
         try:
             self.parse_themerc()
-        except ConfigParser.NoSectionError, info:
-            print("ERROR: Error in rc file %s" % info)
+        except ( configparser.NoSectionError ):
+            print("ERROR: Error in rc file.")
             sys.exit(1)
+#       Python 3 says "info" does not exist. (nestor)
+#        except ( configparser.NoSectionError, info ):
+#            print("ERROR: Error in rc file %s" % info)
+#            sys.exit(1)
     
     def exit(self,  * args):
         """This overrides the OptionParser exit method"""
         if args:
-            print args[1]
+            print ( args[1] )
             self.print_help()
         sys.exit(0)
         
@@ -147,10 +151,10 @@ class OParser(OptionParser):
         return self.args
 
     def parse_themerc(self):
-        config = ConfigParser.ConfigParser()
-        print config
+        config = configparser.ConfigParser()
+        print ( config )
         rc = os.path.join(ACTIVITYDATADIR, 'SPData', 'themes', self.options.theme, 'theme.rc')
-        print os.path.exists(rc)
+        print ( os.path.exists(rc) )
         print("DEBUG: parsing rc file %s" % rc)
         config.read(rc)
         #print config.items('menubar')
@@ -173,7 +177,7 @@ class OParser(OptionParser):
 
 if __name__ == '__main__':
     op = OParser()
-    print op.get_options()
+    print ( op.get_options() )
     
     
     

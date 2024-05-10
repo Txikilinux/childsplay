@@ -35,11 +35,11 @@ LOGPATH = os.path.join(HOMEDIR, "childsplay.log")
 if os.path.exists(LOGPATH):
     try:
         os.remove(LOGPATH)
-    except Exception, info:
-        print "Failed to remove old log"
-        print info
+    except ( Exception, info ):
+        print ( "Failed to remove old log" )
+        print ( info )
     else:
-        print "removed old logpath"
+        print ( "removed old logpath" )
         
 # set loglevel, possible values:
 # logging.DEBUG
@@ -56,8 +56,8 @@ def set_level(level):
         'warning':logging.WARNING,
         'error':logging.ERROR,
         'critical':logging.CRITICAL}
-    if not lleveldict.has_key(level):
-        print "Invalid loglevel: %s, setting loglevel to 'debug'" % level
+    if not lleveldict.__contains__(level):
+        print ( "Invalid loglevel: %s, setting loglevel to 'debug'" % level )
         llevel = lleveldict['debug']
     else:
         llevel = lleveldict[level]

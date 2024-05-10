@@ -25,14 +25,14 @@ from SPBasePaths import SHARELIBDATADIR
 if len(sys.argv) > 2:
     if sys.argv[1] == '--plainversion':
         from SPVersion import version
-        print version
+        print ( version )
         if os.path.exists('/data/userdata/.schoolsplay.rc/tmp'):# btp production only
             shutil.rmtree('/data/userdata/.schoolsplay.rc/tmp',True)
         sys.exit(0)
     # construct proper restart command if we need to restart
     prog = "python %s " % os.path.join(os.getcwd(), " ".join(sys.argv))
 
-print sys.argv
+print ( sys.argv )
 
 import subprocess
 #import gc
@@ -195,9 +195,9 @@ DEBUG = False
 try:
     #This will setup the dbases and ORMS
     dbm = DbaseMaker(CMD_Options.theme, debug_sql=DEBUG)            
-except (AttributeError, sqla.exceptions.SQLAlchemyError, utils.MyError), info:
+except ( (AttributeError, sqla.exceptions.SQLAlchemyError, utils.MyError), info ):
     CPmodule_logger.exception("Failed to start the DBase, %s" % info)
-    raise utils.MyError, info
+    raise ( utils.MyError, info )
 
 mainscreen = None
 abort = 0 
@@ -211,7 +211,7 @@ while not abort:
                 orm = dbm.get_all_orms()['stats_session']
                 content_engine, user_engine = dbm.get_engines()
                 session = sqlorm.sessionmaker(bind=user_engine)()
-            except Exception, info:
+            except ( Exception, info ):
                 CPmodule_logger.exception("Failed to get orm for stats_session: %s" % info)
                 abort = True
                 break
@@ -253,7 +253,7 @@ while not abort:
         restartme = True
         abort = True
         tellcore_error = False 
-    except (SystemExit, utils.StopmeException),status:
+    except ( (SystemExit, utils.StopmeException),status ):
         if str(status) == '0':
             CPmodule_logger.info("systemexit, clean exit")
             abort = True
@@ -262,19 +262,19 @@ while not abort:
             CPmodule_logger.info("restarting core.")
             tellcore_error = True 
             mcgui.call_foreign_observers()
-    except utils.SPError, info:
+    except ( utils.SPError, info ):
         CPmodule_logger.error("Unrecoverable error, not a clean exit")
         CPmodule_logger.info("restarting core.")
         tellcore_error = True
         mcgui.call_foreign_observers()
-    except Exception,status:        
+    except ( Exception,status ):        
         CPmodule_logger.exception("unhandled exception in toplevel, traceback follows:")
         CPmodule_logger.info("restarting core.")
         tellcore_error = True
         mcgui.call_foreign_observers()
 try:
     mcgui.activity.stop_timer()
-except Exception, info:
+except ( Exception, info ):
     CPmodule_logger.warning("Failed to stop activity timers")
     
 CPmodule_logger.info("Seniorplay stopped.")
