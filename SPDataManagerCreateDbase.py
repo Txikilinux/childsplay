@@ -139,9 +139,9 @@ class DbaseMaker:
             self.all_orms = {}
             self.all_orms.update(self.orms_userdb)
             self.all_orms.update(self.orms_content_db)
-        except (AttributeError, sqlae.SQLAlchemyError), info:
+        except (( AttributeError, sqlae.SQLAlchemyError), info ):
             self.logger.exception("Failed to start the DBase, %s" % info)
-            raise MyError, info
+            raise ( MyError, info )
             
     def get_engines(self):
         return(self.content_engine, self.user_engine)

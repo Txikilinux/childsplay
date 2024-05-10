@@ -51,7 +51,7 @@ class Player:
                                  stdout=subprocess.PIPE, \
                                  stderr=subprocess.PIPE)
             output = cmd.communicate()[0]
-        except Exception, info:
+        except ( Exception, info ):
             module_logger.warning("program 'amixer' not found, unable to get volume levels")
         else:
             for line in output.split('\n'):
@@ -65,7 +65,7 @@ class Player:
         try:
             #result = subprocess.call(cmd)
             result = os.system(cmd)
-        except OSError,info:
+        except ( OSError,info ):
             return (False,  cmd+" "+str(info))
         if result:
             return (False, str(result))
@@ -74,9 +74,5 @@ class Player:
 
 if __name__ == '__main__':
     pl = Player('lib/SPData/themes/braintrainer/btp_800x600.vlt')
-    print pl.start('lib/CPData/Test_actData/ayb.avi')
-    
-    
-    
-    
-    
+    print ( pl.start('lib/CPData/Test_actData/ayb.avi') )
+

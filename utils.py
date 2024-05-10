@@ -117,16 +117,17 @@ def set_locale(lang=None):
         if os.environ.__contains__('LANGUAGE'):
             languages += os.environ['LANGUAGE'].split(':')
         module_logger.info("Setting seniorplay locale to '%s' modir: %s" % (lang, LOCALEDIR))
+        print ( "DEBUG: localedir: ", LOCALEDIR, " langs: ", languages )
         lang_trans = gettext.translation('childsplay', \
             localedir=LOCALEDIR, \
             languages=languages)
         __builtin__.__dict__['_'] = lang_trans.ugettext
-    except ( Exception, info ):
+    except ( Exception ):
         txt = ""
         if lang and lang.split('@')[0].split('.')[0].split('_')[0] != 'en':
             txt = "Cannot set language to '%s' \n switching to English" % lang
             module_logger.info("%s %s" % (info, txt))
-        __builtin__.__dict__['_'] = lambda x:x
+        builtins.__dict__['_'] = lambda x:x
         lang = 'en_US.utf8'
     else:
         lang = lang.split('@')[0]#.split('.')[0].split('_')[0]

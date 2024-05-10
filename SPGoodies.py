@@ -87,7 +87,7 @@ class SPGoodies(Borg):
     def tellcore_game_end(self, store_db=None):
         """Use this to notify the core that the game is ended.
         The core will start the menu and delete the activity."""
-        raise utils.StopGameException, store_db
+        raise ( utils.StopGameException, store_db )
     def tellcore_info_dialog(self, text):
         """Use this to ask the core to display a info dialog with the text @text"""
         apply(self.info_dialog, (text, ))

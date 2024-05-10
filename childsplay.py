@@ -253,7 +253,7 @@ while not abort:
         restartme = True
         abort = True
         tellcore_error = False 
-    except ( (SystemExit, utils.StopmeException),status ):
+    except (SystemExit, utils.StopmeException):
         if str(status) == '0':
             CPmodule_logger.info("systemexit, clean exit")
             abort = True
@@ -262,16 +262,16 @@ while not abort:
             CPmodule_logger.info("restarting core.")
             tellcore_error = True 
             mcgui.call_foreign_observers()
-    except ( utils.SPError, info ):
+    except utils.SPError:
         CPmodule_logger.error("Unrecoverable error, not a clean exit")
         CPmodule_logger.info("restarting core.")
         tellcore_error = True
         mcgui.call_foreign_observers()
-    except ( Exception,status ):        
+    except Exception:
         CPmodule_logger.exception("unhandled exception in toplevel, traceback follows:")
         CPmodule_logger.info("restarting core.")
         tellcore_error = True
-        mcgui.call_foreign_observers()
+#        mcgui.call_foreign_observers()
 try:
     mcgui.activity.stop_timer()
 except ( Exception, info ):

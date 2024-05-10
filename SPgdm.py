@@ -241,7 +241,7 @@ if __name__ == '__main__':
         except GDMEscapeKeyException:
             pass
         else:
-            print "got name: %s" % g.get_loginname()
+            print ( "got name: %s" % g.get_loginname() )
 
     import cProfile
     prof = cProfile.run('main()','profiler_out_0')

@@ -320,4 +320,4 @@ if __name__ == '__main__':
     # metadata.engine.echo = True
     sqltb = SqlTables(metadata)
     tables = sqltb._create_tables(metadata)
-    print tables
+    print ( tables )

@@ -38,7 +38,7 @@ import logging
 import pygame
 import types
 from pygame.constants import *
-from types import StringType, ListType
+#from types import StringType, ListType
 
 from utils import MyError, char2surf, load_image
 from SPConstants import ACTIVITYDATADIR, BUTTON_FEEDBACK_TIME
@@ -284,10 +284,10 @@ class SPSprite(pygame.sprite.Sprite):
                                 try:
                                     #print "--------call cbf-----------", event
                                     cb = apply(self._callback, (self, event, self._args))
-                                except StandardError, info:
+                                except ( StandardError, info ):
                                     self._logger.exception("Callback function %s failed" % self._callback)
                                     self._logger.error(info)
-                                    raise MyError, info
+                                    raise ( MyError, info )
                             else:
                                 # we do not need to check existence of self.group_owner because we get
                                 # here only if it exists.
@@ -295,7 +295,7 @@ class SPSprite(pygame.sprite.Sprite):
                                     self.group_owner.set_havematch(True)
                                     try:
                                         cb = apply(self._callback, (self, event, self._args))
-                                    except StandardError, info:
+                                    except ( StandardError, info ):
                                         self._logger.exception("Callback function %s failed" % self._callback)
                                         self._logger.error(info)
                                         raise Exception
@@ -763,7 +763,7 @@ class CPStackGroup:
             len(sprite) #see if its a sequence
         except (TypeError, AttributeError):
             found = self._find_in_stack(sprite)#returns a index
-            if self.DEBUG == 1: print "found", found
+            if self.DEBUG == 1: print ( "found", found )
             if found != -1:
                 self.remove_internal(found)
                 sprite.remove_internal(self)
@@ -872,9 +872,9 @@ class MySprite(SPSprite):
         elif type(value) in (types.StringType, types.UnicodeType):
             try:
                 self.image = load_image(value)
-            except Exception, info:
+            except ( Exception, info ):
                 self._logger.error("failled to load image: %s" % value)
-                raise MyError, info
+                raise ( MyError, info )
         self.rect = self.image.get_rect()
         SPSprite.__init__(self, self.image, name=name)
         self.moveto(pos)

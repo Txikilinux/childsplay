@@ -174,7 +174,7 @@ class DataManager:
         orm, session = self.get_orm('activity_options', 'user')
         if orm == None:
             self.logger.error("No activity_options ORM found, dbase corrupt")
-            raise MyError, "No activity_options ORM found, dbase corrupt"
+            raise ( MyError, "No activity_options ORM found, dbase corrupt" )
         for m in modules:
             m = m[:-3]
             query = session.query(orm)
@@ -263,7 +263,7 @@ class DataManager:
             self.current_user = result[1]
             self._start_gdm_greeter()
         elif result[0] == 'quit':
-            raise StopmeException, 0
+            raise ( StopmeException, 0 )
         elif result[0] == 'controlpanel':
             self.COPxml = result[1]
             
