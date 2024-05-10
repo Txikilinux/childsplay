@@ -69,9 +69,9 @@ def Init(theme):
         module_logger.warning("program 'amixer' not found, unable to set volume levels: %s" % info)
         WEHAVEAUMIX = False
     else:
-        for line in output.split('\n'):
-            if "%]" in line:
-                volume_level = line.split("%]")[0].split("[")[1]
+        for line in output.split(b'\n'):
+            if b"%]" in line:
+                volume_level = line.split(b"%]")[0].split(b"[")[1]
         WEHAVEAUMIX = volume_level
     return THEME
 

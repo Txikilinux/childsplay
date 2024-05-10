@@ -114,7 +114,7 @@ class Button(Widget):
         kwargs - bgcol, fgcol
         """
         Widget.__init__(self)
-        if kwargs.has_key('fgcol'):
+        if kwargs.__contains__('fgcol'):
             fgcol = kwargs['fgcol']
         else:
             fgcol = self.THEME['button_fg_color']
