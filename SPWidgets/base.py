@@ -23,7 +23,7 @@ import os
 import types
 import subprocess
 import glob
-import ConfigParser
+import configparser
 from SPConstants import *
 import logging 
 module_logger = logging.getLogger("childsplay.SPWidgets")
@@ -36,7 +36,7 @@ def Init(theme):
     global THEME,  WEHAVEAUMIX
     module_logger.debug('Init called with:%s' % theme)
     # theme is used by the widgets
-    config = ConfigParser.RawConfigParser()
+    config = configparser.RawConfigParser()
     rc = os.path.join( GUITHEMESPATH, theme, 'SPWidgets.rc')
     if not os.path.exists(rc):
         module_logger.info('theme file %s does not exists' % rc)
@@ -65,7 +65,7 @@ def Init(theme):
                               stdout=subprocess.PIPE,\
                               stderr=subprocess.PIPE)
         output = cmd.communicate()[0]
-    except Exception, info:
+    except ( Exception, info ):
         module_logger.warning("program 'amixer' not found, unable to set volume levels: %s" % info)
         WEHAVEAUMIX = False
     else:

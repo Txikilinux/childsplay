@@ -71,21 +71,21 @@ class RadioButton(Widget):
         self.connect_callback(self._cbf_on_select, MOUSEBUTTONUP)
     
     def _rb_select(self):
-        print 'selecting:', self.name
+        print ( 'selecting:', self.name )
         self.image = self.selected_image
         self.moveto(self.image_pos)
         self._rb_selected = True
         self.display_sprite()
     
     def _rb_unselect(self):
-        print 'unselecting:', self.name
+        print ( 'unselecting:', self.name )
         self.image = self.box
         self.moveto(self.box_pos)
         self._rb_selected = False
         self.display_sprite()
     
     def _cbf_on_select(self, *args):
-        print "_cbf %s: selection = %s" % (self.name, self._rb_selected)
+        print ( "_cbf %s: selection = %s" % (self.name, self._rb_selected) )
         if self._rb_selected:
             self._rb_unselect()
         else:
@@ -590,7 +590,7 @@ class DiceButtons(Widget):
                 but.connect_callback(cbf, MOUSEBUTTONUP, count)
                 self._butdict[count] = but
                 count += 1
-        except StandardError, info:
+        except ( StandardError, info ):
             self.logger.exception("Can't load dice images for buttons: %s" % info)
             self.logger.error('Disable the dice')
             self._current_but = self._butdict[1]

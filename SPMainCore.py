@@ -70,11 +70,11 @@ import SPDataManager as SPDataManager
 import Version
 import SPVideoPlayer
 
-sys.path.append(os.path.relpath("./SPWidgets/"))
+from SPWidgets.base import Init
+from SPWidgets.dialogs import Dialog, ExeCounter, MenuBar, VolumeAdjust, Graph
+from SPWidgets.text import Label
+from SPWidgets.buttons import TransImgButton
 
-from SPWidgets import *
-#from SPWidgets import Init, Dialog, Label, MenuBar, VolumeAdjust, ExeCounter, \
-#                    Graph, TransImgButton
 #from SPVirtualkeyboard import VirtualKeyboard
 try:
     from sqlalchemy import exceptions as sqlae
@@ -231,7 +231,7 @@ class MainCoreGui:
         captxt = _("Childsplay_sp - educational activities, using theme:%s") % self.theme
         if self.cmd_options.theme != 'childsplay':
             captxt = captxt.replace('Childsplay_sp', self.cmd_options.theme)
-        pygame.display.set_caption(captxt.encode('utf-8'))
+        pygame.display.set_caption(str(captxt.encode('utf-8')))
         
         self.backgroundimage = utils.load_image(os.path.join(ICONPATH, self.theme_rc['background']))
         self.screen.blit(self.backgroundimage, (0, 0))
