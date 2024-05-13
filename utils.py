@@ -55,6 +55,7 @@ class MyError(Exception):
     def __init__(self, str='', line=''):
         self.line = line
         self.str = str
+        sys.exit()
     def __str__(self): return "%s" % self.str
 
 class SPError(Exception):
