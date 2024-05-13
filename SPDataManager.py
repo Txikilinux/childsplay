@@ -46,6 +46,8 @@ except ImportError:
 # attempt to prevent sqlalchemy trhowing recursion limit error
 sys.setrecursionlimit(2000) # 1000 is the default
 
+from importlib import reload
+
 from utils import set_locale
 
 #import SPgdm

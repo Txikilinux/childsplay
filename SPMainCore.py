@@ -286,9 +286,12 @@ class MainCoreGui:
             self.dm = SPDataManager.DataManager(self.spgoodies, dbmaker)
         except sqlae.SQLAlchemyError:
             self.logger.exception("Error while handling the dbase, try removing the existing dbase")
-        except ( utils.MyError, info ):
-            self.logger.error("%s" % info)
+        except ( utils.MyError ):
+            self.logger.error("¡error!")
             raise utils.SPError
+#        except ( utils.MyError, info ):
+#            self.logger.error("%s" % info)
+#            raise utils.SPError
         # # get locale setting from dbase and reset any locales already set to the
         # # commandline language option
         # if not self.cmd_options.lang:
@@ -325,9 +328,9 @@ class MainCoreGui:
             module_logger.warning("program 'amixer' not found, unable to set volume levels: %s" % info)
             self.volume_level = 75
         else:
-            for line in output.split('\n'):
-                if "%]" in line:
-                    self.volume_level = int(line.split("%]")[0].split("[")[1])
+            for line in output.split(b'\n'):
+                if b"%]" in line:
+                    self.volume_level = int(line.split(b"%]")[0].split(b"[")[1])
         # Check to see if today it's the user birthday
         if row and row.birthdate:
             name = "%s %s" % (row.title, row.last_name)
@@ -355,7 +358,7 @@ class MainCoreGui:
             self.COPmode = True        
             self.statshash['is_cop'] = True
         # restore window title after the datamanager replaced it
-        pygame.display.set_caption(captxt.encode('utf-8'))
+        pygame.display.set_caption(captxt)
         if self.COPmode:
             theme_dir = os.path.join('controlpanel_lgpl','lib', 'SPData')
             xmlname = self.dm.are_we_cop()

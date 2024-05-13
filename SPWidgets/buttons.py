@@ -120,7 +120,8 @@ class Button(Widget):
             fgcol = self.THEME['button_fg_color']
         self.kwargs = kwargs
         self.ImSelected = False
-        if type(txt) in (types.StringType, types.UnicodeType):
+        print ( "TYPE: ", type(txt) )
+        if type(txt) == type(str()):
             s = utils.char2surf(txt, fcol=fgcol, fsize=fsize, ttf=TTF, bold=fbold)
             r = s.get_rect()
             r.w += padding*2
@@ -130,7 +131,7 @@ class Button(Widget):
             r = s.get_rect()
             r.w += padding*2
             r.h += padding*2
-        if kwargs.has_key('maxlength') and r.w > kwargs['maxlength']:
+        if ( 'maxlength' in kwargs ) and ( r.w > kwargs['maxlength'] ):
             r.w = kwargs['maxlength']
         self.pos = pos
         self.padding = padding
@@ -196,7 +197,7 @@ class ImgButton(Button):
         padding - space in pixels around the text
         name - string to indicate this object
         """
-        if type(path) in types.StringTypes:
+        if type(path) == type( str() ):
             image = utils.load_image(path)
         else:
             image = path
@@ -261,12 +262,12 @@ class TransImgButton(ImgButton):
         """
         self.text = text
         self.fsize = fsize
-        if type(path) in types.StringTypes:
+        if type(path) == type(str()):
             image = utils.load_image(path)
         else:
             image = path
         if hpath:
-            if type(hpath) in types.StringTypes:
+            if type(hpath) == type( str() ):
                 self.hs = utils.load_image(hpath)
             else:
                 self.hs = hpath

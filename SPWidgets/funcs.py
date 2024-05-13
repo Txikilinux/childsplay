@@ -47,15 +47,16 @@ def make_button_bg_dynamic(width, sizename, colorname, colorname_ro='black', THE
     Supported colornames are: 'black', 'blue', 'green'.
     When a name isn't found a Exception is raised."""
     try:
+        print ("0001. DEBUG: THEME: ", THEME)
         left = utils.load_image(os.path.join(THEME['themepath'], "%s_%s_%s.png" % (sizename, 'left', colorname)))
         right = utils.load_image(os.path.join(THEME['themepath'], "%s_%s_%s.png" % (sizename, 'right', colorname)))
         center = utils.load_image(os.path.join(THEME['themepath'], "%s_%s_%s.png" % (sizename, 'center', colorname)))
         hleft = utils.load_image(os.path.join(THEME['themepath'], "%s_%s_%s.png" % (sizename, 'left', colorname_ro)))
         hright = utils.load_image(os.path.join(THEME['themepath'], "%s_%s_%s.png" % (sizename, 'right', colorname_ro)))
         hcenter = utils.load_image(os.path.join(THEME['themepath'], "%s_%s_%s.png" % (sizename, 'center', colorname_ro)))
-    except ( IOError, info ):
-        raise ( Exception, info )
-    partwidth = left.get_rect().w 
+    except ( IOError ):
+        raise ( Exception )
+    partwidth = left.get_rect().w
     hight = left.get_rect().h
     x = width - partwidth*2
     if x < 1:
@@ -89,8 +90,8 @@ def make_dialog_bg_dynamic(width, height, THEME):
         rightcenter = utils.load_image(os.path.join(THEME['themepath'], "dialog_center_right.png" ))
         leftcenter = utils.load_image(os.path.join(THEME['themepath'], "dialog_center_left.png" ))
         centcenter = utils.load_image(os.path.join(THEME['themepath'], "dialog_center_center.png" ))
-    except ( IOError, info ):
-        raise ( Exception, info )
+    except ( IOError ):
+        raise ( Exception )
     dlg = pygame.Surface((4+width, 4+height), SRCALPHA)
     partwidth = topleft.get_rect().w 
     partheight = topleft.get_rect().h

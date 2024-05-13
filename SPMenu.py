@@ -47,8 +47,10 @@ from SPHelpText import ActivityMenuText
 
 sys.path.append(os.path.relpath("./SPWidgets/"))
 
-from SPWidgets import *
+#from SPWidgets import *
 #from SPWidgets import Button, ImgButton, TransImgButton, ImgTextButton
+from SPWidgets.buttons import TransImgButton
+
 from SPSpriteUtils import SPInit, SPSprite
 import SPDataManager
 import Version
@@ -269,9 +271,9 @@ class Activity:
         try:
             self.Mn = Menu(p, self.menu, self.menu_callback, theme_rc, lang, self.menudefault, \
                            removeables=self.removeables)
-        except ( Exception, info ):
+        except ( Exception ):
             self.logger.exception("Error while constructing the menu buttons")
-            raise ( utils.MyError, info )
+            raise ( utils.MyError )
         
     def _remove_buttons(self, buttons):
         #self.logger.debug("_remove_buttons called with:%s" % buttons)
