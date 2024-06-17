@@ -204,6 +204,7 @@ abort = 0
 tellcore_error = False 
 while not abort:
     restartme = False
+    mcgui = None
     try:
         if not tellcore_error:
             # query for a session id
@@ -253,7 +254,7 @@ while not abort:
         restartme = True
         abort = True
         tellcore_error = False 
-    except (SystemExit, utils.StopmeException):
+    except (SystemExit, utils.StopmeException) as status:
         if str(status) == '0':
             CPmodule_logger.info("systemexit, clean exit")
             abort = True
