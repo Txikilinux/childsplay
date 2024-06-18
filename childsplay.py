@@ -223,7 +223,7 @@ while not abort:
         result = session.query(orm).all()[-1]
         session_id = result.ID
         session.close()
-        # there's no support for other resolutions then 800x600
+        # there's no support for other resolutions than 800x600
         mcgui = SPMainCore.MainCoreGui(resolution=(800, 600),
                                         options=CMD_Options, dbmaker = dbm,
                                         mainscr=mainscreen, error=tellcore_error,
@@ -272,7 +272,7 @@ while not abort:
         CPmodule_logger.exception("unhandled exception in toplevel, traceback follows:")
         CPmodule_logger.info("restarting core.")
         tellcore_error = True
-#        mcgui.call_foreign_observers()
+        mcgui.call_foreign_observers()
 try:
     mcgui.activity.stop_timer()
 except ( Exception, info ):
