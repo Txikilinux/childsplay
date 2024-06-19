@@ -56,15 +56,6 @@ import SPConstants
 reload(SPConstants)
 from SPConstants import *
 
-try:
-    import psyco #@UnresolvedImport
-    #psyco.log(PSYCOPATH, 'w')
-    psyco.profile()
-except:
-    pass
-else:
-    module_logger.debug("We got psyco, we should go faster, but report any weird crashes.")
-
 import SPMenu
 import SPDataManager as SPDataManager
 import Version

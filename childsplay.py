@@ -54,8 +54,8 @@ SPLogging.set_level(CMD_Options.loglevel)
 SPLogging.start()
 
 #create logger, configuration of logger was done above
-import logging
-CPmodule_logger = logging.getLogger("childsplay.childsplay")
+import logging as logger
+CPmodule_logger = logger.getLogger("childsplay.childsplay")
 CPmodule_logger.debug("Created schoolsplay loggers")
 
 import utils
@@ -182,6 +182,7 @@ if not utils._set_lock():
     sys.exit(1)
     
 import SPMainCore
+from SPMainCore import MainCoreGui as mcgui
 
 from SPgdm import GDMEscapeKeyException
 
@@ -201,10 +202,11 @@ except ( (AttributeError, sqla.exceptions.SQLAlchemyError, utils.MyError), info 
 
 mainscreen = None
 abort = 0 
-tellcore_error = False 
+tellcore_error = False
+
+
 while not abort:
     restartme = False
-    mcgui = None
     try:
         if not tellcore_error:
             # query for a session id
@@ -261,8 +263,9 @@ while not abort:
         else:
             CPmodule_logger.info("systemexit, not a clean exit")
             CPmodule_logger.info("restarting core.")
-            tellcore_error = True 
-            mcgui.call_foreign_observers()
+            tellcore_error = True
+            import SPMainCore as maincore
+            mcgui.call_foreign_observers(maincore)
     except utils.SPError:
         CPmodule_logger.error("Unrecoverable error, not a clean exit")
         CPmodule_logger.info("restarting core.")
