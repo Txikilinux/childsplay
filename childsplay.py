@@ -34,6 +34,7 @@ if len(sys.argv) > 2:
 
 print ( sys.argv )
 
+
 import subprocess
 #import gc
 #gc.set_debug(gc.DEBUG_COLLECTABLE | gc.DEBUG_UNCOLLECTABLE | gc.DEBUG_INSTANCES | gc.DEBUG_OBJECTS)
@@ -180,9 +181,10 @@ if CMD_Options.checklog:
         
 if not utils._set_lock():
     sys.exit(1)
-    
+
 import SPMainCore
-from SPMainCore import MainCoreGui as mcgui
+
+mcgui = None
 
 from SPgdm import GDMEscapeKeyException
 
@@ -196,9 +198,9 @@ DEBUG = False
 try:
     #This will setup the dbases and ORMS
     dbm = DbaseMaker(CMD_Options.theme, debug_sql=DEBUG)            
-except ( (AttributeError, sqla.exceptions.SQLAlchemyError, utils.MyError), info ):
-    CPmodule_logger.exception("Failed to start the DBase, %s" % info)
-    raise ( utils.MyError, info )
+except ( (AttributeError, sqla.exceptions.SQLAlchemyError, utils.MyError) ):
+    CPmodule_logger.exception("Failed to start the DBase, %s")
+    raise ( utils.MyError )
 
 mainscreen = None
 abort = 0 
@@ -206,6 +208,7 @@ tellcore_error = False
 
 
 while not abort:
+    abort = True
     restartme = False
     try:
         if not tellcore_error:
@@ -214,8 +217,8 @@ while not abort:
                 orm = dbm.get_all_orms()['stats_session']
                 content_engine, user_engine = dbm.get_engines()
                 session = sqlorm.sessionmaker(bind=user_engine)()
-            except ( Exception, info ):
-                CPmodule_logger.exception("Failed to get orm for stats_session: %s" % info)
+            except ( Exception ):
+                CPmodule_logger.exception("Failed to get orm for stats_session: %s")
                 abort = True
                 break
         orm = orm(datetime=datetime.datetime.now())
@@ -264,21 +267,23 @@ while not abort:
             CPmodule_logger.info("systemexit, not a clean exit")
             CPmodule_logger.info("restarting core.")
             tellcore_error = True
-            import SPMainCore as maincore
-            mcgui.call_foreign_observers(maincore)
+            if mcgui is not None:
+                mcgui.call_foreign_observers(logger)
     except utils.SPError:
         CPmodule_logger.error("Unrecoverable error, not a clean exit")
         CPmodule_logger.info("restarting core.")
         tellcore_error = True
-        mcgui.call_foreign_observers()
+        if mcgui is not None:
+            mcgui.call_foreign_observers(logger)
     except Exception:
         CPmodule_logger.exception("unhandled exception in toplevel, traceback follows:")
         CPmodule_logger.info("restarting core.")
         tellcore_error = True
-        mcgui.call_foreign_observers()
+        if mcgui is not None:
+            mcgui.call_foreign_observers(logger)
 try:
     mcgui.activity.stop_timer()
-except ( Exception, info ):
+except ( Exception ):
     CPmodule_logger.warning("Failed to stop activity timers")
     
 CPmodule_logger.info("Seniorplay stopped.")

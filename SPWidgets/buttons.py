@@ -114,6 +114,11 @@ class Button(Widget):
         kwargs - bgcol, fgcol
         """
         Widget.__init__(self)
+
+        # Ensure THEME is not None
+        if self.THEME is None:
+            raise ValueError("THEME is not initialized")
+        
         if kwargs.__contains__('fgcol'):
             fgcol = kwargs['fgcol']
         else:
