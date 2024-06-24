@@ -40,10 +40,14 @@ from collections.abc import MutableMapping
 from pygame.constants import *
 from pygame import surfarray
 import textwrap
+
+if not NoGtk:
+    import pangofont
+
 #from facedetect.facedetect import CAMFOUND
 CAMFOUND = None
 if CAMFOUND:
-    import opencv.adaptors as adaptors
+    import cv2 as adaptors
 module_logger = logging.getLogger("childsplay.utils")
 UT_DEBUG = 0
 
@@ -111,7 +115,7 @@ def set_locale(lang=None):
                 else:
                     lang, enc = locale.getdefaultlocale()
                     lang = "%s.%s" % (lang, enc.lower())
-            except ( ValueError, info ):
+            except ValueError as info:
                 module_logger.error(info)
                 lang = 'en'
         languages = [lang]
@@ -122,7 +126,7 @@ def set_locale(lang=None):
         lang_trans = gettext.translation('childsplay', \
             localedir=LOCALEDIR, \
             languages=languages)
-        __builtin__.__dict__['_'] = lang_trans.ugettext
+        builtins.__dict__['_'] = lang_trans.ugettext
     except ( Exception ):
         txt = ""
         if lang and lang.split('@')[0].split('.')[0].split('_')[0] != 'en':
@@ -160,7 +164,7 @@ def get_locale():
         # This is a fix for systems that set LANGUAGE to ''.
         if lang == '':
             lang = locale.getdefaultlocale()[0].split('_')[0]
-    except ( Exception, info ):
+    except Exception as info:
         module_logger.error("%s, %s" % (info, "Switching to English"))
         lang = 'en'
     if lang == 'C' or lang.lower() == 'posix':
@@ -177,13 +181,13 @@ def read_rcfile(path):
     Use this for the activity rc files.
     The core libs have their own specialized rc readers.
     """
-    config = ConfigParser.ConfigParser()
+    config = configparser.ConfigParser()
     if not os.path.exists(path):
         module_logger.info("No rc file found at: %s" % path)
         return {}
     try:
         config.read(path)
-    except ( Exception, info ):
+    except Exception as info:
         module_logger.error("Failed to parse rc file: %s" % info)
         return {}
     hash = {}
@@ -214,7 +218,7 @@ def hex2ascii(hc):
     else:
         name = hc
     i = int(hex(name), 16)
-    text = unichr(i)
+    text = chr(i)
     return text
 
 def ascii2hex(sc):
@@ -223,7 +227,7 @@ def ascii2hex(sc):
     u'1' -> 'U0031'"""
     if type(sc) is types.UnicodeType:
         sc = str(sc)
-    hs = 'U%s' % (hex(ord(unicode(sc, 'utf8')))[2:].zfill(4))
+    hs = 'U%s' % (hex(ord(sc.decode('utf8')))[2:].zfill(4))
     return hs
 
 def map_keys(key_map, key):
@@ -320,7 +324,7 @@ def speak_letter(letter, loc='en'):
     Return True on succes and False on failure"""
     try:
         load_alphabetsound(letter.lower(), loc).play()
-    except ( Exception, info ):
+    except Exception as info:
         module_logger.error("error while trying to play alphabet sounds: %s" % info)
         return False
     else:
@@ -485,7 +489,7 @@ def text2surf(word, fsize, fcol=None, ttf=None, sizel=None, bold=False, antialia
         try:
             font = pangofont.PangoFont(family=ttf, size=fsize)
             font.set_bold(bold)
-        except ( Exception, info ):
+        except Exception as info:
             module_logger.error('%s. Using standard pygame font' % info)
             font = pygame.font.Font(None, fsize)
             s = font.render(word, True, fcol)
