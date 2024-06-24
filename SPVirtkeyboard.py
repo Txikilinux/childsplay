@@ -23,12 +23,15 @@ from pygame.constants import *
 
 import SPWidgets
 from SPConstants import *
+import SPWidgets.base
+import SPWidgets.buttons
 import utils
 import SPVirtkeyboardMap as VKM
+import builtins
 
 KEYCOL = 45, 83, 152 
 
-class SuperKey(SPWidgets.ImgButton):
+class SuperKey(SPWidgets.buttons.ImgButton):
     def __init__(self, s, pos, pad, value):
         SPWidgets.ImgButton.__init__(self, s, pos, pad, value)
     
@@ -104,7 +107,7 @@ class ShiftKey(SuperKey):
         SuperKey.__init__(self, s, pos, 4, 'shift')
         self.connect_callback(obs, MOUSEBUTTONUP, 'shift')
 
-class KeyBoard(SPWidgets.Widget):
+class KeyBoard(SPWidgets.base.Widget):
     """Class which provides a virtual on screen keyboard for use on touchscreens or
     in a kioskmode system.
     """
@@ -392,20 +395,17 @@ class WordCompleter:
 
 if __name__ == '__main__':
     
-    import __builtin__
-    __builtin__.__dict__['_'] = lambda x:x
+    builtins.__dict__['_'] = lambda x:x
     
     import SPLogging
     SPLogging.set_level('debug')
     SPLogging.start()
-    import psyco
-    psyco.full()
 #    f = open('dictionary_nl.txt', 'r')
 #    wordlist = f.readlines()
 #    f.close()
     wordlist = []
     wc = WordCompleter(wordlist)
-    print wc.get_answers('aa')
+    print ( wc.get_answers('aa') )
     
     import pygame
     from pygame.constants import *
@@ -427,7 +427,7 @@ if __name__ == '__main__':
     SPWidgets.Init('braintrainer')
     
     def cbf(parent, data):
-        print "cbf called with: ", parent, data
+        print ( "cbf called with: ", parent, data )
     
     kb = None
     for layout in ('qwerty', 'qwerty_square','numbers', 'abc', 'abc_square'):

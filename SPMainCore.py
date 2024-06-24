@@ -66,7 +66,7 @@ from SPWidgets.dialogs import Dialog, ExeCounter, MenuBar, VolumeAdjust, Graph
 from SPWidgets.text import Label
 from SPWidgets.buttons import TransImgButton
 
-#from SPVirtualkeyboard import VirtualKeyboard
+from SPVirtkeyboard import KeyBoard
 try:
     from sqlalchemy import exceptions as sqlae
 except ImportError:
@@ -88,6 +88,10 @@ def cleanup():
 #    shutil.copy(index_off_php, index_php)
     
 atexit.register(cleanup)
+
+def apply(func, args, kwargs=None):
+    return func(*args) if kwargs is None else func(*args, **kwargs)
+
 
 class MainEscapeKeyException(Exception):
     """Raised when the user decides to quit the maincore.
@@ -219,7 +223,7 @@ class MainCoreGui:
             y = 0
             blitpos_y = 100
             self.menu_rect = pygame.Rect(0, 0, 800, 100)                
-        captxt = _("Childsplay_sp - educational activities, using theme:%s") % self.theme
+        captxt = ("Childsplay_sp - educational activities, using theme:%s") % self.theme
         if self.cmd_options.theme != 'childsplay':
             captxt = captxt.replace('Childsplay_sp', self.cmd_options.theme)
         pygame.display.set_caption(str(captxt.encode('utf-8')))
@@ -247,6 +251,7 @@ class MainCoreGui:
             self.activity_pre_level_end, \
             self.activity_level_end, \
             self.activity_game_end, \
+
             self.activity_info_dialog, \
             self.display_execounter, \
             self.set_framerate, \
@@ -269,7 +274,7 @@ class MainCoreGui:
              
         if error:
             # there was an error in sp and the core is restarted
-            self.activity_info_dialog(_("An error occurred and BraintrainerPlus was restarted"))
+            self.activity_info_dialog(("An error occurred and BraintrainerPlus was restarted"))
 
         # we get a datamanager which will start the SPgdm/BTP login screen, if available,
         # and does some username and table checking.
@@ -394,9 +399,9 @@ class MainCoreGui:
         showpersonalquiz = False
         try:
             self.activity = SPMenu.Activity(self.COPmode, showpersonalquiz, showlocalquiz)
-        except ( Exception, info ):
+        except Exception as info:
             self.logger.exception("Failed to setup the menu")
-            raise ( utils.MyError, info )
+            raise utils.MyError
         # First we parse the menu xml            
         self.activity._parse_menu(os.path.join(ACTIVITYDATADIR, 'SPData', 'themes', self.theme), xmlname)
         # now we can build the menu buttons
@@ -460,7 +465,7 @@ class MainCoreGui:
         self.actives_group.add(self.menubarbuttons)
         
         # add the current user, if it exists
-        text = _("User: %s") % self.dm.get_username()
+        text = ("User: %s") % self.dm.get_username()
         # TODO: Do we do an andmin mode ?
         if self.cmd_options.adminmode:
             text = text + " (Adminmode)"
@@ -473,7 +478,7 @@ class MainCoreGui:
         else:
             self.usernamelabel = None
         if not 'activity' in self.excludebuttons:
-            text = _("Activity :") 
+            text = ("Activity :") 
             self.activitylabel = Label(text, (CORE_BUTTONS_XCOORDS[1], y+50))
         else:
             self.activitylabel = None
@@ -567,25 +572,25 @@ class MainCoreGui:
                 else:
                     self.enable_info_button()
                     self.infobutton.display_sprite()
-        except (( utils.MyError, ImportError, AttributeError), info ):
+        except ( utils.MyError, ImportError, AttributeError) as info:
             self.logger.exception("Error importing activity %s" % name)
-            dlg = Dialog(_("Error importing activity\n%s" % info),dialogwidth=500,  \
-                    buttons=[_("OK")], title=_('Error !'))
+            dlg = Dialog(("Error importing activity\n%s" % info),dialogwidth=500,  \
+                    buttons=[("OK")], title=('Error !'))
             dlg.run()
             self.activity = self.menu_saved
             self.activity.refresh_sprites()
             self.start_main_loop()
-        except (( utils.MyError, StandardError), info ):
+        except ( utils.MyError, Exception) as info:
             self.logger.exception("Error constructing activity: %s" % info)
-            dlg = Dialog(_("Error constructing activity\n%s" % info), dialogwidth=500, \
-                    buttons=[_("OK")], title=_('Error !'))
+            dlg = Dialog(("Error constructing activity\n%s" % info), dialogwidth=500, \
+                    buttons=[("OK")], title=('Error !'))
             dlg.run()
             self.activity = self.menu_saved
             self.activity.refresh_sprites()
             self.start_main_loop()
         else:
             self.logger.debug("Loaded %s activity succesfull" % self.activity)
-            text = _("Activity : %s") % self.activity.get_helptitle()
+            text = ("Activity : %s") % self.activity.get_helptitle()
             if self.activitylabel:
                 self.activitylabel.settext(text)
             if self.activity.get_name() == 'dltr':
@@ -619,7 +624,7 @@ class MainCoreGui:
         self.store_data = True
         try:
             self.activity.start()
-        except ( Exception, info ):
+        except Exception as info:
             self.logger.exception("Error in %s start" % self.activity.get_name())
             raise ( utils.MyError, info )
         if 'graph' not in self.excludebuttons:
@@ -645,7 +650,7 @@ class MainCoreGui:
         sdim = utils.Dimmer(keepalive=0)
         sdim.dim(darken_factor=200, color_filter=(51, 10, 10))
         # display text
-        txt = _("Starting level %s") % level
+        txt = ("Starting level %s") % level
         txt_s0 = utils.char2surf(txt, TTFSIZE + 20, fcol=GREEN, ttf=TTF, bold=True)
         self.screen.blit(txt_s0, ((780-txt_s0.get_width()) / 2, 100))
          
@@ -653,7 +658,7 @@ class MainCoreGui:
         txt_s1 = utils.char2surf(txt, TTFSIZE + 2, fcol=GREEN, ttf=TTF, bold=True)
         self.screen.blit(txt_s1, ((780-txt_s1.get_width()) / 2, 200))
         
-        txt = utils.txtfmt([_("Hit the 'space' key or a mousebutton to skip the countdown")], 60)
+        txt = utils.txtfmt([("Hit the 'space' key or a mousebutton to skip the countdown")], 60)
         txtlist = []
         for line in txt:
             txtlist.append(utils.char2surf(line, TTFSIZE + 2, fcol=GREEN, ttf=TTF, bold=True))
@@ -723,13 +728,13 @@ class MainCoreGui:
         if nextlevel and self.activity.get_name() != 'dltr':
             if levelup and (self.levelcount + self.dicebuttons.get_minimal_level() -1) < 6:
                 if not no_question and not self.no_levelup_dlg:
-                    dlg = Dialog(_("You play very good, do you want to try the next level ?"), \
-                            buttons=[_("No"), _("Yes")], title=_('Question ?'), dialogwidth=300)
+                    dlg = Dialog(("You play very good, do you want to try the next level ?"), \
+                            buttons=[("No"),("Yes")], title=('Question ?'), dialogwidth=300)
                     dlg.run()
                     c = dlg.get_result()[0]
                 else:
-                    c = _('Yes')
-                if c == _('Yes'):
+                    c = ('Yes')
+                if c == ('Yes'):
                     self.levelcount = nextlevel
             else:
                 self.levelcount = nextlevel
@@ -791,31 +796,31 @@ class MainCoreGui:
         except MainEscapeKeyException:
             self.activity.stop_timer()
             raise MainEscapeKeyException
-        except ( utils.MyError, info ):
+        except utils.MyError as info:
             self.logger.error("MyError in %s next_level" % self.activity.get_name())
             self.activity.stop_timer()
-            raise ( utils.MyError, info )
-        except ( StandardError, info ):
+            raise utils.MyError
+        except Exception as info:
             self.logger.exception("StandardError in %s next_level" % self.activity.get_name())
             self.activity.stop_timer()
-            raise ( utils.MyError, info )
-        except ( Exception, info ):
+            raise utils.MyError
+        except Exception as info:
             self.logger.exception("Exception in %s next_level" % self.activity.get_name())
             self.activity.stop_timer()
-            raise ( utils.MyError, info )
+            raise utils.MyError
         
         
     def ask_exit(self):
         self.logger.debug("ask_exit called")
         if not self.cmd_options.noexitquestion:
-            dlg = Dialog(_("Do you really want to quit ?"), fsize=20, dialogwidth=300,\
-                    buttons=[_("Cancel"), _("OK")], title=_('Quit ?'))
+            dlg = Dialog(("Do you really want to quit ?"), fsize=20, dialogwidth=300,\
+                    buttons=[("Cancel"), ("OK")], title=('Quit ?'))
             dlg.run()
             c = dlg.get_result()[0]
             self.activity.refresh_sprites()
         else:
-            c = _("OK")
-        if c == _("OK"):
+            c = ("OK")
+        if c == ("OK"):
             self.logger.info("User wants exit")
             if self.activity.get_name() != 'menu':
                 try:
@@ -829,7 +834,7 @@ class MainCoreGui:
             sdim = utils.Dimmer(keepalive=0)
             sdim.dim(darken_factor=200, color_filter=(51, 10, 10))
             # display text
-            txt = utils.txtfmt([_("Stopping timers, please wait...")], 50)
+            txt = utils.txtfmt([("Stopping timers, please wait...")], 50)
             y = 240
             for line in txt:
                 s = utils.char2surf(line, TTFSIZE + 12, fcol=GREEN, ttf=TTF, bold=True)
@@ -866,11 +871,11 @@ class MainCoreGui:
                 sprite.mouse_hover_leave()
                 if self.DTmode and self.DTactivity.get_name() == 'dltr':
                     self.lock.acquire()
-                    text = _("Are sure you want to quit the dailytraining ? All the results will be lost.")
-                    dlg = Dialog(text, buttons=[_("No"), _("Yes")], title=_('Question ?'), dialogwidth=300)
+                    text = ("Are sure you want to quit the dailytraining ? All the results will be lost.")
+                    dlg = Dialog(text, buttons=[("No"), ("Yes")], title=('Question ?'), dialogwidth=300)
                     dlg.run()
                     c = dlg.get_result()[0]
-                    if c == _('No'):
+                    if c == ('No'):
                         self.lock.release()
                         return
                 raise utils.StopGameException
@@ -881,7 +886,7 @@ class MainCoreGui:
             elif sprite.name == 'Volume':
                 self.core_volume_button_pressed()
                 self.volumebutton.mouse_hover_leave()
-        except ( StandardError, info ):
+        except Exception as info:
             self.logger.exception("System error: %s" % info)
             self.lock.release()
             self.clear_screen()
@@ -914,23 +919,23 @@ class MainCoreGui:
         if self.activity.get_name() != 'menu' and not self.COPmode:
             tip = self.activity.get_helptip()
             if tip:
-                help.append(_("Tip:%s") % tip[0])
+                help.append(("Tip:%s") % tip[0])
             help.append(self.activity.get_helplevels())
             #help.append(_("This activity belongs to the category: %s") % self.activity.get_helptype())
         if hasattr(self.activity, 'get_extra_info'):
             help.append("%s" % self.activity.get_extra_info())
-        buttons = [_("OK")]
+        buttons = [("OK")]
         
         if hasattr(self.activity, 'get_moviepath'):
             if os.path.exists(self.activity.get_moviepath()):
-                buttons.append(_("Movie"))
+                buttons.append(("Movie"))
         # make sure all lines can fit the screen
         newlines = utils.txtfmtlines(help, 80)
         dlg = Dialog(newlines, dialogwidth=600, buttons=buttons, \
-                                            title= _("Information about %s") % 
+                                            title= ("Information about %s") % 
                                             self.activity.get_helptitle())
         dlg.run()
-        if dlg.result[0] == _("Movie"):
+        if dlg.result[0] == ("Movie"):
             # play movie
             self.logger.debug("Start videoplayer")
             vpl = SPVideoPlayer.Player(os.path.join(THEMESPATH, self.theme,'btp_800x600.vlt'))
@@ -948,7 +953,7 @@ class MainCoreGui:
         self.lock.acquire()
         
         dlg = Dialog('',dialogwidth=300, dialogheight=300,  \
-                    buttons=[_("Close")], title=_('Set volume level'))
+                    buttons=[("Close")], title=('Set volume level'))
         
         r = dlg.get_action_area()['action_area']
         x, y = r.topleft
@@ -1016,20 +1021,20 @@ class MainCoreGui:
         prclist = utils.score2percentile(scorelist, norm[0], norm[1])
         self.logger.debug("percentile list: %s" % prclist)
         # turn the data into a graph blitted on a SDL surface
-        htext = _("Generated by %s version %s for the %s activity") % (self.theme, Version.version, name)
+        htext = ("Generated by %s version %s for the %s activity") % (self.theme, Version.version, name)
         s = Graph(prclist, self.levelcount, norm=norm, headertext=htext)
-        dlg = Dialog(s, buttons=[_("OK")], title=_('Results'))
+        dlg = Dialog(s, buttons=[("OK")], title=('Results'))
         dlg.run()
         
         result = dlg.get_result()
-        if result[0] == _('Save image'):
+        if result[0] == ('Save image'):
             name = self.activity.get_name()
             user = self.dm.get_username()
             level = self.levelcount
             path = os.path.join(HOMEDIR, '%s-%s-level_%s.BMP' % (user, name, level))
             pygame.image.save(s.get_surface(), path)
-            dlg = Dialog(_("Your image is saved at:\n%s" % path),dialogwidth=500, \
-                       buttons=[_("OK")],  title=_('Information'))
+            dlg = Dialog(("Your image is saved at:\n%s" % path),dialogwidth=500, \
+                       buttons=[("OK")],  title=('Information'))
             dlg.run()
         self.activity.refresh_sprites()
         # and release the lock again
@@ -1177,27 +1182,27 @@ class MainCoreGui:
         self.store_stats()
         try:
             self.lock.release()# release any locks that were set prior to this
-        except ( Exception, info ):
+        except Exception as info:
             #print info
             pass
         try:
             self.chart_but.erase()
-        except ( Exception, info ):
+        except Exception as info:
             #print info
             pass
         try:
             self.activity.stop_timer()
-        except ( Exception, info ):
+        except Exception as info:
             #print info
             pass
         try:
             self.activity.stop()
-        except ( Exception, info ):
+        except Exception as info:
             #print info
             pass
         try:
             self.execounter.erase()
-        except ( Exception, info ):
+        except Exception as info:
             #print info
             pass
         self.levelcount = 1
@@ -1239,7 +1244,7 @@ class MainCoreGui:
             self.levelcount = 1
             if os.path.exists(os.path.join(TEMPDIR, 'previous_screenshot.jpeg')):
                 os.remove(os.path.join(TEMPDIR, 'previous_screenshot.jpeg'))
-        text = _("Current activity : %s") % self.activity.get_helptitle()
+        text = ("Current activity : %s") % self.activity.get_helptitle()
         if self.activitylabel:
             self.activitylabel.settext(text)
             self.activitylabel.display_sprite()
@@ -1249,7 +1254,7 @@ class MainCoreGui:
         
     def activity_info_dialog(self, text):
         self.logger.debug("activity_info_dialog called")
-        dlg = Dialog(text,buttons=[_('OK')], title=_('Information'), dialogwidth=300)
+        dlg = Dialog(text,buttons=[('OK')], title=('Information'), dialogwidth=300)
         dlg.run()
         if hasattr(self, 'activity'):
             self.activity.refresh_sprites()
@@ -1356,7 +1361,7 @@ class MainCoreGui:
                 self.logger.debug("Start activity start")
                 try:
                     self.start_start()
-                except (( utils.MyError, utils.StopGameException), info ):
+                except ( utils.MyError, utils.StopGameException) as info:
                     self.logger.error("%s" % info)
                     self.run_event_loop = False
                     self.run_activity_loop = False
@@ -1384,7 +1389,7 @@ class MainCoreGui:
                 self.run_main_loop = False
                 error = True
                 self.store_data = False
-            except ( StandardError, info ):
+            except Exception as info:
                 # even more trouble in paradise
                 self.logger.exception("start_main_loop: StandardError, %s, %s" % (self.activity.get_name(), info))
                 self.run_event_loop = False
@@ -1412,7 +1417,7 @@ class MainCoreGui:
             self.ask_exit()# if this returns the user said no
             self.logger.debug("Restarting menu")
             self.activity.start()
-            text = _("Current activity : %s") % self.activity.get_helptitle()
+            text = ("Current activity : %s") % self.activity.get_helptitle()
             if self.activitylabel:
                 self.activitylabel.settext(text)
                 self.activitylabel.display_sprite()
@@ -1454,7 +1459,7 @@ class MainCoreGui:
                 else:
                     levelcount = self.levelcount
                 self.start_next_level(store_db=True, nextlevel=levelcount)
-            except ( utils.MyError, info ):
+            except utils.MyError as info:
                 self.logger.error("Exception raised in the activity %s: %s" % (self.activity.get_name(), info))
                 if self.activity.get_name() == 'menu':
                     self.logger.error('Exception occurred in the menu, quiting')
@@ -1513,17 +1518,17 @@ class MainCoreGui:
                 # we now fixed this is findit and quizgeneral, for now just leave it
                 # commented out
                 #pygame.event.clear()
-            except ( utils.StopGameException, info ):
+            except utils.StopGameException as info:
                 self.logger.debug("_main_loop, StopGameException")
                 # stop loops
                 self.run_event_loop = False
                 self.run_activity_loop = False
                 self.activity_game_end(store_db=False)
-            except ( StandardError, info ):
+            except Exception as info:
                 self.activity.stop_timer()
                 self.logger.exception("%s raised an unhandled exception: %s traceback follows:" % \
                     (self.activity.get_name(), info))
-                self.activity_info_dialog(_("There was an error in %s. Please check the logs and inform the developers") % self.activity.get_name())
+                self.activity_info_dialog(("There was an error in %s. Please check the logs and inform the developers") % self.activity.get_name())
                 # make sure we have enabled menubuttons
                 self.enable_menubuttons()
                 # stop loops
@@ -1556,7 +1561,7 @@ class MainCoreGui:
                     if result and result[0][1] == -3:
                         # git pull, restart myself
                         raise utils.RestartMeException
-        except ( utils.MyError, info ):
+        except utils.MyError as info:
             self.activity_info_dialog("There was an error: %s" % info)
         self.screen.blit(org_screen, (0, 0))
         self.backgr.blit(org_back, (0, 0))
@@ -1568,11 +1573,11 @@ if __name__ == '__main__':
     utils.set_locale()# TODO: add lang argument
     try:
         mcgui = MainCoreGui((800, 600))
-    except ( SystemExit, status ):
+    except SystemExit as status:
         if str(status) == '0':
             module_logger.info("clean exit")
         else:
             module_logger.info("not a clean exit")
-    except ( Exception, status ):
+    except Exception as status:
         module_logger.exception("unhandled exception in toplevel, traceback follows:")
             
