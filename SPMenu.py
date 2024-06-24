@@ -272,8 +272,9 @@ class Activity:
         try:
             self.Mn = Menu(p, self.menu, self.menu_callback, theme_rc, lang, self.menudefault, \
                            removeables=self.removeables)
-        except ( Exception ):
+        except Exception as info:
             self.logger.exception( "Error while constructing the menu buttons. \n theme_rc: %s, lang: %s" % (theme_rc, lang) )
+            self.logger.exception( "Error info: %s \n" % (info) )
             raise ( utils.MyError )
         
     def _remove_buttons(self, buttons):
