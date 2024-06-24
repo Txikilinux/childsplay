@@ -32,11 +32,13 @@ import os
 
 import logging
 import types
-try:
-    from xml.etree.ElementTree import ElementTree
-except ImportError:
+
+# Now, python3
+#try:
+from xml.etree.ElementTree import ElementTree
+#except ImportError:
     # try the python2.4 way
-    from elementtree.ElementTree import ElementTree
+#    from elementtree.ElementTree import ElementTree
 
 import pygame
 from pygame.constants import *
@@ -47,9 +49,7 @@ from SPHelpText import ActivityMenuText
 
 sys.path.append(os.path.relpath("./SPWidgets/"))
 
-#from SPWidgets import *
-#from SPWidgets import Button, ImgButton, TransImgButton, ImgTextButton
-from SPWidgets.buttons import TransImgButton
+from SPWidgets.buttons import TransImgButton, Button, ImgButton, TransImgButton, ImgTextButton
 
 from SPSpriteUtils import SPInit, SPSprite
 import SPDataManager
@@ -169,7 +169,7 @@ class Menu:
                         self.logger.warning("No text attribute found in SPHelpText for %s" % t[3])
                         b = ImgButton(p, pos, name=t[3])
                     else:
-                        b = ImgTextButton(p, _(txt) ,pos, padding=6, fsize=14, name=t[3])
+                        b = ImgTextButton(p, txt, pos, padding=6, fsize=14, name=t[3])
                 else:    
                     if theme['menubuttons'] == 'transparent':
                         b = TransImgButton(p, hp, pos, name=t[3])
@@ -260,14 +260,15 @@ class Activity:
         p = os.path.join(theme_dir, xmlname)
         try:
             Pm = ParseMenu(p)
-        except ( Exception, info ):
+        except ( Exception ):
             self.logger.exception("Error while parsing menu xml file: %s" % p)
-            raise ( utils.MyError, info )
+            raise ( utils.MyError )
         self.menu = Pm.get_menu()
         self.menudefault = Pm.get_menudefault()
     
     def _build_menu(self, theme_dir, theme_rc, lang):
         p = os.path.join(theme_dir, 'menuicons')
+        print ("(DEBUG) theme_dir: %s" % (theme_dir))
         try:
             self.Mn = Menu(p, self.menu, self.menu_callback, theme_rc, lang, self.menudefault, \
                            removeables=self.removeables)
@@ -339,9 +340,9 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("This is the menu used to select an activity."),
-        _("Select an activity and click on the button, the activity will be started."),
-        _("Use the 'sub menu' buttons for the different activity menus"),
+        text = [("This is the menu used to select an activity."),
+        ("Select an activity and click on the button, the activity will be started."),
+        ("Use the 'sub menu' buttons for the different activity menus"),
         " ",
         "Developers: Stas Zytkiewicz, Chris van Bael",
         "Artwork and support: BraintrainerPlus.com",
@@ -354,9 +355,9 @@ class Activity:
         "Version: %s" % Version.version
         ]
         if self.theme_rc['theme'] == 'braintrainer':
-            text = [_("A collection of braintrain games for seniors."),
-                    _("All the games have there own help page, just start a game and hit the stars on top of the screen to select another difficulty."),
-                    _("Use the menu below to choose between the different game categories"),
+            text = [("A collection of braintrain games for seniors."),
+                    ("All the games have there own help page, just start a game and hit the stars on top of the screen to select another difficulty."),
+                    ("Use the menu below to choose between the different game categories"),
                     " ",
                 "Credits:",
                 "Based on the Open Source Game framework Seniorplay (www.schoolsplay.org)",

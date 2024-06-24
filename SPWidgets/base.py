@@ -65,8 +65,8 @@ def Init(theme):
                               stdout=subprocess.PIPE,\
                               stderr=subprocess.PIPE)
         output = cmd.communicate()[0]
-    except ( Exception, info ):
-        module_logger.warning("program 'amixer' not found, unable to set volume levels: %s" % info)
+    except ( Exception ):
+        module_logger.warning("program 'amixer' not found, unable to set volume levels: %s")
         WEHAVEAUMIX = False
     else:
         for line in output.split(b'\n'):

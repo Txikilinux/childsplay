@@ -596,8 +596,8 @@ class DiceButtons(Widget):
                 but.connect_callback(cbf, MOUSEBUTTONUP, count)
                 self._butdict[count] = but
                 count += 1
-        except ( StandardError, info ):
-            self.logger.exception("Can't load dice images for buttons: %s" % info)
+        except:
+            self.logger.exception("Can't load dice images for buttons: %s")
             self.logger.error('Disable the dice')
             self._current_but = self._butdict[1]
             self.UseDice = False
@@ -761,7 +761,7 @@ class StarButtonsDialog(Widget):
         x = 100
         y = 400
         
-        for buttxt in [_("Cancel"), _("OK")]:
+        for buttxt in [("Cancel"), ("OK")]:
             b = Button(buttxt, (x, y), fsize=self.THEME['starbuttonsdialog_fsize'], name=buttxt)
             b.connect_callback(self.but_cbf, MOUSEBUTTONUP, buttxt)
             self.actives.add(b)
@@ -773,7 +773,7 @@ class StarButtonsDialog(Widget):
         self.set_level(data[0])
             
     def but_cbf(self, widget, event, data):
-        if data[0] == _("Cancel"):
+        if data[0] == ("Cancel"):
             self.result = [None]
         self.runloop = False
 

@@ -43,37 +43,37 @@ from SPConstants import HOMEDIR
 # anonymous mode.")
 
 class DataManager(object):
-    _replace_dbase = _(\
+    _replace_dbase = (\
 "There was an error in the database this can be caused by many things\
  but most of the time it's caused by the fact that your version of the database\
  doesn't match the version of the program.\
  I will backup your original database and then replace it with a new one.\
  The original database is now called sp.db_back and it's placed in %s" % HOMEDIR)
 
-    default_group_1 = _("Default group 1")
-    default_group_2 = _("Default group 2")
+    default_group_1 = ("Default group 1")
+    default_group_2 = ("Default group 2")
     #default_user_1 = _("Default user 1")
     
 class Nosound(object):
-    ActivityStart = _(\
+    ActivityStart = (\
 "It seems that we cannot use the sound card right now and because this activity\
  is all about sound, we just quit.\
  This problem can also be caused by another application which uses the\
  soundcard right now.")
 
 class Act_ichanger(object):
-    box1 = _(\
+    box1 = (\
 """Memorize the pictures.
 
 One of these pictures will be replaced by a new picture.
 
 Touch the 'Start' button to begin the game.""")
-    box2 = _(\
+    box2 = (\
 """
 
 Touch the changed picture.""")
 
-    box3 = _(\
+    box3 = (\
 """
 
 Touch the 'Play' button to continue the game.""")
@@ -114,34 +114,34 @@ class ActivityMenuText(object):
     """These strings are used by the SPMenu module to set additional text for 
     the menu icons. This is only used when the xml attribute text is set to True
     in the menu xml. The attributes must be the name of the module."""
-    usermanagement = _("Usermanagement")
-    groupmanagement = _("Groupmanagement")
-    dt_sequence_manual = _("Daily training sequence")
-    picimport = _("Picture import")
-    change_pass = _("Change password")
-    change_pass_admin = _("Change password")
-    update_btp = _("Update BrainTrainerPlus")
-    gamemanagement = _("Gamemanagement")
+    usermanagement = ("Usermanagement")
+    groupmanagement = ("Groupmanagement")
+    dt_sequence_manual = ("Daily training sequence")
+    picimport = ("Picture import")
+    change_pass = ("Change password")
+    change_pass_admin = ("Change password")
+    update_btp = ("Update BrainTrainerPlus")
+    gamemanagement = ("Gamemanagement")
     zorgenquete = "Zorg enquette"
-    language_select = _("Select Language")
-    settings_op = _("Settings")
-    settings_adm = _("Settings")
-    content_import = _("Content import")
+    language_select = ("Select Language")
+    settings_op = ("Settings")
+    settings_adm = ("Settings")
+    content_import = ("Content import")
     
 
 class ActivityType(object):
     """These type strings are placed here so that the gettext can pick them
     up and place them in the pofile
     They are not used in the program. Perhaps in the future."""
-    MemoryType = _("Memory")
-    MathType = _("Math")
-    PuzzleType = _("Puzzle")
-    KeyboardtrainingType = _("Keyboardtraining")
-    MousetrainingType = _("Mousetraining")
-    LanguageType = _("Language")
-    AlphabetType = _("Alphabet")
-    FunType = _("Fun")
-    MiscellaneousType = _("Miscellaneous")
+    MemoryType = ("Memory")
+    MathType = ("Math")
+    PuzzleType = ("Puzzle")
+    KeyboardtrainingType = ("Keyboardtraining")
+    MousetrainingType = ("Mousetraining")
+    LanguageType = ("Language")
+    AlphabetType = ("Alphabet")
+    FunType = ("Fun")
+    MiscellaneousType = ("Miscellaneous")
     
     
     
