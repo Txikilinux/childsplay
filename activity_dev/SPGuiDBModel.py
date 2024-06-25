@@ -59,7 +59,7 @@ DEBUG = False
 import SQLTables
 from SPConstants import DBASEPATH
 import utils
-import sqlalchemy.exceptions as sqlae
+import sqlalchemy.exc as sqlae
 import sqlalchemy.orm as sqlorm
 # get a datamanager
 def get_datamanager():
@@ -89,9 +89,9 @@ class DataManagerWrapper(SPDataManager.DataManager):
         
         try:
             dbm = DbaseMaker(self.cmd_options.theme, debug_sql=DEBUG)            
-        except (AttributeError, sqlae.SQLAlchemyError, utils.MyError), info:
+        except (AttributeError, sqlae.SQLAlchemyError, utils.MyError) as info:
             self.logger.exception("Failed to start the DBase, %s" % info)
-            raise MyError, info
+            raise Exception, info
         self.content_engine, self.user_engine = dbm.get_engines()
         self.metadata_contentdb, self.metadata_usersdb = dbm.get_metadatas()
         self.all_orms = dbm.get_all_orms()

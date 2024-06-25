@@ -69,8 +69,9 @@ if WHICHDBASE == 'mysql':
             import db_conf as dbrc
             rckind = 'db_conf'
         except ImportError:
-            import db_dev as dbrc
-            rckind = 'db_dev'
+            print("Error loading config file db_conf.py.")
+#            import db_dev as dbrc
+#            rckind = 'db_dev'
         rc_hash = dbrc.rc
         if rc_hash['default']['production']:
             kind = 'production'

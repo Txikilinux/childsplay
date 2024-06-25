@@ -1,4 +1,4 @@
-import MySQLdb
+import pymysql
 
 import sys, os, glob, shutil, getopt
 
@@ -7,11 +7,11 @@ img_s = None
 try:                                
     opts, args = getopt.getopt(sys.argv[1:], "is:")
 except getopt.GetoptError:          
-    print "Usage: check_assets_quizpic.py  -i <path to image assets> || -s <path to sound assets>"                         
+    print( "Usage: check_assets_quizpic.py  -i <path to image assets> || -s <path to sound assets>" )                     
     sys.exit(1)      
 
 if not opts:
-    print "Usage: check_assets_quizpic.py  -i <path to image assets> || -s <path to sound assets>"                         
+    print( "Usage: check_assets_quizpic.py  -i <path to image assets> || -s <path to sound assets>" )
     sys.exit(1) 
     
 for opt, arg in opts:
@@ -21,12 +21,12 @@ for opt, arg in opts:
         snd_p = arg
     else:
         sys.exit(2)
-print "Starting, this can take some time, be patience :-)"
+print( "Starting, this can take some time, be patience :-)" )
 tb = 'game_quizpic'
-print """\
+print( """\
 ------------------------------------------------------------------
 Starting to check table %s
-""" % tb
+""" % tb )
 
 report_img = \
 """
@@ -49,7 +49,7 @@ Sound files that that corresponds with found CID are moved to %(snd_dest)s
 """
 report_hash = {'img_path':img_p, 'snd_path':snd_p}
 
-db=MySQLdb.connect(user="root",  db="btp_content")
+db=pymysql.connect(user="root",  db="btp_content")
 c = db.cursor()
 c.execute('''SELECT * FROM %s WHERE content_checked > 0;''' % (tb, ))
 ids = [row[0] for row in c.fetchall()]
@@ -78,16 +78,16 @@ if img_p:
     if not os.path.exists(dest):
         os.mkdir(dest)
     report_hash['img_dest'] = dest
-    print "moving files into %s" % dest
+    print( "moving files into %s" % dest )
 
     for files in id_hash.values():
         for file in files:
             try:
                 shutil.move(file, dest)
-            except Exception, info:
-                print "failed to move %s, %s" % (file, info)
+            except Exception as info:
+                print( "failed to move %s, %s" % (file, info) )
     left_img_files = glob.glob(os.path.join(img_p, "*_*_width*.ogg" ))
-    print report_img % report_hash
+    print( report_img % report_hash )
 
 # check and move sound files
 left_snd_files = []
@@ -97,7 +97,7 @@ if snd_p:
     report_hash['snd_missing'] = []
     cid_hash = {}
     for cid in cids:
-        print os.path.join(snd_p, "%s_*.ogg" % (cid))
+        print( os.path.join(snd_p, "%s_*.ogg" % (cid)) )
         files = glob.glob(os.path.join(snd_p, "%s_*.ogg" % (cid)))
         if not files:
             report_hash['snd_missing'].append(cid)
@@ -111,23 +111,20 @@ if snd_p:
     if not os.path.exists(dest):
         os.mkdir(dest)
     report_hash['snd_dest'] = dest
-    print "moving image files into %s" % dest
+    print( "moving image files into %s" % dest )
     
     for files in cid_hash.values():
         for file in files:
             try:
                 shutil.move(file, dest)
-            except Exception, info:
-                print "failed to move %s, %s" % (file, info)
+            except Exception as info:
+                print( "failed to move %s, %s" % (file, info) )
     left_snd_files = glob.glob(os.path.join(snd_p, "*_*.ogg"))
-    print report_snd % report_hash
+    print( report_snd % report_hash )
 
 wrongfiles = min(0, len(left_img_files) + len(left_snd_files) -1) 
-print """
+print( """
 ----------------------------------------------------------------------
 Number of image files without proper ID or CID: %s
 ---------------------------------------------------------------------
-""" % wrongfiles
-
-
-
+""" % wrongfiles )
