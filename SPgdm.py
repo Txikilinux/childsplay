@@ -46,7 +46,7 @@ if __name__ == '__main__':
     import builtins
     builtins.__dict__['_'] = lambda x:x
         
-from SPWidgets import InfoDialog, ExitDialog, SPEntry, SPLabel
+import SPWidgets
 #from SPVirtualkeyboard import VTKEscapeKeyException
 import SPHelpText
 import Version
@@ -101,11 +101,11 @@ class SPGreeter:
         pygame.display.set_caption(captxt.encode('utf-8'))
 
         # setup our SP widgets
-        label = SPLabel(("Username:"), fontsize=TTFSIZE + 2)
+        label = SPWidgets.SPLabel(("Username:"), fontsize=TTFSIZE + 2)
         label.moveto((340, 250))
         self.actives.add(label)
         
-        self.entry = SPEntry((340, 280), 9)
+        self.entry = SPWidgets.SPEntry((340, 280), 9)
         self.entry.display_sprite()
         self.actives.add(self.entry)
         
@@ -214,7 +214,7 @@ class SPGreeter:
     def _quit_button_callback(self,  * args):
         self.logger.debug("_quit_button_callback called")
         if not self.cmd_options.noexitquestion:
-            dlg = ExitDialog(self.renderer)
+            dlg = SPWidgets.ExitDialog(self.renderer)
             c = dlg.run()
         else:
             c = 0
@@ -224,7 +224,7 @@ class SPGreeter:
 
     def _info_button_callback(self, but):
         self.logger.debug("_info_button_callback called")
-        d = InfoDialog(self.renderer, SPHelpText.SPgdm._info_button_callback)
+        d = SPWidgets.InfoDialog(self.renderer, SPHelpText.SPgdm._info_button_callback)
         d.run()
 
     def get_loginname(self):
