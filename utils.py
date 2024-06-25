@@ -18,7 +18,7 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
 import builtins
-import imp
+import importlib
 import sys
 from SPConstants import *
 from NormalDistTable import normal_distribution_table
@@ -129,7 +129,7 @@ def set_locale(lang=None):
             localedir=LOCALEDIR, \
             languages=languages)
         builtins.__dict__['_'] = lang_trans.ugettext
-    except ( Exception ):
+    except Exception as info:
         txt = ""
         if lang and lang.split('@')[0].split('.')[0].split('_')[0] != 'en':
             txt = "Cannot set language to '%s' \n switching to English" % lang
