@@ -50,7 +50,7 @@ from importlib import reload
 
 from utils import set_locale
 
-#import SPgdm
+import SPgdm
 
 from SPDataManagerCreateDbase import DbaseMaker
 DEBUG = False
@@ -251,23 +251,23 @@ class DataManager:
         # Nothing to see here, please move on.
         self.reset()
     
-    def _start_btp_screen(self):
-        """Starts a login screen for the braintrainer plus.
-        Beaware that this only works on a BTP system as the login and
-        control panel is a proprietary piece of code and it's not included
-        in the free versions."""
-        sys.path.insert(0, './controlpanel_lgpl')
-        import Start_screen as Ss #@UnresolvedImport
-        self.SPG.dm = self
-        ss = Ss.Controller(self.SPG, fullscr=self.cmd_options.fullscreen)
-        result = ss.get_result()
-        if result[0] == 'user':
-            self.current_user = result[1]
-            self._start_gdm_greeter()
-        elif result[0] == 'quit':
-            raise ( StopmeException, 0 )
-        elif result[0] == 'controlpanel':
-            self.COPxml = result[1]
+    # def _start_btp_screen(self):
+    #     """Starts a login screen for the braintrainer plus.
+    #     Beaware that this only works on a BTP system as the login and
+    #     control panel is a proprietary piece of code and it's not included
+    #     in the free versions."""
+    #     sys.path.insert(0, './controlpanel_lgpl')
+    #     import Start_screen as Ss #@UnresolvedImport
+    #     self.SPG.dm = self
+    #     ss = Ss.Controller(self.SPG, fullscr=self.cmd_options.fullscreen)
+    #     result = ss.get_result()
+    #     if result[0] == 'user':
+    #         self.current_user = result[1]
+    #         self._start_gdm_greeter()
+    #     elif result[0] == 'quit':
+    #         raise ( StopmeException, 0 )
+    #     elif result[0] == 'controlpanel':
+    #         self.COPxml = result[1]
             
     def are_we_cop(self):
         return self.COPxml

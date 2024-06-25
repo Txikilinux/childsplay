@@ -100,7 +100,7 @@ else:
     else:
         try:
             HOMEDIR = os.path.join(os.environ['HOME'], HOME_DIR_NAME)
-        except ( KeyError, info ):
+        except KeyError as info:
             print ( info )
             HOMEDIR = os.path.abspath(sys.path[0])
 

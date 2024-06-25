@@ -27,6 +27,9 @@ from utils import char2surf
 
 module_logger = logging.getLogger("childsplay.Timer")
 
+def apply(func, args, kwargs=None):
+    return func(*args) if kwargs is None else func(*args, **kwargs)
+
 # In the Timer related classes the logger is disabled because it can flood the
 # logfile. (especially with find_char_sound)
 class Worker(threading.Thread):
@@ -245,21 +248,21 @@ if __name__ == '__main__':
     def test( *args):
         global i
         i += 1
-        print i, "message from test"
+        print( i, "message from test" )
         if args: 
-            print "args from test", args
+            print( "args from test", args )
         return 1
         
     t = Timer(1, test, ('these are the args', ), loop=60)
-    print "Start timer (60 times)"
+    print( "Start timer (60 times)" )
     t.start()
     while i < 60:
         pass
-    print "wait 2 seconds"
+    print( "wait 2 seconds" )
     time.sleep(2)
-    print "and do some stuff in main"
-    print "wait another 2 secs"
+    print( "and do some stuff in main" )
+    print( "wait another 2 secs" )
     time.sleep(2)
-    print "and now stop the timer"
+    print( "and now stop the timer" )
     t.stop()
     

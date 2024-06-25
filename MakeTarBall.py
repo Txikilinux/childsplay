@@ -29,18 +29,18 @@ if ans != 'y':
     sys.exit(0)
 
 distdir = 'childsplay-%s' % version
-print "looking for old packages"
+print( "looking for old packages" )
 if os.path.exists(distdir):
-    print "Removing %s" % distdir
+    print( "Removing %s" % distdir )
     os.system('rm -rf %s' % distdir)
 if os.path.exists('%s.tgz' % distdir):
-    print "Removing %s.tgz" % distdir
+    print( "Removing %s.tgz" % distdir )
     os.system('rm %s.tgz' % distdir)
 if os.path.exists('%s.zip' % distdir):
-    print "Removing %s.zip" % distdir
+    print( "Removing %s.zip" % distdir )
     os.system('rm %s.zip' % distdir)
 if os.path.exists('%s.tgz.sig' % distdir):
-    print "Removing %s.tgz.sig" % distdir
+    print( "Removing %s.tgz.sig" % distdir )
     os.system('rm %s.tgz.sig' % distdir)
 
 print "Looking for pyc files and remove them"

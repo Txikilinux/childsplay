@@ -26,6 +26,9 @@ import os
 from BorgSingleton import Borg
 import utils
 
+def apply(func, args, kwargs=None):
+    return func(*args) if kwargs is None else func(*args, **kwargs)
+
 class SPGoodies(Borg):
     """This class is a singleton because we want that the core and
     activity always uses the same object"""

@@ -1279,7 +1279,7 @@ class MainCoreGui:
         # setup a new vt kb
         pos = (250, 480)
         fsize = 22
-        vkb = VirtualKeyboard(self.screen, fsize, pos)
+        vkb = KeyBoard(self.screen, fsize, pos)
         self.vtkb = vkb
         return self.vtkb
     

@@ -51,8 +51,8 @@ class Player:
                                  stdout=subprocess.PIPE, \
                                  stderr=subprocess.PIPE)
             output = cmd.communicate()[0]
-        except ( Exception, info ):
-            module_logger.warning("program 'amixer' not found, unable to get volume levels")
+        except Exception as info:
+            self.logger.warning("program 'amixer' not found, unable to get volume levels")
         else:
             for line in output.split('\n'):
                 if "%]" in line:
@@ -65,7 +65,7 @@ class Player:
         try:
             #result = subprocess.call(cmd)
             result = os.system(cmd)
-        except ( OSError,info ):
+        except OSError as info:
             return (False,  cmd+" "+str(info))
         if result:
             return (False, str(result))

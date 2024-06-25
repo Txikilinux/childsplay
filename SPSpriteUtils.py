@@ -44,6 +44,9 @@ from utils import MyError, char2surf, load_image
 from SPConstants import ACTIVITYDATADIR, BUTTON_FEEDBACK_TIME
 module_logger = logging.getLogger("childsplay.SPSpriteUtils_lgpl")
 
+def apply(func, args, kwargs=None):
+    return func(*args) if kwargs is None else func(*args, **kwargs)
+
 def SPInit(scr, back, cmd_options={}):
     """ Init(back,scr,group=pygame.sprite.Group()) -> SPGroup instance
         
@@ -207,7 +210,7 @@ class SPSprite(pygame.sprite.Sprite):
          The event_type can be set to a pygame.event, this becomes the event
          to 'trigger' the callback. (see update method)"""
         self._callback = callback
-        if type(event_type) is ListType:
+        if type(event_type) is list:
             for t in event_type:
                 self._event_type.append(t)
         else:
@@ -284,7 +287,7 @@ class SPSprite(pygame.sprite.Sprite):
                                 try:
                                     #print "--------call cbf-----------", event
                                     cb = apply(self._callback, (self, event, self._args))
-                                except ( StandardError, info ):
+                                except Exception as info:
                                     self._logger.exception("Callback function %s failed" % self._callback)
                                     self._logger.error(info)
                                     raise ( MyError, info )
@@ -295,7 +298,7 @@ class SPSprite(pygame.sprite.Sprite):
                                     self.group_owner.set_havematch(True)
                                     try:
                                         cb = apply(self._callback, (self, event, self._args))
-                                    except ( StandardError, info ):
+                                    except Exception as info:
                                         self._logger.exception("Callback function %s failed" % self._callback)
                                         self._logger.error(info)
                                         raise Exception
@@ -872,7 +875,7 @@ class MySprite(SPSprite):
         elif type(value) in (types.StringType, types.UnicodeType):
             try:
                 self.image = load_image(value)
-            except ( Exception, info ):
+            except Exception as info:
                 self._logger.error("failled to load image: %s" % value)
                 raise ( MyError, info )
         self.rect = self.image.get_rect()

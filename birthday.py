@@ -58,11 +58,11 @@ class birthday:
         self.screen = screen
         self.back = back
         self.actives = SPSpriteUtils.SPInit(self.screen, self.back)
-        but = SPWidgets.SimpleButtonDynamic(_("Close"), (350, 500), fsize=24, data='close')
+        but = SPWidgets.SimpleButtonDynamic(("Close"), (350, 500), fsize=24, data='close')
         but.set_use_current_background(True)
         but.display_sprite()
         self.actives.add(but)
-        lbl = SPWidgets.Label(_("Congratulations %s, you are %s year old today.") % (name, age), \
+        lbl = SPWidgets.Label(("Congratulations %s, you are %s year old today.") % (name, age), \
                               (100, 120), fgcol=ORANGERED, transparent=True).display_sprite()
         self.datadir = os.path.join(ACTIVITYDATADIR, 'SPData', 'themes', 'braintrainer', 'birthday')
         # we only use cake for now
@@ -92,8 +92,8 @@ class birthday:
 
 if __name__ == '__main__':
     
-    import __builtin__
-    __builtin__.__dict__['_'] = lambda x:x
+    import builtins
+    builtins.__dict__['_'] = lambda x:x
     
     import SPLogging
     SPLogging.set_level('debug')
@@ -104,9 +104,9 @@ if __name__ == '__main__':
     from SPSpriteUtils import SPInit
     
     def cbf(sprite, event, data=''):
-        print 'cb called with sprite %s, event %s and data %s' % (sprite, event, data)
-        print 'sprite name: %s' % sprite.get_name()
-        print 'data is %s' % data
+        print( 'cb called with sprite %s, event %s and data %s' % (sprite, event, data) )
+        print( 'sprite name: %s' % sprite.get_name() )
+        print( 'data is %s' % data )
     
     scr = pygame.display.set_mode((800, 600))
     scr.fill(GREY90)

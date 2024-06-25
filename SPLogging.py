@@ -35,7 +35,7 @@ LOGPATH = os.path.join(HOMEDIR, "childsplay.log")
 if os.path.exists(LOGPATH):
     try:
         os.remove(LOGPATH)
-    except ( Exception, info ):
+    except Exception as info:
         print ( "Failed to remove old log" )
         print ( info )
     else:

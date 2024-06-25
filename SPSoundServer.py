@@ -65,7 +65,7 @@ class SoundServer:
                 self.thread = Thread(target=self._start_server)
                 self.thread.start()
                 time.sleep(0.1)
-            except Exception,info:
+            except Exception as info:
                 self.logger.exception("SoundServer startup problem")
                 self.serverstatus = False
                 self.server_allready_running = False
@@ -177,8 +177,8 @@ class SoundServer:
 
 if __name__ == '__main__':
     
-    import __builtin__
-    __builtin__.__dict__['_'] = lambda x:x
+    import builtins
+    builtins.__dict__['_'] = lambda x:x
     
     import SPLogging
     SPLogging.set_level('debug')
@@ -202,9 +202,9 @@ if __name__ == '__main__':
         for event in events:
             if event.type is KEYDOWN:
                 if event.key == K_ESCAPE:
-                    print "escape hit, stopping main"
+                    print( "escape hit, stopping main" )
                     runloop = 0
-        print "main doing stuff"
+        print( "main doing stuff" )
     
     ss.stop_server(0)
-    raw_input("hit any key to quit")
+    input("hit any key to quit")

@@ -43,10 +43,10 @@ from pygame.constants import *
 
 if __name__ == '__main__':
     # needed to simulate gettext
-    import __builtin__
-    __builtin__.__dict__['_'] = lambda x:x
+    import builtins
+    builtins.__dict__['_'] = lambda x:x
         
-#from SPocwWidgets import InfoDialog, ExitDialog, SPEntry, SPLabel
+from SPWidgets import InfoDialog, ExitDialog, SPEntry, SPLabel
 #from SPVirtualkeyboard import VTKEscapeKeyException
 import SPHelpText
 import Version
@@ -70,7 +70,7 @@ class SPGreeter:
         self.logger.debug("Starting")
         self.cmd_options = cmd_options
         self.__name = ''
-        captxt = _("Childsplay_sp login")
+        captxt = ("Childsplay_sp login")
         if self.cmd_options.theme != 'default':
             captxt = captxt.replace('Childsplay_sp', self.cmd_options.theme)
         ICONPATH = os.path.join(ACTIVITYDATADIR, 'SPData', 'themes', self.cmd_options.theme)
@@ -101,7 +101,7 @@ class SPGreeter:
         pygame.display.set_caption(captxt.encode('utf-8'))
 
         # setup our SP widgets
-        label = SPLabel(_("Username:"), fontsize=TTFSIZE + 2)
+        label = SPLabel(("Username:"), fontsize=TTFSIZE + 2)
         label.moveto((340, 250))
         self.actives.add(label)
         
@@ -110,23 +110,23 @@ class SPGreeter:
         self.actives.add(self.entry)
         
         # setup ocempgui widgets
-        self.renderer = ocw.Renderer()
+        self.renderer = self.ocw.Renderer()
         self.renderer.set_screen(self.screen)
         p = os.path.join(ICONPATH, 'spgdm_login_button.png')
         if not os.path.exists(p):
             p = os.path.join(DEFAULTICONPATH, 'spgdm_login_button.png')
-        but = ocw.ImageButton(p)
+        but = self.ocw.ImageButton(p)
         # The button resize accoording to the string size, this sucks.
         # We now must check the tring length to prevent the button from overflowing :-)
         # Looks like the C days are here again :-D
-        t = _("Login")
+        t = "Login"
         but.set_text(t)# we set the fontsize below
         
         but.child.create_style()
         but.child.style["font"]["size"] = TTFSIZE
-        but.child.style['bgcolor'][ocwc.STATE_NORMAL] = KOBALT_LIGHT_BLUE
-        but.create_style()['bgcolor'][ocwc.STATE_NORMAL] = KOBALT_LIGHT_BLUE
-        but.connect_signal(ocwc.SIG_CLICKED, self._login_button_callback, self.entry)
+        but.child.style['bgcolor'][self.ocwc.STATE_NORMAL] = KOBALT_LIGHT_BLUE
+        but.create_style()['bgcolor'][self.ocwc.STATE_NORMAL] = KOBALT_LIGHT_BLUE
+        but.connect_signal(self.ocwc.SIG_CLICKED, self._login_button_callback, self.entry)
         #but.opacity = 255
         but.topleft = (340, 320)
         # We clear the event queue as we sometimes get an crash with the message
@@ -140,9 +140,9 @@ class SPGreeter:
         p = os.path.join(ICONPATH, 'spgdm_quit_button.png')
         if not os.path.exists(p):
             p = os.path.join(DEFAULTICONPATH, 'spgdm_quit_button.png')
-        but = ocw.ImageButton(p)
-        but.create_style()['bgcolor'][ocwc.STATE_NORMAL] = KOBALT_LIGHT_BLUE
-        but.connect_signal(ocwc.SIG_CLICKED, self._quit_button_callback, but)
+        but = self.ocw.ImageButton(p)
+        but.create_style()['bgcolor'][self.ocwc.STATE_NORMAL] = KOBALT_LIGHT_BLUE
+        but.connect_signal(self.ocwc.SIG_CLICKED, self._quit_button_callback, but)
         #but.opacity = 180
         but.topleft = (720, 520)
         self.renderer.add_widget(but)
@@ -151,11 +151,11 @@ class SPGreeter:
         p = os.path.join(ICONPATH, 'spgdm_info_button.png')
         if not os.path.exists(p):
             p = os.path.join(DEFAULTICONPATH, 'spgdm_info_button.png')
-        but = ocw.ImageButton(p)
+        but = self.ocw.ImageButton(p)
         #but.set_text(_("Quit"))
         #but.child.create_style()["font"]["size"] = 36
-        but.create_style()['bgcolor'][ocwc.STATE_NORMAL] = KOBALT_LIGHT_BLUE
-        but.connect_signal(ocwc.SIG_CLICKED, self._info_button_callback, but)
+        but.create_style()['bgcolor'][self.ocwc.STATE_NORMAL] = KOBALT_LIGHT_BLUE
+        but.connect_signal(self.ocwc.SIG_CLICKED, self._info_button_callback, but)
         #but.opacity = 180
         but.topleft = (20, 520)
         self.renderer.add_widget(but)
@@ -202,7 +202,7 @@ class SPGreeter:
                     break
                 elif k == 'enter':
                     break
-            except (StopIteration, VTKEscapeKeyException):
+            except StopIteration as VTKEscapeKeyException:
                 self._quit_button_callback()
                 break
                 

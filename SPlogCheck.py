@@ -69,7 +69,7 @@ for line in lines:
         break
         
 if notifycaller:        
-    raise MyError, _("Found error messages in the log file, please contact the developers.")
+    raise MyError, ("Found error messages in the log file, please contact the developers.")
 
 
 

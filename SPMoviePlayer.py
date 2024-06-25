@@ -114,8 +114,8 @@ class MoviePlayer:
 
 if __name__ == '__main__':
     
-    import __builtin__
-    __builtin__.__dict__['_'] = lambda x:x
+    import builtins
+    builtins.__dict__['_'] = lambda x:x
     
     import SPLogging
     SPLogging.set_level('debug')
@@ -137,7 +137,7 @@ if __name__ == '__main__':
     
     def observer(state):
         global runloop
-        print "observer called with state", state
+        print( "observer called with state", state )
         if state == 'stop':
             runloop = 0
     
@@ -159,7 +159,7 @@ if __name__ == '__main__':
         for event in events:
             if event.type is KEYDOWN:
                 if event.key == K_ESCAPE:
-                    print "escape hit, stopping loop"
+                    print( "escape hit, stopping loop" )
                     runloop = 0
             actives.update(event)
         r = scr.blit(msurf, mppos)

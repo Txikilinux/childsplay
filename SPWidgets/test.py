@@ -20,8 +20,8 @@ import SPLogging
  
 if __name__ == '__main__':
     
-    import __builtin__
-    __builtin__.__dict__['_'] = lambda x:x
+    import builtins
+    builtins.__dict__['_'] = lambda x:x
     
     SPLogging.set_level('debug')
     SPLogging.start()
@@ -31,9 +31,9 @@ if __name__ == '__main__':
     from SPSpriteUtils import SPInit
     
     def cbf(sprite, event, data=''):
-        print 'cb called with sprite %s, event %s and data %s' % (sprite, event, data)
-        print 'sprite name: %s' % sprite.get_name()
-        print 'data is %s' % data
+        print( 'cb called with sprite %s, event %s and data %s' % (sprite, event, data) )
+        print( 'sprite name: %s' % sprite.get_name() )
+        print( 'data is %s' % data )
     
     def cbf_but(sprite, event, data=''):
         back = pygame.Surface((300,300))
@@ -112,7 +112,7 @@ if __name__ == '__main__':
         if count > 5:
             count = 0
             steps = pb.update()
-            print steps
+            print( steps )
             if steps == False:
                 runloop = False
         else:
@@ -139,5 +139,5 @@ if __name__ == '__main__':
                 
 #    print TI.get_text()
 #    print box.get_text()
-    raw_input("hit any key to stop")
+    input("hit any key to stop")
     

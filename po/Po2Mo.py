@@ -12,8 +12,8 @@ MODIR = os.path.join(os.path.dirname(os.getcwd()),'locale')
 ##PODIR = os.path.join('/tmp/gvr','po')
 ##MODIR = os.path.join('/tmp/gvr','locale')
 
-print "podir =",PODIR
-print "modir =",MODIR
+print( "podir =",PODIR )
+print( "modir =",MODIR )
 
 log = []
 

@@ -250,7 +250,7 @@ def parse_xml(xml, cursor, tname):
                 hash['year'] = e.text
             except:
                 hash['year'] = ''           
-        except AttributeError, info:
+        except AttributeError as info:
             logger.error("The content.xml is badly formed, missing element(s):%s,%s" % (info, e))
             logger.error("question '%s' will be removed from the collection" % q.get('id'))
         else:
