@@ -239,7 +239,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Fishtank")
+        return ("Fishtank")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -247,8 +247,8 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-        _("Try to remove the fish by clicking on them with the mouse."),
+        text = [("The aim of this activity:"),
+        ("Try to remove the fish by clicking on them with the mouse."),
         " "]
         return text 
     
@@ -260,14 +260,14 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Fun/Mousetraining")
+        return ("Fun/Mousetraining")
     
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
 
     def stop_timer(self):
         """You *must* provide a method to stop timers if you use them.
@@ -314,7 +314,7 @@ class Activity:
             for imgfile in rawimagelist:
                 self.imagelist.append((utils.load_image(imgfile[0]),\
                                    utils.load_image(imgfile[1])))
-        except Exception,info:
+        except Exception as info:
             self.logger.exception("Error loading images")
             raise utils.MyError()
         self.logger.debug("constructed %s groups of images" % len(self.imagelist))

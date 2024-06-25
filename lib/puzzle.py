@@ -233,7 +233,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Puzzle")
+        return ("Puzzle")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -241,29 +241,29 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-                _("Place the puzzle piece on the right where you think it belongs..."), 
+        text = [("The aim of this activity:"),
+                ("Place the puzzle piece on the right where you think it belongs..."), 
         " ",
-        _("At the bottom you'll see a image of the complete puzzle."), 
+        ("At the bottom you'll see a image of the complete puzzle."), 
         " "]
         return text 
     
     def get_helptip(self):
         """Mandatory method, when no tips available returns an empty list"""
-        return _("Look closely at the complete puzzle picture at the bottom.")
+        return ("Look closely at the complete puzzle picture at the bottom.")
         
     def get_helptype(self):
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Puzzle")
+        return ("Puzzle")
     
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 5
+        return ("This activity has %s levels") % 5
 
     
     def start(self):
@@ -299,11 +299,11 @@ class Activity:
         
         files = glob.glob(os.path.join(imgdir,'tileset_*.png'))
         files.sort()
-        lbl = SPWidgets.Label(_("Please, choose a set of puzzle images."),\
+        lbl = SPWidgets.Label(("Please, choose a set of puzzle images."),\
                                 (30, y),fsize=24, transparent=True)
         lbl.display_sprite()
         y += lbl.get_sprite_height()
-        for line in textwrap.wrap(_("The difficulty of the set increases from left to right."), 40):
+        for line in textwrap.wrap(("The difficulty of the set increases from left to right."), 40):
             lbl = SPWidgets.Label(line,(30, y), fsize=24, transparent=True)
             lbl.display_sprite()
             y += lbl.get_sprite_height()

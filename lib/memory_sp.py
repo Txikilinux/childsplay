@@ -195,7 +195,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Memory")
+        return ("Memory")
 
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -203,29 +203,29 @@ class Activity:
 
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-                _("Classic memory game where you have to find pairs of cards."),
+        text = [("The aim of this activity:"),
+                ("Classic memory game where you have to find pairs of cards."),
                 " ",
-                _(
+                (
                     "Look closely at the pictures, when you have them memorized touch 'START'.\nThe pictures turn over, you must match the pair of cards."),
                 " "]
         return text
 
     def get_helptip(self):
         """Mandatory method, when no tips available returns an empty list"""
-        return _("Accuracy is more important than speed.")
+        return ("Accuracy is more important than speed.")
 
     def get_helptype(self):
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Memory")
+        return ("Memory")
 
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
 
     def dailytraining_pre_level(self, level):
         """Mandatory method"""
@@ -280,11 +280,11 @@ class Activity:
 
         files = glob.glob(os.path.join(self.my_datadir, 'tileset_*.png'))
         files.sort()
-        lbl = SPWidgets.Label(_("Please, choose a set of cards."),\
+        lbl = SPWidgets.Label(("Please, choose a set of cards."),\
             (30, y), fsize=24, transparent=True)
         lbl.display_sprite()
         y += lbl.get_sprite_height()
-        for line in textwrap.wrap(_("The difficulty of the set increases from left to right."), 40):
+        for line in textwrap.wrap(("The difficulty of the set increases from left to right."), 40):
             lbl = SPWidgets.Label(line, (30, y), fsize=24, transparent=True)
             lbl.display_sprite()
             y += lbl.get_sprite_height()
@@ -340,7 +340,7 @@ class Activity:
                 file = os.path.basename(imgfile)
                 img = utils.load_image(imgfile)
                 imagelist.append((img, file))
-        except (StandardError, utils.MyError), info:
+        except (Exception, utils.MyError) as info:
             self.logger.exception("Can't load images for sprites: %s" % info)
             raise utils.MyError(str(info))# MyError will make the core end this game
         else:
@@ -427,7 +427,7 @@ class Activity:
         self.cards_list = self.actives.get_sprites()
         self.actives.empty()
         #        self.startbutton = SPWidgets.SimpleButtonDynamic(_("Start"), (690, y+430), fsize=24, data='start')
-        self.startbutton = SPWidgets.SimpleButtonDynamic(_("Start"), (0, 0), fsize=24, data='start')
+        self.startbutton = SPWidgets.SimpleButtonDynamic(("Start"), (0, 0), fsize=24, data='start')
         x = 790 - self.startbutton.get_sprite_width()
         self.startbutton.moveto((x, y + 430))
         self.startbutton.set_use_current_background(True)

@@ -37,6 +37,9 @@ import utils
 from SPConstants import *
 import SPSpriteUtils
 
+def apply(func, args, kwargs=None):
+    return func(*args) if kwargs is None else func(*args, **kwargs)
+
 # containers that can be used globally to store stuff
 class Img:
     pass
@@ -488,7 +491,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Packid")
+        return ("Packid")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -496,13 +499,13 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text=[_("The aim of the game:"),
-        _("Try to 'eat' all the letters in the appropriated order."),
-        _("There are thee levels with three words each."),
-        _("When you have finished all the levels, without making to much mistakes"),
-        _("(max two per word), you can play the last level which is a maze."),
-        _("Try to find the way out while eating the fruits for extra points and"),
-        _("funny sounds :-)")]
+        text=[("The aim of the game:"),
+        ("Try to 'eat' all the letters in the appropriated order."),
+        ("There are thee levels with three words each."),
+        ("When you have finished all the levels, without making to much mistakes"),
+        ("(max two per word), you can play the last level which is a maze."),
+        ("Try to find the way out while eating the fruits for extra points and"),
+        ("funny sounds :-)")]
         return text 
     
     def get_helptip(self):
@@ -513,14 +516,14 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Fun/Alphabet")
+        return ("Fun/Alphabet")
         
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 4
+        return ("This activity has %s levels") % 4
     
     def pre_level(self,level):
         """Mandatory method.
@@ -575,13 +578,13 @@ class Activity:
             wordlist = 'words-'+wordsloc
             if not os.path.exists(os.path.join(self.my_datadir,wordlist)):
                 raise IndexError
-        except IndexError,info:
+        except IndexError as info:
             self.logger.info("Can't find words for locale %s Using english for the words and sounds." % wordsloc)
             wordlist = 'words-en'
             wordsloc = 'en'
         try:
             items = utils.read_unicode_file(os.path.join(self.my_datadir,wordlist))
-        except IOError,info:
+        except IOError as info:
             self.logger.exception("can't open or read words file %s" % \
                                   os.path.join(self.my_datadir,wordlist))
             raise MyError
@@ -708,7 +711,7 @@ class Activity:
                 self._build_field(matrix)
                 self._setup_last_level()
             else:
-                text = _("The last level is only available when you finish the first three levels without errors.")
+                text = ("The last level is only available when you finish the first three levels without errors.")
                 self.SPG.tellcore_info_dialog(text)
                 self.SPG.tellcore_game_end(store_db=True)
                 return
@@ -719,8 +722,8 @@ class Activity:
         Img.backgr = self.screen.convert()
         Img.backgr_start = self.screen.convert()# keep a begin situation surface
         
-        line1 = _("Find all the letters in the right order.")
-        line2 = _("The word to find is: ")
+        line1 = ("Find all the letters in the right order.")
+        line2 = ("The word to find is: ")
         ### TODO fix RTL issues here
         if self.level != 4:
             if self.SPG.get_localesetting()[1]:

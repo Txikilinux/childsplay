@@ -270,7 +270,7 @@ class Activity:
         Misc.movingsign = SPSpriteUtils.SPGroup(self.screen, self.backgr)
         Misc.group = SPSpriteUtils.SPGroup(self.screen, self.backgr)
         # MovingSign controls itself
-        MovingSign(_("Billiard Game"), 48, (100, 100), (100, 400), 1, (8, 0, 120), self.screen, self.backgr, 1)
+        MovingSign(("Billiard Game"), 48, (100, 100), (100, 400), 1, (8, 0, 120), self.screen, self.backgr, 1)
 
     def clear_screen(self):
         self.screen.blit(self.orgscreen, self.blit_pos)
@@ -284,7 +284,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Billiard")
+        return ("Billiard")
 
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -292,31 +292,31 @@ class Activity:
 
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-                _("You have to make the blue ball enter the hole (in level 1)"),
-                _("and the red ones in levels 2 and 3."),
-                _("Use the right mousebutton to aim and the left button to hit the ball."),
-                _("The longer you hold the left button the harder it will hit the ball."),
-                _("The fewer hits you need to get the ball in the hole, the more points you get."),
+        text = [("The aim of this activity:"),
+                ("You have to make the blue ball enter the hole (in level 1)"),
+                ("and the red ones in levels 2 and 3."),
+                ("Use the right mousebutton to aim and the left button to hit the ball."),
+                ("The longer you hold the left button the harder it will hit the ball."),
+                ("The fewer hits you need to get the ball in the hole, the more points you get."),
         ]
         return text
 
     def get_helptip(self):
         """Mandatory method, when no tips available returns an empty list"""
-        return [_("The fewer hits you need to get the ball in the hole, the more points you get.")]
+        return [("The fewer hits you need to get the ball in the hole, the more points you get.")]
 
     def get_helptype(self):
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Fun/Miscellaneous")
+        return ("Fun/Miscellaneous")
 
 
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 3
+        return ("This activity has %s levels") % 3
 
     def pre_level(self, level):
         """Mandatory method.
@@ -342,7 +342,7 @@ class Activity:
         self.n_balls = 5
         self.maxpoints = 0
         # Tell the core to display a exercises/done counter
-        Misc.execounter = self.SPG.tellcore_display_execounter(self.n_balls, text=_("Balls"))
+        Misc.execounter = self.SPG.tellcore_display_execounter(self.n_balls, text=("Balls"))
 
         self.next_exercise()
         return True
@@ -503,7 +503,7 @@ class Activity:
         self.ball1.display_sprite()
         Misc.actives.add(self.ball1)
         Misc.group.add(self.ball1)
-        print "level", self.level
+        print( "level", self.level )
         # Now it has level 2 repeated in level 3. Before it was (if level == 1), (if level > 1), (if level > 2).
         if self.level == 1:
             # set points to earn: just d(b1,h)/8 in this case
@@ -601,7 +601,7 @@ class Activity:
             self.maxpoints += self.pointstoadd
             self.points += s
             self.tries += 1
-            txt, sz = utils.text2surf(str(self.points) + '  ' + _("points"), 48, (8, 0, 120), bold=True)
+            txt, sz = utils.text2surf(str(self.points) + '  ' + ("points"), 48, (8, 0, 120), bold=True)
             self.screen.blit(txt, (200, 200))
             pygame.display.update()
             pygame.time.wait(2000)
@@ -614,8 +614,8 @@ class Activity:
                     self.stop = 1
                     Misc.score = self.points
                     self.screen.blit(self.backgr, (0, 0))
-                    MovingSign(_("You won!!"), 80, (100, 100), (100, 300), 1, (8, 0, 120), self.screen, self.backgr, 0)
-                    txt, sz = utils.text2surf(str(self.points) + '  ' + _("points"), 48, (8, 0, 120), bold=True)
+                    MovingSign(("You won!!"), 80, (100, 100), (100, 300), 1, (8, 0, 120), self.screen, self.backgr, 0)
+                    txt, sz = utils.text2surf(str(self.points) + '  ' + ("points"), 48, (8, 0, 120), bold=True)
                     self.screen.blit(txt, (200, 200))
                     pygame.display.update()
                     for i in range(0, 3):

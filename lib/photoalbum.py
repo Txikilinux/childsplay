@@ -175,7 +175,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Photoalbum")
+        return ("Photoalbum")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -183,9 +183,9 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
+        text = [("The aim of this activity:"),
         " ",
-        _("Number of levels : 1"),
+        ("Number of levels : 1"),
         " "]
         return text 
     
@@ -197,13 +197,13 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
         
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 1
+        return ("This activity has %s levels") % 1
 
     def start(self):
         """Mandatory method."""
@@ -230,7 +230,7 @@ class Activity:
         if extra_albums:
             albums += extra_albums
         if not albums:
-            self.SPG.tellcore_info_dialog(_("No photo albums found !\nYou should place your pictures inside directories called 'Album_1', 'Album_2' etc\n Place these directories inside %s" % self.my_datadir))
+            self.SPG.tellcore_info_dialog(("No photo albums found !\nYou should place your pictures inside directories called 'Album_1', 'Album_2' etc\n Place these directories inside %s" % self.my_datadir))
             self.stopme = True
         # check that we don't use empty albums.
         self.logger.debug("found albums: %s" % albums)
@@ -511,7 +511,7 @@ class Activity:
         tree = ElementTree()
         try:
             tree.parse(p)
-        except Exception, info:
+        except Exception as info:
             self.logger.error("%s" % info)
             raise utils.MyError, info
         # here we start the parsing
@@ -528,7 +528,7 @@ class Activity:
                 hash['name'] = node.get('name')
                 hash['title'] = node.find('title').text
                 hash['text'] = node.find('text').text
-            except AttributeError, info:
+            except AttributeError as info:
                 self.logger.error("The %s is badly formed, missing element(s):%s,%s" % (xml, info, e))
                 albumhash = {}
             else:

@@ -131,7 +131,7 @@ class Activity:
         """called by the core after this module is constructed."""
         xmlpath = os.path.join(self.my_datadir, 'general_knowledge.xml')
         if not os.path.exists(xmlpath):
-            raise utils.MyError, _("xml file %s is missing, this shouldn't happen, contact the %s developers" % (xmlpath, self.theme))    
+            raise utils.MyError, ("xml file %s is missing, this shouldn't happen, contact the %s developers" % (xmlpath, self.theme))    
         self.actdatahash = parse_xml(xmlpath)# returns a ordereddict object
         self.actdata = self.actdatahash.items()
                 
@@ -155,11 +155,11 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-                _("Answer the quiz questions."), 
+        text = [("The aim of this activity:"),
+                ("Answer the quiz questions."), 
         " ",
-        _("At the top of the screen, you will see a question about general knowledge."),
-        _("Below it are a choice of possible answers.\nTouch the correct answer."), 
+        ("At the top of the screen, you will see a question about general knowledge."),
+        ("Below it are a choice of possible answers.\nTouch the correct answer."), 
         " "]
         return text 
     
@@ -171,14 +171,14 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
         
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
     
     def _cbf(self, *args):
         return args

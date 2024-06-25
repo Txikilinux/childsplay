@@ -116,7 +116,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Fourrow")
+        return ("Fourrow")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -124,13 +124,13 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-        _("Try to get four in a row in any possible direction."),
+        text = [("The aim of this activity:"),
+        ("Try to get four in a row in any possible direction."),
         " ", 
-        _("You can vertically drop a red pill in a desired column by pressing that exact column."),
-        _("All pills, both red and yellow, stack on each other."), 
-        _("To win the game you'll need four red pills lined up after each other horizontally, vertically or diagonal."), 
-        _("Tip: Try creating multiple winning scenario's."), 
+        ("You can vertically drop a red pill in a desired column by pressing that exact column."),
+        ("All pills, both red and yellow, stack on each other."), 
+        ("To win the game you'll need four red pills lined up after each other horizontally, vertically or diagonal."), 
+        ("Tip: Try creating multiple winning scenario's."), 
         " "]
         return text 
     
@@ -142,7 +142,7 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Puzzle")
+        return ("Puzzle")
     def stop(self):
         """Mandatory method, will be called by the core when this activities is destroyed."""
         try:
@@ -231,7 +231,7 @@ class Activity:
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
     
     def pre_level(self,level):
         """Mandatory method.
@@ -533,9 +533,9 @@ class Activity:
     def _restart(self):
         self.actives.empty()
         if self.winner == 'user':
-            txt = _("Congratulations, try again ?")
+            txt = ("Congratulations, try again ?")
         else:
-            txt = _("Pity, try again ?")
+            txt = ("Pity, try again ?")
         but = ButtonDynamic(txt, (250,110), fgcol=WHITE)
         but.connect_callback(self.next_exercise, MOUSEBUTTONUP)
         but.display_sprite()

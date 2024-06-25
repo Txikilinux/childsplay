@@ -187,11 +187,11 @@ class Activity:
         b = os.path.join(self.CPdatadir, '200px_80px_blue.png')
         b_ro = os.path.join(self.CPdatadir, '200px_80px_black.png')
         self.beginbut = SPWidgets.TransImgButton(b, b_ro, \
-                                    (300, 510), fsize=24, text= _("Begin"),\
+                                    (300, 510), fsize=24, text= ("Begin"),\
                                     fcol=WHITE)
         self.beginbut.connect_callback(self._cbf_begin, MOUSEBUTTONDOWN)
         self.cheatbut = SPWidgets.TransImgButton(b, b_ro, \
-                                    (300, 510), fsize=24, text= _("Cheat"),\
+                                    (300, 510), fsize=24, text= ("Cheat"),\
                                     fcol=WHITE)
         self.cheatbut.connect_callback(self._cbf_cheat, MOUSEBUTTONDOWN)
         self.playfield = utils.load_image(os.path.join(self.my_datadir, "playfield.png")).convert()
@@ -219,7 +219,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Numbers_sp")
+        return ("Numbers_sp")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -227,24 +227,24 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-        _("You will see various numbers scattered around the screen."),
+        text = [("The aim of this activity:"),
+        ("You will see various numbers scattered around the screen."),
         " ", 
-        _("Look carefully and try to remember their positions on the screen."), 
-        _("Then push the 'BEGIN' button. The numbers will disappear."),
-        _("Try to find the numbers, in the correct order and from low to high, by touching them on the screen."), 
+        ("Look carefully and try to remember their positions on the screen."), 
+        ("Then push the 'BEGIN' button. The numbers will disappear."),
+        ("Try to find the numbers, in the correct order and from low to high, by touching them on the screen."), 
         " "]
         return text
             
     def get_helptip(self):
         """Mandatory method, when no tips available returns an empty list"""
-        return _("Correctness is more important than speed.")
+        return ("Correctness is more important than speed.")
         
     def get_helptype(self):
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
     
     def start(self):
         """Mandatory method."""
@@ -254,7 +254,7 @@ class Activity:
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
     
     def pre_level(self,level):
         """Mandatory method.

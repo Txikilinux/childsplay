@@ -152,7 +152,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Simon_sp")
+        return ("Simon_sp")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -160,33 +160,33 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-        _("Try to repeat the sequence of sounds played."),
+        text = [("The aim of this activity:"),
+        ("Try to repeat the sequence of sounds played."),
         " ", 
-        _("On the screen are four blocks of different colours."), 
-        _("Press the Start button with your finger."), 
+        ("On the screen are four blocks of different colours."), 
+        ("Press the Start button with your finger."), 
         " ", 
-        _("The  blocks will light up randomly along with sound clues."), 
-        _("When the flashing stops you will be prompted to repeat the sequence by touching the coloured blocks."), 
+        ("The  blocks will light up randomly along with sound clues."), 
+        ("When the flashing stops you will be prompted to repeat the sequence by touching the coloured blocks."), 
         " ",
         ]
         return text 
     
     def get_helptip(self):
         """Mandatory method, when no tips available returns an empty list"""
-        return _("Mind the sound sequence as well as the colors sequence.")
+        return ("Mind the sound sequence as well as the colors sequence.")
         
     def get_helptype(self):
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Memory")
+        return ("Memory")
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
     
     def stop(self):
         pygame.event.clear()

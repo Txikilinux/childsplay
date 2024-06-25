@@ -80,7 +80,7 @@ class Activity:
         # You MUST call SPInit BEFORE using any of the SpriteUtils stuff
         # it returns a reference to the special CPGroup
         self.actives = SPSpriteUtils.SPInit(self.screen,self.backgr)
-        self.newbutton = SPWidgets.ButtonRound(_("New"), (300, 560), fgcol=WHITE, \
+        self.newbutton = SPWidgets.ButtonRound(("New"), (300, 560), fgcol=WHITE, \
                                                      fsize=18, sizename='small')
         self.newbutton.connect_callback(self._cbf_new, MOUSEBUTTONDOWN)
                 
@@ -99,7 +99,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Wipe")
+        return ("Wipe")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -107,9 +107,9 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
+        text = [("The aim of this activity:"),
         " ",
-        _("Wipe with your finger on the screen to uncover the picture."),
+        ("Wipe with your finger on the screen to uncover the picture."),
         " "]
         return text 
     
@@ -121,7 +121,7 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
     
     def start(self):
         """Mandatory method."""
@@ -132,7 +132,7 @@ class Activity:
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 1
+        return ("This activity has %s levels") % 1
     
     def pre_level(self,level):
         """Mandatory method.
@@ -153,7 +153,7 @@ class Activity:
         self.wiper = SPSpriteUtils.SPSprite(img)
         files = glob.glob(os.path.join(self.my_datadir,'tileset_*.png'))
         files.sort()
-        lbl = SPWidgets.Label(_("Please, choose a set of images."),\
+        lbl = SPWidgets.Label(("Please, choose a set of images."),\
                                 (80, y),fsize=24, transparent=True)
         lbl.display_sprite()
 #        y += lbl.get_sprite_height()

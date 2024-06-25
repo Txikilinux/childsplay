@@ -185,7 +185,7 @@ class Activity:
         
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Soundmemory")
+        return ("Soundmemory")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -193,34 +193,34 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-        _("Classic memory game where you have to find pairs of sounds."),
+        text = [("The aim of this activity:"),
+        ("Classic memory game where you have to find pairs of sounds."),
         " ", 
-        _("When you touch the picture you will hear a sound.\nMatch the image with others that make the same sound,to get points."), 
+        ("When you touch the picture you will hear a sound.\nMatch the image with others that make the same sound,to get points."), 
         " "]
         return text 
     
     def get_helptip(self):
         """Mandatory method, when no tips available returns an empty list"""
-        return _("Correctness is more important than speed")
+        return ("Correctness is more important than speed")
         
     def get_helptype(self):
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Memory")
+        return ("Memory")
         
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels" % number-of-levels)"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
     
     def start(self):
         """Mandatory method."""
         if not pygame.mixer.get_init():
             self.logger.error("No sound card found or not available")
-            self.SPG.tellcore_info_dialog(_(SPHelpText.Nosound.ActivityStart))
+            self.SPG.tellcore_info_dialog(SPHelpText.Nosound.ActivityStart)
             raise utils.MyError(SPHelpText.Nosound.ActivityStart)
         self.all_sounds_files = glob.glob(os.path.join(self.my_datadir,'Sounds','*.ogg'))
         self.logger.debug("Loaded %s files from %s" % (len(self.all_sounds_files), \
@@ -383,7 +383,7 @@ class Activity:
             self.actives.update(item)# Check all objects in group for callback function
         except:
             self.logger.exception("Unhandled exception")
-            raise StandardError
+            raise Exception
         # check if there objects left in the sprite group
         if not self.actives.sprites():
             # we call the SPGoodies observer to notify the core the level

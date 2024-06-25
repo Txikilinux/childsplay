@@ -182,7 +182,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Fallingletters")
+        return ("Fallingletters")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -190,28 +190,28 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-        _("Type the falling letters on the keyboard before they hit the ground."),
-        _("In the last two levels the uppercase and lowercase are mixed but you don't have to match the case only the letter"),
+        text = [("The aim of this activity:"),
+        ("Type the falling letters on the keyboard before they hit the ground."),
+        ("In the last two levels the uppercase and lowercase are mixed but you don't have to match the case only the letter"),
         " "]
         return text 
     
     def get_helptip(self):
         """Mandatory method, when no tips available returns an empty list"""
-        return [_("Correctness is more important than speed")]
+        return [("Correctness is more important than speed")]
         
     def get_helptype(self):
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Alphabet/Keyboardtraining")
+        return ("Alphabet/Keyboardtraining")
         
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
     
     def pre_level(self,level):
         """Mandatory method.

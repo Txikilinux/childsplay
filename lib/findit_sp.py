@@ -209,7 +209,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Findit")
+        return ("Findit")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -217,12 +217,12 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-                _("On the screen you will see two almost identical pictures.\nHowever, there are differences between the images."), 
+        text = [("The aim of this activity:"),
+                ("On the screen you will see two almost identical pictures.\nHowever, there are differences between the images."), 
                 " ", 
-                _("When you spot a difference, touch it with your finger.\nYou can click the question mark in the middle of the screen if you need a hint."), 
+                ("When you spot a difference, touch it with your finger.\nYou can click the question mark in the middle of the screen if you need a hint."), 
         " ",
-        _("The arrows to the left take you to the previous image.")
+        ("The arrows to the left take you to the previous image.")
         ]
         return text 
     
@@ -234,14 +234,14 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
     
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
 
     def start(self):
         """Mandatory method."""
@@ -322,7 +322,7 @@ class Activity:
         self.ImgDiffList = []
         try:
             lines = open(p % level, 'r').readlines()
-        except IOError, info:
+        except IOError as info:
             raise utils.MyError, info
         for line in lines:
             k, v = line[:-1].split(';',1)
@@ -330,7 +330,7 @@ class Activity:
                 self.ImgDiffHash[os.path.join(self.imgdir, k)] = \
                                 [pygame.Rect(eval(x,{'__builtins__': None},\
                                 {'True':True,'False':False})) for x in v.split(':')]
-            except SyntaxError, info:
+            except SyntaxError as info:
                 self.logger.error('Badly formed rect line in %s; %s' % (p % level, line))
         self.LevelScoreHash = {1:3, 2:3, 3:3, 4:3, 5:3, 6:3}
         

@@ -114,7 +114,7 @@ class TextBox(SPSpriteUtils.SPSprite):
         ai = Act_ichanger()
         self.textsurfs = []
         for txt in (ai.box1, ai.box2, ai.box3):
-            s = SPWidgets.render_textrect(_(txt), 18, TTF, surf, WHITE, \
+            s = SPWidgets.render_textrect((txt), 18, TTF, surf, WHITE, \
                               None, justification=0, \
                               autofit=False, border=0, padding=24)
             self.textsurfs.append(s)
@@ -284,7 +284,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Ichanger")
+        return ("Ichanger")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -292,10 +292,10 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-                _("Several images from the past will appear on the screen.\nLook carefully at them and remember what you see."), 
+        text = [("The aim of this activity:"),
+                ("Several images from the past will appear on the screen.\nLook carefully at them and remember what you see."), 
         " ",
-        _("Touch the 'START' button on the right.\nThe images will dissappear and when they return, one will have changed.\nTouch the picture which has changed."), 
+        ("Touch the 'START' button on the right.\nThe images will dissappear and when they return, one will have changed.\nTouch the picture which has changed."), 
         " "]
         return text 
     
@@ -307,20 +307,20 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
 
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 4
+        return ("This activity has %s levels") % 4
 
     def start(self):
         """Mandatory method."""
         self.SPG.tellcore_set_dice_minimal_level(3)
-        self.startbut = SPWidgets.SimpleButtonDynamic(_('Start'), self.but_pos[0], fsize=24, colorname='green')
+        self.startbut = SPWidgets.SimpleButtonDynamic(('Start'), self.but_pos[0], fsize=24, colorname='green')
         self.startbut.set_use_current_background(True)
-        self.cheatbut = SPWidgets.SimpleButtonDynamic(_('Cheat'), self.but_pos[0], fsize=24, colorname='green')
+        self.cheatbut = SPWidgets.SimpleButtonDynamic(('Cheat'), self.but_pos[0], fsize=24, colorname='green')
         self.cheatbut.set_use_current_background(True)
         self.startbut.connect_callback(self._startbutton_cbf, MOUSEBUTTONDOWN)
         self.cheatbut.connect_callback(self._cheatbutton_cbf, MOUSEBUTTONDOWN)

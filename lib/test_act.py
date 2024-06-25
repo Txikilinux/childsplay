@@ -29,7 +29,7 @@ module_logger = logging.getLogger("childsplay.test_act")
 # standard modules you probably need
 import os
 import sys
-print sys.path
+print( sys.path )
 # Now python finds the pygame 1.9 package first.
 # It's ignored when there's no such path
 import pygame
@@ -94,7 +94,7 @@ class Capture(object):
         if not os.path.isdir(capture_path):
             os.mkdir(capture_path)
         filename = os.path.join(capture_path, str(self.SPG.get_current_user_id()) + ".png")
-        print "Filename: ", filename
+        print( "Filename: ", filename )
         pygame.image.save(self.snapshot, filename)
         #self.screen.blit(self.snapshot, self.blit_pos)
         #pygame.time.wait(1500)
@@ -168,7 +168,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Test_act")
+        return ("Test_act")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -176,9 +176,9 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
+        text = [("The aim of this activity:"),
         " ",
-        _("Number of levels : 5"),
+        ("Number of levels : 5"),
         " "]
         return text 
     
@@ -190,7 +190,7 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
     
     def start(self):
         """Mandatory method."""
@@ -199,7 +199,7 @@ class Activity:
         b = os.path.join(self.CPdatadir, '200px_80px_blue.png')
         b_ro = os.path.join(self.CPdatadir, '200px_80px_black.png')
         self.shootbut = SPWidgets.TransImgButton(b, b_ro, (300, 500), fcol=WHITE, \
-                                             text=_("Shoot"))
+                                             text=("Shoot"))
         self.shootbut.connect_callback(self._cbf_shoot_but, MOUSEBUTTONUP, None)
         
         mp = mpylayer.MPlayerControl()
@@ -210,7 +210,7 @@ class Activity:
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
     
     def pre_level(self,level):
         """Mandatory method.

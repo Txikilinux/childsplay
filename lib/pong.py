@@ -94,7 +94,7 @@ class PcPlayer:
     def __init__(self, rc_dic):
         """bat must be a Bat class object."""
         self.up,self.down = ord(Misc.bat_l.up),ord(Misc.bat_l.down)
-        self.u_up,self.u_down = unicode(Misc.bat_l.up), unicode(Misc.bat_l.down)
+        self.u_up,self.u_down = Misc.bat_l.up, Misc.bat_l.down
         self.batstarty = Misc.bat_l.rect[1]
         self.balldirection = Misc.ball.xoffset
         self.event_dict = {'key':self.up,'unicode':self.u_up}
@@ -291,8 +291,8 @@ class Bat(SPSpriteUtils.SPSprite):
             if event.type == KEYDOWN:
                 try:
                     c = event.unicode.upper()
-                except ValueError,info:
-                    print info
+                except ValueError as info:
+                    print( info )
                     return
                 else:
                     if c == self.up:
@@ -370,7 +370,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Pong")
+        return ("Pong")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -378,14 +378,14 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
+        text = [("The aim of this activity:"),
         " ",
-        _("The classic pong game where you must hit a ball with your bat."),
-        _("There are three modes to choose from:"),\
-        _("Single play - Hit the ball against the wall."),\
-        _("Multi player against the computer - Try to defeat the computer."),\
-        _("Multi player - Play against another player."),\
-        _("In the multiplayer modes, the one who has 11 points wins."),\
+        ("The classic pong game where you must hit a ball with your bat."),
+        ("There are three modes to choose from:"),\
+        ("Single play - Hit the ball against the wall."),\
+        ("Multi player against the computer - Try to defeat the computer."),\
+        ("Multi player - Play against another player."),\
+        ("In the multiplayer modes, the one who has 11 points wins."),\
         " "]
         return text 
     
@@ -397,13 +397,13 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Fun")
+        return ("Fun")
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
     
     def pre_level(self,level):
         """Mandatory method.
@@ -422,7 +422,7 @@ class Activity:
         # The same problem exists when playing with two players but it's less annoying 
         positions = [(130,70),(130,220)]#,(130,370)]
         images = ('single.jpg','multi_person.jpg')#,'multi_pc.jpg')
-        head = _("Choose the game to play:")
+        head = ("Choose the game to play:")
         s = utils.char2surf(head,32,GREEN, bold=True)
         pygame.display.update(Img.screen.blit(s,(80,4)))
         for pos,img,data in map(None,positions,images,('1','2')):
@@ -524,15 +524,15 @@ class Activity:
         
         lspeed,rspeed = 8,8
         try:
-            u = unicode(self.rc_dic['right_keyup'])
-            d = unicode(self.rc_dic['right_keydown'])
+            u = self.rc_dic['right_keyup']
+            d = self.rc_dic['right_keydown']
         except (TypeError,KeyError):
             u,d = u'p',u'l'
         Misc.bat_r = Bat(self.rc_dic, action_keys=(u,d),speed=rspeed)# to keep a reference to the bat, see class Ball
         Misc.bat_r.set_position((768,220))
         try:
-            u = unicode(self.rc_dic['left_keyup'])
-            d = unicode(self.rc_dic['left_keydown'])
+            u = self.rc_dic['left_keyup']
+            d = self.rc_dic['left_keydown']
         except (TypeError,KeyError):
             u,d = u'q',u'a'
         Misc.bat_l = Bat(self.rc_dic, action_keys=(u,d),speed=lspeed)
@@ -570,13 +570,13 @@ class Activity:
                           (398,16),\
                           (398,484),\
                           4)
-        txt = _("Hit the Escape key to stop.")
+        txt = ("Hit the Escape key to stop.")
         s = utils.char2surf(txt, 18, GREEN, bold=True)
         Img.screen.blit(s, (50, 550))
                           
     def _splash_controls(self):
         Img.screen.fill((0,0,0))
-        txt = _("Use these keys on your keyboard to control the bat.")
+        txt = ("Use these keys on your keyboard to control the bat.")
         txtlist = utils.txtfmt([txt],36)
         s1,spam = utils.text2surf(txtlist[0],18,GREEN, bold=True)
         s2,spam = utils.text2surf(txtlist[1],18,GREEN, bold=True)

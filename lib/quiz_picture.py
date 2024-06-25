@@ -78,7 +78,7 @@ class Activity(quiz.Activity):
         try:
             self.quizengine = quiz.Engine('picture', self.SPG, \
                                                   self.observer, self.rchash)
-        except Exception, info:
+        except Exception as info:
             self.logger.exception("error starting quiz engine: %s" % info)
             self.SPG.tellcore_info_dialog(str(info))
             
@@ -91,7 +91,7 @@ class Activity(quiz.Activity):
         
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Picture Quiz")
+        return ("Picture Quiz")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -99,11 +99,11 @@ class Activity(quiz.Activity):
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-                _("Answer the quiz questions."), 
+        text = [("The aim of this activity:"),
+                ("Answer the quiz questions."), 
         " ",
-        _("At the top of the screen, you will see a question about a picture."),
-        _("Below it are a choice of possible answers.\nTouch the correct answer."), 
+        ("At the top of the screen, you will see a question about a picture."),
+        ("Below it are a choice of possible answers.\nTouch the correct answer."), 
         " "]
         return text 
     
@@ -115,12 +115,12 @@ class Activity(quiz.Activity):
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
 
     

@@ -113,9 +113,9 @@ class Activity:
         f.close()
         self.wc = WordCompleter(self.wordlist)
         
-        self.questiontext = _("Make a word with the letter: ")
-        self.foundtext =  _("Already found:")
-        self.suggestiontext = _("Suggestions:")
+        self.questiontext = ("Make a word with the letter: ")
+        self.foundtext =  ("Already found:")
+        self.suggestiontext = ("Suggestions:")
 
     def dailytraining_pre_level(self, level):
         """Mandatory method"""
@@ -137,7 +137,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Synonyms")
+        return ("Synonyms")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -147,13 +147,13 @@ class Activity:
         """Mandatory methods"""
         # Found a not translated FILE hooked to get it working in NL
         # _("On the next screen you'll find a keyboard, try to make as much words as possible that begin with the letter '%s'." % self.currentletter.upper()), \
-        text = [_("The aim of this activity:"),\
+        text = [("The aim of this activity:"),\
                 " ", \
-                _("On the next screen you'll find a keyboard, try to make as much words as possible that begin with the letter '%s'.") % self.currentletter.upper(), \
-                _("Only words from the dictionary are allowed."), \
-               _("Hit the 'Begin' button to start." ), \
+                ("On the next screen you'll find a keyboard, try to make as much words as possible that begin with the letter '%s'.") % self.currentletter.upper(), \
+                ("Only words from the dictionary are allowed."), \
+               ("Hit the 'Begin' button to start." ), \
                " ", \
-                _("Number of levels : 6")]
+                ("Number of levels : 6")]
         return text 
     
     def get_helptip(self):
@@ -164,14 +164,14 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
         
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
     
     def pre_level(self,level):
         """Mandatory method.
@@ -362,7 +362,7 @@ class Activity:
         self.logger.debug("_on_newquestionbut_clicked called")
         self.found_x, self.found_y = self.textright_pos[0], self.textright_pos[1] + 30
         self.kb.clear_display()
-        txt = _("Starting a new exercise")
+        txt = "Starting a new exercise"
         self.next_exercise()
 
     def next_exercise(self, currentletter=None):

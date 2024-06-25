@@ -115,9 +115,9 @@ class Activity(synonyms.Activity):
         self.logger.debug("Found categories %s" % self.categories)
         random.shuffle(self.categories)
         self.currentcategory = self.categories.pop()
-        self.questiontext = _("beginning with the letter: ")
-        self.foundtext =  _("Already found:")
-        self.suggestiontext = _("Suggestions:")
+        self.questiontext = ("beginning with the letter: ")
+        self.foundtext =  ("Already found:")
+        self.suggestiontext = ("Suggestions:")
         self.wc = WordCompleter([])
         self.newexercise_counter = 3
     
@@ -126,7 +126,7 @@ class Activity(synonyms.Activity):
         self.newexercise_counter -= 1
         self.found_x, self.found_y = self.textright_pos[0], self.textright_pos[1] + 30
         self.kb.clear_display()
-        txt = _("Starting a new exercise")
+        txt = ("Starting a new exercise")
         self.next_exercise() 
  
     def next_exercise(self, currentletter=None):
@@ -193,7 +193,7 @@ class Activity(synonyms.Activity):
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Spin the bottle")
+        return ("Spin the bottle")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -201,13 +201,13 @@ class Activity(synonyms.Activity):
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),\
+        text = [("The aim of this activity:"),\
                 " ", \
-                _("On the next screen you'll find a keyboard, try to name as much %s as possible with the same letter.") % (self.currentcategory), \
-                _("Only words from the dictionary are allowed."), \
-               _("Hit the 'Begin' button to start." ), \
+                ("On the next screen you'll find a keyboard, try to name as much %s as possible with the same letter.") % (self.currentcategory), \
+                ("Only words from the dictionary are allowed."), \
+               ("Hit the 'Begin' button to start." ), \
                " ", \
-                _("Number of levels : 6")]
+                ("Number of levels : 6")]
         
         return text 
     
@@ -219,14 +219,14 @@ class Activity(synonyms.Activity):
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
         
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
     
     def get_score(self,timespend):
         """Mandatory method.

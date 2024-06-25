@@ -131,7 +131,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Quiz")
+        return ("Quiz")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -139,11 +139,11 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-                _("Answer the quiz questions."), 
+        text = [("The aim of this activity:"),
+                ("Answer the quiz questions."), 
         " ",
-        _("At the top of the screen, you will see a general knowledge question."),
-        _("Below it are a choice of possible answers.\nTouch the correct answer."), 
+        ("At the top of the screen, you will see a general knowledge question."),
+        ("Below it are a choice of possible answers.\nTouch the correct answer."), 
         " "]
         return text 
     
@@ -154,19 +154,19 @@ class Activity:
     def get_extra_info(self):
         """Optional method to provide extra info to the user by adding it to the 
         help dialog"""
-        return _("question id: %s") % self.quizengine.get_question_id()
+        return ("question id: %s") % self.quizengine.get_question_id()
 
     def get_helptype(self):
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Memory")
+        return ("Memory")
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
 
     def start(self):
         """Mandatory method."""

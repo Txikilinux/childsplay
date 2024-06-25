@@ -153,7 +153,7 @@ class Activity(quiz.Activity):
         try:
             self.quizengine = quiz.Engine('history', self.SPG,\
                                                    self.observer, self.rchash)
-        except Exception, info:
+        except Exception as info:
             self.logger.exception("error starting quiz engine: %s" % info)
             self.SPG.tellcore_info_dialog(str(info))
     
@@ -216,7 +216,7 @@ class Activity(quiz.Activity):
                     return True
 
             pygame.display.update(self.screen.blit(self.background_keyboard,(115,140)))
-            lbl = SPWidgets.Label(_("Please enter your year of birth."),\
+            lbl = SPWidgets.Label(("Please enter your year of birth."),\
                                 (125, 150),fsize=24, fgcol=(255,255,255), transparent=True)
             lbl.display_sprite()
             kb = KeyBoard(self._kb_cbf, self.actives, keyboard_mode='numbers',\
@@ -239,7 +239,7 @@ class Activity(quiz.Activity):
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Quiz history")
+        return ("Quiz history")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -247,11 +247,11 @@ class Activity(quiz.Activity):
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-                 _("Answer the quiz questions."), 
+        text = [("The aim of this activity:"),
+                 ("Answer the quiz questions."), 
         " ",
-        _("At the top of the screen, you will see a question from general knowledge question from the selected period."),
-        _("Below it are a choice of possible answers.\nTouch the correct answer."), 
+        ("At the top of the screen, you will see a question from general knowledge question from the selected period."),
+        ("Below it are a choice of possible answers.\nTouch the correct answer."), 
         " "]
         return text 
     
@@ -263,14 +263,14 @@ class Activity(quiz.Activity):
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
     
     
     def get_helplevels(self):
         """Mandatory method, must return a string with the number of levels
         in the following format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 2
+        return ("This activity has %s levels") % 2
 
     def loop(self,events):
         """Mandatory method.

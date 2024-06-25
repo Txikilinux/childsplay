@@ -340,7 +340,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Tictactoe")
+        return ("Tictactoe")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -369,7 +369,7 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
     
     def start(self):
         """Mandatory method."""
@@ -381,7 +381,7 @@ class Activity:
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
         #return _("This activity has %s levels") % 6
-        return _("This activity has no levels")
+        return ("This activity has no levels")
     
     def pre_level(self,level):
         """Mandatory method.

@@ -211,8 +211,8 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-        _("This activity is known as the daily training which is a collection of activities."), 
+        text = [("The aim of this activity:"),
+        ("This activity is known as the daily training which is a collection of activities."), 
         " "]
         return text 
     
@@ -224,7 +224,7 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
         
     
     def get_helplevels(self):
@@ -247,7 +247,7 @@ class Activity:
         self.SPG.tellcore_disable_level_indicator()
         self.SPG.tellcore_disable_score_button()
         self.screen.blit(self.backsquare, (50, 110))
-        txt = [_("If you ready to start the next activity, hit the 'start' button.")]
+        txt = [("If you ready to start the next activity, hit the 'start' button.")]
         txt = utils.txtfmt(txt, 40)
         y = 200
         for t in txt:
@@ -258,7 +258,7 @@ class Activity:
         startbutpath = utils.load_image(os.path.join(self.my_datadir, 'start.png'))
         startbutpath_ro = utils.load_image(os.path.join(self.my_datadir, 'start_ro.png'))
         self.startbutton = SPWidgets.TransImgButton(startbutpath, startbutpath_ro, \
-                                    (300, 350), fsize=32, text= _("Start"), fcol=WHITE)
+                                    (300, 350), fsize=32, text= ("Start"), fcol=WHITE)
         self.startbutton.connect_callback(self._cbf, MOUSEBUTTONDOWN, 'start')
         self.startbutton.set_use_current_background(True)
         self.startbutton.display_sprite()
@@ -334,7 +334,7 @@ class Activity:
                     level = self.prev_data[self.currentactname]['level'] + 1
                 else:
                     level = self.prev_data[self.currentactname]['level']
-            except Exception, msg:
+            except Exception as msg:
                 self.logger.warning("Failed to query previous dt data: %s" % msg)
                 self.logger.warning("Possible dbase corruption, prevdata was: %s" % self.prev_data)
                 self.logger.warning("setting level to 2 and continue")
@@ -371,11 +371,11 @@ class Activity:
         return True
 
     def display_results(self):
-        txt0 = _("You have finished the daily training module.")
-        txt1 = _("Your results are:")
-        txt1a = _("Your average results per group are:")
-        txt2 = _("Activity:")
-        txt3 = _("Score:")
+        txt0 = ("You have finished the daily training module.")
+        txt1 = ("Your results are:")
+        txt1a = ("Your average results per group are:")
+        txt2 = ("Activity:")
+        txt3 = ("Score:")
         # positions
         txt0_pos = (10, 4)
         txt1_pos = (10, 30)
@@ -431,11 +431,11 @@ class Activity:
 #                surf.blit(s, (40, y))
 #                y += s.get_rect().h
         
-        dlg = SPWidgets.Dialog(SPWidgets.Widget(surf),buttons=[_("Details"), _("OK")], title=_('Results'))
+        dlg = SPWidgets.Dialog(SPWidgets.Widget(surf),buttons=[("Details"), ("OK")], title=('Results'))
         dlg.run() # this blocks any other events loops
         answer = dlg.get_result()
         dlg.erase_sprite()
-        if answer[0] == _("OK"):
+        if answer[0] == ("OK"):
             return
             
         # details screen

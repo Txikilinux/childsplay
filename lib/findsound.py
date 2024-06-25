@@ -115,7 +115,7 @@ class Activity:
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Findsound")
+        return ("Findsound")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -123,8 +123,8 @@ class Activity:
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-        _("Listen to the sound and click on the image to which it belongs."),
+        text = [("The aim of this activity:"),
+        ("Listen to the sound and click on the image to which it belongs."),
         " "]
         return text 
     
@@ -136,13 +136,13 @@ class Activity:
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Miscellaneous")
+        return ("Miscellaneous")
     
     def start(self):
         """Mandatory method."""
         if not pygame.mixer.get_init():
             self.logger.error("No sound card found or not available")
-            self.SPG.tellcore_info_dialog(_(SPHelpText.CP_find_char_sound.ActivityStart))
+            self.SPG.tellcore_info_dialog((SPHelpText.CP_find_char_sound.ActivityStart))
             raise utils.MyError(SPHelpText.CP_find_char_sound.ActivityStart)
         self.soundlanguagedir = os.path.join(self.my_datadir,'Sounds')
         self.imagelanguagedir = os.path.join(self.my_datadir,'Images')
@@ -155,7 +155,7 @@ class Activity:
         """Mandatory method, must return a string with the number of levels
         in the follwing format:
         _("This level has %s levels") % number-of-levels"""
-        return _("This activity has %s levels") % 6
+        return ("This activity has %s levels") % 6
     
     def pre_level(self,level):
         """Mandatory method.

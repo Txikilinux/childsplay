@@ -81,7 +81,7 @@ class Activity(quiz.Activity):
         try:
             self.quizengine = quiz.Engine('math', self.SPG,\
                                                    self.observer, self.rchash)
-        except Exception, info:
+        except Exception as info:
             self.logger.exception("error starting quiz engine: %s" % info)
             self.SPG.tellcore_info_dialog(str(info))
     
@@ -94,7 +94,7 @@ class Activity(quiz.Activity):
 
     def get_helptitle(self):
         """Mandatory method"""
-        return _("Math Quiz")
+        return ("Math Quiz")
     
     def get_name(self):
         """Mandatory method, returnt string must be in lowercase."""
@@ -102,13 +102,13 @@ class Activity(quiz.Activity):
     
     def get_help(self):
         """Mandatory methods"""
-        text = [_("The aim of this activity:"),
-                _("Answer the math questions."), 
+        text = [("The aim of this activity:"),
+                ("Answer the math questions."), 
         " ",
-        _("At the top of the screen, you will see a question about math problem."),
-        _("Below it are a choice of possible answers.\nTouch the correct answer."),
+        ("At the top of the screen, you will see a question about math problem."),
+        ("Below it are a choice of possible answers.\nTouch the correct answer."),
         " ", 
-        _("Remember, the order of operations is multiplication or division and followed by addition or subtraction.")]
+        ("Remember, the order of operations is multiplication or division and followed by addition or subtraction.")]
         return text 
     
     def get_helptip(self):
@@ -119,7 +119,7 @@ class Activity(quiz.Activity):
         """Mandatory method, you must set an type"""
         # Possible types are: Memory, Math, Puzzle, Keyboardtraining, Mousetraining
         #                     Language, Alphabet, Fun, Miscellaneous
-        return _("Math")
+        return ("Math")
     
     
     
