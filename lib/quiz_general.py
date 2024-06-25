@@ -40,8 +40,7 @@ from SPWidgets import TransPrevNextButton
 try:
     from xml.etree.ElementTree import ElementTree
 except ImportError:
-    # try the python2.4 way 
-    from elementtree.ElementTree import ElementTree
+    print("Error importing ElementTree in quiz_general.py")
 
 def parse_xml(xml):
     """Parses the whole xml tree into a hash with lists. Each list contains hashes

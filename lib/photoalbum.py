@@ -41,8 +41,7 @@ from Timer import Timer
 try:
     from xml.etree.ElementTree import ElementTree
 except ImportError:
-    # try the python2.4 way 
-    from elementtree.ElementTree import ElementTree
+    print("Error importing ElementTree in photoalbum.py")
 
 class Photo(SPSpriteUtils.SPSprite):
     def __init__(self, p):

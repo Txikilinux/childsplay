@@ -37,7 +37,7 @@ else:
         raise MyError
     module_logger.debug("using sqlalchemy %s" % sqla.__version__)
 try:
-    import sqlalchemy.exceptions as sqlae
+    import sqlalchemy.exc as sqlae
 except ImportError:
     from sqlalchemy import exc as sqlae
 import SQLTables
@@ -50,7 +50,11 @@ rc_hash = ''
 
 if WHICHDBASE == 'mysql':
     try:
-        import MySQLdb, _mysql_exceptions
+        import pymysql
+        from pymysql import err
+#        import MySQLdb
+#        import mysql.connector
+#        from mysql.connector import errorcode
     except ImportError:
         module_logger.exception("No MySQLdb package found which is needed by sqlalchemy")
         module_logger.error("The WHICHDBASE constant is set in SPConstants to 'mysql'")
@@ -92,9 +96,13 @@ class DbaseMaker:
                 engine = sqla.create_engine('sqlite:///%s' % self.usersdbasepath)
             elif USEMYSQL:
                 self.logger.info("Starting mySQL dbase, %s" % rc_hash['sp_users']['dbasename'])
-                import MySQLdb, _mysql_exceptions
+                import pymysql
+                from pymysql import err
+#                import MySQLdb
+#                import mysql.connector
+#                from mysql.connector import errorcode
                 self.logger.info("Using conffile %s" % rc_hash['path'])
-                db=MySQLdb.connect(host=rc_hash['sp_users']['host'], \
+                db=pymysql.connect(host=rc_hash['sp_users']['host'], \
                                    user=rc_hash['sp_users']['user'], \
                                    passwd=rc_hash['sp_users']['user_pass'])
                 c = db.cursor()

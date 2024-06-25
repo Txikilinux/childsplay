@@ -47,18 +47,14 @@
   corrupt when using this script.
   
 """
+
 try:
-    from elementtree.ElementTree import ElementTree as ET
+    import xml.etree.ElementTree as ET
 except ImportError:
-    print( "failed to import elementtree.ElementTree as ET" )
-    print( "trying to import the 2.5 module xml.etree.ElementTree" )
-    try:
-        import xml.etree.ElementTree as ET
-    except ImportError:
-        print( "This script uses 'ElementTree' but it's not installed" )
-        print( "Look for 'python-elementtree' in your GNU/Linux distro and install it" )
-        print( "Windows users should loo at http://effbot.org/downloads/#elementtree" )
-        sys.exit(1)
+    print( "This script uses 'ElementTree' but it's not installed" )
+    print( "Look for 'python-elementtree' in your GNU/Linux distro and install it" )
+    print( "Windows users should loo at http://effbot.org/downloads/#elementtree" )
+    sys.exit(1)
 
 print( __doc__ )
 
