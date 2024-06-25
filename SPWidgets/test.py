@@ -7,7 +7,11 @@ from buttons import *
 from dialogs import *
 from funcs import *
 from text import *
-from gtk_widgets import *
+#from gtk_widgets import *
+
+import gi
+gi.require_version("Gtk", "3.0")
+from gi.repository import Gtk
 
 import pygame
 from pygame.constants import *

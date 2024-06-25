@@ -28,13 +28,7 @@ import glob
 import zlib
 from SPConstants import *
 
-if NoGtk:
-    try:
-        from pysqlite2 import dbapi2 as sqlite3
-    except ImportError:
-        import sqlite3
-else:
-    import sqlite3
+import sqlite3
 
 try:
     from xml.etree.ElementTree import ElementTree

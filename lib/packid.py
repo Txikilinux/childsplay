@@ -117,8 +117,9 @@ class Memory:
         self.memory = {}
         self.stack = [None]* len(points)
         
-    def remember(self,(key,item)):
+    def remember(self, pair):
         #print key,item
+        key, item = pair
         self.memory[key] = item
         self.stack.insert(0,key)
         try:
@@ -587,7 +588,7 @@ class Activity:
         except IOError as info:
             self.logger.exception("can't open or read words file %s" % \
                                   os.path.join(self.my_datadir,wordlist))
-            raise MyError
+            raise Exception
         if self.SPG.get_localesetting()[1]:
             self.words = [s[:-1] for s in items]
         else:
@@ -701,10 +702,10 @@ class Activity:
             self._build_field(matrix,1)
         elif self.level == 4:
             if self.sidepan.get_level_score():
-                load_music(os.path.join(self.my_datadir,'feelgood.ogg')).play()
+                utils.load_music(os.path.join(self.my_datadir,'feelgood.ogg')).play()
                 
                 self.brick = utils.load_image(os.path.join(self.my_datadir,'camo.png'),0)
-                m = MazeGen(17,25)
+                m = utils.MazeGen(17,25)
                 matrix = m.get_maze()
                 
                 #matrix = self._read_grid('grid3.txt')

@@ -529,7 +529,7 @@ class Activity:
                 hash['title'] = node.find('title').text
                 hash['text'] = node.find('text').text
             except AttributeError as info:
-                self.logger.error("The %s is badly formed, missing element(s):%s,%s" % (xml, info, e))
+                self.logger.error("The %s is badly formed, missing element(s):%s,%s" % (self.xml, info, self.e))
                 albumhash = {}
             else:
                 albumhash[hash['name']] = hash

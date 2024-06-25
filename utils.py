@@ -41,8 +41,10 @@ from pygame.constants import *
 from pygame import surfarray
 import textwrap
 
-if not NoGtk:
-    import pangofont
+import gi
+gi.require_version('Gtk', '3.0')
+gi.require_version('Pango', '1.0')
+from gi.repository import Gtk, Pango
 
 #from facedetect.facedetect import CAMFOUND
 CAMFOUND = None
@@ -487,7 +489,7 @@ def text2surf(word, fsize, fcol=None, ttf=None, sizel=None, bold=False, antialia
         s = font.render(word, True, fcol)
     else:
         try:
-            font = pangofont.PangoFont(family=ttf, size=fsize)
+            font = Pango(family=ttf, size=fsize)
             font.set_bold(bold)
         except Exception as info:
             module_logger.error('%s. Using standard pygame font' % info)
@@ -682,7 +684,7 @@ def import_module(filename, globals=None, locals=None, fromlist=None):
         fp, pathname, description = imp.find_module(name, [path])
         return imp.load_module(name, fp, pathname, description)
         if fp: fp.close()
-    except (( StandardError, MyError ), info ):
+    except ( Exception, MyError ) as info:
         module_logger.exception("Import of %s failed" % filename)
         raise ( MyError, info )
         if fp: fp.close()
@@ -735,7 +737,7 @@ class ScaleImages:
                 self.scaled_card = self._scale_if_needed(self.stdCard)
                 self.TargetSize.inflate_ip(-border, -border)# reduce the size of the rect, so the images are smaller
                     # then the card (compensate for border)
-            except ( StandardError, info ):
+            except Exception as info:
                 self.logger.exception("Failed to scale stdCardObj:%s, %s" % (stdCardObj, info))
                 self.stdCard = None
         else:

@@ -48,7 +48,7 @@
   
 """
 try:
-    import elementtree.ElementTree as ET
+    from elementtree.ElementTree import ElementTree as ET
 except ImportError:
     print( "failed to import elementtree.ElementTree as ET" )
     print( "trying to import the 2.5 module xml.etree.ElementTree" )
