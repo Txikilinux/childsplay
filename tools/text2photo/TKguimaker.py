@@ -12,6 +12,7 @@ import sys
 from tkinter import *                     # widget classes
 from types   import *                     # type constants
 from typing import List
+from tkinter import messagebox
 
 class GuiMaker(Frame):
     menuBar    = []                       # class defaults
@@ -96,8 +97,7 @@ class GuiMaker(Frame):
         """
         override me in subclass
         """
-        from tkMessageBox import showinfo
-        showinfo('Help', 'Sorry, no help for ' + self.__class__.__name__)
+        messagebox.showinfo('Help', 'Sorry, no help for ' + self.__class__.__name__)
 
     def start(self): pass  # override me in subclass
 
@@ -132,7 +132,7 @@ class GuiMakerWindowMenu(GuiMaker):    # use this for top-level window menus
 ###############################################################################
 
 if __name__ == '__main__':
-    from guimixin import GuiMixin            # mix in a help method
+    from TKmixin import GuiMixin            # from TKmixin.py, mix in a help method
 
     menuBar = [
         ('File', 0,

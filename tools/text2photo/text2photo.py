@@ -17,6 +17,7 @@
 import os, locale, gettext
 import builtins
 import logging, logging.handlers
+from SPConstants import LOCALEDIR
 # set loglevel, possible values:
 # logging.DEBUG
 # logging.INFO

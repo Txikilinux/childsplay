@@ -24,8 +24,10 @@ import logging
 from tkinter import *                        # widget classes
 from TKmixin import *        # mix-in methods
 from TKguimaker import *        # frame, plus menu/toolbar builder
-from ImageTk import PhotoImage, Image
-from tkSimpleDialog import askstring
+from PIL import PhotoImage, Image
+from tkinter import askstring
+from tkinter import messagebox
+from tkinter import filedialog
 
 try:
     from xml.etree.ElementTree import ElementTree
@@ -137,10 +139,10 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
         fr_1.pack(expand=YES, fill=BOTH, side=LEFT, anchor=N)   
            
     def yes_no_dialog(self, title, text):
-        return askyesno(title, text)
+        return messagebox.askyesno(title, text)
         
     def info_dialog(self, title, text):
-        return showinfo(title, text)
+        return messagebox.showinfo(title, text)
 
     def quit(self):
         ans = self.question('Verify quit', 'Are you sure you want to quit?')
@@ -155,7 +157,14 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
         # first we save any xmlnodes that we might have.
         if self.current_dir:
             self.save_xml()
-        dlg = Directory(title=('Select image directory to open'))
+        dlg = filedialog.askdirectory(title='Select image directory to open')
+#        dlg = Directory(title=('Select image directory to open'))
+        if dlg:
+            print(f"Selected directory: {dlg}")
+        else:
+            print("No directory selected or dialog canceled.")
+
+
         pick = dlg.show()
         if pick:
             self.current_files_hash = {}
@@ -264,7 +273,7 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
                 hash['title'] = node.find('title').text
                 hash['text'] = node.find('text').text
             except AttributeError as info:
-                self.logger.error("The %s is badly formed, missing element(s):%s" % (xml, info))
+                self.logger.error("The %s is badly formed, missing element(s):%s" % (self.xml, info))
                 albumhash = {'albumname': ''}
             else:
                 albumhash[hash['name']] = hash

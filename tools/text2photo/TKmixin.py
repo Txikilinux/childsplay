@@ -6,22 +6,23 @@
 # with a Frame (or a subclass derived from Frame) for its quit method
 ##############################################################################
 
+import os
 from tkinter import *
-from tkMessageBox import *
-from tkFileDialog import *
-from ScrolledText import ScrolledText
+from tkinter import messagebox
+from tkinter import filedialog
+from tkinter import scrolledtext
 #from PP3E.launchmodes import PortableLauncher, System
 
 class GuiMixin:
     def infobox(self, title, text, *args):              # use standard dialogs
-        return showinfo(title, text)                    # *args for bkwd compat
+        return messagebox.showinfo(title, text)                    # *args for bkwd compat
     def errorbox(self, text):
-        showerror('Error!', text)
+        messagebox.showerror('Error!', text)
     def question(self, title, text, *args):
-        return askyesno(title, text)
+        return filedialog.askyesno(title, text)
 
     def notdone(self):
-        showerror('Not implemented', 'Option not available')
+        filedialog.showerror('Not implemented', 'Option not available')
     def quit(self):
         ans = self.question('Verify quit', 'Are you sure you want to quit?')
         if ans == 1:
@@ -30,9 +31,9 @@ class GuiMixin:
         self.infobox('RTFM', 'See figure 1...')         # override this better
 
     def selectOpenFile(self, file="", dir="."):         # use standard dialogs
-        return askopenfilename(initialdir=dir, initialfile=file)
+        return filedialog.askopenfilename(initialdir=dir, initialfile=file)
     def selectSaveFile(self, file="", dir="."):
-        return asksaveasfilename(initialfile=file, initialdir=dir)
+        return filedialog.asksaveasfilename(initialfile=file, initialdir=dir)
 
     def clone(self):
         new = Toplevel( )                   # make a new version of me
@@ -41,13 +42,13 @@ class GuiMixin:
 
     def spawn(self, pycmdline, wait=0):
         if not wait:
-            PortableLauncher(pycmdline, pycmdline)( )     # run Python progam
+            os.PortableLauncher(pycmdline, pycmdline)( )     # run Python progam
         else:
-            System(pycmdline, pycmdline)( )               # wait for it to exit
+            os.System(pycmdline, pycmdline)( )               # wait for it to exit
 
     def browser(self, filename):
         new  = Toplevel( )                                # make new window
-        text = ScrolledText(new, height=30, width=90)      # Text with scrollbar
+        text = filedialog.ScrolledText(new, height=30, width=90)      # Text with scrollbar
         text.config(font=('courier', 10, 'normal'))        # use fixed-width font
         text.pack( )
         new.title("Text Viewer")                          # set window mgr attrs
