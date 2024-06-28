@@ -9,8 +9,9 @@
 ###############################################################################
 
 import sys
-from Tkinter import *                     # widget classes
+from tkinter import *                     # widget classes
 from types   import *                     # type constants
+from typing import List
 
 class GuiMaker(Frame):
     menuBar    = []                       # class defaults
@@ -52,10 +53,10 @@ class GuiMaker(Frame):
         for item in items:                     # scan nested items list
             if item == 'separator':            # string: add separator
                 menu.add_separator({})
-            elif type(item) == ListType:       # list: disabled item list
+            elif type(item) == List:       # list: disabled item list
                 for num in item:
                     menu.entryconfig(num, state=DISABLED)
-            elif type(item[2]) != ListType:
+            elif type(item[2]) != List:
                 menu.add_command(label     = item[0],         # command:
                                  underline = item[1],         # add command
                                  command   = item[2])         # cmd=callable

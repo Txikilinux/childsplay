@@ -21,7 +21,7 @@ import glob
 import shutil
 import logging
 
-from Tkinter import *                        # widget classes
+from tkinter import *                        # widget classes
 from TKmixin import *        # mix-in methods
 from TKguimaker import *        # frame, plus menu/toolbar builder
 from ImageTk import PhotoImage, Image
@@ -30,8 +30,7 @@ from tkSimpleDialog import askstring
 try:
     from xml.etree.ElementTree import ElementTree
 except ImportError:
-    # try the python2.4 way 
-    from elementtree.ElementTree import ElementTree
+    print("Import error on ElementTree.")
 
 XML_HEAD = \
 """<?xml version="1.0" encoding="utf-8"?>
@@ -87,7 +86,7 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
     def start(self):
         self.logger = logging.getLogger("schoolsplay.text2photo.TKgui.Main")
         self.logger.debug("Start Main")
-        self.master.title(_("Add text to your photos."))
+        self.master.title(("Add text to your photos."))
         self.master.iconname("text2photo Gui")
         self.menuBar = [                               # a tree: 3 pull downs
           ('File', 0,                                  # (pull-down)
@@ -104,7 +103,7 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
         # left side scrolllist
         fr_0 = Frame(self)
         fr_0.pack()
-        name = Label(fr_0, text = _('Picture names'))
+        name = Label(fr_0, text = ('Picture names'))
         name.pack(expand=NO, fill=None, side=TOP, anchor=N) 
         piclist = ['']
         self.scrlist = ScrolledList(piclist, self._observer_scrolledlist, fr_0)
@@ -115,19 +114,19 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
         fr_1 = Frame(self)
         fr_1.pack(expand=YES, fill=BOTH)
         self.canvaslabel_text = StringVar()
-        self.canvaslabel_text.set(_('Picture: %s') % piclist[0])
+        self.canvaslabel_text.set(('Picture: %s') % piclist[0])
         name = Label(fr_1, textvariable=self.canvaslabel_text)
         name.pack(expand=NO, fill=None, side=TOP, anchor=N) 
         
         self.canvas_size = (410, 310)
         self.image_canvas = Canvas(fr_1, width=410, height=310)
-        txt = _("Use the 'File' menu to open a directory with your pictures.\nDouble click on a image file name to select it.\nAdd a title and text and hit the 'OK' button. \nMake sure you save your work by using the 'File' menu.")
+        txt = ("Use the 'File' menu to open a directory with your pictures.\nDouble click on a image file name to select it.\nAdd a title and text and hit the 'OK' button. \nMake sure you save your work by using the 'File' menu.")
         y = 20
         for line in txt.split('\n'):
             self.image_canvas.create_text(10, y, text=line, anchor=NW)  
             y += 20
         self.image_canvas.pack(side=TOP, expand=YES, fill=BOTH)
-        Label(fr_1, text=_("Title: ")).pack(side=LEFT, expand=NO, fill=None, anchor=N)        
+        Label(fr_1, text=("Title: ")).pack(side=LEFT, expand=NO, fill=None, anchor=N)        
         self.texttitle = Entry(fr_1, width=100)
         self.texttitle.pack(side=TOP, expand=YES, fill=X)
         
@@ -156,7 +155,7 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
         # first we save any xmlnodes that we might have.
         if self.current_dir:
             self.save_xml()
-        dlg = Directory(title=_('Select image directory to open'))
+        dlg = Directory(title=('Select image directory to open'))
         pick = dlg.show()
         if pick:
             self.current_files_hash = {}
@@ -182,7 +181,7 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
             self.img = PhotoImage(image=img)
             self.image_canvas.delete('all')
             self.image_canvas.create_image(20, 5, image=self.img, anchor=NW)
-            self.canvaslabel_text.set(_('Picture: %s' % p))
+            self.canvaslabel_text.set(('Picture: %s' % p))
             self.text_entry.delete(1.0, END)
             self.texttitle.delete(0, END)
             self.current_selection = selection
@@ -193,15 +192,15 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
     def on_okbutton(self, *args):
         self.logger.debug("on_okbutton called")
         if not self.current_selection:
-            self.info_dialog(_("Warning"), _("No image selected."))
+            self.info_dialog(("Warning"), ("No image selected."))
             return
         title = self.texttitle.get().strip()
         if not title:
-            self.info_dialog(_("Warning"), _("No title text given."))
+            self.info_dialog(("Warning"), ("No title text given."))
             return
         text = [l for l in self.text_entry.get(1.0, END).split('\n') if l.strip()]
         if not text:
-            self.info_dialog(_("Warning"), _("No text given."))
+            self.info_dialog(("Warning"), ("No text given."))
             return
         self.xml_hash[self.current_selection] = {'name':self.current_selection, \
                                          'title': title, \
@@ -210,7 +209,7 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
     def save_xml(self):
         #TODO:What if the user edits text for an image that already has text ?
         if not self.current_dir:
-            self.info_dialog(_("Warning"), _("No directory selected."))
+            self.info_dialog(("Warning"), ("No directory selected."))
             return
         xmlnodes = []
         xmlpath = os.path.join(self.current_dir, 'text.xml')
@@ -245,9 +244,9 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
         tree = ElementTree()
         try:
             tree.parse(p)
-        except Exception, info:
+        except Exception as info:
             self.logger.error("%s" % info)
-            self.info_dialog(_("Warning"), str(info) + '\n' + _("Your text file is moved to text.xml.err"))
+            self.info_dialog(("Warning"), str(info) + '\n' + ("Your text file is moved to text.xml.err"))
             shutil.move(p, p + ".err")
             return {'albumname': ''}
         # here we start the parsing
@@ -264,8 +263,8 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
                 hash['name'] = node.get('name')
                 hash['title'] = node.find('title').text
                 hash['text'] = node.find('text').text
-            except AttributeError, info:
-                self.logger.error("The %s is badly formed, missing element(s):%s,%s" % (xml, info, e))
+            except AttributeError as info:
+                self.logger.error("The %s is badly formed, missing element(s):%s" % (xml, info))
                 albumhash = {'albumname': ''}
             else:
                 albumhash[hash['name']] = hash
@@ -273,7 +272,7 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
         return albumhash
 
 if __name__ == '__main__':  
-    import __builtin__
-    __builtin__.__dict__['_'] = lambda x:x
+    import builtins
+    builtins.__dict__['_'] = lambda x:x
     
     Main().mainloop( )   # make one, run one

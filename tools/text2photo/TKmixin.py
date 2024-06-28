@@ -6,7 +6,7 @@
 # with a Frame (or a subclass derived from Frame) for its quit method
 ##############################################################################
 
-from Tkinter import *
+from tkinter import *
 from tkMessageBox import *
 from tkFileDialog import *
 from ScrolledText import ScrolledText

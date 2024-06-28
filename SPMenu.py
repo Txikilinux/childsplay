@@ -29,6 +29,7 @@
 
 import sys
 import os
+import traceback
 
 import logging
 import types
@@ -57,6 +58,9 @@ import Version
 
 module_logger = logging.getLogger("childsplay.SPMenu")
 
+
+def log_parameter(param_name, param_value):
+    print(f"Parameter {param_name}: {param_value}")
 
 
 class ParseMenu:
@@ -270,9 +274,23 @@ class Activity:
         p = os.path.join(theme_dir, 'menuicons')
         print ("(DEBUG) theme_dir: %s" % (theme_dir))
         try:
+            # Log each parameter
+            log_parameter("p", p)
+            log_parameter("self.menu", self.menu)
+            log_parameter("self.menu_callback", self.menu_callback)
+            log_parameter("theme_rc", theme_rc)
+            log_parameter("lang", lang)
+            log_parameter("self.menudefault", self.menudefault)
+            log_parameter("removeables", self.removeables)
+
             self.Mn = Menu(p, self.menu, self.menu_callback, theme_rc, lang, self.menudefault, \
                            removeables=self.removeables)
-        except Exception as info:
+        except ValueError as info:
+            print("An exception occurred:")
+            print(f"Type: {type(info).__name__}")
+            print(f"Arguments: {info.args}")
+            print("Traceback:")
+            traceback.print_exc(file=sys.stdout)
             self.logger.exception( "Error while constructing the menu buttons. \n theme_rc: %s, lang: %s" % (theme_rc, lang) )
             self.logger.exception( "Error info: %s \n" % (info) )
             raise ( utils.MyError )

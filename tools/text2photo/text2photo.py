@@ -15,7 +15,7 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
 import os, locale, gettext
-import __builtin__
+import builtins
 import logging, logging.handlers
 # set loglevel, possible values:
 # logging.DEBUG
@@ -31,11 +31,11 @@ LOGPATH = os.path.join(os.getcwd(), "schoolsplay.log")
 if os.path.exists(LOGPATH):
     try:
         os.remove(LOGPATH)
-    except Exception, info:
-        print "Failed to remove old log"
-        print info
+    except Exception as info:
+        print( "Failed to remove old log" )
+        print( info )
     else:
-        print "removed old logpath"
+        print( "removed old logpath" )
 
 #create logger
 logger = logging.getLogger("schoolsplay")
@@ -74,7 +74,7 @@ try:
             else:
                 lang, enc = locale.getdefaultlocale()
                 lang = "%s.%s" % (lang, enc.lower())
-        except ValueError, info:
+        except ValueError as info:
             module_logger.error(info)
             lang = 'en'
     languages = [lang]
@@ -84,13 +84,13 @@ try:
     lang_trans = gettext.translation('seniorplay', \
         localedir=LOCALEDIR, \
         languages=languages)
-    __builtin__.__dict__['_'] = lang_trans.ugettext
-except Exception, info:
+    builtins.__dict__['_'] = lang_trans.ugettext
+except Exception as info:
     txt = ""
     if lang and lang.split('@')[0].split('.')[0].split('_')[0] != 'en':
         txt = "Cannot set language to '%s' \n switching to English" % lang
         module_logger.info("%s %s" % (info, txt))
-    __builtin__.__dict__['_'] = lambda x:x
+    builtins.__dict__['_'] = lambda x:x
     lang = 'en_US.utf8'
 else:
     lang = lang.split('@')[0]#.split('.')[0].split('_')[0]
