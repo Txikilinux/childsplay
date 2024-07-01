@@ -88,7 +88,7 @@ class Dialog(Widget):
         # get all the surfaces
         title = utils.char2surf(self.title, 24, ttf=TTF, fcol=self.THEME['dialog_title_fg_color'], bold=True)
         
-        if type(self.txt) == types.ListType or type(self.txt) in types.StringTypes:
+        if type(self.txt) == list or type(self.txt) in (str,):
             tv = TextView(self.txt, (0, 0), pygame.Rect(0, 0, self.dialogwidth, 400),\
                            bgcol='trans',fsize=self.fsize ,\
                           fgcol=self.THEME['dialog_fg_color'], autofit=True, bold=self.fbold)
@@ -123,7 +123,7 @@ class Dialog(Widget):
         self.image = dlgsurf
 
         self.rect.move_ip(self.pos)
-        for k, v in dlgsizes.items():
+        for k, v in list(dlgsizes.items()):
             dlgsizes[k].move_ip(self.pos)
         x = self.rect.left + ((self.rect.w - (self.butspace + 16 * len(self.buttons_list))) / 2)
         y = self.rect.bottom - self.buttons_list[0].rect.h *2

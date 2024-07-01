@@ -143,5 +143,5 @@ if __name__ == '__main__':
                 
 #    print TI.get_text()
 #    print box.get_text()
-    input("hit any key to stop")
+    eval(input("hit any key to stop"))
     

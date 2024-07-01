@@ -21,10 +21,10 @@
 import pygame
 from pygame.constants import *
 
-import utils
-from SPConstants import *
-import SPSpriteUtils
-import SPWidgets
+from . import utils
+from .SPConstants import *
+from . import SPSpriteUtils
+from . import SPWidgets
 import glob
 
 class Animation(SPSpriteUtils.SPSprite):
@@ -95,13 +95,13 @@ if __name__ == '__main__':
     import builtins
     builtins.__dict__['_'] = lambda x:x
     
-    import SPLogging
+    from . import SPLogging
     SPLogging.set_level('debug')
     SPLogging.start()
     
     pygame.init()
     
-    from SPSpriteUtils import SPInit
+    from .SPSpriteUtils import SPInit
     
     def cbf(sprite, event, data=''):
         print( 'cb called with sprite %s, event %s and data %s' % (sprite, event, data) )

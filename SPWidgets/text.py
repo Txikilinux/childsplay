@@ -53,15 +53,15 @@ class Label(Widget):
         self.transparent = transparent
         fgcol = self.THEME['label_fg_color']
         bgcol = self.THEME['label_bg_color']
-        if kwargs.has_key('fgcol'):
+        if 'fgcol' in kwargs:
             fgcol = kwargs['fgcol']
-        if kwargs.has_key('bgcol'):
+        if 'bgcol' in kwargs:
             bgcol = kwargs['bgcol']
-        if kwargs.has_key('minh'):
+        if 'minh' in kwargs:
             self.minh = kwargs['minh']
         else:
             self.minh = None
-        if kwargs.has_key('ttf'):
+        if 'ttf' in kwargs:
             self.ttf = kwargs['ttf']
         else:
             self.ttf = TTF
@@ -130,11 +130,11 @@ class TextView(Widget):
             fgcol = self.self.THEME['textview_fg_color']
         if not bgcol:
             bgcol = self.self.THEME['textview_bg_color']
-        if type(txt) in types.StringTypes and rect != None:
+        if type(txt) in (str,) and rect != None:
             self.image = render_textrect(txt, fsize, TTF, rect, fgcol, \
                               bgcol, justification=0, bold=bold, \
                               autofit=autofit, border=border)
-        elif txt and type(txt) is types.ListType:
+        elif txt and type(txt) is list:
             ll = []
             w = 0
             for line in txt:
@@ -273,12 +273,12 @@ class TextEntry(Widget):
                 self.backspace()
             elif event.key == K_RETURN:
                 return self.get_text()
-            elif event.unicode and ord(event.unicode) > 31:
+            elif event.str and ord(event.str) > 31:
                 if self.validationlist:
-                    if event.unicode in self.validationlist:
-                        self.add(event.unicode)
+                    if event.str in self.validationlist:
+                        self.add(event.str)
                 else:
-                    self.add(event.unicode)
+                    self.add(event.str)
     
     def _add_prompt(self):
         self.image.blit(self.orgimage, (0, 0))
@@ -395,7 +395,7 @@ class TextEntryBox(Widget):
         self.image.fill(self.THEME['textentry_bg_color'])
         
         y = 0
-        for te in self.TEs.values():
+        for te in list(self.TEs.values()):
             self.image.blit(te.get_surface(), (0, y))
             y += te.get_sprite_height()
         if border:
@@ -421,11 +421,11 @@ class TextEntryBox(Widget):
                     newwidget = self.TEs[self.currentline]
                     newwidget._add_prompt()
                     TEB_TextEntry._TEB_TextEntry__current = newwidget
-            elif event.unicode and ord(event.unicode) > 31:
-                widget.add(event.unicode)
+            elif event.str and ord(event.str) > 31:
+                widget.add(event.str)
     
     def get_text(self):
-        return [te.get_text() for te in self.TEs.values()]
+        return [te.get_text() for te in list(self.TEs.values())]
         
     def get_actives(self):
-        return self.TEs.values()
+        return list(self.TEs.values())

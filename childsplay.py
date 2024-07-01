@@ -24,7 +24,7 @@ from SPBasePaths import SHARELIBDATADIR
 
 if len(sys.argv) > 2:
     if sys.argv[1] == '--plainversion':
-        from SPVersion import version
+        from .SPVersion import version
         print ( version )
         if os.path.exists('/data/userdata/.schoolsplay.rc/tmp'):# btp production only
             shutil.rmtree('/data/userdata/.schoolsplay.rc/tmp',True)
@@ -50,7 +50,7 @@ CMD_Options = op.get_options()
 ### Must be removed or at least discussed before release #####
 #CMD_Options.loglevel = 'debug'
 
-import SPLogging
+from . import SPLogging
 SPLogging.set_level(CMD_Options.loglevel)
 SPLogging.start()
 
@@ -59,7 +59,7 @@ import logging as logger
 CPmodule_logger = logger.getLogger("childsplay.childsplay")
 CPmodule_logger.debug("Created schoolsplay loggers")
 
-import utils
+from . import utils
 
 BTPPID = None
 BTPSTART = None
@@ -98,7 +98,7 @@ import datetime
 #CPmodule_logger.info("For debugging purposes we run with some cmdline options hardcoded.")
 #CPmodule_logger.info("These must be removed before releasing this to the real world")
 #CPmodule_logger.info("Look at the top of this module for these options")
-from SPConstants import *
+from .SPConstants import *
 sys.path.insert(0, BASEDIR)
 sys.path.insert(0, os.path.join(BASEDIR, 'lib'))
 
@@ -172,7 +172,7 @@ pygame.display.update()
 
 if CMD_Options.checklog:
     try:
-        import SPlogCheck
+        from . import SPlogCheck
     except (ImportError, utils.SPError):
         sys.exit(1)
     except utils.MyError:
@@ -182,25 +182,25 @@ if CMD_Options.checklog:
 if not utils._set_lock():
     sys.exit(1)
 
-import SPMainCore
+from . import SPMainCore
 
 mcgui = None
 
-from SPgdm import GDMEscapeKeyException
+from .SPgdm import GDMEscapeKeyException
 
 # start the maincore, we only return here on an exit
 CPmodule_logger.debug("Start logging")
 CPmodule_logger.debug("commandline options: %s" % CMD_Options)
 CPmodule_logger.debug("SPMainCore running from: %s" % SPMainCore)
 
-from SPDataManagerCreateDbase import DbaseMaker
+from .SPDataManagerCreateDbase import DbaseMaker
 DEBUG = False
 try:
     #This will setup the dbases and ORMS
     dbm = DbaseMaker(CMD_Options.theme, debug_sql=DEBUG)            
 except ( (AttributeError, sqla.exceptions.SQLAlchemyError, utils.MyError) ):
     CPmodule_logger.exception("Failed to start the DBase, %s")
-    raise ( utils.MyError )
+    raise utils
 
 mainscreen = None
 abort = 0 

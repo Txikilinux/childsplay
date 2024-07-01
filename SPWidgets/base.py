@@ -48,7 +48,7 @@ def Init(theme):
     module_logger.debug("Using rc file %s" % rc)
     d = {}
     config.read(rc)
-    for k, v in dict(config.items('default')).items():
+    for k, v in list(dict(config.items('default')).items()):
         try:
             d[k] = eval(v, {'__builtins__': None}, {})
         except NameError:

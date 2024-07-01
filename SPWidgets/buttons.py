@@ -145,7 +145,7 @@ class Button(Widget):
         self._setup(s)
         
     def _setup(self, s):
-        if self.kwargs.has_key('bgcol'):
+        if 'bgcol' in self.kwargs:
             bgcol = self.kwargs['bgcol']
         else:
             bgcol = self.THEME['button_bg_color']
@@ -220,7 +220,7 @@ class ImgTextButton(ImgButton):
         text - text to display. String will be split on \n.
         textpos - position of the text, 1 means left from the image, 2 means right from the image
         """
-        if type(path) in types.StringTypes:
+        if type(path) in (str,):
             image = utils.load_image(path)
         else:
             image = path
