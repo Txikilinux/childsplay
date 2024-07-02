@@ -197,7 +197,7 @@ class Activity:
             snd = os.path.join(self.soundlanguagedir,'level'+str(level),root+'.ogg')
             if not os.path.exists(snd):
                 self.logger.error("image and sound files don't match, soundfile %s does not exist" % snd)
-                raise utils.MyError,"image and sound files don't match"
+                raise utils.MyError("image and sound files don't match")
             obj = ImageObject(utils.load_image(img),snd)
             obj.display_sprite((x,y))
             i += 1

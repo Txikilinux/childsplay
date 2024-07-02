@@ -111,7 +111,7 @@ class Activity(synonyms.Activity):
             lines = f.readlines()
             f.close()
             self.wordlisthash[lines[0][:-1]] = lines[1:]
-        self.categories = self.wordlisthash.keys()
+        self.categories = list(self.wordlisthash.keys())
         self.logger.debug("Found categories %s" % self.categories)
         random.shuffle(self.categories)
         self.currentcategory = self.categories.pop()
@@ -133,7 +133,7 @@ class Activity(synonyms.Activity):
         self.logger.debug("next_exercise called with %s" % currentletter)
         self.found_x, self.found_y = self.textright_pos[0], self.textright_pos[1] + 75
         if len(self.categories) < 1:
-                self.categories = self.wordlisthash.keys()
+                self.categories = list(self.wordlisthash.keys())
                 random.shuffle(self.categories)
         # Change self.newexercise_counter < 4 into 3 to get three times the same category wit a different letter. 
         if not self.currentcategory or self.newexercise_counter < 4:

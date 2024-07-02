@@ -338,7 +338,7 @@ class WordCompleter:
         self.wordlist = wordlist
         for w in wordlist:
             w = w.lower()
-            if not self.words.has_key(w[0]):
+            if w[0] not in self.words:
                 self.words[w[0]] = [w]
             else:
                 self.words[w[0]].append(w)

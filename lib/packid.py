@@ -128,7 +128,7 @@ class Memory:
             pass
             
     def recall(self,key):
-        if self.memory.has_key(key):
+        if key in self.memory:
             return self.memory[key] 
 
 class Letters(Memory):
@@ -470,7 +470,7 @@ class Activity:
         self.stopflag = None# used to stop the loop when not level 4
         self.score = 0
         self.letters_spots = []
-        self.gamelevels = range(4)
+        self.gamelevels = list(range(4))
         self.oldvolume = 0
     
     def __del__(self):

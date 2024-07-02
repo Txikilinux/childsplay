@@ -276,12 +276,12 @@ class Activity:
         #self.logger.debug("_kb_cbf called")
         #self.logger.debug("suggestions: %s" % data)            
         if self.suggest_lbl:
-            self.actives.remove(self.suggest_lbl.values())
-            for lbl in self.suggest_lbl.values():
+            self.actives.remove(list(self.suggest_lbl.values()))
+            for lbl in list(self.suggest_lbl.values()):
                 lbl.erase_sprite()
         self.suggest_lbl = {}
         
-        if type(data) in types.StringTypes:
+        if type(data) in (str,):
             data = data.lower()
             #enter hit with display string
             if data in self.found:
@@ -298,7 +298,7 @@ class Activity:
         else:
             x, y = self.suggest_ans_pos
             for txt in data:
-                if txt in self.found or self.suggest_lbl.has_key(txt):
+                if txt in self.found or txt in self.suggest_lbl:
                     continue             
                 lbl = Label(txt, (0, 0), fsize=16, \
                             fgcol=eval(self.rchash[self.theme]['suggest_fgcol'], {}, {}),\
@@ -316,7 +316,7 @@ class Activity:
                 lbl.connect_callback(self._on_lbl_clicked, MOUSEBUTTONDOWN, txt)
                 self.suggest_lbl[lbl._txt] = lbl
                 lbl.display_sprite()
-                self.actives.add(self.suggest_lbl.values())
+                self.actives.add(list(self.suggest_lbl.values()))
     
     def _on_lbl_clicked(self, lbl, event, txt):
         found_width = 250
@@ -331,7 +331,7 @@ class Activity:
             self._on_newquestionbut_clicked()
             return
         self.actives.remove(lbl)
-        if self.suggest_lbl.has_key(lbl._txt):
+        if lbl._txt in self.suggest_lbl:
             del self.suggest_lbl[lbl._txt]
             lbl.erase_sprite()
         # check to see if we will fit in the 'already found' section
@@ -353,8 +353,8 @@ class Activity:
         self.good_sound.play()
         self.kb.clear_display()
         if self.suggest_lbl:
-            self.actives.remove(self.suggest_lbl.values())
-            for lbl in self.suggest_lbl.values():
+            self.actives.remove(list(self.suggest_lbl.values()))
+            for lbl in list(self.suggest_lbl.values()):
                 lbl.erase_sprite()
         self.suggest_lbl = {}
     

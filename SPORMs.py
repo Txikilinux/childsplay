@@ -82,7 +82,7 @@ class game_quotes(object): pass
 class users(object):
     def __init__(self, login_name='', title='', first_name='', last_name='',
                  birthdate=datetime.datetime(1900, 1, 1),
-                 group='', profile='', passwrd='', activities='', audio=50, dt_target=u'default',
+                 group='', profile='', passwrd='', activities='', audio=50, dt_target='default',
                  levelup_dlg='true'):
         self.login_name = login_name
         self.title = title

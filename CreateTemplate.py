@@ -111,7 +111,7 @@ data_dict = {'datadirname':'',\
             'iconpath':''}
 
 print( "For which theme will the activity be created ?" )
-ans = input("\nGive the theme name: ")
+ans = eval(input("\nGive the theme name: "))
 check_for_q(ans)
 if not ans:
     error("you must give a theme name for your activity")
@@ -124,7 +124,7 @@ in the activities help text as well as the dbase table name\n\
 Be sure you don't pick a name that's currently used for an existing activity\n\
 Spaces are not allowed in the name, everything else is allowed." )
 
-ans = input("\nGive the name of the activity: ")
+ans = eval(input("\nGive the name of the activity: "))
 check_for_q(ans)
 if not ans:
     error("you must give a name for your activity")
@@ -161,7 +161,8 @@ If you know that the image is already inside the correct directory and added to\
 menu xml file then just hit enter.\n\
 Be aware that the image must have a size of 72x72 and must be in the png format.\n\
 This script doesn't check for the image size or format." )
-ans = input("\nGive the image path :")
+
+ans = eval(input("\nGive the image path :"))
 if ans:
     check_for_q(ans)
     if not ans:
@@ -176,10 +177,10 @@ print( "You will be asked for your name and email address. You should give your\
 true name and email address as aliasses or fantasy names are for wannabees.\n\
 Your email wil only be put inside the copyright notice at the top of the\n\
 template." )
-ans = input("\nGive your name :")
+ans = eval(input("\nGive your name :"))
 if ans:
     template_dict['dev_name'] = ans
-ans = input("\nGive your email address: ")
+ans = eval(input("\nGive your email address: "))
 if ans:
     template_dict['dev_email'] = ans
     
@@ -196,16 +197,16 @@ If you don't want to use additional table columns for your activity just hit\n\
 When there aren't additional columns given a standard dbase table will be added\n\
 to the SQLTables module.\n\
 " )
-ans = input("\nHow many columns do you want to add to the dbase table? : ")
+ans = eval(input("\nHow many columns do you want to add to the dbase table? : "))
 check_for_q(ans)
 if ans:
    for i in range(1,int(ans)+1):
-        col = input("Give the name of additional column %d: " % i)
+        col = eval(input("Give the name of additional column %d: " % i))
         check_for_q(col)
-        coltype = input("Give the type for the column [integer or string i/s]: ")
+        coltype = eval(input("Give the type for the column [integer or string i/s]: "))
         check_for_q(coltype)
         if coltype == 's':
-            stringlen = input("How long should the 'String' field be? [number of characters]: ")
+            stringlen = eval(input("How long should the 'String' field be? [number of characters]: "))
             check_for_q(stringlen)
             data_dict['tablecols'].append((col,'String',stringlen))
         else:
@@ -216,12 +217,12 @@ print( "\n=== Generating template and dbase table" )
 print( "These are the values I will use to create/alter the various modules." )
 
 print( "Data used for the activity template:" )
-for k,v in template_dict.items():
+for k,v in list(template_dict.items()):
     print( "%s:%s" % (k,v) )
 
 print( "Data used for the dbase table and directory paths:" )
 print( "('tablecols' will be empty when no additional columns are given)" )
-for k,v in data_dict.items():
+for k,v in list(data_dict.items()):
     if k == 'tablecols':
         print( "Tablecols:" )
         for t in v:
@@ -229,14 +230,14 @@ for k,v in data_dict.items():
     else:
         print( "%s:%s" % (k,v) )
 
-ans = input("\nAre these correct? [y/n]")
+ans = eval(input("\nAre these correct? [y/n]"))
 if ans.lower() != 'y':
     print( "Restart script to use other values" )
     print( "Quitting..." )
     sys.exit(0)
 print( "I will now start to generate the various files and dbase tables." )
 print( "There will be various comments printed on teh screen, be sure to read them." )
-input("-------- Hit any key -------- ")
+eval(input("-------- Hit any key -------- "))
 
 #-------------- Generating template
 import rawtemplate

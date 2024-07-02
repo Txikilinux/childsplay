@@ -20,5 +20,5 @@ while runloop:
                 runloop = 0
 
 print( "eventloop stopped" )
-input("hit any key to quit")
+eval(input("hit any key to quit"))
 pygame.quit()

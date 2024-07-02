@@ -94,7 +94,7 @@ class Letter(SPSpriteUtils.SPSprite):# we derive from this high-level class
             # We override it because want to know if the movement is completed,
             # meaning user failed to type the correct character.
             # Otherwise the 'next' call is done by the SPSprite class
-            status = self.moveit.next()
+            status = next(self.moveit)
             if status != -1:# reached the end of the movement
                 self.remove_sprite()
                 # Update the missed_letters counter
@@ -111,7 +111,7 @@ class Letter(SPSpriteUtils.SPSprite):# we derive from this high-level class
         of connecting callbacks .
         """
         try:
-            c = args[1].unicode.upper()
+            c = args[1].str.upper()
         except ValueError:
             return
         module_logger.debug("received event: %s" % [args])
@@ -372,7 +372,7 @@ class Activity:
                 myevent = event
                 # first we check if the event key is part of the active sprites
                 # if not we increase the Misc.wrong_letters counter.
-                if event.unicode.upper() not in [x.letter.upper() for x in self.actives.sprites()]:
+                if event.str.upper() not in [x.letter.upper() for x in self.actives.sprites()]:
                     Misc.wrong_letters += 1
                     break
         # move all images

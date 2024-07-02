@@ -67,7 +67,7 @@ class Img_Display(SPSpriteUtils.SPSprite):
         self.wrongpos_y = 320
                 
     def show_hint(self, widget, event, data):
-        k, r = random.choice(self.RectHash.items())
+        k, r = random.choice(list(self.RectHash.items()))
         Img_Display.points -= 1
         if Img_Display.points < 0:
             Img_Display.points = 0
@@ -94,7 +94,7 @@ class Img_Display(SPSpriteUtils.SPSprite):
         self.wrongpos_y = wrongpos_y
         pygame.display.update(pygame.draw.rect(self.image, RED, r.inflate(-self.offset, -self.offset), 10))
         self.display_sprite()
-        if self.RectHash.has_key(k):
+        if k in self.RectHash:
             del self.RectHash[k]
         
     def callback(self,sprite,event,*args):
@@ -323,7 +323,7 @@ class Activity:
         try:
             lines = open(p % level, 'r').readlines()
         except IOError as info:
-            raise utils.MyError, info
+            raise utils.MyError(info)
         for line in lines:
             k, v = line[:-1].split(';',1)
             try:
@@ -461,7 +461,7 @@ class Activity:
         else:
             y = 110
         
-        k = random.choice(self.ImgDiffHash.keys())
+        k = random.choice(list(self.ImgDiffHash.keys()))
         
         v = self.ImgDiffHash[k]
         del self.ImgDiffHash[k]

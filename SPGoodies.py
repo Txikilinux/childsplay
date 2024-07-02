@@ -86,18 +86,18 @@ class SPGoodies(Borg):
     def tellcore_level_end(self, store_db=None, level=1, levelup=False, no_question=False):
         """Use this to notify the core that the level is ended.
         The core will call next_level on the activity."""
-        apply(self.level_end, (store_db, level, levelup, no_question))
+        self.level_end(*(store_db, level, levelup, no_question))
     def tellcore_game_end(self, store_db=None):
         """Use this to notify the core that the game is ended.
         The core will start the menu and delete the activity."""
-        raise ( utils.StopGameException, store_db )
+        raise utils.StopGameException
     def tellcore_info_dialog(self, text):
         """Use this to ask the core to display a info dialog with the text @text"""
-        apply(self.info_dialog, (text, ))
+        self.info_dialog(*(text, ))
     def tellcore_display_execounter(self, total, text=''):
         """Use this to display a exeCounter object in the menu bar. @total must
         be an integer indicating the total numebr of exercises."""
-        return apply(self.display_execounter, (total, ))
+        return self.display_execounter(*(total, ))
     def tellcore_set_framerate(self, rate):
         """Use this to lower the framerate at which the loop runs.
         The maximum is 30 per minute to prevent running the CPU at 100%.
@@ -105,7 +105,7 @@ class SPGoodies(Borg):
         this in 'start' or 'next_level'.
         WARNING: only use this is you know why you want to use it.
         """
-        apply(self.set_framerate, (rate, ))
+        self.set_framerate(*(rate, ))
     def tellcore_enable_dice(self, enable=True):
         """Use this to enable or disable the dice button.
         @enable is a bool, False to disable the dice, True to enable it.
@@ -120,7 +120,7 @@ class SPGoodies(Borg):
         The value must be the maximum number of levels minus one.
         You must call this in your start method otherwise the core will reset
         it to 1"""
-        apply(self.set_dice_minimal_level, (level,))
+        self.set_dice_minimal_level(*(level,))
     def tellcore_disable_menubuttons(self):
         """Use this to ask the core to disable it's menu buttons.
         This is needed when the activity wants to cover the menubar.
@@ -152,7 +152,7 @@ class SPGoodies(Borg):
         """You must register any observer methods that should be called in case of an error
         to clean up your mess. Your observer must be a method or funtion that takes no arguments.
         For example; the camera used by facerecognition is crappy and must be stopped manually"""
-        apply(self.register_core_observer, (obs,))
+        self.register_core_observer(*(obs,))
     # these methods provide stuff needed by the activity.
     def get_screen(self):
         """get a references to the main SDL screen"""

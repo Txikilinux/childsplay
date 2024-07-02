@@ -66,7 +66,7 @@ class Worker(threading.Thread):
         """This overrides the threading.Thread.run method."""
         #self.logger.info("Timer started")
         if self.__now:
-            apply(self.__func, self.__fargs)
+            self.__func(*self.__fargs)
         while self.__do:
             if self.__die:
                 break
@@ -82,7 +82,7 @@ class Worker(threading.Thread):
                     # this is done because when we call _stop when we in time.sleep
                     # the __func will set it back and the thread will never die.
                     break
-                self.__do = apply(self.__func, self.__fargs)
+                self.__do = self.__func(*self.__fargs)
             except Exception:
                 self.logger.exception("Timer stopped due to an exception in %s" % self.__func)
                 self.__do = 0

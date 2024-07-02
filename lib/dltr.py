@@ -128,12 +128,12 @@ class Activity:
         
         orm = self.SPG.get_current_user_dbrow()
         self.actdatahash = self._get_data(orm.dt_target)# returns a ordereddict object
-        if self.actdatahash.has_key('fortune'):
+        if 'fortune' in self.actdatahash:
             self.fortune = True
             del self.actdatahash['fortune']
         else:
             self.fortune = False
-        self.actdata = self.actdatahash.items()
+        self.actdata = list(self.actdatahash.items())
         
         steps = len(self.actdata) 
         green = utils.load_image(os.path.join(self.my_datadir,'status_green_800_600.png'))
@@ -322,7 +322,7 @@ class Activity:
     
     def next_activity(self):
         self.logger.debug("next_activity called")
-        if self.prev_data and self.prev_data.has_key(self.currentactname):    
+        if self.prev_data and self.currentactname in self.prev_data:
             self.logger.debug("previous act data for %s: %s" % \
                           (self.currentactname, self.prev_data[self.currentactname]))
             try:
@@ -384,10 +384,10 @@ class Activity:
         
         # user screen
         groups = {}
-        for name, data in self.actdatahash.items():
+        for name, data in list(self.actdatahash.items()):
             group = data['group']
             score = self.sessionresults_raw[name]
-            if not groups.has_key(group):
+            if group not in groups:
                 groups[group] = (0, 0)
             groups[group] = (groups[group][0] + score, groups[group][1] + 1)  
         
@@ -402,7 +402,7 @@ class Activity:
         surf.blit(s, txt3_pos)
         y = txt2_pos[1] + 46
         
-        for name, data in groups.items():
+        for name, data in list(groups.items()):
             score = data[0] / data[1]
             sk = utils.char2surf(name.capitalize(), 20, WHITE) 
             sc = '%4.2f' % score
@@ -451,7 +451,7 @@ class Activity:
         surf.blit(s, txt3_pos)
         
         y = txt2_pos[1] + 26
-        for k, v in self.sessionresults.items():
+        for k, v in list(self.sessionresults.items()):
             sk = utils.char2surf(k, 20, WHITE)
             sv = utils.char2surf(v, 20, WHITE)
             surf.blit(sk, (txt2_pos[0], y))

@@ -60,7 +60,7 @@ module_logger = logging.getLogger("childsplay.SPMenu")
 
 
 def log_parameter(param_name, param_value):
-    print(f"Parameter {param_name}: {param_value}")
+    print("Parameter {param_name}: {param_value}")
 
 
 class ParseMenu:
@@ -111,7 +111,7 @@ class ParseMenu:
                 menlist.append((menicon, menhicon, menpos, menact, mentext, enabled))
             menuhash[((subicon, subhicon), subpos)] = menlist
         self.menuhash = {}
-        for k, v in menuhash.items():
+        for k, v in list(menuhash.items()):
             if k == 'menudefault':
                 self.menuroot = v
             else:
@@ -146,7 +146,7 @@ class Menu:
             iconpath = os.path.join(iconpath, lang)
         max_x = 790
         x_padding =50
-        for k, v in menu.items():
+        for k, v in list(menu.items()):
             #self.logger.debug("building menu item: %s,%s" % (k, v))
             x, y = 50, 110 # start coords when theres no position given for the menu buts  
             for t in v:
@@ -186,14 +186,14 @@ class Menu:
                 if x > max_x - b.get_sprite_width():
                     x = 50
                     y += 140
-                if buttons.has_key(k):
+                if k in buttons:
                     buttons[k].append(b)
                 else:
                     buttons[k] = [b]
         # here we construct the category buttons
         # first we must determine which button list belongs to the left 
-        x , y = 0, 532 # start coords when theres no position given for the submenu buts  
-        for k, v in buttons.items():
+        x , y = 0, 532 # start coords when theres no position given for the submenu buts
+        for k, v in list(buttons.items()):
             p0 = os.path.join(iconpath, 'submenu', k[0][0])
             p1 = os.path.join(iconpath, 'submenu', k[0][1])
             if k[1][0] == -1:
@@ -266,7 +266,7 @@ class Activity:
             Pm = ParseMenu(p)
         except ( Exception ):
             self.logger.exception("Error while parsing menu xml file: %s" % p)
-            raise ( utils.MyError )
+            raise utils
         self.menu = Pm.get_menu()
         self.menudefault = Pm.get_menudefault()
     
@@ -287,13 +287,13 @@ class Activity:
                            removeables=self.removeables)
         except ValueError as info:
             print("An exception occurred:")
-            print(f"Type: {type(info).__name__}")
-            print(f"Arguments: {info.args}")
+            print("Type: {type(info).__name__}")
+            print("Arguments: {info.args}")
             print("Traceback:")
             traceback.print_exc(file=sys.stdout)
             self.logger.exception( "Error while constructing the menu buttons. \n theme_rc: %s, lang: %s" % (theme_rc, lang) )
             self.logger.exception( "Error info: %s \n" % (info) )
-            raise ( utils.MyError )
+            raise utils
         
     def _remove_buttons(self, buttons):
         #self.logger.debug("_remove_buttons called with:%s" % buttons)
@@ -306,7 +306,7 @@ class Activity:
     def _display_buttons(self, menubuttons):
         if len(menubuttons) == 0:
             self.logger.error("No buttons found to display")
-            raise ( utils.MyError, "No buttons found to display, check your install" )
+            raise utils.MyError # Append message: "No buttons found to display, check your install"
             return
         if menubuttons == self.displayed_bottom_buttons:
             refresh = False
@@ -321,7 +321,7 @@ class Activity:
     def menu_callback(self, sprite, event, data):
         #self.logger.debug('menu_callback called with sprite %s, event %s and data %s' % (sprite, event, data))
         pygame.time.wait(200)
-        if type(data[0]) not in types.StringTypes:
+        if type(data[0]) not in (str,):
             self.logger.debug("menu cbf data is object list")
             if self.selected_button:
                 self.selected_button.unselect()

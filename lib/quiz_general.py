@@ -130,9 +130,9 @@ class Activity:
         """called by the core after this module is constructed."""
         xmlpath = os.path.join(self.my_datadir, 'general_knowledge.xml')
         if not os.path.exists(xmlpath):
-            raise utils.MyError, ("xml file %s is missing, this shouldn't happen, contact the %s developers" % (xmlpath, self.theme))    
+            raise utils.MyError("xml file %s is missing, this shouldn't happen, contact the %s developers" % (xmlpath, self.theme))
         self.actdatahash = parse_xml(xmlpath)# returns a ordereddict object
-        self.actdata = self.actdatahash.items()
+        self.actdata = list(self.actdatahash.items())
                 
     def clear_screen(self):
         self.screen.blit(self.orgscreen,self.blit_pos)

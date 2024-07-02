@@ -207,4 +207,4 @@ if __name__ == '__main__':
         print( "main doing stuff" )
     
     ss.stop_server(0)
-    input("hit any key to quit")
+    eval(input("hit any key to quit"))

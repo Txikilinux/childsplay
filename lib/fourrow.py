@@ -266,7 +266,7 @@ class Activity:
                 posy = self.YMARGIN + (y * self.spacesize)
                 tile = Tile(self.boardImg, (posx, posy))
                 tile.connect_callback(self._cbf_Tile, MOUSEBUTTONDOWN, (posx, posy))
-                if not self.Tiles.has_key(posx):
+                if posx not in self.Tiles:
                     self.Tiles[posx] = []
                 self.Tiles[posx].append(tile)
                 tile.display_sprite()
@@ -353,7 +353,7 @@ class Activity:
 #                r = self.screen.blit(self.RedPil, (x,y))
 #            self.old_pil_rect = r
 #            pygame.display.update(r)
-            if self.Tiles.has_key(x):
+            if x in self.Tiles:
                 dirty = []
                 for t in self.Tiles[x]:
                     self.screen.blit(t.image,t.rect)

@@ -75,7 +75,7 @@ def SPInit(scr, back, cmd_options={}):
     # store a reference, needed for removal and erasing of sprites
     SPSprite.backgr = back
     SPSprite.screen = scr
-    for k,v in cmd_options.items():
+    for k,v in list(cmd_options.items()):
         setattr(SPSprite, "_Init_cmd_opt_%s" % k, v)
     # SPGroup needs screen and backgr to erase and draw the sprites
     # belonging to this group
@@ -286,18 +286,18 @@ class SPSprite(pygame.sprite.Sprite):
                             if not (self.group_owner and self.group_owner.get_onematch()):
                                 try:
                                     #print "--------call cbf-----------", event
-                                    cb = apply(self._callback, (self, event, self._args))
+                                    cb = self._callback(*(self, event, self._args))
                                 except Exception as info:
                                     self._logger.exception("Callback function %s failed" % self._callback)
                                     self._logger.error(info)
-                                    raise ( MyError, info )
+                                    raise MyError
                             else:
                                 # we do not need to check existence of self.group_owner because we get
                                 # here only if it exists.
                                 if not self.group_owner.get_havematch():
                                     self.group_owner.set_havematch(True)
                                     try:
-                                        cb = apply(self._callback, (self, event, self._args))
+                                        cb = self._callback(*(self, event, self._args))
                                     except Exception as info:
                                         self._logger.exception("Callback function %s failed" % self._callback)
                                         self._logger.error(info)
@@ -318,9 +318,9 @@ class SPSprite(pygame.sprite.Sprite):
         if cb == -1:
             return -1
         if cb:
-            apply(self.on_update, self._args)
+            self.on_update(*self._args)
         else:
-            ou = apply(self.on_update, self._args)
+            ou = self.on_update(*self._args)
         return cb or ou
     
     def on_update(self,  *args):
@@ -337,7 +337,7 @@ class SPSprite(pygame.sprite.Sprite):
         You can also override this for drag and drop animations."""
         if self._moveit_iter:
             try:
-                self._moveit_iter.next()
+                next(self._moveit_iter)
             except StopIteration:
                 self._moveit_iter = None
                 self.stop_movement(now=1)
@@ -633,7 +633,7 @@ class SPGroup(pygame.sprite.RenderUpdates):
         l_append = l.append
         if args:
             a = apply
-            for s in self.spritedict.keys():
+            for s in list(self.spritedict.keys()):
                 v = a(s.update, args)
                 if v:
                     #self._logger.debug("returnt from SPSprite update %s" % v)
@@ -654,7 +654,7 @@ class SPGroup(pygame.sprite.RenderUpdates):
                             obj._DnDreset()
                         
         else:
-            for s in self.spritedict.keys():
+            for s in list(self.spritedict.keys()):
                 s.update()
         # reset any match 
         # do not use set_havematch here due to overhead - update() is invoked too often
@@ -872,12 +872,12 @@ class MySprite(SPSprite):
         self._logger = logging.getLogger("childsplay.SPSpriteUtils_lgpl.MySprite")
         if type(value) is pygame.Surface:
             self.image = value
-        elif type(value) in (types.StringType, types.UnicodeType):
+        elif type(value) in (bytes, str):
             try:
                 self.image = load_image(value)
             except Exception as info:
                 self._logger.error("failled to load image: %s" % value)
-                raise ( MyError, info )
+                raise MyError
         self.rect = self.image.get_rect()
         SPSprite.__init__(self, self.image, name=name)
         self.moveto(pos)

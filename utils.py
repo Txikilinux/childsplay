@@ -17,6 +17,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
+import imp
 import builtins
 import importlib
 import sys
@@ -160,7 +161,7 @@ def get_locale():
         # FIX locale.py LANGUAGE parsing bug, the fix was added on the
         # upstream CVS on the 1.28.4.2 revision of 'locale.py', It
         # should be included on Python 2.4.2.
-        if os.environ.has_key('LANGUAGE'):
+        if 'LANGUAGE' in os.environ:
             lang = os.environ['LANGUAGE'].split(':')[0].split('_')[0]
         # This makes sure that we never return a value of None.
         # This is a fix for systems that set LANGUAGE to ''.
@@ -227,7 +228,7 @@ def ascii2hex(sc):
     """Converts a ascii string representing an char 0-9/a-z into a unicode hex string.
     Use this only for converting the alphabet soundfile names.
     u'1' -> 'U0031'"""
-    if type(sc) is types.UnicodeType:
+    if type(sc) is str:
         sc = str(sc)
     hs = 'U%s' % (hex(ord(sc.decode('utf8')))[2:].zfill(4))
     return hs
@@ -246,7 +247,7 @@ def map_keys(key_map, key):
         module_logger.error("No keymap: %s found" % key_map)
         return key
     else:
-        if km.has_key(key):
+        if key in km:
             return km[key]
         else:
             module_logger.error("No key: %s found" % key)
@@ -504,7 +505,7 @@ def text2surf(word, fsize, fcol=None, ttf=None, sizel=None, bold=False, antialia
     if sizel:
         sizelist = font.size(word)
     else:
-        sizelist = map(font.size, word)
+        sizelist = list(map(font.size, word))
     return s, sizelist
 
 def Ipl2NumPy(img):
@@ -626,9 +627,9 @@ class MazeGen:
         import random
         cellstack = []
         maxrow = len(self.matrix)
-        row = random.choice(range(1, maxrow, 2))
+        row = random.choice(list(range(1, maxrow, 2)))
         maxcol = len(self.matrix[0])
-        col = random.choice(range(1, maxcol, 2))
+        col = random.choice(list(range(1, maxcol, 2)))
         #print 'start row,col',row,col
         maxcol -= 3
         maxrow -= 3
@@ -686,7 +687,7 @@ def import_module(filename, globals=None, locals=None, fromlist=None):
         if fp: fp.close()
     except ( Exception, MyError ) as info:
         module_logger.exception("Import of %s failed" % filename)
-        raise ( MyError, info )
+        raise MyError
         if fp: fp.close()
     
 def txtfmt(text, split):
@@ -750,15 +751,15 @@ class ScaleImages:
          it was parsed to the class constructor.
          When image is a surface image is scaled on a card and returnt in list of one
         """
-        if type(self.imgObjects) == types.DictType:
+        if type(self.imgObjects) == dict:
             # This won't work in combination with stdCard
             imgs = {}
-            for k, v in self.imgObjects.items():
+            for k, v in list(self.imgObjects.items()):
                 imgs[k] = self._scale_if_needed(v)
             return imgs
         if image:
             self.imgObjects = (image, )
-        imgs = map(self._scale_if_needed, self.imgObjects) #this returns always a surface, scaled or not
+        imgs = list(map(self._scale_if_needed, self.imgObjects)) #this returns always a surface, scaled or not
         if self.stdCard:# we have a blanc card to blit the images on
             card_imgs = []
             for img in imgs:
@@ -1094,7 +1095,7 @@ class OrderedDict(dict, MutableMapping):
     items = MutableMapping.items
 
     def __repr__(self):
-        pairs = ', '.join(map('%r: %r'.__mod__, self.items()))
+        pairs = ', '.join(map('%r: %r'.__mod__, list(self.items())))
         return '%s({%s})' % (self.__class__.__name__, pairs)
 
     def copy(self):

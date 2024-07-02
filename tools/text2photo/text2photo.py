@@ -70,7 +70,7 @@ try:
             # FIX locale.py LANGUAGE parsing bug, the fix was added on the
             # upstream CVS on the 1.28.4.2 revision of 'locale.py', It
             # should be included on Python 2.4.2.
-            if os.environ.has_key('LANGUAGE'):
+            if 'LANGUAGE' in os.environ:
                 lang = os.environ['LANGUAGE'].split(':')[0]
             else:
                 lang, enc = locale.getdefaultlocale()
@@ -79,7 +79,7 @@ try:
             module_logger.error(info)
             lang = 'en'
     languages = [lang]
-    if os.environ.has_key('LANGUAGE'):
+    if 'LANGUAGE' in os.environ:
         languages += os.environ['LANGUAGE'].split(':')
     module_logger.info("Setting seniorplay locale to '%s' modir: %s" % (lang, LOCALEDIR))
     lang_trans = gettext.translation('seniorplay', \

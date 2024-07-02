@@ -24,7 +24,7 @@ import glob
 from SPVersion import version
 import os,sys
 
-ans = raw_input("Are the mo files up to date? [y/n]")
+ans = eval(input("Are the mo files up to date? [y/n]"))
 if ans != 'y':
     sys.exit(0)
 
@@ -88,7 +88,7 @@ for item in myExclude:
         v = os.system('rm -r %s' % item)
         if not v:
             print "Removed file/dir ->",item
-    except OSError,info:
+    except OSError as info:
         print "####### ERROR ######\n",info
         sys.exit(1)
 # Now the dir tree is clean and ready to be packaged.
@@ -99,7 +99,7 @@ try:
     execString = 'tar -czf %s.tgz %s/' % (distdir, distdir)
     print execString
     os.system(execString)
-except Exception,info:
+except Exception as info:
     print info,"\nYou must have the tar package installed"
 else:
     print "Done.\n"

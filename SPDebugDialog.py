@@ -111,7 +111,7 @@ class Debugscreen:
                                     length=150, fsize=fsize12, border=1)
         self.entries.append(self.name_te)
         # buttons
-        for label, func in self.buthash.items():
+        for label, func in list(self.buthash.items()):
             b = SPWidgets.Button(label, but_pos, fsize=16, padding=8, name=label)
             b.connect_callback(func, MOUSEBUTTONDOWN, label)
             self.buttons.append(b)
@@ -202,8 +202,8 @@ class Debugscreen:
         
         cmd_list = []
         print( rc_hash )
-        for k in rc_hash.keys():
-            for c, v in rc_hash[k].items():
+        for k in list(rc_hash.keys()):
+            for c, v in list(rc_hash[k].items()):
                 cmd_list.append('--%s=%s' % (c,v))
         
         ppp = os.path.expanduser(os.path.join('~', '.schoolsplay.rc', 'post_pull'))
@@ -249,7 +249,7 @@ class Debugscreen:
             text = ("Failed to make screenshot %s") % info
             dlg = SPWidgets.Dialog(text, title="ERROR !")
             dlg.run()
-            raise utils.MyError, "failed to make a screenshot"
+            raise utils.MyError("failed to make a screenshot")
         return path
 
     def _get_entrydata(self):

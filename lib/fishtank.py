@@ -122,7 +122,7 @@ class Fish(SPSpriteUtils.SPSprite):
                 self.image = self.image_0
             else:
                 self.image = self.image_1
-            status = self.moveit.next()
+            status = next(self.moveit)
             if status != -1:# reached the end of the movement
                 if self.parent.are_we_in_aquarium_mode():
                     # special behaviour, fish turns each time it reaches the end

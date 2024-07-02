@@ -406,7 +406,7 @@ class ImgButtonDynamic(ButtonDynamic):
             supported size names are: '36px','54px','81px'.
         name - string to indicate this object
         """
-        if type(path) in types.StringTypes:
+        if type(path) in (str,):
             image = utils.load_image(path)
         else:
             image = path

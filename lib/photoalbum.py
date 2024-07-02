@@ -234,14 +234,14 @@ class Activity:
         # check that we don't use empty albums.
         self.logger.debug("found albums: %s" % albums)
         sh = shelve.open(self.shelvepath)
-        sh_keys = sh.keys()
+        sh_keys = list(sh.keys())
         for d in albums:
             tname = os.path.split(d)[1].encode('utf-8')
             flist = os.listdir(d)
             flist.sort()
             if not flist or os.path.splitext(flist[0])[1] not in IMAGE_EXT:
                 continue
-            if tname + '.jpeg' not in tlist or not sh.has_key(tname):
+            if tname + '.jpeg' not in tlist or tname not in sh:
                 self.logger.debug("no thumb found for album %s, creating one" % tname)
                 img = utils.load_image(os.path.join(d, flist[0]))
                 tsurf = utils.aspect_scale(img, (self.thumbx, self.thumby))
@@ -249,12 +249,12 @@ class Activity:
                 pygame.image.save(tsurf, p)
                 self.logger.debug("%s thumb saved to %s" % (tname, p))
                 sh[tname] = d
-            elif sh.has_key(tname):
+            elif tname in sh:
                 sh_keys.remove(tname)
         if sh_keys:
             # we have thumbs but no albums, this is caused by the removal of albums.
             for key in sh_keys:
-                if sh.has_key(key):
+                if key in sh:
                     del sh[key]
                 p = os.path.join(self.SPG.get_base_dir(), self.thumbsdir, key + '.jpeg')
                 if os.path.exists(p):
@@ -309,7 +309,7 @@ class Activity:
         for f in flist:
             key = os.path.splitext(os.path.split(f)[1])[0].encode('utf-8')
             img = utils.load_image(f)
-            if sh.has_key(key):
+            if key in sh:
                 b = SPWidgets.SimpleButton(img, (x, y), data=sh[key])
             else:
                 self.logger.error("missing shelve key: %s" % key)
@@ -364,7 +364,7 @@ class Activity:
             self.text_label = None
         
         p = self.filelist[self.photoindex]
-        if self.textxml and self.textxml.has_key(os.path.basename(p)):
+        if self.textxml and os.path.basename(p) in self.textxml:
             hash = self.textxml[os.path.basename(p)]
             title = "%s: %s" % (self.textxml['album_name'], hash['title'])
             text = "\n".join(textwrap.wrap(hash['text'], 90))
@@ -392,7 +392,7 @@ class Activity:
             self.text_label.erase_sprite()
             self.text_label = None
         p = self.filelist[self.photoindex]
-        if self.textxml and self.textxml.has_key(os.path.basename(p)):
+        if self.textxml and os.path.basename(p) in self.textxml:
             hash = self.textxml[os.path.basename(p)]
             title = "%s: %s" % (self.textxml['album_name'], hash['title'])
             text = "\n".join(textwrap.wrap(hash['text'], 90))
@@ -512,7 +512,7 @@ class Activity:
             tree.parse(p)
         except Exception as info:
             self.logger.error("%s" % info)
-            raise utils.MyError, info
+            raise utils.MyError(info)
         # here we start the parsing
         albumNode = tree.getroot()
         album_name = albumNode.get('name')

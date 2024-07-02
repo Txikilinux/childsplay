@@ -160,7 +160,7 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
         dlg = filedialog.askdirectory(title='Select image directory to open')
 #        dlg = Directory(title=('Select image directory to open'))
         if dlg:
-            print(f"Selected directory: {dlg}")
+            print("Selected directory: {dlg}")
         else:
             print("No directory selected or dialog canceled.")
 
@@ -175,10 +175,10 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
                     continue
                 k = os.path.split(file)[1]
                 self.current_files_hash[k] = file
-            self.scrlist.set_content(self.current_files_hash.keys())
+            self.scrlist.set_content(list(self.current_files_hash.keys()))
             self.albumname =  askstring("Album name", "Give the album name:", \
                                         initialvalue=self.xml_hash['albumname'])
-            self.numpics = len(self.current_files_hash.keys())
+            self.numpics = len(list(self.current_files_hash.keys()))
             
     def _observer_scrolledlist(self, selection):
         self.logger.debug("_observer_scrolledlist called with: %s" % selection)
@@ -194,7 +194,7 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
             self.text_entry.delete(1.0, END)
             self.texttitle.delete(0, END)
             self.current_selection = selection
-            if self.xml_hash.has_key(self.current_selection):
+            if self.current_selection in self.xml_hash:
                 self.texttitle.insert(0, self.xml_hash[self.current_selection]['title'])
                 self.text_entry.insert(1.0, self.xml_hash[self.current_selection]['text'])
             
@@ -232,7 +232,7 @@ class Main(GuiMixin, GuiMakerWindowMenu):   # or GuiMakerFrameMenu
             
         xmlnodes.insert(0, XML_HEAD % {'albumname':self.albumname, \
                                             'numpics':self.numpics})
-        for name, hash in self.xml_hash.items():
+        for name, hash in list(self.xml_hash.items()):
             if name in ('albumname', 'numpics'):
                 continue
             xmlnodes.append(XML_NODE % hash)

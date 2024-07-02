@@ -140,7 +140,7 @@ if os.path.exists(TTF):
     TTFSIZE = 12
 
 # [6, 94, 182, 270, 358, 446, 534, 622, 710]
-CORE_BUTTONS_XCOORDS = range(6, 800, 91)
+CORE_BUTTONS_XCOORDS = list(range(6, 800, 91))
 
 SPLC_TIMESTAMP = time.strftime("%y-%m-%d_%H-%M-%S", time.localtime())
 

@@ -154,7 +154,7 @@ class MainCoreGui:
         d = {}
         config = configparser.ConfigParser()
         config.read(self.core_rc_path)
-        for k, v in dict(config.items(self.theme)).items():
+        for k, v in list(dict(config.items(self.theme)).items()):
             d[k] = v
         d['theme'] = self.theme
         self.core_rc = d
@@ -626,7 +626,7 @@ class MainCoreGui:
             self.activity.start()
         except Exception as info:
             self.logger.exception("Error in %s start" % self.activity.get_name())
-            raise ( utils.MyError, info )
+            raise utils.MyError
         if 'graph' not in self.excludebuttons:
             # as were datacollectors we also add a chart button to the menubar
             self.chartbutton.enable(True)
@@ -1011,7 +1011,7 @@ class MainCoreGui:
         # get data, user AND level
         query = mapper._get_level_data(levelnum=self.levelcount)
         # get the score and date data from the objects
-        scorelist = filter(None, [(getattr(item, 'start_time'), getattr(item, 'score')) for item in query])
+        scorelist = [_f for _f in [(getattr(item, 'start_time'), getattr(item, 'score')) for item in query] if _f]
         self.logger.debug("scorelist from SQL query: %s" % scorelist)
         # get the mu and sigma for this activity.
         norm = self.dm.get_mu_sigma(self.activity.get_name())
@@ -1157,14 +1157,14 @@ class MainCoreGui:
         # add a little pause between levels.
         if not self.cmd_options.no_level_pause:
             p = os.path.dirname(self.core_rc_path)
-            if self.core_rc.has_key('level_change_sound') and self.core_rc['level_change_sound']:
+            if 'level_change_sound' in self.core_rc and self.core_rc['level_change_sound']:
                 snd = utils.load_music(os.path.join(p, self.core_rc['level_change_sound']))
                 snd.play()
-            if self.core_rc.has_key('level_change_image') and self.core_rc['level_change_image']:
+            if 'level_change_image' in self.core_rc and self.core_rc['level_change_image']:
                 img = utils.load_image(os.path.join(p, self.core_rc['level_change_image']))
                 self.screen.blit(img, (275, 200))
                 pygame.display.update()
-            if not self.core_rc.has_key('level_change_pause'):
+            if 'level_change_pause' not in self.core_rc:
                 pause = 0
             else:
                 pause = int(self.core_rc['level_change_pause'])

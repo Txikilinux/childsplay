@@ -32,7 +32,7 @@ from SPSpriteUtils import SPInit
 
 from utils import char2surf, load_image
 
-CORE_BUTTONS_XCOORDS = range(6, 790, 88)
+CORE_BUTTONS_XCOORDS = list(range(6, 790, 88))
 
 import pygame
 
@@ -193,7 +193,7 @@ class SPGreeter:
         word = []
         while self.runloop:
             try:
-                k = kb.next()# this will return a string or none
+                k = next(kb)# this will return a string or none
                 if k and k not in ('quit', 'enter'):# user hits anything but None, enter or escape
                     word.append(k)
                     self.entry.set_text(''.join(word))

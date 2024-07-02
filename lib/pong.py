@@ -425,6 +425,10 @@ class Activity:
         head = ("Choose the game to play:")
         s = utils.char2surf(head,32,GREEN, bold=True)
         pygame.display.update(Img.screen.blit(s,(80,4)))
+
+        # TODO: NEW IN PYTHON 3: "cannot convert map(None, ...) with multiple
+        # arguments because map() now truncates to the shortest sequence"
+
         for pos,img,data in map(None,positions,images,('1','2')):
             img = os.path.join(self.my_datadir,img)
             obj = SPSpriteUtils.SPButton(utils.load_image(img),pos,data)

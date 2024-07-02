@@ -68,8 +68,8 @@ for line in lines:
         notifycaller = True
         break
         
-if notifycaller:        
-    raise MyError, ("Found error messages in the log file, please contact the developers.")
+if notifycaller:
+    raise MyError("Found error messages in the log file, please contact the developers.")
 
 
 

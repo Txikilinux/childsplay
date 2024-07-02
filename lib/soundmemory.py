@@ -389,7 +389,7 @@ class Activity:
             # we call the SPGoodies observer to notify the core the level
             # is ended and we want to store the collected data
             num = 0
-            for n in Global.selected_cards.values():
+            for n in list(Global.selected_cards.values()):
                 num += n
             # store into dbase
             self.db_mapper.insert('knownsounds',num)

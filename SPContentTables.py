@@ -68,7 +68,7 @@ def check_tables(dbase):
         tp = os.path.basename(f).split('_')[1][:-4]
         path_types[f] = tp + '_%s' % lang
     
-    for t in path_types.values():
+    for t in list(path_types.values()):
         if t not in tl:
             logger.debug("Creating table '%s'" % t)
             # group is named _group as group is a reserved word in sqlite3
@@ -82,7 +82,7 @@ def check_tables(dbase):
                     data TEXT, year TEXT, _group TEXT) 
                     ''' % t)
             con.commit()
-            for p, pt in path_types.items():
+            for p, pt in list(path_types.items()):
                 if pt == t:
                     break
             if parse_xml(p, cursor, t):

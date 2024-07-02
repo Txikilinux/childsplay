@@ -312,7 +312,7 @@ class Activity:
         self.screen.blit(playfield, (x, y))
         pygame.display.update()
         self.backgr.blit(playfield, (x, y))
-        self.BM.init(range(1, 4 + self.level), random.sample(self.list_pos, self.numblocks))
+        self.BM.init(list(range(1, 4 + self.level)), random.sample(self.list_pos, self.numblocks))
         self.BM.show_all()
         self.totalblocks += self.numblocks
         self.beginbut.display_sprite()

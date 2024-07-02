@@ -39,7 +39,7 @@ import SPORMs as ORMS
 
 def create_contentdb_orms(metadata):
     tables = {}
-    for name in [k for k in ORMS.__dict__.keys() if k.startswith('game_')]:
+    for name in [k for k in list(ORMS.__dict__.keys()) if k.startswith('game_')]:
         t = Table(name, metadata, autoload=True)
         orm = getattr(ORMS, name)
         orm._name = name
@@ -101,8 +101,8 @@ class SqlTables:
                            Column('passwrd', Unicode(10)),
                            Column('activities', Unicode(250)),
                            Column('audio', Integer, default=50),
-                           Column('dt_target', Unicode(250), default=u'default'),
-                           Column('levelup_dlg', Unicode(4), default=u'true')
+                           Column('dt_target', Unicode(250), default='default'),
+                           Column('levelup_dlg', Unicode(4), default='true')
                            )
 
         # The graph image needs two values:
@@ -141,7 +141,7 @@ class SqlTables:
                             Column('activity_name', Unicode(50)),
                             Column('key', Unicode(20)),
                             Column('value', Unicode(200)),
-                            Column('theme', Unicode(20), default=u'default'),
+                            Column('theme', Unicode(20), default='default'),
                             Column('comment', Unicode(200)))
 
         self.faces = Table('users_faces', metadata,
