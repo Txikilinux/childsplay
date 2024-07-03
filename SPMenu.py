@@ -60,7 +60,7 @@ module_logger = logging.getLogger("childsplay.SPMenu")
 
 
 def log_parameter(param_name, param_value):
-    print("Parameter {param_name}: {param_value}")
+    print("Parameter: ", param_name, ": ", param_value)
 
 
 class ParseMenu:
@@ -287,9 +287,8 @@ class Activity:
                            removeables=self.removeables)
         except ValueError as info:
             print("An exception occurred:")
-            print("Type: {type(info).__name__}")
-            print("Arguments: {info.args}")
-            print("Traceback:")
+            print("Type: ", type(info).__name__)
+            print("Arguments: ", info.args)
             traceback.print_exc(file=sys.stdout)
             self.logger.exception( "Error while constructing the menu buttons. \n theme_rc: %s, lang: %s" % (theme_rc, lang) )
             self.logger.exception( "Error info: %s \n" % (info) )
