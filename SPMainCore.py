@@ -409,7 +409,10 @@ class MainCoreGui:
             theme_dir = os.path.join('controlpanel_lgpl','lib', 'SPData')
         else:
             theme_dir = os.path.join(THEMESPATH, self.theme)
-        self.activity._build_menu(theme_dir, self.theme_rc, language[0])
+        try:
+            self.activity._build_menu(theme_dir, self.theme_rc, language[0])
+        except Exception:
+            print("Menu cannot be built, SPMainCore.py->MainCoreGui()")
         
         r = pygame.Rect(0, blitpos_y, 800, 500)
         # Add the rect to SPGoodies so that activities know where to blit.

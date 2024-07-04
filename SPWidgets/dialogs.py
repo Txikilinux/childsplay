@@ -18,6 +18,8 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
+import logging
+import traceback
 import utils
 import pygame
 from pygame.constants import *
@@ -239,8 +241,13 @@ class MenuBar(Widget):
         self.buttons_ypos = self.rect.top+8
         bname = 'core_info_button.png'
         hbname = 'core_info_button_ro.png'
-        p = os.path.join(THEMESPATH, self.THEME['theme'],bname )
-        hp = os.path.join(THEMESPATH, self.THEME['theme'],hbname )
+        try:
+            p = os.path.join(THEMESPATH, self.THEME['theme'],bname )
+            hp = os.path.join(THEMESPATH, self.THEME['theme'],hbname )
+        except Exception as e:
+            logging.error("%s", e)
+            logging.error(traceback.format_exc())
+            quit()
         pos = (CORE_BUTTONS_XCOORDS[0], self.buttons_ypos)
         if not os.path.exists(p):
             p = os.path.join(DEFAULTTHEMESPATH, bname)
@@ -338,7 +345,7 @@ class Graph(Widget):
         self.s.fill((200, 200, 200))
         if not data:
             self.logger.warning("No data received to show in graph")
-            ts = utils.char2surf(_("No data available for this level"), TTFSIZE + 8, ttf=TTF, split=35)
+            ts = utils.char2surf(("No data available for this level"), TTFSIZE + 8, ttf=TTF, split=35)
             y = 100
             for s in ts:
                 self.s.blit(s, (20, y))
@@ -370,7 +377,7 @@ class Graph(Widget):
             i -= 1
             self.s.blit(ts, (4, y + 35))
         ts0 = utils.char2surf(headertext, TTFSIZE-2, ttf=TTF, bold=True)
-        ts1 = utils.char2surf(_("Percentile scores for level %s") % level, TTFSIZE, ttf=TTF)
+        ts1 = utils.char2surf(("Percentile scores for level %s") % level, TTFSIZE, ttf=TTF)
         self.s.blit(ts0, (10, 2))
         self.s.blit(ts1, (20, 20))
         
@@ -437,7 +444,7 @@ class ExeCounter(Widget):
         self.total = total
         self.done = 0
         if not text:
-            text = _("Exercises")
+            text = ("Exercises")
         if len(text) > 14:#prevent to large label when localized
             text = text[:14]
         fgcol=self.THEME['execounter_fg_color']
@@ -558,7 +565,7 @@ class VolumeAdjust(Widget):
         next = os.path.join(THEMESPATH, self.theme, 'core_volmute_button.png')
         next_ro = os.path.join(THEMESPATH, self.theme, 'core_volmute_button_ro.png')
         
-        self.lbl0 = Label(_("Quiz voice"), pos, fsize=18, padding=4, minh=48)
+        self.lbl0 = Label(("Quiz voice"), pos, fsize=18, padding=4, minh=48)
         px += self.lbl0.rect.w + 10
         self.voicetoggle = TransPrevNextButton((px, py), self._cbf_toggle_voice, \
                                   prev, prev_ro,\

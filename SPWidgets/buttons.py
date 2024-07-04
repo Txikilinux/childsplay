@@ -206,7 +206,10 @@ class ImgButton(Button):
             image = utils.load_image(path)
         else:
             image = path
-        Button.__init__(self, image, pos, None, padding=padding, name=name)
+        try:
+            Button.__init__(self, image, pos, None, padding=padding, name=name)
+        except Exception:
+            print("Error when initializing button, buttons.py->ImgButton()")
 
 class ImgTextButton(ImgButton):
     def __init__(self, path, text, pos=(0, 0), textpos=2, padding=4, fsize=24,\
