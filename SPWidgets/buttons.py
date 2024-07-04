@@ -18,6 +18,9 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
+
+import traceback
+import logging
 import utils
 import types
 import glob
@@ -208,8 +211,12 @@ class ImgButton(Button):
             image = path
         try:
             Button.__init__(self, image, pos, None, padding=padding, name=name)
-        except Exception:
-            print("Error when initializing button, buttons.py->ImgButton()")
+        except Exception as e:
+#            print("Error when initializing button, buttons.py->ImgButton()")
+            logging.error("%s", e)
+            logging.error(traceback.format_exc())
+            quit()
+
 
 class ImgTextButton(ImgButton):
     def __init__(self, path, text, pos=(0, 0), textpos=2, padding=4, fsize=24,\

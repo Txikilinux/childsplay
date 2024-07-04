@@ -50,7 +50,7 @@ def Init(theme):
     config.read(rc)
     for k, v in list(dict(config.items('default')).items()):
         try:
-            d[k] = eval(v, {'__builtins__': None}, {})
+            d[k] = v, {'__builtins__': None}, {}
         except NameError:
             # v is a string
             d[k] = v
@@ -65,8 +65,8 @@ def Init(theme):
                               stdout=subprocess.PIPE,\
                               stderr=subprocess.PIPE)
         output = cmd.communicate()[0]
-    except ( Exception ):
-        module_logger.warning("program 'amixer' not found, unable to set volume levels: %s")
+    except Exception as e:
+        module_logger.warning("program 'amixer' not found, unable to set volume levels: %s" % e)
         WEHAVEAUMIX = False
     else:
         for line in output.split(b'\n'):
